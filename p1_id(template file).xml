@@ -10,7 +10,7 @@
     </docHead>
     <body>
         <div type="section">
-            <p>YOUR CONTENT HERE</p>
+            <p>AUTHOR'S CONTENT HERE.<note resp="#peer_reviewer_id">this is a note from a peer reviewer--notice that the @resp attribute points to the @xml:id attribute of the reviewer element below</note>AUTHOR's continued content here.</p>
         </div>
     </body>
     
@@ -22,11 +22,11 @@
     
     <docReview> <!--this section will be added by peer reviewer (if applicable) or instructor-->
         <reviewer type="peer" xml:id="peer_reviewer_id">Name of peer reviewer here</reviewer>
-        <report type="peer" >
+        <report type="peer" resp="#peer_reviewer_id" >
             <p>PEER REVIEW REPORT CONTENT HERE</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
-        <report type="instructor">
+        <report type="instructor" resp="#kgs"> 
             <p>INSTRUCTOR REPORT CONTENT HERE</p>
         </report>
     </docReview>
