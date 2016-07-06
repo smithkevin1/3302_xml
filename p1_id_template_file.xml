@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, version)-->
+        <title>Title of Assignment</title>
+        <author xml:id="your_id_here">Your name here</author>
+        <version n="num_of_version" date="2016-01-01"/>
+        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+    </docHead>
+    
+    <body> <!--the main content of your assignment-->
+        <div type="section">
+            <p>AUTHOR'S CONTENT HERE.<note resp="#peer_reviewer_id">this is a note from a peer
+                    reviewer--notice that the @resp attribute points to the @xml:id attribute of the
+                    reviewer element below</note>AUTHOR's continued content here.</p>
+        </div>
+    </body>
+
+    <docReview>
+        <!--this section will be added by peer reviewer (if applicable) or instructor-->
+        <reviewer type="peer" xml:id="peer_reviewer_id">Name of peer reviewer here</reviewer>
+        <report type="peer" resp="#peer_reviewer_id">
+            <p>PEER REVIEW REPORT CONTENT HERE</p>
+        </report>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>INSTRUCTOR REPORT CONTENT HERE</p>
+        </report>
+    </docReview>
+</DOC>

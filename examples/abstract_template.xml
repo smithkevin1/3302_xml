@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/RTE/Documents/schema/abstract_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="trans_abstract.xsl"?>
+
+<abstract>
+    <title></title>
+    <author></author>
+    <text>
+        <setting type=""></setting>
+        <gap type=""></gap>
+        <purpose type=""></purpose>
+        <methodology type=""></methodology>
+        <results type=""></results>
+        <conclusion type=""></conclusion>
+    </text>
+</abstract>
