@@ -323,6 +323,17 @@
             </zeroOrMore>
         </element>
     </define>
+    
+    <!--first student-defined module: annotated bibliography-->
+    
+    <define name="annotated_bib">
+        <element name="annotated_bib">
+                <zeroOrMore>
+                    <ref name="model.divLike"/>
+                </zeroOrMore>
+        </element>
+    </define>
+    
     <define name="docHead">
         <element name="docHead">
             <group>
@@ -346,7 +357,10 @@
         <element name="DOC">
             <group>
                 <ref name="docHead"/>
-                <ref name="body"/>
+                <choice>
+                    <ref name="body"/>
+                    <ref name="annotated_bib"/>
+                </choice>
                 <optional>
                     <ref name="docFoot"/>
                 </optional>

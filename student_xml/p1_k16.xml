@@ -9,20 +9,19 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-
-    <body>
-        <!--required body element; the main content of your assignment-->
+    
+    <annotated_bib>
+        <!--either a generic <body> element or an <annotated_bib> element-->
         <div type="section">
             <!--arbitrary division of text-->
-            <p>AUTHOR'S CONTENT HERE.<note resp="#peer_reviewer_id">this is a note from a peer
-                    reviewer--notice that the @resp attribute points to the @xml:id attribute of the
-                    reviewer element below</note>AUTHOR's continued content here.</p>
+            <p>AUTHOR'S CONTENT HERE.</p>
             <!--content currently in paragraphs, paragraphs can include notes from peer reviewers or from me (Kevin)-->
         </div>
-    </body>
-
+    </annotated_bib>
+    
+    
     <docReview>
-        <!--this section will be added by peer reviewer (if applicable) or instructor-->
+        <!--this section will be edited by peer reviewer (if applicable) or instructor-->
         <reviewer type="peer" xml:id="peer_reviewer_id">Name of peer reviewer here</reviewer>
         <report type="peer" resp="#peer_reviewer_id">
             <p>PEER REVIEW REPORT CONTENT HERE</p>
