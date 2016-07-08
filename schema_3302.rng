@@ -190,11 +190,21 @@
     <define name="note">
         <element name="note">
             <a:documentation>contains a note made on the text intended to provide additional
-                information or comment upon the text</a:documentation>
+                information or comment upon the text; requires a @type attribute and a @resp
+                (resposibile party) attribute with your id for peer reviewer note</a:documentation>
             <optional>
                 <ref name="att.global.attributes"/>
-                <ref name="att.typed.attributes"/>
             </optional>
+            <attribute name="type">
+                <a:documentation>must specify whether the note is @type peer or
+                    instructor</a:documentation>
+                <choice>
+                    <value>peer</value>
+                    <a:documentation>this note is written from a peer</a:documentation>
+                    <value>instructor</value>
+                    <a:documentation>this note is from the instructor</a:documentation>
+                </choice>
+            </attribute>
             <text/>
         </element>
     </define>
@@ -344,14 +354,29 @@
     </define>
     <define name="annotation">
         <element name="annotation">
-            <ref name="background"/>
-            <ref name="summary"/>
-            <ref name="relevance"/>
+            <optional>
+                <ref name="model.global"/>
+            </optional>
+            <group>
+                <oneOrMore>
+                    <ref name="background"/>
+                </oneOrMore>
+                <oneOrMore>
+                    <ref name="summary"/>
+                </oneOrMore>
+                <oneOrMore>
+                    <ref name="relevance"/>
+                </oneOrMore>
+            </group>
+            <optional>
+                <ref name="model.global"/>
+            </optional>
         </element>
     </define>
     <define name="background">
         <element name="background">
-            <a:documentation>(background information) can contain text, and optional q elements</a:documentation>
+            <a:documentation>(background information) can contain text, and optional q
+                elements</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -361,7 +386,7 @@
             <attribute name="type">
                 <a:documentation>(type of background information) suggested values include: author
                     and source</a:documentation>
-                <list>
+                <choice>
                     <value>author</value>
                     <a:documentation>Information pertaining to the author or authors of the source
                         (credentials, education, profession, etc.)</a:documentation>
@@ -371,7 +396,7 @@
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
-                </list>
+                </choice>
             </attribute>
         </element>
     </define>
