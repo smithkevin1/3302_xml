@@ -184,12 +184,7 @@
     <define name="model.noteLike">
         <ref name="note"/>
     </define>
-    <define name="model.biblLike">
-        <choice>
-            <ref name="bibl"/>
-            <ref name="listBibl"/>
-        </choice>
-    </define>
+
 
     <!-- ELEMENT DEFINITIONS -->
     <define name="note">
@@ -323,17 +318,129 @@
             </zeroOrMore>
         </element>
     </define>
-    
-    <!--first student-defined module: annotated bibliography-->
-    
+
+    <!--student-defined module (1): annotated bibliography-->
+
     <define name="annotated_bib">
         <element name="annotated_bib">
-                <zeroOrMore>
-                    <ref name="model.divLike"/>
-                </zeroOrMore>
+            <zeroOrMore>
+                <group>
+                    <ref name="model.biblLike"/>
+                    <ref name="annotation"/>
+                </group>
+            </zeroOrMore>
         </element>
     </define>
-    
+    <define name="model.biblLike">
+        <choice>
+            <ref name="citation"/>
+            <!--<ref name="listBibl"/>-->
+        </choice>
+    </define>
+    <define name="citation">
+        <element name="citation">
+            <text/>
+        </element>
+    </define>
+    <define name="annotation">
+        <element name="annotation">
+            <ref name="background"/>
+            <ref name="summary"/>
+            <ref name="relevance"/>
+        </element>
+    </define>
+    <define name="background">
+        <element name="background">
+            <a:documentation>(background information) can contain text, and optional q elements</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+            <attribute name="type">
+                <a:documentation>(type of background information) suggested values include: author
+                    and source</a:documentation>
+                <list>
+                    <value>author</value>
+                    <a:documentation>Information pertaining to the author or authors of the source
+                        (credentials, education, profession, etc.)</a:documentation>
+                    <value>source</value>
+                    <a:documentation>Information pertaining to the source (publication information,
+                        popularity, etc.)</a:documentation>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </list>
+            </attribute>
+        </element>
+    </define>
+    <define name="summary">
+        <element name="summary">
+            <a:documentation>(summary) can contain text, notes, and optional q, approach and/or
+                interpretation elements</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                    <ref name="approach"/>
+                    <ref name="interpretation"/>
+                </choice>
+            </oneOrMore>
+            <!-- attributes? -->
+        </element>
+    </define>
+    <define name="relevance">
+        <element name="relevance">
+            <a:documentation>(relevance) can contain text, notes and optional value_stmt and/or
+                application elements</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="value_stmt"/>
+                    <ref name="application"/>
+                </choice>
+            </oneOrMore>
+            <!-- attributes? -->
+        </element>
+    </define>
+    <define name="approach">
+        <element name="approach">
+            <a:documentation>define approach</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="interpretation">
+        <element name="interpretation">
+            <a:documentation>define interpretation</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="value_stmt">
+        <element name="value_stmt">
+            <a:documentation>(value statement) define</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="application">
+        <element name="application">
+            <a:documentation>define application</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.qLike">
+        <choice>
+            <ref name="q"/>
+        </choice>
+    </define>
+    <define name="q">
+        <element name="q">
+            <a:documentation>(quote) quoted text.</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <!--end annotated bibliography definitions-->
+
     <define name="docHead">
         <element name="docHead">
             <group>
@@ -348,7 +455,6 @@
                     </zeroOrMore>
                 </interleave>
             </group>
-
 
 
         </element>
