@@ -11,24 +11,28 @@
     </docHead>
     
     <annotated_bib>
-        <!--either a generic <body> element or an <annotated_bib> element-->
-        <div type="section">
-            <!--arbitrary division of text-->
-            <p>AUTHOR'S CONTENT HERE.</p>
-            <!--content currently in paragraphs, paragraphs can include notes from peer reviewers or from me (Kevin)-->
-        </div>
+        <problem_stmt>
+            <!--problem statement here-->
+        </problem_stmt>
+        <citation style=""/>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
     </annotated_bib>
     
     
     <docReview>
-        <!--this section will be edited by peer reviewer (if applicable) or instructor-->
-        <reviewer type="peer" xml:id="peer_reviewer_id">Name of peer reviewer here</reviewer>
-        <report type="peer" resp="#peer_reviewer_id">
-            <p>PEER REVIEW REPORT CONTENT HERE</p>
-        </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>INSTRUCTOR REPORT CONTENT HERE</p>
+            <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
+    
 </DOC>
