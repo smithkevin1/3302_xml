@@ -355,6 +355,7 @@
     </define>
     <define name="annotated_bib">
         <element name="annotated_bib">
+            <ref name="problem_stmt"/>
             <zeroOrMore>
                 <group>
                     <ref name="model.biblLike"/>
@@ -396,15 +397,31 @@
                 <ref name="model.global"/>
             </optional>
             <group>
-                <oneOrMore>
-                    <ref name="background"/>
-                </oneOrMore>
-                <oneOrMore>
-                    <ref name="summary"/>
-                </oneOrMore>
-                <oneOrMore>
-                    <ref name="relevance"/>
-                </oneOrMore>
+
+                <interleave>
+                    <zeroOrMore>
+                        <ref name="macro.paraContent"/>
+                    </zeroOrMore>
+                    <oneOrMore>
+                        <ref name="background"/>
+                    </oneOrMore>
+                </interleave>
+                <interleave>
+                    <zeroOrMore>
+                        <ref name="macro.paraContent"/>
+                    </zeroOrMore>
+                    <oneOrMore>
+                        <ref name="summary"/>
+                    </oneOrMore>
+                </interleave>
+                <interleave>
+                    <zeroOrMore>
+                        <ref name="macro.paraContent"/>
+                    </zeroOrMore>
+                    <oneOrMore>
+                        <ref name="relevance"/>
+                    </oneOrMore>
+                </interleave>
             </group>
             <optional>
                 <ref name="model.global"/>
@@ -446,11 +463,23 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
-                    <ref name="approach"/>
-                    <ref name="interpretation"/>
                 </choice>
             </oneOrMore>
-            <!-- attributes? -->
+            <attribute name="type">
+                <a:documentation>(type of summary) suggested values include: general,
+                    interpretation, and approach</a:documentation>
+                <choice>
+                    <value>general</value>
+                    <a:documentation>general summary</a:documentation>
+                    <value>interpretation</value>
+                    <a:documentation>interpretive summary
+                        <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <value>approach</value>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="relevance">
@@ -458,13 +487,22 @@
             <a:documentation>(relevance) can contain text, notes and optional value_stmt and/or
                 application elements</a:documentation>
             <oneOrMore>
-                <choice>
-                    <ref name="macro.paraContent"/>
-                    <ref name="value_stmt"/>
-                    <ref name="application"/>
-                </choice>
+                <ref name="macro.paraContent"/>
             </oneOrMore>
-            <!-- attributes? -->
+            <attribute name="type">
+                <a:documentation>(type of relevance) suggested values include: value_stmt and
+                    application</a:documentation>
+                <choice>
+                    <value>value_stmt</value>
+                    <a:documentation>(value statement)
+                        <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <value>application</value>
+                    <a:documentation>(application) <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="approach">
@@ -539,10 +577,7 @@
                 <choice>
                     <!--<ref name="body"/> 
                         not needed yet, if at all -->
-                    <group>
-                        <ref name="problem_stmt"/>
-                        <ref name="annotated_bib"/>
-                    </group>
+                    <ref name="annotated_bib"/>
                 </choice>
                 <optional>
                     <ref name="docFoot"/>

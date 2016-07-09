@@ -10,44 +10,28 @@
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
-    <problem_stmt>This is a sample problem statement; required element, according to the project 1
-        prompt.</problem_stmt>
-    
     <annotated_bib>
-        <citation n="1" style="APA"><author n="1">Waite, L. J.</author>, <author n="2"
-                >Goldschneider, F. K.</author>, &amp; <author n="3">Witsberger, C.</author> (1986).
-                <title level="a">Nonfamily living and the erosion of traditional family orientations
-                among young adults</title>. <title level="j">American Sociological
-            Review</title>, 51 (4), 541-554. </citation>
+        <problem_stmt>
+            <!--problem statement here-->
+        </problem_stmt>
+        <citation style=""/>
         <annotation>
-            <background type="author">The authors, researchers at the Rand Corporation and Brown
-                University,</background>
-            <summary><approach>use data from the National Longitudinal Surveys of Young Women and
-                    Young Men to test their hypothesis that nonfamily living by young adults alters
-                    their attitudes, values, plans, and expectations, moving them away from their
-                    belief in traditional sex roles.</approach> They find their hypothesis strongly
-                supported in young females, while the effects were fewer in studies of young males.
-                Increasing the time away from parents before marrying increased individualism,
-                self-sufficiency, and changes in attitudes about families.</summary>
-            <relevance><value_stmt>In contrast, an earlier study by Williams cited below shows no
-                    significant gender differences in sex role attitudes as a result of nonfamily
-                    living.</value_stmt>
-                <application>This debate in the sociological literature is important for anyone
-                    seeking to historicize the “family values” debate of the 1980s and 90s in the
-                    U.S.</application></relevance>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
         </annotation>
     </annotated_bib>
-
-
+    
+    
     <docReview>
-        <!--this section will be edited by peer reviewer (if applicable) or instructor-->
-        <reviewer type="peer" xml:id="peer_reviewer_id">Name of peer reviewer here</reviewer>
-        <report type="peer" resp="#peer_reviewer_id">
-            <p>PEER REVIEW REPORT CONTENT HERE</p>
-        </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>INSTRUCTOR REPORT CONTENT HERE</p>
+            <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
 </DOC>
