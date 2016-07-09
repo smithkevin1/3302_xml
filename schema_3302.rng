@@ -348,7 +348,11 @@
     </define>
 
     <!--student-defined module (1): annotated bibliography-->
-
+    <define name="problem_stmt">
+        <element name="problem_stmt">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
     <define name="annotated_bib">
         <element name="annotated_bib">
             <zeroOrMore>
@@ -466,13 +470,23 @@
     <define name="approach">
         <element name="approach">
             <a:documentation>define approach</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="interpretation">
         <element name="interpretation">
             <a:documentation>define interpretation</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="value_stmt">
@@ -523,8 +537,12 @@
             <group>
                 <ref name="docHead"/>
                 <choice>
-                    <ref name="body"/>
-                    <ref name="annotated_bib"/>
+                    <!--<ref name="body"/> 
+                        not needed yet, if at all -->
+                    <group>
+                        <ref name="problem_stmt"/>
+                        <ref name="annotated_bib"/>
+                    </group>
                 </choice>
                 <optional>
                     <ref name="docFoot"/>
