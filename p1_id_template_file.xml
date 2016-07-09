@@ -11,12 +11,14 @@
     </docHead>
 
     <annotated_bib>
-        <citation>Waite, L. J., Goldschneider, F. K., &amp; Witsberger, C. (1986). Nonfamily living
-            and the erosion of traditional family orientations among young adults. American
-            Sociological Review, 51 (4), 541-554. </citation>
+        <citation n="1" style="APA"><author n="1">Waite, L. J.</author>, <author n="2"
+                >Goldschneider, F. K.</author>, &amp; <author n="3">Witsberger, C.</author> (1986).
+                <title level="a">Nonfamily living and the erosion of traditional family orientations
+                among young adults</title>. <title level="j">American Sociological
+            Review</title>, 51 (4), 541-554. </citation>
         <annotation>
-            <background type="author">The authors, researchers at the Rand Corporation
-                and Brown University,</background>
+            <background type="author">The authors, researchers at the Rand Corporation and Brown
+                University,</background>
             <summary><approach>use data from the National Longitudinal Surveys of Young Women and
                     Young Men to test their hypothesis that nonfamily living by young adults alters
                     their attitudes, values, plans, and expectations, moving them away from their

@@ -253,11 +253,29 @@
         <element name="author">
             <text/>
             <ref name="att.global.attribute.xmlid"/>
+            <ref name="att.global.attribute.n"/>
         </element>
 
     </define>
     <define name="title">
         <element name="title">
+            <optional>
+                <attribute name="level">
+                    <a:documentation>(level of title) indicates the kind of title values include: a
+                        (article), j (journal), b (book), w (website)</a:documentation>
+                    <choice>
+                        <value>a</value>
+                        <a:documentation>title of article (in a journal, collection, anthology, or
+                            website)</a:documentation>
+                        <value>j</value>
+                        <a:documentation>title of journal, collection or anthology</a:documentation>
+                        <value>b</value>
+                        <a:documentation>title of book</a:documentation>
+                        <value>w</value>
+                        <a:documentation>title of website</a:documentation>
+                    </choice>
+                </attribute>
+            </optional>
             <text/>
         </element>
     </define>
@@ -349,7 +367,23 @@
     </define>
     <define name="citation">
         <element name="citation">
-            <text/>
+            <a:documentation>(citation) a properly cited document [use @n attribute for
+                ordering]</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <text/>
+                    <ref name="author"/>
+                    <ref name="title"/>
+                </choice>
+            </oneOrMore>
+            <ref name="att.global.attribute.n"/>
+            <attribute name="style">
+                <a:documentation>(citation style) APA or IEEE</a:documentation>
+                <choice>
+                    <value>APA</value>
+                    <value>IEEE</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="annotation">
