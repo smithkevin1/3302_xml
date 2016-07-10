@@ -13,7 +13,7 @@
 
     <annotated_bib>
         <problem_stmt>This is a sample problem statement; required element, according to the project
-            1 prompt.</problem_stmt>
+            1 prompt.<note type="instructor" resp="#kgs">this is a sample instructor note</note></problem_stmt>
 
         <citation n="1" style="APA"><author n="1">Waite, L. J.</author>, <author n="2"
                 >Goldschneider, F. K.</author>, &amp; <author n="3">Witsberger, C.</author> (1986).
