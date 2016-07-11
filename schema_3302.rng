@@ -387,6 +387,7 @@
                 <choice>
                     <value>APA</value>
                     <value>IEEE</value>
+                    <value>MLA</value>
                 </choice>
             </attribute>
         </element>
