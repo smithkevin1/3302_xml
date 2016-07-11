@@ -432,7 +432,7 @@
     </define>
     <define name="background">
         <element name="background">
-            <a:documentation>(background information) can contain text, and optional q
+            <a:documentation>(background information) anything that could help provide context or information with regard to the source you are using; can contain text, and optional q [requires @type element]
                 elements</a:documentation>
             <oneOrMore>
                 <choice>
@@ -459,8 +459,7 @@
     </define>
     <define name="summary">
         <element name="summary">
-            <a:documentation>(summary) can contain text, notes, and optional q, approach and/or
-                interpretation elements</a:documentation>
+            <a:documentation>(summary) summarization of the source, can be general information, interpretive summary, and/or summary of the research approach; can contain text, notes, and optional q elements [requires @type element]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -472,11 +471,13 @@
                     interpretation, and approach</a:documentation>
                 <choice>
                     <value>general</value>
-                    <a:documentation>general summary</a:documentation>
+                    <a:documentation>a broad recount of source material or overview
+                    </a:documentation>
                     <value>interpretation</value>
-                    <a:documentation>interpretive summary
-                        <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <a:documentation>the reader’s interpretation of the source; the takeaway from the source
+                    </a:documentation>
                     <value>approach</value>
+                    <a:documentation>how the source represents a discipline-specific approach</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
@@ -486,8 +487,7 @@
     </define>
     <define name="relevance">
         <element name="relevance">
-            <a:documentation>(relevance) can contain text, notes and optional value_stmt and/or
-                application elements</a:documentation>
+            <a:documentation>(relevance) where the source can be used and why the text may be pertinent to the problem statement; can contain text [requires @type attribute]</a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
@@ -496,10 +496,11 @@
                     application</a:documentation>
                 <choice>
                     <value>value_stmt</value>
-                    <a:documentation>(value statement)
-                        <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <a:documentation>(value statement) subjective critique of quality of the source
+                    </a:documentation>
                     <value>application</value>
-                    <a:documentation>(application) <!--NEED DOCUMENTATION HERE--></a:documentation>
+                    <a:documentation>(application) the intended audience or recommendations for where the text may be useful
+                    </a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
