@@ -393,6 +393,7 @@
     </define>
     <define name="annotation">
         <element name="annotation">
+            <a:documentation>(annotation) must follow a citation element</a:documentation>
             <optional>
                 <ref name="model.global"/>
             </optional>
