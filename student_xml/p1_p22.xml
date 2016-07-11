@@ -16,15 +16,34 @@
         </problem_stmt>
         <citation style="APA">
             <author> World Health Organization</author>
-            <title>  </title>
-        </citation>
-        <annotation>
+            <title> 7 million premature deaths annually linked to air pollution </title>
+        </citation> 
+        <annotation> 
             <background type="author">
                 The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <background type="sourcee">
+            </background> 
+            <background type="source">
                 This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
             </background>
+            <summary type="approach">
+                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get more accurate information on the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="application"> This artice summarizes the health effect related to the specific pollutants and their relation to the major sources of said pollutants.     
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author>The Daily Climate</author>
+            <title>Coal plants smothering communities of color, report finds</title>
+        </citation>
+        <annotation>
+            <background type="author">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <background type="source">
+                
+                
+            </background>
             <summary type="">
                 <!-- can include <q> element(s) for quoted material -->      
             </summary>
@@ -33,7 +52,7 @@
         </annotation>
         
         <citation style="APA">
-            <author> World Health</author>
+            <author> </author>
         </citation>
         <annotation>
             <background type="author">
@@ -47,7 +66,7 @@
         </annotation>
         
         <citation style="APA">
-            <author> World Health</author>
+            <author> </author>
         </citation>
         <annotation>
             <background type="author">
@@ -61,21 +80,7 @@
         </annotation>
         
         <citation style="APA">
-            <author> World Health</author>
-        </citation>
-        <annotation>
-            <background type="author">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="application"> This document is a     
-            </relevance>
-        </annotation>
-        
-        <citation style="APA">
-            <author> World Health</author>
+            <author> </author>
         </citation>
         <annotation>
             <background type="author">
