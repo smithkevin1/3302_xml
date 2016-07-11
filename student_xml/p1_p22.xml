@@ -4,29 +4,90 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Producing Annotated Bibliographies, a Problem-Seeking Project</title>
+        <author xml:id="p22">Matt Parlon</author>
+        <version n="1" date="2016-07-10"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
     <annotated_bib>
         <problem_stmt>
-            <!--problem statement here-->
+            To find an improvement that can be applied to Northeastern University. This improvement is to reflect the strengths of your study. <!--problem statement here-->
         </problem_stmt>
-        <citation style=""/>
+        <citation style="APA">
+            <author> World Health Organization</author>
+            <title>  </title>
+        </citation>
         <annotation>
-            <background type="">
+            <background type="author">
+                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <background type="sourcee">
+                This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="application"> This document is a     
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author> World Health</author>
+        </citation>
+        <annotation>
+            <background type="author">
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="">
                 <!-- can include <q> element(s) for quoted material -->      
             </summary>
-            <relevance type="">    
+            <relevance type="application"> This document is a     
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author> World Health</author>
+        </citation>
+        <annotation>
+            <background type="author">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="application"> This document is a     
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author> World Health</author>
+        </citation>
+        <annotation>
+            <background type="author">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="application"> This document is a     
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author> World Health</author>
+        </citation>
+        <annotation>
+            <background type="author">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="application"> This document is a     
             </relevance>
         </annotation>
     </annotated_bib>
-    
     
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
