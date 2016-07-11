@@ -4,9 +4,9 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Annotated Bibliography</title>
+        <author xml:id="your_id_here">Samantha Wagner</author>
+        <version n="1" date="2016-07-11"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
