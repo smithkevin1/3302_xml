@@ -4,15 +4,29 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Assignment 1 - Annotated Bibliography</title>
+        <author xml:id="g14">Ben Gincley</author>
+        <version n="1" date="2016-07-11"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
-        <problem_stmt>
-            <!--problem statement here-->
+        <problem_stmt>In neural engineering, there currently exist an array of gaps between current
+            technology available to the public, and where public necessity lies. Demand comes
+            primarily from the clinical sector, wherein individuals suffering from neurodegenerative
+            diseases are left at a deficit in their ability to sense and interact with the world
+            around them. Challenges facing the technology mainly center around decoding the
+            biochemical signals within the central nervous system, encoding information technology
+            into biochemical signals, and creating devices that are able to function within or in
+            tandem with biological systems. Neural engineering as a discipline attempts to close
+            these gaps by taking neurobiological, materials science, biotechnology, and computer
+            science research and designing devices and techniques to integrate technology with
+            neurobiology. Much of the work takes place in pre-clinical and clinical research
+            contexts, and the applied aspect of the discipline is still by-and-large in its infancy,
+            as technology begins to catch up to what is demanded by the applications. Ultimately,
+            the goal of the discipline is to create devices that work seamlessly with biological
+            systems, are non-invasive or biologically integrated, and allow complete restoration of
+            function without loss of fidelity. <!--problem statement here-->
         </problem_stmt>
         <citation style=""/>
         <annotation>
@@ -20,19 +34,18 @@
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+                <!-- can include <q> element(s) for quoted material -->
             </summary>
-            <relevance type="">    
-            </relevance>
+            <relevance type=""> </relevance>
         </annotation>
     </annotated_bib>
-    
-    
+
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
