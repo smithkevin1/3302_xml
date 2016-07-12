@@ -9,30 +9,47 @@
         <version n="1" date="2016-07-11"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
-        <problem_stmt>
-            <!--problem statement here-->
-        </problem_stmt>
+        <problem_stmt>Virtual reality (VR) is a technology that places users in an interactive
+            simulated environment. Today VR is used beyond entertainment purposes to treat various
+            psychological conditions, including social anxiety and PTSD, by simulating situations
+            that trigger targeted symptoms. Expanding upon this, VR can be leveraged in
+            motor-related rehabilitation. Computer engineering focuses on the development of
+            physical devices that reliably gather and relay data as well as software that interprets
+            and displays data in meaningful ways. In relation to VR motor-related therapy, the
+            discipline is responsible for syncing users’ movement virtually to a viewable device,
+            interpreting the results based on specified criteria, adjusting settings accordingly,
+            and iterating procedures. It is also concerned with the cost efficiency and comfort of
+            such devices. Game development can be considered a branch of CS (or perhaps its own
+            discipline) and is the coding and design (level layout, adjusted difficulty settings,
+            art assets) of games. Motor disorders afflict patients from various age groups from
+            children with cerebral palsy to post-stroke elders. Thus, it is important to tailor the
+            virtual environments to the individual to encourage interactivity, especially for
+            children and those with attention deficiencies. Additionally, designing and adjusting
+            difficulty settings in relation to performance is vital to prevent frustration or
+            boredom and further promote self-engagement. Leveraging VR in motor-related
+            rehabilitation has a promising outlook in that it engages users, provides real-time
+            feedback and progress tracking, cuts setup times, is tailored to the patient, and can
+            potentially move therapies to a home setting.</problem_stmt>
         <citation style=""/>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+                <!-- can include <q> element(s) for quoted material -->
             </summary>
-            <relevance type="">    
-            </relevance>
+            <relevance type=""> </relevance>
         </annotation>
     </annotated_bib>
-    
-    
+
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
