@@ -6,77 +6,100 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Annotated Bibliography</title>
         <author xml:id="your_id_here">Samantha Wagner</author>
-        <version n="1" date="2016-07-11"/>
+        <version n="1" date="2016-07-12"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
         <problem_stmt>
             <!--problem statement here-->
         </problem_stmt>
         <citation style="APA">
-            <author>        <citation style="APA">
-                <author>Aníbal Costa</author>
-                <author>João Miranda Guedes</author>
-                <title>Structural Rehabilitation of Old Buildings</title>
-            </citation>
-                <annotation>
-                    <background type="">
-                        <!-- can include <q> element(s) for quoted material -->
-                    </background>
-                    <summary type="">
-                        <!-- can include <q> element(s) for quoted material -->      
-                    </summary>
-                    <relevance type="">    
-                    </relevance>
-                </annotation></author>
+            <author>Aníbal Costa</author>
             <author>João Miranda Guedes</author>
             <title>Structural Rehabilitation of Old Buildings</title>
         </citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
+            <background type="author">
+                Edited by department chairs for the Department of Civil Engineering at the University of Aveiro and Porto University both in Portugal, this book is a collaboration of pieces written by professors and researchers at each school.
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            <summary type="general">
+                This book addresses the different structural systems and construction methods used in a number of different masonry building styles. By examining the structural behavior of the systems today and addressing the damages that have occurred due to different environmental stresses these researchers are able to provide a solid basis for their arguments for and against certain styles of retrofitting and reinforcement. 
             </summary>
-            <relevance type="">    
+            <summary type="interpretation">
+                For masonry buildings located in zones of seismic activity it is very important to provide updated reinforcing systems as traditional masonry alone provides no tensile strength to resist movement during seismic events.
+            </summary>
+            <relevance type="value_stmt"> 
+                With chapters focusing on adobe, brick, and stone masonry, this source provides a very thorough and individualized assessment of popular historic methods of construction, conducting vulnerability assessments and analyzing construction maintenance on each. 
             </relevance>
         </annotation>
-        
+
         <citation style="APA">
-            <author>U.S. Department of the Interior</author>
-            <title>Guidlines For Rehabilitating Historic Buildings: Structural Systems</title>
-            
+            <author>Kay D. Weeks</author>
+            <author>Anne E. Grimmer</author>
+            <title>The Secretary of the Interior’s Standards for the Treatment of Historic Properties with Guidelines for Preserving, Rehabilitating, Restoring and Reconstructing Historic Buildings</title>
+        </citation>
+        <annotation>
+            <background type="source">
+                Published in 1995, this book still serves today as a strong basis with the general guideline for people looking to perform work on a historic structure in the United States.
+            </background>
+            <summary typ="general">
+                For many structures the biggest concern when starting a rehabilitation project is the fact that other than the obvious facade, most of the structure and its materials are largely unknown until work has begun.
+            </summary>
+            <summary type="interpretaiton">
+                Without going into the technical aspects of design this piece focuses on the architecture and materials detailing of buildings and structures throughout history it does bring our attention to a few interesting requirements that would affect structural system changes or updates.
+            </summary>
+            <relevance type="application">
+                This book largely references the publishings of the U.S. Secretary of the Interior and serves to “provide guidance to historical building owners and building managers, preservation consultants, architects, contractors, and project reviewers prior to treatment.”
+            </relevance>
+        </annotation>
+
+        <citation style="APA">
+            <author></author>
+            <title></title>
         </citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
-        </annotation>
-        
-        <citation style="APA">
-            <author>U.S. Department of the Interior</author>
-            <title>Guidlines For Rehabilitating Historic Buildings: Structural Systems</title>
-            
-        </citation>
-        <annotation>
-            <background type="">
                 <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
             </summary>
-            <relevance type="">    
-            </relevance>
+            <relevance type=""> </relevance>
         </annotation>
     </annotated_bib>
+
+    <citation style="APA">
+        <author></author>
+        <title></title>
+    </citation>
+    <annotation>
+        <background type="">
+            <!-- can include <q> element(s) for quoted material -->
+        </background>
+        <summary type="">
+            <!-- can include <q> element(s) for quoted material -->
+        </summary>
+        <relevance type="">
+            
+        </relevance>
+    </annotation>
     
+    <citation style="APA">
+        <author></author>
+        <title></title>
+    </citation>
+    <annotation>
+        <background type="">
+            <!-- can include <q> element(s) for quoted material -->
+        </background>
+        <summary type="">
+            <!-- can include <q> element(s) for quoted material -->
+        </summary>
+        <relevance type="">
+            
+        </relevance>
+    </annotation>
     
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
@@ -84,5 +107,5 @@
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
