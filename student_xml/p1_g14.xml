@@ -6,12 +6,12 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Assignment 1 - Annotated Bibliography</title>
         <author xml:id="g14">Ben Gincley</author>
-        <version n="1" date="2016-07-11"/>
+        <version n="2" date="2016-07-12"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
 
     <annotated_bib>
-        <problem_stmt>In neural engineering, there currently exist an array of gaps between current
+        <problem_stmt>In neural engineering, there currently exist many gaps between current
             technology available to the public, and where public necessity lies. Demand comes
             primarily from the clinical sector, wherein individuals suffering from neurodegenerative
             diseases are left at a deficit in their ability to sense and interact with the world
@@ -19,7 +19,7 @@
             biochemical signals within the central nervous system, encoding information technology
             into biochemical signals, and creating devices that are able to function within or in
             tandem with biological systems. Neural engineering as a discipline attempts to close
-            these gaps by taking neurobiological, materials science, biotechnology, and computer
+            these gaps by taking neurobiological, materials science, biotechnological, and computer
             science research and designing devices and techniques to integrate technology with
             neurobiology. Much of the work takes place in pre-clinical and clinical research
             contexts, and the applied aspect of the discipline is still by-and-large in its infancy,
@@ -28,15 +28,37 @@
             systems, are non-invasive or biologically integrated, and allow complete restoration of
             function without loss of fidelity. <!--problem statement here-->
         </problem_stmt>
-        <citation style=""/>
+        <citation style="APA">Jarosiewicz B, Sarma AA, Bacher D, et al. Virtual typing by people
+            with tetraplegia using a self-calibrating intracortical brain-computer interface.
+            Science translational medicine. 2015;7(313):313ra179. doi:10.1126/scitranslmed.aac7328. </citation>
         <annotation>
-            <background type="">
+            <background type="author">The primary author of this paper, Beata Jarosiewicz, is a
+                professor at Brown University's Department of Neuroscience, who has, in her career,
+                contributed to or produced 18 publications, garnering nearly 800 citations thus far,
+                and is renowned for her work using biotechnology and neuroscience to investigate
+                ways to use and optimize brain-computer interfaces (BCIs).
                 <!-- can include <q> element(s) for quoted material -->
             </background>
-            <summary type="">
+            <summary type="general">Jarosiewicz, et. al., sought to demonstrate that the
+                nonstationarity that is convolved with neural signaling, that normally forces
+                brain-computer interfaces to require frequent recalibration, can be mitigated using
+                software to automatically account for such drift, in a point-and-click model used by
+                tetrapalegic patients. <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <summary type="approach">The investigators used technological innovations, namely:
+                    <q>tracking the statistics of neural activity</q> (neurobiological
+                observations), correction for velocity bias (computer engineering), and
+                recalibration of the decoder using data inferred from the user's past actions
+                (computer engineering) to develop software that extends the time that BCIs can
+                function properly before needing to be manually recalibrated.
                 <!-- can include <q> element(s) for quoted material -->
             </summary>
-            <relevance type=""> </relevance>
+            <relevance type="application">The innovations made through this investigation can be
+                applied to a wider range of devices, not merely point-and-click oriented BCIs. This
+                will further enable the viable use of intracortical BCIs that patients needing
+                restoration of independent communication and other assistive devices depend on, and
+                lay the groundwork for more optimized methods of accounting for
+                nonstationarities.</relevance>
         </annotation>
     </annotated_bib>
 
