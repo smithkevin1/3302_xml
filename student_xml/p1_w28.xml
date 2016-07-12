@@ -41,7 +41,7 @@
             <background type="source">
                 Published in 1995, this book still serves today as a strong basis with the general guideline for people looking to perform work on a historic structure in the United States.
             </background>
-            <summary typ="general">
+            <summary type="general">
                 For many structures the biggest concern when starting a rehabilitation project is the fact that other than the obvious facade, most of the structure and its materials are largely unknown until work has begun.
             </summary>
             <summary type="interpretaiton">
@@ -71,44 +71,46 @@
                 This extensive research serves as a great resource for professionals working in the rehabilitation industry in older cities containing a high quantity of older masonry buildings. 
             </relevance>
         </annotation>
+        
+        <citation n="4" style="MLA">
+            <author n="1">Meli, Roberto</author>, and <author n="2">Roberto Sanchez-Ramirez</author>.
+            <title level="a">Criteria and Experiences on Structural Rehabilitation of Stone Masonry Buildings in Mexico City.</title>
+            <title level="j">International Journal of Architectural Heritage</title> 1.1 (2007): 3-28. Web. 12 July 2016.
+        </citation>
+        <annotation>
+            <background type="author">
+                Professor at the National University of Mexico, Roberto Meli is a highly published researcher specializing in earthquake engineering. 
+            </background>
+            <summary type="general">
+                This investigation focuses on the major rehabilitation of the Mexico City Cathedral and includes an evaluation of many relevant investigations involving other colonial era masonry structures. Much of the damage that these buildings have faced is due to the impact of vertical loading, differential settlement and seismic vibrations.
+            </summary>
+            <summary type="approach">
+                This study uses extensive structural monitoring systems, field and lab testing of structural members and relevant materials to determine the main causes of damage and the most effective methods of restoration.
+            </summary>
+            <relevance type="application">
+                In the case of Mexico city, the severe  changes in ground settlement is a result of over extraction of local groundwater. Boston, although less severe, also experiences a lot of differential ground settlement due to the fact that a large portion of the city is built on fill and other unstable and largely unknown materials. 
+            </relevance>
+        </annotation>
+        
+        <citation n="5" style="MLA">
+            <title level="a">Guidelines for Rehabilitating Historic Buildings: Structural Systems.</title>
+            <title level="w">Historic Preservation - Technical Procedures.</title>
+            <author>U.S. Department of the Interior</author>, 2 June 2015. Web. 12 July 2016.
+        </citation>
+        <annotation>
+            <background type="source">
+                Published by the General Services Administration (GSA), an independent agency formed by the US Government in 1949 to help with the support and management of all functioning federal agencies, this list of guidelines for preservation of historic buildings was originally written by the U.S. Department of the Interior as a reference for rehabilitation and remodel of older structural systems. 
+            </background>
+            <summary type="general">
+                The general format of this reference article breaks the process of updating or altering a historic building with regards to its structural system into five basic steps of discovery, protection, repair, replacement and alterations. 
+            </summary>
+            <relevance type="application">
+                By stressing the importance of a full discovery investigation and the use of appropriate materials in the updated structure, this article and its accompanying articles serve as a valuable reference for members of the general public inexperienced in the business of existing construction remodel or historic building systems. 
+            </relevance>
+        </annotation>
     </annotated_bib>
 
-    <citation n="4" style="MLA">
-        <author n="1">Meli, Roberto</author>, and <author n="2">Roberto Sanchez-Ramirez</author>.
-        <title level="a">Criteria and Experiences on Structural Rehabilitation of Stone Masonry Buildings in Mexico City.</title>
-        <title level="j">International Journal of Architectural Heritage</title> 1.1 (2007): 3-28. Web. 12 July 2016.
-    </citation>
-    <annotation>
-        <background type="author">
-            Professor at the National University of Mexico, Roberto Meli is a highly published researcher specializing in earthquake engineering. 
-        </background>
-        <summary type="general">
-            This investigation focuses on the major rehabilitation of the Mexico City Cathedral and includes an evaluation of many relevant investigations involving other colonial era masonry structures. Much of the damage that these buildings have faced is due to the impact of vertical loading, differential settlement and seismic vibrations.
-        </summary>
-        <summary type="approach">
-            This study uses extensive structural monitoring systems, field and lab testing of structural members and relevant materials to determine the main causes of damage and the most effective methods of restoration.
-        </summary>
-        <relevance type="application">
-            In the case of Mexico city, the severe  changes in ground settlement is a result of over extraction of local groundwater. Boston, although less severe, also experiences a lot of differential ground settlement due to the fact that a large portion of the city is built on fill and other unstable and largely unknown materials. 
-        </relevance>
-    </annotation>
-    
-    <citation n="5" style="MLA">
-        <title level="a">Guidelines for Rehabilitating Historic Buildings: Structural Systems.</title>
-        <title level="w">Historic Preservation - Technical Procedures.</title>
-        <author>U.S. Department of the Interior</author>, 2 June 2015. Web. 12 July 2016.
-    </citation>
-    <annotation>
-        <background type="source">
-            Published by the General Services Administration (GSA), an independent agency formed by the US Government in 1949 to help with the support and management of all functioning federal agencies, this list of guidelines for preservation of historic buildings was originally written by the U.S. Department of the Interior as a reference for rehabilitation and remodel of older structural systems. 
-        </background>
-        <summary type="general">
-            The general format of this reference article breaks the process of updating or altering a historic building with regards to its structural system into five basic steps of discovery, protection, repair, replacement and alterations. 
-        </summary>
-        <relevance type="application">
-            By stressing the importance of a full discovery investigation and the use of appropriate materials in the updated structure, this article and its accompanying articles serve as a valuable reference for members of the general public inexperienced in the business of existing construction remodel or historic building systems. 
-        </relevance>
-    </annotation>
+
     
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
