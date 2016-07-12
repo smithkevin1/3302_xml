@@ -380,6 +380,7 @@
                     <ref name="author"/>
                     <ref name="title"/>
                 </choice>
+                <optional><ref name="model.ptrLike"/></optional>
             </oneOrMore>
             <ref name="att.global.attribute.n"/>
             <attribute name="style">
@@ -390,6 +391,17 @@
                     <value>MLA</value>
                 </choice>
             </attribute>
+        </element>
+    </define>
+    <define name="model.ptrLike">
+        <choice>
+            <ref name="ref"/>
+        </choice>
+    </define>
+    <define name="ref">
+        <element name="ref">
+            <a:documentation>(reference) defines a reference to another location</a:documentation>
+            <data type="anyURI"/>
         </element>
     </define>
     <define name="annotation">
