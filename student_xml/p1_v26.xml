@@ -4,26 +4,57 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 1</title>
+        <author xml:id="v26">Michael Van Wickle</author>
+        <version n="1" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
-    <annotated_bib>
+    <annotated_bib> 
         <problem_stmt>
-            <!--problem statement here-->
+            Many members of the populace of the city of Boston, along with the United States and the World, do not have access to the benefits of modern technology.
         </problem_stmt>
-        <citation style=""/>
+        <citation n="1" style="IEEE">
+            <author n="1">Thomas, J.</author>, (2013).
+            "<title level="a">Association for Molecular Pathology et al. v. Myriad Genetics et al.</title>."
+            <title level="j">United States Reports</title>. 569. Available: http://www.supremecourt.gov/opinions/12pdf/12-398_1b7d.pdf.
+        </citation>
+        <annotation>This judgement,
+            <background type="source">rendered by the Supreme Court of the United States, the highest court in the United States,</background>
+            <summary type="general">deals with the patentability of isolated deoxyriboneucleic acid (DNA). Decided by the court, was that isolated DNA was not patentable.</summary>
+            <summary type="general">It more broadly deals with the patentability of <q>laws of nature, natural phenomena, and abstract ideas</q>(2)</summary>.
+            <relevance type="application">This judgement, while not exactly applicable to the problem, could be used as a model argument against such patented technologies that some may view as human rights or fundamental to life.</relevance>
+        </annotation>
+        <citation n="2" style="IEEE">
+            <author n="1">United Nations Human Rights Council</author>. (2016, June, 27).
+            "<title level="a">The promotion, protection, and enjoyment of human rights on the Internet</title>."
+            <title level="j">United Nations General Assembly</title>. 32nd Session. Agenda item 3. Available: http://www.un.org/ga/search/view_doc.asp?symbol=A/HRC/32/L.20.
+        </citation>
+        <annotation>This statement,
+            <background type="source"> from the United Nations (UN) Human Rights Council, which deals with the promotion and protection of human rights worldwide,</background>
+            <summary type="general">broadly states that access to the internet is a "universal" right.</summary>
+            <summary type=""></summary>
+            <relevance type="value_stmt">This declaration, whilst being non-binding, represents the conviction of the UN that access to the Internet is a fundamental human right.</relevance> 
+        </annotation>
+        <citation n="3" style="APA">
+            <author n="1">Joshua Kopstein</author>. (2014, May 13).
+            <title type="a">Net neutrality: What is it, and why is the U.S. about to lose it?</title>.
+            <title type="w">Al Jazeera America</title>, Retrieved from http://www.america.aljazeera.com
+        </citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
+
+        </annotation>
+        <citation n="4" style="">
+
+        </citation>
+        <annotation>
+
+        </annotation>
+        <citation n="5" style="">
+
+        </citation>
+        <annotation>
+
         </annotation>
     </annotated_bib>
     
