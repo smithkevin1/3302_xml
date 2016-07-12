@@ -6,13 +6,13 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Producing Annotated Bibliographies, a Problem-Seeking Project</title>
         <author xml:id="p22">Matt Parlon</author>
-        <version n="5" date="2016-07-10"/>
+        <version n="6" date="2016-07-12"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
     <annotated_bib>
         <problem_stmt>
-            As engineers, it is our responsibility to find an improvement that can be applied to Northeastern University. This improvement is to reflect the strengths of your study. <!--problem statement here-->
+            Northeastern University advertises itself as one of the most “green” schools in the country. Meanwhile, this school continues to utilize energy produced at fossil fuel burning facilities. I plan to explore the major arguments against fossil fuels burning energy generation facilities while providing an economical alternative. The argument against burning fossil fuels for energy production is to include the unfair burden of the externalities associated with the electricity we all benefit from as well as the continuation of the cyclical expansion of income inequality. While providing a healthy alternative, I will utilize incentives brought to light by various solar developers.  Northeastern University, as an institution of higher learning has a responsibility to show Boston how we can help those less fortunate than us. Not only will running Northeastern University, at least partially, off of solar energy save money, it will help to combat the stigma that for each environmental gain, there is an equal and opposite economic loss.  <!--problem statement here-->
         </problem_stmt>
         
         <citation style="APA">
