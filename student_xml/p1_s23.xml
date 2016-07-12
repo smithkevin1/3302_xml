@@ -4,9 +4,9 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Project 1: Annotated Bibliography</title>
+        <author xml:id="p1_s23">Monica Salas</author>
+        <version n="01" date="2016-07-03"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
@@ -14,7 +14,7 @@
         <problem_stmt>
             <!--problem statement here-->
         </problem_stmt>
-        <citation style=""/>
+        <citation style="IEEE"/>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->

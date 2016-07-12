@@ -14,7 +14,57 @@
         <problem_stmt>
             <!--problem statement here-->
         </problem_stmt>
-        <citation style=""/>
+        <citation style="APA">
+            <author>        <citation style="APA">
+                <author>Aníbal Costa</author>
+                <author>João Miranda Guedes</author>
+                <title>Structural Rehabilitation of Old Buildings</title>
+            </citation>
+                <annotation>
+                    <background type="">
+                        <!-- can include <q> element(s) for quoted material -->
+                    </background>
+                    <summary type="">
+                        <!-- can include <q> element(s) for quoted material -->      
+                    </summary>
+                    <relevance type="">    
+                    </relevance>
+                </annotation></author>
+            <author>João Miranda Guedes</author>
+            <title>Structural Rehabilitation of Old Buildings</title>
+        </citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author>U.S. Department of the Interior</author>
+            <title>Guidlines For Rehabilitating Historic Buildings: Structural Systems</title>
+            
+        </citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+        
+        <citation style="APA">
+            <author>U.S. Department of the Interior</author>
+            <title>Guidlines For Rehabilitating Historic Buildings: Structural Systems</title>
+            
+        </citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->

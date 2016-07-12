@@ -4,17 +4,73 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
-        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+        <title>MBTA Train System Space Issue</title>
+        <author xml:id="v27">Djordje Vlajkovic</author>
+        <version n="1" date="2016-07-11"/>
     </docHead>
     
     <annotated_bib>
-        <problem_stmt>
-            <!--problem statement here-->
+        <problem_stmt>In Boston today any outdated public transporation system known as the MBTA is
+        using older train cars to hold its passengers. The space in these cars fill up quickly and 
+        eventually there is no where for these people to go.
         </problem_stmt>
-        <citation style=""/>
+        <citation n="1" style="APA"><author n="1">Grabar, H.</author><publication_date>
+            (2016, February 12).</publication_date><title>Subway Cars Should Be Like Centipedes</title><Retri_Date>
+                Retrieved July 11, 2016,</Retri_Date><URL>from http://www.slate.com/articles/business/metropolis/2016/02/subways_should_have_open_gangway_cars_why_does_the_u_s_resist_it.html </URL></citation>
+        <annotation>
+            <background type="source">This article by the Slate, a popular magazine that examines
+            and analyzes issues in today's society,</background>
+            <summary type="general">takes a look at space situation with subway systems in America.
+                The article first examines why subway cars are becoming so overcrowded in these American
+            cities. Afterwards it looks at the solutions other cities like Paris, Tokyo and Toronto have done
+            to fix this issue.</summary>
+            <relevance type="application">What the author finds to be the best solution to improving the space
+              in these subway cars is having gangway trains instead of the string of separate cars
+              that attach to one and another.</relevance>
+        </annotation>
+        
+        <citation style="APA"><author n="1">Annear, S.</author><publication_date>(2013, October 22).
+        </publication_date><title>MBTA Orange Line Trains Will Be Replaced, Red Line Vehicles Added.</title><Retri_Date>
+            Retrieved July 11, 2016,</Retri_Date><URL>from http://www.bostonmagazine.com/news/blog/2013/10/22/mbta-ornage-line-trains-upgrades-red-line-governor-patrick/</URL></citation>
+        <annotation>
+            <background type="author">The article, written by Steve Annear a digital writer at Boston Magazine
+            graduate from Roger Williams University former writer at Boston Metro newspaper,</background>
+            <summary type="general">
+            discusses the newly passed bill that will improve the MBTA system. The article discusses how both the Orange
+            and Red line will both have new sets of vehicles that will provide more seating and space for riders. The 
+            planned timetable for these improvements are to be avaliable by 2019.
+            </summary>
+            <relevance type="application">For people already using the subway and train systems these new additions
+                to the Orange and Red line will provide them a more comfortable riding experience. These new improvements 
+                may also lead to more timely and accurate scheduling that will lead to less delays and faster commutes.
+            </relevance>
+        </annotation>
+        
+        <citation style="APA"></citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+        
+        <citation style="APA"></citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+        
+        <citation style="APA"></citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->

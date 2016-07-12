@@ -14,10 +14,45 @@
         <problem_stmt>
             To find an improvement that can be applied to Northeastern University. This improvement is to reflect the strengths of your study. <!--problem statement here-->
         </problem_stmt>
+        
         <citation style="APA">
             <author> World Health Organization</author>
             <title> 7 million premature deaths annually linked to air pollution </title>
         </citation> 
+        
+        <annotation> 
+            <background type="author">
+                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+            </background> 
+            <background type="source">
+                This particular piece by the WHO is valuable to many as it is an update to a previous, popular study on the health effects associated with air pollution.
+            </background>
+            
+            <summary type="approach">
+                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get pinpoint the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <summary type="general"> 
+                This update to a study conducted in 2012 on the relationship between air pollutants and various diseases shows that the current situation is worse than previously thought. In particular, this study outlines how the most voulnerable groups to air pollution, children and the elderly, are the most exposed to it due to their more stagnant lifestyle. 
+            </summary>            
+            <summary type="interpretation">  
+                While the statistics in this study generally speak for themselves, it is worth pointing out that the sources of the pollutants do not effect all people equally. For this reason, it is important to understand the actual externality dispersion so that our portions of the burden are put into perspective.
+            </summary>
+            
+            <relevance type="application"> There are many application of this article. However, first and foremost, it is to be used to set the groundwork for any arguement regarding public health as it related to air pollution. No arguement can be formed without first establishing the concrete relationship between airbourne pollutants and public health issues.    
+            </relevance>
+            <relevance type="value_stmt"> The fact that this artice represents an update to a study shoould only provide more reader confidence in the World Health Organization. Although he origional statement made in 2012 had to be updated, the fact that they are on an ever expanding search for information makes their input paramount to any legitimate claim on the current state of worldwide air quality.                
+            </relevance>
+        </annotation>
+        
+        
+        
+        
+        
+        <citation style="APA">
+            <author> </author>
+            <title> </title>
+        </citation> 
+        
         <annotation> 
             <background type="author">
                 The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
@@ -25,73 +60,112 @@
             <background type="source">
                 This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
             </background>
+            
+            <summary type="approach">
+                  <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <summary type="general">              
+            </summary>            
+            <summary type="interpretation">              
+            </summary>
+            
+            <relevance type="application">     
+            </relevance>
+            <relevance type="value_stmt">                
+            </relevance>
+        </annotation>
+        
+        
+        
+        
+        <citation style="APA">
+            <author> World Health Organization</author>
+            <title> 7 million premature deaths annually linked to air pollution </title>
+        </citation> 
+        
+        <annotation> 
+            <background type="author">
+                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+            </background> 
+            <background type="source">
+                This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
+            </background>
+            
             <summary type="approach">
                 While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get more accurate information on the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
             </summary>
+            <summary type="general">              
+            </summary>            
+            <summary type="interpretation">              
+            </summary>
+            
             <relevance type="application"> This artice summarizes the health effect related to the specific pollutants and their relation to the major sources of said pollutants.     
             </relevance>
+            <relevance type="value_stmt">                
+            </relevance>
         </annotation>
         
+        
+        
         <citation style="APA">
-            <author>The Daily Climate</author>
-            <title>Coal plants smothering communities of color, report finds</title>
-        </citation>
-        <annotation>
+            <author> World Health Organization</author>
+            <title> 7 million premature deaths annually linked to air pollution </title>
+        </citation> 
+        
+        <annotation> 
             <background type="author">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
+                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+            </background> 
             <background type="source">
-                
-                
+                This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            
+            <summary type="approach">
+                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get more accurate information on the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
             </summary>
-            <relevance type="application"> This document is a     
+            <summary type="general">              
+            </summary>            
+            <summary type="interpretation">              
+            </summary>
+            
+            <relevance type="application"> This artice summarizes the health effect related to the specific pollutants and their relation to the major sources of said pollutants.     
+            </relevance>
+            <relevance type="value_stmt">                
             </relevance>
         </annotation>
         
-        <citation style="APA">
-            <author> </author>
-        </citation>
-        <annotation>
-            <background type="author">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="application"> This document is a     
-            </relevance>
-        </annotation>
+        
+        
+        
         
         <citation style="APA">
-            <author> </author>
-        </citation>
-        <annotation>
-            <background type="author">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="application"> This document is a     
-            </relevance>
-        </annotation>
+            <author> World Health Organization</author>
+            <title> 7 million premature deaths annually linked to air pollution </title>
+        </citation> 
         
-        <citation style="APA">
-            <author> </author>
-        </citation>
-        <annotation>
+        <annotation> 
             <background type="author">
-                <!-- can include <q> element(s) for quoted material -->
+                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+            </background> 
+            <background type="source">
+                This particular piece by the WHO is valuable to amny as it is an update to previous, popular study on the health effects associated with air pollution.
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            
+            <summary type="approach">
+                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get more accurate information on the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
             </summary>
-            <relevance type="application"> This document is a     
+            <summary type="general">              
+            </summary>            
+            <summary type="interpretation">              
+            </summary>
+            
+            <relevance type="application"> This artice summarizes the health effect related to the specific pollutants and their relation to the major sources of said pollutants.     
+            </relevance>
+            <relevance type="value_stmt">                
             </relevance>
         </annotation>
+;
+        
     </annotated_bib>
     
     <docReview>

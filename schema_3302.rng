@@ -348,13 +348,12 @@
     </define>
 
     <!--student-defined module (1): annotated bibliography-->
-    <define name="problem_stmt">
-        <element name="problem_stmt">
-            <ref name="macro.paraContent"/>
-        </element>
-    </define>
+
     <define name="annotated_bib">
         <element name="annotated_bib">
+            <a:documentation>(annotated bibliography) container element for writing project 1;
+                includes a problem statement and at least one group of citation and annotation
+                elements</a:documentation>
             <ref name="problem_stmt"/>
             <zeroOrMore>
                 <group>
@@ -362,6 +361,13 @@
                     <ref name="annotation"/>
                 </group>
             </zeroOrMore>
+        </element>
+    </define>
+    <define name="problem_stmt">
+        <element name="problem_stmt">
+            <a:documentation>(problem statement) contains the problem statement for which the
+                citations and annotations are relevant</a:documentation>
+            <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="model.biblLike">
@@ -372,14 +378,17 @@
     </define>
     <define name="citation">
         <element name="citation">
-            <a:documentation>(citation) a properly cited document [use @n attribute for
-                ordering]</a:documentation>
+            <a:documentation>(citation) a properly cited document [use @n attribute for ordering;
+                @style element for citation style]</a:documentation>
             <oneOrMore>
                 <choice>
                     <text/>
                     <ref name="author"/>
                     <ref name="title"/>
                 </choice>
+                <optional>
+                    <ref name="model.ptrLike"/>
+                </optional>
             </oneOrMore>
             <ref name="att.global.attribute.n"/>
             <attribute name="style">
@@ -390,6 +399,17 @@
                     <value>MLA</value>
                 </choice>
             </attribute>
+        </element>
+    </define>
+    <define name="model.ptrLike">
+        <choice>
+            <ref name="ref"/>
+        </choice>
+    </define>
+    <define name="ref">
+        <element name="ref">
+            <a:documentation>(reference) defines a reference to another location</a:documentation>
+            <data type="anyURI"/>
         </element>
     </define>
     <define name="annotation">
@@ -432,8 +452,9 @@
     </define>
     <define name="background">
         <element name="background">
-            <a:documentation>(background information) anything that could help provide context or information with regard to the source you are using; can contain text, and optional q [requires @type element]
-                elements</a:documentation>
+            <a:documentation>(background information) anything that could help provide context or
+                information with regard to the source you are using; can contain text, and optional
+                q elements [requires @type element] </a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -459,7 +480,9 @@
     </define>
     <define name="summary">
         <element name="summary">
-            <a:documentation>(summary) summarization of the source, can be general information, interpretive summary, and/or summary of the research approach; can contain text, notes, and optional q elements [requires @type element]</a:documentation>
+            <a:documentation>(summary) summarization of the source, can be general information,
+                interpretive summary, and/or summary of the research approach; can contain text,
+                notes, and optional q elements [requires @type element]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -471,13 +494,13 @@
                     interpretation, and approach</a:documentation>
                 <choice>
                     <value>general</value>
-                    <a:documentation>a broad recount of source material or overview
-                    </a:documentation>
+                    <a:documentation>a broad recount of source material or overview </a:documentation>
                     <value>interpretation</value>
-                    <a:documentation>the reader’s interpretation of the source; the takeaway from the source
-                    </a:documentation>
+                    <a:documentation>the reader’s interpretation of the source; the takeaway from
+                        the source </a:documentation>
                     <value>approach</value>
-                    <a:documentation>how the source represents a discipline-specific approach</a:documentation>
+                    <a:documentation>how the source represents a discipline-specific
+                        approach</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
@@ -487,7 +510,9 @@
     </define>
     <define name="relevance">
         <element name="relevance">
-            <a:documentation>(relevance) where the source can be used and why the text may be pertinent to the problem statement; can contain text [requires @type attribute]</a:documentation>
+            <a:documentation>(relevance) where the source can be used and why the text may be
+                pertinent to the problem statement; can contain text [requires @type
+                attribute]</a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
@@ -496,11 +521,10 @@
                     application</a:documentation>
                 <choice>
                     <value>value_stmt</value>
-                    <a:documentation>(value statement) subjective critique of quality of the source
-                    </a:documentation>
+                    <a:documentation>(value statement) subjective critique of quality of the source </a:documentation>
                     <value>application</value>
-                    <a:documentation>(application) the intended audience or recommendations for where the text may be useful
-                    </a:documentation>
+                    <a:documentation>(application) the intended audience or recommendations for
+                        where the text may be useful </a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
