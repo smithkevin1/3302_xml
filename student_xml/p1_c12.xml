@@ -24,9 +24,9 @@
             amount of unnecessary fuel consumption happening while waiting in traffic. Something
             needs to be done about traffic issues throughout high population cities such as Boston. </problem_stmt>
 
-        <citation style="MLA"><title>Activity Report for FY 2013.</title> Rep. Boston Traffic
+        <citation style="MLA" n="1"><title>Activity Report for FY 2013.</title> Rep. Boston Traffic
             Management Center, n.d. Web.</citation>
-        <annotation>
+        <annotation >
             <background type="source"> The Boston Traffic Management Center produces an annual
                 activity report in order to publish the statistics and usage of its department. </background>
             <summary type="general">Currently, the Traffic Management Center (TMC) <q>"has computer
@@ -42,7 +42,7 @@
                 traffic.</relevance>
         </annotation>
 
-        <citation style="MLA"><author n="1">DeMarco, Peter</author>. <title>"Exploring the Science
+        <citation style="MLA" n="2"><author n="1">DeMarco, Peter</author>. <title>"Exploring the Science
                 behind Traffic Lights."</title> Boston.com. N.p., 09 May 2010. Web. 13 July
             2016.</citation>
         <annotation>
@@ -61,7 +61,7 @@
                 incoming traffic at the next lights that the car would encounter.</relevance>
         </annotation>
 
-        <citation style="MLA"><author n="1">Gilmore, John F.</author>, <author n="2">Khalid J.
+        <citation style="MLA" n="3"><author n="1">Gilmore, John F.</author>, <author n="2">Khalid J.
                 Elibiary</author>, and <author n="3">Naohiko Abe</author>. <title>"Neural Network
                 System for Traffic Flow Management."</title> AAAI Technical Report (1993): 85-95.
             Web.</citation>
@@ -85,7 +85,7 @@
                 out a large amount of traffic by optimizing the traffic flow. </relevance>
         </annotation>
 
-        <citation style="MLA"><author n="1">Santi, Paolo</author>, and <author n="2">Carlo
+        <citation style="MLA" n="4"><author n="1">Santi, Paolo</author>, and <author n="2">Carlo
                 Ratti</author>. <title>"Revisiting Street Intersections Using Slot-Based
                 Systems."</title> PLOS ONE. N.p., n.d. Web. 13 July 2016.</citation>
         <annotation>
@@ -94,8 +94,8 @@
                 cars.</background>
             <summary type="general">For Santi's system, called a slot-based system, to work, cars
                 need to be autonomously operated. The cars need to be able to communicate with each
-                other to see where they are on the road and what their plan is at each light. The
-                cars would then autonomously decide which car is turning when with no need for
+                other to determine where they are on the road and what their planned route is at each light. The
+                cars would then decide amongst themselves which car is turning when with no need for
                 traffic lights. </summary>
             <relevance type="application">If all cars could communicate and turn without interfering
                 with each other, it would eliminate the need for stop lights and would greatly
@@ -106,7 +106,7 @@
                 near-term.</relevance>
         </annotation>
 
-        <citation style="MLA"><author n="1">Srinivasan, Dipti</author>, <author n="2">Min Chee
+        <citation style="MLA" n="5"><author n="1">Srinivasan, Dipti</author>, <author n="2">Min Chee
                 Choy</author>, and <author n="3">Ruey Long Cheu</author>. <title>"Neural Networks
                 for Real-Time Traffic Signal Control."</title> IEEE Trans. Intell. Transport. Syst.
             IEEE Transactions on Intelligent Transportation Systems 7.3 (2006): 261-72.
