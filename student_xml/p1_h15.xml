@@ -124,13 +124,25 @@
                 <title level="j">Journal of Rehabilitation and Assistive Technologies
                 Engineering</title>, 3(0). doi:10.1177/2055668316643644</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <relevance type=""> </relevance>
+            <background type="source">This article was published to the Journal of Rehabilitation
+                and Assistive Technologies Engineering this year.</background>
+            <summary type="general">Rehabilitating limb exercises often involve meaningful
+                repetitive motion to induce neural plasticity and to strengthen neural connections
+                associated with normal motor function. This piece discusses game design principles
+                vital in keeping patients motivated during these exercises. </summary>
+            <summary type="approach">Basic principles include a clear presentation of goals,
+                rewards, low learning curve, and motivational feedback. Adjusting difficulty in
+                response to improvement encourages users to continue play for mastery. Additionally,
+                use of a simple interface (muted colors, low sounds) is important “to avoid
+                cognitive overload and fatigue.” Multiplayer introduces a social aspect that
+                promotes collaboration and increases interest. It also induces competition, which
+                engages and entertains the user. Presenting varied tasks, tailoring genres, and
+                introducing storylines helps to break the monotony of the exercises. </summary>
+            <relevance type="application"> Overall, the layout of games in therapy is important, as
+                patients are more likely to exert effort continually, thus inducing neural
+                plasticity, if they are immersed in the activity.</relevance>
+            <relevance type="value_stmt">This sets therapeutic VR practices apart from regular
+                practices.</relevance>
         </annotation>
 
         <!-- Citation 5 -->
