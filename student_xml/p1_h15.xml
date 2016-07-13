@@ -35,9 +35,12 @@
             potentially move therapies to a home setting.</problem_stmt>
 
         <!-- Citation 1 -->
-        <citation style="APA">Lange, B., Koenig, S., Chang, C., Mcconnell, E., Suma, E., Bolas, M.,
-            &amp; Rizzo, A. (2012). Designing informed game-based rehabilitation tasks leveraging
-            advances in virtual reality. Disability and Rehabilitation, 34(22), 1863-1870.
+        <citation n="1" style="APA"><author n="1">Lange, B.</author>, <author n="2">Koenig,
+                S.</author>, <author n="3">Chang, C.</author>, <author n="4">Mcconnell, E.</author>,
+                <author n="5">Suma, E.</author>, <author n="6">Bolas, M.</author>, &amp; <author
+                n="7">Rizzo, A.</author> (2012). <title level="a">Designing informed game-based
+                rehabilitation tasks leveraging advances in virtual reality</title>. <title
+                level="j">Disability and Rehabilitation</title>, 34(22), 1863-1870.
             doi:10.3109/09638288.2012.670029</citation>
         <annotation>
             <background type="source">
@@ -50,10 +53,13 @@
         </annotation>
 
         <!-- Citation 2 -->
-        <citation style="APA">Merians, Alma S., David Jack, Rares Boian, Marilyn Tremaine, Grigore C.
-            Burdea, Sergei V. Adamovich, Michael Reece, and Howard Poizner. "Virtual
-            Reality–Augmented Rehabilitation for Patients Following Stroke." Physical Therapy 82.9
-            (2002): 898-915. Web.</citation>
+        <citation n="2" style="APA"><author n="1">Merians, A.</author>, <author n="2">Jack, D.
+            </author>, <author n="3">Boian, R.</author>, <author n="4">Tremaine, M.</author>,
+                <author n="5">Burdea, G.</author>, <author n="6"> Adamovich, S.</author>, <author
+                n="7">Reece, M.</author>, &amp; <author n="8"> Poizner, H.</author> (2002). <title
+                level="a">Virtual Reality–Augmented Rehabilitation for Patients Following
+                Stroke</title>. <title level="j">Physical Therapy</title>, 82(9),
+            898-915.</citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
@@ -65,8 +71,9 @@
         </annotation>
 
         <!-- Citation 3 -->
-        <citation style="APA">Sveistrup, H. (2004). Motor rehabilitation using virtual reality.
-            Journal of NeuroEngineering and Rehabilitation, 1(1), 10.
+        <citation n="3" style="APA"><author n="1">Sveistrup, H.</author> (2004). <title level="a"
+                >Motor rehabilitation using virtual reality</title>. <title level="j">Journal of
+                NeuroEngineering and Rehabilitation</title>, 1(1), 10.
             doi:10.1186/1743-0003-1-10</citation>
         <annotation>
             <background type="">
@@ -79,10 +86,12 @@
         </annotation>
 
         <!-- Citation 4 -->
-        <citation style="APA">Barrett, N., Swain, I., Gatzidis, C., &amp; Mecheraoui, C. (2016). The
-            use and effect of video game design theory in the creation of game-based systems for
-            upper limb stroke rehabilitation. Journal of Rehabilitation and Assistive Technologies
-            Engineering, 3(0). doi:10.1177/2055668316643644</citation>
+        <citation n="4" style="APA"><author n="1">Barrett, N.</author>, <author n="2">Swain,
+                I.</author>, <author n="3">Gatzidis, C.</author>, &amp; <author n="4">Mecheraoui,
+                C.</author> (2016). <title level="a">The use and effect of video game design theory
+                in the creation of game-based systems for upper limb stroke rehabilitation</title>.
+                <title level="j">Journal of Rehabilitation and Assistive Technologies
+                Engineering</title>, 3(0). doi:10.1177/2055668316643644</citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
@@ -94,9 +103,11 @@
         </annotation>
 
         <!-- Citation 5 -->
-        <citation style="APA">Koenig, S., Ardanza, A., Cortes, C., Mauro, A. D., &amp; Lange, B.
-            (2013). Introduction to Low-Cost Motion-Tracking for Virtual Rehabilitation. Biosystems
-            &amp; Biorobotics Emerging Therapies in Neurorehabilitation, 287-303.
+        <citation n="5" style="APA"><author n="1">Koenig, S.</author>, <author n="2">Ardanza,
+                A.</author>, <author n="3">Cortes, C.</author>, <author n="4">Mauro, A. D.</author>,
+            &amp; <author n="5">Lange, B.</author> (2013). <title level="a">Introduction to Low-Cost
+                Motion-Tracking for Virtual Rehabilitation</title>. <title level="j">Biosystems
+                &amp; Biorobotics Emerging Therapies in Neurorehabilitation</title>, 287-303.
             doi:10.1007/978-3-642-38556-8_15</citation>
         <annotation>
             <background type="">
