@@ -4,7 +4,8 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Writing Project 1:  Producing Annotated Bibliographies, a Problem-Seeking Project</title>
+        <title>Writing Project 1: Producing Annotated Bibliographies, a Problem-Seeking
+            Project</title>
         <author xml:id="h15">Tammy Huynh</author>
         <version n="1" date="2016-07-11"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
@@ -32,7 +33,71 @@
             rehabilitation has a promising outlook in that it engages users, provides real-time
             feedback and progress tracking, cuts setup times, is tailored to the patient, and can
             potentially move therapies to a home setting.</problem_stmt>
-        <citation style=""/>
+
+        <!-- Citation 1 -->
+        <citation style="APA">Lange, B., Koenig, S., Chang, C., Mcconnell, E., Suma, E., Bolas, M.,
+            &amp; Rizzo, A. (2012). Designing informed game-based rehabilitation tasks leveraging
+            advances in virtual reality. Disability and Rehabilitation, 34(22), 1863-1870.
+            doi:10.3109/09638288.2012.670029</citation>
+        <annotation>
+            <background type="source">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type=""> </relevance>
+        </annotation>
+
+        <!-- Citation 2 -->
+        <citation style="APA">Merians, Alma S., David Jack, Rares Boian, Marilyn Tremaine, Grigore C.
+            Burdea, Sergei V. Adamovich, Michael Reece, and Howard Poizner. "Virtual
+            Reality–Augmented Rehabilitation for Patients Following Stroke." Physical Therapy 82.9
+            (2002): 898-915. Web.</citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type=""> </relevance>
+        </annotation>
+
+        <!-- Citation 3 -->
+        <citation style="APA">Sveistrup, H. (2004). Motor rehabilitation using virtual reality.
+            Journal of NeuroEngineering and Rehabilitation, 1(1), 10.
+            doi:10.1186/1743-0003-1-10</citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type=""> </relevance>
+        </annotation>
+
+        <!-- Citation 4 -->
+        <citation style="APA">Barrett, N., Swain, I., Gatzidis, C., &amp; Mecheraoui, C. (2016). The
+            use and effect of video game design theory in the creation of game-based systems for
+            upper limb stroke rehabilitation. Journal of Rehabilitation and Assistive Technologies
+            Engineering, 3(0). doi:10.1177/2055668316643644</citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type=""> </relevance>
+        </annotation>
+
+        <!-- Citation 5 -->
+        <citation style="APA">Koenig, S., Ardanza, A., Cortes, C., Mauro, A. D., &amp; Lange, B.
+            (2013). Introduction to Low-Cost Motion-Tracking for Virtual Rehabilitation. Biosystems
+            &amp; Biorobotics Emerging Therapies in Neurorehabilitation, 287-303.
+            doi:10.1007/978-3-642-38556-8_15</citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
@@ -43,7 +108,6 @@
             <relevance type=""> </relevance>
         </annotation>
     </annotated_bib>
-
 
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
