@@ -40,9 +40,9 @@
             reach our landfills does so safely. </problem_stmt>
 
         <!-- 1 -->
-        <citation style="MLA">
-            <author> Unni Eikeseth </author>
-            <author> Chris Veløy </author>
+        <citation n="1" style="APA">
+            <author n="1"> Unni Eikeseth </author>
+            <author n="2"> Chris Veløy </author>
             <ref>http://sciencenordic.com/machines-are-better-people-sorting-household-trash</ref>
             <title>Machines are better than people at sorting household trash</title>
         </citation>
@@ -70,12 +70,12 @@
         </annotation>
 
         <!-- 2 -->
-        <citation style="MLA">
-            <author>Mahmudul Hasan Russel</author>
-            <author>Mehdi Hasan Chowdhury</author>
-            <author>Md. Shekh Naim Uddin</author>
-            <author>Ashif Newaz</author>
-            <author>Md. Mehdi Masud Talukder</author>
+        <citation n="2" style="IEEE">
+            <author n="1">Mahmudul Hasan Russel</author>
+            <author n="2">Mehdi Hasan Chowdhury</author>
+            <author n="3">Md. Shekh Naim Uddin</author>
+            <author n="4">Ashif Newaz</author>
+            <author n="5">Md. Mehdi Masud Talukder</author>
             <title>Development of Automatic Smart Waste Sorter Machine</title>
         </citation>
         <annotation>
@@ -102,8 +102,8 @@
         </annotation>
 
         <!-- 3 -->
-        <citation style="IEEE">
-            <author>Kelsey Campbell-Dollaghan</author>
+        <citation n="3" style="APA">
+            <author n="1">Kelsey Campbell-Dollaghan</author>
             <ref>http://gizmodo.com/this-trash-sorting-robot-could-revolutionize-recycling-511989613</ref>
             <title>This Trash-Sorting Robot Could Revolutionize Recycling</title>
         </citation>
@@ -131,11 +131,11 @@
         </annotation>
 
         <!-- 4 -->
-        <citation style="IEEE">
-            <author> H.G. Barrow </author>
-            <author>J.M. Tenenbaum </author>
-            <author>R.C. Bolles </author>
-            <author>H.C. Wolf </author>
+        <citation n="4" style="IEEE">
+            <author n="1"> H.G. Barrow </author>
+            <author n="2">J.M. Tenenbaum </author>
+            <author n="3">R.C. Bolles </author>
+            <author n="4">H.C. Wolf </author>
             <title>Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
                 Matching</title>
         </citation>
@@ -162,8 +162,8 @@
         </annotation>
 
         <!-- 5 -->
-        <citation style="MLA">
-            <author>Duncan Furness</author>
+        <citation n="5" style="IEEE">
+            <author n="1">Duncan Furness</author>
             <title>SYSTEM AND METHOD FOR PRECISELY POSITIONING A ROBOTIC TOOL</title>
         </citation>
         <annotation>
