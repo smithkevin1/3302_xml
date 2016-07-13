@@ -4,8 +4,7 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Writing Project 1: Producing Annotated Bibliographies, a Problem-Seeking
-            Project</title>
+        <title> Project 1: Annotated Bibliographies </title>
         <author xml:id="p1_s25">Leo Stolov</author>
         <version n="1" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
@@ -29,7 +28,7 @@
             In terms of technical hurdles, autonomous vehicles must have complex control systems
             that respond quickly to any and all obstacles. These characteristics are exactly what
             the mechatronics discipline deals with, and mechatronics engineers would be integral in
-            the development of an idea that could positively benefit the lives of millions of
+            the development of this idea that could positively benefit the lives of millions of
             people. </problem_stmt>
 
         <citation n="1" style="APA">
@@ -49,15 +48,15 @@
                 delivery using drones. </background>
             <summary type="general"> The authors, after looking at current strategies of relevant
                 companies, technological capabilities, and limitations of delivery drones, conclude
-                that the idea <q>will eventually be successful in the last mile delivery space
-                </q>(17). </summary>
+                that the idea <q>will eventually be successful in the last mile delivery
+                space</q>(17). </summary>
             <relevance type="application">While the report delves heavily into the financial aspect
                 of the concept, it also provides a good summation of the current state of technology
                 related to drone delivery. </relevance>
             <relevance type="application">In general, it is a good resource for those looking for
                 current solutions for existing technical hurdles, such as battery life, charging
-                technology and flight planning, as well as a list of relatively unsolved challenges
-                such as weather resistance. </relevance>
+                technology and flight planning, which is useful information for the design of a
+                drone.</relevance>
         </annotation>
 
         <citation n="2" style="APA">
@@ -77,6 +76,9 @@
                 Dominican Republic, the company is a useful case study of what goes into the
                 successful application of a similar drone delivery service in other parts of the
                 world. </relevance>
+            <relevance type="application">For an engineer, many of the decisions made by the
+                company, such as the use of landing pads on both the sending and recieving ends, can
+                influence the conceptualization phase of drone design.</relevance>
         </annotation>
 
         <citation n="3" style="APA"><author n="1">Carr, E. B.</author> (2013, March 27). <title
@@ -94,7 +96,10 @@
                 issues. </summary>
             <relevance type="application"> In terms of technical relevancy, the paper provides a
                 good description of the security and privacy issues that have to be considered
-                before drones can successful be deployed in residential areas. </relevance>
+                before drones can successfully be deployed in residential areas. </relevance>
+            <relevance type="application">This information is especially important to those working
+                on drones within cities, since it can help set a threshold for what it means for a
+                drone design to be safe in public places.</relevance>
         </annotation>
 
         <citation n="4" style="APA">
@@ -116,9 +121,13 @@
                 last-mile delivery. </relevance>
         </annotation>
 
-        <citation n="5" style="APA"><author n="1">Amzajerdian, F.</author> Pierrottet, D., Petway,
-            L., Vanek, M. (n.d.). DEVELOPMENT OF LIDAR SENSOR SYSTEMS FOR AUTONOMOUS SAFE LANDING ON
-            PLANETARY BODIES [Scholarly project]. Retrieved July 13, 2016, from
+        <citation n="5" style="APA">
+            <author n="1">Amzajerdian, F.</author>
+            <author n="2">Pierrottet, D.</author>
+            <author n="3">Petway, L.</author>
+            <author n="4">Vanek, M.</author>
+            <title level="a">DEVELOPMENT OF LIDAR SENSOR SYSTEMS FOR AUTONOMOUS SAFE LANDING ON
+                PLANETARY BODIES </title>[Scholarly project]. Retrieved July 13, 2016, from
             http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100036247.pdf</citation>
 
         <annotation>
@@ -128,13 +137,13 @@
             <summary type="general">The paper describes three different Lidar sensors and details
                 their individual functions and capabilities as they relate to future missions
                 involving precision landings on the Moon or Mars. </summary>
-            <summary type="approach">The authors provided technical diagrams and quantifiable data
-                to thoroughly characterize these Lidar systems.</summary>
+            <summary type="approach">The authors provide technical diagrams and quantifiable data to
+                thoroughly characterize these Lidar systems.</summary>
             <relevance type="application">While the report is focused solely on applications for
                 landing on planetary bodies, the technical features of the sensors, which include
                 the generation of elevation maps, hazardous feature avoidance, and highly accurate
-                ground velocity, distance, altitude and attitude data, are all very relevant to the
-                application of delivery drone technology. </relevance>
+                ground velocity, distance, altitude, and attitude data, are all very relevant to and
+                can be used for the application of delivery drone technology. </relevance>
         </annotation>
     </annotated_bib>
 
