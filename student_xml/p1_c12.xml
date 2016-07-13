@@ -4,26 +4,82 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 1 - Annotated Bibilography</title>
+        <author xml:id="c12">Brent Christy</author>
+        <version n="1" date="2016-07-12"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
     <annotated_bib>
         <problem_stmt>
-            <!--problem statement here-->
+            Every day throughout the city of Boston, thousands of commuters spend large 
+            portions of their drive waiting in traffic. All it takes for traffic 
+            to build up is one accident on a main street and cars will be backed up for 
+            miles. Part of this issue is due to the volume of commuters entering and leaving the city during rush hour, but part of the 
+            blame can also be placed on traffic control. Traffic control, specificially the use of traffic signals, is fairly far 
+            behind today's technology. Although traffic signals 
+            are monitored and timings are adjusted every five years, the results are 
+            still not optimal. There needs to be a way for signals to utilize current 
+            technologies in order to optimize commute times and allow for people's 
+            already sparse free time to be spent how they like. Along with people's free time 
+            being wasted, there is also a large amount of unecessary fuel consumption happening 
+            while waiting in traffic. Something needs to be done about 
+            traffic issues throughout high population cities such as Boston. 
         </problem_stmt>
-        <citation style=""/>
+        
+        <citation style="MLA"><author n="1">Gilmore, John F.</author>, <author n="2">Khalid J. Elibiary</author>, and <author n="3">Naohiko Abe</author>. 
+            <title>"Neural Network System for Traffic Flow Management."</title> AAAI Technical Report (1993): 85-95. Web.</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
+            <background type="author">
+                John Gilmore along with Khalid Elibiary of the Georgia Tech Research Institute produced 
+                a paper for Association for the Advancement of Artificial Intelligence regarding the
+                use of neural networks to control traffic in 1993 with the assistance of Naohiko Abe
+                of Mitsubishi Heavy Industries in Japan.
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            <summary type="general">
+                Gilmore and his associates go into depth about how neural networks can be 
+                implemented into a traffic control system to improve traffic conditions. They
+                introduce the idea of using the Hopfield neural network model in order to 
+                allow the network to learn and build off of its knowledge of previous
+                congestion situations to improve traffic conditions. The group forms an 
+                energy function which allows them to assign lights and traffic
+                conditions different weights. Higher weighted traits, such as how busy an intersection generally is,
+                allow lights to have a higher priority and change faster.
             </summary>
-            <relevance type="">    
+            <relevance type="application">    
+                The usage of a neural network as described by Gilmore, Elibiary, and Abe 
+                can be used as a base for a city wide traffic control system, where the system
+                learns and adapts based on previous traffic data. This could cut out a large
+                amount of traffic by optimizing the traffic flow.
             </relevance>
+        </annotation>
+        
+        <citation style="MLA"></citation>
+        <annotation>
+            <background type="author"></background>
+            <summary type="general"></summary>
+            <relevance type="application"></relevance>
+        </annotation>
+        
+        <citation style="MLA"></citation>
+        <annotation>
+            <background type="author"></background>
+            <summary type="general"></summary>
+            <relevance type="application"></relevance>
+        </annotation>
+        
+        <citation style="MLA"></citation>
+        <annotation>
+            <background type="author"></background>
+            <summary type="general"></summary>
+            <relevance type="application"></relevance>
+        </annotation>
+        
+        <citation style="MLA"></citation>
+        <annotation>
+            <background type="author"></background>
+            <summary type="general"></summary>
+            <relevance type="application"></relevance>
         </annotation>
     </annotated_bib>
     
