@@ -10,13 +10,13 @@
     </docHead>
     
     <annotated_bib>
-        <problem_stmt>In Boston today any outdated public transporation system known as the MBTA is
+        <problem_stmt>In Boston today an outdated public transporation system known as the MBTA is
         using older train cars to hold its passengers. The space in these cars fill up quickly and 
         eventually there is no where for these people to go.
         </problem_stmt>
-        <citation n="1" style="APA"><author n="1">Grabar, H.</author><publication_date>
-            (2016, February 12).</publication_date><title>Subway Cars Should Be Like Centipedes</title><Retri_Date>
-                Retrieved July 11, 2016,</Retri_Date><URL>from http://www.slate.com/articles/business/metropolis/2016/02/subways_should_have_open_gangway_cars_why_does_the_u_s_resist_it.html </URL></citation>
+        <citation n="1" style="APA"><author>Grabar, H.</author>
+            (2016, February 12).<title>Subway Cars Should Be Like Centipedes</title>
+                Retrieved July 11, 2016,from http://www.slate.com/articles/business/metropolis/2016/02/subways_should_have_open_gangway_cars_why_does_the_u_s_resist_it.html </citation>
         <annotation>
             <background type="source">This article by the Slate, a popular magazine that examines
             and analyzes issues in today's society,</background>
@@ -29,9 +29,9 @@
               that attach to one and another.</relevance>
         </annotation>
         
-        <citation style="APA"><author n="1">Annear, S.</author><publication_date>(2013, October 22).
-        </publication_date><title>MBTA Orange Line Trains Will Be Replaced, Red Line Vehicles Added.</title><Retri_Date>
-            Retrieved July 11, 2016,</Retri_Date><URL>from http://www.bostonmagazine.com/news/blog/2013/10/22/mbta-ornage-line-trains-upgrades-red-line-governor-patrick/</URL></citation>
+        <citation style="APA"><author>Annear, S.</author>(2013, October 22).
+        <title>MBTA Orange Line Trains Will Be Replaced, Red Line Vehicles Added.</title>
+            Retrieved July 11, 2016,from http://www.bostonmagazine.com/news/blog/2013/10/22/mbta-ornage-line-trains-upgrades-red-line-governor-patrick/</citation>
         <annotation>
             <background type="author">The article, written by Steve Annear a digital writer at Boston Magazine
             graduate from Roger Williams University former writer at Boston Metro newspaper,</background>
@@ -46,39 +46,48 @@
             </relevance>
         </annotation>
         
-        <citation style="APA"></citation>
+        <citation style="APA"><author>Gans, F.</author>(2015, December 22).
+            <title>MBTA Riders Demand Improvements in Service amid Fare Hike Plan.</title>The Boston Globe (Boston, MA).
+            Retrieved July 12, 2016, from https://www.bostonglobe.com/metro/2015/12/22/next-stop-resistance-prospect-higher-fares/2MSl8eUccvmczziTtY9haP/story.html</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
+            <background type="source">
+                This article from the Boston Globe, one of the most well known newspaper companies in the country,
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            <summary type="general">takes a look into the new fare hikes by the MBTA and overall reception by their customers. First the article goes into the 10 percent hike increase
+                and the frequency at which these prices are going up at. When interviewing some of the riders of the MBTA, the reception was seen be as negative, as one rider put it <q>"It’s not 
+                a big amount, but think ahead. If every 24 months they keep on raising it, one day, it’s going to be $40 a week. And then one day, it’s going to be $50 a week. I don’t know why 
+                they can’t just keep it a normal fare”.</q> Later the article goes on to examine the demand by the customers for improved services, but also acknowledges that people are skeptical of these
+                upcoming improvements.
             </summary>
-            <relevance type="">    
+            <relevance type="value_stmt">It seems as if the author was able to find the sway of the public was moving towards in the sense of the situation.    
             </relevance>
         </annotation>
         
-        <citation style="APA"></citation>
+        <citation style="APA"><author>McDonald, C.</author>(2016, June 28). <title>Meet The Germs Sharing Your Seat On The Subway.</title>Retrieved July 12, 2016, from 
+            http://www.popsci.com/subway-bugs-boston</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
+            <background type="source">Popular Science, a long running, prestigious magazine that finds all of the new and most revelant topics in the science community,
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            <summary type="approach">=takes a look at the microbes and germs that can be found all over the inside of a subway car. First the author goes through previous studies done by 
+                researches in cities like San Francisco and New York took samples from subway cars and were able to find a plethora of germs and microbes that exist within these areas. The articles goes 
+                on to talk about how recently in Boston research team went to examine some of these subway cars and collect and analysis the samples they acquired. From there it divulges into more of
+                 a research and science background examining the results and what actually exists in these areas.
             </summary>
-            <relevance type="">    
+            <relevance type="application"> The article brings more awareness to idea that public transporation can be a simple way of contracting these germs and bugs from other individuals. What can be
+                done is for these systems to implement improvements that will provide less opportunity for these germs to spread and grow.
             </relevance>
         </annotation>
         
-        <citation style="APA"></citation>
+        <citation style="APA"><author>Fishbein, R.</author>(2016, May 3).<title>Report: The Subway Is Crowded and Getting More Crowded So Please Everyone Stop Moving To NYC.</title>
+            Retrieved July 12, 2016, from http://gothamist.com/2016/05/03/sorry_guys_at_capacity.php</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
+            <background type="author">The author, Rebecca Fishbein, who is an associate editor and writer at the Gothamist 
             </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
+            <summary type="general">addresses the overcrowding crisis found in the subway system. The story goes more in depth with problem, going into how this has been a reoccuring problem for years and how 
+                it is only getting worse. 
             </summary>
-            <relevance type="">    
+            <relevance type="application"> This piece is a message to all people living in large metropolitian areas who use public transportation to apply pressure on the officials running these transportation 
+                systems. It is a calling to make the people's voices be heard and react the dimishing quality of public transportation.
             </relevance>
         </annotation>
     </annotated_bib>
