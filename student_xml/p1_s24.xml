@@ -58,13 +58,12 @@
                 in the 1980s.</summary>
             <summary type="approach">With improvements in spectrography, infra-red sensors and
                 hardware it seems the Oslo plant has found its solution. </summary>
-            <summary type="interpretation">The article carries a hopeful tone both for the future of
-                the Oslo plant, and for similar technologies in the world at large. </summary>
-            <relevance type="value_stmt">Given the success of the technology in question, both in
-                Norway and in other countries, one would hope that in 2016 this system for waste
-                management would be ubiquitous and expanded upon. There is little evidence to
-                suggest that this is the case, making the technology discussed still of pinnacle
-                importance. </relevance>
+            <summary type="interpretation"> Although only an industrial level of trash separation is
+                discussed in this article, there might be replicable methods for the residential
+                setting as well.</summary>
+            <relevance type="value_stmt">There is little evidence to suggest that sorting technology
+                has developed much beyond what is addressed in the article, making the technology
+                discussed still of pinnacle importance. </relevance>
             <relevance type="application"> Communities scouting to find functional technologies for
                 their waste processing could find inspiration from the Oslo plant discussed.
             </relevance>
@@ -112,9 +111,7 @@
             <background type="author">Campbell-Dollaghan, a popular Gizmodo contributor, details an
                 innovative approach to waste sorting specifically outfitted for use on construction
                 sites created by ZenRobotics.</background>
-            <summary type="general">Campbell-Dollaghan references information made public by the
-                company to highlight both the innovation in market, and in methodology used by
-                ZenRobotics. The article opens by making the staggering point that the construction
+            <summary type="general">The article opens by making the staggering point that the construction
                 center is responsible for a third of all waste created. By reintroducing the
                 materials from active demolition cites into future projects, this number could be
                 successfully and profitably lessened.</summary>
@@ -122,6 +119,8 @@
                 ZenRobotics. Rather than using the more conventional servos to merely push or drop
                 waste into different bins, the system relies upon a mobile arm to grab waste from a
                 conveyor belt and sort it accordingly. </summary>
+            <summary type="interpretation">This approach provides a novel means of addressing the
+                issue of waste sorting. </summary>
             <relevance type="value_stmt">What the source seems to lack is critical insight into the
                 more nuanced potential of the system in question. As a result, it comes across more
                 as a public service announcement for social media than as a serious intellectual
@@ -153,9 +152,9 @@
                 landmarks. These landmarks are identified through the use of chamfer matching.
                 Chamfer matching was used to identify these landmarks due to its fast computation
                 speed and resistance to lighting disturbances.</summary>
-            <summary type="interpretation">Although the methods discussed have the failing of a high
-                error rate in certain applications, they could be a vital tool under the right
-                conditions.</summary>
+            <summary type="interpretation">Although the methods discussed provide useful object
+                recognition results in environments with variable parameters, most trash sorting can
+                likely be done in a contained environment.</summary>
             <relevance type="value_stmt">The credentials of the authors speak for themselves, as
                 they make a highly complex topic both informational and accessible.</relevance>
             <relevance type="application">This paper serves as a strong display of how engineers
@@ -164,7 +163,7 @@
 
         <!-- 5 -->
         <citation style="MLA">
-            <author>Duncan Furnessdu</author>
+            <author>Duncan Furness</author>
             <title>SYSTEM AND METHOD FOR PRECISELY POSITIONING A ROBOTIC TOOL</title>
         </citation>
         <annotation>
@@ -177,6 +176,8 @@
             <summary type="approach">By breaking from the norm, and placing the camera to the side
                 of the arm, rather than on the arm itself, the inventor was able to address parallax
                 errors in order to operate more accurately in three dimensions. </summary>
+            <summary type="interpretation">Using this technology could provide for more precise
+                motor movements if a robot arm were used to sort the trash.</summary>
             <relevance type="value_stmt">Although most readers would find following the terms and
                 mathematics behind this patent to be rightfully confusing, such a proven technology
                 is rarely done simply.</relevance>
