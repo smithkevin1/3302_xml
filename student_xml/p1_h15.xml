@@ -111,7 +111,7 @@
                 environment to track walking trajectories; and upper/lower extremities using a
                 CyberGlove (motion capturing glove) and Rutgers ankle/hand systems; exercise and
                 pain tolerance with a mounted bicycle and virtual scene. </summary>
-            <relevance type="application">The article is important in that it sites technologies
+            <relevance type="application">The article is important in that it cites technologies
                 already used in VR motor-related rehabilitation, which can be implemented in other
                 settings. </relevance>
             <relevance type="value_stmt">Additionally, it references real cases in which the
@@ -133,7 +133,7 @@
                 associated with normal motor function. This piece discusses game design principles
                 vital in keeping patients motivated during these exercises. </summary>
             <summary type="approach">Basic principles include a clear presentation of goals,
-                rewards, low learning curve, and motivational feedback. Adjusting difficulty in
+                rewards, low learning curves, and motivational feedback. Adjusting difficulty in
                 response to improvement encourages users to continue play for mastery. Additionally,
                 use of a simple interface (muted colors, low sounds) is important <q>to avoid
                     cognitive overload and fatigue.</q> Multiplayer introduces a social aspect that
