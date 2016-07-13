@@ -46,7 +46,6 @@
             <ref>http://sciencenordic.com/machines-are-better-people-sorting-household-trash</ref>
             <title>Machines are better than people at sorting household trash</title>
         </citation>
-
         <annotation>
             <!-- can include <q> element(s) for quoted material -->
             <background type="source"> Science Nordic is an independent news site, focused on the
@@ -80,7 +79,6 @@
             <author>Md. Mehdi Masud Talukder</author>
             <title>Development of Automatic Smart Waste Sorter Machine</title>
         </citation>
-
         <annotation>
             <background type="author">The paper's authors are a group of engineers based out of
                 Bangladesh's Chittagong University and the University of Rajshashi. The authors
@@ -110,7 +108,6 @@
             <ref>http://gizmodo.com/this-trash-sorting-robot-could-revolutionize-recycling-511989613</ref>
             <title>This Trash-Sorting Robot Could Revolutionize Recycling</title>
         </citation>
-
         <annotation>
             <background type="author">Campbell-Dollaghan, a popular Gizmodo contributor, details an
                 innovative approach to waste sorting specifically outfitted for use on construction
@@ -143,7 +140,6 @@
             <title>Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
                 Matching</title>
         </citation>
-
         <annotation>
             <background type="author">The authors in question are all published and highly
                 referenced members of the artificial intelligence community. In this instance, they
@@ -155,8 +151,8 @@
             <summary type="approach"> The paper addresses parametric correspondence as being the
                 ability to distinguish the offset of an image by referencing small predetermined
                 landmarks. These landmarks are identified through the use of chamfer matching.
-                Chamfer matching was used to identify these landmarks due to its fast
-                computation speed and resistance to lighting disturbances.</summary>
+                Chamfer matching was used to identify these landmarks due to its fast computation
+                speed and resistance to lighting disturbances.</summary>
             <summary type="interpretation">Although the methods discussed have the failing of a high
                 error rate in certain applications, they could be a vital tool under the right
                 conditions.</summary>
@@ -168,23 +164,26 @@
 
         <!-- 5 -->
         <citation style="MLA">
-            <author> </author>
-            <ref/>
-            <title/>
+            <author>Duncan Furnessdu</author>
+            <title>SYSTEM AND METHOD FOR PRECISELY POSITIONING A ROBOTIC TOOL</title>
         </citation>
-
         <annotation>
-            <background type="author"/>
-            <background type="source"/>
-            <summary type="approach"/>
-            <summary type="general"/>
-            <summary type="interpretation"/>
-            <relevance type="application"/>
-            <relevance type="value_stmt"/>
+            <background type="source">Although the patent in question was published in 1994, it
+                maintains relevance through a large number of citations referring to it due to its
+                novel methods of handling vision parallax. </background>
+            <summary type="general">The patent details a robot arm and camera setup, whereby a
+                camera positioned at an angle to the camera is used to guide a fixed robot arm to a
+                destination. </summary>
+            <summary type="approach">By breaking from the norm, and placing the camera to the side
+                of the arm, rather than on the arm itself, the inventor was able to address parallax
+                errors in order to operate more accurately in three dimensions. </summary>
+            <relevance type="value_stmt">Although most readers would find following the terms and
+                mathematics behind this patent to be rightfully confusing, such a proven technology
+                is rarely done simply.</relevance>
+            <relevance type="application">The problem addressed in the patent provides a useful
+                solution for skilled engineers operating in controlled environments.</relevance>
         </annotation>
-
     </annotated_bib>
-
 
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
