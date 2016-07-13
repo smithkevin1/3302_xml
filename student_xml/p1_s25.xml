@@ -4,35 +4,94 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 1: Producing Annotated Bibliographies, a Problem-Seeking
+            Project</title>
+        <author xml:id="p1_s25">Leo Stolov</author>
+        <version n="1" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
         <problem_stmt>
             <!--problem statement here-->
         </problem_stmt>
-        <citation style=""/>
+        <citation n="1" style="APA"/>
+
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
+            <background type="source"> This paper, which was created in an open classroom
+                environment within the Sutardja Center for Entrepreneurship and Technology at UC
+                Berkeley, provides an in depth examination on the current climate of package
+                delivery using drones. </background>
+            <summary type="general"> The authors, after looking at current strategies of relevant
+                companies, technological capabilities, and limitations of delivery drones, conclude
+                that the idea <q>will eventually be successful in the last mile delivery space
+                </q>(17). </summary>
+            <relevance type="application">While the report delves heavily into the financial aspect
+                of the concept, it also provides a good summation of the current state of technology
+                related to drone delivery. </relevance>
+            <relevance type="application">In general, it is a good resource for those looking for
+                current solutions for existing technical hurdles, such as battery life, charging
+                technology and flight planning, as well as a list of relatively unsolved challenges
+                such as weather resistance. </relevance>
         </annotation>
+
+        <citation n="2" style="APA"/>
+
+        <annotation>
+            <background type="author"> This article, written by drone reporter Sally French,
+                explores an already existing and successful drone delivery service from a tech
+                startup called Matternet. </background>
+            <summary type="general"> The article breaks the process of the delivery down step by
+                step, detailing some of the technical capabilities of the drone, as well as the
+                technical decisions made by the company to create a successful service. </summary>
+            <relevance type="application">Though the drones were implemented to only delivery
+                medically related supplies in other countries, such as Switzerland, Haiti, and the
+                Dominican Republic, the company is a useful case study of what goes into the
+                successful application of a similar drone delivery service in other parts of the
+                world. </relevance>
+        </annotation>
+
+        <citation n="2" style="APA"/>
+
+        <annotation>
+            <background type="author"> This article, written by drone reporter Sally French,
+                explores an already existing and successful drone delivery service from a tech
+                startup called Matternet. </background>
+            <summary type="general"> </summary>
+            <relevance type="application"> </relevance>
+            <relevance type="application"> </relevance>
+        </annotation>
+
+        <citation n="2" style="APA"/>
+
+        <annotation>
+            <background type="author"> This article, written by drone reporter Sally French,
+                explores an already existing and successful drone delivery service from a tech
+                startup called Matternet. </background>
+            <summary type="general"> </summary>
+            <relevance type="application"> </relevance>
+            <relevance type="application"> </relevance>
+        </annotation>
+
+        <citation n="2" style="APA"/>
+
+        <annotation>
+            <background type="author"> This article, written by drone reporter Sally French,
+                explores an already existing and successful drone delivery service from a tech
+                startup called Matternet. </background>
+            <summary type="general"> </summary>
+            <relevance type="application"> </relevance>
+            <relevance type="application"> </relevance>
+        </annotation>
+
     </annotated_bib>
-    
-    
+
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
