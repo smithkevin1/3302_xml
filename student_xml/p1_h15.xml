@@ -45,9 +45,9 @@
         <annotation>
             <background type="source"> This article provided by USC, Institute for Creative
                 Technologies, in the journal Disability and Rehabilitation, </background>
-            <summary type="general">highlights the benefits and challenges of implementing VR
-                in therapeutic strategies. VR can be implemented in various ways. Sometimes head-mounts are
-                used to display the view to the user and adjust in relation to his orientation.
+            <summary type="general">highlights the benefits and challenges of implementing VR in
+                therapeutic strategies. VR can be implemented in various ways. Sometimes head-mounts
+                are used to display the view to the user and adjust in relation to his orientation.
                 Body-tracking sensors can also provide a wider range of interactivity. Other times
                 6-wall rooms with projections called Cave Automatic Virtual Environments (CAVEs) are
                 implemented to provide a less restrained, though more expensive, experience.
@@ -71,13 +71,25 @@
                 Stroke</title>. <title level="j">Physical Therapy</title>, 82(9),
             898-915.</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <relevance type=""> </relevance>
+            <background type="source"> This article from the journal Physical Therapy </background>
+            <summary type="general"> presents a case study following three elderly (50’s, 80’s)
+                post-stroke patients who participated in a 2-week long VR motor training program. </summary>
+            <summary type="approach">For 3.5 hours each training day, the patients practiced 4 VR
+                exercises to test their hand’s: (1) range of movement, measured by how much of a
+                image they could uncover by “wiping” their hand across the screen; (2) speed of
+                movement measured by how fast they could close their hand; (3) finger fractionation
+                measured by their ability to depress a single key on a keyboard piano; and (4)
+                strength of movement measured by how much they could resist pressure applied to
+                their glove. </summary>
+            <summary type="general"> At the end of the program, each improved in all tested areas
+                though those with more severe defects improved less so. Overall, the patients
+                responded positively to the exercises but reported frustration over the length,
+                response times, and clarity in information of the display.</summary>
+            <summary type="interpretation">This implies that clear, real-time feedback is vital in
+                keeping users engaged. </summary>
+            <relevance type="value_stmt">The results of the study show the promise of VR in
+                improving mobility in damaged upper extremities, even for elderly patients.
+            </relevance>
         </annotation>
 
         <!-- Citation 3 -->
