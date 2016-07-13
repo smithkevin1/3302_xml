@@ -9,30 +9,166 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
-        <problem_stmt>
-            <!--problem statement here-->
-        </problem_stmt>
-        <citation style=""/>
+        <problem_stmt> World War II saw Americans willfully ration clothes and gasoline, plant war
+            gardens, and participate in scrap metal drives to manufacture bullets. The effort on the
+            home front came as an overlooked victory, proving that the nation could survive — thrive
+            even — without superfluous luxuries when organized under a common cause. Although U.S.
+            government’s propaganda based success to conserve resources at home was a fantastic
+            accomplishment, it came with a disconcerting lesson. Without an enemy, Americans lost
+            their capacity to skirt comforts for conservational purposes. As it happens, the
+            overwhelming amount of research indicates that there still is an enemy — although it
+            does not present itself in a swastika emblazoned SS jacket, but with climbing
+            temperatures and rising sea levels — however a complicated mesh of conflicting interests
+            seems to be hindering Americans from readopting the thrifty traits of their
+            grandparents. The consequence is a culture that continues to increase its consumption,
+            ignoring the all but certain consequences. As the speed at which items are deemed
+            obsolete increases, driving the economy further toward a reliance on disposable
+            commodities, the rate at which our landfills reach max capacity increases in step,
+            despite our technological potential to accomplish the opposite. Further encouragement
+            for America to deal more effectively with its waste addiction should come from an
+            awareness of what is transpiring beyond its own shores. Population growth compounded
+            with the entrance of developing countries in consumer markets guarantees that demand for
+            first world commodities is to skyrocket. The amount of waste produced by such an
+            increase in demand, spells uncertain questions for how factories and our environment
+            will respond to this change. Luckily, a solution to our apathy might be found in new
+            technologies. By levering technology to sort our waste for us, both in our home and in
+            public, the current flow of thousands of tons of metals, rare earth and plastics could
+            be directed out of our landfills rather than into them. This is crucial not only in
+            ensuring that less waste reaches our landfills, but also in ensuring that what does
+            reach our landfills does so safely. </problem_stmt>
+
+        <!-- 1 -->
+        <citation style="MLA">
+            <author> Unni Eikeseth </author>
+            <author> Chris Veløy </author>
+            <ref>http://sciencenordic.com/machines-are-better-people-sorting-household-trash</ref>
+            <title>Machines are better than people at sorting household trash</title>
+        </citation>
+
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
+            <!-- can include <q> element(s) for quoted material -->
+            <background type="source">The aptly named Science Nordic is an independent news site,
+                focused on the coverage of scientific developments in Nordic countries. As such, the
+                coverage of automated waste assortment in Norway fits nicely into the domain of the
+                website. </background>
+            <summary type="general">A broad overview is given of new waste sorting technology at a
+                waste disposal plant on the outskirts of Oslo. In addition to providing coverage of
+                the capabilities of the plant (in sorting between plastic and food waste), the
+                article also refers back to failures in similar technology that had been attempted
+                in the 1980s.</summary>
+            <summary type="approach">Although the implementations of the more primitive trash
+                sorting robots dealt heavy costs to governments with little returns, the state of
+                spectrography, infra-red sensors and hardware improvements have improved
+                significantly. </summary>
+            <summary type="interpretation">The article carries a hopeful tone both for the future of
+                the Oslo plant, and for similar technologies in the world at large. </summary>
+            <relevance type="value_stmt">Given the success of the technology in question, both in
+                Norway and in other countries, one would hope that in 2016 this system for waste
+                management would be ubiquitous and expanded upon. There is no evidence to suggest
+                that this is the case, making the technology discussed still of pinnacle importance. </relevance>
+            <relevance type="application">As such, the Oslo plant's sorting methods could work as a
+                good example for engineers to take inspiration from in addition to communities who
+                may be seeking to implement similar technologies. </relevance>
         </annotation>
+
+        <!-- 2 -->
+        <citation style="MLA">
+            <author>Mahmudul Hasan Russel</author>
+            <author>Mehdi Hasan Chowdhury</author>
+            <author>Md. Shekh Naim Uddin</author>
+            <author>Ashif Newaz</author>
+            <author>Md. Mehdi Masud Talukder</author>
+            <title>Development of Automatic Smart Waste Sorter Machine</title>
+        </citation>
+
+        <annotation>
+            <background type="author">The paper's authors are a group of multidisciplinary engineers
+                based out of Bangladesh's Chittagong University and the University of Rajshashi. The
+                talent of the engineers speaks for itself through the in-depth technical details
+                provided on how they sought to address the automated sorting of recyclable
+                goods.</background>
+            <summary type="general">The paper is broken into eight sections. The authors open with a
+                broad overview of the world's waste problem, followed by visual representations of
+                potential resources that could be harvested from this waste. They then delve into
+                the fine level details of their sorting system (capable of identifying paper, metal,
+                glass and plastic), before resurfacing in the last three sections to discuss future
+                plans, comparative studies and general conclusions. </summary>
+            <summary type="approach">The technical solution -- detailed in sections three, four and
+                five -- discusses a replicable system of OP Amps, IR, LDR, and several other
+                components accompanied by flowcharts and explanations. </summary>
+            <summary type="interpretation">Although the project in question doesn't address the
+                issue of waste storage through a particularly novel approach, it is a logical one,
+                and is fit for the task at hand. </summary>
+            <relevance type="value_stmt">Undeniably there are many obvious grammatical issues
+                present in the text, however to dismiss the work for such a triviality would be a
+                mistake. A well researched and technically challenging solution to a serious problem
+                is put on display that is worth consideration. </relevance>
+            <relevance type="application">Any engineers looking for a highly detailed report on
+                creating a control flow to develop a similar sensor based system could gain insight
+                from reading this paper.</relevance>
+        </annotation>
+
+        <!-- 3 -->
+        <citation style="MLA">
+            <author> </author>
+            <ref/>
+            <title/>
+        </citation>
+
+        <annotation>
+            <background type="author"/>
+            <background type="source"/>
+            <summary type="approach"/>
+            <summary type="general"/>
+            <summary type="interpretation"/>
+            <relevance type="application"/>
+            <relevance type="value_stmt"/>
+        </annotation>
+
+        <!-- 4 -->
+        <citation style="MLA">
+            <author> </author>
+            <ref/>
+            <title/>
+        </citation>
+
+        <annotation>
+            <background type="author"/>
+            <background type="source"/>
+            <summary type="approach"/>
+            <summary type="general"/>
+            <summary type="interpretation"/>
+            <relevance type="application"/>
+            <relevance type="value_stmt"/>
+        </annotation>
+
+        <!-- 5 -->
+        <citation style="MLA">
+            <author> </author>
+            <ref/>
+            <title/>
+        </citation>
+
+        <annotation>
+            <background type="author"/>
+            <background type="source"/>
+            <summary type="approach"/>
+            <summary type="general"/>
+            <summary type="interpretation"/>
+            <relevance type="application"/>
+            <relevance type="value_stmt"/>
+        </annotation>
+
     </annotated_bib>
-    
-    
+
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
