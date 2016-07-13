@@ -88,7 +88,8 @@
             <summary type="interpretation">This implies that clear, real-time feedback is vital in
                 keeping users engaged. </summary>
             <relevance type="value_stmt">The results of the study show the promise of VR in
-                improving mobility in damaged upper extremities, even for elderly patients.
+                improving mobility in damaged upper extremities, even for elderly patients. However,
+                a larger patient population is needed to test the validity of the findings accurately.
             </relevance>
         </annotation>
 
@@ -153,9 +154,9 @@
                 &amp; Biorobotics Emerging Therapies in Neurorehabilitation</title>, 287-303.
             doi:10.1007/978-3-642-38556-8_15</citation>
         <annotation>
-            <background type="source">A section in “Emerging Therapies in Neurorehabilitation
-                (Biosystems &amp; Biorobotics)”, a book on the technological advances and practices
-                in neuro-rehabilitation, </background>
+            <background type="source">An article in Emerging Therapies in Neurorehabilitation
+                (Biosystems &amp; Biorobotics), a collection on the technological advances and
+                practices in neuro-rehabilitation, </background>
             <summary type="general">this piece discusses how the Microsoft Kinect, a platform that
                 uses depth-sensing cameras, can be used in motor-related rehabilitation. Flexible
                 Action and Articulated Skeleton Toolkit (FAAST) is a middleware that maps body
