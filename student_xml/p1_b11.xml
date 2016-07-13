@@ -4,17 +4,22 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 1: Annotated Bibliographies</title>
+        <author xml:id="your_id_here">Seth Bakes</author>
+        <version n="num_of_version" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
     <annotated_bib>
         <problem_stmt>
             <!--problem statement here-->
+            
         </problem_stmt>
-        <citation style=""/>
+        <citation style="MLA">
+            <author>Julie M. Rinder</author>
+            <ref>https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/12257/Rinder2012.pdf?sequence=1</ref>
+            <title>The Importance of Website Usability Testing</title>
+        </citation>
         <annotation>
             <background type="">
                 <!-- can include <q> element(s) for quoted material -->
