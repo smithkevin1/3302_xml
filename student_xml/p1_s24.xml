@@ -4,9 +4,9 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Annotated Bibliography for Automated Trash Sorting</title>
+        <author xml:id="s24">Oliver Scott</author>
+        <version n="num_of_version" date="2016-07-12"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
 
@@ -102,7 +102,7 @@
         </annotation>
 
         <!-- 3 -->
-        <citation style="MLA">
+        <citation style="IEEE">
             <author>Kelsey Campbell-Dollaghan</author>
             <ref>http://gizmodo.com/this-trash-sorting-robot-could-revolutionize-recycling-511989613</ref>
             <title>This Trash-Sorting Robot Could Revolutionize Recycling</title>
@@ -131,7 +131,7 @@
         </annotation>
 
         <!-- 4 -->
-        <citation style="MLA">
+        <citation style="IEEE">
             <author> H.G. Barrow </author>
             <author>J.M. Tenenbaum </author>
             <author>R.C. Bolles </author>
