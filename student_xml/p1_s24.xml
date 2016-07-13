@@ -49,28 +49,26 @@
 
         <annotation>
             <!-- can include <q> element(s) for quoted material -->
-            <background type="source">The aptly named Science Nordic is an independent news site,
-                focused on the coverage of scientific developments in Nordic countries. As such, the
-                coverage of automated waste assortment in Norway fits nicely into the domain of the
-                website. </background>
+            <background type="source"> Science Nordic is an independent news site, focused on the
+                coverage of scientific developments in Nordic countries. As such, their coverage of
+                automated waste assortment in Norway fits nicely into the domain of the website. </background>
             <summary type="general">A broad overview is given of new waste sorting technology at a
                 waste disposal plant on the outskirts of Oslo. In addition to providing coverage of
                 the capabilities of the plant (in sorting between plastic and food waste), the
                 article also refers back to failures in similar technology that had been attempted
                 in the 1980s.</summary>
-            <summary type="approach">Although the implementations of the more primitive trash
-                sorting robots dealt heavy costs to governments with little returns, the state of
-                spectrography, infra-red sensors and hardware improvements have improved
-                significantly. </summary>
+            <summary type="approach">With improvements in spectrography, infra-red sensors and
+                hardware it seems the Oslo plant has found its solution. </summary>
             <summary type="interpretation">The article carries a hopeful tone both for the future of
                 the Oslo plant, and for similar technologies in the world at large. </summary>
             <relevance type="value_stmt">Given the success of the technology in question, both in
                 Norway and in other countries, one would hope that in 2016 this system for waste
-                management would be ubiquitous and expanded upon. There is no evidence to suggest
-                that this is the case, making the technology discussed still of pinnacle importance. </relevance>
-            <relevance type="application">As such, the Oslo plant's sorting methods could work as a
-                good example for engineers to take inspiration from in addition to communities who
-                may be seeking to implement similar technologies. </relevance>
+                management would be ubiquitous and expanded upon. There is little evidence to
+                suggest that this is the case, making the technology discussed still of pinnacle
+                importance. </relevance>
+            <relevance type="application"> Communities scouting to find functional technologies for
+                their waste processing could find inspiration from the Oslo plant discussed.
+            </relevance>
         </annotation>
 
         <!-- 2 -->
@@ -84,59 +82,73 @@
         </citation>
 
         <annotation>
-            <background type="author">The paper's authors are a group of multidisciplinary engineers
-                based out of Bangladesh's Chittagong University and the University of Rajshashi. The
-                talent of the engineers speaks for itself through the in-depth technical details
-                provided on how they sought to address the automated sorting of recyclable
-                goods.</background>
+            <background type="author">The paper's authors are a group of engineers based out of
+                Bangladesh's Chittagong University and the University of Rajshashi. The authors
+                present an in-depth technical report on how they sought to address the automated
+                sorting of recyclable goods.</background>
             <summary type="general">The paper is broken into eight sections. The authors open with a
-                broad overview of the world's waste problem, followed by visual representations of
-                potential resources that could be harvested from this waste. They then delve into
-                the fine level details of their sorting system (capable of identifying paper, metal,
-                glass and plastic), before resurfacing in the last three sections to discuss future
-                plans, comparative studies and general conclusions. </summary>
-            <summary type="approach">The technical solution -- detailed in sections three, four and
-                five -- discusses a replicable system of OP Amps, IR, LDR, and several other
-                components accompanied by flowcharts and explanations. </summary>
+                broad overview of the world's waste problem, followed by discussion of potential
+                resources that could be harvested from this waste. They then delve into the fine
+                level details of their sorting system before resurfacing in the last three sections
+                to critique their project. </summary>
+            <summary type="approach">The technical solution -- detailed in sections three to five --
+                discusses a replicable system of OP Amps, IR, LDR, and other components accompanied
+                by flowcharts and explanations. </summary>
             <summary type="interpretation">Although the project in question doesn't address the
                 issue of waste storage through a particularly novel approach, it is a logical one,
                 and is fit for the task at hand. </summary>
-            <relevance type="value_stmt">Undeniably there are many obvious grammatical issues
-                present in the text, however to dismiss the work for such a triviality would be a
-                mistake. A well researched and technically challenging solution to a serious problem
-                is put on display that is worth consideration. </relevance>
-            <relevance type="application">Any engineers looking for a highly detailed report on
-                creating a control flow to develop a similar sensor based system could gain insight
-                from reading this paper.</relevance>
+            <relevance type="value_stmt">The issues with grammar in the paper are far outweighed by
+                the technically challenging solution to a serious problem that is put on display. </relevance>
+            <relevance type="application">Engineers looking for a highly detailed report on creating
+                a control flow to develop sensor based systems can gain insight from this
+                paper.</relevance>
         </annotation>
 
         <!-- 3 -->
         <citation style="MLA">
-            <author> </author>
-            <ref/>
-            <title/>
+            <author>Kelsey Campbell-Dollaghan</author>
+            <ref>http://gizmodo.com/this-trash-sorting-robot-could-revolutionize-recycling-511989613</ref>
+            <title>This Trash-Sorting Robot Could Revolutionize Recycling</title>
         </citation>
 
         <annotation>
-            <background type="author"/>
-            <background type="source"/>
-            <summary type="approach"/>
-            <summary type="general"/>
+            <background type="author">Campbell-Dollaghan, a popular Gizmodo contributor, details an
+                innovative approach to waste sorting specifically outfitted for use on construction
+                sites created by ZenRobotics.</background>
+            <summary type="general">Campbell-Dollaghan references information made public by the
+                company to highlight both the innovation in market, and in methodology used by
+                ZenRobotics. The article opens by making the staggering point that the construction
+                center is responsible for a third of all waste created. By reintroducing the
+                materials from active demolition cites into future projects, this number could be
+                successfully and profitably lessened.</summary>
+            <summary type="approach">Of particular interest in the article is the approach taken by
+                ZenRobotics. Rather than using the more conventional servos to merely push or drop
+                waste into different bins, the system relies upon a mobile arm to grab waste from a
+                conveyor belt and sort it accordingly. </summary>
             <summary type="interpretation"/>
-            <relevance type="application"/>
-            <relevance type="value_stmt"/>
+            <relevance type="value_stmt">What the source seems to lack is critical insight into the
+                more nuanced potential of the system in question. As a result, it comes across more
+                as a public service announcement for social media than as a serious intellectual
+                investment. </relevance>
+            <relevance type="application">Engineers looking to think outside the box can certainly
+                find inspiration from within the lines of this text, however if they seek more
+                in-depth knowledge they should visit the ZenRobot's website.</relevance>
         </annotation>
 
         <!-- 4 -->
         <citation style="MLA">
-            <author> </author>
-            <ref/>
-            <title/>
+            <author> H.G. Barrow </author>
+            <author>J.M. Tenenbaum </author>
+            <author>R.C. Bolles </author>
+            <author>H.C. Wolf </author>
+            <title>Parametric Correspondence and Chamfer Matching: Two New Techniques for Image
+                Matching</title>
         </citation>
 
         <annotation>
-            <background type="author"/>
-            <background type="source"/>
+            <background type="author">The authors in question are all published and highly
+                referenced members of the artifical intellegence community. In this instance
+            they use their knowledge of the field to </background>
             <summary type="approach"/>
             <summary type="general"/>
             <summary type="interpretation"/>
