@@ -125,7 +125,6 @@
                 ZenRobotics. Rather than using the more conventional servos to merely push or drop
                 waste into different bins, the system relies upon a mobile arm to grab waste from a
                 conveyor belt and sort it accordingly. </summary>
-            <summary type="interpretation"/>
             <relevance type="value_stmt">What the source seems to lack is critical insight into the
                 more nuanced potential of the system in question. As a result, it comes across more
                 as a public service announcement for social media than as a serious intellectual
@@ -147,13 +146,24 @@
 
         <annotation>
             <background type="author">The authors in question are all published and highly
-                referenced members of the artifical intellegence community. In this instance
-            they use their knowledge of the field to </background>
-            <summary type="approach"/>
-            <summary type="general"/>
-            <summary type="interpretation"/>
-            <relevance type="application"/>
-            <relevance type="value_stmt"/>
+                referenced members of the artificial intelligence community. In this instance, they
+                use their knowledge of the field to discuss two areas of computer
+                vision.</background>
+            <summary type="general"> By combining parametric correspondence and chamfer matching,
+                the researchers demonstrated a means by which a camera can automatically reorientate
+                itself to a predetermined setting. </summary>
+            <summary type="approach"> The paper addresses parametric correspondence as being the
+                ability to distinguish the offset of an image by referencing small predetermined
+                landmarks. These landmarks are identified through the use of chamfer matching.
+                Chamfer matching was used to identify these landmarks due to its fast
+                computation speed and resistance to lighting disturbances.</summary>
+            <summary type="interpretation">Although the methods discussed have the failing of a high
+                error rate in certain applications, they could be a vital tool under the right
+                conditions.</summary>
+            <relevance type="value_stmt">The credentials of the authors speak for themselves, as
+                they make a highly complex topic both informational and accessible.</relevance>
+            <relevance type="application">This paper serves as a strong display of how engineers
+                might think about object recognition in a slightly unorthodox manner.</relevance>
         </annotation>
 
         <!-- 5 -->
