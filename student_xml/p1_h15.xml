@@ -133,8 +133,8 @@
             <summary type="approach">Basic principles include a clear presentation of goals,
                 rewards, low learning curve, and motivational feedback. Adjusting difficulty in
                 response to improvement encourages users to continue play for mastery. Additionally,
-                use of a simple interface (muted colors, low sounds) is important “to avoid
-                cognitive overload and fatigue.” Multiplayer introduces a social aspect that
+                use of a simple interface (muted colors, low sounds) is important <q>to avoid
+                    cognitive overload and fatigue.</q> Multiplayer introduces a social aspect that
                 promotes collaboration and increases interest. It also induces competition, which
                 engages and entertains the user. Presenting varied tasks, tailoring genres, and
                 introducing storylines helps to break the monotony of the exercises. </summary>
@@ -153,13 +153,22 @@
                 &amp; Biorobotics Emerging Therapies in Neurorehabilitation</title>, 287-303.
             doi:10.1007/978-3-642-38556-8_15</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <relevance type=""> </relevance>
+            <background type="source"> A section in “Emerging Therapies in Neurorehabilitation
+                (Biosystems &amp; Biorobotics)”, a book on the technological advances and practices
+                in neuro-rehabilitation, </background>
+            <summary type="general"> this piece discusses how the Microsoft Kinect, a platform that
+                uses depth-sensing cameras, can be used in motor-related rehabilitation. Flexible
+                Action and Articulated Skeleton Toolkit (FAAST) is a middleware that maps body
+                movements from the Kinect skeleton to controls in games and VR applications. This
+                allows clinicians to map desired movements and adjust sensitivities to existing
+                games to match the patient’s needs and preferences. MiddleVR is another middleware
+                platform that can be integrated with the Kinect to integrate with custom games
+                created in Unity, an open-source game development engine. </summary>
+            <relevance type="application">Overall, this piece shows techniques on using middleware with the
+                Kinect to adjust existing games or integrate custom games for mobile rehabilitation.
+                Northeastern’s ReGame VR Lab is in the process of conducting studies on children
+                with cerebral palsy by creating tailored VR Kinect video games, so the techniques in
+                this article can be applied in a similar setting.</relevance>
         </annotation>
     </annotated_bib>
 
