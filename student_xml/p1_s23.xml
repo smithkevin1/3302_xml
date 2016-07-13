@@ -39,7 +39,7 @@
             <author n="1">Ylinen, A.</author>, <author>Tahkamo, L.</author>, <author>Puolakka,
                 M.</author>, &amp; <author>Halonen, L.</author> (2011, July). <title>Road lighting
                 quality, energy efficiency, and mesopic design - LED street lighting case
-                study.</title> General OneFile. Retrieved July 11, 2016.</citation>
+                study.</title> General OneFile. Retrieved July 11, 2016. </citation>
         <annotation>
             <background type="author"> This article written by doctoral candidates from Aalto
                 University for publication through the Illuminating Engineering Society discusses
@@ -153,6 +153,37 @@
                 choose to live as well).</relevance>
         </annotation>
 
+        <citation style="APA"><author>Gil-De-Castro, A.</author>, <author>Moreno-Munoz, A.</author>,
+                <author>Larsson, A.</author>, <author>Rosa, J. D.</author>, &amp; <author>Bollen,
+                M.</author> (2012, May). <title>LED street lighting: A power quality comparison
+                among street light technologies.</title> Lighting Research and Technology, 45(6),
+            710-728. doi:10.1177/1477153512450866 </citation>
+        <annotation>
+            <background type="author"> This is a technical paper published by the Society of Light
+                and Lighting, and composed by a team of PhDs in the department of computer
+                architecture, and electronics and electronic technology at the University of
+                Cordoba. <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="approach"> Naturally, this is a very technical heavy reading with a very
+                methodical approach describing their research. The authors make good use of tables
+                and visual representations of their findings, which is helpful in understanding the
+                text accompanying their work. This article describes the ‘how’ involved in upgrading
+                street lighting. Like most, they expand upon LED lights in particular, and consider
+                LEDs the only option for retro fitting street lights. However to give credibility to
+                their study, they also engage the reader in the idea of electromagnetic and
+                electronic ballast assisted HPS lamps as a possible adaptation that could be made to
+                classic city street lights. The also experimented with an installed LED street lamp,
+                studying the current, voltage, wattage, and harmonics. This in order to understand
+                how a LED lamp would function as a street light and what possible shortcomings it
+                may have. They also reference other studies similar to compare to their own
+                conclusions. <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type="application"> This is a science heavy research paper that discusses
+                important points involved in the viability of LEDs. It communicates on a technical
+                level exactly why LEDs can be challenging to implement and what exactly makes
+                transitioning to LEDs city wide such a high capital expense. However it is presents
+                an airtight argument for LEDs over the existing HPS lamps. </relevance>
+        </annotation>
 
     </annotated_bib>
 
