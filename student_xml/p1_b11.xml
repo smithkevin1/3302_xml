@@ -11,26 +11,120 @@
     </docHead>
     
     <annotated_bib>
-        <problem_stmt>
+        <problem_stmt> The web app Northeastern uses to help students search for co-ops is
+            antiquated. The tools used to navigate the site are lackluster and the whole service suffers
+            from poor contributer (co-op providers) input. It is important to focus on the issue being one of
+            usability and interface quality rather then this being a back end problem. This meaning the issue is primarily 
+            related to the aspects of the web service that the user can see and interact with (or not in the case of a lack of features).
             <!--problem statement here-->
-            
         </problem_stmt>
+        
         <citation style="MLA">
             <author>Julie M. Rinder</author>
             <ref>https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/12257/Rinder2012.pdf?sequence=1</ref>
             <title>The Importance of Website Usability Testing</title>
+            <!-- Rinder, Julie M. The Importance of Website Usability Testing. University of Oregon, 12 July 2012. 
+                Web. 11 July 2016. <https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/12257/Rinder2012.pdf?sequence=1>.-->
         </citation>
         <annotation>
-            <background type="">
+            <background type="">Rinder's capstone report brings together a large collection
+                of professional works regarding the history of website usability and the actual 
+                process of testing it. The author brings this to us in the form of a scholarly annotated bibliography
+                This University of Oregon report also provides us with a large scope
+                of website usability, including recent influences on web usability all the way through how these can be 
+                discovered. 
                 <!-- can include <q> element(s) for quoted material -->
             </background>
-            <summary type="">
+            <summary type="">The Importance of Website Usability starts off with a strong idea: that
+                perceived usability is key to user satisfaction. Rinder often takes a business focused lens
+                when discussing usability and why it is important, the ideas are relevant to all circles. The report outlines
+                the criteria it used for sources, including looking for authority and quality. After the bulk of the report consisting of
+                annotated bibliographies, Rinder has a lengthy conclusion, breaking down what the author considers to be the defining 
+                principles of usability, comparing and contrasting other authors ideas and often noting the similarities. The majority of his analytical 
+                work comes in the conclusion, and it focuses heavily on the importance and process of reliable testing.
                 <!-- can include <q> element(s) for quoted material -->      
             </summary>
-            <relevance type="">    
+            <relevance type=""><q>Users use and return to websites if they can easily find useful information-in other words,
+                the acceptability of web applications relies on their usability.</q> This is well said. Unfortunately in some
+                cases, users don't have the choice. If you are looking for compelling reading into why you should appreciate well made
+                web services, look no further. Although Rinder focuses heavily on usability testing rather then the philosophy behind usability, readers may
+                find the conclusion detailing usability more relevant for creating arguments for and how to improve services. 
+            </relevance>
+        </annotation>
+        
+        <citation style="MLA">
+            <author n="1">Rex P. Singular</author>
+            <author n="2">Roselle S. Basa</author>
+            <ref>Journal of Educational Technology and Society 14.4</ref>
+            <title>Factors Affecting Faculty Web Portal Usability</title>
+            <!-- Bringula, Rex P., and Basa, Roselle S. "Factors Affecting Faculty Web Portal Usability."
+                 Journal of Educational Technology & Society 14.4, Advanced Learning Technologies (2011):
+                 253-65. Web. 12 July 2016. <http://www.ifets.info/journals/14_4/21.pdf>. -->
+        </citation>
+        <annotation>
+            <background type="">From the College of Computer Studies and Systems, University of 
+                East-Manila, Philippines, Singular and Basa investigate what can impact web portal usability. 
+                The results of their research were intended to aid the university's online services, specifically in the
+                interest of developing new ones.
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type=""> The article takes an analytical approach to different paradigms explaining
+                the common low usability of web services. The two authors look at a number of publications that 
+                analyze similar topics and add to previous work in the field. Similar to other medium analysis work, the two
+                authors develop their own principles of web design and go into an in-depth explanation of each. The authors also
+                provide evidence for a number of original thesis relevant to the development of faculty and staff web portals
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type=""> As outlined in preface of their research, the majority of the authors claims are targeted at university
+                web portals for faculty and students. If this is what you are researching, this is paper is loaded with relevant original data and analysis.
+                That should not discourage other researchers. The two authors make a number of important queries into the effects of images and layouts to navigability,
+                which could be applied to any web service. The data the two authors collected is gathered mostly from tech savy masters students, which presents a clear bias. 
+                Although that may be unavoidable at such a technical college. Despite this the research is valuable and the authors make a number
+                of interesting arguments throughout the piece that anyone interested in digital interfaces would benefit from reading. 
+            </relevance>
+        </annotation>
+        
+        <citation style="MLA">
+            <author n="1">Alexiei Dingli</author>
+            <author n="2">Sarah Cassar</author>
+            <ref>http://www.hindawi.com/journals/ahci/2014/479286/</ref>
+            <title>An Intelligent Framework for Website Usability</title>
+            <!-- Dingli, Alexiei, and Sarah Cassar. "An Intelligent 
+                Framework for Website Usability." An Intelligent Framework for
+                Website Usability. Department of Intelligent Computer Systems, 
+                Faculty of ICT, University of Malta, Malta, 14 Apr. 2014. Web. 
+                12 July 2016. <http://www.hindawi.com/journals/ahci/2014/479286/>. -->
+        </citation>
+        <annotation>
+            <background type=""> The introduction to this article discusses a very common
+                theme among web design research; websites play a central role in modern
+                marketing. Specifically that one time, it was enough to just own a website, but now that website
+                are forced to compete vigorously. This paradigm influences the majority of the piece, and 
+                and provides the reader with a valuable bare bones history.
+                
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type=""> 
+                The meat of article is the discussion surrounding the technical elements and
+                procedures to automate usability. The authors suggest discuss a number of empirical
+                testing methods and already available analysis tools. The articles can be summed up with this: 
+                <q>As a means of assisting website designers in developing usable websites, the aim of this paper 
+                    is to present a tool which automates the process of website usability evaluation in order to eliminate the current 
+                    obstacles preventing this process from being exercised in practice. </q>
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type=""> Despite the overwhelming majority of the article being a discussion about automated 
+                usability testing, this article has a number valuable outlines regarding what is expected of usability, referencing
+                a number of previously existing standards. Although the bulk of the tools listed and the discussion itself 
+                is oriented at an professional audience, anyone can benefit from reading this article by internalizing the paradigms that
+                influenced it. 
             </relevance>
         </annotation>
     </annotated_bib>
+    
+    
+    
+    
     
     
     <docReview>
