@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project 1: Annotated Bibliography</title>
         <author xml:id="p1_s23">Monica Salas</author>
-        <version n="01" date="2016-07-03"/>
+        <version n="1" date="2016-07-03"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
 
@@ -90,9 +90,9 @@
         </annotation>
 
 
-        <citation style="APA">Samuels, R. (1995). Defensible Design and Management- University
-            Campuses Final Report. Department of Employment, Education and Training, Commonwealth of
-            Australia. Retrieved July 11, 2016. </citation>
+        <citation style="APA"><author>Samuels, R.</author> (1995). <title>Defensible Design and
+                Management- University Campuses Final Report.</title> Department of Employment,
+            Education and Training, Commonwealth of Australia. Retrieved July 11, 2016. </citation>
         <annotation>
             <background type="source"> Samuels conducted an investigation on factors contributing to
                 safety on university campuses for the department of Employment, Education and
@@ -117,15 +117,40 @@
                 Samuels makes are very relatable to Northeastern’s campus. </relevance>
         </annotation>
 
-        <citation style=""/>
+
+        <citation style="APA"><author>Tucker, L. E.</author> (2003, March). <title>Safer Stops for
+                Vulnerable Customers.</title> National Center For Transit Research (NCTR). Retrieved
+            July 11, 2016. </citation>
         <annotation>
-            <background type="">
+            <background type="source"> Lisa Tucker, a research associate for the National Center for
+                Transit Research (NCTR) wrote this text for the U.S. Department of Transportation in
+                order to express the NCTR’s concerns about the lack of lighting and safety
+                precautions at public bus stops.
                 <!-- can include <q> element(s) for quoted material -->
             </background>
-            <summary type="">
+            <summary type="general"> Tucker takes a professional approach discussing the feelings of
+                insecurity expressed by public transit patrons because of the lack of upkeep of bus
+                stops. The biggest complaint of these patrons is poor lighting at stops. Tucker
+                focuses mainly on “vulnerable” patrons, namely women, children, seniors, and
+                disabled people. She notes that most cases of violence involved in public
+                transportation do not occur in busses or trains, but on peoples’ commutes to and
+                from these modes of public transportation. Tucker bases her findings on data
+                collected by several different national surveys and speaks on the similarities of
+                their findings. By posing older women and other less defensible patrons as a victim
+                to their feelings of danger, Tucker frames improvements to transit stops as an
+                investment in the quality of life of transit users.
                 <!-- can include <q> element(s) for quoted material -->
             </summary>
-            <relevance type=""> </relevance>
+            <relevance type="application"> This report poses an interesting focus on the importance
+                of lighting public areas. Boston has a particularly high number of crimes that occur
+                in MBTA stations and bus stops. These crime rates are even higher in neighborhoods
+                that are home to low income families purely because of peoples’ greater dependency
+                on the MBTA in these neighborhoods. The article mentions how many vulnerable patrons
+                opt for taking buses rather than walking to their destinations because it is the
+                lesser of two dangerous situations at night; the same can likely be said about
+                Boston citizens who are commuting to and from outer neighborhoods like Roxbury
+                Crossing, Jamaica Plain, and Dorchester (which is coincidentally where many students
+                choose to live as well).</relevance>
         </annotation>
 
         <citation style=""/>
