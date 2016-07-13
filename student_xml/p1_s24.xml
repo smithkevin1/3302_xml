@@ -40,12 +40,12 @@
             reach our landfills does so safely. </problem_stmt>
 
         <!-- 1 -->
-        <citation n="1" style="APA">
+        <citation n="1" style="MLA">
             <author n="1"> Unni Eikeseth </author>
             <author n="2"> Chris Veløy </author>
             <ref>http://sciencenordic.com/machines-are-better-people-sorting-household-trash</ref>
             <title>Machines are better than people at sorting household trash</title>
-        </citation>
+            Sciencenordic.com. N.p., 03 April 2013. Web. 12 July 2016. </citation>
         <annotation>
             <!-- can include <q> element(s) for quoted material -->
             <background type="source"> Science Nordic is an independent news site, focused on the
@@ -102,19 +102,19 @@
         </annotation>
 
         <!-- 3 -->
-        <citation n="3" style="APA">
+        <citation n="3" style="MLA">
             <author n="1">Kelsey Campbell-Dollaghan</author>
             <ref>http://gizmodo.com/this-trash-sorting-robot-could-revolutionize-recycling-511989613</ref>
-            <title>This Trash-Sorting Robot Could Revolutionize Recycling</title>
-        </citation>
+            <title>This Trash-Sorting Robot Could Revolutionize Recycling</title> Gizmodo.com. 06
+            June 2013. Web. 12 July 2016. </citation>
         <annotation>
             <background type="author">Campbell-Dollaghan, a popular Gizmodo contributor, details an
                 innovative approach to waste sorting specifically outfitted for use on construction
                 sites created by ZenRobotics.</background>
-            <summary type="general">The article opens by making the staggering point that the construction
-                center is responsible for a third of all waste created. By reintroducing the
-                materials from active demolition cites into future projects, this number could be
-                successfully and profitably lessened.</summary>
+            <summary type="general">The article opens by making the staggering point that the
+                construction center is responsible for a third of all waste created. By
+                reintroducing the materials from active demolition cites into future projects, this
+                number could be successfully and profitably lessened.</summary>
             <summary type="approach">Of particular interest in the article is the approach taken by
                 ZenRobotics. Rather than using the more conventional servos to merely push or drop
                 waste into different bins, the system relies upon a mobile arm to grab waste from a
