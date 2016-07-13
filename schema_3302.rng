@@ -466,10 +466,10 @@
                     and source</a:documentation>
                 <choice>
                     <value>author</value>
-                    <a:documentation>Information pertaining to the author or authors of the source
+                    <a:documentation>(author background) nformation pertaining to the author or authors of the source
                         (credentials, education, profession, etc.)</a:documentation>
                     <value>source</value>
-                    <a:documentation>Information pertaining to the source (publication information,
+                    <a:documentation>(source background) nformation pertaining to the source (publication information,
                         popularity, etc.)</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
