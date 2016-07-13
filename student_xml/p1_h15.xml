@@ -98,13 +98,22 @@
                 NeuroEngineering and Rehabilitation</title>, 1(1), 10.
             doi:10.1186/1743-0003-1-10</citation>
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <relevance type=""> </relevance>
+            <background type="author">The author is a professor at the University of Ottawa Brain
+                and Mind Institute at the University whose focus is on traumatic brain injury,
+                innovative rehabilitation techniques, and motor learning. </background>
+            <summary type="general"> The article discusses various studies and different VR
+                strategies implemented by them. These include strategies targeting the following:
+                balance and posture using a fixed bicycle, posture platform, flat VR display, and
+                video-capture systems from VividGroup’s GX or IREX; locomotion using GaitMaster2 (a
+                technology that gives the user the illusion of forward movement), and a virtual
+                environment to track walking trajectories; and upper/lower extremities using a
+                CyberGlove (motion capturing glove) and Rutgers ankle/hand systems; exercise and
+                pain tolerance with a mounted bicycle and virtual scene. </summary>
+            <relevance type="application">The article is important in that it sites technologies
+                already used in VR motor-related rehabilitation, which can be implemented in other
+                settings. </relevance>
+            <relevance type="value_stmt">Additionally, it references real cases in which the
+                technology showed promise compared to regular therapies.</relevance>
         </annotation>
 
         <!-- Citation 4 -->
