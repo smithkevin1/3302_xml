@@ -24,14 +24,14 @@
         
         <annotation> 
             <background type="author">
-                The World Health Organization was established in 1948 and is now the leading internation source of public health information. <!-- can include <q> element(s) for quoted material -->
+                The World Health Organization was established in 1948 and is now the leading international source of public health information. <!-- can include <q> element(s) for quoted material -->
             </background> 
             <background type="source">
                 This particular piece by the WHO is valuable to many as it is an update to a previous, popular study on the health effects associated with air pollution.
             </background>
             
             <summary type="approach">
-                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to get pinpoint the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
+                While this article remains broad in the exact location of its studies, it uses advanced technological tools such as <q>satellite data, ground-level monitoring measurements and data on pollution emissions from key sources</q> to pinpoint the dispersion of airborne pollutants. <!-- can include <q> element(s) for quoted material -->      
             </summary>
             <summary type="general"> 
                 This update to a study conducted in 2012 on the relationship between air pollutants and various diseases shows that the current situation is worse than previously thought. In particular, this study outlines how the most voulnerable groups to air pollution, children and the elderly, are the most exposed to it due to their more stagnant lifestyle. 
@@ -40,9 +40,9 @@
                 While the statistics in this study generally speak for themselves, it is worth pointing out that the sources of the pollutants do not effect all people equally. For this reason, it is important to understand the actual externality dispersion so that our portions of the burden are put into perspective.
             </summary>
             
-            <relevance type="application"> There are many application of this article. However, first and foremost, it is to be used to set the groundwork for any arguement regarding public health as it related to air pollution. No arguement can be formed without first establishing the concrete relationship between airbourne pollutants and public health issues.    
+            <relevance type="application"> There are many application of this article. First and foremost, it is to be used to set the groundwork for any arguement regarding public health as it related to air pollution. No arguement can be formed without first establishing the concrete relationship between airbourne pollutants and public health issues.    
             </relevance>
-            <relevance type="value_stmt"> The fact that this artice represents an update to a study should only provide more reader confidence in the World Health Organization. Although he origional statement made in 2012 had to be updated, the fact that they are on an ever expanding search for information makes their input paramount to any legitimate claim on the current state of worldwide air quality.                
+            <relevance type="value_stmt"> The fact that this article represents an update to a study should only provide more reader confidence in the World Health Organization. Although the origional statement made in 2012 had to be updated, the fact that they are on an ever expanding search for information makes their input paramount to any legitimate claim on the current state of worldwide air quality.                
             </relevance>
         </annotation>
         
@@ -54,7 +54,7 @@
             <author>Israel, B. </author>
             (2012, November 16).
             <title> Coal plants smothering communities of color, report finds </title>.
-            <author>. The Daily Climate. </author>.
+            <author>The Daily Climate </author>.
             Retrieved from <ref>http://www.dailyclimate.org/tdc-newsroom/2012/11/coal-power-injustice</ref>
         </citation> 
         
@@ -77,7 +77,7 @@
             </summary>
             
             <relevance type="application">  
-                Facts stated by this article must be taken into consideration by anyone evaluation the demographics associated with diseases related to air pollution.
+                Facts stated by this article must be taken into consideration by anyone evaluating the demographics associated with diseases related to air pollution.
             </relevance>
             <relevance type="value_stmt">  
                 Although the study evaluated by this piece was racially driven, the numbers associated with it can be utilized to obtain conclusions not explicitly stated by The Daily Climate.
@@ -125,7 +125,7 @@
         
         <citation style="APA">
             <author>BlueWave Capital.</author>
-            . (2016, January 21).
+             (2016, January 21).
             <title>BlueWave, Partners with Massachusetts’ Avidia Bank to Deliver Premium Home Solar Loan Product</title>
             . Retrieved from <ref>http://bluewave-capital.com/?p=2742</ref>
         </citation> 
@@ -135,11 +135,11 @@
                 BlueWave Capital is a solar developer based in Boston founded by John DeVillars. Mr. DeVillars has been a lifelong advocate for environmental protection.<!-- can include <q> element(s) for quoted material -->
             </background> 
             <background type="source">
-                BlueWave published this article, themselves. They can be held accountable for all economic claims made within said article. With the intense scrutiny on solar right now, no developer would make any claims that cannot be confidently backed up
+                BlueWave published this article themselves and can therefore be held accountable for all economic claims made within it.
             </background>
             
             <summary type="approach">
-                This source makes clear the economic benefit behind solar energy that is currently available in Massachusetts. BlueWave was sure to mention <q>the launch of its Home Solar Loan, a product that offers residents the opportunity to reduce their electricity bills by up to 50%+ with a rooftop solar installation</q><!-- can include <q> element(s) for quoted material -->      
+                This source makes clear the economic benefit behind solar energy that is currently available in Massachusetts. BlueWave was sure to mention <q>the launch of its Home Solar Loan, a product that offers residents the opportunity to reduce their electricity bills by up to 50%+ with a rooftop solar installation</q>. <!-- can include <q> element(s) for quoted material -->      
             </summary>
             <summary type="general">  
                 By installing solar on one’s roof, one may reduce their yearly electricity bill greatly. BlueWave also offers a community Solar program that allows people to purchase their electricity from a large scale solar array at a discount of approximately 10%. 
@@ -173,14 +173,12 @@
                 SunEdison is a solar developer that has been in business since the beginning of the solar boom. They have been through many ups and downs as a company but their experience cannot be overstated. <!-- can include <q> element(s) for quoted material -->
             </background> 
             <background type="source">
-                This piece found on SunEdison’s blog takes the lessons learned from past experience as takes out case specific events to generate the overarching benefits solar has to college campuses. 
+                This piece found on SunEdison’s blog takes the lessons learned from past experience and takes out case-specific events to generate the overarching benefits solar has to college campuses. 
             </background>
             
-            <summary type="approach">
-                By approaching the environmental, social, and economic aspects of solar equally, SunEdison is sure to make a sustainability-based argument. <!-- can include <q> element(s) for quoted material -->      
-            </summary>
+            
             <summary type="general"> 
-                SunEdison primarily focuses on the social and economic incentives to adopt solar as a university. They outline how young adults are getting more and more interesting in renewable energy and sustainability.
+                SunEdison primarily focuses on the social and economic incentives to adopt solar as a university. They outline how young adults are getting more and more interested in renewable energy and sustainability.
             </summary>            
             <summary type="interpretation">   
                 By providing a school with a means to incur increased applications, SunEdison has appealed to schools capitalistic side, which is normally the most difficult and important aspect of persuasion in the solar market.
