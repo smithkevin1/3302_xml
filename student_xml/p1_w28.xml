@@ -6,13 +6,13 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Annotated Bibliography</title>
         <author xml:id="your_id_here">Samantha Wagner</author>
-        <version n="1" date="2016-07-12"/>
+        <version n="3" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
 
     <annotated_bib>
         <problem_stmt>
-            <!--problem statement here-->
+            If you have ever lived in a apartment, worked in an office, went to a grocery store or visited a museum you have interacting with the work of architects and engineers. Although it is common to pay little attention to the structures around you, these buildings, bridges and roadways play such a crucial part of how you live every day. Boston is a city of beautiful old buildings. Brown stone homes and shops line our streets. Ornate works of art such as the YMCA stand on our campus. However, these structures are failing, as all old buildings do. The stairs and floors are sagging. The walls are crumbling and the beams are splintering. What these buildings need is a little bit of attention. Unfortunately people do not want to do is invest in a fixer upper. Institutions like Northeastern and property management companies such as Alpha Realty would rather use a building until it is unsafe and condemned. They would rather knock it down and build an efficient utilitarian cinderblock box that will make them profit rather than invest in a piece of history or work to increase the aesthetic value of our beautiful city. When we look to countries like Germany, Switzerland, and France we see numerous examples of old buildings that were preserved and modernized while still maintaining the historical significance of the structure. It is my hope to one day work in an industry that is not simply about demolition and new construction, but one that can take the essence of a beautiful old thing and make it safe and great again.
         </problem_stmt>
         <citation n="1" style="MLA">
             <author n="1">Costa, Aníbal</author>, and <author n="2">João Miranda Guedes</author>.
