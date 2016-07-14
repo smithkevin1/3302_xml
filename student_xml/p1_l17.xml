@@ -4,35 +4,98 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Project 1-Annotated Bibliography</title>
+        <author xml:id="l17">Sam Lazer</author>
+        <version n="1" date="2016-07-13"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <annotated_bib>
-        <problem_stmt>
-            <!--problem statement here-->
-        </problem_stmt>
-        <citation style=""/>
+        <problem_stmt> In the US, every ten years states redraw the boundaries of voting districts
+            to conform with the most recent census data. Gerrymandering is the intentional and
+            strategic drawing of voting district boundaries to diminish your political rivals'
+            influence. This can be done by either "packing" a district by relegating a large group
+            of demographically similar people into only a few districts where they make up a
+            majority, or by "cracking" a group by dispersing them between many districts so they
+            never constitute a large enough portion of a constituency to win. This practice
+            deliberately undermines our intended system of representative government. However, with
+            the advent of the computer and the compilation of detailed demographic information into
+            digital databases such as GIS (geographic information system) the use of what are
+            conventionally engineering methods has been suggested as a way to mitigate this. Through
+            the marriage of data optimization with the political process steps can be taken toward
+            depoliticizing a task that should simply be an unbiased and mundane piece of
+            housekeeping to keep our democracy functioning properly. </problem_stmt>
+
+
+        <citation n="1" style="APA">
+            <author n="1">Olson, B.</author> (2016, June). <title level="a">Brian Olson: Engineering
+                Elections Without Bias</title> [Video file]. Retrieved from
+            http://tedxtalks.ted.com/video/engineering-elections-without-b </citation>
+
         <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
+            <background type="author"> Olson is a software engineer at PatientsLikeMe. He has been
+                working on redistricting software for over a decade. </background>
+            <summary type="general"> </summary>
+            <relevance type="value_stmt"> </relevance>
+        </annotation>
+
+
+        <citation n="2" style="APA">
+            <author n="1">Altman, M.</author> , &amp; <author n="2">McDonald, M. P.</author> (2011,
+            January). <title level="a">The dawn of do-it-yourself redistricting? Online software
+                puts redistricting tools in the hands of the public</title> . <title level="j"
+                >Campaigns and Elections</title> [2010], 32(1), 38+. </citation>
+
+        <annotation>
+            <background type="source"> Published in a periodical for professional political
+                consultants. </background>
+            <summary type="general"> </summary>
+            <relevance type="value_stmt"> </relevance>
+        </annotation>
+
+
+        <citation n="3" style="APA">
+            <author n="1"> </author>
+            <title level="a"> </title>
+        </citation>
+
+        <annotation>
+            <background type="author"> </background>
+            <summary type="general"> </summary>
+            <relevance type="value_stmt"> </relevance>
+        </annotation>
+
+
+        <citation n="4" style="APA">
+            <author n="1"> </author>
+            <title level="a"> </title>
+        </citation>
+
+        <annotation>
+            <background type="author"> </background>
+            <summary type="general"> </summary>
+            <relevance type="value_stmt"> </relevance>
+        </annotation>
+
+
+        <citation n="5" style="APA">
+            <author n="1"> </author>
+            <title level="a"> </title>
+        </citation>
+
+        <annotation>
+            <background type="author"> </background>
+            <summary type="general"> </summary>
+            <relevance type="value_stmt"> </relevance>
         </annotation>
     </annotated_bib>
-    
-    
+
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
-    
+
 </DOC>
