@@ -19,31 +19,36 @@
             majority of its renewable energy if it is to eventually become 100% dependent on
             sustainable sources. In order to achieve this goal, renewable energy sources must become
             economically viable and be able to compete with traditional sources of energy on the
-            open market. </problem_stmt>
+            open market.<note type="instructor">the problem then, as I understand it, is one of
+                economics: making renewable energy sources economically viable (for Boston? in
+                general?).</note>
+        </problem_stmt>
 
         <citation n="1" style="APA"><author>Cusick, Daniel</author> (2013). <title level="a">Fossil
                 Fuel Use Continues to Rise</title>. <title level="j">Scientific American Global
                 RSS</title></citation>
         <annotation>
-            <background type="author"> Daniel Cusick is a reporter for American Scientific who
-                frequently writes about topics concerning the intersection of renewable energy and
-                the economy</background>.<summary type="general">This article comments on the
-                increasing use and dependence on fossil fuel depsite <q>concerted global efforts to
-                    reduce carbon emissions through the expansion of clean and renewable energy
-                    sources</q>. Cusick discusses recent 2012 data that show that reliance on fossil
-                fuels continues to increase, largely due to the increasing urbanization of third
-                world continues and the increase of natural gas production via shale fracking in the
-                U.S.</summary>
+            <background type="author"> Daniel Cusick is a reporter for American Scientific<note
+                    type="instructor">Scientific American</note> who frequently writes about topics
+                concerning the intersection of renewable energy and the economy</background>.
+                <summary type="general">This article comments on the increasing use and dependence
+                on fossil fuel depsite <q>concerted global efforts to reduce carbon emissions
+                    through the expansion of clean and renewable energy sources</q>. Cusick
+                discusses recent 2012 data that show that reliance on fossil fuels continues to
+                increase, largely due to the increasing urbanization of third world continues and
+                the increase of natural gas production via shale fracking in the U.S.<note
+                    type="instructor">this last sentence seems like @type approach (at least part of
+                    it)</note></summary>
             <relevance type="application">This article is mainly a summary of recent fossil fuel
                 production data from 2012 but does offer insight on the reasons behind the increase
                 in fossil fuel consumption as a portion of the total energy market. Energy
                 development remains a business, and traditional sources or energy continue to offer
-                larger profit margines for energy developers and cheaper energy for the average
-                consumer. This article underlines the main obstacle to renewable energy development,
-                which is the economic viability of the energy program. Until sustainable and clean
-                energy sources, such as solar, can compete with fossil fuels on the open market, the
-                world, and especially developing cities, will continue to depend on traditional
-                energy sources.</relevance>
+                larger profit margines<note type="instructor">margins</note> for energy developers
+                and cheaper energy for the average consumer. This article underlines the main
+                obstacle to renewable energy development, which is the economic viability of the
+                energy program. Until sustainable and clean energy sources, such as solar, can
+                compete with fossil fuels on the open market, the world, and especially developing
+                cities, will continue to depend on traditional energy sources.</relevance>
         </annotation>
 
         <citation n="2" style="APA"><title>Renewable Energy Tax Credit</title><title level="w">U.S.
@@ -51,8 +56,10 @@
                 <ref>http://energy.gov/savings/residential-renewable-energy-tax-credit</ref></citation>
         <annotation>
             <background type="source">This information was retrieved from the U.S. Department of
-                Energy's website concerning the tax rebates the U.S. governement offers to those
-                individuals who puchase solar power for their homes or businesses.</background>
+                Energy's website concerning the tax rebates the U.S. governement<note
+                    type="instructor">government</note> offers to those individuals who puchase<note
+                    type="instructor">purchase</note> solar power for their homes or
+                businesses.</background>
             <summary type="general">In order to encourage renewable energy development in the United
                 States, the government voted to extened the tax breaks offered in the Consolidated
                 Appropriations Act of 2015 for those that purchase solar or thermal energy systems
@@ -70,13 +77,17 @@
                 average citizen.</summary>
             <relevance type="application">As there is no guarentee that the U.S. government will
                 renew this tax credit before it expires completely in 2022, it is essential that
-                increased funding be put towards the continued development of solar technolgy. Solar
-                energy can be made more affordable by increasing panel efficiency and the
-                development of large-scale energy storage system capable of supporting urban
-                population centers. By continuing to make solar energy more economical, small scale
-                personal renewable energy development will continue in the United States, which
-                could significantly impact climate change and reduce carbon emissions if enough
-                individuals participate.</relevance>
+                increased funding be put towards the continued development of solar technolgy.<note
+                    type="instructor">I think turning on auto-spell check will be useful going
+                    forward</note> Solar energy can be made more affordable by increasing panel
+                efficiency and the development of large-scale energy storage system capable of
+                supporting urban population centers. By continuing to make solar energy more
+                economical, small scale personal renewable energy development will continue in the
+                United States, which could significantly impact climate change and reduce carbon
+                emissions if enough individuals participate.<note type="instructor">this is a good
+                    topical source for you, it really highlights the economic issues w/r/t renewable
+                    energy (even current subsidies are insufficient or will
+                expire)</note></relevance>
         </annotation>
 
         <citation n="3" style="APA"><author n="1">Yu, J.</author>, <author n="2">Gao, J</author>,
@@ -105,7 +116,10 @@
                 of the panels and reduce their high economic cost. It is important to keep in mind
                 that while the higher efficiencies observed in this study are promising, polymers
                 have yet to be tested on a large scale, which could have a significant impact on the
-                actual effectiveness of the polymers.</relevance>
+                actual effectiveness of the polymers.<note type="instructor">this is a nice
+                    methodology source if you think your approach will be on the tech/development
+                    side of things; it seems slightly unrelated to the tax incentive tact I thought
+                    you were taking based on your first two sources</note></relevance>
         </annotation>
 
         <citation n="4" style="APA"><author>Braff, William Allen</author> (2014),
@@ -159,17 +173,22 @@
                 States.</background>
             <summary type="general">This report specifically focuses on the goal of enhancing energy
                 storage systems to incorporate and support more renewable energy sources, and to
-                make this economical competitive with other technologies performing a similar
-                function. In respect to this goal, the Department of Energy narrowed in on four
-                criteria that must be met for any energy storage system, wich are: <q>cost
-                    competitive storage technology, validated reliability, equitable regulatory
-                    environment and industry acceptance.</q></summary>
+                make this economical<note type="instructor">economically?</note> competitive with
+                other technologies performing a similar function. In respect to this goal, the
+                Department of Energy narrowed in on four criteria that must be met for any energy
+                storage system, wich are: <q>cost competitive storage technology, validated
+                    reliability, equitable regulatory environment and industry
+                acceptance.</q></summary>
             <relevance type="value_stmt">Through this report, it is clear that the Department of
-                Energy (DOE) agrees with the scientific community that their is a significant need to
-                focus on the development of energy storage systems capable of incorporating
+                Energy (DOE) agrees with the scientific community that their is a significant need
+                to focus on the development of energy storage systems capable of incorporating
                 renewable technology while maintaining economic viability. The Department of Energy
                 seeks to catalyze the development of these improved energy systems and is attempting
-                to provide some guidelines and general goals for developers to focus on, as those who work alongside the DOE to achieve its goal are more likely to recieve federal funding for the development of improved energy storage systems.</relevance>
+                to provide some guidelines and general goals for developers to focus on, as those
+                who work alongside the DOE to achieve its goal are more likely to recieve federal
+                funding for the development of improved energy storage systems.</relevance><note
+                type="instructor">I'd be interested in an application here, just so I know how you
+                think this source applies to your specific problem</note>
         </annotation>
     </annotated_bib>
 
@@ -177,7 +196,19 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a fascinating topic that I always enjoy reading and learning more about. I
+                think the sources you found are all relevant to your project (either topically or
+                methodologically). However, I am having trouble bringing them together in my mind;
+                one the one hand you have government sources that are concerned with funding, tax
+                incentives, and viability (presumably for federal investment) and on the other you
+                have cutting-edge research into making these systems (primarily solar) cheaper.
+                These are both important concerns, I just want to know how they come together to
+                help you approach this problem. Perhaps you would benefit in your problem statement
+                from a more explicit or specific outlining of the part of this complex puzzle that
+                you (or members of your discipline) see yourself taking up. Is your approach to take
+                this new tech and sell it to the government or lobby for the gov't to invest more
+                heavily in research? Or are you more concerned with the technical development and
+                scaling of the research you present?</p>
         </report>
     </docReview>
 

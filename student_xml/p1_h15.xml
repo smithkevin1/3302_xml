@@ -19,20 +19,22 @@
             motor-related rehabilitation. Computer engineering focuses on the development of
             physical devices that reliably gather and relay data as well as software that interprets
             and displays data in meaningful ways. In relation to VR motor-related therapy, the
-            discipline is responsible for syncing users’ movement virtually to a viewable device,
-            interpreting the results based on specified criteria, adjusting settings accordingly,
-            and iterating procedures. It is also concerned with the cost efficiency and comfort of
-            such devices. Game development can be considered a branch of CS (or perhaps its own
-            discipline) and is the coding and design (level layout, adjusted difficulty settings,
-            art assets) of games. Motor disorders afflict patients from various age groups from
-            children with cerebral palsy to post-stroke elders. Thus, it is important to tailor the
-            virtual environments to the individual to encourage interactivity, especially for
+                discipline<note type="instructor">by 'discipline' here you mean VR? because earlier
+                you called it a technology, but I could also see calling it a discipline/field of
+                research</note> is responsible for syncing users’ movement virtually to a viewable
+            device, interpreting the results based on specified criteria, adjusting settings
+            accordingly, and iterating procedures. It is also concerned with the cost efficiency and
+            comfort of such devices. Game development can be considered a branch of CS (or perhaps
+            its own discipline) and is the coding and design (level layout, adjusted difficulty
+            settings, art assets) of games. Motor disorders afflict patients from various age groups
+            from children with cerebral palsy to post-stroke elders. Thus, it is important to tailor
+            the virtual environments to the individual to encourage interactivity, especially for
             children and those with attention deficiencies. Additionally, designing and adjusting
             difficulty settings in relation to performance is vital to prevent frustration or
             boredom and further promote self-engagement. Leveraging VR in motor-related
             rehabilitation has a promising outlook in that it engages users, provides real-time
             feedback and progress tracking, cuts setup times, is tailored to the patient, and can
-            potentially move therapies to a home setting.</problem_stmt>
+            potentially move therapies to a home setting.<note type="instructor">really nice problem statement that frames your disciplinary interest in VR for motor-related therapy</note></problem_stmt>
 
         <!-- Citation 1 -->
         <citation n="1" style="APA"><author n="1">Lange, B.</author>, <author n="2">Koenig,
@@ -57,9 +59,9 @@
                 and Kinect provide affordable ways to introduce rehabilitation to a home setting. </summary>
             <summary type="interpretation">Still, commercial technologies were not initially
                 intended for therapeutic practices; therefore, they must be adjusted accordingly;
-                else they may promote improper motor skills. </summary>
+                else they may promote improper motor skills.<note type="instructor">this is an important point, especially for a game developer, perhaps developing across a range of platforms</note> </summary>
             <relevance type="value_stmt">This source is relevant in that it provides a good
-                introduction to VR in therapy and some associated problems.</relevance>
+                introduction to VR in therapy and some associated problems<note type="instructor">with implementation?</note>.</relevance>
         </annotation>
 
         <!-- Citation 2 -->
@@ -91,7 +93,7 @@
             <relevance type="value_stmt">The results of the study show the promise of VR in
                 improving mobility in damaged upper extremities, even for elderly patients. However,
                 a larger patient population is needed to test the validity of the findings
-                accurately. </relevance>
+                accurately. </relevance><note type="instructor">this is a really interesting source for thinking, too, about how VR can be a two-way system, it can help patients (by keeping them engaged, etc.) and also help hysical therapists and clinicians, by gathering data and measuring improvement quantitatively</note>
         </annotation>
 
         <!-- Citation 3 -->
@@ -100,9 +102,9 @@
                 NeuroEngineering and Rehabilitation</title>, 1(1), 10.
             doi:10.1186/1743-0003-1-10</citation>
         <annotation>
-            <background type="author">Sveistrup is a professor at the University of Ottawa Brain
-                and Mind Institute at the University and focuses on traumatic brain injury,
-                innovative rehabilitation techniques, and motor learning. </background>
+            <background type="author">Sveistrup is a professor at the University of Ottawa Brain and
+                Mind Institute at the University and focuses on traumatic brain injury, innovative
+                rehabilitation techniques, and motor learning. </background>
             <summary type="general"> The article discusses various studies and different VR
                 strategies implemented by them. These include strategies targeting the following:
                 balance and posture using a fixed bicycle, posture platform, flat VR display, and
@@ -115,7 +117,7 @@
                 already used in VR motor-related rehabilitation, which can be implemented in other
                 settings. </relevance>
             <relevance type="value_stmt">Additionally, it references real cases in which the
-                technology showed promise compared to regular therapies.</relevance>
+                technology showed promise compared to regular therapies.<note type="instructor">it speaks also to some of the issues outlined in your first source (differences across platforms, etc.)</note></relevance>
         </annotation>
 
         <!-- Citation 4 -->
@@ -144,7 +146,7 @@
                 patients are more likely to exert effort continually, thus inducing neural
                 plasticity, if they are immersed in the activity.</relevance>
             <relevance type="value_stmt">This sets therapeutic VR practices apart from regular
-                practices.</relevance>
+                practices.</relevance><note type="instructor">this is a great source in terms of methodology--how does one actually design an effective game in this environment?</note>
         </annotation>
 
         <!-- Citation 5 -->
@@ -170,14 +172,14 @@
                 with the Kinect to adjust existing games or integrate custom games for mobile
                 rehabilitation. Northeastern’s ReGame VR Lab is in the process of conducting studies
                 on children with cerebral palsy by creating tailored VR Kinect video games, so the
-                techniques in this article can be applied in a similar setting.</relevance>
+                techniques in this article can be applied in a similar setting.<note type="instructor">wow, really interesting and relevant to your interest here</note></relevance>
         </annotation>
     </annotated_bib>
 
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a really important and interesting topic, one that I hope will continue to develop. In terms of sources, you have a nice mix of topical and methodological sources and range of general, field-wide surveys to specific implementations. Your annotations are well done, specifically the depth of your summaries and use of the @type 'summary'. The problem statement is clear and thorough and gives an overview of this field while also getting specific enough to see where your disciplinary interest would intervene on the level of game dev.</p>
         </report>
     </docReview>
 

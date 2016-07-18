@@ -26,7 +26,12 @@
             as technology begins to catch up to what is demanded by the applications. Ultimately,
             the goal of the discipline is to create devices that work seamlessly with biological
             systems, are non-invasive or biologically integrated, and allow complete restoration of
-            function without loss of fidelity. </problem_stmt>
+            function without loss of fidelity.<note type="instructor">So, as I understand it, your
+                'problem' is the gap between current neural engineering tech available to the public
+                and the demand for said tech? Or is it more broadly the further development of this
+                (relatively) nascent field of research? The question is whether your problem is
+                about development or implementation, I guess.</note>
+        </problem_stmt>
         <!-- Source 1-->
         <citation n="1" style="APA"><author n="1">Jarosiewicz, B.</author>, <author>Sarma, A. A.,
                 Bacher, D., Masse, N. Y., Simeral, J. D., Sorice, B., … Hochberg, L.R.</author>,
@@ -54,7 +59,9 @@
                 observations), correction for velocity bias (computer engineering), and
                 recalibration of the decoder using data inferred from the user's past actions
                 (computer engineering) to develop software that extends the time that BCIs can
-                function properly before needing to be manually recalibrated.
+                function properly before needing to be manually recalibrated.<note type="instructor"
+                    >I appreciate the close attention to discipline-specific methods in the approach
+                    section, it helps me a lot (as an outsider in all of these fields)</note>
                 <!-- can include <q> element(s) for quoted material -->
             </summary>
             <relevance type="application">The innovations made through this investigation can be
@@ -106,10 +113,11 @@
         <annotation>
             <background type="author">The primary team contributing to this work is based out of
                 Northeastern University in conjunciton with the Lawrence Livermore National
-                Laboratory. Northeastern is a highly prolific private research university that
-                encourages groundbreaking technological advancement research, and the LLNL is widely
-                recognized as being committed to seeking engineering solutions to nationally-scoped
-                problems. </background>
+                Laboratory. Northeastern is a highly prolific private research university<note
+                    type="instructor">recently reclassified as a Research-1 institution, in
+                    fact</note> that encourages groundbreaking technological advancement research,
+                and the LLNL is widely recognized as being committed to seeking engineering
+                solutions to nationally-scoped problems. </background>
             <summary type="general">Understanding that advances in technology have allowed for
                 better handling of big data, the investigators have developed a BCI that utilizes
                 Hadoop (a library of big data processing programs) to distinguish distinctive
@@ -141,12 +149,14 @@
                 and Medtronic. It is involved in an array of cutting-edge research endeavors with
                 bases in neuroscience and biomedical engineering.</background>
             <summary type="general">Working from the challenge that stiff neural-integrated devices
-                often don't interface well with soft biological systems over extended periods of
-                time, the researchers developed a neural implant with properties similar to dura
-                mater, the membrane that covers brain and spinal cord tissue. The resulting
-                construct has been demonstrated to be durable with regards to stretch cycles,
-                chemical injections, and electrical stimulation, allowing it to be viable in an
-                array of different tissue areas and treatment/function scenarios. </summary>
+                often don't interface well with soft biological systems<note type="instructor">what
+                    is a 'soft biologica; system? maybe a quick example here</note> over extended
+                periods of time, the researchers developed a neural implant with properties similar
+                to dura mater, the membrane that covers brain and spinal cord tissue<note
+                    type="instructor">I see, literally 'soft'. That makes sense</note>. The
+                resulting construct has been demonstrated to be durable with regards to stretch
+                cycles, chemical injections, and electrical stimulation, allowing it to be viable in
+                an array of different tissue areas and treatment/function scenarios. </summary>
             <summary type="approach">The research team has integrated neurobiological scientific
                 knowledge with materials science and electrical engineering innovations to create
                 implants that better integrate with biological tissue, improving on previous devices
@@ -198,7 +208,15 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is really interesting stuff and I enjoyed reading about this area of research.
+                On the whole, I think you did an excellent job on the annotations, particularly with
+                respect to how you outline the approach (very important with a field as complex as
+                this). I was (as you can see by my note) just a bit lost reading your problem
+                statement; perhaps a revision would include just a sentence or so that specifically
+                circumscribes the issue you are taking on in the annotated bib. After reading your
+                annotations, I understand your problem to be a problem of scope. And the research
+                articles you selected all appropriately seek to increase the scope of neural
+                engineering to a wider array of patients and/or clinical situations.</p>
         </report>
     </docReview>
 

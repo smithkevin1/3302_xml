@@ -16,13 +16,16 @@
             accident on a main street and cars will be backed up for miles. Part of this issue is
             due to the volume of commuters entering and leaving the city during rush hour, but part
             of the blame can also be placed on traffic control. Traffic control, specifically the
-            use of traffic signals, is fairly far behind today's technology. Although traffic
+            use of traffic signals, is fairly far behind today's technology<note type="instructor"
+                >specifically in Boston or in the U.S. or just in general?</note>. Although traffic
             signals are monitored and timings are adjusted every five years, the results are still
-            not optimal. There needs to be a way for signals to utilize current technologies in
-            order to optimize commute times and allow for people's already sparse free time to be
-            spent how they like. Along with people's free time being wasted, there is also a large
-            amount of unnecessary fuel consumption happening while waiting in traffic. Something
-            needs to be done about traffic issues throughout high population cities such as Boston. </problem_stmt>
+            not optimal. There needs to be a way for signals to utilize current technologies<note
+                type="instructor">automation? other specific tech?</note> in order to optimize
+            commute times and allow for people's already sparse free time to be spent how they like.
+            Along with people's free time being wasted, there is also a large amount of unnecessary
+            fuel consumption happening while waiting in traffic.<note type="instructor">good
+                point</note> Something needs to be done about traffic issues throughout high
+            population cities such as Boston. </problem_stmt>
 
         <citation style="MLA" n="1"><title>Activity Report for FY 2013.</title> Rep. Boston Traffic
             Management Center, n.d. Web.</citation>
@@ -31,10 +34,11 @@
                 activity report in order to publish the statistics and usage of its department. </background>
             <summary type="general">Currently, the Traffic Management Center (TMC) <q>"has computer
                     control of 544 out of the 845 traffic signals operated by the Boston
-                    Transportation Department (64%)"(1).</q> The department made 31,000 real-time
-                manual changes to the timing of traffic signals based on current traffic conditions.
-                The department also owns 195 traffic monitoring cameras throughout the
-                city.</summary>
+                    Transportation Department (64%)"(1).</q><note type="instructor">we didn't talk
+                    about this in class, but for purposes of display, the q element adds quotation
+                    marks automatically</note> The department made 31,000 real-time manual changes
+                to the timing of traffic signals based on current traffic conditions. The department
+                also owns 195 traffic monitoring cameras throughout the city.</summary>
             <relevance type="application">These statistics show that the Boston Transportation
                 Department has part of the infrastructure to implement an automated real-time
                 traffic control system. The automated system would be able to make the 31,000 manual
@@ -58,7 +62,10 @@
             <relevance type="application">This technology could be implemented in an automated
                 traffic light system by sending the readings from the charged wire to a central
                 network. The central network could then take in these readings and account for the
-                incoming traffic at the next lights that the car would encounter.</relevance>
+                incoming traffic at the next lights that the car would encounter.<note
+                    type="instructor">so the system would develop (through inferential statistics or
+                    something) an understanding of the typical routes of cars and the current
+                    traffic to automate?</note></relevance>
         </annotation>
 
         <citation style="MLA" n="3"><author n="1">Gilmore, John F.</author>, <author n="2">Khalid J.
@@ -74,7 +81,9 @@
                 networks can be implemented into a traffic control system to improve traffic
                 conditions. They introduce the idea of using the Hopfield neural network model in
                 order to allow the network to learn and build off of its knowledge of previous
-                congestion situations to improve traffic conditions. </summary>
+                congestion situations to improve traffic conditions.<note type="instructor"
+                    >fascinating</note>
+            </summary>
             <summary type="approach">The group forms an energy function which allows them to assign
                 lights and traffic conditions different weights. Higher weighted traits, such as how
                 busy an intersection generally is, allow lights to have a higher priority and change
@@ -82,7 +91,9 @@
             <relevance type="application"> The usage of a neural network as described by Gilmore,
                 Elibiary, and Abe can be used as a base for a city wide traffic control system,
                 where the system learns and adapts based on previous traffic data. This could cut
-                out a large amount of traffic by optimizing the traffic flow. </relevance>
+                out a large amount of traffic by optimizing the traffic flow.<note type="instructor"
+                    >really solid methodology source here</note>
+            </relevance>
         </annotation>
 
         <citation style="MLA" n="4"><author n="1">Santi, Paolo</author>, and <author n="2">Carlo
@@ -103,7 +114,10 @@
                 streets.</relevance>
             <relevance type="value_stmt">Although this seems like the optimal solution, it would
                 first require that all cars be autonomous, so this would not be a solution for the
-                near-term.</relevance>
+                    near-term.<note type="instructor">good point--but if we think this is an
+                    eventuality then would that affect whether or not the infrastructural investment
+                    in a neural traffic network would be worth it? Or how likely stakeholders are to
+                    support your approach?</note></relevance>
         </annotation>
 
         <citation style="MLA" n="5"><author n="1">Srinivasan, Dipti</author>, <author n="2">Min Chee
@@ -122,18 +136,29 @@
                 calculations made to determine how long to have lights turned green.</summary>
             <relevance type="value_stmt">Her results showed that the implementation of a real-time
                 neural network can allow a greater number of cars to pass through congested
-                intersections. </relevance>
+                    intersections.<note type="instructor">could argue for summary @type
+                    'interpretation' here, but this was a sticking point, I think, for all of us in
+                    developing the schema</note>
+            </relevance>
             <relevance type="application">Dipti's real-time neural network could be applied in a
                 city like Boston where sensors could be installed to acquire real-time data used in
                 the program to control the lights. Traffic control based on current conditions would
-                produce much better traffic flow than average timed lights.</relevance>
+                produce much better traffic flow than average timed lights.<note type="instructor"
+                    >is their approach similar to your second source? how do these sources connect
+                    (or how do you see them speaking to each other)?</note></relevance>
         </annotation>
     </annotated_bib>
 
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Excellent job here. You have a good mix of topical and methodological sources that
+                apply to your problem. One thing you may want to think about is what an overhaul of
+                the traffic system might look like logistically--who are the stakeholders? who do
+                you need support from, etc.? Thinking in terms of the Leavy reading from last week,
+                it would be interesting to think about how a multi/inter/transdisciplinary team
+                might approach this problem from the technical, infrastructural, and political/labor
+                sides.</p>
         </report>
     </docReview>
 
