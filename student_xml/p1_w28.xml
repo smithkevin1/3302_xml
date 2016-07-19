@@ -12,30 +12,35 @@
 
     <annotated_bib>
         <problem_stmt> If you have ever lived in a apartment, worked in an office, went to a grocery
-            store, or visited a museum, you have interacting with the work of architects and
-            engineers. Although it is common to pay little attention to the structures around you,
-            these buildings, bridges, and roadways play such a crucial part of how you live every
-            day. Boston is an old city full of beautiful old buildings. Brownstone homes and shops
-            line our streets. Ornate works of art such as the YMCA stand on our campus. However,
-            these structures are failing, as all old buildings do. The stairs and floors are
-            sagging. The walls are crumbling and the beams are splintering. What these buildings
-            need is a little bit of attention. Unfortunately people do not want to invest in a fixer
-            upper. Institutions like Northeastern and property management companies such as Alpha
-            Realty would rather use a building until it has deteriorated to a point of being unsafe
-            and getting condemned. They would rather knock it down and build an efficient
-            utilitarian cinderblock box that will make them profit rather than invest in a piece of
-            history or work to increase the aesthetic value of our beautiful city. When we look to
-            countries like Germany, Switzerland, and France we see numerous examples of old
-            buildings that were preserved and modernized while still maintaining the historical
-            significance of the structure. Modern construction and design technologies have made
-            structural rehabilitation increasingly accessible to building owners and property
-            managers. It is my hope to one day work in an industry that is not simply about
-            demolition and new construction, but one that can take the essence of a beautiful old
-            thing and make it safe and great again. </problem_stmt>
+            store, or visited a museum, you have interacting<note type="instructor"
+                >interacted</note> with the work of architects and engineers. Although it is common
+            to pay little attention to the structures around you, these buildings, bridges, and
+            roadways play such a crucial part of how you live every day. Boston is an old city full
+            of beautiful old buildings. Brownstone homes and shops line our streets. Ornate works of
+            art such as the YMCA stand on our campus. However, these structures are failing, as all
+            old buildings do. The stairs and floors are sagging. The walls are crumbling and the
+            beams are splintering. What these buildings need is a little bit of attention.
+            Unfortunately people do not want to invest in a fixer upper. Institutions like
+            Northeastern and property management companies such as Alpha Realty would rather use a
+            building until it has deteriorated to a point of being unsafe and getting condemned.
+            They would rather knock it down and build an efficient utilitarian cinderblock box that
+            will make them profit rather than invest in a piece of history or work to increase the
+            aesthetic value of our beautiful city. When we look to countries like Germany,
+            Switzerland, and France we see numerous examples of old buildings that were preserved
+            and modernized while still maintaining the historical significance of the structure.
+            Modern construction and design technologies have made structural rehabilitation
+            increasingly accessible to building owners and property managers. It is my hope to one
+            day work in an industry that is not simply about demolition and new construction, but
+            one that can take the essence of a beautiful old thing and make it safe and great
+                again.<note type="instructor">this is a very interesting problem (one that I am
+                personally very invested in); I might ask for a bit of further clarification as to
+                what you consider the role of engineers to be in this problem (versus architects,
+                politicians, historians, etc.)? Or do you see yourself as belonging to a blend of
+                disciplines?</note></problem_stmt>
 
         <citation n="1" style="MLA">
             <author n="1">Branco, Miguel</author>, and <author n="2">Luís Manuel Guerreiro</author>.
-            <title level="a">Seismic Rehabilitation of Historical Masonry Buildings.</title>
+                <title level="a">Seismic Rehabilitation of Historical Masonry Buildings.</title>
             <title level="j">Engineering Structures</title>. 33.5 (2011): 1626-1634. Web. 12 July
             2016. </citation>
         <annotation>
@@ -84,7 +89,7 @@
                 historic methods of construction, conducting vulnerability assessments and analyzing
                 construction maintenance on each. </relevance>
         </annotation>
-        
+
         <citation n="3" style="MLA">
             <title level="a">Guidelines for Rehabilitating Historic Buildings: Structural
                 Systems.</title>
@@ -104,8 +109,10 @@
                 investigation and the use of appropriate materials in the updated structure, this
                 article and its accompanying articles serve as a valuable reference for members of
                 the general public inexperienced in the business of existing construction remodel or
-                historic building systems. </relevance>
-        </annotation>        
+                historic building systems.<note type="instructor">important, I think, that this
+                    source is specific to the U.S. (as opposed to your other
+                sources)</note></relevance>
+        </annotation>
 
         <citation n="4" style="MLA">
             <author n="1">Meli, Roberto</author>, and <author n="2">Roberto
@@ -130,7 +137,7 @@
                 fact that a large portion of the city is built on fill and other unstable and
                 largely unknown materials. </relevance>
         </annotation>
-        
+
         <citation n="5" style="MLA">
             <author n="1">Weeks, Kay D.</author>, and <author n="2">Anne E. Grimmer</author>. <title
                 level="b">The Secretary of the Interior’s Standards for the Treatment of Historic
@@ -151,8 +158,11 @@
             <relevance type="application"> This book largely references the publishings of the U.S.
                 Secretary of the Interior and serves to “provide guidance to historical building
                 owners and building managers, preservation consultants, architects, contractors, and
-                project reviewers prior to treatment.” </relevance>
-        </annotation>        
+                project reviewers prior to treatment.”<note type="instructor">glad you wrote about
+                    this moment of tension in the schema for design entry 2; another very important
+                    source here, I think</note>
+            </relevance>
+        </annotation>
 
 
     </annotated_bib>
@@ -162,7 +172,13 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a really fascinating topic that is so important for Boston (and Northeastern
+                as they gobble up more and more of formerly residential real estate!). Your source
+                selection in particular is really great, nice job researching. You have a good mix
+                of topical and methodological sources from a range of cities and the U.S. Likewise
+                your annotations are well done. My only quibble (see problem statement note) is
+                wanting more of a sense of where you see yourself amongst the multiple disciplines
+                that have a stake in this problem and potential solutions.</p>
         </report>
     </docReview>
 

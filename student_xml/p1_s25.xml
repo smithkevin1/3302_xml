@@ -29,7 +29,9 @@
             that respond quickly to any and all obstacles. These characteristics are exactly what
             the mechatronics discipline deals with, and mechatronics engineers would be integral in
             the development of this idea that could positively benefit the lives of millions of
-            people. </problem_stmt>
+                people.<note type="instructor">great job here narrowing down from a larger problem
+                to the particular approach of your discipline</note>
+        </problem_stmt>
 
         <citation n="1" style="APA">
             <author n="1">Brar, S.</author>
@@ -78,7 +80,8 @@
                 world. </relevance>
             <relevance type="application">For an engineer, many of the decisions made by the
                 company, such as the use of landing pads on both the sending and recieving ends, can
-                influence the conceptualization phase of drone design.</relevance>
+                influence the conceptualization phase of drone design.<note type="instructor">nice
+                    relevance statement here</note></relevance>
         </annotation>
 
         <citation n="3" style="APA"><author n="1">Carr, E. B.</author> (2013, March 27). <title
@@ -151,7 +154,10 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Nice work both in the scope of the problem statement and in the throughness of the
+                annotations. Keep in mind the formatting for titles in APA: only the first word of a
+                title should be capitalized; you can also use ref elements in the citations when you
+                use a URL. Otherwise, looks great! </p>
         </report>
     </docReview>
 
