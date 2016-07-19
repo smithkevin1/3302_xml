@@ -24,7 +24,7 @@
             electrical engineers can help. By using skills from their discipline, they can create
             innovative technology to grow and deliver fresh produce year round. This technology
             already exists here in Boston and Cambridge, and it is led by startups that have visions
-            for a healthier future. </problem_stmt>
+            for a healthier future.<note type="instructor">If the tech. exists, how might you approach a more specific problem of implementation? And why electrical engineering specifically? What aspects of this problem, specifically, lend themselves to the lens of electrical engineering?</note> </problem_stmt>
 
         <citation n="1" style="APA"><author n="1">Vanni, O.</author> (2016, June 22).<title
                 level="a"> Boston's Budding Agricultural Tech Cluster Has a Growing Problem to
@@ -135,7 +135,7 @@
                 scale agriculture also provides economic advantages by saving household food
                 dollars.</summary>
             <relevance type="application">This paper is a comprehensive source of arguments
-                supporting the practice of urban agriculture.</relevance>
+                supporting the practice of urban agriculture.<note type="instructor">OK, but how does it apply to your specific problem? Does is give you a methodology for delivering fresh produce to areas without access?</note></relevance>
         </annotation>
     </annotated_bib>
 
@@ -143,7 +143,7 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>These annotations are very good on the whole, and the sources are topically related to your problem statement. One issue is that I am not sure I am seeing a clearly defined problem that you might approach solving with a disciplinary approach. One way to remedy this is to take the overall issue of food scarcity in urban areas and present a specific problem of implementation. As it is, these sources give us valuable information about the topic, but no information about how we would go about solving a specific problem. For example, what is the next phase to make this kind of food accessible to more than just the 50 early customers? How can this be implemented in low-income areas, etc.? These kinds of questions can help you hone your problem statement.</p>
         </report>
     </docReview>
 

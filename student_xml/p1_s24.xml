@@ -32,12 +32,17 @@
             with the entrance of developing countries in consumer markets guarantees that demand for
             first world commodities is to skyrocket. The amount of waste produced by such an
             increase in demand, spells uncertain questions for how factories and our environment
-            will respond to this change. Luckily, a solution to our apathy might be found in new
-            technologies. By levering technology to sort our waste for us, both in our home and in
-            public, the current flow of thousands of tons of metals, rare earth and plastics could
-            be directed out of our landfills rather than into them. This is crucial not only in
-            ensuring that less waste reaches our landfills, but also in ensuring that what does
-            reach our landfills does so safely. </problem_stmt>
+            will respond to this change. Luckily, a solution to our apathy<note type="instructor"
+                >funny, though, this doesn't solve the root problem of apathy, it outsources caring
+                to technology; it does address an important symptom of that apathy.</note> might be
+            found in new technologies. By levering technology to sort our waste for us, both in our
+            home and in public, the current flow of thousands of tons of metals, rare earth and
+            plastics could be directed out of our landfills rather than into them. This is crucial
+            not only in ensuring that less waste reaches our landfills, but also in ensuring that
+            what does reach our landfills does so safely.<note type="instructor">fascinating problem
+                and problem statement; I might think about more clearly outlining your disciplinary
+                stance and why the tech approach is characteristic of it.</note>
+        </problem_stmt>
 
         <!-- 1 -->
         <citation n="1" style="MLA">
@@ -65,7 +70,7 @@
                 has developed much beyond what is addressed in the article, making the technology
                 discussed still of pinnacle importance. </relevance>
             <relevance type="application"> Communities scouting to find functional technologies for
-                their waste processing could find inspiration from the Oslo plant discussed.
+                their waste processing could find inspiration from the Oslo plant discussed.<note type="instructor">yes, excellent application here</note>
             </relevance>
         </annotation>
 
@@ -95,10 +100,10 @@
                 issue of waste storage through a particularly novel approach, it is a logical one,
                 and is fit for the task at hand. </summary>
             <relevance type="value_stmt">The issues with grammar in the paper are far outweighed by
-                the technically challenging solution to a serious problem that is put on display. </relevance>
+                the technically challenging solution to a serious problem that is put on display.<note type="instructor">it does make me wonder about the credibility of the place of publication, though</note> </relevance>
             <relevance type="application">Engineers looking for a highly detailed report on creating
                 a control flow to develop sensor based systems can gain insight from this
-                paper.</relevance>
+                paper.<note type="instructor">yes, very applicable methodologically, it seems</note></relevance>
         </annotation>
 
         <!-- 3 -->
@@ -124,10 +129,10 @@
             <relevance type="value_stmt">What the source seems to lack is critical insight into the
                 more nuanced potential of the system in question. As a result, it comes across more
                 as a public service announcement for social media than as a serious intellectual
-                investment. </relevance>
+                investment.<note type="instructor">not all that surprising, given where it appears</note> </relevance>
             <relevance type="application">Engineers looking to think outside the box can certainly
                 find inspiration from within the lines of this text, however if they seek more
-                in-depth knowledge they should visit the ZenRobot's website.</relevance>
+                in-depth knowledge they should visit the ZenRobot's website.<note type="instructor">right, nice job critically evaluating here</note></relevance>
         </annotation>
 
         <!-- 4 -->
@@ -189,7 +194,7 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>I know that you've thought about how you would change your citations given our conversation, so I'll not mention that further. I think your annotations are, on the whole, very well done. Particularly in the critical approach to the sources you took (specifically in the relevance @type value_stmt). This is a crucial aspect of an annotated bib, especially one that seeks to help you organize sources for a particular project. See my note on your problem statement; I think the bib would have benefited from a clearer articulation of where you see yourself and your discipine intervening in this problem (at the level of research, design, implementation, logistics, investment, etc.). It became much more clear after reading through your annotations, however.</p>
         </report>
     </docReview>
 

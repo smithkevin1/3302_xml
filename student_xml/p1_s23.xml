@@ -23,16 +23,22 @@
             campus buildings. Both these companies hire many mechanical engineers to develop
             efficient LEDs that will last several times longer than a standard incandescent light,
             will be resilient in bad weather, and will be much easier to install, monitor, and
-            replace. Mechanical engineers are partically well prepared for this kind of work because
-            of their understanding of a range of engineering disciplines and general expertise in
-            material properties and designing for manufacturability. and Right now, many of the less
-            commercialized parts of Boston are still lit by old high pressure sodium lamps(?) which
-            are not nearly as energy efficient, are much less bright, and are more apt to burn out
-            and leave sections of road in the dark. In a city full of families and college students,
-            and with a public transportation system that leaves much to be desired, street lighting
-            can be major issue. Having more street lights that are strategically placed in
-            residential and high traffic areas would increase the communities sense of security and
-            pride in their city. </problem_stmt>
+            replace. Mechanical engineers are partically<note type="instructor">particularly</note>
+            well prepared for this kind of work because of their understanding of a range of
+            engineering disciplines and general expertise in material properties and designing for
+            manufacturability. and Right now, many of the less commercialized parts of Boston are
+            still lit by old high pressure sodium lamps(?)<note type="instructor">this is a question
+                still after your research?</note> which are not nearly as energy efficient, are much
+            less bright, and are more apt to burn out and leave sections of road in the dark. In a
+            city full of families and college students, and with a public transportation system that
+            leaves much to be desired, street lighting can be major issue. Having more street lights
+            that are strategically placed in residential and high traffic areas would increase the
+            communities sense of security and pride in their city.<note type="instructor">so your
+                problem, as I understand it, is the implementation side (i.e. designing
+                efficient/resilient/etc. LED lights for Boston streets), rather than the problem of
+                gaining the political capital necessary to get Boston officials to invest in
+                upgrading city lighting?</note>
+        </problem_stmt>
 
 
         <citation style="APA">
@@ -70,7 +76,8 @@
                 databases, literature review, and street lighting studies conducted by leading
                 researchers worldwide. They discuss the rigorous selection process they implemented
                 in selecting data worth reporting on and openly disclose their methodological
-                assessment of each study they included.
+                assessment of each study they included.<note type="instructor">this last sentence
+                    seems more like their approach to me</note>
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="general"> Welsh and Farrington explore thirteen case studies that
@@ -86,18 +93,24 @@
                 of examples because of the details Welsh and Farrington included about each of their
                 case studies. This journal article is an effective summary aimed for public
                 officials to gain a concise and inarguable understanding of the effects of street
-                lights on public safety. </relevance>
+                lights on public safety.<note type="instructor">so that's how you would use it
+                    then--to tackle the political issue of getting officials to agree to changing
+                    the lighting?</note>
+            </relevance>
         </annotation>
 
 
         <citation style="APA"><author>Samuels, R.</author> (1995). <title>Defensible Design and
-                Management- University Campuses Final Report.</title> Department of Employment,
-            Education and Training, Commonwealth of Australia. Retrieved July 11, 2016. </citation>
+                Management- University Campuses Final Report.<note type="instructor">only the first
+                    word of a title is capitalized in APA format</note></title> Department of
+            Employment, Education and Training, Commonwealth of Australia. Retrieved July 11, 2016. </citation>
         <annotation>
             <background type="source"> Samuels conducted an investigation on factors contributing to
                 safety on university campuses for the department of Employment, Education and
                 Training for the Commonwealth of Australia in order to understand what steps could
-                be taken to increase the feelings of security of their students.
+                be taken to increase the feelings of security of their students.<note
+                    type="instructor">is this background about the source (where it was published)
+                    or summary about what the source contains?</note>
                 <!-- can include <q> element(s) for quoted material -->
             </background>
             <summary type="approach"> Although lighting is only one factor that Samuels says
@@ -108,13 +121,19 @@
                     walking to colleges and poor lighting”</q> (4). Samuels investigates four
                 colleges in Australia where he surveys students and listens to their concerns,
                 adding a human aspect into this study and accentuating how relevant abundant outdoor
-                lighting is to students. <!-- can include <q> element(s) for quoted material -->
+                lighting is to students.<note type="instructor">so this last sentence certainly
+                    seems like approach to me (he interviews students; the first seems like general
+                    summary according to the definition in the documentation</note>
+                <!-- can include <q> element(s) for quoted material -->
             </summary>
             <relevance type="application">Samuels doesn’t actively explore better ways of lighting
                 public areas, but instead focuses on the importance of adding lighting to public
                 spaces. He highlights the characteristics of areas that cause people to be concerned
                 at night. This argument is particularly relevant to students as many of the points
-                Samuels makes are very relatable to Northeastern’s campus. </relevance>
+                Samuels makes are very relatable to Northeastern’s campus.<note type="instructor">I
+                    agree, but are you specifically hoping to make changes to Northeastern's
+                    lighting? Because that is not exactly how I read your problem statement.</note>
+            </relevance>
         </annotation>
 
 
@@ -123,7 +142,7 @@
             July 11, 2016. </citation>
         <annotation>
             <background type="source"> Lisa Tucker, a research associate for the National Center for
-                Transit Research (NCTR) wrote this text for the U.S. Department of Transportation in
+                Transit Research (NCTR)<note type="instructor">author background</note> wrote this text for the U.S. Department of Transportation in
                 order to express the NCTR’s concerns about the lack of lighting and safety
                 precautions at public bus stops.
                 <!-- can include <q> element(s) for quoted material -->
@@ -150,7 +169,7 @@
                 lesser of two dangerous situations at night; the same can likely be said about
                 Boston citizens who are commuting to and from outer neighborhoods like Roxbury
                 Crossing, Jamaica Plain, and Dorchester (which is coincidentally where many students
-                choose to live as well).</relevance>
+                choose to live as well).<note type="instructor">this is a really good example of application, I think.</note></relevance>
         </annotation>
 
         <citation style="APA"><author>Gil-De-Castro, A.</author>, <author>Moreno-Munoz, A.</author>,
@@ -191,7 +210,7 @@
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is an interesting issue that I enjoyed reading about. I have two observations after reading through your annotated bib: the first is that it isn't always clear just how the source will help you, specifically, approach the problem you outline in the problem statement. This could be because most of your sources (I think except the last one) were topical, rather than methodological. That is, they give you information about LED lighting and street lighting, without giving you a clear method of tackling your problem (whether that is designing lights for Boston, advocating for the retro-fitting of lights in greater Boston, etc.). The second is that I think there were moments where you could have been more detailed in your markup--using, say, two background elements to more accurately describe the information you were putting into one. Or breaking up your longer summary elements into smaller chunks and labeling them more accurately.</p>
         </report>
     </docReview>
 
