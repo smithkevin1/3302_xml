@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, version)-->
+        <title>Title of Assignment</title>
+        <author xml:id="your_id_here">Your name here</author>
+        <version n="num_of_version" date="2016-01-01"/>
+        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+    </docHead>
+    
+    <pub_init_proposal>
+        <cover_page>
+            <title>
+                <!-- can include <q> element(s) for quoted material -->
+            </title>
+            <author>
+                <!-- can include <q> element(s) for quoted material -->      
+            </author>
+            <date>    
+            </date>
+            <audience>    
+            </audience>
+        </cover_page>
+        <tbl_cont>
+            <!--text here-->
+        </tbl_cont>
+        <intro type="">
+            <!--text here-->
+        </intro>
+        <proj_ovw>
+            <background>
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <problem_stmt>
+                <!-- can include <q> element(s) for quoted material -->      
+            </problem_stmt>
+            <scope type="">    
+            </scope>
+        </proj_ovw>
+        <intent>
+            <objective>
+                <!-- can include <q> element(s) for quoted material -->
+            </objective>
+            <goal>
+                <!-- can include <q> element(s) for quoted material -->      
+            </goal>
+        </intent>
+        <execution type="">
+            <!--text here-->
+        </execution>
+        <feasibility type="">
+            <!--text here-->
+        </feasibility>
+        <conclu>
+            <!--text here-->
+        </conclu>
+        <references>
+            <!--text here-->
+        </references>
+        
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+    </pub_init_proposal>
+    
+    
+    <docReview>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>Comments on assignment will appear here.</p>
+        </report>
+    </docReview>
+</DOC>
