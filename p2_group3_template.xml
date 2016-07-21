@@ -9,70 +9,63 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <pub_init_proposal>
         <cover_page>
-            <title>
-                <!-- can include <q> element(s) for quoted material -->
-            </title>
-            <author>
-                <!-- can include <q> element(s) for quoted material -->      
-            </author>
-            <date>    
-            </date>
-            <audience>    
+            <title> </title>
+            <author> </author>
+            <submit_date> </submit_date>
+            <audience>
+                <!--text here-->
             </audience>
         </cover_page>
+
         <tbl_cont>
-            <!--text here-->
+            <section n="">
+                <!--text here-->
+            </section>
         </tbl_cont>
-        <intro type="">
+
+        <intro type="">  <!--attribute options: ltr_int, exec_sum, abstract-->
             <!--text here-->
         </intro>
+
         <proj_ovw>
             <background>
                 <!-- can include <q> element(s) for quoted material -->
             </background>
-            <problem_stmt>
-                <!-- can include <q> element(s) for quoted material -->      
-            </problem_stmt>
-            <scope type="">    
-            </scope>
+            <init_defn>
+                <!-- can include <q> element(s) for quoted material -->
+            </init_defn>
+            <scope type=""> </scope>
         </proj_ovw>
+
         <intent>
             <objective>
                 <!-- can include <q> element(s) for quoted material -->
             </objective>
             <goal>
-                <!-- can include <q> element(s) for quoted material -->      
+                <!-- can include <q> element(s) for quoted material -->
             </goal>
         </intent>
-        <execution type="">
+
+        <execution type="">  <!--attribute options: approach, action-->
             <!--text here-->
         </execution>
-        <feasibility type="">
+
+        <feasibility type="">  <!--attribute options: economic, social, environmental-->
             <!--text here-->
         </feasibility>
+
         <conclu>
             <!--text here-->
         </conclu>
+
         <references>
-            <!--text here-->
+            <citation n="" style=""> </citation>
         </references>
-        
-        <annotation>
-            <background type="">
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="">
-                <!-- can include <q> element(s) for quoted material -->      
-            </summary>
-            <relevance type="">    
-            </relevance>
-        </annotation>
     </pub_init_proposal>
-    
-    
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
