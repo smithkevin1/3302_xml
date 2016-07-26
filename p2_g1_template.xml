@@ -11,11 +11,11 @@
     </docHead>
     <blog_post>
         <!-- Global Elements-->    
-        <sectionheader></sectionheader>
+        <section_header></section_header>
         <visual></visual>
         <analogy></analogy>
         <roadmap></roadmap>
-        <important_ideas n=""></important_ideas>
+        <important_idea n=""></important_idea>
         <!-- Structure -->
         <background>
             <question></question>
@@ -29,13 +29,9 @@
             <final_answer></final_answer>
         </answer>
         <sources>
+            <citation></citation>
+            <link></link>
         </sources>
-        <followup>
-        </followup>
-        <community_interact>
-        </community_interact>
-        <comments_sections>
-        </comments_sections>
     </blog_post>
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
