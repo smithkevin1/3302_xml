@@ -578,6 +578,14 @@
         </element>
     </define>
     <!--end annotated bibliography definitions-->
+    
+    <!-- Group 3: public initiative proposal -->
+    <define name="pub_init_proposal">
+        <element name="pub_init_proposal">
+            <text />
+        </element>
+    </define>
+    <!-- end group 3 definitions -->
 
     <define name="docHead">
         <element name="docHead">
@@ -605,6 +613,8 @@
                     <!--<ref name="body"/> 
                         not needed yet, if at all -->
                     <ref name="annotated_bib"/>
+                    
+                    <ref name="pub_init_proposal"/>
                 </choice>
                 <optional>
                     <ref name="docFoot"/>
