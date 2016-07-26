@@ -19,51 +19,67 @@
                 <!--text here-->
             </audience>
         </cover_page>
-
-        <tbl_cont>
-            <section n="">
+        
+        <div title="">
+            <tbl_cont>
+                <section n="">
+                    <!--text here-->
+                </section>
+            </tbl_cont>
+        </div>
+        
+        <div title="">
+            <intro type="">  <!--attribute options: ltr_int, exec_sum, abstract-->
                 <!--text here-->
-            </section>
-        </tbl_cont>
-
-        <intro type="">  <!--attribute options: ltr_int, exec_sum, abstract-->
-            <!--text here-->
-        </intro>
-
-        <proj_ovw>
+            </intro>
+        </div>
+        
+        <div title="Background">
             <background>
-                <!-- can include <q> element(s) for quoted material -->
+                <crnt_cond>
+                    <!-- can include <q> element(s) for quoted material -->
+                </crnt_cond>
+                <subj_hist>
+                    <!-- can include <q> element(s) for quoted material -->
+                </subj_hist>
             </background>
-            <init_defn>
-                <!-- can include <q> element(s) for quoted material -->
-            </init_defn>
-            <scope type=""> </scope>
-        </proj_ovw>
-
-        <intent>
-            <objective>
-                <!-- can include <q> element(s) for quoted material -->
-            </objective>
-            <goal>
-                <!-- can include <q> element(s) for quoted material -->
-            </goal>
-        </intent>
-
-        <execution type="">  <!--attribute options: approach, action-->
-            <!--text here-->
-        </execution>
-
-        <feasibility type="">  <!--attribute options: economic, social, environmental-->
-            <!--text here-->
-        </feasibility>
-
-        <conclu>
-            <!--text here-->
-        </conclu>
-
-        <references>
-            <citation n="" style=""> </citation>
-        </references>
+        </div>
+        
+        <div title="">
+            <purpose>
+                <scope type=""> </scope>
+                <objective>
+                    <!-- can include <q> element(s) for quoted material -->
+                </objective>
+                <goal>
+                    <!-- can include <q> element(s) for quoted material -->
+                </goal>
+            </purpose>
+        </div>
+        
+        <div title="">
+            <approach type="">  <!--attribute options: execution, action-->
+                <!--text here-->
+            </approach>
+        </div>
+        
+        <div title="">
+            <feasibility type="">  <!--attribute options: economic, social, environmental-->
+                <!--text here-->
+            </feasibility>
+        </div>
+        
+        <div title="">
+            <conclu>
+                <!--text here-->
+            </conclu>
+        </div>
+        
+        <div title="">
+            <references>
+                <citation n="" style=""> </citation>
+            </references>
+        </div>
     </pub_init_proposal>
 
     <docReview>
