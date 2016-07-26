@@ -9,24 +9,23 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
+    <!-- Everywhere Elements-->    
+    <signpost></signpost>
+    <visual></visual>
+    <analogy></analogy>
+    <important_ideas n=""></important_ideas>
+    <!-- Structure -->
     <background>
-        <question>
-            <scientific_principle>
-            <misconceptions>
-            </misconceptions>
-            </scientific_principle>
-            <important_ideas></important_ideas>
-        </question>
+        <question></question>
+        <scientific_principle n=""></scientific_principle> 
+        <misconceptions n=""></misconceptions>
     </background>
     <answer>
-        <fundamental_science_involved>
-        <question_relevant_topics>
+        <fundamental_science_involved></fundamental_science_involved>
+        <question_relevant_topics></question_relevant_topics>
+        <explanation n=""></explanation>
         <final_answer>
-        <important_ideas>
-        </important_ideas>
         </final_answer>
-        </question_relevant_topics>
-        </fundamental_science_involved>
     </answer>
     <sources>
     </sources>
