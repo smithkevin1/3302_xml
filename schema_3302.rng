@@ -19,7 +19,7 @@
     <define name="att.review.type">
         <optional>
             <attribute name="type">
-                <a:documentation>(type of reviewer) sugggested values are 'peer' or
+                <a:documentation>(type of reviewer) suggested values are 'peer' or
                     'instructor'</a:documentation>
                 <data type="string"/>
             </attribute>
@@ -466,11 +466,12 @@
                     and source</a:documentation>
                 <choice>
                     <value>author</value>
-                    <a:documentation>(author background) nformation pertaining to the author or authors of the source
-                        (credentials, education, profession, etc.)</a:documentation>
+                    <a:documentation>(author background) nformation pertaining to the author or
+                        authors of the source (credentials, education, profession,
+                        etc.)</a:documentation>
                     <value>source</value>
-                    <a:documentation>(source background) nformation pertaining to the source (publication information,
-                        popularity, etc.)</a:documentation>
+                    <a:documentation>(source background) nformation pertaining to the source
+                        (publication information, popularity, etc.)</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
@@ -578,14 +579,214 @@
         </element>
     </define>
     <!--end annotated bibliography definitions-->
-    
+
+    <!-- Group 1: science blog posts -->
+
+    <define name="sectionheader">
+        <element name="sectionheader">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="visual">
+        <element name="visual">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="analogy">
+        <element name="analogy">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="roadmap">
+        <element name="roadmap">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="important_ideas">
+        <element name="important_ideas">
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="model.blog.global">
+        <zeroOrMore>
+            <choice>
+                <ref name="model.global"/>
+                <ref name="sectionheader"/>
+                <ref name="visual"/>
+                <ref name="analogy"/>
+                <ref name="roadmap"/>
+                <ref name="important_ideas"/>
+            </choice>
+        </zeroOrMore>
+    </define>
+
+    <define name="fundamental_science_involved">
+        <element name="fundamental_science_involved">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="question_relevant_topics">
+        <element name="question_relevant_topics">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="explanation">
+        <element name="explanation">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="final_answer">
+        <element name="final_answer">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="blog.answer.content">
+        <group>
+            <ref name="fundamental_science_involved"/>
+            <ref name="question_relevant_topics"/>
+            <oneOrMore>
+                <ref name="explanation"/>
+            </oneOrMore>
+            <ref name="final_answer"/>
+        </group>
+    </define>
+    <define name="answer">
+        <element name="answer">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+            <ref name="blog.answer.content"/>
+        </element>
+    </define>
+    <define name="question">
+        <element name="question">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="scientific_principle">
+        <element name="scientific_principle">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="misconceptions">
+        <element name="misconceptions">
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </zeroOrMore>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="blog.background.content">
+        <group>
+            <ref name="question"/>
+            <oneOrMore>
+                <ref name="scientific_principle"/>
+            </oneOrMore>
+            <oneOrMore>
+                <ref name="misconceptions"/>
+            </oneOrMore>
+        </group>
+    </define>
+    <define name="blog.background">
+        <element name="background">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+            <ref name="blog.background.content"/>
+        </element>
+    </define>
+
+    <define name="sources">
+        <element name="sources">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+        </element>
+    </define>
+    <define name="followup">
+        <element name="followup">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+        </element>
+    </define>
+    <define name="community_interact">
+        <element name="community_interact">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+        </element>
+    </define>
+    <define name="comments_sections">
+        <element name="comments_sections">
+            <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
+        </element>
+    </define>
+    <define name="model.blog.content">
+        <group>
+            <ref name="blog.background"/>
+            <ref name="answer"/>
+            <ref name="sources"/>
+            <ref name="followup"/>
+            <ref name="community_interact"/>
+            <ref name="comments_sections"/>
+        </group>
+    </define>
+    <define name="blog_post">
+        <element name="blog_post">
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
+            <ref name="model.blog.content"/>
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
+
+        </element>
+    </define>
+    <!-- end group 1 definitions -->
+
     <!-- Group 3: public initiative proposal -->
     <define name="pub_init_proposal">
         <element name="pub_init_proposal">
-            <text />
+            <text/>
         </element>
     </define>
     <!-- end group 3 definitions -->
+
+
 
     <define name="docHead">
         <element name="docHead">
@@ -613,7 +814,7 @@
                     <!--<ref name="body"/> 
                         not needed yet, if at all -->
                     <ref name="annotated_bib"/>
-                    
+                    <ref name="blog_post"/>
                     <ref name="pub_init_proposal"/>
                 </choice>
                 <optional>
