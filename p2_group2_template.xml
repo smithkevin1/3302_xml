@@ -10,7 +10,64 @@
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     
-    
+    <fsb_rpt>
+        container element for writing project 2. Contains any number of pages.
+        <page type="" >
+            <!--attribute options: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb, @sccs_crt, @dsn, @cost, 
+            @rpt, @rsk_ana, @fnc, and @conc-->
+            Representing any page of the feasibility report.
+            <sect num="">
+                <!--attribute options:@lvl-->   
+                (Section) is an element for each listing in the tbl_contents page
+            </sect>
+            <app_ovr type="">
+                <!--attributte options: @obj, @synergy, @rls-->
+                Application overview is a highlight of certain element of the application
+            </app_ovr>
+            
+            <fsb_hlgt type="" num="">
+                Body of this element is the general summary of this aspect of feasibility
+            </fsb_hlgt>
+            
+            <req_sect>
+                details a sections of requirements. Strictly related to the project’s components
+                <req num="">
+                    This is a requirement.
+                </req>
+            </req_sect>
+            
+            <est type="">
+                <!--attribute options: @inst, @envr, @lgl, @fnc -->
+                represents an estimated cost
+            </est>
+            
+            <tmln date="" num="">
+                <!--attribute options: @date(writen in mm/dd/yyyy) and will be bold with the text following it. 
+                    Each <tmln> will have a line between them of blank space.-->
+                The tmln element is an optional element design to provide a timeline entry
+            </tmln>
+            
+            <fnc num="" type="">
+                <!--attribute options:@fund, @lns, @exp, @brdn--> 
+                financial highlight
+            </fnc>
+            
+            <Fsb>
+                This element is used to answer your thoughts on the question “Is it feasible” and why.
+            </Fsb>
+            
+            <cond>  
+                This element is used to identify the key conditions for feasibility.
+            </cond>
+            
+            <sum>
+                This element summarizes the whole report.
+            </sum>
+            
+        </page>
+                        
+        
+    </fsb_rpt>
 
     
     
