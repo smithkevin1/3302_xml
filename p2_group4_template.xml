@@ -11,10 +11,8 @@
     </Header>
     <Greeting>Hello Jane Doe,</Greeting>
     <Intro_Para>
-        <Intent>
-            <Purpose>I am interested in the Simulation Engineering job at ABC Widgets.</Purpose>
-            <Connection><!-- Optional --> After talking with you at the Knowledge University job fair</Connection> , I became interested in the job.
-        </Intent>
+        <Intent type="Purpose">I am interested in the Simulation Engineering job at ABC Widgets.</Intent>
+        <Intent type="Connection"><!-- Optional --> After talking with you at the Knowledge University job fair</Intent> , I became interested in the job.
         <Reason><!-- Optional --> I have enjoyed my past work with Simulation Engineering in the past</Reason> and 
         <Proposition>I think I will fit well with ABC Widgets culture and bring all the necessary abilities to go above and beyond my job requirements.</Proposition>
     </Intro_Para>
