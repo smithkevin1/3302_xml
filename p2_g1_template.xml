@@ -17,9 +17,10 @@
             consisting of several paragraphs. ‘section_header’ should be titled in a way such that
             the following paragraphs either work in concert to make the point specified by
             ‘section_header’, or answer a question put forth by ‘section_header’. </section_header>
-        <visual>Visuals are any variety of in line imagery used to break up long lengths of text,
+        <visual type="">Visuals are any variety of in line imagery used to break up long lengths of text,
             and/or aid in the understanding of a topic. Comics, pictures and graphics are a few of
-            the possible visuals that can be used.</visual>
+            the possible visuals that can be used.<!-- Types can be: Photo, Comic, Drawing, Animation,
+                Quoted Text --></visual>
         <analogy>Analogies should be used to better illustrate important and difficult to understand
             topics put forth by the other elements.</analogy>
         <roadmap>A roadmap is a list in which several ‘section_headers’ that build upon one another
