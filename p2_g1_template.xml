@@ -27,10 +27,11 @@
             to drive home an important point are specified before diving into each section
             independently. This allows the reader to understand the purpose of a section in context
             to avoid getting lost in its details.</roadmap>
-        <p>Paragraph of text, use to delineate individual paragraphs where necessary, such as in
+        <p n="">Paragraph of text, use to delineate individual paragraphs where necessary, such as in
             background or answer material</p>
-        <ref>Hyperlink around a phrase that directs to a source or resource, can be found throughout
-            the post depending on author's preference</ref>
+        <ref type="">Hyperlink around a phrase that directs to a source or resource, can be found throughout
+            the post depending on author's preference<!-- Types can be "source" or "supplement" for
+               source material or supplemental material --></ref>
         <important_idea n="">Major points of interest relating to the topic.</important_idea>
     <!-- Structure -->
         <!-- Fitting the genre model, Background is followed by Answer, followed by Sources -->
@@ -50,12 +51,12 @@
         </background>
         <answer>Body of text that moves towards the answer of the question, presenting topics,
             ideas, analogies, and explanations that lead towards the ultimate conclusion
-            <fundamental_science_involved>A wide-angled cursory description of the basic ideas
+            <fundamental_science_involved n="">A wide-angled cursory description of the basic ideas
                 framing the answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s
                 Laws, or introduce the basic idea of chemical reactions, etc. </fundamental_science_involved>
-            <question_relevant_topics>Specific scientific principles that are directly relevant to
+            <question_relevant_topic n="">Specific scientific principles that are directly relevant to
                 the explanation of the question. Ex. A description of the chemistry behind acid-base
-                reactions. </question_relevant_topics>
+                reactions. </question_relevant_topic>
             <explanation n="">An in-depth reply to the question proposed in the “background”
                 section. Typically, the author will use common vernacular and devices such as
                 analogies and visuals in order to clearly convey concepts to readers.</explanation>
