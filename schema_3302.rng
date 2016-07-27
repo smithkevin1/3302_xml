@@ -853,8 +853,14 @@
     </define>
     <define name="intro">
         <element name="intro">
-            <ref name="macro.paraContent"/>
-            <ref name="att.typed.attribute.type"/>
+            <ref name="model.pLike"/>
+            <attribute name="type">
+                <choice>
+                    <value>ltr_int</value>
+                    <value>exec_sum</value>
+                    <value>abstract</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="crnt_cond">
@@ -898,7 +904,14 @@
     <define name="scope">
         <element name="scope">
             <ref name="macro.paraContent"/>
-            <ref name="att.typed.attribute.type"/>
+            <attribute name="type">
+                <choice>
+                    <value>who</value>
+                    <value>what</value>
+                    <value>when</value>
+                    <value>where</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="objective">
