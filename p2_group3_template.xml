@@ -20,66 +20,56 @@
             </audience>
         </cover_page>
         
-        <div title="">
-            <tbl_cont>
-                <section n="">
-                    <!--text here-->
-                </section>
-            </tbl_cont>
-        </div>
-        
-        <div title="">
-            <intro type="">  <!--attribute options: ltr_int, exec_sum, abstract-->
+        <tbl_cont>
+            <section n="">
                 <!--text here-->
-            </intro>
-        </div>
+            </section>
+        </tbl_cont>
         
-        <div title="Background">
-            <background>
+        <intro type="">  <!--attribute options: ltr_int, exec_sum, abstract-->
+            <p><!--text here--></p>
+        </intro>
+        
+        <background>
+            <p>
                 <crnt_cond>
                     <!-- can include <q> element(s) for quoted material -->
                 </crnt_cond>
                 <subj_hist>
                     <!-- can include <q> element(s) for quoted material -->
                 </subj_hist>
-            </background>
-        </div>
+            </p>
+        </background>
         
-        <div title="">
-            <purpose>
-                <scope type=""> </scope>
+        <purpose>
+            <p>
+                <scope type=""> </scope>  <!--attribute options: what, who, when, where-->
                 <objective>
                     <!-- can include <q> element(s) for quoted material -->
                 </objective>
                 <goal>
                     <!-- can include <q> element(s) for quoted material -->
                 </goal>
-            </purpose>
-        </div>
+            </p>
+        </purpose>
         
-        <div title="">
-            <approach type="">  <!--attribute options: execution, action-->
+        <approach type="">  <!--attribute options: execution, action-->
+            <!--text here-->
+        </approach>
+        
+        <feasibility type="">  <!--attribute options: economic, social, environmental-->
+            <!--text here-->
+        </feasibility>
+        
+        <conclu>
+            <p>
                 <!--text here-->
-            </approach>
-        </div>
+            </p>
+        </conclu>
         
-        <div title="">
-            <feasibility type="">  <!--attribute options: economic, social, environmental-->
-                <!--text here-->
-            </feasibility>
-        </div>
-        
-        <div title="">
-            <conclu>
-                <!--text here-->
-            </conclu>
-        </div>
-        
-        <div title="">
-            <references>
-                <citation n="" style=""> </citation>
-            </references>
-        </div>
+        <references>
+            <citation n="" style=""> </citation>
+        </references>
     </pub_init_proposal>
 
     <docReview>
