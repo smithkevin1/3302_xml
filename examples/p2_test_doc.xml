@@ -9,8 +9,31 @@
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
     
-<!--paste body of your template file here-->
-        
+    <fsb_rpt>
+        <page type="ttl">
+            <title>fj</title>           
+            <date>kfkf</date>
+            <logo url="#kgs"></logo>
+            <contributors>lfle</contributors>
+            <subTitle></subTitle>
+        </page>
+        <page type="tbl_contents" >
+         
+            Representing any page of the feasibility report.
+            <sect n="">
+                <!--attribute options:@lvl-->   
+                (Section) is an element for each listing in the tbl_contents page
+            </sect>
+        </page>
+        <page type="exec_sum">
+            
+        </page>
+        <page type="exec_sum">
+            
+        </page>
+    </fsb_rpt>
+    
+    
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">

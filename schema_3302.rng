@@ -780,19 +780,155 @@
     <!-- end group 1 definitions -->
 
     <!-- Group 2: Feasibility reports -->
-
-    <define name="model.tbl_contents">
-        <ref name="macro.paraContent"/>
-        <element name="sect">
+    <define name="model.imgLike">
+        <optional>
             <ref name="macro.paraContent"/>
-            <ref name="att.global.attribute.n"/>
+        </optional>
+        <ref name="att.resourced.attribute.url"/>
+    </define>
+    <define name="logo">
+        <element name="logo">
+            <ref name="model.imgLike"/>
         </element>
     </define>
+    <define name="contributors">
+        <element name="contributors">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="subTitle">
+        <element name="subTitle">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="date">
+        <element name="date">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.ttl">
+
+        <interleave>
+            <ref name="title"/>
+            <optional>
+                <ref name="subTitle"/>
+            </optional>
+            <ref name="date"/>
+            <ref name="contributors"/>
+            <optional>
+                <ref name="logo"/>
+            </optional>
+        </interleave>
+
+
+    </define>
+    <define name="model.tbl_contents">
+        <element name="sect">
+            <a:documentation>(Section) is an element for each listing in the &lt;tbl_contents&gt;
+                [requires a mandatory @num attribute and an optional @lvl (level) attribute denoting
+                its level in the hierarchy]. A &lt;sect&gt; element with @lvl=1 will be numbered
+                with a roman numeral corresponding to its native @num attribute. A &lt;sect&gt;
+                element which has @lvl=2 will be lettered corresponding to its native @num attribute
+                (@num=1 shows A, @num=2 shows B, etc) and indented below its parent. A &lt;sect&gt;
+                element @lvl=3 will be denoted with its native @num attribute and indented twice
+                below its parent. Each use of a sub level begins again at @num=1.</a:documentation>
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+            <optional>
+                <attribute name="lvl">
+                    <data type="int"/>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+    <define name="app_ovr">
+        <element name="app_ovr">
+            <a:documentation>(Application overview) a highlight of certain element of the
+                application. This can be anything from you/your team's goals to how it interacts
+                with other products, projects, and systems. [requires an @type attribute]. Available
+                types: obj, synergy, rls. </a:documentation>
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <a:documentation>type of application overview</a:documentation>
+                <choice>
+                    <value>obj</value>
+                    <a:documentation>referencing a personal, team, social, or business
+                        objective</a:documentation>
+                    <value>synergy</value>
+                    <a:documentation>referencing the way your project will interact with any type of
+                        existing infrastructure</a:documentation>
+                    <value>rls</value>
+                    <a:documentation>referencing the any rules or regulations the project will
+                        encounter whether for better or worse</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="model.pre_req_ana">
+        <oneOrMore>
+            <ref name="app_ovr"/>
+        </oneOrMore>
+    </define>
+    <define name="fsb_hlgt">
+        <element name="fsb_hlgt">
+            <a:documentation>(feasibility highlight) Body of this element is the general summary of
+                this aspect of feasibility [required @type attribute and @n attribute] available
+                types: @tcnl (technical), @econ (economic), @tfrm (timeframe), @socl (public
+                reception), @suits (legality), or @envr (environmental).</a:documentation>
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+            <attribute name="type">
+                <a:documentation>available types: @tcnl (technical), @econ (economic), @tfrm
+                    (timeframe), @socl (public reception), @suits (legality), or @envr
+                    (environmental)</a:documentation>
+                <choice>
+                    <value>tcnl</value>
+                    <a:documentation>(technical)</a:documentation>
+                    <value>econ</value>
+                    <a:documentation>(economic)</a:documentation>
+                    <value>socl</value>
+                    <a:documentation>(public reception)</a:documentation>
+                    <value>suits</value>
+                    <a:documentation>(legality)</a:documentation>
+                    <value>envr</value>
+                    <a:documentation>(environmental)</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="model.fsb">
+        <oneOrMore>
+            <ref name="fsb_hlgt"/>
+        </oneOrMore>
+    </define>
+
+    <!--attribute options: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb, @sccs_crt, @dsn, @cost, 
+            @rpt, @rsk_ana, @fnc, and @conc-->
     <define name="macro.pageContent">
         <zeroOrMore>
             <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>ttl</value>
+                    <a:documentation>(Title) contains a mandatory Title, date of submission, and
+                        list of contributors. Logo and sub-title optional. </a:documentation>
+                </attribute>
+                <oneOrMore>
+                    <ref name="model.ttl"/>
+                </oneOrMore>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>tbl_contents</value>
+                    <a:documentation>(Table of Contents) contains any number of &lt;sect&gt;
+                        elements. </a:documentation>
                 </attribute>
                 <oneOrMore>
                     <ref name="model.tbl_contents"/>
@@ -801,15 +937,50 @@
         </zeroOrMore>
         <zeroOrMore>
             <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>exec_sum</value>
+                    <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary
+                        of the whole presentation. From these paragraphs you should be able to
+                        understand whether or not the author supports the project, the most critical
+                        limitations / benefits where applicable, and </a:documentation>
                 </attribute>
                 <ref name="macro.paraContent"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>pre_req_ana</value>
+                    <a:documentation>(Preliminary requirements analysis) This page type contains the
+                        evaluation of the environment for the project before beginning it. Contains
+                        any number of &lt;app_ovr&gt; elements.</a:documentation>
+                </attribute>
+                <ref name="model.pre_req_ana"/>
+            </element>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>fsb</value>
+                    <a:documentation>(feasibility) This page type Contains any number of
+                        &lt;fsb_stud&gt; elements. Bulk of the total report.</a:documentation>
+                </attribute>
+                <ref name="model.fsb"/>
             </element>
         </zeroOrMore>
     </define>
     <define name="fsb_rpt">
         <element name="fsb_rpt">
+            <a:documentation>(Feasibility Report) container element for writing project 2. Contains
+                any number of pages. Cannot contain text by itself. Can only contain text in
+                pages.</a:documentation>
             <ref name="macro.pageContent"/>
         </element>
     </define>
@@ -1006,7 +1177,9 @@
     </define>
     <!-- end group 3 definitions -->
 
+    <!-- Group 4: Cover letter -->
 
+    <!-- end group 4 definitions -->
 
     <define name="docHead">
         <element name="docHead">
