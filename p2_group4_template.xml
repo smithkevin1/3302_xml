@@ -2,31 +2,42 @@
 <Cover_Letter>
     <Header>
         <Name>John Doe</Name>
-        <Contact_Info> <!-- One or More Contact -->
-            <Contact type="Address">123 Lane 11111 DC</Contact> 
+        <Contact_Info>
+            <!-- One or More Contact -->
+            <Contact type="Address">123 Lane 11111 DC</Contact>
             <Contact type="Phone"> 1-800-999-9999 </Contact>
-            <Contact type="Email"> jdoe@fakeMail.net  </Contact> 
+            <Contact type="Email"> jdoe@fakeMail.net </Contact>
             <Contact type="LinkedIn"> https://www.linkedin.com/in/john-doe-12345678?</Contact>
-        </Contact_Info>   
+        </Contact_Info>
     </Header>
     <Greeting>Hello Jane Doe,</Greeting>
     <Intro_Para>
-        <Intent type="Purpose">I am interested in the Simulation Engineering job at ABC Widgets.</Intent>
-        <Intent type="Connection"><!-- Optional --> After talking with you at the Knowledge University job fair</Intent> , I became interested in the job.
-        <Reason><!-- Optional --> I have enjoyed my past work with Simulation Engineering in the past</Reason> and 
-        <Proposition>I think I will fit well with ABC Widgets culture and bring all the necessary abilities to go above and beyond my job requirements.</Proposition>
+        <Intent type="Purpose">I am interested in the Simulation Engineering job at ABC
+            Widgets.</Intent>
+        <Intent type="Connection"><!-- Optional --> After talking with you at the Knowledge
+            University job fair</Intent> , I became interested in the job. <Reason><!-- Optional -->
+            I have enjoyed my past work with Simulation Engineering in the past</Reason> and
+            <Proposition>I think I will fit well with ABC Widgets culture and bring all the
+            necessary abilities to go above and beyond my job requirements.</Proposition>
     </Intro_Para>
-    <Para_Background> <!-- One or More -->
-        <Experience type="work">I bring previous experience with C++ from my work at 123 Consulting.  I used C++ while contributing to their weather simulation and improved their computing efficiency with it.</Experience>
-        <Experience type="personal">I have also improved my ability in Java while working on a chess program in my spare time.</Experience>
-        <Experience type="school">I gained communication skills from my work as a TA at Knowledge University.  I often had to explain technial info in many different ways.</Experience>
+    <Para_Background>
+        <!-- One or More -->
+        <Experience type="work">I bring previous experience with C++ from my work at 123 Consulting.
+            I used C++ while contributing to their weather simulation and improved their computing
+            efficiency with it.</Experience>
+        <Experience type="personal">I have also improved my ability in Java while working on a chess
+            program in my spare time.</Experience>
+        <Experience type="school">I gained communication skills from my work as a TA at Knowledge
+            University. I often had to explain technial info in many different ways.</Experience>
     </Para_Background>
     <Para_Closing>
-        <Compatability>I think I will fit in well with the start up culture of ABC Widgets.</Compatability> 
-        <Next_Step>I hope you will call me at 1-800-999-9999 so we can discuss the next step in the hiring process</Next_Step>
+        <Compatability>I think I will fit in well with the start up culture of ABC
+            Widgets.</Compatability>
+        <Next_Step>I hope you will call me at 1-800-999-9999 so we can discuss the next step in the
+            hiring process.</Next_Step>
     </Para_Closing>
     <Signature>
         <Salutation>Sincerely,</Salutation>
         <Name>John Doe</Name>
-    </Signature>   
+    </Signature>
 </Cover_Letter>
