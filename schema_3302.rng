@@ -580,6 +580,7 @@
     </define>
     <!--end annotated bibliography definitions-->
 
+
     <!-- Group 1: science blog posts -->
 
     <define name="sectionheader">
@@ -777,6 +778,43 @@
         </element>
     </define>
     <!-- end group 1 definitions -->
+
+    <!-- Group 2: Feasibility reports -->
+
+    <define name="model.tbl_contents">
+        <ref name="macro.paraContent"/>
+        <element name="sect">
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="macro.pageContent">
+        <zeroOrMore>
+            <element name="page">
+                <attribute name="type">
+                    <value>tbl_contents</value>
+                </attribute>
+                <oneOrMore>
+                    <ref name="model.tbl_contents"/>
+                </oneOrMore>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <attribute name="type">
+                    <value>exec_sum</value>
+                </attribute>
+                <ref name="macro.paraContent"/>
+            </element>
+        </zeroOrMore>
+    </define>
+    <define name="fsb_rpt">
+        <element name="fsb_rpt">
+            <ref name="macro.pageContent"/>
+        </element>
+    </define>
+    <!-- end group 2 definitions -->
+
 
     <!-- Group 3: public initiative proposal -->
     <define name="submit_date">
@@ -984,6 +1022,7 @@
                         not needed yet, if at all -->
                     <ref name="annotated_bib"/>
                     <ref name="blog_post"/>
+                    <ref name="fsb_rpt"/>
                     <ref name="pub_init_proposal"/>
                 </choice>
                 <optional>
