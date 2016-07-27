@@ -779,9 +779,178 @@
     <!-- end group 1 definitions -->
 
     <!-- Group 3: public initiative proposal -->
+    <define name="submit_date">
+        <element name="submit_date">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="audience">
+        <element name="audience">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="proposal.cover_page.content">
+        <ref name="title"/>
+        <ref name="author"/>
+        <ref name="submit_date"/>
+        <ref name="audience"/>
+    </define>
+    <define name="cover_page">
+        <element name="cover_page">
+            <ref name="proposal.cover_page.content"/>
+        </element>
+    </define>
+    <define name="section">
+        <element name="section">
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="tbl_cont">
+        <element name="tbl_cont">
+            <oneOrMore>
+                <ref name="section"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="intro">
+        <element name="intro">
+            <ref name="macro.paraContent"/>
+            <ref name="att.typed.attribute.type"/>
+        </element>
+    </define>
+    <define name="crnt_cond">
+        <element name="crnt_cond">
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="subj_hist">
+        <element name="subj_hist">
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="proposal.background.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="crnt_cond"/>
+                <ref name="subj_hist"/>
+            </choice>
+        </zeroOrMore>
+    </define>
+    <define name="proposal.background">
+        <element name="background">
+            <oneOrMore>
+                <element name="p">
+                    <ref name="proposal.background.content"/>
+                </element>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="scope">
+        <element name="scope">
+            <ref name="macro.paraContent"/>
+            <ref name="att.typed.attribute.type"/>
+        </element>
+    </define>
+    <define name="objective">
+        <element name="objective">
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="goal">
+        <element name="goal">
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="proposal.purpose.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="scope"/>
+                <ref name="objective"/>
+                <ref name="goal"/>
+                <ref name="macro.paraContent"/>
+            </choice>
+        </zeroOrMore>
+    </define>
+    <define name="proposal.purpose">
+        <element name="purpose">
+            <oneOrMore>
+                <element name="p">
+                    <ref name="proposal.purpose.content"/>
+                </element>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="proposal.approach">
+        <element name="approach">
+            <ref name="model.pLike"/>
+            <attribute name="type">
+                <choice>
+                    <value>execution</value>
+                    <value>action</value>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="feasibility">
+        <element name="feasibility">
+            <ref name="model.pLike"/>
+            <attribute name="type">
+                <choice>
+                    <value>economic</value>
+                    <value>social</value>
+                    <value>environmental</value>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="conclu">
+        <element name="conclu">
+            <ref name="model.pLike"/>
+        </element>
+    </define>
+    <define name="references">
+        <element name="references">
+            <ref name="model.biblLike"/>
+        </element>
+    </define>
+    <define name="model.proposal.content">
+        <group>
+            <ref name="cover_page"/>
+            <ref name="tbl_cont"/>
+            <ref name="intro"/>
+            <ref name="proposal.background"/>
+            <ref name="proposal.purpose"/>
+            <ref name="proposal.approach"/>
+            <ref name="feasibility"/>
+            <ref name="conclu"/>
+            <ref name="references"/>
+        </group>
+    </define>
     <define name="pub_init_proposal">
         <element name="pub_init_proposal">
-            <text/>
+            <ref name="model.proposal.content"/>
         </element>
     </define>
     <!-- end group 3 definitions -->
