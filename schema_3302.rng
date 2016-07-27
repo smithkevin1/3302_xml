@@ -1178,7 +1178,9 @@
     <!-- end group 3 definitions -->
 
     <!-- Group 4: Cover letter -->
-
+<define name="cover_letter">
+    <ref name="macro.paraContent"/>
+</define>
     <!-- end group 4 definitions -->
 
     <define name="docHead">
