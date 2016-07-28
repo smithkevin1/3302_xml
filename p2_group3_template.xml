@@ -54,11 +54,15 @@
         </purpose>
         
         <approach type="">  <!--attribute options: execution, action-->
-            <!--text here-->
+            <p>
+                <!--text here-->
+            </p>
         </approach>
         
         <feasibility type="">  <!--attribute options: economic, social, environmental-->
-            <!--text here-->
+            <p>
+                <!--text here-->
+            </p>
         </feasibility>
         
         <conclu>
