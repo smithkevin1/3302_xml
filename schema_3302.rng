@@ -1661,7 +1661,7 @@
         <element name="DOC">
             <group>
                 <ref name="docHead"/>
-                <choice>
+                <oneOrMore><choice>
                     <!--<ref name="body"/> 
                         not needed yet, if at all -->
                     <ref name="annotated_bib"/>
@@ -1669,7 +1669,7 @@
                     <ref name="fsb_rpt"/>
                     <ref name="pub_init_proposal"/>
                     <ref name="cover_letter"/>
-                </choice>
+                </choice></oneOrMore>
                 <optional>
                     <ref name="docFoot"/>
                 </optional>
