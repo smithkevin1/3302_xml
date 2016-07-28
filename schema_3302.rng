@@ -901,55 +901,191 @@
             <ref name="fsb_hlgt"/>
         </oneOrMore>
     </define>
-
+    <define name="req">
+        <element name="req">
+            <a:documentation>(requirement). This is a requirement. [required @num attribute].
+                Although not strictly a technical requirement, this is used to detail certain </a:documentation>
+            <ref name="att.global.attribute.n"/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="req_sect">
+        <element name="req_sect">
+            <a:documentation>(requirement section) details a sections of requirements. Strictly
+                related to the project’s components. For example an appropriate &lt;req_sect&gt;
+                element would be “userinterface”, “Database/database interaction”, or
+                “construction”. A &lt;req_sect&gt; element is simple an italicized above each of its
+                requirement. </a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="req"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.sccs_crt">
+        <ref name="req_sect"/>
+    </define>
+    <define name="img">
+        <element name="img">
+            <ref name="model.imgLike"/>
+        </element>
+    </define>
+    <define name="model.dsn">
+        <ref name="img"/>
+    </define>
+    <define name="est">
+        <element name="est">
+            <a:documentation>The &lt;est&gt; element represents an estimated cost [required @type
+                attribute]. Available @types: inst (institutional), envr (environmental), lgl
+                (legal), fnc (financial).</a:documentation>
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>inst</value>
+                    <a:documentation>(institutional)</a:documentation>
+                    <value>envr</value>
+                    <a:documentation>(environmental)</a:documentation>
+                    <value>lgl</value>
+                    <a:documentation>(legal)</a:documentation>
+                    <value>fnc</value>
+                    <a:documentation>(financial)</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="model.cost">
+        <oneOrMore>
+            <ref name="est"/>
+        </oneOrMore>
+    </define>
+    <define name="tmln">
+        <element name="tmln">
+            <a:documentation>(Timeline) The tmln element is an optional element design to provide a
+                timeline entry [required @date (written in mm/dd/yyyy) and @num] attribute. Date
+                will be highlighted in bold with the text following it. Each &lt;tmln&gt; will have
+                a line between them of blank space. </a:documentation>
+            <ref name="att.global.attribute.n"/>
+            <attribute name="date">
+                <a:documentation>This is the date of this version (n) of the text you are working
+                    on.</a:documentation>
+                <data type="date"/>
+            </attribute>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.rpt">
+        <oneOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="tmln"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="fnc">
+        <element name="fnc">
+            <a:documentation>(financial highlight). [required @num, and @type attribute] example
+                @types: @fund (Funding), @lns (loans), @exp (expenses), @brdn (Burden to company /
+                organization).</a:documentation>
+            <ref name="macro.paraContent"/>
+            <ref name="att.global.attribute.n"/>
+            <attribute name="type">
+                <choice>
+                    <value>fund</value>
+                    <a:documentation>(Funding)</a:documentation>
+                    <value>lns</value>
+                    <a:documentation>(loans)</a:documentation>
+                    <value>exp</value>
+                    <a:documentation>(expenses)</a:documentation>
+                    <value>brdn</value>
+                    <a:documentation>(Burden to company / organization)</a:documentation>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="model.fnc">
+        <zeroOrMore>
+            <ref name="fnc"/>
+        </zeroOrMore>
+    </define>
+    <define name="fsb">
+        <element name="fsb">
+            <a:documentation>This element is used to answer your thoughts on the question “Is it
+                feasible” and why.</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="cond">
+        <element name="cond">
+            <a:documentation>This element is used to identify the key conditions for feasibility.
+                Such as meeting a timeframe or extended financial support. Maybe even address
+                certain doubts on the feasibility. </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="sum">
+        <element name="sum">
+            <a:documentation>This element summarizes the whole report. </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.conc">
+        <ref name="fsb"/>
+        <ref name="cond"/>
+        <ref name="sum"/>
+    </define>
     <!--attribute options: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb, @sccs_crt, @dsn, @cost, 
             @rpt, @rsk_ana, @fnc, and @conc-->
     <define name="macro.pageContent">
-        <zeroOrMore>
-            <element name="page">
-                <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-                <attribute name="type">
-                    <value>ttl</value>
-                    <a:documentation>(Title) contains a mandatory Title, date of submission, and
-                        list of contributors. Logo and sub-title optional. </a:documentation>
-                </attribute>
-                <oneOrMore>
-                    <ref name="model.ttl"/>
-                </oneOrMore>
-            </element>
-        </zeroOrMore>
-        <zeroOrMore>
-            <element name="page">
-                <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-                <attribute name="type">
-                    <value>tbl_contents</value>
-                    <a:documentation>(Table of Contents) contains any number of &lt;sect&gt;
-                        elements. </a:documentation>
-                </attribute>
-                <oneOrMore>
-                    <ref name="model.tbl_contents"/>
-                </oneOrMore>
-            </element>
-        </zeroOrMore>
-        <zeroOrMore>
-            <element name="page">
-                <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-                <attribute name="type">
-                    <value>exec_sum</value>
-                    <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary
-                        of the whole presentation. From these paragraphs you should be able to
-                        understand whether or not the author supports the project, the most critical
-                        limitations / benefits where applicable, and </a:documentation>
-                </attribute>
-                <ref name="macro.paraContent"/>
-            </element>
-        </zeroOrMore>
+
+        <element name="page">
+            <a:documentation>Representing any page of the feasibility report. [required @type
+                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+            <attribute name="type">
+                <value>ttl</value>
+                <a:documentation>(Title) contains a mandatory Title, date of submission, and list of
+                    contributors. Logo and sub-title optional. </a:documentation>
+            </attribute>
+            <oneOrMore>
+                <ref name="model.ttl"/>
+            </oneOrMore>
+        </element>
+
+
+        <element name="page">
+            <a:documentation>Representing any page of the feasibility report. [required @type
+                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+            <attribute name="type">
+                <value>tbl_contents</value>
+                <a:documentation>(Table of Contents) contains any number of &lt;sect&gt; elements.
+                </a:documentation>
+            </attribute>
+            <oneOrMore>
+                <ref name="model.tbl_contents"/>
+            </oneOrMore>
+        </element>
+
+
+        <element name="page">
+            <a:documentation>Representing any page of the feasibility report. [required @type
+                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+            <attribute name="type">
+                <value>exec_sum</value>
+                <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary of
+                    the whole presentation. From these paragraphs you should be able to understand
+                    whether or not the author supports the project, the most critical limitations /
+                    benefits where applicable, and </a:documentation>
+            </attribute>
+            <ref name="macro.paraContent"/>
+        </element>
+
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
@@ -963,6 +1099,8 @@
                 </attribute>
                 <ref name="model.pre_req_ana"/>
             </element>
+        </zeroOrMore>
+        <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
                     attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
@@ -975,6 +1113,114 @@
                 <ref name="model.fsb"/>
             </element>
         </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>sccs_crt</value>
+                    <a:documentation>(Success criteria). This pages contains the pre-defined
+                        requirements for the project to be declared successful. Contains any number
+                        of &lt;req_sect&gt; elements. Easy to confuse with the page @pre_req_ana, or
+                        the preliminary requirements analysis. This page contains the technical
+                        aspects describing the actual project rather than the environment
+                        surrounding the project and it’s success. </a:documentation>
+                </attribute>
+                <ref name="model.sccs_crt"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>dsn</value>
+                    <a:documentation>(Design or Diagram). This type of page is a diagram or image
+                        that shows a quick highlight of the system / structure. Usually outline
+                        interconnecting parts.</a:documentation>
+                </attribute>
+                <ref name="model.dsn"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>cost</value>
+                    <a:documentation>(Cost Estimates) The Cost estimates page contains any number of
+                        &lt;est&gt; elements</a:documentation>
+                </attribute>
+                <ref name="model.cost"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>rpt</value>
+                    <a:documentation>(Report page) Not to be mistake with an estimate, this page is
+                        about outlining how you show or prove progress on your project and how you
+                        will report that progress. Examples include the medium / genre for your
+                        report. Who you are reporting too, and what deliverables you will have.
+                        Deliverables could include a tour a facility / physical project, or an
+                        interactive demo of software. Includes any number of &lt;tmln&gt;
+                        elements.</a:documentation>
+                </attribute>
+                <ref name="model.rpt"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>rsk_ana</value>
+                    <a:documentation>(Risk Analysis) chart/graphics/paragraph dedicated to covering
+                        certain risks and how your project will avoid them </a:documentation>
+                </attribute>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="img"/>
+                    </choice>
+                </oneOrMore>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>fnc</value>
+                    <a:documentation>(Financial) This page is for a detailed financing plan if
+                        necessary. May be covered already by previous sections if not as detailed.
+                    </a:documentation>
+                </attribute>
+                <ref name="model.fnc"/>
+            </element>
+        </zeroOrMore>
+
+        <element name="page">
+            <a:documentation>Representing any page of the feasibility report. [required @type
+                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+            <attribute name="type">
+                <value>conc</value>
+                <a:documentation>(Conclusion) The conclusion page consists of a body of writing that
+                    is three parts. It contains one of each of the following elements: fsb, cond,
+                    and sum. This page should be very direct and to the point </a:documentation>
+            </attribute>
+            <ref name="model.conc"/>
+        </element>
+
     </define>
     <define name="fsb_rpt">
         <element name="fsb_rpt">
