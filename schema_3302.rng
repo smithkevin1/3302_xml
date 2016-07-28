@@ -592,6 +592,23 @@
     <define name="visual">
         <element name="visual">
             <ref name="macro.paraContent"/>
+            <ref name="att.resourced.attribute.url"/>
+            <attribute name="type">
+                <a:documentation>Types can be: Photo, Comic, Drawing, Animation, Quoted Text,
+                    Other</a:documentation>
+                <choice>
+                    <value>photo</value>
+                    <a:documentation/>
+                    <value>comic</value>
+                    <a:documentation/>
+                    <value>drawing</value>
+                    <a:documentation/>
+                    <value>animation</value>
+                    <a:documentation/>
+                    <value>quoted_text</value>
+                    <value>other</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="analogy">
@@ -604,23 +621,47 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
-    <define name="important_ideas">
-        <element name="important_ideas">
+    <define name="important_idea">
+        <element name="important_idea">
             <ref name="macro.paraContent"/>
             <ref name="att.global.attribute.n"/>
+        </element>
+    </define>
+    <define name="blog.ref">
+        <element name="ref">
+            <a:documentation>Hyperlink around a phrase that directs to a source or resource, can be
+                found throughout the post depending on author's preference</a:documentation>
+            <ref name="macro.paraContent"/>
+            <ref name="att.resourced.attribute.url"/>
+            <attribute name="type">
+                <a:documentation>Types can be "source" or "supplement" for source material or
+                    supplemental material</a:documentation>
+                <choice>
+                    <value>source</value>
+                    <a:documentation>source material</a:documentation>
+                    <value>supplement</value>
+                    <a:documentation>supplemental material</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="pb">
+        <element name="pb">
+            <ref name="att.global.attribute.n"/>
+            <empty/>
         </element>
     </define>
     <define name="model.blog.global">
         <zeroOrMore>
             <choice>
-                <ref name="model.global"/>
                 <ref name="section_header"/>
                 <ref name="visual"/>
                 <ref name="analogy"/>
                 <ref name="roadmap"/>
-                <ref name="important_ideas"/>
-                <ref name="model.pLike"/>
-                <ref name="ref"/>
+                <ref name="important_idea"/>
+                <ref name="blog.ref"/>
+                <ref name="pb"/>
+                <ref name="macro.paraContent"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -633,16 +674,18 @@
                     <ref name="macro.paraContent"/>
                 </choice>
             </zeroOrMore>
+            <ref name="att.global.attribute.n"/>
         </element>
     </define>
-    <define name="question_relevant_topics">
-        <element name="question_relevant_topics">
+    <define name="question_relevant_topic">
+        <element name="question_relevant_topic">
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
                     <ref name="macro.paraContent"/>
                 </choice>
             </zeroOrMore>
+            <ref name="att.global.attribute.n"/>
         </element>
     </define>
     <define name="explanation">
@@ -656,8 +699,8 @@
             <ref name="att.global.attribute.n"/>
         </element>
     </define>
-    <define name="final_answer">
-        <element name="final_answer">
+    <define name="conclusion">
+        <element name="conclusion">
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -668,19 +711,32 @@
     </define>
     <define name="blog.answer.content">
         <group>
-            <ref name="fundamental_science_involved"/>
-            <ref name="question_relevant_topics"/>
-            <oneOrMore>
-                <ref name="explanation"/>
-            </oneOrMore>
-            <ref name="final_answer"/>
+            <interleave>
+                <zeroOrMore>
+                    <ref name="model.blog.global"/>
+                </zeroOrMore>
+                <oneOrMore>
+                    <ref name="fundamental_science_involved"/>
+                </oneOrMore>
+                <oneOrMore>
+                    <ref name="question_relevant_topic"/>
+                </oneOrMore>
+                <oneOrMore>
+                    <ref name="explanation"/>
+                </oneOrMore>
+                <ref name="conclusion"/>
+            </interleave>
         </group>
     </define>
     <define name="answer">
         <element name="answer">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
-            <ref name="blog.answer.content"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                    <ref name="blog.answer.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="question">
@@ -717,55 +773,53 @@
     </define>
     <define name="blog.background.content">
         <group>
-            <ref name="question"/>
-            <oneOrMore>
-                <ref name="scientific_principle"/>
-            </oneOrMore>
-            <oneOrMore>
-                <ref name="misconceptions"/>
-            </oneOrMore>
+            <interleave>
+                <zeroOrMore>
+                    <ref name="model.blog.global"/>
+                </zeroOrMore>
+                <ref name="question"/>
+                <oneOrMore>
+                    <ref name="scientific_principle"/>
+                </oneOrMore>
+                <zeroOrMore>
+                    <ref name="misconceptions"/>
+                </zeroOrMore>
+            </interleave>
         </group>
     </define>
     <define name="blog.background">
         <element name="background">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
-            <ref name="blog.background.content"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                    <ref name="blog.background.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
 
     <define name="sources">
         <element name="sources">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
-        </element>
-    </define>
-    <define name="followup">
-        <element name="followup">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
-        </element>
-    </define>
-    <define name="community_interact">
-        <element name="community_interact">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
-        </element>
-    </define>
-    <define name="comments_sections">
-        <element name="comments_sections">
-            <ref name="macro.paraContent"/>
-            <ref name="model.blog.global"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="model.biblLike"/>
+                    <ref name="model.blog.global"/>
+                </choice>
+            </zeroOrMore>
         </element>
     </define>
     <define name="model.blog.content">
         <group>
             <ref name="blog.background"/>
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
             <ref name="answer"/>
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
             <ref name="sources"/>
-            <ref name="followup"/>
-            <ref name="community_interact"/>
-            <ref name="comments_sections"/>
         </group>
     </define>
     <define name="blog_post">
