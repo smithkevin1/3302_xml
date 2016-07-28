@@ -191,7 +191,7 @@
         <element name="note">
             <a:documentation>contains a note made on the text intended to provide additional
                 information or comment upon the text; requires a @type attribute and a @resp
-                (resposibile party) attribute with your id for peer reviewer note</a:documentation>
+                (responsible party) attribute with your id for peer reviewer note</a:documentation>
             <optional>
                 <ref name="att.global.attributes"/>
             </optional>
@@ -466,11 +466,11 @@
                     and source</a:documentation>
                 <choice>
                     <value>author</value>
-                    <a:documentation>(author background) nformation pertaining to the author or
+                    <a:documentation>(author background) information pertaining to the author or
                         authors of the source (credentials, education, profession,
                         etc.)</a:documentation>
                     <value>source</value>
-                    <a:documentation>(source background) nformation pertaining to the source
+                    <a:documentation>(source background) information pertaining to the source
                         (publication information, popularity, etc.)</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
@@ -1179,9 +1179,37 @@
 
     <!-- Group 4: Cover letter -->
 
+    <define name="name">
+        <element name="name">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="contact">
+        <element name="contact">
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>address</value>
+                    <value>phone</value>
+                    <value>email</value>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="contact_info">
+        <element name="contact_info">
+            <oneOrMore>
+                <ref name="contact"/>
+            </oneOrMore>
+        </element>
+    </define>
     <define name="header">
         <element name="header">
-            <text/>
+            <ref name="name"/>
+            <ref name="contact_info"/>
         </element>
     </define>
     <define name="greeting">
@@ -1189,24 +1217,95 @@
             <text/>
         </element>
     </define>
+    <define name="intent">
+        <oneOrMore>
+            <element name="intent">
+                <attribute name="type">
+                    <value>purpose</value>
+                </attribute>
+                <ref name="macro.paraContent"/>
+            </element>
+        </oneOrMore>
+        <zeroOrMore>
+            <element name="intent">
+                <attribute name="type">
+                    <value>connection</value>
+                </attribute>
+                <ref name="macro.paraContent"/>
+            </element>
+        </zeroOrMore>
+    </define>
+    <define name="reason">
+        <element name="reason">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="proposition">
+        <element name="proposition">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
     <define name="intro_para">
         <element name="intro_para">
-            <text/>
+            <interleave>
+                <ref name="intent"/>
+                <optional>
+                    <ref name="reason"/>
+                </optional>
+                <ref name="proposition"/>
+                <zeroOrMore>
+                    <ref name="macro.paraContent"/>
+                </zeroOrMore>
+            </interleave>
+        </element>
+    </define>
+    <define name="experience">
+        <element name="experience">
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>work</value>
+                    <value>personal</value>
+                    <value>school</value>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="para_background">
         <element name="para_background">
-            <text/>
+            <oneOrMore>
+                <ref name="experience"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="compatability">
+        <element name="compatability">
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="next_step">
+        <element name="next_step">
+            <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="para_closing">
         <element name="para_closing">
-            <text/>
+            <ref name="compatability"/>
+            <ref name="next_step"/>
+        </element>
+    </define>
+    <define name="salutation">
+        <element name="salutation">
+            <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="signature">
         <element name="signature">
-            <text/>
+            <ref name="salutation"/>
+            <ref name="name"/>
         </element>
     </define>
     <define name="cover_letter">
