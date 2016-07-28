@@ -1178,9 +1178,49 @@
     <!-- end group 3 definitions -->
 
     <!-- Group 4: Cover letter -->
-<define name="cover_letter">
-    <ref name="macro.paraContent"/>
-</define>
+
+    <define name="header">
+        <element name="header">
+            <text/>
+        </element>
+    </define>
+    <define name="greeting">
+        <element name="greeting">
+            <text/>
+        </element>
+    </define>
+    <define name="intro_para">
+        <element name="intro_para">
+            <text/>
+        </element>
+    </define>
+    <define name="para_background">
+        <element name="para_background">
+            <text/>
+        </element>
+    </define>
+    <define name="para_closing">
+        <element name="para_closing">
+            <text/>
+        </element>
+    </define>
+    <define name="signature">
+        <element name="signature">
+            <text/>
+        </element>
+    </define>
+    <define name="cover_letter">
+        <element name="cover_letter">
+            <ref name="header"/>
+            <ref name="greeting"/>
+            <ref name="intro_para"/>
+            <oneOrMore>
+                <ref name="para_background"/>
+            </oneOrMore>
+            <ref name="para_closing"/>
+            <ref name="signature"/>
+        </element>
+    </define>
     <!-- end group 4 definitions -->
 
     <define name="docHead">
@@ -1212,6 +1252,7 @@
                     <ref name="blog_post"/>
                     <ref name="fsb_rpt"/>
                     <ref name="pub_init_proposal"/>
+                    <ref name="cover_letter"/>
                 </choice>
                 <optional>
                     <ref name="docFoot"/>
