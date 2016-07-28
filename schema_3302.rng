@@ -284,8 +284,9 @@
             <a:documentation>(paragraph) a division of text indicating a
                 paragraph.</a:documentation>
             <ref name="macro.paraContent"/>
-            <ref name="att.global.attributes"/>
-            <ref name="att.typed.attributes"/>
+            <ref name="att.global.attribute.n"/>
+            <!--<ref name="att.global.attributes"/>
+            <ref name="att.typed.attributes"/>-->
         </element>
     </define>
     <define name="div">
@@ -583,8 +584,8 @@
 
     <!-- Group 1: science blog posts -->
 
-    <define name="sectionheader">
-        <element name="sectionheader">
+    <define name="section_header">
+        <element name="section_header">
             <ref name="macro.paraContent"/>
         </element>
     </define>
@@ -613,11 +614,13 @@
         <zeroOrMore>
             <choice>
                 <ref name="model.global"/>
-                <ref name="sectionheader"/>
+                <ref name="section_header"/>
                 <ref name="visual"/>
                 <ref name="analogy"/>
                 <ref name="roadmap"/>
                 <ref name="important_ideas"/>
+                <ref name="model.pLike"/>
+                <ref name="ref"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -819,8 +822,6 @@
                 <ref name="logo"/>
             </optional>
         </interleave>
-
-
     </define>
     <define name="model.tbl_contents">
         <element name="sect">
@@ -836,6 +837,14 @@
             <ref name="att.global.attribute.n"/>
             <optional>
                 <attribute name="lvl">
+                    <a:documentation>(level) attribute denoting its level in the hierarchy]. A
+                        &lt;sect&gt; element with @lvl=1 will be numbered with a roman numeral
+                        corresponding to its native @num attribute. A &lt;sect&gt; element which has
+                        @lvl=2 will be lettered corresponding to its native @num attribute (@num=1
+                        shows A, @num=2 shows B, etc) and indented below its parent. A &lt;sect&gt;
+                        element @lvl=3 will be denoted with its native @num attribute and indented
+                        twice below its parent. Each use of a sub level begins again at
+                        @num=1.</a:documentation>
                     <data type="int"/>
                 </attribute>
             </optional>
@@ -1038,53 +1047,58 @@
         <ref name="cond"/>
         <ref name="sum"/>
     </define>
-    <!--attribute options: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb, @sccs_crt, @dsn, @cost, 
-            @rpt, @rsk_ana, @fnc, and @conc-->
+
     <define name="macro.pageContent">
-
-        <element name="page">
-            <a:documentation>Representing any page of the feasibility report. [required @type
-                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-            <attribute name="type">
-                <value>ttl</value>
-                <a:documentation>(Title) contains a mandatory Title, date of submission, and list of
-                    contributors. Logo and sub-title optional. </a:documentation>
-            </attribute>
-            <oneOrMore>
-                <ref name="model.ttl"/>
-            </oneOrMore>
-        </element>
-
-
-        <element name="page">
-            <a:documentation>Representing any page of the feasibility report. [required @type
-                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-            <attribute name="type">
-                <value>tbl_contents</value>
-                <a:documentation>(Table of Contents) contains any number of &lt;sect&gt; elements.
-                </a:documentation>
-            </attribute>
-            <oneOrMore>
-                <ref name="model.tbl_contents"/>
-            </oneOrMore>
-        </element>
+        <!-- uses co-occurence constraints to control available children of <page> based on @type attribute -->
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>ttl</value>
+                    <a:documentation>(Title) contains a mandatory Title, date of submission, and
+                        list of contributors. Logo and sub-title optional. </a:documentation>
+                </attribute>
+                <oneOrMore>
+                    <ref name="model.ttl"/>
+                </oneOrMore>
+            </element>
+        </zeroOrMore>
 
 
-        <element name="page">
-            <a:documentation>Representing any page of the feasibility report. [required @type
-                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-            <attribute name="type">
-                <value>exec_sum</value>
-                <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary of
-                    the whole presentation. From these paragraphs you should be able to understand
-                    whether or not the author supports the project, the most critical limitations /
-                    benefits where applicable, and </a:documentation>
-            </attribute>
-            <ref name="macro.paraContent"/>
-        </element>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>tbl_contents</value>
+                    <a:documentation>(Table of Contents) contains any number of &lt;sect&gt;
+                        elements. </a:documentation>
+                </attribute>
+                <oneOrMore>
+                    <ref name="model.tbl_contents"/>
+                </oneOrMore>
+            </element>
+        </zeroOrMore>
+
+
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>exec_sum</value>
+                    <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary
+                        of the whole presentation. From these paragraphs you should be able to
+                        understand whether or not the author supports the project, the most critical
+                        limitations / benefits where applicable, and </a:documentation>
+                </attribute>
+                <ref name="macro.paraContent"/>
+            </element>
+        </zeroOrMore>
 
         <zeroOrMore>
             <element name="page">
@@ -1208,18 +1222,21 @@
             </element>
         </zeroOrMore>
 
-        <element name="page">
-            <a:documentation>Representing any page of the feasibility report. [required @type
-                attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
-                @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
-            <attribute name="type">
-                <value>conc</value>
-                <a:documentation>(Conclusion) The conclusion page consists of a body of writing that
-                    is three parts. It contains one of each of the following elements: fsb, cond,
-                    and sum. This page should be very direct and to the point </a:documentation>
-            </attribute>
-            <ref name="model.conc"/>
-        </element>
+        <zeroOrMore>
+            <element name="page">
+                <a:documentation>Representing any page of the feasibility report. [required @type
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
+                <attribute name="type">
+                    <value>conc</value>
+                    <a:documentation>(Conclusion) The conclusion page consists of a body of writing
+                        that is three parts. It contains one of each of the following elements: fsb,
+                        cond, and sum. This page should be very direct and to the point
+                    </a:documentation>
+                </attribute>
+                <ref name="model.conc"/>
+            </element>
+        </zeroOrMore>
 
     </define>
     <define name="fsb_rpt">
