@@ -27,8 +27,8 @@
     </define>
     <!-- global attributes -->
     <define name="att.global.attributes">
-        <ref name="att.global.rendition.attributes"/>
-        <ref name="att.global.linking.attributes"/>
+        <!--<ref name="att.global.rendition.attributes"/>
+        <ref name="att.global.linking.attributes"/>-->
         <ref name="att.global.responsibility.attributes"/>
         <ref name="att.global.attribute.xmlid"/>
         <ref name="att.global.attribute.n"/>
@@ -260,21 +260,25 @@
     <define name="title">
         <element name="title">
             <optional>
-                <attribute name="level">
-                    <a:documentation>(level of title) indicates the kind of title values include: a
-                        (article), j (journal), b (book), w (website)</a:documentation>
-                    <choice>
-                        <value>a</value>
-                        <a:documentation>title of article (in a journal, collection, anthology, or
-                            website)</a:documentation>
-                        <value>j</value>
-                        <a:documentation>title of journal, collection or anthology</a:documentation>
-                        <value>b</value>
-                        <a:documentation>title of book</a:documentation>
-                        <value>w</value>
-                        <a:documentation>title of website</a:documentation>
-                    </choice>
-                </attribute>
+                <optional>
+                    <attribute name="level">
+                        <a:documentation>(level of title) indicates the kind of title values
+                            include: a (article), j (journal), b (book), w
+                            (website)</a:documentation>
+                        <choice>
+                            <value>a</value>
+                            <a:documentation>title of article (in a journal, collection, anthology,
+                                or website)</a:documentation>
+                            <value>j</value>
+                            <a:documentation>title of journal, collection or
+                                anthology</a:documentation>
+                            <value>b</value>
+                            <a:documentation>title of book</a:documentation>
+                            <value>w</value>
+                            <a:documentation>title of website</a:documentation>
+                        </choice>
+                    </attribute>
+                </optional>
             </optional>
             <text/>
         </element>
@@ -586,11 +590,21 @@
 
     <define name="section_header">
         <element name="section_header">
+            <a:documentation>'background' and ‘answer’ are best broken into modular digestible
+                sections consisting of several paragraphs. ‘section_header’ should be titled in a
+                way such that the following paragraphs either work in concert to make the point
+                specified by ‘section_header’, or answer a question put forth by
+                ‘section_header’.</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="visual">
         <element name="visual">
+            <a:documentation>Visuals are any variety of in line imagery used to break up long
+                lengths of text, and/or aid in the understanding of a topic. Comics, pictures and
+                graphics are a few of the possible visuals that can be
+                used.<!-- Types can be: Photo, Comic, Drawing, Animation,
+                Quoted Text, Other --></a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.resourced.attribute.url"/>
             <attribute name="type">
@@ -613,16 +627,24 @@
     </define>
     <define name="analogy">
         <element name="analogy">
+            <a:documentation>Analogies should be used to better illustrate important and difficult
+                to understand topics put forth by the other elements.</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="roadmap">
         <element name="roadmap">
+            <a:documentation>A roadmap is a list in which several ‘section_headers’ that build upon
+                one another to drive home an important point are specified before diving into each
+                section independently. This allows the reader to understand the purpose of a section
+                in context to avoid getting lost in its details.</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="important_idea">
         <element name="important_idea">
+            <a:documentation>Major points of interest relating to the topic [takes @n
+                attribute].</a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.global.attribute.n"/>
         </element>
@@ -647,6 +669,9 @@
     </define>
     <define name="pb">
         <element name="pb">
+            <a:documentation>(paragraph break) empty element, indicates a new paragraph of text, use
+                to delineate individual paragraphs where necessary, such as in background or answer
+                material</a:documentation>
             <ref name="att.global.attribute.n"/>
             <empty/>
         </element>
@@ -668,6 +693,9 @@
 
     <define name="fundamental_science_involved">
         <element name="fundamental_science_involved">
+            <a:documentation>A wide-angled cursory description of the basic ideas
+                framing the answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s
+                Laws, or introduce the basic idea of chemical reactions, etc. [takes @n attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -679,6 +707,9 @@
     </define>
     <define name="question_relevant_topic">
         <element name="question_relevant_topic">
+            <a:documentation>Specific scientific principles that are directly relevant to
+                the explanation of the question. Ex. A description of the chemistry behind acid-base
+                reactions. [takes @n attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -690,6 +721,9 @@
     </define>
     <define name="explanation">
         <element name="explanation">
+            <a:documentation>An in-depth reply to the question proposed in the “background”
+                section. Typically, the author will use common vernacular and devices such as
+                analogies and visuals in order to clearly convey concepts to readers.</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -701,6 +735,8 @@
     </define>
     <define name="conclusion">
         <element name="conclusion">
+            <a:documentation>A conclusion that sums up what was just explained. It acts as a concise
+                response to the question asked in the “background” section</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -730,6 +766,8 @@
     </define>
     <define name="answer">
         <element name="answer">
+            <a:documentation>Body of text that moves towards the answer of the question, presenting topics,
+                ideas, analogies, and explanations that lead towards the ultimate conclusion</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -741,6 +779,8 @@
     </define>
     <define name="question">
         <element name="question">
+            <a:documentation>The question or topic that we are trying to answer or simplify to a
+                general audience.</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -751,6 +791,9 @@
     </define>
     <define name="scientific_principle">
         <element name="scientific_principle">
+            <a:documentation>Big picture fundamental scientific concepts involved (such as gravity,
+                matter and energy, fluid dynamics, acid-base reactions, etc.) [takes @n
+                attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -762,6 +805,9 @@
     </define>
     <define name="misconceptions">
         <element name="misconceptions">
+            <a:documentation>Lists any common misconceptions the public has about the topic, or
+                includes quoted material from the community that highlights the existing (false)
+                notions about the answer; optional [takes @n attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -789,6 +835,7 @@
     </define>
     <define name="blog.background">
         <element name="background">
+            <a:documentation>The section introduces the main topic.</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -801,10 +848,12 @@
 
     <define name="sources">
         <element name="sources">
+            <a:documentation>Contains sources the author used to answer the question. Can include optional &lt;citation&gt; sub-elements</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.biblLike"/>
                     <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
                 </choice>
             </zeroOrMore>
         </element>
@@ -824,6 +873,7 @@
     </define>
     <define name="blog_post">
         <element name="blog_post">
+            <a:documentation>Root element for Science Blog genre</a:documentation>
             <optional>
                 <ref name="model.blog.global"/>
             </optional>
@@ -1661,15 +1711,17 @@
         <element name="DOC">
             <group>
                 <ref name="docHead"/>
-                <oneOrMore><choice>
-                    <!--<ref name="body"/> 
+                <oneOrMore>
+                    <choice>
+                        <!--<ref name="body"/> 
                         not needed yet, if at all -->
-                    <ref name="annotated_bib"/>
-                    <ref name="blog_post"/>
-                    <ref name="fsb_rpt"/>
-                    <ref name="pub_init_proposal"/>
-                    <ref name="cover_letter"/>
-                </choice></oneOrMore>
+                        <ref name="annotated_bib"/>
+                        <ref name="blog_post"/>
+                        <ref name="fsb_rpt"/>
+                        <ref name="pub_init_proposal"/>
+                        <ref name="cover_letter"/>
+                    </choice>
+                </oneOrMore>
                 <optional>
                     <ref name="docFoot"/>
                 </optional>
