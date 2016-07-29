@@ -11,8 +11,8 @@
     
     <blog_post>
         <visual type="photo" url="http://i.imgur.com/4mpc3zN.png">Dog meme</visual>
-        <background></background>
-        <answer></answer>
+        <background><note type="peer" xml:id=""></note></background>
+        <answer><ref type="supplement" url="http://su16awd.kevingeraldsmith.com">Course site</ref></answer>
         <sources></sources>
     </blog_post>
     
