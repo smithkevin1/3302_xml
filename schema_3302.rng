@@ -693,9 +693,10 @@
 
     <define name="fundamental_science_involved">
         <element name="fundamental_science_involved">
-            <a:documentation>A wide-angled cursory description of the basic ideas
-                framing the answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s
-                Laws, or introduce the basic idea of chemical reactions, etc. [takes @n attribute]</a:documentation>
+            <a:documentation>A wide-angled cursory description of the basic ideas framing the
+                answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s Laws, or
+                introduce the basic idea of chemical reactions, etc. [takes @n
+                attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -707,8 +708,8 @@
     </define>
     <define name="question_relevant_topic">
         <element name="question_relevant_topic">
-            <a:documentation>Specific scientific principles that are directly relevant to
-                the explanation of the question. Ex. A description of the chemistry behind acid-base
+            <a:documentation>Specific scientific principles that are directly relevant to the
+                explanation of the question. Ex. A description of the chemistry behind acid-base
                 reactions. [takes @n attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
@@ -721,9 +722,9 @@
     </define>
     <define name="explanation">
         <element name="explanation">
-            <a:documentation>An in-depth reply to the question proposed in the “background”
-                section. Typically, the author will use common vernacular and devices such as
-                analogies and visuals in order to clearly convey concepts to readers.</a:documentation>
+            <a:documentation>An in-depth reply to the question proposed in the “background” section.
+                Typically, the author will use common vernacular and devices such as analogies and
+                visuals in order to clearly convey concepts to readers.</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -766,8 +767,9 @@
     </define>
     <define name="answer">
         <element name="answer">
-            <a:documentation>Body of text that moves towards the answer of the question, presenting topics,
-                ideas, analogies, and explanations that lead towards the ultimate conclusion</a:documentation>
+            <a:documentation>Body of text that moves towards the answer of the question, presenting
+                topics, ideas, analogies, and explanations that lead towards the ultimate
+                conclusion</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -848,7 +850,8 @@
 
     <define name="sources">
         <element name="sources">
-            <a:documentation>Contains sources the author used to answer the question. Can include optional &lt;citation&gt; sub-elements</a:documentation>
+            <a:documentation>Contains sources the author used to answer the question. Can include
+                optional &lt;citation&gt; sub-elements</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.biblLike"/>
@@ -1362,6 +1365,8 @@
     </define>
     <define name="audience">
         <element name="audience">
+            <a:documentation>Who this proposal is directed towards/aiming to
+                convince</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
@@ -1378,12 +1383,14 @@
     </define>
     <define name="section">
         <element name="section">
+            <a:documentation>Section: Name of section of proposal</a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.global.attribute.n"/>
         </element>
     </define>
     <define name="tbl_cont">
         <element name="tbl_cont">
+            <a:documentation>(table of contents</a:documentation>
             <oneOrMore>
                 <ref name="section"/>
             </oneOrMore>
@@ -1391,18 +1398,27 @@
     </define>
     <define name="intro">
         <element name="intro">
+            <a:documentation>Brief synopsis of the project being proposed </a:documentation>
             <ref name="model.pLike"/>
             <attribute name="type">
                 <choice>
                     <value>ltr_int</value>
+                    <a:documentation>Letter of Intent: Statement of purpose to
+                        audience</a:documentation>
                     <value>exec_sum</value>
+                    <a:documentation>Executive Summary: Outline of the project goal and methodology,
+                        highlights key data points and benefits</a:documentation>
                     <value>abstract</value>
+                    <a:documentation>Abstract: Conversational summary of proposal</a:documentation>
                 </choice>
             </attribute>
         </element>
     </define>
     <define name="crnt_cond">
         <element name="crnt_cond">
+            <a:documentation>Current Conditions: Information about the subject matter that
+                establishes a need in the reader’s mind for the change suggested by the
+                proposal</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1413,6 +1429,8 @@
     </define>
     <define name="subj_hist">
         <element name="subj_hist">
+            <a:documentation>Subject History: relevant material that has lead to the current
+                conditions or the current </a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1432,6 +1450,7 @@
     </define>
     <define name="proposal.background">
         <element name="background">
+            <a:documentation>General information providing context for the problem</a:documentation>
             <oneOrMore>
                 <element name="p">
                     <ref name="proposal.background.content"/>
@@ -1445,7 +1464,10 @@
             <attribute name="type">
                 <choice>
                     <value>who</value>
+                    <a:documentation>Who: who is affected/who the project will benefit, parties
+                        involved in project </a:documentation>
                     <value>what</value>
+                    <a:documentation>What: Problem statement</a:documentation>
                     <value>when</value>
                     <value>where</value>
                 </choice>
@@ -1454,6 +1476,7 @@
     </define>
     <define name="objective">
         <element name="objective">
+            <a:documentation>Objective: What the purpose of the project is</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1464,6 +1487,8 @@
     </define>
     <define name="goal">
         <element name="goal">
+            <a:documentation>Goal: Improvements that would be achieved upon completion of the
+                objective.</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1484,6 +1509,8 @@
     </define>
     <define name="proposal.purpose">
         <element name="purpose">
+            <a:documentation>Point of background requiring action and proposed
+                solution</a:documentation>
             <oneOrMore>
                 <element name="p">
                     <ref name="proposal.purpose.content"/>
@@ -1493,34 +1520,49 @@
     </define>
     <define name="proposal.approach">
         <element name="approach">
+            <a:documentation>How the project will be achieved </a:documentation>
             <ref name="model.pLike"/>
             <attribute name="type">
                 <choice>
                     <value>execution</value>
+                    <a:documentation>Execution: Tactic employed to achieve goal</a:documentation>
                     <value>action</value>
+                    <a:documentation>Action: Executable item that will lead to goal
+                        completion</a:documentation>
                 </choice>
             </attribute>
         </element>
     </define>
     <define name="feasibility">
         <element name="feasibility">
+            <a:documentation>Initial and long-term implications or obstacles in the implementation
+                of the project</a:documentation>
             <ref name="model.pLike"/>
             <attribute name="type">
                 <choice>
                     <value>economic</value>
+                    <a:documentation>Economic: Initial and long-term financial implications of
+                        project compared to do-nothing alternative</a:documentation>
                     <value>social</value>
+                    <a:documentation>Social: Initial and long-term implications or obstacles as they
+                        relate to members of the community</a:documentation>
                     <value>environmental</value>
+                    <a:documentation>Environmental: Initial and long-term implications or obstacles
+                        as they relate to the surrounding environment</a:documentation>
                 </choice>
             </attribute>
         </element>
     </define>
     <define name="conclu">
         <element name="conclu">
+            <a:documentation>Conclusion: Brief description of the benefits potentially provided by
+                the proposed project</a:documentation>
             <ref name="model.pLike"/>
         </element>
     </define>
     <define name="references">
         <element name="references">
+            <a:documentation>References: List of cited works used in research</a:documentation>
             <ref name="model.biblLike"/>
         </element>
     </define>
