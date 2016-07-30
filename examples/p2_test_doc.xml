@@ -9,12 +9,53 @@
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
     
-    <blog_post>
-        <visual type="photo" url="http://i.imgur.com/4mpc3zN.png">Dog meme</visual>
-        <background><note type="peer" xml:id=""></note></background>
-        <answer><ref type="supplement" url="http://su16awd.kevingeraldsmith.com">Course site</ref></answer>
-        <sources></sources>
+    <blog_post> Root element for Science Blog genre 
+        
+        
+       
+        <roadmap>A roadmap is a list in which several ‘section_headers’ that build upon one another
+            to drive home an important point are specified before diving into each section
+            independently. This allows the reader to understand the purpose of a section in context
+            to avoid getting lost in its details.</roadmap>
+       
+
+        <background> 
+            <section_header>Section header</section_header> 
+            <question>The question or topic that we are trying to answer or simplify to a general 
+                audience.</question>
+            <pb/>
+            <scientific_principle n="1">Big picture fundamental scientific concepts involved (such as
+                gravity, matter and energy, fluid dynamics, acid-base reactions,
+                etc.) <important_idea n="1">Major points of interest relating to the topic.</important_idea></scientific_principle>
+            <pb/>
+            <misconceptions n="1">Lists any common misconceptions the public has about the topic, or
+                includes quoted material from the community that highlights the existing (false)
+                notions about the answer. <ref type="source" url="http://su16awd.kevingeraldsmith.com">This is a link to a source<!-- Types can be "source" or "supplement" for
+               source material or supplemental material --></ref><!-- Optional --></misconceptions>
+            <pb/>
+        </background>
+        <answer>Body of text that moves towards the answer of the question, presenting topics,
+            ideas, analogies, and explanations that lead towards the ultimate conclusion
+            <fundamental_science_involved n="">A wide-angled cursory description of the basic ideas
+                framing the answer.  <analogy>Analogies should be used to better illustrate important and difficult to understand
+                    topics put forth by the other elements.</analogy> Can be as little as 1 sentence. Ex. Explain one of Newton’s
+                Laws, or introduce the basic idea of chemical reactions, etc. </fundamental_science_involved>
+            <question_relevant_topic n="">Specific scientific principles that are directly relevant to
+                the explanation of the question. Ex. A description of the chemistry behind acid-base
+                reactions. </question_relevant_topic>
+            <explanation n="">An in-depth reply to the question proposed in the “background”
+                section.<pb/> Typically, the author will use common vernacular and devices such as
+                analogies and visuals in order to clearly convey concepts to readers.</explanation><pb/>
+            <conclusion>A conclusion that sums up what was just explained. It acts as a concise
+                response to the question asked in the “background” section </conclusion>
+        </answer>
+        <sources> Contains sources the author used to answer the question 
+            <citation style="MLA">Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>. New York: Scholastic, 1994. Print.</citation> 
+        </sources>
     </blog_post>
+    
+    
+    
     
     <pub_init_proposal>
         <cover_page>
