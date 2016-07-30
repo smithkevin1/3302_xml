@@ -638,7 +638,7 @@
                 one another to drive home an important point are specified before diving into each
                 section independently. This allows the reader to understand the purpose of a section
                 in context to avoid getting lost in its details.</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore><ref name="section_header"/></oneOrMore>
         </element>
     </define>
     <define name="important_idea">

@@ -13,10 +13,9 @@
         
         
        
-        <roadmap>A roadmap is a list in which several ‘section_headers’ that build upon one another
-            to drive home an important point are specified before diving into each section
-            independently. This allows the reader to understand the purpose of a section in context
-            to avoid getting lost in its details.</roadmap>
+        <roadmap><section_header>Heading 1</section_header>
+        <section_header>Section 2</section_header>
+        <section_header>Section 3</section_header></roadmap>
        
 
         <background> 
