@@ -47,7 +47,7 @@
         <intro type="ltr_int">  <!--attribute options: ltr_int, exec_sum, abstract-->
             <p>In Boston there are a variety of public areas where one can choose to participate in sports. But there are some sports where it is more difficult to find a place to play it, tennis
                 being one of them. Because of the lack of courts in the city and crowdedness of the existing courts, many people are unable to have the opportunity to play. These leaves many who would like to play or
-                introduce others to the sport with limited options on when and where they can play. The premise of this proposal to expand the number of tennis courts in the city, so that more individuals in the 
+                introduce others to the sport with limited options on when and where they can play. <note type="peer" resp="#d13">The content of the introduction is fine but the sentence flow is a bit choppy. I would suggest reworking the sentences a bit to have them transition better.</note>The premise of this proposal to expand the number of tennis courts in the city, so that more individuals in the 
                 city can have the opportunity to participate in the sport.</p>
         </intro>
         
@@ -61,7 +61,7 @@
                 <subj_hist>
                     In the United States today, tennis is a sport with smaller sect of people who are very talented at the sport or are reasonably wealthy enough to afford the necessary equipment, lessons, and
                     facilities that are usually required to play the sport. But for those individuals who do not have the luxury of falling into those categories, it leaves them from having the same experience as people.
-                </subj_hist>
+                </subj_hist><note type="peer" resp="#d13">Why is this the case? What conditions led to a very small portion of the population choosing to excel at tennis? Have similar situations been noted with other expensive sports, i.e. golf and hockey?</note>
             </p>
         </background>
         
@@ -75,7 +75,7 @@
                 </objective>
                 <goal>
                     This project would lead to the reduction of crowded courts throughout the city. Increase the amount of individuals playing tennis in Boston. Many people would have more convenient locations to go to
-                    due to the nature of having more options that will hopefully be near them. And the increased opportunities to play tennis will lead to more active lifestyles for people living in the city.
+                    due to the nature of having more options that will hopefully be near them. And the increased opportunities to play tennis will lead to more active lifestyles for people living in the city. <note type="peer" resp="#d13">The sentences here are choppy, I think you can combine them into longer sentences to improve flow of the argument.</note>
                 </goal>
             </p>
         </purpose>
@@ -83,7 +83,7 @@
         <approach type="action">  <!--attribute options: execution, action-->
             <p>
                 The first step in the project is to get the proposal approved by the city council. Once the project is green lit, we will come up with a budget, roughly $15 million that we feel is necessary to accommodate the tasks and resources
-                that will to the completion of these tennis courts. Once receiving approval on the budget, the next phase of the project would be to buy up areas around the city and get the proper legal paperwork to 
+                that will to the completion of these tennis courts<note type="peer" resp="#d13">I would suggest adding a source to back up the number and time table for the construction of additional tennis courts in Boston.</note>. Once receiving approval on the budget, the next phase of the project would be to buy up areas around the city and get the proper legal paperwork to 
                 will enable us to work without any issues. From there a construction company will be hired and begin work once all of the necessary documentation has been set in order. Once construction is wrapped up,
                 necessary precautions will be made to see that all safety regulations are met and that all of the courts meet the regulation sizes.
             </p>
@@ -113,9 +113,12 @@
     </pub_init_proposal>
         
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="d13">Daniel Doherty</reviewer>
+        <report type="peer" resp="#d13">
+            <p>This proposal suggests that the sport of tennis is not easily accessible for many citizens of Boston as a result of a variety of economic, cultural and logistical factors that have resulted in the sport only being enjoyed by a select group of the population. It mainly focused on the logistical fact that there are not enough public courts in the city, which has prevented many people from having a chance to try the sport of tennis as there are no courts close enough to their neighborhoods and the ones that do exist are overcrowded.</p>
+            <p>This proposal contains the necessary information and content of the genre but can be improved upon by the addition of additional details in the approach and feasibility sections. By adding detail to the expected costs of the project and which areas of the city would benefit most from the construction of tennis courts, the project would have more depth of analysis by highlighting the benefits the addition courts could provide. You state, "The other parameters for location would be finding a place in the city where it would be easily accessible by anyone, having minimal traffic around the area, and having it in a safer area." What specific areas in the city meet this criteria and why are these three things important to the success of the project. I believe some further discussion of this aspect of the project would greatly contribute to the strength of your argument.</p>
+            <p>At certain times in the proposal, specifically in the introduction and background, the sentences do not flow well from one to another. Simply, there are many times when a sentence ends rather abruptly, and the next sentence starts with the word but or and, adding a qualifying statement for the sentence prior. By combining the sentences that relate to each other, the document will flow better and reduce unnecessary verbiage. Additionally, the sentences in this proposal are mostly passive statements, using phases like "probably would", "but if we" and so on. The genre of a proposal is at its most basic level a call to action, and using passive words weaken the argument by introducing some uncertainty into the situation. In the conclusion, you switch to using statements like "this project will" which gives the proposal a more powerful and convincing tone and I think you can use more of this throughout the document.</p>
+            <p>One final suggestions is to perform some additional proofreading, specifically for grammar throughout the document. There are some sentences that word things awkwardly. This draft of a proposal is a strong start that could benefit with some additional information to expand upon the approach and benefits of implementation, and some editing to improve the flow of the proposal.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
