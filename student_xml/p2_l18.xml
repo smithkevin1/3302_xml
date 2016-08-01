@@ -7,7 +7,7 @@
         <title>Title of Assignment</title>
         <author xml:id="l18">Daniel Lieman</author>
         <version n="1" date="2016-08-01"/>
-    </docHead>
+    </docHead> <note peer should inlcude permanent address in heading> </note>
     <cover_letter>
         <header>
             <name>Daniel Lieman</name>
@@ -15,11 +15,11 @@
                 <!-- One or More Contact -->
                 <contact type="phone"> 410-660-1969 </contact>
                 <contact type="email"> djlieman712@gmail.com </contact>
-            </contact_info>
+            </contact_info> 
         </header>
         <greeting>Hello Mathworks,</greeting>
         <intro_para>
-            <intent type="Purpose">I am interested in C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
+            <intent type="Purpose">I am interested in <note peer working as a ></note> C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
             <reason><!-- Optional --> I have enjoyed my work with Simulation Engineering in
                 the past</reason> and <proposition>I think I will bring all the necessary abilities to go above and beyond my job
                     requirements.</proposition>
@@ -30,7 +30,9 @@
             <experience type="school">I have used your software before in my classes.  I also have experience with AC and linear analysis.</experience>
         </para_background>
         <para_closing>
-            <compatability>I think I will fit in well with the Mathworks.</compatability>
+            <compatability>I think I will fit in well with the Mathworks.</compatability> <note peer "fit in well at Mathworks"
+                or "fit in well with the Mathworks team?" 
+              
             <next_step>I hope you will email me at djlieman712@gmail.com so we can discuss the next step in
                 the hiring process.</next_step>
         </para_closing>
@@ -41,9 +43,33 @@
     </cover_letter>
         
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
+        <reviewer type="peer" xml:id="m21"/>
         <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+            <p>This cover letter is for second or third year coop within the computer engineering/science fields.
+                You are trying to appy for a specific C++ engineering position at Mathworks for the job. 
+            </p>
+            <p> I am critiquing the language, brevity, and flow/syntx of the paper. Overall, the letter is very brief 
+                and does not contain a lot of in depth information. Statements such as, "I think I will bring all the the 
+                necessary abilities to go above and beyond" and "I have used your software before in my class" are blanket
+                statements that do not provide any insight into your abilities or why you are different from other applicants.
+                Additionally, the flow in and between setences should be analyzed; while each one may contain the information
+                you want, they do not all flow smoothly into one another
+               </p>
+            <p>The aspects I identified earlier are major points of a cover letter that employers look for; they already have
+                your resume and by viewing your cover letter, are looking for a concise statement about the type of person you
+                are, your experience, and why you would be the best fit for the job compared to other applicants. By making 
+                your letter easily readible and stand out from the rest, you will increase your chances of success. Instead of 
+                saying "I think I will fit in well with the Mathworks," you must explain why you will fit in and give specific 
+                examples. 
+            </p>
+            <p>To improve your cover letter, I would suggest brainstorming a list of specific traits and experiences you posess.
+                You have the correct order of information listed, but need to elaborate on each section. Try adding at least 3
+                new pieces of information to each of the sections. When you are done, read it out loud- this will help you determine
+                how well the letter flows between sentences and sections. Additionally, your tone should display enthusiasm and bring
+                more of a "this is what I can do for you/bring to the table" attitude than a "this is who I am" statement. Incorporating
+                these changes should have large impact on the overall message of your cover letter. 
+                
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
