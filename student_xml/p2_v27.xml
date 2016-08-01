@@ -5,11 +5,112 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <author xml:id="v_26">Djordje Vlajkovic</author>
+        <version n="1" date="2016-08-01"/>
     </docHead>
     
-<!--paste body of your template file here-->
+    
+    <pub_init_proposal>
+        <cover_page>
+            <title>Tennis Court Building Initiative</title>
+            <author>Djordje Vlajkovic</author>
+            <submit_date>7/31/2016</submit_date>
+            <audience>
+                Boston City Council
+            </audience>
+        </cover_page>
+        
+        <tbl_cont>
+            <section n="1">
+                Introduction
+            </section>
+            <section n="2">
+                Background
+            </section>
+            <section n="3">
+                Purpose
+            </section>
+            <section n="4">
+                Approach
+            </section>
+            <section n="5">
+                Feasibility
+            </section>
+            <section n="6">
+                Conclusion
+            </section>
+            <section n="7">
+                References
+            </section>
+        </tbl_cont>
+        
+        <intro type="ltr_int">  <!--attribute options: ltr_int, exec_sum, abstract-->
+            <p>In Boston there are a variety of public areas where one can choose to participate in sports. But there are some sports where it is more difficult to find a place to play it, tennis
+                being one of them. Because of the lack of courts in the city and crowdedness of the existing courts, many people are unable to have the opportunity to play. These leaves many who would like to play or
+                introduce others to the sport with limited options on when and where they can play. The premise of this proposal to expand the number of tennis courts in the city, so that more individuals in the 
+                city can have the opportunity to participate in the sport.</p>
+        </intro>
+        
+        <background>
+            <p>
+                <crnt_cond>
+                    In today's Boston, there are a few places where someone can go out and play a game of tennis in public. But from the already limited amounts of courts in the city, some of these already existing courts
+                    are owned by private facilities where the general public are not allowed to play. For the other remaining courts available, they are usually full and may be out of the way for some. These factors make it
+                    difficult to be able to go out with a friend and play a game of tennis.
+                </crnt_cond>
+                <subj_hist>
+                    In the United States today, tennis is a sport with smaller sect of people who are very talented at the sport or are reasonably wealthy enough to afford the necessary equipment, lessons, and
+                    facilities that are usually required to play the sport. But for those individuals who do not have the luxury of falling into those categories, it leaves them from having the same experience as people.
+                </subj_hist>
+            </p>
+        </background>
+        
+        <purpose>
+            <p>
+                <scope type="when">The expected time table for this project would probably be over the course of a few months to half a year. Where the project would be divided into portions like approvals, filing 
+                    necessary paperwork, and construction. If everything were to go according to schedule the tennis courts would be ready by the spring of next year.
+                </scope>  <!--attribute options: what, who, when, where-->
+                <objective>
+                    What this proposal is insisting on is building four to six tennis courts at different locations in the city. These courts would all be nicely furnished and would be set at a very high quality.
+                </objective>
+                <goal>
+                    This project would lead to the reduction of crowded courts throughout the city. Increase the amount of individuals playing tennis in Boston. Many people would have more convenient locations to go to
+                    due to the nature of having more options that will hopefully be near them. And the increased opportunities to play tennis will lead to more active lifestyles for people living in the city.
+                </goal>
+            </p>
+        </purpose>
+        
+        <approach type="action">  <!--attribute options: execution, action-->
+            <p>
+                The first step in the project is to get the proposal approved by the city council. Once the project is green lit, we will come up with a budget, roughly $15 million that we feel is necessary to accommodate the tasks and resources
+                that will to the completion of these tennis courts. Once receiving approval on the budget, the next phase of the project would be to buy up areas around the city and get the proper legal paperwork to 
+                will enable us to work without any issues. From there a construction company will be hired and begin work once all of the necessary documentation has been set in order. Once construction is wrapped up,
+                necessary precautions will be made to see that all safety regulations are met and that all of the courts meet the regulation sizes.
+            </p>
+        </approach>
+        
+        <feasibility type="environmental">  <!--attribute options: economic, social, environmental-->
+            <p>
+                One of the main obstacles to this project will be finding the right areas where we can build these courts. The first thing to make sure of is that these courts are not built near other existing tennis courts
+                in the city. The other parameters for location would be finding a place in the city where it would be easily accessible by anyone, having minimal traffic around the area, and having it in a safer area.
+                The main obstacle that will come with building these courts will be obtaining the necessary zoning and construction permits. But if we can find the right area to build and meet all of the requirements
+                given by the city this project will be possible.
+            </p>
+        </feasibility>
+        
+        <conclu>
+            <p>
+                Building these courts will give people throughout the city more chances to play tennis and introduce others to do sport. It will provide many with a more convenient experience and give people who
+                may have lacked the opportunity before to play with a new opportunity where they can be involved. This project will also give people another way to be active and provide encouragement among the youth
+                to be active. Overall this opportunity could lead to flourishing the tennis within the community and give opportunities for many who did not have courts near by an opportunity to play.
+            </p>
+        </conclu>
+        
+        <references>
+            <citation n="1" style="MLA">Lawrence, Merlisa. "Why Is American Tennis Dying?" Bleacher Report. N.p., 21 Nov. 2013. Web. 01 Aug. 2016. 
+                Sopher, Philip. "Explaining the U.S. Tennis Slump." The Atlantic. Atlantic Media Company, 22 Aug. 2014. Web. 01 Aug. 2016.</citation>
+        </references>
+    </pub_init_proposal>
         
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
