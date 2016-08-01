@@ -126,9 +126,23 @@
     </fsb_rpt>
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="m20">Chi Mo</reviewer>
+        <report type="peer" resp="#m20">
+            <p>
+                After reading this feasibility report about the traffic lights neural network, I can see that the feasibility report 
+                is well organized and easy to understand. After a glance, the report looks feasible. It looks like the author is trying 
+                to make the Boston’s traffic signal more efficient. I don’t understand where does the number 544 of traffic lights come 
+                from? It doesn’t have any explanation of it. It has two feasibility pages which I’m confused so I went through the XML 
+                page and realized that they are in different types. I feel like it can be one page with two paragraphs. In this draft, 
+                it doesn’t have the report page and financial page. I think it won’t hurt to have these two pages since they are the part 
+                of the schema and may influence the audience’s decision after they read the report. In the risk analysis page, the author 
+                should not only mention the risk but also explain how will this project reduce some of the risk. You can’t let people know 
+                the risk but no solving plans to it. Also, how is the current Boston traffic signal set up? Why does it need to be changed 
+                into a neural network? I think it will be better if the author mentioned these. The author uses most of the schema in the 
+                same way that we think when we develop the schema. In the success criteria, I’m not sure it we need more words to explain 
+                it or just do the same as the author did in bullet points? The schema is well formed and easy to use, thus, the rules of 
+                the schema is easy to follow as the author did.  
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
