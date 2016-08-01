@@ -11,8 +11,8 @@
     </docHead>
     <blog_post>
         <background>
-            <pb/>
-            <question>How does venom work? Are there different kinds and why are some animals
+            <pb/><section_header>How does venom work?</section_header><pb/>
+            <question>Are there different kinds and why are some animals
                 resistant or immune to the venom?</question>
             <pb/>
             <scientific_principle n="1">Venom is a mixture of chemicals that different organisms
@@ -28,7 +28,7 @@
                     effects.</important_idea><analogy>For example, people can eat many venomous
                     snakes and scorpions because they do not secret their toxin onto their skin or
                     other body tissues. Poison ivy secretes its toxin onto its leaves, and doesn't
-                    go around trying to bite or sting people.</analogy></misconceptions>
+                    go around trying to bite or sting people.</analogy></misconceptions><pb/>
             <visual type="comic"
                 url="http://www.birdandmoon.com/wp-content/uploads/2015/07/toxic.jpg">Comic courtesy
                 of birdandmoon.com</visual>
@@ -57,7 +57,7 @@
                 ions into or out of the cell, which often changes the balance of charge that was
                 maintained and therefore causing the voltage across the membrane to
                 spike.</question_relevant_topic><important_idea n="2"> The key ions used by neurons
-                    are potassium ions and sodium ions.</important_idea><visual type="drawing"
+                    are potassium ions and sodium ions.</important_idea><pb/><visual type="drawing"
                         url="https://dundeemedstudentnotes.files.wordpress.com/2012/04/picture22.jpg">Depiction
                         courtesy of dundeemedstudentnotes.wordpress.com</visual><pb/><visual
                             type="drawing"
@@ -126,7 +126,7 @@
                 "turn off" the muscular neurons. This ultimately leads to paralysis. Overall, most
                 neurotoxins lead to paralysis in one way or another, and nature has come up with
                 creative ways to cause this from perceivably every angle that it possibly
-                can.</explanation><visual type="drawing" url="http://i.imgur.com/9YFCOhI.png"/><pb/><explanation n="3"
+                can.</explanation><pb/><visual type="drawing" url="http://i.imgur.com/9YFCOhI.png"/><pb/><explanation n="3"
                 >Why some animals are immune or resistant to toxins, animals like the mongoose that
                 can sustain repeated cobra bites, comes down to shape, once again. These animals
                 have evolved channels and/or receptors that have a slightly different shape that

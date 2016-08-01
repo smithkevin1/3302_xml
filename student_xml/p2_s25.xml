@@ -4,13 +4,64 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 2</title>
+        <author xml:id="s25">Leo Stolov</author>
+        <version n="1" date="2016-08-01"/>
     </docHead>
-    
-<!--paste body of your template file here-->
+
+    <cover_letter>
+        <header>
+            <name>Leo Stolov</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="address">606 Columbus Ave #3R Boston, MA 02118</contact>
+                <contact type="phone"> 860-519-9771 </contact>
+                <contact type="email"> stolov.l@husky.neu.edu </contact>
+            </contact_info>
+        </header>
+        <greeting>Dear Joshua Elvander,</greeting>
+        <intro_para>
+            <intent type="Purpose">I am writing to express my interest in the mechanical engineering
+                fall internship position, which I found through Northeastern's Co-op
+                network.</intent>
+            <reason> I am approaching my fourth year as a BS/MS candidate for Mechanical Engineering
+                and am eager to gain more experience before graduation.</reason>
+            <proposition>I believe my previous experience and strong interest in the automation
+                industry make me an ideal candidate for this role.</proposition>
+        </intro_para>
+        <para_background>
+            <!-- One or More -->
+            <experience type="work">During my time at Portal Instruments, also a startup in the
+                area, I worked on a complex electromechanical assembly.</experience>
+            <experience type="work"> This project involved a lot of design, fabrication, and
+                testing, which I believe is not unlike the work I would be doing at
+                Piaggio.</experience>
+            <experience type="work">At my last co-op at Bio-Rad, I worked mostly independently on a
+                piece of automation equipment, which involved the integration of mechanical,
+                electrical, and software concepts.</experience>
+        </para_background>
+        <para_background>
+            <experience type="school">I am currently studying to have a concnetration in
+                Mechatronics and am strongly interested in all things automation and
+                interdisciplinary.</experience>
+            <experience type="personal">In addition to my work experience, I also participate in
+                AIAA, where I have begun to help with the mechanical design of an RC plane as well
+                as the implementation of several sensors.</experience>
+        </para_background>
+
+        <para_closing>
+            <compatability>Additionally, I am a motivated worker and would fit in well with the
+                start up environment of Piaggio.</compatability>
+            <next_step>I would appreciate an opportunity to meet with you to discuss my
+                qualification in further detail.</next_step>
+        </para_closing>
         
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <name>Leo Stolov</name>
+        </signature>
+    </cover_letter>
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">

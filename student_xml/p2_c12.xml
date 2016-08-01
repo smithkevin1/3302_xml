@@ -4,13 +4,127 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Writing Project 2</title>
+        <author xml:id="c12">Brent Christy</author>
+        <version n="1" date="2016-08-01"/>
     </docHead>
-    
-<!--paste body of your template file here-->
-        
+
+    <fsb_rpt>
+        <page type="ttl">
+            <title>Boston Traffic Signal Neural Network</title>
+            <subTitle>Feasibility Report</subTitle>
+            <date>August 1st, 2016</date>
+            <contributors>Brent Christy</contributors>
+        </page>
+        <page type="tbl_contents">
+            <sect n="1" lvl="1">Executive Summary</sect>
+            <sect n="2" lvl="1">Preliminary Requirements</sect>
+            <sect n="3" lvl="1">Feasibility</sect>
+            <sect n="4" lvl="2">Technical</sect>
+            <sect n="5" lvl="2">Economic</sect>
+            <sect n="6" lvl="1">Success Criteria</sect>
+            <sect n="7" lvl="1">Design</sect>
+            <sect n="8" lvl="1">Cost Estimate</sect>
+            <sect n="9" lvl="1">Risk Analysis</sect>
+            <sect n="10" lvl="1">Conclusion</sect>
+        </page>
+
+        <page type="exec_sum">A network linked traffic signal control system is proposed throughout
+            the city of Boston. The network will autonomously adjust traffic signal timing depending
+            on the current traffic conditions. The goal of using autonomously adjusting traffic
+            signals as opposed to timed signals is to reduce the amount of time spent in traffic in
+            the city. Less time spent in traffic will result in lower fossil fuel emissions as well
+            as a higher quality of life for commuters. The current traffic signal system in Boston
+            is well set up to be adapted and take on the proposed neural network system of signals. </page>
+
+        <page type="pre_req_ana">
+            <app_ovr type="obj">The objective of the proposed system is to provide an overall
+                decrease in traffic throughout the city of Boston, especially during peak travel
+                times.</app_ovr>
+            <app_ovr type="synergy"> The proposed system will utilize the current traffic control
+                system which has central control of 544 of 845 lights operated by the Boston
+                Transportation Department. The program will also utilize several sensors present at
+                some stop lights throughout the city.</app_ovr>
+            <app_ovr type="rls">The proposed system will have to comply will all state and federal
+                laws regarding traffic signals.</app_ovr>
+        </page>
+
+        <page type="fsb">
+            <fsb_hlgt type="tcnl"> The proposed neural network will require several improvements to
+                the current control system. Currently, most traffic signals are controlled by preset
+                timers. These timers are set by traffic control engineers once every five years
+                after observing traffic for several days. The other traffic signals use both the
+                timers and some sensors to determine how many cars are currently at the
+                intersection. For the neural network traffic system, three major actions will need
+                to take place. First, the remaining 301 of 845 lights will need to be connected to
+                the central traffic system. This will allow the central program to control all
+                lights in the city. Second, sensors will have to be places at large intersections in
+                the city. These sensors will tell the central network how many cars are at major
+                intersections and allow the network to adjust traffic flow depending on this
+                traffic. The sensors can be applied either on traffic poles or underneath the
+                pavement. As there will be a fairly large number of sensors, most will have to be
+                applied to poles as the roads should not be dug up. Last, the neural network will
+                need to be implemented. This neural network will be connected to all of the traffic
+                lights and receive the sensor data from the main intersections. The network can
+                leverage several papers already written on the subject of traffic control with
+                neural networks. </fsb_hlgt>
+        </page>
+
+        <page type="fsb">
+            <fsb_hlgt type="econ">The effective costs of the project will go to three categories:
+                connecting the lights to the central network, adding sensors to main intersections,
+                and coding the neural network. The majority of the cost will go towards the
+                development of the neural network. Based on the Boston Transportation Department's
+                current budget, there is a sizeable amount of money that could be used towards these
+                purposes each year over the course of the next ten years. </fsb_hlgt>
+        </page>
+
+        <page type="sccs_crt">
+            <req_sect>
+                <req n="1"> 1. Connect all traffic lights to central network </req>
+                <req n="2"> 2. Sensors installed at major intersections </req>
+                <req n="3"> 3. Network autonomously operates </req>
+                <req n="4"> 4. Timings adjust depending on current conditions </req>
+            </req_sect>
+        </page>
+
+        <page type="dsn">
+            <img
+                url="http://image.slidesharecdn.com/neuralnetworkforreal-timetrafficsignalcontrol-150206235042-conversion-gate02/95/neural-network-for-real-time-traffic-signal-control-7-638.jpg?cb=1423266888"
+            />
+        </page>
+
+        <page type="cost">
+            <est type="fnc">$1,000 per light to connect each to the central network. (301 lights) =
+                $301,000</est>
+            <est type="fnc">$2,000 per intersection that needs sensors (50 intersections) =
+                $100,000</est>
+            <est type="fnc">$500,000 to develop neural network</est>
+        </page>
+
+        <page type="rsk_ana"> There are several potential risks to this system. One risk is lights
+            getting disconnected from the central system. This can be combated by having preset
+            timers as backups to the network timing. Another risk is the introduction of self
+            driving cars. Self driving cars may eliminate the need for traffic signals which would
+            prove the system useless. </page>
+
+        <page type="conc">
+            <fsb>Given the current budget and technology, it appears to be reasonable to complete
+                this task within the proposed ten year time frame. With much research already done on
+                the subject of neural networks, it would be reasonable to create over the course of
+                several years.</fsb>
+            <cond>Despite budget concerns throughout the city, this would be a good allocation of
+                funds to increase the quality of life of workers around the area.</cond>
+            <sum>The project appears to be technically feasible in that all proposed actions can be
+                completed given the correct time and resources. Given some room in the Boston
+                Transportation Department's budget, there is also enough monetary resources for the
+                project to work. Last, the large time period proposed for the project will allow the
+                system to be implemented in a timely manor. Overall, it appears reasonable that the
+                system can be implemented.</sum>
+        </page>
+
+    </fsb_rpt>
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
