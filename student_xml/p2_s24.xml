@@ -108,9 +108,9 @@
             <visual type="drawing"
                 url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Heartbleed.svg/2000px-Heartbleed.svg.png"/>
             <pb/>An update solving this issue was made available within days of its update. A year
-            later 33% of servers had failed to install this update. <important_idea>These servers
-                are still vulnerable. </important_idea> 3. Remove software that is no longer being
-            supported. <pb/>
+            later 33% of servers had failed to install this update. <important_idea n="3">These
+                servers are still vulnerable. </important_idea> 3. If software is no longer being
+            supported, remove it. <pb/>
             <section_header>4. Malware Protection</section_header>
             <fundamental_science_involved>Anti-malware programs scan files and websites and check
                 for publicly known threats. </fundamental_science_involved><analogy>This is having
@@ -122,11 +122,11 @@
             hard-drive button on your anti-malware program.<pb/>
             <conclusion> We tend to think of malicious programmers as working in late night hours to
                 crack our security defenses. While in certain cases this might be the case,
-                    <important_idea>for the vast majority of cases this is not so. Most in-home
-                    security breaches occur because there are known security flaws that malicious
-                    hackers exploit.</important_idea> While even being aware of these steps isn't
-                going to make you 100% impervious to the evil-doers of the internet, there is one
-                last thing you've now got going for you. <visual type="comic"
+                    <important_idea n="4">for the vast majority of cases this is not so. Most
+                    in-home security breaches occur because there are known security flaws that
+                    malicious hackers exploit.</important_idea> While even being aware of these
+                steps isn't going to make you 100% impervious to the evil-doers of the internet,
+                there is one last thing you've now got going for you. <visual type="comic"
                     url="http://imgur.com/48SHE61">Sheep and wolves</visual><pb/> As the old joke
                 goes, you don't need to be faster than the bear, just faster than your slowest
                 friend. Even for an internet-evil-doer, stealing data can be difficult. Luckily for
