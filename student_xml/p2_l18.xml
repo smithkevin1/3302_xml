@@ -7,7 +7,7 @@
         <title>Title of Assignment</title>
         <author xml:id="l18">Daniel Lieman</author>
         <version n="1" date="2016-08-01"/>
-    </docHead> <note peer should inlcude permanent address in heading> </note>
+    </docHead> <note type="peer" resp="#m21" >should inlcude permanent address in heading </note>
     <cover_letter>
         <header>
             <name>Daniel Lieman</name>
@@ -30,11 +30,11 @@
             <experience type="school">I have used your software before in my classes.  I also have experience with AC and linear analysis.</experience>
         </para_background>
         <para_closing>
-            <compatability>I think I will fit in well with the Mathworks.</compatability> <note peer "fit in well at Mathworks"
-                or "fit in well with the Mathworks team?" 
+            <compatability>I think I will fit in well with the Mathworks.</compatability>  <note type="peer" resp="#m21" > check grammar </note>
               
             <next_step>I hope you will email me at djlieman712@gmail.com so we can discuss the next step in
-                the hiring process.</next_step>
+                the hiring process.</next_step>  <note type="peer" resp="#m21" >you do not know if there is a next step for you
+                -you should sound more open ended with more of a "I hope to hear back from you" attitude.</note>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
