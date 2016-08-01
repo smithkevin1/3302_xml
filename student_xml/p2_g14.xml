@@ -11,7 +11,7 @@
     </docHead>
     <blog_post>
         <background>
-            <pb/><section_header>How does venom work?</section_header><pb/>
+            <pb/><section_header>How does venom work?</section_header>
             <question>Are there different kinds and why are some animals
                 resistant or immune to the venom?</question>
             <pb/>
@@ -36,7 +36,7 @@
         <answer>
             <pb/>
             <section_header>What, basically, is going
-                on?</section_header><pb/><fundamental_science_involved n="1">Understanding how
+                on?</section_header><fundamental_science_involved n="1">Understanding how
                 neurotoxins work relies on a basic understanding of neurobiology. Nerve cells in the
                 body, be they in the brain, spinal cord, or connecting to your muscles, rely on a
                 combination of chemical and electrical signals to transmit information from one cell
@@ -141,7 +141,7 @@
                 takes its place, and the cell can't take in sodium fast enough for an action
                 potential, but the animal is at least resistant to a few bites.</explanation>
             <conclusion><pb/><section_header>So, how does venom
-                    work?</section_header><pb/><important_idea n="4">Venom is a chemical compound
+                    work?</section_header><important_idea n="4">Venom is a chemical compound
                     that interacts with receptors and channels in nerve cell membranes that disrupt
                     the transmission of messages, namely via action potentials, between the
                     neurons.</important_idea> This often results in paralysis in some way or
@@ -172,7 +172,7 @@
         </sources>
     </blog_post>
     <docReview>
-        <note type="peer" resp="#g_14">
+        <note type="peer" resp="#g14">
         *Answer to Kevin's Questions On Board*
         So far, the overall flow and inclusion of elements is going well, and I feel that I have
         made a good effort to use all of the elements we included in the schema that have relevance
