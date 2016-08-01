@@ -20,9 +20,10 @@
             </contact_info>
         </header>
         <greeting>Dear Joshua Elvander,</greeting>
+
         <intro_para>
             <intent type="Purpose">I am writing to express my interest in the mechanical engineering
-                fall internship position, which I found through Northeastern's Co-op
+                fall internship position, which I found through Northeastern's co-op
                 network.</intent>
             <reason> I am approaching my fourth year as a BS/MS candidate for Mechanical Engineering
                 with a concentration in Mechatronics and am eager to gain more hands-on experience
@@ -30,19 +31,20 @@
             <proposition>I believe my previous experience and passion for automation and
                 interdisciplinary work make me an ideal candidate for this role.</proposition>
         </intro_para>
+
         <para_background>
             <!-- One or More -->
             <experience type="work">During my time at Portal Instruments, another start up in the
                 area, I worked on a complex electromechanical assembly.</experience>
-            <experience type="work"> This project involved a lot of design, fabrication, and
-                testing, which I believe is not unlike the work I would be doing at
+            <experience type="work"> This project involved a lot of independent design, fabrication,
+                and testing, which I believe is not unlike the work I would be doing at
                 Piaggio.</experience>
             <experience type="work">At my last co-op at Bio-Rad, I worked mostly independently on a
                 piece of automation equipment, which involved the integration of mechanical,
                 electrical, and software concepts.</experience>
             <experience type="personal">In addition to my work experience, I also participate in
                 AIAA, where I have begun to help with the mechanical design of an RC plane as well
-                as the implementation of several sensors.</experience>
+                as the electrical and software implementation of several components.</experience>
         </para_background>
 
         <para_closing>
