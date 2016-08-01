@@ -57,15 +57,38 @@
         <answer>
             <section_header> Stopping Danger </section_header>
             <analogy>What if those "6 pack abs in 6 minutes" products actually worked? What if they
-                were also free? You'd give it a go, right? Well beefing up your security is even
-                easier. </analogy> The situation described in the previous section may sound dire,
-            however the fact of the matter is that there are a lot of tools already out there that
-            you are either not using, or using incorrectly. You can change that for free, and a few
-            hours of following instructions. <visual type="photo"
-                url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your computer
-                now.</visual>
+                were also free? You'd give it a go, right? Well beefing up your security is kind of
+                like that. </analogy>
             <visual type="photo" url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your
-                computer in 4 hours.</visual><pb/>
+                computer now.</visual><pb/> The situation described in the previous section may
+            sound dire, however the fact of the matter is that there are a lot of tools already out
+            there that you are either not using, or using incorrectly. You can change that for free,
+            and a few hours of following instructions. <visual type="photo"
+                url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your computer in 4
+                hours.</visual><pb/>
+            <roadmap>This workout plan has five categories: <section_header>1. Secure
+                    Configuration</section_header>
+                <section_header>2. Boundary Firewalls and Internet Gateways</section_header>
+                <section_header>3. Access control and Administrative Privilege
+                    Management</section_header>
+                <section_header>4. Patch Management</section_header>
+                <section_header>5. Malware Protection</section_header>
+            </roadmap>
+            <section_header>1. Secure Configuration</section_header> This is our biggest concern.
+                <analogy>If computer security were a house, and having a password is having a lock
+                on your doors, secure configuration is having doors.</analogy> 1. Unnecessary user
+            accounts should be removed or disabled. 2. Any default password for a user account
+            should be changed to an alternative, strong password. 3. Unnecessary software should be
+            removed or disabled. 4. The auto-run feature should be disabled. 5. A personal firewall
+            (or equivalent) should be enabled on desktop PCs and laptops, and configured to disable
+            (block) unapproved connections by default. <section_header>2. Boundary Firewalls and
+                Internet Gateways</section_header> This is having a gate around your house.
+                <section_header>3. Access control and Administrative Privilege
+                Management</section_header> This is having a registered you-know-what on your road,
+            and telling your child it's okay to take free candy. <section_header>4. Patch
+                Management</section_header> This is making sure your house is being maintained. Bear
+            in mind, in this world you live in a permanent hurricane, but you're the god/goddess of
+            handymen/women. <section_header>5. Malware Protection</section_header> This is having an in house security team.
             <section_header/><pb/><fundamental_science_involved n="1"/><question_relevant_topic
                 n="1"> </question_relevant_topic><important_idea n="2"> </important_idea>
             <important_idea n="3"/>
@@ -75,12 +98,23 @@
             <fundamental_science_involved n="3"/><pb/><pb/><analogy/><pb/>
             <explanation n="1"><analogy/>
             </explanation><pb/><explanation n="2"/><pb/><explanation n="3"/>
-            <conclusion><pb/><section_header/><pb/><important_idea n="4"/>
-                <important_idea n="5"/><pb/></conclusion>
+            <conclusion> While even being aware of these steps isn't going to make you 100%
+                impervious to the evil-doers of the internet, there is one last thing you've now got
+                going for you. <visual type="comic" url="http://imgur.com/48SHE61">Sheep and
+                    wolves</visual><pb/> As the old joke goes, you don't need to be faster than the
+                bear, just faster than your friends. Even for an internet-evil-doer, stealing data
+                can be difficult. Luckily for the internet-evil-doers, the average internet user
+                isn't properly protected. There are plenty of unarmed sheep in the world, so they're
+                much less likely to waste their time on you.</conclusion>
         </answer>
         <pb/><sources>Wikipedia (yes wikipedia!) has as <ref type="source"
                 url="https://en.wikipedia.org/wiki/History_of_the_Internet">good a history of the
-                internet as any.</ref>
+                internet as any.</ref> Lecture on the <ref type="source"
+                url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture02_CyberEssentials.pdf"
+                >five step workout plan for computer security.</ref> Verizon's annual <ref
+                type="supplement"
+                url="http://www.verizonenterprise.com/verizon-insights-lab/dbir/2016/">data breach
+                report.</ref>
         </sources>
     </blog_post>
 
