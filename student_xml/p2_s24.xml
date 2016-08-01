@@ -51,8 +51,8 @@
             computer industry's failing at communicating to users how they should focus on defending
             themselves. For example, take this graphic : <visual type="other"
                 url="http://cdn.arstechnica.net/wp-content/uploads/2015/07/Beutler_Google_Security-practices-v6-640x471.png"
-                >Ouch.</visual> Batting .200 isn't even good in baseball. Luckily the next section
-            is going to help us to acquire the tools necessary to change that. </background>
+                >Ouch.</visual><pb/> Batting .200 isn't even good in baseball. Luckily the next
+            section is going to help us to acquire the tools necessary to change that. </background>
         <answer>
             <section_header> Stopping Danger </section_header>
             <analogy>What if those "6 pack abs in 6 minutes" products actually worked? What if they
@@ -64,8 +64,9 @@
                 lot of tools already out there that you are either not using, or using incorrectly.
                 You can change that for free, and a few hours of following
                 instructions.</important_idea>
-            <visual type="photo" url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your
-                computer in 4 hours.</visual><pb/>
+            <visual type="photo"
+                url="http://img-cache.cdn.gaiaonline.com/db52bf9dc339a3b07dc6ae3bae678af0/http://i16.photobucket.com/albums/b34/Andra1/67aa5f8b.jpg"
+                >Your computer in 4 hours.</visual><pb/>
             <roadmap>This workout plan has four categories: <section_header>1. Secure
                     Configuration</section_header>
                 <section_header>2. Access control and Administrative Privilege
