@@ -153,6 +153,13 @@
         </page>
     </fsb_rpt>
 
+    <!-- Questions about Draft -->
+    <!-- 1.	I think that my feasibility section is going well. I addressed a lot of technical feasibility, and I also addressed the financial concerns. 
+2.	I’m not entirely sure about my “Report” section.
+3.	I think I’m very far along in my draft. It could use revisions, but everything I want is in it.
+4.	The main place that I could use advice in the “Report” section. 
+ -->
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
