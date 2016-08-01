@@ -8,9 +8,9 @@
         <author xml:id="p22">Matt Parlon</author>
         <version n="num_of_version" date="2016-07-31"/>
     </docHead>
-    
-<!--paste body of your template file here-->
-    
+
+    <!--paste body of your template file here-->
+
     <pub_init_proposal>
         <cover_page>
             <title> Bringing Solar to Boston </title>
@@ -18,84 +18,190 @@
             <submit_date> 8/15/2016 </submit_date>
             <audience> Mr. Marty Walsh </audience>
         </cover_page>
-        
+
         <tbl_cont>
-            <section n="1"> Page 1: Introduction Page 2: Background  Page 3: Purpose Page 4: Approach Page 5: Feasibility Page 6: Conclusion </section>
+            <section n="1">Page 1: Introduction </section>
+            <section n="2">Page 2: Background </section>
+            <section n="3">Page 3: Purpose </section>
+            <section n="4">Page 4: Approach </section>
+            <section n="5">Page 5: Feasibility </section>
+            <section n="6">Page 6: Conclusion </section>
         </tbl_cont>
-        
-        <intro type="abstract">  <!--attribute options: ltr_int, exec_sum, abstract-->
-            <p> As it stands, Massachusetts is one of the nations foremost clean energy friendly states.  One would infer that Boston, the state capitol, would lead the way and set the example for the rest of the Massachusetts. Boston is a diverse, growing city and its energy policy should reflect that. By providing greater local incentives, Boston can put the new development in Boston to good use while aiding older areas populated by the less wealthy. By decentralizing the energy generation of Boston, the associated financial gain can be properly distributed. </p>
+
+        <intro type="abstract">
+            <!--attribute options: ltr_int, exec_sum, abstract-->
+            <p> As it stands, Massachusetts is one of the nations foremost clean energy friendly
+                states. One would infer that Boston, the state capitol, would lead the way and set
+                the example for the rest of the Massachusetts. Boston is a diverse, growing city and
+                its energy policy should reflect that. By providing greater local incentives, Boston
+                can put the new development in Boston to good use while aiding older areas populated
+                by the less wealthy. <note type="peer" resp="#w28">You might consider rephrasing
+                    this sentence, its a bit confusing and I think the wording is not quite getting
+                    your point across. Also I would switch these last two sentences so that you are
+                    ending your intro on a more broad statement.</note>By decentralizing the energy
+                generation of Boston, the associated financial gain can be properly
+                    distributed.<note type="peer" resp="w28">It is not quite clear by the end of
+                    this abstract what exactly you are proposing. Maybe consider ending it with a
+                    definitive statement on what your project is that you are proposing.</note>
+            </p>
         </intro>
-        
+
         <background>
             <p>
-                <crnt_cond>
-                    Currently, there are several federal and state incentives associated with meeting a portion of ones energy demand with solar energy. The Federal ITC reimburses investors of photovoltaics with a tax credit equal to 30% of their invested capital. In Massachusetts, there is a SREC (Solar Renewable Energy Credit) that also provides money to counter the required upfront investment associated with solar. Net metering allows generators of solar energy to sell their excess energy back to the grid at a price that is slightly less than what the grid charges to supply energy.  <!-- can include <q> element(s) for quoted material -->
+                <crnt_cond> Currently, there are several federal and state incentives associated
+                    with meeting a portion of ones energy demand with solar energy. The Federal ITC
+                    reimburses investors of photovoltaics with a tax credit equal to 30% of their
+                    invested capital. In Massachusetts, there is a SREC (Solar Renewable Energy
+                    Credit) that also provides money to counter the required upfront investment
+                    associated with solar. Net metering allows generators of solar energy to sell
+                    their excess energy back to the grid at a price that is slightly less than what
+                    the grid charges to supply energy. <note type="peer" resp="#w28">If you are
+                        looking to cut down on words, this information is all very interesting but
+                        could probably be generalized in one sentence without all of the
+                        specifics.</note>
+                    <!-- can include <q> element(s) for quoted material -->
                 </crnt_cond>
-                <subj_hist>
-                    Sustainability focuses on the environmental, social, and economic costs associated with actions. However, in terms of getting people to adopt a movement, economic terms seem to be the most persuasive. Providing an incentive that is able to put the social and environmental externalities associated with the burning of fossil fuel into economic terms allows a more fair comparison of energy generation techniques. <!-- can include <q> element(s) for quoted material -->
+                <subj_hist> Sustainability focuses on the environmental, social, and economic costs
+                    associated with actions. However, in terms of getting people to adopt a
+                    movement, economic terms seem to be the most persuasive. Providing an incentive
+                    that is able to put the social and environmental externalities associated with
+                    the burning of fossil fuel into economic terms allows a more fair comparison of
+                    energy generation techniques.<note type="peer" resp="#w28">I don't know if this
+                        "subject history" section is really relevant history. It a very valid point
+                        about cost benefit analysis but I think this section could maybe use a
+                        little bit of historical reference to set the proposal moving
+                        forward.</note>
+                    <!-- can include <q> element(s) for quoted material -->
                 </subj_hist>
             </p>
         </background>
-        
+
         <purpose>
             <p>
-                <scope type="what"> Providing an incentive that will allow for greater adoption of solar energy generation techniques will benefit all in the target area as well as surrounding communities. There are many advantages to going solar that span all facets of society. </scope>  <!--attribute options: what, who, when, where-->
-                <objective>
-                    Boston should provide a citywide financial incentive to people that adopt photovoltaic-based energy production methods.<!-- can include <q> element(s) for quoted material -->
+                <scope type="what"> Providing an incentive that will allow for greater adoption of
+                    solar energy generation techniques will benefit all in the target area as well
+                    as surrounding communities. There are many advantages to going solar that span
+                    all facets of society. </scope>
+                <!--attribute options: what, who, when, where-->
+                <objective> Boston should provide a citywide financial incentive to people that
+                    adopt photovoltaic-based energy production
+                    methods.<!-- can include <q> element(s) for quoted material -->
                 </objective>
-                <goal>
-                    By using more photovoltaics, Bostonians would decrease their carbon footprint, increase consumer awareness, and put a dollar value on the health concerns associated with air pollution from fossil fuel burning facilities. <!-- can include <q> element(s) for quoted material -->
+                <goal> By using more photovoltaics, Bostonians would decrease their carbon
+                    footprint, increase consumer awareness, and put a dollar value on the health
+                    concerns associated with air pollution from fossil fuel burning facilities.
+                    <!-- can include <q> element(s) for quoted material -->
                 </goal>
             </p>
         </purpose>
-        
-        <approach type="execution">  <!--attribute options: execution, action-->
-            <p>
-                Understandably, there will be some push back to this proposal. This is due to the fact that to generate the necessary capital to supply a PV tax credit, some will have to be charged more than their current electricity rate. However, by increasing the cost of energy generated from fossil fuels, Boston would be forcing people who contribute to the pollution of the environment pay for the cost of this externality. This price correction would not be large because the number of ratepayers using fossil fuels generated energy is so much greater than those that would receive the benefit of this incentive that their rate would not increase greatly. As more and more people go solar, the ratio of ratepayers funding the incentive to those benefiting would decrease. For this reason, there will be an obvious reason to join this program as early as possible. That being said, this also adds the constraint that this incentive program is to be reevaluated over time as not to eventually have an unfair burden on those that do not adopt this program.  <!--text here-->
+
+        <approach type="execution">
+            <!--attribute options: execution, action-->
+            <p> Understandably, there will be some push back to this proposal. This is due to the
+                fact that to generate the necessary capital to supply a PV tax credit, some will
+                have to be charged more than their current electricity rate. However, by increasing
+                the cost of energy generated from fossil fuels, Boston would be forcing people who
+                contribute to the pollution of the environment pay for the cost of this externality.
+                This price correction would not be large because the number of ratepayers using
+                fossil fuels generated energy is so much greater than those that would receive the
+                benefit of this incentive that their rate would not increase greatly. As more and
+                more people go solar, the ratio of ratepayers funding the incentive to those
+                benefiting would decrease. For this reason, there will be an obvious reason to join
+                this program as early as possible. That being said, this also adds the constraint
+                that this incentive program is to be reevaluated over time as not to eventually have
+                an unfair burden on those that do not adopt this program. <!--text here-->
             </p>
         </approach>
-        
-        <approach type="action">  <!--attribute options: execution, action-->
+
+        <approach type="action">
+            <!--attribute options: execution, action-->
             <p>
-                Immediately, a citywide incentive program should be brought to town council and be introduced to the public. As public meetings evaluate this proposal, a community-specific program will be hashed out that would incorporate the desires of the citizens and give lawmakers greater insight as to how smaller communities react to such energy credit programs.<!--text here-->
+                <note type="peer" resp="#w28">Formatting note: by seperating the information like
+                    this there are now two approach sections in the report rather than being able to
+                    combine "execution" and "action" into one subsection.</note>Immediately, a
+                citywide incentive program should be brought to town council and be introduced to
+                the public. As public meetings evaluate this proposal, a community-specific program
+                will be hashed out that would incorporate the desires of the citizens and give
+                lawmakers greater insight as to how smaller communities react to such energy credit
+                programs.<!--text here-->
             </p>
         </approach>
-        
-        <feasibility type="environmental">  <!--attribute options: economic, social, environmental-->
-            <p>
-                Solar panels offset more carbon than a tree can, using the same area. This is the justification most solar developers use to clear-cut a wooded area to replace it with panels. However, if Boston were to adopt a greater solar incentive program, panels would be used on rooftops, bridges, and as parking overhangs. Since such a large portion of Boston is covered with impermeable surfaces, panels would not be displacing any carbon sequestering organisms and would also deplete the solar radiation that is constantly being absorbed by the dark roofs and streets of Boston.  <!--text here-->
+
+        <feasibility type="environmental">
+            <!--attribute options: economic, social, environmental-->
+            <p> Solar panels offset more carbon than a tree can, using the same area. This is the
+                justification most solar developers use to clear-cut a wooded area to replace it
+                with panels. However, if Boston were to adopt a greater solar incentive program,
+                panels would be used on rooftops, bridges, and as parking overhangs. Since such a
+                large portion of Boston is covered with impermeable surfaces, panels would not be
+                displacing any carbon sequestering organisms and would also deplete the solar
+                radiation that is constantly being absorbed by the dark roofs and streets of Boston.
+                <!--text here-->
             </p>
         </feasibility>
-        
-        <feasibility type="social">  <!--attribute options: economic, social, environmental-->
-            <p>
-                There are many links associated with air pollution and mental health. By allowing residents to stop contributing to the pollution of their own air, Boston will be promoting greater mental health that disproportionately affects those living in poorer communities who bear the brunt of this pollution.  <!--text here-->
+
+        <feasibility type="social">
+            <!--attribute options: economic, social, environmental-->
+            <p> There are many links associated with air pollution and mental health. By allowing
+                residents to stop contributing to the pollution of their own air, Boston will be
+                promoting greater mental <note type="peer" resp="#w28">Just mental health?</note>
+                health that disproportionately affects those living in poorer communities who bear
+                the brunt of this pollution. <note type="peer" resp="#w28">This may not be in the
+                    scope of this assignment, but it might be good to also address the fact that
+                    much of Boston's population is in rented properties and do not have any control
+                    over the energy sources that their building owners chose to implement. How would
+                    this tax effect them while they are powerless to fix it?</note><!--text here-->
             </p>
         </feasibility>
-        
-        <feasibility type="economic">  <!--attribute options: economic, social, environmental-->
-            <p>
-                By allowing individual households to produce their own energy and sell the remainder back to the grid, Boston could help to decentralize wealth and help those living in poverty to overcome their current financial problems.  <!--text here-->
+
+        <feasibility type="economic">
+            <!--attribute options: economic, social, environmental-->
+            <p> By allowing individual households to produce their own energy and sell the remainder
+                back to the grid, Boston could help to decentralize wealth and help those living in
+                poverty to overcome their current financial problems. <note type="peer" resp="#w28"
+                    >Formatting note: all feasability sections should be seperated as different
+                    paragraphs under one subtitle called feasability. context Note: Also, the jumps
+                    between each of these sections seem a little bit random when you are reading
+                    through, consider introducing each section a little bit to show the reader
+                    clearly that you are looking at it from all three of these perspective.
+                </note><!--text here-->
             </p>
         </feasibility>
-        
+
         <conclu>
             <p>
                 <!--text here-->
             </p>
         </conclu>
-        
+
         <references>
             <citation n="" style="APA"> </citation>
         </references>
     </pub_init_proposal>
-    
-        
+
+
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="w28">Sam Wagner</reviewer>
+        <report type="peer" resp="#w28">
+            <p>The first draft of this proposal looks very in depth at the cost/benefit relationship
+                associated with the use of solar power in the city of Boston. Although the
+                introduction does provide a good overview of the situation surrounding the proposed
+                project, I don’t know if it makes the actual project itself completely clear.
+                Consider ending your introduction with a decisive and direct statement of what needs
+                to be done. The background section felt very informative but could maybe use a
+                little bit of historical context about solar power used in cities elsewhere or in
+                Boston in the past. I really appreciated the structured layout of the feasibility
+                section of this proposal. I think that it addressed each subject in a very relevant
+                manner. However, I think as far as ease of reading, maybe include a statement or
+                something at the beginning of each readability section so that the reader knows and
+                can appreciate the fact that you are touching on all three of these areas; social,
+                environmental and economic.</p> <p>At times throughout the document the word choice becomes
+                a bit repetitive. When this is the case, maybe consider breaking down your
+                statements into smaller sentences to determine if that information is entirely
+                relevant in that section or if it might work better in another section. Also if you
+                are going to link back to previously stated information consider referencing that
+                earlier statement. This will add purpose to your statements and make your argument
+                more clear. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
