@@ -18,86 +18,100 @@
                 control of Tatooine's water supplies. </misconceptions> Consequentially, when the
             topic of computer security arises, the average computer user's eyes glaze over whilst
             simultaneously running away at Olympic gold medal speeds. <pb/> This is bad. We (almost)
-            use computers, and its our responsibility to help keep them safe. <analogy>Who's at
+            all use computers, and its our responsibility to help keep them safe. <analogy>Who's at
                 fault if you get in an car accident when you're driving without a license. Who's at
                 fault if you leave your door open every day and come home one day to find out you've
-                been robbed? </analogy> As you likely know, a lot of your important stuff is on a
-            computer somewhere. <important_idea n="1">What you might not know, is that avoiding
-                having this stuff stolen is not hard nor time intensive, it can be as easy as
-                putting on a seatbelt or locking your door.</important_idea><pb/>
-            <question>So how do we make sure that our computers are secure?</question> We'll get to
-            that shortly, but first let's understand why we are in a state of constant cyber threat.
-                <roadmap> Better understanding <section_header>why there is danger</section_header>
-                will help us create a plan for <section_header>stopping danger</section_header>. </roadmap><pb/>
-            <section_header> Why There is Danger</section_header> If we negated threats stemming
-            from the internet, the world wouldn't be devoid of cyber-danger, however the vast
-            majority of problems would certainly not exist. <scientific_principle n="1">There is
-                nothing inherently scary about the internet, all it is, is the ability to transmit
-                data between computers. <analogy>If we think of a computer as a person, the internet
-                    is what gives it the ability to speak to any other person in the world.
-                </analogy>
+                been robbed? </analogy> A lot of your important stuff exists on a computer
+            somewhere. <important_idea n="1"> What you might not know, is that avoiding having this
+                stuff stolen is not hard nor time intensive, it can be as easy as putting on a
+                seatbelt or locking your door.</important_idea><pb/>
+            <question>So how do we make sure that our computers are secure?</question><pb/>We'll get
+            to that shortly, but first let's understand why we are in a state of constant cyber
+            threat. <roadmap> Better understanding <section_header>why there is
+                    danger</section_header> will help us create a plan for <section_header>stopping
+                    danger</section_header>. </roadmap><pb/>
+            <section_header> Why There is Danger</section_header><pb/> If we negated threats
+            stemming from the internet, the world wouldn't be devoid of cyber-danger, however the
+            vast majority of problems would not exist. <scientific_principle n="1">There is nothing
+                inherently scary about the internet, all it is, is the ability to transmit data
+                between computers. <analogy>If we think of a computer as a person, the internet is
+                    what gives it the ability to speak to any other person in the world. </analogy>
             </scientific_principle> The only issue with this, is that when the researchers who were
             designing what would one day be referred to as 'the internet' were working, they assumed
             that the world was this : <visual type="drawing" url="http://imgur.com/z8OdXVo"
-                >Utopia</visual> when it is really sometimes a bit closer to this : <visual
-                type="drawing" url="http://imgur.com/Gj0E8SD">Dystopia</visual><pb/>
-            Consequentially, all the security of the internet was not designed into its underlying
-            functionality, but has been added in layers since then. While programmers do a great job
+                >Utopia</visual> when it is really sometimes closer to this : <visual type="drawing"
+                url="http://imgur.com/Gj0E8SD">Dystopia</visual><pb/> Consequentially, all the
+            security of the internet was not built into its underlying functionality at the time of
+            its creation, but has been added in layers since then. While programmers do a great job
             of ensuring our data stays safe, <analogy>the situation is akin to a treadmill in which
                 we must develop safety measures more quickly than bad guys can figure out how to
-                subvert them.</analogy><important_idea n="2"/><analogy/><pb/> While it is concerning
-            to think of such a volatile battle for internet supremacy being waged of which you are
-            victim to, as it happens you are not unable to fight in it. The largest issue here at
-            present however, is the computer industry's failing at communicating to users how they
-            should focus on defending themselves. For example, take this graphic : <visual
-                type="other"
+                subvert them.</analogy><pb/> While it is concerning to think of such a volatile
+            battle for internet supremacy being waged of which you are victim to, as it happens you
+            are not unable to fight in it. The largest issue here at present however, is the
+            computer industry's failing at communicating to users how they should focus on defending
+            themselves. For example, take this graphic : <visual type="other"
                 url="http://cdn.arstechnica.net/wp-content/uploads/2015/07/Beutler_Google_Security-practices-v6-640x471.png"
                 >Ouch.</visual> Batting .200 isn't even good in baseball. Luckily the next section
             is going to help us to acquire the tools necessary to change that. </background>
         <answer>
             <section_header> Stopping Danger </section_header>
             <analogy>What if those "6 pack abs in 6 minutes" products actually worked? What if they
-                were also free? You'd give it a go, right? Well beefing up your security is kind of
-                like that. </analogy>
+                were also free? You'd give it a go, right? Well, beefing up your security is kind of
+                like those, except they work. </analogy>
             <visual type="photo" url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your
                 computer now.</visual><pb/> The situation described in the previous section may
-            sound dire, however the fact of the matter is that there are a lot of tools already out
-            there that you are either not using, or using incorrectly. You can change that for free,
-            and a few hours of following instructions. <visual type="photo"
-                url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your computer in 4
-                hours.</visual><pb/>
-            <roadmap>This workout plan has five categories: <section_header>1. Secure
+            sound dire, however the fact of the matter is that <important_idea n="2"> there are a
+                lot of tools already out there that you are either not using, or using incorrectly.
+                You can change that for free, and a few hours of following
+                instructions.</important_idea>
+            <visual type="photo" url="https://i.ytimg.com/vi/bVicgN12Pc0/maxresdefault.jpg">Your
+                computer in 4 hours.</visual><pb/>
+            <roadmap>This workout plan has four categories: <section_header>1. Secure
                     Configuration</section_header>
-                <section_header>2. Boundary Firewalls and Internet Gateways</section_header>
-                <section_header>3. Access control and Administrative Privilege
+                <section_header>2. Access control and Administrative Privilege
                     Management</section_header>
-                <section_header>4. Patch Management</section_header>
-                <section_header>5. Malware Protection</section_header>
+                <section_header>3. Patch Management</section_header>
+                <section_header>4. Malware Protection</section_header>
             </roadmap>
-            <section_header>1. Secure Configuration</section_header> This is our biggest concern.
-                <analogy>If computer security were a house, and having a password is having a lock
-                on your doors, secure configuration is having doors.</analogy> 1. Unnecessary user
-            accounts should be removed or disabled. 2. Any default password for a user account
-            should be changed to an alternative, strong password. 3. Unnecessary software should be
-            removed or disabled. 4. The auto-run feature should be disabled. 5. A personal firewall
-            (or equivalent) should be enabled on desktop PCs and laptops, and configured to disable
-            (block) unapproved connections by default. <section_header>2. Boundary Firewalls and
-                Internet Gateways</section_header> This is having a gate around your house.
-                <section_header>3. Access control and Administrative Privilege
+            <visual type="other" url="http://imgur.com/dh7oJai"/>
+            <section_header>1. Secure Configuration</section_header> This is our biggest concern, as
+            reflected by the 'misc errors' category below. <visual type="other"
+                url="http://imgur.com/5s0JKlx">Verizon 2015 Data Breach Report</visual><pb/>
+            <analogy>If computer security were a house, and having a password is having a lock on
+                your doors, secure configuration is having doors. Only have as many doors as you
+                need. </analogy><pb/> 1. Any account on any electronic device (including default
+            accounts) that isn't being used should be removed. Don't know why it's there? Remove it.
+            <pb/>2. Don't use default passwords, swap them for a strong password. <pb/>3. Any
+            applications you've had for years but haven't used; delete them. <pb/>4. The auto-run
+            feature for USBs and other insertable media should be disabled. <pb/>5. Your computer
+            has a firewall, turn it on. Got it? Good job. Now configure it to block unapproved
+            connections by default. <pb/>
+            <section_header>2. Access control and Administrative Privilege
                 Management</section_header> This is having a registered you-know-what on your road,
-            and telling your child it's okay to take free candy. <section_header>4. Patch
-                Management</section_header> This is making sure your house is being maintained. Bear
-            in mind, in this world you live in a permanent hurricane, but you're the god/goddess of
-            handymen/women. <section_header>5. Malware Protection</section_header> This is having an in house security team.
-            <section_header/><pb/><fundamental_science_involved n="1"/><question_relevant_topic
-                n="1"> </question_relevant_topic><important_idea n="2"> </important_idea>
-            <important_idea n="3"/>
-            <fundamental_science_involved n="2"/>
-            <question_relevant_topic n="2"/>
-            <important_idea n="3"/><pb/><analogy/>
-            <fundamental_science_involved n="3"/><pb/><pb/><analogy/><pb/>
-            <explanation n="1"><analogy/>
-            </explanation><pb/><explanation n="2"/><pb/><explanation n="3"/>
+            and telling your child to not take free candy from them. <pb/> 1. Give each account
+            access to only what it NEEDS. You should have an admin account separate from your day to
+            day account used to do computer maintenance. <pb/> 2. Admin accounts should only be used
+            to perform legitimate admin activities, and should not be granted access to email or the
+            internet. <pb/> 3. Change your admin password every few months. <pb/>4. Require
+            passwords during log-in. <pb/><section_header>3. Patch Management</section_header><pb/>
+            <analogy>This is making sure your house is being maintained. </analogy> Remember those
+            good-guy programmers running on the treadmill? Well all that work they're doing is no
+            good if you don't download the updates that they make to their code. <pb/> 1. Use only
+            legally purchased so that you receive software updates. 2. Install these updates in a
+            timely manner. Remember that scary story from 2014 about Heartbleed? <pb/>
+            <visual type="drawing"
+                url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Heartbleed.svg/2000px-Heartbleed.svg.png"/>
+            <pb/>An update solving this issue was made available within days of its update. A year
+            later 33% of servers had failed to install this update. <important_idea>These servers
+                are still vulnerable. </important_idea> 3. Remove software that is no longer being
+            supported. <pb/>
+            <section_header>4. Malware Protection</section_header> This is having an in house
+            security team. <pb/> 1. Install anti-malware software on all computers that are capable
+            of connecting to the internet. There are lots of free alternatives out there, I am
+            currently using one called Sophos. <pb/>2. Configure software to scan all accessed files
+            and web pages. <pb/> 3. Conduct a full scan of your computer every month. Going out for
+            lunch for a few hours? Before leaving click the scan hard-drive button on your
+            anti-malware program.<pb/>
             <conclusion> While even being aware of these steps isn't going to make you 100%
                 impervious to the evil-doers of the internet, there is one last thing you've now got
                 going for you. <visual type="comic" url="http://imgur.com/48SHE61">Sheep and
@@ -105,7 +119,8 @@
                 bear, just faster than your friends. Even for an internet-evil-doer, stealing data
                 can be difficult. Luckily for the internet-evil-doers, the average internet user
                 isn't properly protected. There are plenty of unarmed sheep in the world, so they're
-                much less likely to waste their time on you.</conclusion>
+                much less likely to waste their time on you if you are vigilant with your
+                protection.</conclusion>
         </answer>
         <pb/><sources>Wikipedia (yes wikipedia!) has as <ref type="source"
                 url="https://en.wikipedia.org/wiki/History_of_the_Internet">good a history of the
