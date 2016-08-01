@@ -4,7 +4,7 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>P2 Cover LEtter</title>
-        <author xml:id="m21">Your name here</author>
+        <author xml:id="m21">Your name here<note type="peer" resp="#l18">Forgot name</note></author>
         <version n="1" date="2016-07-29"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
@@ -35,18 +35,18 @@
             <experience type="work">During my last coop, I gained valuable experience in the HVAC control field; 
                 I was responsible for creating point lists for incoming jobs and AutoCAD system drawings for approved 
                 jobs.</experience>
-            <experience type="personal">Due to a previous internship, I also have minor experience in the water 
+            <experience type="personal"><note type="peer" resp="#l18">type for internship should be work</note> Due to a previous internship, I also have minor experience in the water 
                 utility and treatment field.</experience>
-            <experience type="school">This coming fall I also plan on joining NUMCAA to further my experience 
+            <experience type="school"><note type="peer" resp="#l18">type for professional orgs should probaly be personal</note>This coming fall I also plan on joining NUMCAA to further my experience 
                 with mechanical contracting. </experience>
         </para_background>
         <para_closing>
             <compatability>EMCOR is one of the leading mechanical contractors in the Boston metropolitan area. 
                 After my previous experience with HVAC controls, I am looking to broaden my skills in mechanical 
                 contracting and I believe working at EMCOR would be a challenging and rewarding path to new 
-                knowledge in the industry. </compatability>
+                knowledge in the industry. <note type="peer" resp="#l18">this is more reason than compatability</note></compatability>
             <next_step>I am eager to start my future in the HVAC industry and appreciate your consideration for 
-                a position at EMCOR Northeast. I look forward to hearing from you soon. </next_step>
+                a position at EMCOR Northeast. I look forward to hearing from you soon. <note type="peer" resp="#l18">you might want to mention preferred mode of communication</note></next_step>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
@@ -54,9 +54,20 @@
         </signature>
     </cover_letter>
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="#l18">Daniel Lieman</reviewer>
+        <report type="peer" resp="#l18">
+            <p>You have written a cover letter with the intention of getting an HVAC engineering Co-Op.  You want to work with EMCOR because it is prestigious.
+            You hope to get hands on experience and have listed your experiences and abiities that qualify you for that.</p>
+            <p>You could pay a bit more attention to how specific things fit with specific elements and attribute values. 
+            The typing of experience could especially use a look over.  This is an organizational thing.  
+            </p>
+            <p>For experience, you may want to make the things you learned in class stand out more by mentioning how you used them. 
+                You may also want to go into more detail on why NUMCAA is useful.  
+                Make sure that you don't sacrifice brevity too much if you decide to go into more detail.</p>
+            <p>It would be good if you went into more detail about what you like about EMCOR as a company.
+                The letter can come as you just picking a large local employer when you write 
+                "EMCOR is one of the leading mechanical contractors in the Boston metropolitan area".
+                Try doing some research on the company culture or impressive projects it has done.  </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
