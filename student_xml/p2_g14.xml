@@ -172,7 +172,7 @@
         </sources>
     </blog_post>
     <docReview>
-        <note type="peer">
+        <note type="peer" resp="#g_14">
         *Answer to Kevin's Questions On Board*
         So far, the overall flow and inclusion of elements is going well, and I feel that I have
         made a good effort to use all of the elements we included in the schema that have relevance
