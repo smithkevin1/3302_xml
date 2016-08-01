@@ -110,9 +110,31 @@
     </pub_init_proposal>
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="v_27"/>
+        <report type="peer" resp="#v_27">
+            <p> For project 2, Sam did a proposalfor City Center Park Redesign in Kirkland, Washington. The proposal goes over the history and
+                current state of the park, as well as what kind of redesigns should take place and
+                how this improvement of the park would benefit the community of Kirkland. Overall from
+                what I read I thought that there was strong foundation to the proposal and I felt like
+                a lot of the points being made came across well. Starting off with the background, I 
+                found that it was very rich in detail and that a lot what was found in the subject 
+                history and current state fit extremely well. Where I think the Background can improve
+                is within transitioning from fact to fact where you could write stuff between the elements
+                to help the audience digest the information better. I also feel that you can cut down
+                the subject history. For Purpose was somewhat confused by the, "hopes to begin
+                construction on the vacant lot turned community park in hopes of realizing its
+                value to the community", I think you clarify or reorganize that part it should be fine. 
+                For the goals element I think that you can just head the section with "Goals:" instead 
+                of "The goals of redesigning...", I think that it would look more professional. And with
+                your last goal you should start it with an action word so there is a consistency with 
+                the other goals. I thought that your scope was strong and to the point and also liked
+                how you choose to present you goals and how they were brief yet effective. For feasibility 
+                I thought that ideas were strong and the flow was good. I felt that everything in that 
+                section made sense and fit well within that element. I thought that your use of language 
+                throughout this proposal made sense by using a more professional tone with your audience
+                and also using some more techincal language, but not too much that you may confuse the audience.
+                Overall I think that you have a very strong foundation for this project and just need 
+                finish up the other sections.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
