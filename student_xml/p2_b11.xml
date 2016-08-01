@@ -41,7 +41,7 @@
             program well. The purpose of this project is to create a new web portal
             to replace the current MyNEU COOL. As a software <note type="peer" resp="#c12">student</note>studnet here at Northeastern
             University I am wholy committed to this project and believe it can be done in 
-            a reasonable timeframe. There are few limitations to the project (The major
+            a reasonable timeframe. There are few limitations to the project <note type="peer" resp="#c12">Maybe get rid of the parenthesis here and make it a normal sentence.</note>(The major
             being reliable co-op position liasons), and tangible benefits. The revamping
             of our web portal will put a new face on the NEU co-op search process and 
             encourage our students to use the service, in turn <note type="peer" resp="#c12">yielding</note>yeilding more support for
@@ -132,7 +132,7 @@
             <tmln date="2016-09-01">Research and design Phase Begins: The development team will begin researching and drafting designs for the portal and its 
                 aesthetics. </tmln>
             
-            <tmln date="2016-10-01">Initial Design up for Approval: mockups of the actual page will be presented. Presentation will also include 
+            <tmln date="2016-10-01">Initial Design up for Approval: <note type="peer" resp="#c12">capitalize Mockups</note>mockups of the actual page will be presented. Presentation will also include 
                 any believed changes to the database. Sample data will be taken from the current database for example usage. </tmln>
             
             <tmln date="2016-10-02">Project will begin development after official design undergoes approval. This includes slowly migrating 
