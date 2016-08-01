@@ -5,11 +5,40 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <author xml:id="l18">Daniel Lieman</author>
+        <version n="1" date="2016-08-01"/>
     </docHead>
-    
-<!--paste body of your template file here-->
+    <cover_letter>
+        <header>
+            <name>Daniel Lieman</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="phone"> 410-660-1969 </contact>
+                <contact type="email"> djlieman712@gmail.com </contact>
+            </contact_info>
+        </header>
+        <greeting>Hello Mathworks,</greeting>
+        <intro_para>
+            <intent type="Purpose">I am interested in C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
+            <reason><!-- Optional --> I have enjoyed my work with Simulation Engineering in
+                the past</reason> and <proposition>I think I will bring all the necessary abilities to go above and beyond my job
+                    requirements.</proposition>
+        </intro_para>
+        <para_background>
+            <!-- One or More -->
+            <experience type="work">I bring previous experience with C++ from my work at RKF ENgineering. I used C++ while contributing to their satellite communication simulations.</experience>
+            <experience type="school">I have used your software before in my classes.  I also have experience with AC and linear analysis.</experience>
+        </para_background>
+        <para_closing>
+            <compatability>I think I will fit in well with the Mathworks.</compatability>
+            <next_step>I hope you will email me at djlieman712@gmail.com so we can discuss the next step in
+                the hiring process.</next_step>
+        </para_closing>
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <name>JDaniel Lieman</name>
+        </signature>
+    </cover_letter>
         
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
