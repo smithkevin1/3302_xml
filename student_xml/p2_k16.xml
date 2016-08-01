@@ -48,7 +48,7 @@
                 classification by logistic regression in machine learning works. Classification is
                 just a way to label a set of information, such as labeling a set of pictures of dogs
                 by the breed of dog in each photo. All this specific machine learning algortihm does
-                is generate a math equation that looks like this:<note type="peer" resp="#g_14"
+                is generate a math equation that looks like this:<note type="peer" resp="#g14"
                     >Consider using a paragraph break to separate the image from the text block,
                     formatting comes out better this way.</note><visual type="drawing"
                     url="http://i.stack.imgur.com/5vpYa.png">Logistic Regression</visual>Let says
@@ -66,7 +66,7 @@
                 dog photos. It would go through the photos and identify differing features between
                 poodles and huskies, such as pointless of it’s ears. The way it identifies these
                 features is by using something called a “convolutional neural network”, which is a
-                topic for another blog post.<note type="peer" resp="#g_14">Maybe consider adding a
+                topic for another blog post.<note type="peer" resp="#g14">Maybe consider adding a
                     sentence or two talking about this? Introducing a topic and then not describing
                     it makes it a little confusing</note> Now since we want the classification
                 equation to output a number between 0 and 0.5 if we have a poodle and 0.5 and 1 if
@@ -84,7 +84,7 @@
                 pace at which computing power is advancing, machine learning is becoming more and
                 more accurate and more prevalent in our everyday lives. </conclusion>
         </answer>
-        <sources><note type="peer" resp="#g_14">Maybe add a "Sources" section header to differentiate
+        <sources><note type="peer" resp="#g14">Maybe add a "Sources" section header to differentiate
                 with the rest of the text</note>
             <citation style="MLA">Brownlee, Jason. "Logistic Regression for Machine Learning -
                 Machine Learning Mastery." Machine Learning Mastery. N.p., 1 Apr. 2016. Web. 01 Aug.
@@ -94,8 +94,8 @@
 
     <!--paste body of your template file here-->
     <docReview>
-        <reviewer type="peer" xml:id="g_14">Ben Gincley</reviewer>
-        <report type="peer" resp="#g_14">
+        <reviewer type="peer" xml:id="g14">Ben Gincley</reviewer>
+        <report type="peer" resp="#g14">
             <p>This document makes use of the science blog format to describe the fundamentals
                 behind machine learning. Through the use of analogy, example, and images, it breaks
                 down the more complicated math and probability involved giving a cursory overview of

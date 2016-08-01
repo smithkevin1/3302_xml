@@ -5,7 +5,7 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>How Toxins Work (Blog Post - WP2)</title>
-        <author xml:id="g_14">Benjamin Gincley</author>
+        <author xml:id="g14">Benjamin Gincley</author>
         <version n="1" date="2016-07-31"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
