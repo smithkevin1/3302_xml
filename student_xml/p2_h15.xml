@@ -1,21 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--the second line in the document associates the schema, so be sure not to change it-->
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>A* Pathfinding Algorithm</title>
+        <author xml:id="h15">Tammy Huynh</author>
+        <version n="1" date="2016-08-01"/>
+        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
-<!--paste body of your template file here-->
+    <blog_post>
+        <!-- Table of Contents -->
+        <roadmap>
+            <section_header>Introduction</section_header>
+            <section_header>Connect The Dots:  Graphs</section_header>
+            <section_header>Bro #1:  Dijkstra’s Algorithm</section_header>
+            <section_header>Bro #2:  Best-First Search Algorithm</section_header>
+            <section_header>A* Is Born</section_header>
+            <section_header>Expanding Horizons</section_header>
+            <section_header>TL;DR</section_header>
+        </roadmap>
+        <pb></pb>
+        <background>
+            <!-- Introduction -->
+            <section_header>Introduction</section_header>
+            <question>Okay, so I have this dilemma:  How do I get from A to B as quickly as possible?</question>
+            <scientific_principle n="1"><!-- PROB #1 - should I put this in scientific principle? It just casually says why we need to go over pathfinding algs -->
+                <visual type="drawing">Map</visual>
+                <visual type="drawing">
+                    Hmmm, maybe we can just guess and check like this?
+                    
+                    guess and checking w/ multiple paths
+                    P:  Oh, I guess I’ll try going here. 
+                    Hmm, that’s not it. 
+                    Here? 
+                    No, here…
+                    Heeeere?
+                    AHA! FINALLY. (He got lucky.)
+                </visual>
+                
+                That’s nice and dandy and all, but we really shouldn’t depend on luck for these things.
+                
+                <visual type="comic">
+                    P:  Haha, oh yeah, remember that time in Vegas?
+                    - Flashback -
+                    P2: Pay up.
+                    P: Um…High 5..? O__O; 
+                </visual>
+                
+                And what if we make this map a little more complicated?
+                
+                <visual type="drawing">
+                    awful map of guessing and checking
+                    P:  wut.
+                </visual>
+                
+                Riiight… We need a more procedural way to do this. That’s where these guys come in handy.
+                
+                <visual type="drawing">
+                    Dijkstra, Best-First, A* (pronounced "A Star")
+                </visual>
+            </scientific_principle>
+            But before you get to know them, you need to understand some basics first. So! That leads us into graphs!
+            
+            <pb></pb>
+            
+            <!-- Graphs -->
+            <section_header>Connect The Dots:  Graphs</section_header>
+            <scientific_principle n="2">
+                Connect The Dots:  Graphs
+                A graph is a collection of nodes or vertices, connected by edges. A square has 4 nodes and 4 edges:
+                
+                <visual>Square pic here w/ arrows pointing to nodes and edges</visual>
+                
+                <analogy>
+                    The nodes represent some sort of data, so we don’t need to depict them as points like above. Think of constellations!
+                    
+                    <visual type="comic">
+                        Little dipper constellation
+                        
+                        P1:  Wow, would you look at the beautiful nodes tonight!
+                        P2:  You mean stars?
+                        P1:  Shut up.
+                    </visual>
+                </analogy>
+                Ah, but how does that relate to our problem? Well, let’s look at our map again.
+                
+                <visual type="drawing">Map w/ deconstructed graph</visual>
+                
+                In this case, the nodes represent our terrain tiles, and the edges represent the connection between adjacent tiles (directly horizontal/vertical or diagonal).
+                
+                <visual type="drawing">Depiction of adjacent tiles w/ arrows</visual>
+                
+                Got it? Great! We can finally move on to our three algo brothers.
+                
+                <visual type="drawing">A*:  Oh! Does that mean I get to meet everyone now?</visual>
+                
+                Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first.
+            </scientific_principle>
+        </background>
         
+        <answer>
+            <fundamental_science_involved n=""></fundamental_science_involved>
+            <question_relevant_topic n=""></question_relevant_topic>
+            
+            <pb></pb>
+            <!-- Dijkstra's Algorithm -->
+            <explanation n="1">
+                <section_header>Bro #1:  Dijkstra’s Algorithm</section_header>
+                Dijkstra’s Algorithm finds the shortest path from a source node to all other nodes. As before, we represent our map as a graph, where our tiles are nodes and the connection between adjacent tiles are edges.
+                
+                Each of our tiles holds some data. The data that we will look at are the cost from the start A and where they came from.
+                
+                <visual type="image">
+                    pic
+                </visual>
+                
+                But if we haven’t reached the nodes yet, how do we know that information? Ah, that’s a good point. Really, we don’t know, so we will initialize all of the nodes, except A, with an infinite distance and say that they didn’t come from anywhere, or that their parent is null. Giving them an infinite distance may seem weird, but this ensures that we update it the first time we find a path to it (since the cost we find to it will definitely be less than infinity).
+                
+                <visual type="image">
+                    A to other tiles: You guys are so far. :c
+                    
+                    Tile: Guys, where’s mom? :’c
+                    Another tile:  WE DON’T HAVE ONE (yet).
+                    Tile: T.T
+                </visual>
+                
+                We also have a list, initially empty, that tracks the nodes we visited. To begin the algorithm, we place A on this visited list and then repeat the following steps until we run out of tiles to visit.
+                
+                (1)	Find an unvisited tile closet to our current node.
+                
+                (2)	Go to that tile and mark it as visited. This means that we have found the shortest path from A to the current node. Thus, if the new node is our goal, we can stop the algorithm. The steps following it are to ensure that we also get the shortest path from A to its neighbors. But really, if we reached the end, we don’t care about them anymore. 
+                
+                <visual type="image">
+                    Uninspected tiles:  D’:
+                </visual>
+                
+                But if this wasn’t the goal, go on to (3).
+                
+                (3)	Look at all of the tiles neighboring this new node. If the cost of the path going from A to the neighbor in which we pass through the current tile is shorter than any previous distance to the node, update it with the shorter path (cost and parent).
+                
+                <visual type="image">
+                    P:  Oh, hey! I found a shortcut! 
+                </visual>
+                
+                Another way to look at this is that the cost from A to the particular neighbor we’re looking at is the cost from A to the current tile + the cost of the current tile to the particular neighbor.
+                
+                <visual type="image">
+                    pic of added distance
+                </visual>
+                
+                Eventually, we will run out of nodes to inspect and end up with a list of the shortest paths from A to all other nodes.
+                
+                If we find that the cost from A to a particular node is still infinity, then there is no path to between the two.
+                
+                <visual type="image">
+                    Person at blocked off tile:  If only they knew how to climb walls :’(
+                </visual>
+                
+                Alright, that may have been a little confusing, so let’s go through a full run-through on a small map.
+                
+                <visual type="image">
+                    Dijkstra's run-through
+                </visual>
+                <!-- NEED TO FIX THIS.-->
+                And that’s it! If you got all of that, you’ve almost got A* down too, but before we go there, let’s look at Bro #2 to really get the full picture.
+                
+                <visual type="image">
+                    A*:  =__= …
+                </visual>
+            </explanation>
+            <pb></pb>
+            <!-- Best-First Search Algorithm -->
+            <explanation n="2">
+                    <section_header>Bro #2:  Best-First Search Algorithm</section_header>
+                    
+                    Unlike Dijkstra’s, Best-First Search uses a heuristic to estimate the shortest path between A and B (recall that Dijkstra’s is from A to any other node). A heuristic is a method where we use an educated “guess” to lead us to the solution.
+                    
+                    <visual type="image">
+                        P: But I thought you said my guessing strategy wasn’t good? Pointing to previous image
+                    </visual>
+                    
+                    What you did before was randomly guessing. This is using an educated guess as a guide. 
+                    <analogy>Think of a detective who’s searching for a criminal. If she doesn’t have anything to go off, she has to visit every district. But if she gets a good clue that the criminal is around District A, she can direct her investigation there. We can think of the heuristic as a tipoff.</analogy>
+                    
+                    <visual type="image">
+                        image of searching at District A
+                    </visual>
+                    
+                    In Best-First, the heuristic is the estimated cost from the current node to the end node B. 
+                    <question_relevant_topic n="1">
+                        There are various ways to get the heuristic value, but the most common way is with the Manhattan method. This method counts the distance traversed only horizontally and vertically to get to the end, ignoring any diagonal movement and obstacles.
+                    
+                        [Manhattan distance formula]
+                        
+                        This distance, also called the taxicab distance, is named after the New York borough Manhattan, which is known for its grid-like streets.
+                        
+                        <visual type="comic">
+                            Manhattan grid map w/ taxis
+                            
+                            P: Why don’t you just do this? (diagonal)
+                            TD: I mean if you want me to drive through buildings…
+                            P: Oh. No, no, I’m good.
+                        </visual>
+                    </question_relevant_topic>
+                    Best-First trades accuracy for speed. If we have no obstacles, BFS works well.
+                    
+                    <visual type="image">
+                        BF:  I win!
+                        D:  PUNK!
+                    </visual>
+                    
+                    But if we end up introducing a wall, the path will resemble this:
+                    
+                    <visual type="image">bad Best-First</visual>
+                    
+                    That’s because Best-First only thinks of the distance to the end and fails to update the path prior to the wall. It disregards early nodes if they aren’t close to the end even if they turn out to be more optimal later.
+                    
+                    <visual type="image">
+                        BF:  Ok, so the shortest route is this way! AHRG A WALL. Well, I’ll just keep this path and combine it with the shortest path starting here… Not gonna waste time looking at those nodes I kicked out earlier. (Don’t tell Dijkstra.)
+                        D:  smh
+                        
+                        Nodes: We had potential! D’:
+                    </visual>
+                    
+                    We won’t dive deep into this algorithm since A* is more similar in implementation to Dijkstra’s.
+                    
+                    <visual type="image">BF: Well, ok, it was nice to meet you. ;w;</visual>
+            </explanation>
+            <pb></pb>
+            <!-- A* Is Born -->
+            <explanation n="3">
+                <section_header>A* Is Born</section_header>
+                
+                <visual type="drawing">A*: Hi. c:</visual>
+                
+                A* is a fusion of Dijkstra’s and Best-First.
+                
+                <visual type="other">DBZ fusion dance</visual>
+                
+                It takes into account both the cost from the start to the current node and the cost from the current node to the end.
+                
+                F = G + H
+                
+                Where 
+                G = cost from the start to the current node
+                H = estimated cost from the current node to the end
+                
+                Remember, we say H, the heuristic value, is an estimate because there are many things that it doesn’t take into account, like obstacles.
+                
+                <!-- NEED TO FINISH THIS.-->
+            </explanation>
+            <important_idea n="1">
+                <pb></pb>
+                <!-- Expanding Horizons -->
+                <section_header>Expanding Horizons</section_header>
+                Talk about adjusting the algorithms to fit different cases here.
+            </important_idea>
+            <conclusion>
+                <pb></pb>
+                <!-- TL;DR -->
+                <section_header>TL;DR</section_header>
+                Alright, alright. I’ll give you the meat and beans of the post.
+                <!-- NEED TO FINISH THIS.-->
+            </conclusion>
+        </answer>
+        
+        <sources>
+            <citation style=""><!-- Optional sub-element --></citation> 
+        </sources>    
+    </blog_post>
+    
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
-        </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>
