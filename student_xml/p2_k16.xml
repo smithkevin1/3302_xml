@@ -8,42 +8,128 @@
         <author xml:id="your_id_here">Gurtaj Khatra</author>
         <version n="num_of_version" date="2016-08-01"/>
     </docHead>
-    
+
     <blog_post>
         <background>
-            <pb/>
-            If you have read any technology news or blogs in the past few years, you  probably have heard of something called “machine learning” being thrown around constantly. Everybody seems to be using it now: car companies are using to make self driving cars, phones companies are using it to make digital assistants that can understand what you're saying, and social media websites are using it to detect your face in your friends pictures. However, even with all of these useful applications of machine learning, most people have no idea whats going on behind the scenes to make all of this work. <scientific_principle>If you skim through a book on machine learning, you will probably see a lot of complicated looking math and statistics,<misconceptions>which makes most people think that it’s something that would require an advanced degree to understand, but the idea behind it really isn’t that complicated.</misconceptions></scientific_principle>
-            <question>So how exactly does this thing called “machine learning” really work? </question>
+            <pb/> If you have read any technology news or blogs in the past few years, you probably
+            have heard of something called “machine learning” being thrown around constantly.
+            Everybody seems to be using it now: car companies are using to make self driving cars,
+            phones companies are using it to make digital assistants that can understand what you're
+            saying, and social media websites are using it to detect your face in your friends
+            pictures. However, even with all of these useful applications of machine learning, most
+            people have no idea whats going on behind the scenes to make all of this work.
+                <scientific_principle>If you skim through a book on machine learning, you will
+                probably see a lot of complicated looking math and statistics,<misconceptions>which
+                    makes most people think that it’s something that would require an advanced
+                    degree to understand, but the idea behind it really isn’t that
+                    complicated.</misconceptions></scientific_principle>
+            <question>So how exactly does this thing called “machine learning” really work?
+            </question>
         </background>
         <answer>
             <section_header>Is machine learning just black magic? </section_header>
-            <fundamental_science_involved>
-                At it’s heart, machine learning is just statistics and probability. <analogy>From a statistical perspective, it works in the same way a professional poker player would look at the cards in their hand and what is on table, and then try to make a decision on what move they should make next.</analogy> But we have had mathematicians working on and developing statistical ideas for centuries now, which leads to the question: 
-            </fundamental_science_involved>
-            <section_header>
-                Why has machine learning only been becoming popular in the past few years?
-            </section_header>
-            <fundamental_science_involved>
-                Outside of mathematical theory, we haven’t been able to do much with statistics until computers came around. When computers first started being used commonly a few decades ago, there were a few people trying to build these statistical models and do some machine learning but it was extremely slow and inefficient, even with the most powerful computers at the time. However with huge advances in computing power over the past few years, being able to create these statistical models became much faster, accessible, and reliable.
-            </fundamental_science_involved>
+            <fundamental_science_involved> At its heart, machine learning is just statistics and
+                probability. <analogy>From a statistical perspective, it works in the same way a
+                    professional poker player would look at the cards in their hand and what is on
+                    table, and then try to make a decision on what move they should make
+                    next.</analogy> But we have had mathematicians working on and developing
+                statistical ideas for centuries now, which leads to the question: </fundamental_science_involved>
+            <section_header> Why has machine learning only been becoming popular in the past few
+                years? </section_header>
+            <fundamental_science_involved> Outside of mathematical theory, we haven’t been able to
+                do much with statistics until computers came around. When computers first started
+                being used commonly a few decades ago, there were a few people trying to build these
+                statistical models and do some machine learning but it was extremely slow and
+                inefficient, even with the most powerful computers at the time. However with huge
+                advances in computing power over the past few years, being able to create these
+                statistical models became much faster, accessible, and reliable. </fundamental_science_involved>
             <section_header>What kind of statistics does machine learning use?</section_header>
-            <fundamental_science_involved>For this example, we are just going to explain how classification by logistic regression in machine learning works. Classification is just a way to label a set of information, such as labeling a set of pictures of dogs by the breed of dog in each photo. All this specific machine learning algortihm does is generate a math equation that looks like this:<visual type="drawing" url="http://i.stack.imgur.com/5vpYa.png">Logistic Regression</visual>Let says our dog photos only have pictures of poodles and huskies. The machine learning algorithm will take a photo, run it through another generated equation which would spit out a number, and it finds this number on the x axis and calculates the corresponding value on the y axis. If the y value is in between 0.5 and 1 we can say we have a husky in the photo and if it’s between 0 and 0.5, we can say it is a poodle.</fundamental_science_involved>
+            <fundamental_science_involved>For this example, we are just going to explain how
+                classification by logistic regression in machine learning works. Classification is
+                just a way to label a set of information, such as labeling a set of pictures of dogs
+                by the breed of dog in each photo. All this specific machine learning algortihm does
+                is generate a math equation that looks like this:<note type="peer" resp="#g_14"
+                    >Consider using a paragraph break to separate the image from the text block,
+                    formatting comes out better this way.</note><visual type="drawing"
+                    url="http://i.stack.imgur.com/5vpYa.png">Logistic Regression</visual>Let says
+                our dog photos only have pictures of poodles and huskies. The machine learning
+                algorithm will take a photo, run it through another generated equation which would
+                spit out a number, and it finds this number on the x axis and calculates the
+                corresponding value on the y axis. If the y value is in between 0.5 and 1 we can say
+                we have a husky in the photo and if it’s between 0 and 0.5, we can say it is a
+                poodle.</fundamental_science_involved>
             <section_header>But how do we come up with all of these equations?</section_header>
-            <explanation n="1">
-                This is where the “learning” part of machine learning comes in. In the example we had an equation that could tell the difference between a poodle and a husky, but to come up with the equation, we needed to “teach” the computer how to create it. To do this, we need to give a computer a training set of already labeled dog photos. It would go through the photos and identify differing features between poodles and huskies, such as pointless of it’s ears. The way it identifies these features is by using something called a “convolutional neural network”, which is a topic for another blog post. Now since we want the classification equation to output a number between 0 and 0.5 if we have a poodle and 0.5 and 1 if we have a husky, the computer will form the equation in a way so that the pointier the ears are, the higher number the equation will output. We can see approxmiately where some dog photos would be plotted in the following graph using our newly trained equation: <visual type="drawing" url="http://imgur.com/a/8LMdN"></visual> Since the difference between huskies and poodles is more than just pointy ears, we can create multiple equations that look at different features such as tail shape, number of fur colors, or eye shape and use all of them to create a better and more accurate classifier. 
-            </explanation>
-            <conclusion>If you look past all of the complex math and statistics involved in machine learning, all it really just is the computer giving an educated guess. Although it is far from perfect, with the amount of research being done in the field and the pace at which computing power is advancing, machine learning is becoming more and more accurate and more prevalent in our everyday lives. </conclusion>
+            <explanation n="1"> This is where the “learning” part of machine learning comes in. In
+                the example we had an equation that could tell the difference between a poodle and a
+                husky, but to come up with the equation, we needed to “teach” the computer how to
+                create it. To do this, we need to give a computer a training set of already labeled
+                dog photos. It would go through the photos and identify differing features between
+                poodles and huskies, such as pointless of it’s ears. The way it identifies these
+                features is by using something called a “convolutional neural network”, which is a
+                topic for another blog post.<note type="peer" resp="#g_14">Maybe consider adding a
+                    sentence or two talking about this? Introducing a topic and then not describing
+                    it makes it a little confusing</note> Now since we want the classification
+                equation to output a number between 0 and 0.5 if we have a poodle and 0.5 and 1 if
+                we have a husky, the computer will form the equation in a way so that the pointier
+                the ears are, the higher number the equation will output. We can see approxmiately
+                where some dog photos would be plotted in the following graph using our newly
+                trained equation: <visual type="drawing" url="http://i.imgur.com/iO8lFWg.png"/>
+                Since the difference between huskies and poodles is more than just pointy ears, we
+                can create multiple equations that look at different features such as tail shape,
+                number of fur colors, or eye shape and use all of them to create a better and more
+                accurate classifier. </explanation>
+            <conclusion>If you look past all of the complex math and statistics involved in machine
+                learning, all it really just is the computer giving an educated guess. Although it
+                is far from perfect, with the amount of research being done in the field and the
+                pace at which computing power is advancing, machine learning is becoming more and
+                more accurate and more prevalent in our everyday lives. </conclusion>
         </answer>
-        <sources>
-            <citation style="MLA">Brownlee, Jason. "Logistic Regression for Machine Learning - Machine Learning Mastery." Machine Learning Mastery. N.p., 1 Apr. 2016. Web. 01 Aug. 2016.</citation>
+        <sources><note type="peer" resp="#g_14">Maybe add a "Sources" section header to differentiate
+                with the rest of the text</note>
+            <citation style="MLA">Brownlee, Jason. "Logistic Regression for Machine Learning -
+                Machine Learning Mastery." Machine Learning Mastery. N.p., 1 Apr. 2016. Web. 01 Aug.
+                2016.</citation>
         </sources>
     </blog_post>
-    
-<!--paste body of your template file here-->
+
+    <!--paste body of your template file here-->
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="g_14">Ben Gincley</reviewer>
+        <report type="peer" resp="#g_14">
+            <p>This document makes use of the science blog format to describe the fundamentals
+                behind machine learning. Through the use of analogy, example, and images, it breaks
+                down the more complicated math and probability involved giving a cursory overview of
+                the topic.</p>
+            <p>One brief note on formatting, I have found it helpful to wrap images in paragraph
+                breaks to isolate them from the text of the document, thus eliminating the weird
+                hanging line effect. The blog makes great use of brevity to briefly highlight key
+                points without getting bogged down in the weeds of a particular aspect of a topic.
+                However, the mention of a "neural network" at the end of the piece felt a little too
+                brief, and that there was something lacking. One or two sentences to add a little
+                more information on the topic would help the choppiness felt when reading (here is a
+                topic, this is a discussion for another time, now let's proceed in a different
+                direction). Overall it felt like a sudden redirection of flow that was a little
+                disorienting. Additionally, perhaps further on this note, the level of explanation
+                felt a little lacking on the "learning" aspect of the topic towards the end. While
+                this is more of a content critique than a schema/structural one, I felt that when
+                reading, Gurtaj did a fantastic job explaining what the machine was doing, but was a
+                little brief on the "learning" component, using primarily one sentene about feeding
+                the machines examples of already labeled images to "train" them. More information on
+                this "training" (a sentence or two) would help convey this aspect a little
+                better.</p>
+            <p>Overall, this post did a great job using the devices/elements of the genre to break
+                down a complicated topic into a simple explanation. Just looking at the XML itself,
+                it looks like the "question_relevant_topic" is missing, so tagging a portion of the
+                answer with this element should resolve that issue. Also, the "misconceptions"
+                element is embedded in the "scientific_principles" element, when to appropriately
+                abide the schema I believe they need to be independent. Omission of a few elements
+                like the "road_map" seem appropriate given the brevity of the article on the whole.
+                Aside from a few grammatical errors here and there, this draft did a swell job at
+                responding to the prompt and abiding by the genre conventions. The diction is
+                appropriately common vernacular for most of the text, and technical terms are
+                explained using simpler words. After a thorough read-through to spell and grammar
+                check, and a few ammendments to the XML tagging, and a litle more detail in the last
+                leg of the answer, this should stand up as a great example of the genre.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
