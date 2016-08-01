@@ -5,7 +5,7 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Modeling and Producing Genre</title>
-        <author xml:id="your_id_here">Monica Salas</author>
+        <author xml:id="s_23">Monica Salas</author>
         <version n="1" date="2016-08-01"/>
     </docHead>
 
@@ -24,8 +24,11 @@
         <greeting>Dear Hiring Committee: </greeting>
 
         <intro_para>
-            <intent type="Purpose">I am writing to apply for the MotorSports development engineer
-                position at A123 Systems Inc. listed in NUCareers.</intent>
+            <intent type="purpose">I am writing to apply for the MotorSports development engineer
+                position at A123 Systems Inc. listed in NUCareers. <note type="peer" resp="#s_25"
+                    >Hiring committee might not know that NUCareers is, maybe say something
+                    like"career services website" instead</note>
+            </intent>
             <reason>I am thrilled to see progress being made into the future of clean energy in the
                 automotive industry. I am also most driven in a work environment that keeps me on my
                 toes with both business development work and engineering based problem
@@ -43,7 +46,7 @@
                 quality electrical products for their assemblies. The rigorous standards implemented
                 at this job taught me the importance of well organized and effective documentation
                 of everything involved in an engineering company. It also taught me how necessary it
-                was to work creatively within the bounds of these SOPs in order to pruduce quality
+                was to work creatively within the bounds of these SOPs in order to produce quality
                 end products. This job is also where I became accomplished using 3D modeling and
                 rapid prototyping programs such as Pro-E/Creo and 3D printing.</experience>
         </para_background>
@@ -53,16 +56,18 @@
                 start up, I learned all about process development in a research environment. At this
                 company I worked on a small team to refine a process to create primary aluminum via
                 electrochemical processes. I modelled in AutoCAD inventor and helped to build
-                infrastructure for the developing process. I also performed material compatability
+                infrastructure for the developing process. I also performed material compatibility
                 tests and post experiment analysis using x-ray diffraction, scanning electron
                 microscopy, and data analysis in MatLab. </experience>
         </para_background>
 
         <para_background>
             <experience type="school">Aside from my work experience, I am a recent student at a
-                University that emphasizes professional development and entrepreneurship. In my labs
-                and classes, I have developed strong technical writing and communication skills, the
-                ability to work effectively with teams of people, and resourceful problem solving
+                University <note type="peer" resp="#s_25">"recent graduate from Northeastern
+                    University which" might sound more impressive here</note>that emphasizes
+                professional development and entrepreneurship. In my labs and classes, I have
+                developed strong technical writing and communication skills, the ability to work
+                effectively with teams of people, and resourceful problem solving
                 skills.</experience>
         </para_background>
 
@@ -70,7 +75,7 @@
             <compatability>I believe I work best in a fast paced, energetic environment and think I
                 would be able to integrate well into a team like A123 Systems'
                 MotorSports.</compatability>
-            <next_step>I would welcome the opportunity to futher discuss the position and my
+            <next_step>I would welcome the opportunity to further discuss the position and my
                 qualifications in the near future. Thank you very much for your
                 consideration!</next_step>
         </para_closing>
@@ -84,9 +89,39 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="s_25"/>
+        <report type="peer" resp="#s_25">
+            <p>The peer review report is in response to a cover letter written to express interest
+                for a development engineering job at A123 Systems. </p>
+            <p>I believe this cover letter does a great job identifying why you are a great
+                candidate for this role. Several examples and qualifications are offered which
+                relate to specific points in the job description. However, one possible point of
+                improvement would be stating how the job is a great fit for you. The sentences
+                inside of the reason element state an interest in the general industry and general
+                work environment of the company, so it might make sense to include information that
+                might be more specific to this particular job.</p>
+            <p>Moving on, I believe the first background paragraph is well written and does a great
+                job of highlighting experience that very closely matches the job description. I
+                believe that your second background paragraph should be more like the first in that
+                it should highlight the most relevant experiences rather than describe exactly what
+                you worked on. For example, your last sentence in that paragraph lists a several
+                methods of analysis (“x-ray diffraction, scanning electron microscopy, and data
+                analysis in MatLab”) which may not be useful to the company based on the job
+                description and experience and education listed in the posting. It might make sense
+                to add to this paragraph or replace this sentence completely with one that describes
+                one of your qualifications that relates to the job opening.</p>
+            <p>I believe you also do a great job connecting your skills school experience in your
+                third background paragraph. However, placing myself as the hiring committee in this
+                particular rhetorical situation, most of the information you provide in this
+                paragraph seems to be pretty standard and generic, which would not make you stand
+                out in the applicant pool, especially if they are from the same university. If
+                possible, I would suggest adding more specifics that might separate your experience,
+                or make it more technically relevant to the job description. Additionally, if you
+                can add more information in your second background paragraph, you may be able to
+                completely get rid of your third paragraph.</p>
+            <p>Finally, I think your closing paragraph is very good the way it is. I noticed this in
+                my writing as well, but it might make sense to add an optional “thank you” element
+                inside of this paragraph, since this seems to be common in many cover letters.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
