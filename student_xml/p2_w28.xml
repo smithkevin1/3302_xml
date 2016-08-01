@@ -4,12 +4,88 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Project Proposal</title>
+        <author xml:id="your_id_here">Samantha Wagner</author>
+        <version n="1" date="2016-07-31"/>
     </docHead>
     
-<!--paste body of your template file here-->
+    <pub_init_proposal>
+        <cover_page>
+            <title>City Center Park Redesign</title>
+            <author>JPP Egineering and Urban Planning</author>
+            <submit_date>September 1st 2016</submit_date>
+            <audience>
+                Members of the board of trustees and residants of the city of Kirkland Washington
+            </audience>
+        </cover_page>
+        
+        <tbl_cont>
+            <section n="1">
+                Introduction
+                Background
+                Purpose
+                Action Plan
+                Feasibility 
+                Conclusion
+                
+            </section>
+        </tbl_cont>
+        
+        <intro type="abstract">  <!--attribute options: ltr_int, exec_sum, abstract-->
+            <p><!--text to be typed at the end here--></p>
+        </intro>
+        
+        <background>
+            <p>
+                <crnt_cond>
+                    Located at 111 Waverly Way in Kirkland, City Center Park currently serves as the city's second largest communal gathering space within city limits. The large expanse of land has become overgrown with weeds and blackberry bushes. <!-- can include <q> element(s) for quoted material -->
+                </crnt_cond>
+                <subj_hist>
+                    As the site of the former junior high school which burned down in 1987, this land was left in disrepair for over a year before members of the local neighborhoods banned together to bring purpose back to the land. Over the years since the fire, different features have been added progressively. Starting with the creation of the winding path up to a senic lookout point over Lake Washington and then building a small play ground out of local recycled materials. The potential of this space is obvious to those who live around it.<!-- can include <q> element(s) for quoted material -->
+                </subj_hist>
+            </p>
+        </background>
+        
+        <purpose>
+            <p>
+                <scope type="when"> In the summer of 2017, the city of Kenmore hopes to begin construction on the vacant lot turned community park in hopes of realizing its value to the community and the organizations within it. </scope>  <!--attribute options: what, who, when, where-->
+                <scope type="who"> When completed this project will bring greatly added value to the city and to its residence in many forms. </scope>
+                <objective>
+                    The proposed project includes a multi-purpose turf sports feild with small grandstand seating to serve as a practice area and play space for local teams. It will include a ecofriendly play space by updating and reinforcing the existing structure made out of local recycled materials. All surrounded by patches of community gardens for town residents to manage and attend to. The existing lookout point at the top of the park's hill will be enhanced with a sculptural totem pole designed and carved by local artists and craftsman.<!-- can include <q> element(s) for quoted material -->
+                </objective>
+                <goal>
+                    The goals of redesigning city center park are to:
+                    - Preserve, protect, and improve parkland and recreational opportunities.<!-- can include <q> element(s) for quoted material -->
+                    - Anticipate the needs of the changing community and structure programs and facilities accordingly.
+                    - Enhance the city’s arts, cultural and historic assets.
+                    - Enrich the lives of residents. 
+                    - And build a healthier community. 
+                </goal>
+            </p>
+        </purpose>
+        
+        <approach type="action">  <!--attribute options: execution, action-->
+            <p>
+                By 
+            </p>
+        </approach>
+        
+        <feasibility type="economic">  <!--attribute options: economic, social, environmental-->
+            <p>
+                <!--text here-->
+            </p>
+        </feasibility>
+
+        <conclu>
+            <p>
+                <!--text here-->
+            </p>
+        </conclu>
+        
+        <references>
+            <citation n="" style="MLA"> </citation>
+        </references>
+    </pub_init_proposal>
         
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
