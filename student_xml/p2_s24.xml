@@ -38,18 +38,19 @@
                     what gives it the ability to speak to any other person in the world. </analogy>
             </scientific_principle> The only issue with this, is that when the researchers who were
             designing what would one day be referred to as 'the internet' were working, they assumed
-            that the world was this : <visual type="drawing" url="http://imgur.com/z8OdXVo"
-                >Utopia</visual> when it is really sometimes closer to this : <visual type="drawing"
-                url="http://imgur.com/Gj0E8SD">Dystopia</visual><pb/> Consequentially, all the
-            security of the internet was not built into its underlying functionality at the time of
-            its creation, but has been added in layers since then. While programmers do a great job
-            of ensuring our data stays safe, <analogy>the situation is akin to a treadmill in which
-                we must develop safety measures more quickly than bad guys can figure out how to
-                subvert them.</analogy><pb/> While it is concerning to think of such a volatile
-            battle for internet supremacy being waged of which you are victim to, as it happens you
-            are not unable to fight in it. The largest issue here at present however, is the
-            computer industry's failing at communicating to users how they should focus on defending
-            themselves. For example, take this graphic : <visual type="other"
+            that the world was this : <visual type="drawing" url="http://i.imgur.com/z8OdXVo.png"
+                >Utopia</visual><pb/> when it is really sometimes closer to this : <visual
+                type="drawing" url="http://i.imgur.com/Gj0E8SD.png">Dystopia</visual><pb/>
+            Consequentially, all the security of the internet was not built into its underlying
+            functionality at the time of its creation, but has been added in layers since then.
+            While programmers do a great job of ensuring our data stays safe, <analogy>the situation
+                is akin to a treadmill in which we must develop safety measures more quickly than
+                bad guys can figure out how to subvert them.</analogy><pb/> While it is concerning
+            to think of such a volatile battle for internet supremacy being waged of which you are
+            victim to, as it happens you are not unable to fight in it. The largest issue here at
+            present however, is the computer industry's failing at communicating to users how they
+            should focus on defending themselves. For example, take this graphic : <visual
+                type="other"
                 url="http://cdn.arstechnica.net/wp-content/uploads/2015/07/Beutler_Google_Security-practices-v6-640x471.png"
                 >Ouch.</visual><pb/> Batting .200 isn't even good in baseball. Luckily the next
             section is going to help us to acquire the tools necessary to change that. </background>
@@ -74,10 +75,10 @@
                 <section_header>3. Patch Management</section_header>
                 <section_header>4. Malware Protection</section_header>
             </roadmap>
-            <visual type="other" url="http://imgur.com/dh7oJai"/>
+            <visual type="other" url="http://i.imgur.com/dh7oJai.png"/><pb/>
             <section_header>1. Secure Configuration</section_header> This is the biggest point of
             concern for computer security experts as reflected by the 'misc errors' category below.
-                <visual type="other" url="http://imgur.com/5s0JKlx">Verizon 2015 Data Breach
+                <visual type="other" url="http://i.imgur.com/5s0JKlx.png">Verizon 2015 Data Breach
                 Report</visual><pb/>
             <analogy>If computer security were a house, and having a password is having a lock on
                 your doors, secure configuration is having doors. Only have as many doors as you
@@ -128,8 +129,8 @@
                     malicious hackers exploit.</important_idea> While even being aware of these
                 steps isn't going to make you 100% impervious to the evil-doers of the internet,
                 there is one last thing you've now got going for you. <visual type="comic"
-                    url="http://imgur.com/48SHE61">Sheep and wolves</visual><pb/> As the old joke
-                goes, you don't need to be faster than the bear, just faster than your slowest
+                    url="http://i.imgur.com/48SHE61.jpg">Sheep and wolves</visual><pb/> As the old
+                joke goes, you don't need to be faster than the bear, just faster than your slowest
                 friend. Even for an internet-evil-doer, stealing data can be difficult. Luckily for
                 the internet-evil-doers, the average internet user isn't properly protected. There
                 are plenty of unarmed sheep in the world, so they're much less likely to waste their
