@@ -5,7 +5,7 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>How Toxins Work (Blog Post - WP2)</title>
-        <author xml:id="g14">Benjamin Gincley</author>
+        <author xml:id="g_14">Benjamin Gincley</author>
         <version n="1" date="2016-07-31"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
@@ -57,12 +57,12 @@
                 ions into or out of the cell, which often changes the balance of charge that was
                 maintained and therefore causing the voltage across the membrane to
                 spike.</question_relevant_topic><important_idea n="2"> The key ions used by neurons
-                    are potassium ions and sodium ions.</important_idea><pb/><visual type="drawing"
-                        url="https://dundeemedstudentnotes.files.wordpress.com/2012/04/picture22.jpg">Depiction
-                        courtesy of dundeemedstudentnotes.wordpress.com</visual><pb/><visual
-                            type="drawing"
-                            url="https://figures.boundless-cdn.com/19537/full/figure-35-02-04.%402x.png">Depiction
-                        courtesy of Boundless.com, The Nervous System, Figure 35.</visual>
+                are potassium ions and sodium ions.</important_idea><pb/><visual type="drawing"
+                url="https://dundeemedstudentnotes.files.wordpress.com/2012/04/picture22.jpg"
+                >Depiction courtesy of dundeemedstudentnotes.wordpress.com</visual><pb/><visual
+                type="drawing"
+                url="https://figures.boundless-cdn.com/19537/full/figure-35-02-04.%402x.png"
+                >Depiction courtesy of Boundless.com, The Nervous System, Figure 35.</visual>
             <important_idea n="3">The core unit of transmission is called the Action Potential, in
                 which there is a sudden change in this electric potential in a local area of the
                 cell, and the arrangement of channels in the cell membrane allows for this local
@@ -84,27 +84,28 @@
                 interaction between complementary shapes, meaning that if a different molecule had a
                 region that was similar in shape to the neurotransmitter in question, it too would
                 interact with the receptor.</important_idea><pb/><visual type="drawing"
-                    url="http://i.imgur.com/LsVfrJu.png"/><pb/><analogy>Imagine the shape-fitting toys that toddlers play
-                with, where you insert a triangle or a circle piece into various cutouts, trying to
-                match the correct shape with the correct hole. The neurotransmitter is the inserted
-                piece, and it only inserts into the correct hole, or receptor. As an example, let's
-                say the neurotransmitter dopamine is a triangle piece, and serotonin is a circle.
-                Dopamine will only fit in the triangle receptor, and serotonin will only fit in the
-                circle receptor.</analogy>
+                url="http://i.imgur.com/LsVfrJu.png"/><pb/><analogy>Imagine the shape-fitting toys
+                that toddlers play with, where you insert a triangle or a circle piece into various
+                cutouts, trying to match the correct shape with the correct hole. The
+                neurotransmitter is the inserted piece, and it only inserts into the correct hole,
+                or receptor. As an example, let's say the neurotransmitter dopamine is a triangle
+                piece, and serotonin is a circle. Dopamine will only fit in the triangle receptor,
+                and serotonin will only fit in the circle receptor.</analogy>
             <fundamental_science_involved n="3">Once activated, the receptor continues the signal
                 cascade in the next cell, either chemically or electrically, furthering the
                 transmission of the signal to its destination, whether it be to the brain to signal
                 something, or to a muscle to tell it to
-                move.</fundamental_science_involved><pb/><visual type="drawing" url="http://i.imgur.com/5IeQkm4.png"
-                /><pb/><analogy>Now consider a modified version of the shape matching toy mentioned
-                earlier where instead of falling through the hole, the insert has a larger block
-                connected to it, so the piece inserts where the shapes match but the rest of the
-                piece hangs out. The natural neurotransmitter is a triangle inserted into a triangle
-                hole successfully, but there can be other chemicals that can interact with the board
-                too. Another piece with a triangle that fits the hole is referred to as an agonist
-                (one that binds successfully to the receptor), and a piece that partially fits the
-                hole but doesn’t fit perfectly and prevents other pieces from fitting is referred to
-                as an antagonist (obscures the receptor without activating it).</analogy><pb/>
+                move.</fundamental_science_involved><pb/><visual type="drawing"
+                url="http://i.imgur.com/5IeQkm4.png"/><pb/><analogy>Now consider a modified version
+                of the shape matching toy mentioned earlier where instead of falling through the
+                hole, the insert has a larger block connected to it, so the piece inserts where the
+                shapes match but the rest of the piece hangs out. The natural neurotransmitter is a
+                triangle inserted into a triangle hole successfully, but there can be other
+                chemicals that can interact with the board too. Another piece with a triangle that
+                fits the hole is referred to as an agonist (one that binds successfully to the
+                receptor), and a piece that partially fits the hole but doesn’t fit perfectly and
+                prevents other pieces from fitting is referred to as an antagonist (obscures the
+                receptor without activating it).</analogy><pb/>
             <explanation n="1">Neurotoxins are molecules that affect the chemical transmission
                 between neurons, by affecting the cell transmitting the chemicals (pre-synaptic) or
                 receiving them (post-synaptic). Some neurotoxins like tetrodototoxin (TTX), which is
@@ -126,20 +127,21 @@
                 "turn off" the muscular neurons. This ultimately leads to paralysis. Overall, most
                 neurotoxins lead to paralysis in one way or another, and nature has come up with
                 creative ways to cause this from perceivably every angle that it possibly
-                can.</explanation><pb/><visual type="drawing" url="http://i.imgur.com/9YFCOhI.png"/><pb/><explanation n="3"
-                >Why some animals are immune or resistant to toxins, animals like the mongoose that
-                can sustain repeated cobra bites, comes down to shape, once again. These animals
-                have evolved channels and/or receptors that have a slightly different shape that
-                prevent the toxin from interacting, while continuing to allow the normal molecules
-                to do their thing. Let's return to our original analogy. <analogy>Imagine if the
-                    triangle hole now had a circular bump around it that prevented larger pieces
-                    from staying in place. The normal piece can still fit fine, but now the toxin
-                    piece can no longer fit properly because of the bump.</analogy> Toxin can't
-                bind, toxin can't block the channel, toxin can't prevent the cell from signaling,
-                and the mongoose goes on its merry way getting bit by cobras. It's not immune, as
-                given enough toxin pieces, eventually as soon as one comes off, another toxin piece
-                takes its place, and the cell can't take in sodium fast enough for an action
-                potential, but the animal is at least resistant to a few bites.</explanation>
+                can.</explanation><pb/><visual type="drawing" url="http://i.imgur.com/9YFCOhI.png"
+                /><pb/><explanation n="3">Why some animals are immune or resistant to toxins,
+                animals like the mongoose that can sustain repeated cobra bites, comes down to
+                shape, once again. These animals have evolved channels and/or receptors that have a
+                slightly different shape that prevent the toxin from interacting, while continuing
+                to allow the normal molecules to do their thing. Let's return to our original
+                analogy. <analogy>Imagine if the triangle hole now had a circular bump around it
+                    that prevented larger pieces from staying in place. The normal piece can still
+                    fit fine, but now the toxin piece can no longer fit properly because of the
+                    bump.</analogy> Toxin can't bind, toxin can't block the channel, toxin can't
+                prevent the cell from signaling, and the mongoose goes on its merry way getting bit
+                by cobras. It's not immune, as given enough toxin pieces, eventually as soon as one
+                comes off, another toxin piece takes its place, and the cell can't take in sodium
+                fast enough for an action potential, but the animal is at least resistant to a few
+                bites.</explanation>
             <conclusion><pb/><section_header>So, how does venom
                     work?</section_header><important_idea n="4">Venom is a chemical compound
                     that interacts with receptors and channels in nerve cell membranes that disrupt
@@ -172,6 +174,7 @@
         </sources>
     </blog_post>
     <docReview>
+<<<<<<< Updated upstream
         <note type="peer" resp="#g14">
         *Answer to Kevin's Questions On Board*
         So far, the overall flow and inclusion of elements is going well, and I feel that I have
@@ -188,7 +191,15 @@
         a formal citation.</note>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+            <p> I would split the two diagrams that show the the sodium-potassium pump and the direction of with some text instead of having one
+                immediately after the other. You could move the action potential diagram down after
+                the part you talk about it in the text. For the shape diagrams, I'd put them below
+                the text you reference them in, instead of above. I feel like that would improve the
+                flow of the post. I know you mentioned you tried to do captions but they didn't
+                work, but I definitely feel like they could improve the post if you could get them
+                to work (mabye put the captions on the actual image). If you want, you could also use the captions to reference diagrams from the text (Example: "As you can see in figure 1,  Dopamine will only fit in the triangle receptor...") For the action potential diagram, I'd use something that shows the synapse transmitting neurotransmitters, since that is the part that is crucial in explaining how venom works. I'd throw in an analogy in the paragraph right after the "basically what's going on?" section to break up some of the biology jargon.
+                A few typos (just ctrl-F for
+                them): "Neurons contain a long extensions", "secret" instead of secrete </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
