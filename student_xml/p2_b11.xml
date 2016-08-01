@@ -39,12 +39,12 @@
         <page type="exec_sum"> Northeastern University is well known for our
             exceptional co-op program. As it stands, we are not representing this 
             program well. The purpose of this project is to create a new web portal
-            to replace the current MyNEU COOL. As a software studnet here at Northeastern
+            to replace the current MyNEU COOL. As a software <note type="peer" resp="#c12">student</note>studnet here at Northeastern
             University I am wholy committed to this project and believe it can be done in 
             a reasonable timeframe. There are few limitations to the project (The major
             being reliable co-op position liasons), and tangible benefits. The revamping
             of our web portal will put a new face on the NEU co-op search process and 
-            encourage our students to use the service, in turn yeilding more support for
+            encourage our students to use the service, in turn <note type="peer" resp="#c12">yielding</note>yeilding more support for
             our student feedback database and overall improvements to the co-op process on 
             the faculty and student end. 
         </page>
@@ -52,30 +52,30 @@
         <!-- Preliminary Requirements Analysis, Page 4 -->
         <page type="pre_req_ana">
             
-            <app_ovr type="obj">Co-op search iprovements: The primary objective of this
+            <app_ovr type="obj">Co-op search <note type="peer" resp="#c12">improvements</note>iprovements: The primary objective of this
                 project is to improve the overall quality of the co-op search process. This process
                 is undertaken by the overwhelming majority of students, making this a very visible
-                improvement on the part of the University. The goal is inpart to increase user feedback,
+                improvement on the part of the <note type="peer" resp="#c12">*lowercase* university</note>University. The goal is <note type="peer" resp="#c12">in part -- add space</note>inpart to increase user feedback,
                 make the process easier and more intuitive, overall replace and improve what is generally 
                 considered a poor service. 
             </app_ovr>
             
             <app_ovr type="obj">Experiential Learning: As students of the University, this
-                project will help provide valuable development experience to multiple studnets.
+                project will help provide valuable development experience to multiple <note type="peer" resp="#c12">students</note>studnets.
                 This includes students from different majors collaborating for a full cross discipline
                 project. This exemplifies Northeastern's experiential learning goals, and creates student
                 involvement.
             </app_ovr>
             
-            <app_ovr type="rls">Graphic Identity: The design andimplementation of this web 
+            <app_ovr type="rls">Graphic Identity: The design <note type="peer" resp="#c12">add space betweent "and" and "implementation"</note>andimplementation of this web 
                 portal will uphold Northeastern University's expectations for colors, logos,
-                and branding. Primary colors used will be Northeastern Red (CC0000), Warm Grey 
-                11 (615445), and Black (000000), along with the thematic northeastern header standard
+                and branding. <note type="peer" resp="#c12">Should probably add "The" to make it a complete sentence.</note>Primary colors used will be Northeastern Red (CC0000), Warm Grey 
+                11 (615445), and Black (000000), along with the thematic <note type="peer" resp="#c12">*capitalize* Northeastern</note>northeastern header standard
                 on all digital frontend space. 
             </app_ovr>
             
             <app_ovr type="synergy">Existing myNEU COOL: This portal will require all of the 
-                previous information in the system to work. This is make transition rather seamless, 
+                <note type="peer" resp="#c12">perhaps expand on what this previous info is?</note>previous information in the system to work. This is make transition rather seamless, 
                 and allow for users to keep the information they are accustomed too. The goal here
                 is to prevent users from having to relearn a new system, rather they will immediately
                 know how to use it. 
@@ -87,7 +87,7 @@
         <page type="sccs_crt">
             
             <req_sect>User Interactions
-                <req n="1">Seamless transition: Our new Web portal must be able to utilize all of the 
+                <req n="1">Seamless transition: Our new <note type="peer" resp="#c12">Consistency with capitalization of "web portal" in the Success Criteria Section</note>Web portal must be able to utilize all of the 
                     existing MyNEU COOL data. This includes co-op reviews, individual user preferences, and 
                     just the list of jobs itself. These aspects of COOL will not be changed, so that users
                     experience no loss of the past functionality.   
@@ -117,7 +117,7 @@
         <page type="cost">
             
             <est type="fnc"> Developers: The project's main cost will be the wage of 5 Northeastern University Students. They will be 
-                paid a negotiable group upon beggining the project, and another upon successful implementation and approval of their web portal. 
+                paid a negotiable group upon <note type="peer" resp="#c12">beginning</note>beggining the project, and another upon successful implementation and approval of their web portal. 
             </est>
             
             <est type="fnc"> Hardware: The project's implementation may require new or updated hardware. This is yet to be determined, but every effort
@@ -167,9 +167,9 @@
                 to rush the product compromise the result. That being said, the team is confident it can be delivered on time on the condition that new hardware is not 
                 needed to host the service. In the event that we need to purchase new hardware the timeline may be increased, or we can look into external hosting.</cond>
             
-            <sum> In summary, this project will provide Northeastern University with a valuable studnet experiential learning program and improve a widely used
+            <sum> In summary, this project will provide Northeastern University with a valuable <note type="peer" resp="#c12">student</note>studnet experiential learning program and improve a widely used
                 service. It is no secret that our current co-op database (MyNEU COOL) is antiquated, and studnet feedback is very low. By developing a replacement web
-                portal and migrating all of the current data, we can improve that service without loosing any aspect of the service that students are accustomed too. 
+                portal and migrating all of the current data, we can improve that service without <note type="peer" resp="#c12">losing</note>loosing any aspect of the service that students are accustomed too. 
                 By minimizing changes to the current system's underworkings and instead "re-skinning" it, we can avoid a costly experience, and utilize our current
                 system in the improvement.</sum>
             
@@ -179,9 +179,38 @@
 <!--paste body of your template file here-->
         
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="c12"/>
+        <report type="peer" resp="#c12">
+            <p>This is a feasibility report on redoing the myNEU COOL co-op web application. It is a
+            response to student's negative opinions of the current application which is in need of
+            an overhaul.
+            
+            I think that my main issue is the lack of any feasibility section. I see requirements and success criteria, 
+            but I don't see anything analyzing the actual feasibility of the project. 
+            The feasibility is touched upon in different sections like requirements and success criteria 
+            so a main feasibility section may feel redundant to you. Should the elements that make it
+            feasible be explicitly layed out or should the reader be able to infer based on the requirements? We have 
+            a page type="fsb" where one could list the different types of feasibility examined and this is
+            what I used. I think that this is one of the most important sections where you can convince readers why it is 
+            feasible or not depending on the current financial situation or current technical abilities of the students.
+            
+            A quick fix that I think you could add would be to add a subtitle of Feasibility Report to the 
+            title page. Another simple fix: Table of Contents under Cost Estimate says Programmers but
+            the section title is Developers. One thing that I like in your report is how everything seems to be bulleted or 
+            within sections rather than in paragraphs. It makes the sections that you are highlighting 
+            stand out and your point is clearly conveyed.
+            
+            In the executive summary, you say that as a software student, you're fully committed to the project
+            and think that it could get done in a reasonable timeframe. Reading from the outside this kind of 
+            seems like there could be some bias in the paper. With yourself being committed to the project, it
+            could seem like you would maybe want to over or under-represent the facts to make it seem like 
+            the project is more feasible than it actually is. Perhaps a less personal approach to the paper
+            would make sense.
+            
+            In the reporting section, we may want to ask Kevin to add dates for the different "tmln" elements,
+            as they don't show up on the formatted document. Also, we may want to ask Kevin to allow multiple "reqt_sect"
+            elements in the Success criteria section, as Oxygen is saying your second one isn't valid.
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
