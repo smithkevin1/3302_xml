@@ -9,23 +9,16 @@
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
     
-    <blog_post> Root element for Science Blog genre 
-        
-        
-       
-        <roadmap><section_header>Heading 1</section_header>
+    <blog_post> <roadmap><section_header>Heading 1</section_header>
         <section_header>Section 2</section_header>
-        <section_header>Section 3</section_header></roadmap>
-       
-
-        <background> 
+        <section_header>Section 3</section_header></roadmap>  <background>
             <section_header>Section header</section_header> 
             <question>The question or topic that we are trying to answer or simplify to a general 
                 audience.</question>
             <pb/>
             <scientific_principle n="1">Big picture fundamental scientific concepts involved (such as
                 gravity, matter and energy, fluid dynamics, acid-base reactions,
-                etc.) <important_idea n="1">Major points of interest relating to the topic.</important_idea></scientific_principle>
+                etc.) <visual type="photo" url="http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/11/18131428/SneakersSocialDog.png">Dog</visual><important_idea n="1">Major points of interest relating to the topic.</important_idea></scientific_principle>
             <pb/>
             <misconceptions n="1">Lists any common misconceptions the public has about the topic, or
                 includes quoted material from the community that highlights the existing (false)
@@ -54,42 +47,6 @@
     </blog_post>
     
     
-    
-    
-    <pub_init_proposal>
-        <cover_page>
-            <title>Sample Public Initiative Proposal</title>
-            <author>Kevin G. Smith</author>
-            <submit_date>2016-01-01</submit_date>
-            <audience>This text is part of the audience element.</audience>
-        </cover_page>
-        <tbl_cont>
-            <section n="1">First section</section>
-        </tbl_cont>
-        <intro type="abstract">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </intro>
-        <background>
-            <p><crnt_cond></crnt_cond></p>
-            <p><subj_hist></subj_hist></p>
-        </background>
-        <purpose>
-            <p></p>
-        </purpose>
-        <approach type="">
-            <p></p>
-        </approach>
-        <feasibility type="">
-            <p></p>
-        </feasibility>
-        <conclu>
-            <p></p>
-        </conclu>
-        <references>
-            <citation style="">Sample citations</citation>
-        </references>
-    </pub_init_proposal>
-    
     <fsb_rpt>
         <page type="ttl">
             <title>Test Title</title>
@@ -110,6 +67,42 @@
             <fsb_hlgt type="econ">Test paragraph </fsb_hlgt>
         </page>
     </fsb_rpt>
+    
+    <pub_init_proposal>
+        <cover_page>
+            <title>Sample Public Initiative Proposal</title>
+            <author>Kevin G. Smith</author>
+            <submit_date>2016-01-01</submit_date>
+            <audience>This text is part of the audience element.</audience>
+        </cover_page>
+        <tbl_cont>
+            <section n="1">First section</section>
+            <section n="2">Second section</section>
+        </tbl_cont>
+        <intro type="abstract">
+            <p>This is a sample intro page @type=abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </intro>
+        <background>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa<crnt_cond>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</crnt_cond></p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa<subj_hist>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</subj_hist></p>
+        </background>
+        <purpose>
+            <p></p>
+        </purpose>
+        <approach type="action">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </approach>
+        <feasibility type="environmental">
+            <p>This is an environmental feasibility section: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </feasibility>
+        <conclu>
+            <p>This is a conclusion</p>
+        </conclu>
+        <references>
+            <citation style="MLA">Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>. New York: Scholastic, 1994. Print.</citation>
+        </references>
+    </pub_init_proposal>
     
     <cover_letter>
         <header>
