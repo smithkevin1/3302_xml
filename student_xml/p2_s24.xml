@@ -74,26 +74,32 @@
                 <section_header>4. Malware Protection</section_header>
             </roadmap>
             <visual type="other" url="http://imgur.com/dh7oJai"/>
-            <section_header>1. Secure Configuration</section_header> This is our biggest concern, as
-            reflected by the 'misc errors' category below. <visual type="other"
-                url="http://imgur.com/5s0JKlx">Verizon 2015 Data Breach Report</visual><pb/>
+            <section_header>1. Secure Configuration</section_header> This is the biggest point of
+            concern for computer security experts as reflected by the 'misc errors' category below.
+                <visual type="other" url="http://imgur.com/5s0JKlx">Verizon 2015 Data Breach
+                Report</visual><pb/>
             <analogy>If computer security were a house, and having a password is having a lock on
                 your doors, secure configuration is having doors. Only have as many doors as you
                 need. </analogy><pb/> 1. Any account on any electronic device (including default
             accounts) that isn't being used should be removed. Don't know why it's there? Remove it.
-            <pb/>2. Don't use default passwords, swap them for a strong password. <pb/>3. Any
-            applications you've had for years but haven't used; delete them. <pb/>4. The auto-run
-            feature for USBs and other insertable media should be disabled. <pb/>5. Your computer
-            has a firewall, turn it on. Got it? Good job. Now configure it to block unapproved
-            connections by default. <pb/>
+            <pb/>2. Don't use default passwords, swap them for a <ref type="supplement"
+                url="https://xkcd.com/936/">strong password.</ref><pb/>3. Any applications you've
+            had for years but haven't used; delete them. <pb/>4. Disable auto-run for USBs and other
+            insertable media. <pb/>5. Your computer has a firewall, turn it on. Got it? Good job.
+            Now configure it to block unapproved connections by default. <pb/>
             <section_header>2. Access control and Administrative Privilege
-                Management</section_header> This is having a registered you-know-what on your road,
-            and telling your child to not take free candy from them. <pb/> 1. Give each account
-            access to only what it NEEDS. You should have an admin account separate from your day to
-            day account used to do computer maintenance. <pb/> 2. Admin accounts should only be used
-            to perform legitimate admin activities, and should not be granted access to email or the
-            internet. <pb/> 3. Change your admin password every few months. <pb/>4. Require
-            passwords during log-in. <pb/><section_header>3. Patch Management</section_header><pb/>
+                Management</section_header>
+            <fundamental_science_involved>A computer has an internal list of rules referenced by the
+                operating system to determine what different user accounts can and cannot do. If one
+                of these accounts is compromised by a malicious entity, that entity can access
+                whatever the account can access. </fundamental_science_involved>This is having a
+            registered you-know-what on your road, and telling your child to not take free candy
+            from them. <pb/> 1. Give each account access to only what it NEEDS. You should have an
+            admin account separate from your day to day account used to do computer maintenance.
+            <pb/> 2. Admin accounts should only be used to perform legitimate admin activities, and
+            should not be granted access to email or the internet. <pb/> 3. Change your admin
+            password every few months. <pb/>4. Require passwords during log-in.
+                <pb/><section_header>3. Patch Management</section_header><pb/>
             <analogy>This is making sure your house is being maintained. </analogy> Remember those
             good-guy programmers running on the treadmill? Well all that work they're doing is no
             good if you don't download the updates that they make to their code. <pb/> 1. Use only
@@ -105,22 +111,28 @@
             later 33% of servers had failed to install this update. <important_idea>These servers
                 are still vulnerable. </important_idea> 3. Remove software that is no longer being
             supported. <pb/>
-            <section_header>4. Malware Protection</section_header> This is having an in house
-            security team. <pb/> 1. Install anti-malware software on all computers that are capable
-            of connecting to the internet. There are lots of free alternatives out there, I am
-            currently using one called Sophos. <pb/>2. Configure software to scan all accessed files
-            and web pages. <pb/> 3. Conduct a full scan of your computer every month. Going out for
-            lunch for a few hours? Before leaving click the scan hard-drive button on your
-            anti-malware program.<pb/>
-            <conclusion> While even being aware of these steps isn't going to make you 100%
-                impervious to the evil-doers of the internet, there is one last thing you've now got
-                going for you. <visual type="comic" url="http://imgur.com/48SHE61">Sheep and
-                    wolves</visual><pb/> As the old joke goes, you don't need to be faster than the
-                bear, just faster than your friends. Even for an internet-evil-doer, stealing data
-                can be difficult. Luckily for the internet-evil-doers, the average internet user
-                isn't properly protected. There are plenty of unarmed sheep in the world, so they're
-                much less likely to waste their time on you if you are vigilant with your
-                protection.</conclusion>
+            <section_header>4. Malware Protection</section_header>
+            <fundamental_science_involved>Anti-malware programs scan files and websites and check
+                for publicly known threats. </fundamental_science_involved><analogy>This is having
+                an in house security team. </analogy><pb/> 1. Install anti-malware software on all
+            computers that are capable of connecting to the internet. There are lots of free
+            alternatives out there, I am currently using one called Sophos. <pb/>2. Configure
+            software to scan all accessed files and web pages. <pb/> 3. Conduct a full scan of your
+            computer every month. Going out for lunch for a few hours? Before leaving click the scan
+            hard-drive button on your anti-malware program.<pb/>
+            <conclusion> We tend to think of malicious programmers as working in late night hours to
+                crack our security defenses. While in certain cases this might be the case,
+                    <important_idea>for the vast majority of cases this is not so. Most in-home
+                    security breaches occur because there are known security flaws that malicious
+                    hackers exploit.</important_idea> While even being aware of these steps isn't
+                going to make you 100% impervious to the evil-doers of the internet, there is one
+                last thing you've now got going for you. <visual type="comic"
+                    url="http://imgur.com/48SHE61">Sheep and wolves</visual><pb/> As the old joke
+                goes, you don't need to be faster than the bear, just faster than your slowest
+                friend. Even for an internet-evil-doer, stealing data can be difficult. Luckily for
+                the internet-evil-doers, the average internet user isn't properly protected. There
+                are plenty of unarmed sheep in the world, so they're much less likely to waste their
+                time on you if you take even the most basic measures toward security.</conclusion>
         </answer>
         <pb/><sources>Wikipedia (yes wikipedia!) has as <ref type="source"
                 url="https://en.wikipedia.org/wiki/History_of_the_Internet">good a history of the
@@ -129,8 +141,14 @@
                 >five step workout plan for computer security.</ref> Verizon's annual <ref
                 type="supplement"
                 url="http://www.verizonenterprise.com/verizon-insights-lab/dbir/2016/">data breach
-                report.</ref>
-        </sources>
+                report.</ref> A <ref type="source"
+                url="https://securityintelligence.com/free-ebook-practical-guide-to-staying-ahead-in-the-cyber-security-game/"
+                >free e-book</ref> that goes in depth on the issues above. <pb/>The security
+            measures above are incredibly adept at keeping you safe, and as a result in instances in
+            which a user implements all of the 4 features discussed, issues arise when users
+            unwittingly invite malicious entities in. <ref type="supplement"
+                url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture05_UsableSecurity.pdf"
+                > Learn how to avoid this. </ref></sources>
     </blog_post>
 
 
