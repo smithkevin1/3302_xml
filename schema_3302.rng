@@ -638,7 +638,9 @@
                 one another to drive home an important point are specified before diving into each
                 section independently. This allows the reader to understand the purpose of a section
                 in context to avoid getting lost in its details.</a:documentation>
-            <oneOrMore><ref name="section_header"/></oneOrMore>
+            <oneOrMore>
+                <ref name="section_header"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="important_idea">
@@ -1399,7 +1401,9 @@
     <define name="intro">
         <element name="intro">
             <a:documentation>Brief synopsis of the project being proposed </a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>ltr_int</value>
@@ -1521,7 +1525,9 @@
     <define name="proposal.approach">
         <element name="approach">
             <a:documentation>How the project will be achieved </a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>execution</value>
@@ -1537,7 +1543,9 @@
         <element name="feasibility">
             <a:documentation>Initial and long-term implications or obstacles in the implementation
                 of the project</a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>economic</value>
@@ -1557,17 +1565,22 @@
         <element name="conclu">
             <a:documentation>Conclusion: Brief description of the benefits potentially provided by
                 the proposed project</a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="references">
         <element name="references">
             <a:documentation>References: List of cited works used in research</a:documentation>
-            <ref name="model.biblLike"/>
+            <oneOrMore>
+                <ref name="model.biblLike"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="model.proposal.content">
         <group>
+            <!-- revise approach and fesibility sections -->
             <ref name="cover_page"/>
             <ref name="tbl_cont"/>
             <ref name="intro"/>
