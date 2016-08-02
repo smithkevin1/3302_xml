@@ -161,9 +161,35 @@
  -->
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="b11"/>
+        <report type="peer" resp="#b11">
+            <p>Sydnee's feasibility study looks at solar-powered roads developed by Solar Roadway's.
+                Taking an objective look at different steps required to put solar panels on all U.S
+                roadways, Sydnee breaks down concerns over the practicality of this project, while
+                also laying out conditions for how it could become a reality. She does this while
+                giving a clear stance that she does not see sufficient evidence that the project
+                is feasible. 
+            </p>
+            <p>My first thought upon reading Sydnee's study is that is well polished enough to be a
+                final draft. In her writer's memo she states that everything which she
+                intends to include is present. Starting with the executive summary, Sydnee's thoughts are
+                clearly stated. Looking at the Report page, I see "The company has also
+                collaborated with the DOT and various university labs for testing". For the relevancy
+                of this page, I think it would help to see some more detail from this thought. "What kind
+                of testing do they do? Why is it relevant? How do they report this data to the DoD?" She does
+                go into this slightly in the feasibility study:technical section, but it would be very relevant
+                to read about any specific tests taking place. If Solar roadway's also had a time frame estimate
+                that would be a compelling piece of evidence to support or not support this project. A similar
+                issue in the conclusion can be found under the cond paragraph. She brings up testing again, and
+                the piece would definitely benefit from a list of what conditional testing is needed. Including
+                earlier examples in the piece (specifically from the technical feasibility paragraph). Lastly 
+                I think the success criteria would benefit from an expansion of what tests Brusaws conducted, 
+                looking specifically here: "These and other independent tests would be needed in addition to 
+                the Brusaws' home tests", asking "what are these home tests?". Overall Sydnee does an excellent 
+                job presenting her ideas, and supporting them through her research, the only room for improvement
+                I have to suggest is fleshing out references of tests with more detail, adding to the technical
+                relevancy for this feasibility study. 
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
