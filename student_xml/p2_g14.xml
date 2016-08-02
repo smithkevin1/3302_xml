@@ -5,15 +5,15 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>How Toxins Work (Blog Post - WP2)</title>
-        <author xml:id="g_14">Benjamin Gincley</author>
+        <author xml:id="g14">Benjamin Gincley</author>
         <version n="1" date="2016-07-31"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     <blog_post>
         <background>
             <pb/><section_header>How does venom work?</section_header>
-            <question>Are there different kinds and why are some animals
-                resistant or immune to the venom?</question>
+            <question>Are there different kinds and why are some animals resistant or immune to the
+                venom?</question>
             <pb/>
             <scientific_principle n="1">Venom is a mixture of chemicals that different organisms
                 have evolved to use as a defense mechanism or to immobilize prey. <important_idea
@@ -143,9 +143,9 @@
                 fast enough for an action potential, but the animal is at least resistant to a few
                 bites.</explanation>
             <conclusion><pb/><section_header>So, how does venom
-                    work?</section_header><important_idea n="4">Venom is a chemical compound
-                    that interacts with receptors and channels in nerve cell membranes that disrupt
-                    the transmission of messages, namely via action potentials, between the
+                    work?</section_header><important_idea n="4">Venom is a chemical compound that
+                    interacts with receptors and channels in nerve cell membranes that disrupt the
+                    transmission of messages, namely via action potentials, between the
                     neurons.</important_idea> This often results in paralysis in some way or
                 another, as the messages from the brain or spinal cord can no longer get to the
                 muscle tissue. The result, a paralyzed animal that either can't move and is much
@@ -174,32 +174,36 @@
         </sources>
     </blog_post>
     <docReview>
-<<<<<<< Updated upstream
-        <note type="peer" resp="#g14">
-        *Answer to Kevin's Questions On Board*
-        So far, the overall flow and inclusion of elements is going well, and I feel that I have
-        made a good effort to use all of the elements we included in the schema that have relevance
-        to the post. The difficulty has mostly been formatting with images, understandably, in that
-        sizing and centering/placement is not ideally accounted for in the source code. I feel I am
-        nearly finished in the process, and am open to suggestions to clarify content or include
-        more elements as necessary. Of particular note might be the picture at the end that is way
-        too big for the space, and might want to try to create a smaller version of the image to
-        use. Also, I added captions to some images to accredit them, including the text in the visual
-        element, but they don't appear in the formatted version. I should look into getting those
-        captions printed on the screen. I am also open to suggestions about how I handled the
-        sources section, as I used the informal annotation paragraph with links style as opposed to
-        a formal citation.</note>
+        <note type="peer" resp="#g14"> *Answer to Kevin's Questions On Board* So far, the overall
+            flow and inclusion of elements is going well, and I feel that I have made a good effort
+            to use all of the elements we included in the schema that have relevance to the post.
+            The difficulty has mostly been formatting with images, understandably, in that sizing
+            and centering/placement is not ideally accounted for in the source code. I feel I am
+            nearly finished in the process, and am open to suggestions to clarify content or include
+            more elements as necessary. Of particular note might be the picture at the end that is
+            way too big for the space, and might want to try to create a smaller version of the
+            image to use. Also, I added captions to some images to accredit them, including the text
+            in the visual element, but they don't appear in the formatted version. I should look
+            into getting those captions printed on the screen. I am also open to suggestions about
+            how I handled the sources section, as I used the informal annotation paragraph with
+            links style as opposed to a formal citation.</note>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
-            <p> I would split the two diagrams that show the the sodium-potassium pump and the direction of with some text instead of having one
-                immediately after the other. You could move the action potential diagram down after
-                the part you talk about it in the text. For the shape diagrams, I'd put them below
-                the text you reference them in, instead of above. I feel like that would improve the
-                flow of the post. I know you mentioned you tried to do captions but they didn't
-                work, but I definitely feel like they could improve the post if you could get them
-                to work (mabye put the captions on the actual image). If you want, you could also use the captions to reference diagrams from the text (Example: "As you can see in figure 1,  Dopamine will only fit in the triangle receptor...") For the action potential diagram, I'd use something that shows the synapse transmitting neurotransmitters, since that is the part that is crucial in explaining how venom works. I'd throw in an analogy in the paragraph right after the "basically what's going on?" section to break up some of the biology jargon.
-                A few typos (just ctrl-F for
-                them): "Neurons contain a long extensions", "secret" instead of secrete </p>
+            <p> I would split the two diagrams that show the the sodium-potassium pump and the
+                direction of with some text instead of having one immediately after the other. You
+                could move the action potential diagram down after the part you talk about it in the
+                text. For the shape diagrams, I'd put them below the text you reference them in,
+                instead of above. I feel like that would improve the flow of the post. I know you
+                mentioned you tried to do captions but they didn't work, but I definitely feel like
+                they could improve the post if you could get them to work (mabye put the captions on
+                the actual image). If you want, you could also use the captions to reference
+                diagrams from the text (Example: "As you can see in figure 1, Dopamine will only fit
+                in the triangle receptor...") For the action potential diagram, I'd use something
+                that shows the synapse transmitting neurotransmitters, since that is the part that
+                is crucial in explaining how venom works. I'd throw in an analogy in the paragraph
+                right after the "basically what's going on?" section to break up some of the biology
+                jargon. A few typos (just ctrl-F for them): "Neurons contain a long extensions",
+                "secret" instead of secrete </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
