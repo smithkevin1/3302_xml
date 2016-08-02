@@ -14,7 +14,12 @@
             <contributors>Chi Mo</contributors>
             <date>2016-07-30</date>
         </page>
-        <page type="tbl_contents"> 
+        <page type="tbl_contents">
+            <note type="peer" resp="#v26">
+                The sect element should be used with the n and lvl attributes. 
+                The n attribute should replace the Roman numeral value (I to 1, etc.).
+                The lvl should denote subsections, e.g., pre_req_ana has subsection app_ovr.
+            </note>
             <sect>I. Exclusive Summary</sect>
             <sect>II. Preliminary Requirements Analysis</sect>
             <sect>III. Feasibility</sect>
@@ -26,7 +31,7 @@
             <sect>IX. Conclusion</sect>
         </page> 
         <page type="exec_sum">
-            The App is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
+            The App <note type="peer" resp="#v26">Is it necessary to capitalize the A in App?</note> is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
             so that they don't need to be arrived and wait for 45 minutes. If you always have dinner outside in Boston, you may find this 
             situation very common. This new app is going to short the waiting time. After you download this app on your phone and the restaurant 
             also has this app downloaded on their device, the time saving trip is started. You can start to wait when you heading to the place 
@@ -54,13 +59,16 @@
             </fsb_hlgt>
         </page>
         <page type="sccs_crt"><req_sect>
-            Needs at least two computer with ISO Xcode installed and Java access. Xcode is for the ISO App design and Java is for the Android.
+            Needs at least two computer with ISO <note type="peer" resp="#v26">Replace ISO with IOS
+                (also in other location).</note> Xcode installed and Java access. 
+            Xcode is for the ISO App design and Java is for the Android. 
         </req_sect></page>
         <page type="cost">
             <est type="lgl">$5000</est>
             <est type="fnc">$5000</est>   
         </page>
         <page type="rpt">
+            <note type="peer" resp="#v26">These should have "n" attributes.</note>
             <tmln date="2016-08-01">Get the idea and find people to work with</tmln>
             <tmln date="2016-08-05">Starting the GUI design</tmln>
             <tmln date="2016-09-20">Get data from restaurant</tmln>
@@ -89,9 +97,38 @@
     </fsb_rpt>
         
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="v26"/>
+        <report type="peer" resp="#v26">
+            <p>
+                This draft feasibility report describes an app called Waitless, which shows potential
+                restaurant patrons wait times at various restaurants. In the report, conforming to
+                the genre, is evidence that the development of the app is feasible. 
+            </p>
+            <p>
+                A feasibility report is a paper written to explain and show why it is possible that
+                a project or idea can be made into reality. The feasibility of the project is
+                displayed via data or other logical evidence. The situation described is very
+                appropriate to the genre and the situation is clearly presented.  
+            </p>
+            <p>
+                For the most part, the sentence structure and word choice are genre appropriate. A
+                potential problem that I noted was extensive use of pronouns such as "we" and "you".
+                The problem with these pronouns is that a feasibility report is meant to present
+                evidence in a formal fashion; these pronouns make the paper seem too casual. My
+                advice to remedy this would be to replace, where appropriate, replace the pronouns
+                with something less direct, e.g., "one". It should be noted that it is appropriate
+                to use "we" when referring to the team developing the app. Another note, regarding
+                word choice, more technical jargon could be used. This could be necessary to explain
+                in a more in depth fashion how the back-end of the app functions, how the app works,
+                and how specifically development will take place.
+            </p>
+            <p>
+                The rules of the schema are mostly followed well. One noticeable exception is in the table
+                of contents where the "n" and "lvl" attributes are not used. Another location where
+                the schema isn't followed exactly, is in the report page, the timeline elements are
+                missing "n" attributes. These "n" attributes are not shown to be required in Oxygen,
+                but our schema documentation shows them as required.
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

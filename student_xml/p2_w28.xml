@@ -14,7 +14,7 @@
             <title>City Center Park Redesign</title>
             <author>JPP Egineering and Urban Planning</author>
             <submit_date>September 1st 2016</submit_date>
-            <audience> To: members of the board of trustees and residants of the city of Kirkland
+            <audience> To: Members of the Board of Trustees and residents of the city of Kirkland
                 Washington </audience>
         </cover_page>
 
@@ -70,37 +70,71 @@
                 </objective>
             </p>
             <p>
-                <goal> The goals of redesigning city center park are to: - Preserve, protect, and
-                    improve parkland and recreational opportunities. - Anticipate the needs of the
-                    changing community and structure programs and facilities accordingly. - Enhance
-                    the city’s arts, cultural and historic assets. - Enrich the lives of residents.
-                    - And build a healthier community. </goal>
+                <goal> Goals:</goal>
+            </p>
+            <p>
+                <goal>- Preserve, protect, and improve parkland and recreational
+                    opportunities.</goal>
+            </p>
+            <p>
+                <goal>- Anticipate the needs of the changing community and structure programs and
+                    facilities accordingly.</goal>
+            </p>
+            <p>
+                <goal>- Enhance the city’s arts, cultural and historic assets. </goal>
+            </p>
+            <p>
+                <goal>- Enrich the lives of residents.</goal>
+            </p>
+            <p>
+                <goal>- And build a healthier community. </goal>
             </p>
         </purpose>
 
         <approach type="action">
             <!--attribute options: execution, action-->
-            <p> </p>
+            <p> Our number one goal is to provide a safe and productive space that fully utilizes
+                all of the benefits that this land has to offer. Our proposed design for City Center
+                Park would maximize its usefulness to the community while maintaining minimal costs
+                to the city and its residence. The phases of this project are broken up into four
+                main catergories which can be constructed all at once on in progression depending on
+                finances and disruption to the surrounding neighborhoods. The first, and most
+                critical phase involves clearing the bramble that covers this already well graded
+                plot of land and removing any remaining building debris and possibly hazardous waste
+                that may remain on the site. The second phase includes structurally fortifying and
+                updating the existing recycled play structure and surrounding picnic spaces. This
+                phase can be followed by either the addition of a new multipurpose terf feild and
+                small grandstand area or improvement of the senic lookout ridge above with the
+                addition of several plots for community gardens for local residence to use. </p>
         </approach>
 
         <feasibility type="economic">
             <!--attribute options: economic, social, environmental-->
-            <p> Economic: Over the past five years the city of Kirkland has set aside a small budget
-                each year to be put towards city redevelopment and improvement projects. Although
-                this fund will not cover the entire cost of the project, it along with a number of
-                donations from members of the community and local companies will cover the
-                relatively low costs of this project. Much of the groundwork for this park has
-                already been laid over the past 20 to 30 years through the small neighborhood
-                improvement projects that have taken place. The main cost for this improvement will
-                be the leveling and placement of the multipurpose terf sports field. Otherwise art
-                fixtures and building materials will be made of primarily donated or local recycled
-                materials and repurposed for the park fixtures. Social: Community backing for this
-                project has already... </p>
+            <p> Over the past five years the city of Kirkland has set aside a small budget each year
+                to be put towards city redevelopment and improvement projects. Although this fund
+                will not cover the entire cost of the project, it along with a number of donations
+                from members of the community and local companies will cover the relatively low
+                costs of this project. Much of the groundwork for this park has already been laid
+                over the past 20 to 30 years through the small neighborhood improvement projects
+                that have taken place. The main cost for this improvement will be the leveling and
+                placement of the multipurpose terf sports field. Otherwise art fixtures and building
+                materials will be made of primarily donated or local recycled materials and
+                repurposed for the park fixtures.</p>
+            <p>Socially, this community space would add exponential value to the surrounding
+                properties and to the lives of those living within and around the city of Kirkland.
+                By removing any remaining structural debris from the old school and reintroducing
+                local plant life back to the land would help to not only improve the local ecosystem
+                and environment, it would help to stabilize the soft soils and loose gravel that
+                makes up the existing ridge at the edge of the park. </p>
             <!-- would ideally like to be able to make this multiple paragraphs and/or have the ability to put in mulitple feasability sections in order to cover economic, social AND enviro aspects.-->
         </feasibility>
 
         <conclu>
-            <p> Conclusion: <!--text here-->
+            <p> In conclusion, we believe that this park would add invaluably to the community. Our
+                design proposal provides an efficient and practical response to a number of the
+                problems called upon by local residents to be added or fixed. This space would
+                provide a space for youth sports leagues to practice, for local organizations to
+                meet, for children to play and for neighbors to gather. <!--text here-->
             </p>
         </conclu>
 
@@ -110,9 +144,33 @@
     </pub_init_proposal>
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="v_27"/>
+        <report type="peer" resp="#v_27">
+            <p> For project 2, Sam did a proposal for City Center Park Redesign in Kirkland,
+                Washington. The proposal goes over the history and current state of the park, as
+                well as what kind of redesigns should take place and how this improvement of the
+                park would benefit the community of Kirkland. Overall from what I read I thought
+                that there was strong foundation to the proposal and I felt like a lot of the points
+                being made came across well. Starting off with the background, I found that it was
+                very rich in detail and that a lot what was found in the subject history and current
+                state fit extremely well. Where I think the Background can improve is within
+                transitioning from fact to fact where you could write stuff between the elements to
+                help the audience digest the information better. I also feel that you can cut down
+                the subject history. For Purpose was somewhat confused by the, "hopes to begin
+                construction on the vacant lot turned community park in hopes of realizing its value
+                to the community", I think you clarify or reorganize that part it should be fine.
+                For the goals element I think that you can just head the section with "Goals:"
+                instead of "The goals of redesigning...", I think that it would look more
+                professional. And with your last goal you should start it with an action word so
+                there is a consistency with the other goals. I thought that your scope was strong
+                and to the point and also liked how you choose to present you goals and how they
+                were brief yet effective. For feasibility I thought that ideas were strong and the
+                flow was good. I felt that everything in that section made sense and fit well within
+                that element. I thought that your use of language throughout this proposal made
+                sense by using a more professional tone with your audience and also using some more
+                techincal language, but not too much that you may confuse the audience. Overall I
+                think that you have a very strong foundation for this project and just need finish
+                up the other sections.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
