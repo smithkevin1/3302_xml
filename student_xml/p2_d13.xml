@@ -18,9 +18,18 @@
         </cover_page>
 
         <tbl_cont>
-            <section n="1"> 1.0 Introduction 2.0 Background 3.0 Purpose 3.1 Scope 3.2 Objectives 4.0
-                Methodology 5.0 Feasibility 5.1 Social 5.2 Economic 5.3 Environmental 6.0 Conclusion
-                7.0 References </section>
+            <section n="1"> 1.0 Introduction</section>
+            <section n="2">2.0 Background</section>
+            <section n="3">3.0 Purpose</section>
+            <section n="4">3.1 Scope</section>
+            <section n="5">3.2 Objectives</section>
+            <section n="6">4.0 Methodology</section>
+            <section n="7">5.0 Feasibility</section>
+            <section n="8">5.1 Social</section>
+            <section n="9">5.2 Economic</section>
+            <section n="10">5.3 Environmental</section>
+            <section n="11">6.0 Conclusion</section>
+            <section n="12">7.0 References </section>
         </tbl_cont>
 
         <intro type="abstract">
