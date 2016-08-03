@@ -1031,10 +1031,16 @@
     </define>
     <define name="req">
         <element name="req">
-            <a:documentation>(requirement). This is a requirement. [required @num attribute].
-                Although not strictly a technical requirement, this is used to detail certain </a:documentation>
-            <ref name="att.global.attribute.n"/>
+            <a:documentation>(requirement). This is a requirement. [required @num attribute,
+                optional @title attribute]. Title will appear at the beginning of this element
+                italicized followed by a colon. </a:documentation>
             <ref name="macro.paraContent"/>
+            <optional>
+                <attribute name="title">
+                    <text/>
+                </attribute>
+            </optional>
+            <ref name="att.global.attribute.n"/>
         </element>
     </define>
     <define name="req_sect">
@@ -1042,8 +1048,8 @@
             <a:documentation>(requirement section) details a sections of requirements. Strictly
                 related to the project’s components. For example an appropriate &lt;req_sect&gt;
                 element would be “userinterface”, “Database/database interaction”, or
-                “construction”. A &lt;req_sect&gt; element is simple an italicized above each of its
-                requirement. </a:documentation>
+                “construction”. A &lt;req_sect&gt; element is simple an italicized and underlined
+                above each of its requirement. </a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="req"/>
