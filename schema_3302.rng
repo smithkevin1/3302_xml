@@ -8,7 +8,7 @@
         <zeroOrMore>
             <choice>
                 <text/>
-                
+
                 <!--<ref name="model.phrase"/>
                 <ref name="model.inter"/>-->
 
@@ -168,6 +168,8 @@
             <ref name="model.noteLike"/>
             <ref name="pb"/>
             <ref name="ref"/>
+            <ref name="visual"/>
+
             <!--<ref name="figure"/> hold off on figure for now-->
         </choice>
     </define>
@@ -1051,7 +1053,9 @@
         </element>
     </define>
     <define name="model.sccs_crt">
-        <oneOrMore><ref name="req_sect"/></oneOrMore>
+        <oneOrMore>
+            <ref name="req_sect"/>
+        </oneOrMore>
     </define>
     <define name="img">
         <element name="img">
@@ -1435,6 +1439,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1446,6 +1451,7 @@
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
                     <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
@@ -1455,6 +1461,7 @@
         <zeroOrMore>
             <choice>
                 <ref name="macro.paraContent"/>
+                <ref name="visual"/>
                 <ref name="crnt_cond"/>
                 <ref name="subj_hist"/>
             </choice>
@@ -1472,7 +1479,12 @@
     </define>
     <define name="scope">
         <element name="scope">
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>who</value>
@@ -1493,6 +1505,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1505,6 +1518,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1516,6 +1530,7 @@
                 <ref name="objective"/>
                 <ref name="goal"/>
                 <ref name="macro.paraContent"/>
+                <ref name="visual"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1568,13 +1583,13 @@
             <a:documentation>How the project will be achieved </a:documentation>
             <oneOrMore>
                 <ref name="model.approach.content"/>
-            </oneOrMore>            
+            </oneOrMore>
         </element>
     </define>
     <define name="environmental">
         <element name="environmental">
-            <a:documentation>Environmental: Initial and long-term implications or obstacles
-                as they relate to the surrounding environment</a:documentation>
+            <a:documentation>Environmental: Initial and long-term implications or obstacles as they
+                relate to the surrounding environment</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1585,8 +1600,8 @@
     </define>
     <define name="social">
         <element name="social">
-            <a:documentation>Social: Initial and long-term implications or obstacles as they
-                relate to members of the community</a:documentation>
+            <a:documentation>Social: Initial and long-term implications or obstacles as they relate
+                to members of the community</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1597,8 +1612,8 @@
     </define>
     <define name="economic">
         <element name="economic">
-            <a:documentation>Economic: Initial and long-term financial implications of
-                project compared to do-nothing alternative</a:documentation>
+            <a:documentation>Economic: Initial and long-term financial implications of project
+                compared to do-nothing alternative</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -1614,7 +1629,7 @@
                 <ref name="visual"/>
                 <ref name="economic"/>
                 <ref name="social"/>
-                <ref name="environmental"></ref>
+                <ref name="environmental"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1804,11 +1819,11 @@
                     <ref name="reason"/>
                 </optional>
                 <ref name="proposition"/>
-                <zeroOrMore>                    
-                        <choice>
-                            <ref name="macro.paraContent"/>
-                            <ref name="pb"/>
-                        </choice>                   
+                <zeroOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
                 </zeroOrMore>
             </interleave>
         </element>
