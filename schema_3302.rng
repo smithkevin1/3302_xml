@@ -1530,43 +1530,101 @@
             </oneOrMore>
         </element>
     </define>
+    <define name="action">
+        <element name="action">
+            <a:documentation>Action: Executable item that will lead to goal
+                completion</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="execution">
+        <element name="execution">
+            <a:documentation>Execution: Tactic employed to achieve goal</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.approach.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="visual"/>
+                <ref name="execution"/>
+                <ref name="action"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <define name="proposal.approach">
         <element name="approach">
             <a:documentation>How the project will be achieved </a:documentation>
             <oneOrMore>
-                <ref name="model.pLike"/>
-            </oneOrMore>
-            <attribute name="type">
-                <choice>
-                    <value>execution</value>
-                    <a:documentation>Execution: Tactic employed to achieve goal</a:documentation>
-                    <value>action</value>
-                    <a:documentation>Action: Executable item that will lead to goal
-                        completion</a:documentation>
-                </choice>
-            </attribute>
+                <ref name="model.approach.content"/>
+            </oneOrMore>            
         </element>
+    </define>
+    <define name="environmental">
+        <element name="environmental">
+            <a:documentation>Environmental: Initial and long-term implications or obstacles
+                as they relate to the surrounding environment</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="social">
+        <element name="social">
+            <a:documentation>Social: Initial and long-term implications or obstacles as they
+                relate to members of the community</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="economic">
+        <element name="economic">
+            <a:documentation>Economic: Initial and long-term financial implications of
+                project compared to do-nothing alternative</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.feasibility.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="visual"/>
+                <ref name="economic"/>
+                <ref name="social"/>
+                <ref name="environmental"></ref>
+            </choice>
+        </zeroOrMore>
     </define>
     <define name="feasibility">
         <element name="feasibility">
             <a:documentation>Initial and long-term implications or obstacles in the implementation
                 of the project</a:documentation>
             <oneOrMore>
-                <ref name="model.pLike"/>
+                <ref name="model.feasibility.content"/>
             </oneOrMore>
-            <attribute name="type">
-                <choice>
-                    <value>economic</value>
-                    <a:documentation>Economic: Initial and long-term financial implications of
-                        project compared to do-nothing alternative</a:documentation>
-                    <value>social</value>
-                    <a:documentation>Social: Initial and long-term implications or obstacles as they
-                        relate to members of the community</a:documentation>
-                    <value>environmental</value>
-                    <a:documentation>Environmental: Initial and long-term implications or obstacles
-                        as they relate to the surrounding environment</a:documentation>
-                </choice>
-            </attribute>
         </element>
     </define>
     <define name="conclu">
