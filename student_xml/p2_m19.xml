@@ -5,8 +5,8 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project 2 Feasibility Report</title>
-        <author xml:id="m19"/>
-        <version n="1" date="2016-08-01"/>
+        <author xml:id="m19">Sydnee Mizuno</author>
+        <version n="2" date="2016-08-03"/>
     </docHead>
 
     <!--paste body of your template file here-->
@@ -22,11 +22,10 @@
         <page type="tbl_contents">
             <sect n="1" lvl="1"> Executive Summary </sect>
             <sect n="2" lvl="1"> Preliminary Requirements Analysis </sect>
-            <sect n="1" lvl="2"> Application Overview </sect>
             <sect n="3" lvl="1"> Feasibility </sect>
-            <sect n="4" lvl="2"> Success Criteria </sect>
-            <sect n="5" lvl="2"> Design </sect>
-            <sect n="6" lvl="2"> Cost Estimates </sect>
+            <sect n="4" lvl="1"> Success Criteria </sect>
+            <sect n="5" lvl="1"> Design </sect>
+            <sect n="6" lvl="1"> Cost Estimates </sect>
             <sect n="7" lvl="1"> Reporting </sect>
             <sect n="8" lvl="1"> Risk Analysis </sect>
             <sect n="9" lvl="1"> Financial Planning </sect>
@@ -40,12 +39,12 @@
             it is estimated that we could generate three times more electricity than we use. The
             embedded LEDs would offer greater visibility than painted road lines and provide smart
             information about oncoming traffic. Additionally, these roads with electricity and smart
-            networks could promote a wider usage of electric vehicles. <!-- new paragraph -->
-            Despite these advantages, the endeavor of replacing our country's current highway
-            systems is unfeasible. Besides the obvious difficulties that would be encountered with
-            the vast scope of the project, there are also issues with the solar panels themselves.
-            The rest of this study will address the requirements needed for solar-powered roadways
-            and how they are not met.</page>
+            networks could promote a wider usage of electric vehicles.<pb/> Despite these
+            advantages, the endeavor of replacing our country's current highway systems is
+            unfeasible. Besides the obvious difficulties that would be encountered with the vast
+            scope of the project, there are also issues with the solar panels themselves. The rest
+            of this study will address the requirements needed for solar-powered roadways and how
+            they are not met.</page>
 
         <page type="pre_req_ana">
             <app_ovr type="obj"> Solar Roadway's mission is to generate clean, reneweable solar
@@ -101,19 +100,21 @@
             <req_sect> Solar Panel Components <req> The solar panels that would make up the roadways
                     are hexagonal pieces of tempered glass that encase a circuit board. This circuit
                     board contains solar cells to capture energy, LEDs for road lines and displays,
-                    and heating systems to prevent snow buildup. </req> Testing <req> Before
-                    solar-powered roads could be adopted throughout the country, they would need to
-                    be rigorously tested. The Department of Transportation would need to test the
-                    panels for safety, efficieny, and reliability. These and other independent tests
-                    would be needed in addition to the Brusaws' home tests.</req> Implementation
-                    <req>The Department of Transportation and other service agencies would need to
-                    handle the installation of Solar Roadways' panels. They would be responsible for
-                    creating building projects, financing them, and installing them.</req>
-            </req_sect>
+                    and heating systems to prevent snow buildup. </req></req_sect>
+            <req_sect>Testing <req> Before solar-powered roads could be adopted throughout the
+                    country, they would need to be rigorously tested. The Department of
+                    Transportation would need to test the panels for safety, efficieny, and
+                    reliability. These and other independent tests would be needed in addition to
+                    the Brusaws' home tests.</req></req_sect>
+            <req_sect>Implementation <req>The Department of Transportation and other service
+                    agencies would need to handle the installation of Solar Roadways' panels. They
+                    would be responsible for creating building projects, financing them, and
+                    installing them.</req></req_sect>
         </page>
 
         <page type="dsn">
-            <img url=""> </img>
+            <img url="http://imgur.com/rksJf69">Solar Panel Layers</img>
+            <img url="http://imgur.com/wk5Pmgh">LEDs in Panels</img>
         </page>
 
         <page type="cost">
@@ -167,29 +168,29 @@
                 Taking an objective look at different steps required to put solar panels on all U.S
                 roadways, Sydnee breaks down concerns over the practicality of this project, while
                 also laying out conditions for how it could become a reality. She does this while
-                giving a clear stance that she does not see sufficient evidence that the project
-                is feasible. 
-            </p>
+                giving a clear stance that she does not see sufficient evidence that the project is
+                feasible. </p>
             <p>My first thought upon reading Sydnee's study is that is well polished enough to be a
-                final draft. In her writer's memo she states that everything which she
-                intends to include is present. Starting with the executive summary, Sydnee's thoughts are
-                clearly stated. Looking at the Report page, I see "The company has also
-                collaborated with the DOT and various university labs for testing". For the relevancy
-                of this page, I think it would help to see some more detail from this thought. "What kind
-                of testing do they do? Why is it relevant? How do they report this data to the DoD?" She does
-                go into this slightly in the feasibility study:technical section, but it would be very relevant
-                to read about any specific tests taking place. If Solar roadway's also had a time frame estimate
-                that would be a compelling piece of evidence to support or not support this project. A similar
-                issue in the conclusion can be found under the cond paragraph. She brings up testing again, and
-                the piece would definitely benefit from a list of what conditional testing is needed. Including
-                earlier examples in the piece (specifically from the technical feasibility paragraph). Lastly 
-                I think the success criteria would benefit from an expansion of what tests Brusaws conducted, 
-                looking specifically here: "These and other independent tests would be needed in addition to 
-                the Brusaws' home tests", asking "what are these home tests?". Overall Sydnee does an excellent 
-                job presenting her ideas, and supporting them through her research, the only room for improvement
-                I have to suggest is fleshing out references of tests with more detail, adding to the technical
-                relevancy for this feasibility study. 
-            </p>
+                final draft. In her writer's memo she states that everything which she intends to
+                include is present. Starting with the executive summary, Sydnee's thoughts are
+                clearly stated. Looking at the Report page, I see "The company has also collaborated
+                with the DOT and various university labs for testing". For the relevancy of this
+                page, I think it would help to see some more detail from this thought. "What kind of
+                testing do they do? Why is it relevant? How do they report this data to the DoD?"
+                She does go into this slightly in the feasibility study:technical section, but it
+                would be very relevant to read about any specific tests taking place. If Solar
+                roadway's also had a time frame estimate that would be a compelling piece of
+                evidence to support or not support this project. A similar issue in the conclusion
+                can be found under the cond paragraph. She brings up testing again, and the piece
+                would definitely benefit from a list of what conditional testing is needed.
+                Including earlier examples in the piece (specifically from the technical feasibility
+                paragraph). Lastly I think the success criteria would benefit from an expansion of
+                what tests Brusaws conducted, looking specifically here: "These and other
+                independent tests would be needed in addition to the Brusaws' home tests", asking
+                "what are these home tests?". Overall Sydnee does an excellent job presenting her
+                ideas, and supporting them through her research, the only room for improvement I
+                have to suggest is fleshing out references of tests with more detail, adding to the
+                technical relevancy for this feasibility study. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
