@@ -639,8 +639,10 @@
                 section independently. This allows the reader to understand the purpose of a section
                 in context to avoid getting lost in its details.</a:documentation>
             <oneOrMore>
-                <choice><ref name="model.blog.global"/>
-                <ref name="macro.paraContent"/></choice>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
             </oneOrMore>
         </element>
     </define>
@@ -675,7 +677,9 @@
             <a:documentation>(paragraph break) empty element, indicates a new paragraph of text, use
                 to delineate individual paragraphs where necessary, such as in background or answer
                 material</a:documentation>
-            <ref name="att.global.attribute.n"/>
+            <optional>
+                <ref name="att.global.attribute.n"/>
+            </optional>
             <empty/>
         </element>
     </define>
@@ -1606,14 +1610,24 @@
         <element name="name">
             <a:documentation>First and last name of applicant; necessary in both the signature and
                 header of document </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="contact">
         <element name="contact">
             <a:documentation>Element for contact information, must include at least one @type
                 attribute from an open list (with address, phone number, and email as suggestions) </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>address</value>
@@ -1650,7 +1664,12 @@
         <element name="greeting">
             <a:documentation>Contains formal greeting to reader such as “Dear”, as well as an
                 identifier for the intended audience</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="intent">
@@ -1661,7 +1680,12 @@
                     <a:documentation>Attribute of intent; Purpose of letter, usually the position
                         applicant is applying for </a:documentation>
                 </attribute>
-                <ref name="macro.paraContent"/>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
+                </oneOrMore>
             </element>
         </oneOrMore>
         <zeroOrMore>
@@ -1673,7 +1697,12 @@
                         about position, what connections applicant may have to the reader
                     </a:documentation>
                 </attribute>
-                <ref name="macro.paraContent"/>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
+                </oneOrMore>
             </element>
         </zeroOrMore>
     </define>
@@ -1682,14 +1711,24 @@
             <a:documentation>Statement of reason for applying for this particular or a job in this
                 field, may include applicant's interests or passions in the field they are seeking a
                 job in, optional sub-element in introductory paragraph </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="proposition">
         <element name="proposition">
             <a:documentation>General statement for why applicant is deserving of job, closing
                 statement for introductory paragraph </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="intro_para">
@@ -1704,8 +1743,11 @@
                     <ref name="reason"/>
                 </optional>
                 <ref name="proposition"/>
-                <zeroOrMore>
-                    <ref name="macro.paraContent"/>
+                <zeroOrMore>                    
+                        <choice>
+                            <ref name="macro.paraContent"/>
+                            <ref name="pb"/>
+                        </choice>                   
                 </zeroOrMore>
             </interleave>
         </element>
@@ -1714,7 +1756,12 @@
         <element name="experience">
             <a:documentation> Container element for types of relevant experience talked about in
                 cover letter, must include at least one attribute (school, work, personal) </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>work</value>
@@ -1747,14 +1794,24 @@
         <element name="compatability">
             <a:documentation>Sub-element to closing paragraph; briefly, why applicant fits into the
                 company and what he or she has to offer. </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="next_step">
         <element name="next_step">
             <a:documentation>Sub-element to closing paragraph; Invitation to further discuss
                 qualifications and details of position, closing statement for closing paragraph </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="para_closing">
@@ -1762,13 +1819,21 @@
             <a:documentation>(Closing Paragraph) Container element for compatibility and next step,
                 mandatory element, cover letter must include (only) one closing paragraph </a:documentation>
             <ref name="compatability"/>
+            <optional>
+                <ref name="pb"/>
+            </optional>
             <ref name="next_step"/>
         </element>
     </define>
     <define name="salutation">
         <element name="salutation">
             <a:documentation>Sub-element to signature; Sincerely, Best, Cheers, etc… </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="signature">
