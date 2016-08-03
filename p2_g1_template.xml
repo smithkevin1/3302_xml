@@ -18,7 +18,7 @@
             consisting of several paragraphs. ‘section_header’ should be titled in a way such that
             the following paragraphs either work in concert to make the point specified by
             ‘section_header’, or answer a question put forth by ‘section_header’. </section_header>
-        <visual type="">Visuals are any variety of in line imagery used to break up long lengths of
+        <visual type="" url="">Visuals are any variety of in line imagery used to break up long lengths of
             text, and/or aid in the understanding of a topic. Comics, pictures and graphics are a
             few of the possible visuals that can be
             used.<!-- Types can be: Photo, Comic, Drawing, Animation,
@@ -34,7 +34,8 @@
                 understand the purpose of a section in context to avoid getting lost in its details. 
                 Text should agree with ‘section_headers’ used later on. --></list>
         <technical_principle n="">Fundamental theory and concepts involved (such as gravity, matter
-            and energy, fluid dynamics, acid-base reactions, etc.)</technical_principle>
+            and energy, fluid dynamics, acid-base reactions, etc.). Required in both "background" and
+        "answer," must come before "specific_topic" in "background"</technical_principle>
         <misconception n="">Lists any common misconceptions the public has about the topic, or
             includes quoted material from the community that highlights the existing (false) notions
             about the answer</misconception>
