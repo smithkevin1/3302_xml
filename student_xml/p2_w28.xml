@@ -91,42 +91,46 @@
             </p>
         </purpose>
 
-        <approach type="action">
+        <approach>
             <!--attribute options: execution, action-->
-            <p> Our number one goal is to provide a safe and productive space that fully utilizes
-                all of the benefits that this land has to offer. Our proposed design for City Center
-                Park would maximize its usefulness to the community while maintaining minimal costs
-                to the city and its residence. The phases of this project are broken up into four
-                main catergories which can be constructed all at once on in progression depending on
-                finances and disruption to the surrounding neighborhoods. The first, and most
-                critical phase involves clearing the bramble that covers this already well graded
-                plot of land and removing any remaining building debris and possibly hazardous waste
-                that may remain on the site. The second phase includes structurally fortifying and
-                updating the existing recycled play structure and surrounding picnic spaces. This
-                phase can be followed by either the addition of a new multipurpose terf feild and
-                small grandstand area or improvement of the senic lookout ridge above with the
-                addition of several plots for community gardens for local residence to use. </p>
+            <p>
+                <action>Our number one goal is to provide a safe and productive space that fully
+                    utilizes all of the benefits that this land has to offer. Our proposed design
+                    for City Center Park would maximize its usefulness to the community while
+                    maintaining minimal costs to the city and its residence. The phases of this
+                    project are broken up into four main catergories which can be constructed all at
+                    once on in progression depending on finances and disruption to the surrounding
+                    neighborhoods. The first, and most critical phase involves clearing the bramble
+                    that covers this already well graded plot of land and removing any remaining
+                    building debris and possibly hazardous waste that may remain on the site. The
+                    second phase includes structurally fortifying and updating the existing recycled
+                    play structure and surrounding picnic spaces. This phase can be followed by
+                    either the addition of a new multipurpose terf feild and small grandstand area
+                    or improvement of the senic lookout ridge above with the addition of several
+                    plots for community gardens for local residence to use. </action></p>
         </approach>
 
-        <feasibility type="economic">
+        <feasibility>
             <!--attribute options: economic, social, environmental-->
-            <p> Over the past five years the city of Kirkland has set aside a small budget each year
-                to be put towards city redevelopment and improvement projects. Although this fund
-                will not cover the entire cost of the project, it along with a number of donations
-                from members of the community and local companies will cover the relatively low
-                costs of this project. Much of the groundwork for this park has already been laid
-                over the past 20 to 30 years through the small neighborhood improvement projects
-                that have taken place. The main cost for this improvement will be the leveling and
-                placement of the multipurpose terf sports field. Otherwise art fixtures and building
-                materials will be made of primarily donated or local recycled materials and
-                repurposed for the park fixtures.</p>
-            <p>Socially, this community space would add exponential value to the surrounding
-                properties and to the lives of those living within and around the city of Kirkland.
-                By removing any remaining structural debris from the old school and reintroducing
-                local plant life back to the land would help to not only improve the local ecosystem
-                and environment, it would help to stabilize the soft soils and loose gravel that
-                makes up the existing ridge at the edge of the park. </p>
-            <!-- would ideally like to be able to make this multiple paragraphs and/or have the ability to put in mulitple feasability sections in order to cover economic, social AND enviro aspects.-->
+            <p>
+                <economic>Over the past five years the city of Kirkland has set aside a small budget
+                    each year to be put towards city redevelopment and improvement projects.
+                    Although this fund will not cover the entire cost of the project, it along with
+                    a number of donations from members of the community and local companies will
+                    cover the relatively low costs of this project. Much of the groundwork for this
+                    park has already been laid over the past 20 to 30 years through the small
+                    neighborhood improvement projects that have taken place. The main cost for this
+                    improvement will be the leveling and placement of the multipurpose terf sports
+                    field. Otherwise art fixtures and building materials will be made of primarily
+                    donated or local recycled materials and repurposed for the park
+                    fixtures.</economic></p>
+            <p><social>Socially, this community space would add exponential value to the surrounding
+                    properties and to the lives of those living within and around the city of
+                    Kirkland. By removing any remaining structural debris from the old school and
+                    reintroducing local plant life back to the land would help to not only improve
+                    the local ecosystem and environment, it would help to stabilize the soft soils
+                    and loose gravel that makes up the existing ridge at the edge of the park.
+                </social></p>
         </feasibility>
 
         <conclu>
