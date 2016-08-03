@@ -8,6 +8,7 @@
         <zeroOrMore>
             <choice>
                 <text/>
+                
                 <!--<ref name="model.phrase"/>
                 <ref name="model.inter"/>-->
 
@@ -165,6 +166,8 @@
     <define name="model.global">
         <choice>
             <ref name="model.noteLike"/>
+            <ref name="pb"/>
+            <ref name="ref"/>
             <!--<ref name="figure"/> hold off on figure for now-->
         </choice>
     </define>
@@ -1048,7 +1051,7 @@
         </element>
     </define>
     <define name="model.sccs_crt">
-        <ref name="req_sect"/>
+        <oneOrMore><ref name="req_sect"/></oneOrMore>
     </define>
     <define name="img">
         <element name="img">
