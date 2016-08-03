@@ -1881,10 +1881,7 @@
             <a:documentation>Sub-element to closing paragraph; briefly, why applicant fits into the
                 company and what he or she has to offer. </a:documentation>
             <oneOrMore>
-                <choice>
-                    <ref name="macro.paraContent"/>
-                    <ref name="pb"/>
-                </choice>
+                <ref name="macro.paraContent"/>
             </oneOrMore>
         </element>
     </define>
@@ -1893,11 +1890,15 @@
             <a:documentation>Sub-element to closing paragraph; Invitation to further discuss
                 qualifications and details of position, closing statement for closing paragraph </a:documentation>
             <oneOrMore>
-                <choice>
-                    <ref name="macro.paraContent"/>
-                    <ref name="pb"/>
-                </choice>
+                <ref name="macro.paraContent"/>
             </oneOrMore>
+        </element>
+    </define>
+    <define name="acknowledgement">
+        <element name="acknowledgement">
+            <a:documentation> Optional element for saying thank you to the reader for their
+                time/consideration etc.</a:documentation>
+            <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="para_closing">
@@ -1909,16 +1910,19 @@
                 <ref name="pb"/>
             </optional>
             <ref name="next_step"/>
+            <optional>
+                <ref name="pb"/>
+            </optional>
+            <optional>
+                <ref name="acknowledgement"/>
+            </optional>
         </element>
     </define>
     <define name="salutation">
         <element name="salutation">
             <a:documentation>Sub-element to signature; Sincerely, Best, Cheers, etc… </a:documentation>
             <oneOrMore>
-                <choice>
                     <ref name="macro.paraContent"/>
-                    <ref name="pb"/>
-                </choice>
             </oneOrMore>
         </element>
     </define>
