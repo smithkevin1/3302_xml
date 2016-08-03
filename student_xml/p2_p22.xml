@@ -127,15 +127,15 @@
             </p>
         </approach>
 
-        <feasibility type="environmental">
+        <feasibility>
             <!--attribute options: economic, social, environmental-->
-            <p> Solar panels offset more carbon than a tree can, using the same area. This is the
+            <p> <economic> Solar panels offset more carbon than a tree can, using the same area. This is the
                 justification most solar developers use to clear-cut a wooded area to replace it
                 with panels. However, if Boston were to adopt a greater solar incentive program,
                 panels would be used on rooftops, bridges, and as parking overhangs. Since such a
                 large portion of Boston is covered with impermeable surfaces, panels would not be
                 displacing any carbon sequestering organisms and would also deplete the solar
-                radiation that is constantly being absorbed by the dark roofs and streets of Boston.
+                radiation that is constantly being absorbed by the dark roofs and streets of Boston.</economic>
                 <!--text here-->
             </p>
         </feasibility>
