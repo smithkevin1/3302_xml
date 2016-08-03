@@ -1879,7 +1879,7 @@
     <define name="compatability">
         <element name="compatability">
             <a:documentation>Sub-element to closing paragraph; briefly, why applicant fits into the
-                company and what he or she has to offer. </a:documentation>
+                company and what he or she has to offer. Must be first element in closing statement.</a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
@@ -1888,7 +1888,7 @@
     <define name="next_step">
         <element name="next_step">
             <a:documentation>Sub-element to closing paragraph; Invitation to further discuss
-                qualifications and details of position, closing statement for closing paragraph </a:documentation>
+                qualifications and details of position, closing statement for closing paragraph. Must come after compatibility statement. </a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
