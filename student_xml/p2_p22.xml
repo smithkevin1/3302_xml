@@ -95,9 +95,10 @@
             </p>
         </purpose>
 
-        <approach type="execution">
+        <approach>
             <!--attribute options: execution, action-->
-            <p> Understandably, there will be some push back to this proposal. This is due to the
+            <p> 
+                <execution> Understandably, there will be some push back to this proposal. This is due to the
                 fact that to generate the necessary capital to supply a PV tax credit, some will
                 have to be charged more than their current electricity rate. However, by increasing
                 the cost of energy generated from fossil fuels, Boston would be forcing people who
@@ -110,12 +111,11 @@
                 this program as early as possible. That being said, this also adds the constraint
                 that this incentive program is to be reevaluated over time as not to eventually have
                 an unfair burden on those that do not adopt this program. <!--text here-->
+                </execution>
             </p>
-        </approach>
-
-        <approach type="action">
-            <!--attribute options: execution, action-->
+        
             <p>
+                <action>
                 <note type="peer" resp="#w28">Formatting note: by seperating the information like
                     this there are now two approach sections in the report rather than being able to
                     combine "execution" and "action" into one subsection.</note>Immediately, a
@@ -124,25 +124,28 @@
                 will be hashed out that would incorporate the desires of the citizens and give
                 lawmakers greater insight as to how smaller communities react to such energy credit
                 programs.<!--text here-->
+                </action>
             </p>
         </approach>
 
         <feasibility>
             <!--attribute options: economic, social, environmental-->
-            <p> <economic> Solar panels offset more carbon than a tree can, using the same area. This is the
+            <p> 
+                <environmental> Solar panels offset more carbon than a tree can, using the same area. This is the
                 justification most solar developers use to clear-cut a wooded area to replace it
                 with panels. However, if Boston were to adopt a greater solar incentive program,
                 panels would be used on rooftops, bridges, and as parking overhangs. Since such a
                 large portion of Boston is covered with impermeable surfaces, panels would not be
                 displacing any carbon sequestering organisms and would also deplete the solar
-                radiation that is constantly being absorbed by the dark roofs and streets of Boston.</economic>
+                radiation that is constantly being absorbed by the dark roofs and streets of Boston.
+                </environmental>
                 <!--text here-->
             </p>
-        </feasibility>
-
-        <feasibility type="social">
+      
             <!--attribute options: economic, social, environmental-->
-            <p> There are many links associated with air pollution and mental health. By allowing
+            <p> 
+                <social>
+                    There are many links associated with air pollution and mental health. By allowing
                 residents to stop contributing to the pollution of their own air, Boston will be
                 promoting greater mental <note type="peer" resp="#w28">Just mental health?</note>
                 health that disproportionately affects those living in poorer communities who bear
@@ -151,12 +154,11 @@
                     much of Boston's population is in rented properties and do not have any control
                     over the energy sources that their building owners chose to implement. How would
                     this tax effect them while they are powerless to fix it?</note><!--text here-->
+                </social>
             </p>
-        </feasibility>
-
-        <feasibility type="economic">
             <!--attribute options: economic, social, environmental-->
-            <p> By allowing individual households to produce their own energy and sell the remainder
+            <p> 
+                <economic>  By allowing individual households to produce their own energy and sell the remainder
                 back to the grid, Boston could help to decentralize wealth and help those living in
                 poverty to overcome their current financial problems. <note type="peer" resp="#w28"
                     >Formatting note: all feasability sections should be seperated as different
@@ -165,6 +167,7 @@
                     through, consider introducing each section a little bit to show the reader
                     clearly that you are looking at it from all three of these perspective.
                 </note><!--text here-->
+             </economic> 
             </p>
         </feasibility>
 
