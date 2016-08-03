@@ -1838,15 +1838,57 @@
             </interleave>
         </element>
     </define>
+    <define name="programs">
+        <element name="programs">
+            <a:documentation>Sub-element of experience, known program languages of the applicant </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="certifications">
+        <element name="certifications">
+            <a:documentation>Sub-element of experience, applicant certification relevant to the job
+                description </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="accomplishments">
+        <element name="accomplishments">
+            <a:documentation>Sub-element of experience, applicant accomplishments relevant to the
+                job description </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="skills">
+        <element name="skills">
+            <a:documentation>Sub-element of experience, applicant skills, preferably ones that match
+                skills listed in the job posting </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="languages">
+        <element name="languages">
+            <a:documentation>Sub-element of experience, known languages of the applicant </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.experience.contents">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="languages"/>
+                <ref name="skills"/>
+                <ref name="accomplishments"/>
+                <ref name="certifications"/>
+                <ref name="programs"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <define name="experience">
         <element name="experience">
             <a:documentation> Container element for types of relevant experience talked about in
                 cover letter, must include at least one attribute (school, work, personal) </a:documentation>
             <oneOrMore>
-                <choice>
-                    <ref name="macro.paraContent"/>
-                    <ref name="pb"/>
-                </choice>
+                <ref name="model.experience.contents"/>
             </oneOrMore>
             <attribute name="type">
                 <choice>
@@ -1879,7 +1921,8 @@
     <define name="compatability">
         <element name="compatability">
             <a:documentation>Sub-element to closing paragraph; briefly, why applicant fits into the
-                company and what he or she has to offer. Must be first element in closing statement.</a:documentation>
+                company and what he or she has to offer. Must be first element in closing
+                statement.</a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
@@ -1888,7 +1931,8 @@
     <define name="next_step">
         <element name="next_step">
             <a:documentation>Sub-element to closing paragraph; Invitation to further discuss
-                qualifications and details of position, closing statement for closing paragraph. Must come after compatibility statement. </a:documentation>
+                qualifications and details of position, closing statement for closing paragraph.
+                Must come after compatibility statement. </a:documentation>
             <oneOrMore>
                 <ref name="macro.paraContent"/>
             </oneOrMore>
@@ -1901,8 +1945,8 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
-    <define name="para_closing">
-        <element name="para_closing">
+    <define name="closing_statements">
+        <element name="closing_statements">
             <a:documentation>(Closing Paragraph) Container element for compatibility and next step,
                 mandatory element, cover letter must include (only) one closing paragraph </a:documentation>
             <ref name="compatability"/>
@@ -1922,7 +1966,7 @@
         <element name="salutation">
             <a:documentation>Sub-element to signature; Sincerely, Best, Cheers, etc… </a:documentation>
             <oneOrMore>
-                    <ref name="macro.paraContent"/>
+                <ref name="macro.paraContent"/>
             </oneOrMore>
         </element>
     </define>
@@ -1943,7 +1987,7 @@
             <oneOrMore>
                 <ref name="para_background"/>
             </oneOrMore>
-            <ref name="para_closing"/>
+            <ref name="closing_statements"/>
             <ref name="signature"/>
         </element>
     </define>
