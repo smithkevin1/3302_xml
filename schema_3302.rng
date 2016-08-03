@@ -639,7 +639,8 @@
                 section independently. This allows the reader to understand the purpose of a section
                 in context to avoid getting lost in its details.</a:documentation>
             <oneOrMore>
-                <ref name="section_header"/>
+                <choice><ref name="model.blog.global"/>
+                <ref name="macro.paraContent"/></choice>
             </oneOrMore>
         </element>
     </define>

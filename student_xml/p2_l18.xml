@@ -19,7 +19,7 @@
         </header>
         <greeting>Hello Mathworks,</greeting>
         <intro_para>
-            <intent type="Purpose">I am interested in <note peer working as a ></note> C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
+            <intent type="Purpose">I am interested in <note type="peer">working as a </note> C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
             <reason><!-- Optional --> I have enjoyed my work with Simulation Engineering in
                 the past</reason> and <proposition>I think I will bring all the necessary abilities to go above and beyond my job
                     requirements.</proposition>
