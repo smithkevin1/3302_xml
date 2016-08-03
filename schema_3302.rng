@@ -1582,7 +1582,9 @@
         <element name="approach">
             <a:documentation>How the project will be achieved </a:documentation>
             <oneOrMore>
-                <ref name="model.approach.content"/>
+                <element name="p">
+                    <ref name="model.approach.content"/>
+                </element>
             </oneOrMore>
         </element>
     </define>
@@ -1638,7 +1640,9 @@
             <a:documentation>Initial and long-term implications or obstacles in the implementation
                 of the project</a:documentation>
             <oneOrMore>
-                <ref name="model.feasibility.content"/>
+                <element name="p">
+                    <ref name="model.feasibility.content"/>
+                </element>
             </oneOrMore>
         </element>
     </define>
