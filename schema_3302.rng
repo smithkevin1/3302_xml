@@ -637,18 +637,31 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
-    <define name="roadmap">
-        <element name="roadmap">
-            <a:documentation>A roadmap is a list in which several ‘section_headers’ that build upon
-                one another to drive home an important point are specified before diving into each
-                section independently. This allows the reader to understand the purpose of a section
-                in context to avoid getting lost in its details.</a:documentation>
+    <define name="list">
+        <element name="list">
+            <a:documentation>A multipurpose list element. [required @type; values can be: "generic" or 
+                "roadmap"]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
                     <ref name="macro.paraContent"/>
                 </choice>
             </oneOrMore>
+            <attribute name="type">
+                <choice>
+                    <value>generic</value>
+                    <a:documentation>A generic list of
+                        any related yet separate items. Can also be used for breaking down procedural
+                        orders, an example of this would be notating the steps of a mathematical proof.</a:documentation>
+                    <value>roadmap</value>
+                    <a:documentation>A roadmap is a list in which several ‘section_headers’ that build upon
+                        one another to drive home an important point are specified before diving into each
+                        section independently. This allows the reader to understand the purpose of a section
+                        in context to avoid getting lost in its details. Text should agree with
+                        ‘section_headers’ used later on.</a:documentation>
+                    <a:documentation></a:documentation>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="important_idea">
@@ -694,32 +707,18 @@
                 <ref name="section_header"/>
                 <ref name="visual"/>
                 <ref name="analogy"/>
-                <ref name="roadmap"/>
+                <ref name="list"/>
                 <ref name="important_idea"/>
                 <ref name="blog.ref"/>
                 <ref name="pb"/>
                 <ref name="macro.paraContent"/>
+                <ref name="technical_principle"/>
+                <ref name="misconception"/>
             </choice>
         </zeroOrMore>
     </define>
-
-    <define name="fundamental_science_involved">
-        <element name="fundamental_science_involved">
-            <a:documentation>A wide-angled cursory description of the basic ideas framing the
-                answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s Laws, or
-                introduce the basic idea of chemical reactions, etc. [takes @n
-                attribute]</a:documentation>
-            <zeroOrMore>
-                <choice>
-                    <ref name="model.blog.global"/>
-                    <ref name="macro.paraContent"/>
-                </choice>
-            </zeroOrMore>
-            <ref name="att.global.attribute.n"/>
-        </element>
-    </define>
-    <define name="question_relevant_topic">
-        <element name="question_relevant_topic">
+    <define name="specific_topic">
+        <element name="specific_topic">
             <a:documentation>Specific scientific principles that are directly relevant to the
                 explanation of the question. Ex. A description of the chemistry behind acid-base
                 reactions. [takes @n attribute]</a:documentation>
@@ -760,21 +759,31 @@
     </define>
     <define name="blog.answer.content">
         <group>
-            <interleave>
+            <group>
                 <zeroOrMore>
-                    <ref name="model.blog.global"/>
+                    <ref name="model.blog.global.less"/>
                 </zeroOrMore>
                 <oneOrMore>
-                    <ref name="fundamental_science_involved"/>
+                    <ref name="technical_principle"/>
                 </oneOrMore>
-                <oneOrMore>
-                    <ref name="question_relevant_topic"/>
-                </oneOrMore>
-                <oneOrMore>
-                    <ref name="explanation"/>
-                </oneOrMore>
-                <ref name="conclusion"/>
-            </interleave>
+                <zeroOrMore>
+                    <ref name="model.blog.global.less"/>
+                </zeroOrMore>
+            </group>
+            <group>
+                <interleave>
+                    <zeroOrMore>
+                        <ref name="model.blog.global"/>
+                    </zeroOrMore>
+                    <oneOrMore>
+                        <ref name="specific_topic"/>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <ref name="explanation"/>
+                    </oneOrMore>
+                    <ref name="conclusion"/>
+                </interleave>
+            </group>
         </group>
     </define>
     <define name="answer">
@@ -803,10 +812,11 @@
             </zeroOrMore>
         </element>
     </define>
-    <define name="scientific_principle">
-        <element name="scientific_principle">
-            <a:documentation>Big picture fundamental scientific concepts involved (such as gravity,
-                matter and energy, fluid dynamics, acid-base reactions, etc.) [takes @n
+    <define name="technical_principle">
+        <element name="technical_principle">
+            <a:documentation>Fundamental theory and concepts involved (such as gravity, matter and
+                energy, fluid dynamics, acid-base reactions, etc.). Required in both "background"
+                and "answer," must come before "specific_topic" in "background" [takes @n
                 attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
@@ -817,8 +827,8 @@
             <ref name="att.global.attribute.n"/>
         </element>
     </define>
-    <define name="misconceptions">
-        <element name="misconceptions">
+    <define name="misconception">
+        <element name="misconception">
             <a:documentation>Lists any common misconceptions the public has about the topic, or
                 includes quoted material from the community that highlights the existing (false)
                 notions about the answer; optional [takes @n attribute]</a:documentation>
@@ -831,21 +841,32 @@
             <ref name="att.global.attribute.n"/>
         </element>
     </define>
+    <define name="model.blog.global.less">
+        <!-- excludes technical_principle -->
+        <zeroOrMore>
+            <choice>
+                <ref name="section_header"/>
+                <ref name="visual"/>
+                <ref name="analogy"/>
+                <ref name="list"/>
+                <ref name="important_idea"/>
+                <ref name="blog.ref"/>
+                <ref name="pb"/>
+                <ref name="macro.paraContent"/>
+                <ref name="misconception"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <define name="blog.background.content">
-        <group>
-            <interleave>
-                <zeroOrMore>
-                    <ref name="model.blog.global"/>
-                </zeroOrMore>
-                <ref name="question"/>
-                <oneOrMore>
-                    <ref name="scientific_principle"/>
-                </oneOrMore>
-                <zeroOrMore>
-                    <ref name="misconceptions"/>
-                </zeroOrMore>
-            </interleave>
-        </group>
+        <interleave>
+            <zeroOrMore>
+                <ref name="model.blog.global.less"/>
+            </zeroOrMore>
+            <ref name="question"/>
+            <oneOrMore>
+                <ref name="technical_principle"/>
+            </oneOrMore>
+        </interleave>
     </define>
     <define name="blog.background">
         <element name="background">
