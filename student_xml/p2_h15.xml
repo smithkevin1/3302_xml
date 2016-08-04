@@ -226,29 +226,31 @@
         <report type="peer" resp="s24">
             <p>The post addresses the topic of path finding algorithms in mathematics, and by extension, computer science. 
                 Its audience seems best fit to be those who have an understanding of some fundamental concepts
-                from these disciplines, but are seeking a friendly introduction to path finding algorithms (specifically
-                Dijkstra's, Best-First, and A*.</p>
-            <p> The structure and style of the post is incredibly well thought through and does a very good job of 
-                giving life to a potentially drab topic. Specifically the modular structure does a very good job 
-                at building an inexperienced reader's knowledge, and the anthropomorphizing approach to the graphs allows
+                from these disciplines, but are seeking a friendly introduction to path finding algorithms. (specifically
+                Dijkstra's, Best-First, and A*)</p>
+            <p> The structure and style of the post is exceptionally well thought through and does a very good job of 
+                giving life to a potentially drab topic. Specifically the modular structure is effective 
+                at building an inexperienced reader's knowledge, while the anthropomorphizing of the different algorithms allows
                 their 'personalities' to give insight into how they might be used in separate circumstances.</p>
             <p>
                 The current flow of the article is in a good place (as touched on above), however I think the arc could be 
-                further developed to emphasize the importance of A* as being the focal point of the document. It feels as though
-                it is only being discussed in line with the other two approaches, and if it weren't for textual clues such as 
-                'bro #1', 'bro #2', its differentiation in importance in the document is vague. I think this could
+                further developed to emphasize that A* is the focal point of the document. It feels as though
+                it is being discussed as an equal to the other two approaches, and if it weren't for textual clues such as 
+                'bro #1' and 'bro #2' when referring to the other two algorithms, its differentiation in importance in the document 
+                is not immediately obvious. I think this could
                 be improved in two ways. At present, the exposition of the document doesn't hint that A* is of greater focus
                 than the other two algorithms -- other than it chronologically following the other two. Providing some explicit
                 discussion of the 'roadmap' might allow for the reader to better understand why we are building to A*. Secondly,
-                the underlying xml structure might also drive this home if Dijkstra's and BF were included in the background
-                section. 
+                the underlying xml structure could be reworked to drive this home if Dijkstra's and BF were included in the 'background'
+                section rather than in the 'answer' section.
             </p>
             <p>
                 Overall it appears that the nuts and bolts of the genre are being properly adhered to, and stylistically I 
-                imagine the cartoons will add the glue to help make accessible the details behind the topics. In mind of
-                this accessibility, I didn't want to be too critical of grammatical structure in the review as sections
-                are still being filled out, however I highlighted a few areas with notes that could benefit from subtle
-                revisions. Lastly, I noticed you aren't using the 'important_idea' tag. It doesn't seem to take away from
+                imagine the cartoons will add the glue to help make accessible the details behind the topics. Given the primitive
+                state of the document, it is difficult in a few passages to be sure if some confusion I experienced was due
+                to sections that have yet to be proofread, or if better explanations should be developed. 
+                I highlighted a few areas with notes that could benefit if the latter is the case.
+                Lastly, I noticed you aren't using the 'important_idea' tag. It doesn't seem to take away from
                 the work, however you might find it useful for areas in which you are driving home the differences between 
                 various path-finding implementations. 
             </p>

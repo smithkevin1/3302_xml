@@ -5,7 +5,7 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Writing Project 2</title>
-        <author xml:id="p_13">Daniel Doherty</author>
+        <author xml:id="d13">Daniel Doherty</author>
         <version n="1" date="2016-07-31"/>
     </docHead>
 
@@ -18,9 +18,18 @@
         </cover_page>
 
         <tbl_cont>
-            <section n="1"> 1.0 Introduction 2.0 Background 3.0 Purpose 3.1 Scope 3.2 Objectives 4.0
-                Methodology 5.0 Feasibility 5.1 Social 5.2 Economic 5.3 Environmental 6.0 Conclusion
-                7.0 References </section>
+            <section n="1"> 1.0 Introduction</section>
+            <section n="2">2.0 Background</section>
+            <section n="3">3.0 Purpose</section>
+            <section n="4">3.1 Scope</section>
+            <section n="5">3.2 Objectives</section>
+            <section n="6">4.0 Methodology</section>
+            <section n="7">5.0 Feasibility</section>
+            <section n="8">5.1 Social</section>
+            <section n="9">5.2 Economic</section>
+            <section n="10">5.3 Environmental</section>
+            <section n="11">6.0 Conclusion</section>
+            <section n="12">7.0 References </section>
         </tbl_cont>
 
         <intro type="abstract">
@@ -116,14 +125,14 @@
                 necessary funds to purchase modern cars that are better suited for Boston's harsh
                 winter conditions and can accommodate more passengers. Boston has purchased some
                 replacement cars for the Red and Orange lines from a Chinese company but these deal
-                <note type="peer" resp="#p22"> Do you mean "deals"? The deals face corruption charges?  </note>now faces corruption charges in addition to these cars having technical issues after
+                now faces corruption charges in addition to these cars having technical issues after
                 they were implemented in parts of China. The State Legislature most be petitioned to
                 grant appropriate funding to the MBTA now that Gov. Charlie Baker's has forced
                 administrative changes to the MBTA to address the mismanagement of the MBTA in
                 recent years. Once funding has been secured, new cars using modern AC technology
                 should be purchased from a reliable company with a proven record and implementation
                 of the new cars into the subway should be sub-contracted to a private company to
-                avoid the problems associated with the Big-Dig project.<note type="peer" resp="p22"> I think you should explicitly state the problems associated with big public problems, if only briefly</note>
+                avoid the problems associated with the Big-Dig project.
                 <!--add quote from the article supporting this statement-->
             </p>
         </approach>
@@ -158,18 +167,9 @@
     </pub_init_proposal>
 
     <docReview>
-        <reviewer type="peer" xml:id="#p22"/>
-        <report type="peer" resp="#p22">
-            <p> This proposal focuses on the economic and social advantages associated with upgrading the MBTA. The problems associated with the lack of funding for the MBTA are also explained.
-                I believe that the action and feasibility sections contain the most important aspects of this proposal. 
-                Within these sections, the next steps are discussed but not how they will be accomplished. At the beginning of the “action” portion of this proposal, it is stated “To implement the upgrade to the subway system, the MBTA must first be granted the necessary funds to purchase modern cars that are better suited for Boston's harsh winter conditions and can accommodate more passengers”.  While this is correctly identified as the immediate next step, this will receive the most pushback. As stated by the head of the Stoughton Public Library, who we interviewed, you must take into account who the proposal is going to and speak their language. For this reason, I think there should be a mention of the method by which these funds will be given and how that will be perceived publicly. If you are to ask a public official to divert funds, that will be the part that requires the greatest explanation. While there are many great advantages to a MBTA upgrade that you discussed, I think what is holding the legislature up is more the question of who will be paying for the upgrades. Understandably, there is a looping issue here, we need more people to ride the T to make money, but fewer people will ride/ are willing to pay more if it does not get the upgrades that this money is required for. If this is to be funded by taxpayers, there must be some sort of public awareness campaign to help the public, and possibly taxpayers that will not be direct beneficiaries of the upgrades, understand this necessity. 
-                
-                I think the conclusion did a good job of explaining all that is at stake (asides from the environmental concerns that would take up a lot of space) and should be looked at further to incorporate some of the logic used in the earlier parts of the proposal. The introduction could be built up to include how different parts of society are impacted by the MBTA performance, not just those that ride it. For example, people getting to work on time effects buisnesses etc. The mention of the Olympics in the conclusion was a great example of that out-of-the-box style of thought. 
-                
-                Overall, I enjoyed this proposal. As suggested by your writer’s memo, your background section was well thought out and comprehensive. In my opinion, the action and feasibility sections could use some expansion. 
-                
-            
-            </p>
+        <reviewer type="peer" xml:id="peer_id_here"/>
+        <report type="peer" resp="#peer_id_here">
+            <p>Peer review report will appear here.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

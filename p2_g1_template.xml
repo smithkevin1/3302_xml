@@ -10,53 +10,56 @@
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     <blog_post> Root element for Science Blog genre 
-    <!-- Global Elements-->
+        
+        <!-- Global Elements-->
         <!-- Optional elements that can go anywhere -->
         <!-- "n" attribute used to number potentially repeated elements. Optional. -->
         <section_header>’background’ and ‘answer’ are best broken into modular digestible sections
             consisting of several paragraphs. ‘section_header’ should be titled in a way such that
             the following paragraphs either work in concert to make the point specified by
             ‘section_header’, or answer a question put forth by ‘section_header’. </section_header>
-        <visual type="">Visuals are any variety of in line imagery used to break up long lengths of text,
-            and/or aid in the understanding of a topic. Comics, pictures and graphics are a few of
-            the possible visuals that can be used.<!-- Types can be: Photo, Comic, Drawing, Animation,
+        <visual type="" url="">Visuals are any variety of in line imagery used to break up long lengths of
+            text, and/or aid in the understanding of a topic. Comics, pictures and graphics are a
+            few of the possible visuals that can be
+            used.<!-- Types can be: Photo, Comic, Drawing, Animation,
                 Quoted Text, Other --></visual>
         <analogy>Analogies should be used to better illustrate important and difficult to understand
             topics put forth by the other elements.</analogy>
-        <roadmap>A roadmap is a list in which several ‘section_headers’ that build upon one another
-            to drive home an important point are specified before diving into each section
-            independently. This allows the reader to understand the purpose of a section in context
-            to avoid getting lost in its details.</roadmap>
-        <p n="">Paragraph of text, use to delineate individual paragraphs where necessary, such as in
-            background or answer material</p>
-        <ref type="">Hyperlink around a phrase that directs to a source or resource, can be found throughout
-            the post depending on author's preference<!-- Types can be "source" or "supplement" for
-               source material or supplemental material --></ref>
+        <list type="">A multipurpose list element.
+            <!-- Types can be: "Generic": A generic list of any related yet separate items. 
+                Can also be used for breaking down procedural orders, an example of this would be 
+                notating the steps of a mathematical proof.  "Roadmap": A roadmap is a list in which 
+                several ‘section_headers’ that build upon one another to drive home an important point 
+                are specified before diving into each section independently. This allows the reader to 
+                understand the purpose of a section in context to avoid getting lost in its details. 
+                Text should agree with ‘section_headers’ used later on. --></list>
+        <technical_principle n="">Fundamental theory and concepts involved (such as gravity, matter
+            and energy, fluid dynamics, acid-base reactions, etc.). Required in both "background" and
+        "answer," must come before "specific_topic" in "answer"</technical_principle>
+        <misconception n="">Lists any common misconceptions the public has about the topic, or
+            includes quoted material from the community that highlights the existing (false) notions
+            about the answer</misconception>
+        <pb>Paragraph break</pb>
+        <ref type="" url="">Hyperlink around a phrase that directs to a source or resource, can be found
+            throughout the post depending on author's preference
+            <!-- Types can be "source" or "supplement" for source material or supplemental material --></ref>
         <important_idea n="">Major points of interest relating to the topic.</important_idea>
-    <!-- Structure -->
+        
+        <!-- Structure -->
         <!-- Fitting the genre model, Background is followed by Answer, followed by Sources -->
         <!-- Elements within each parent element can occur in any order, though the listed order is
             standard. Typically, each element is its own paragraph, but can be combined in interest
             of brevity. -->
         <!-- Unless otherwise noted, all following elements are required -->
         <background> The section introduces the main topic. 
-            <question>The question or topic that we are trying to answer or simplify to a general 
-                audience.</question>
-            <scientific_principle n="">Big picture fundamental scientific concepts involved (such as
-                gravity, matter and energy, fluid dynamics, acid-base reactions,
-                etc.)</scientific_principle>
-            <misconceptions n="">Lists any common misconceptions the public has about the topic, or
-                includes quoted material from the community that highlights the existing (false)
-                notions about the answer<!-- Optional --></misconceptions>
+            <question>The question or topic that we
+                are trying to answer or simplify to a general audience.</question>
         </background>
         <answer>Body of text that moves towards the answer of the question, presenting topics,
             ideas, analogies, and explanations that lead towards the ultimate conclusion
-            <fundamental_science_involved n="">A wide-angled cursory description of the basic ideas
-                framing the answer. Can be as little as 1 sentence. Ex. Explain one of Newton’s
-                Laws, or introduce the basic idea of chemical reactions, etc. </fundamental_science_involved>
-            <question_relevant_topic n="">Specific scientific principles that are directly relevant to
-                the explanation of the question. Ex. A description of the chemistry behind acid-base
-                reactions. </question_relevant_topic>
+            <specific_topic n="">Specific technical principles that are directly relevant to the
+                explanation of the question. Ex. A description of the chemistry behind acid-base
+                reactions. </specific_topic>
             <explanation n="">An in-depth reply to the question proposed in the “background”
                 section. Typically, the author will use common vernacular and devices such as
                 analogies and visuals in order to clearly convey concepts to readers.</explanation>
@@ -64,9 +67,8 @@
                 response to the question asked in the “background” section </conclusion>
         </answer>
         <sources> Contains sources the author used to answer the question 
-            <citation style="">A
-                citation for the source written in the style the author decides to use (ex. MLA, APA
-                etc.)<!-- Optional sub-element --></citation> 
+            <citation style="">A citation for the source written in the style the author decides to use 
+                (ex. MLA, APA etc.)<!-- Optional sub-element --></citation>
         </sources>
     </blog_post>
     <docReview>

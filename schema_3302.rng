@@ -8,6 +8,7 @@
         <zeroOrMore>
             <choice>
                 <text/>
+
                 <!--<ref name="model.phrase"/>
                 <ref name="model.inter"/>-->
 
@@ -165,6 +166,10 @@
     <define name="model.global">
         <choice>
             <ref name="model.noteLike"/>
+            <ref name="pb"/>
+            <ref name="ref"/>
+            <ref name="visual"/>
+
             <!--<ref name="figure"/> hold off on figure for now-->
         </choice>
     </define>
@@ -638,7 +643,12 @@
                 one another to drive home an important point are specified before diving into each
                 section independently. This allows the reader to understand the purpose of a section
                 in context to avoid getting lost in its details.</a:documentation>
-            <oneOrMore><ref name="section_header"/></oneOrMore>
+            <oneOrMore>
+                <choice>
+                    <ref name="model.blog.global"/>
+                    <ref name="macro.paraContent"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="important_idea">
@@ -672,7 +682,9 @@
             <a:documentation>(paragraph break) empty element, indicates a new paragraph of text, use
                 to delineate individual paragraphs where necessary, such as in background or answer
                 material</a:documentation>
-            <ref name="att.global.attribute.n"/>
+            <optional>
+                <ref name="att.global.attribute.n"/>
+            </optional>
             <empty/>
         </element>
     </define>
@@ -964,6 +976,13 @@
                 with other products, projects, and systems. [requires an @type attribute]. Available
                 types: obj, synergy, rls. </a:documentation>
             <ref name="macro.paraContent"/>
+            <optional>
+                <attribute name="title">
+                    <a:documentation>optional title attribute [Should appear at the beginning of the
+                        element, italicized, followed by a colon]</a:documentation>
+                    <text/>
+                </attribute>
+            </optional>
             <attribute name="type">
                 <a:documentation>type of application overview</a:documentation>
                 <choice>
@@ -1019,10 +1038,16 @@
     </define>
     <define name="req">
         <element name="req">
-            <a:documentation>(requirement). This is a requirement. [required @num attribute].
-                Although not strictly a technical requirement, this is used to detail certain </a:documentation>
-            <ref name="att.global.attribute.n"/>
+            <a:documentation>(requirement). This is a requirement. [required @num attribute,
+                optional @title attribute]. Title will appear at the beginning of this element
+                italicized followed by a colon. </a:documentation>
             <ref name="macro.paraContent"/>
+            <optional>
+                <attribute name="title">
+                    <text/>
+                </attribute>
+            </optional>
+            <ref name="att.global.attribute.n"/>
         </element>
     </define>
     <define name="req_sect">
@@ -1030,8 +1055,8 @@
             <a:documentation>(requirement section) details a sections of requirements. Strictly
                 related to the project’s components. For example an appropriate &lt;req_sect&gt;
                 element would be “userinterface”, “Database/database interaction”, or
-                “construction”. A &lt;req_sect&gt; element is simple an italicized above each of its
-                requirement. </a:documentation>
+                “construction”. A &lt;req_sect&gt; element is simple an italicized and underlined
+                above each of its requirement. </a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="req"/>
@@ -1041,7 +1066,9 @@
         </element>
     </define>
     <define name="model.sccs_crt">
-        <ref name="req_sect"/>
+        <oneOrMore>
+            <ref name="req_sect"/>
+        </oneOrMore>
     </define>
     <define name="img">
         <element name="img">
@@ -1399,7 +1426,9 @@
     <define name="intro">
         <element name="intro">
             <a:documentation>Brief synopsis of the project being proposed </a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>ltr_int</value>
@@ -1423,6 +1452,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1434,6 +1464,7 @@
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
                     <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
@@ -1443,6 +1474,7 @@
         <zeroOrMore>
             <choice>
                 <ref name="macro.paraContent"/>
+                <ref name="visual"/>
                 <ref name="crnt_cond"/>
                 <ref name="subj_hist"/>
             </choice>
@@ -1460,7 +1492,12 @@
     </define>
     <define name="scope">
         <element name="scope">
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>who</value>
@@ -1481,6 +1518,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1493,6 +1531,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="model.qLike"/>
+                    <ref name="visual"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1504,6 +1543,7 @@
                 <ref name="objective"/>
                 <ref name="goal"/>
                 <ref name="macro.paraContent"/>
+                <ref name="visual"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1518,56 +1558,127 @@
             </oneOrMore>
         </element>
     </define>
+    <define name="action">
+        <element name="action">
+            <a:documentation>Action: Executable item that will lead to goal
+                completion</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="execution">
+        <element name="execution">
+            <a:documentation>Execution: Tactic employed to achieve goal</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.approach.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="visual"/>
+                <ref name="execution"/>
+                <ref name="action"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <define name="proposal.approach">
         <element name="approach">
             <a:documentation>How the project will be achieved </a:documentation>
-            <ref name="model.pLike"/>
-            <attribute name="type">
-                <choice>
-                    <value>execution</value>
-                    <a:documentation>Execution: Tactic employed to achieve goal</a:documentation>
-                    <value>action</value>
-                    <a:documentation>Action: Executable item that will lead to goal
-                        completion</a:documentation>
-                </choice>
-            </attribute>
+            <oneOrMore>
+                <element name="p">
+                    <ref name="model.approach.content"/>
+                </element>
+            </oneOrMore>
         </element>
+    </define>
+    <define name="environmental">
+        <element name="environmental">
+            <a:documentation>Environmental: Initial and long-term implications or obstacles as they
+                relate to the surrounding environment</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="social">
+        <element name="social">
+            <a:documentation>Social: Initial and long-term implications or obstacles as they relate
+                to members of the community</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="economic">
+        <element name="economic">
+            <a:documentation>Economic: Initial and long-term financial implications of project
+                compared to do-nothing alternative</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.feasibility.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="visual"/>
+                <ref name="economic"/>
+                <ref name="social"/>
+                <ref name="environmental"/>
+            </choice>
+        </zeroOrMore>
     </define>
     <define name="feasibility">
         <element name="feasibility">
             <a:documentation>Initial and long-term implications or obstacles in the implementation
                 of the project</a:documentation>
-            <ref name="model.pLike"/>
-            <attribute name="type">
-                <choice>
-                    <value>economic</value>
-                    <a:documentation>Economic: Initial and long-term financial implications of
-                        project compared to do-nothing alternative</a:documentation>
-                    <value>social</value>
-                    <a:documentation>Social: Initial and long-term implications or obstacles as they
-                        relate to members of the community</a:documentation>
-                    <value>environmental</value>
-                    <a:documentation>Environmental: Initial and long-term implications or obstacles
-                        as they relate to the surrounding environment</a:documentation>
-                </choice>
-            </attribute>
+            <oneOrMore>
+                <element name="p">
+                    <ref name="model.feasibility.content"/>
+                </element>
+            </oneOrMore>
         </element>
     </define>
     <define name="conclu">
         <element name="conclu">
             <a:documentation>Conclusion: Brief description of the benefits potentially provided by
                 the proposed project</a:documentation>
-            <ref name="model.pLike"/>
+            <oneOrMore>
+                <ref name="model.pLike"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="references">
         <element name="references">
             <a:documentation>References: List of cited works used in research</a:documentation>
-            <ref name="model.biblLike"/>
+            <oneOrMore>
+                <ref name="model.biblLike"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="model.proposal.content">
         <group>
+            <!-- revise approach and fesibility sections -->
             <ref name="cover_page"/>
             <ref name="tbl_cont"/>
             <ref name="intro"/>
@@ -1592,14 +1703,24 @@
         <element name="name">
             <a:documentation>First and last name of applicant; necessary in both the signature and
                 header of document </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="contact">
         <element name="contact">
             <a:documentation>Element for contact information, must include at least one @type
                 attribute from an open list (with address, phone number, and email as suggestions) </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>address</value>
@@ -1636,7 +1757,12 @@
         <element name="greeting">
             <a:documentation>Contains formal greeting to reader such as “Dear”, as well as an
                 identifier for the intended audience</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="intent">
@@ -1647,7 +1773,12 @@
                     <a:documentation>Attribute of intent; Purpose of letter, usually the position
                         applicant is applying for </a:documentation>
                 </attribute>
-                <ref name="macro.paraContent"/>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
+                </oneOrMore>
             </element>
         </oneOrMore>
         <zeroOrMore>
@@ -1659,7 +1790,12 @@
                         about position, what connections applicant may have to the reader
                     </a:documentation>
                 </attribute>
-                <ref name="macro.paraContent"/>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
+                </oneOrMore>
             </element>
         </zeroOrMore>
     </define>
@@ -1668,14 +1804,24 @@
             <a:documentation>Statement of reason for applying for this particular or a job in this
                 field, may include applicant's interests or passions in the field they are seeking a
                 job in, optional sub-element in introductory paragraph </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="proposition">
         <element name="proposition">
             <a:documentation>General statement for why applicant is deserving of job, closing
                 statement for introductory paragraph </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="pb"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="intro_para">
@@ -1691,16 +1837,66 @@
                 </optional>
                 <ref name="proposition"/>
                 <zeroOrMore>
-                    <ref name="macro.paraContent"/>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="pb"/>
+                    </choice>
                 </zeroOrMore>
             </interleave>
         </element>
+    </define>
+    <define name="programs">
+        <element name="programs">
+            <a:documentation>Sub-element of experience, known program languages of the applicant </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="certifications">
+        <element name="certifications">
+            <a:documentation>Sub-element of experience, applicant certification relevant to the job
+                description </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="accomplishments">
+        <element name="accomplishments">
+            <a:documentation>Sub-element of experience, applicant accomplishments relevant to the
+                job description </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="skills">
+        <element name="skills">
+            <a:documentation>Sub-element of experience, applicant skills, preferably ones that match
+                skills listed in the job posting </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="languages">
+        <element name="languages">
+            <a:documentation>Sub-element of experience, known languages of the applicant </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.experience.contents">
+        <zeroOrMore>
+            <choice>
+                <ref name="macro.paraContent"/>
+                <ref name="languages"/>
+                <ref name="skills"/>
+                <ref name="accomplishments"/>
+                <ref name="certifications"/>
+                <ref name="programs"/>
+            </choice>
+        </zeroOrMore>
     </define>
     <define name="experience">
         <element name="experience">
             <a:documentation> Container element for types of relevant experience talked about in
                 cover letter, must include at least one attribute (school, work, personal) </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <ref name="model.experience.contents"/>
+            </oneOrMore>
             <attribute name="type">
                 <choice>
                     <value>work</value>
@@ -1732,29 +1928,53 @@
     <define name="compatability">
         <element name="compatability">
             <a:documentation>Sub-element to closing paragraph; briefly, why applicant fits into the
-                company and what he or she has to offer. </a:documentation>
-            <ref name="macro.paraContent"/>
+                company and what he or she has to offer. Must be first element in closing
+                statement.</a:documentation>
+            <oneOrMore>
+                <ref name="macro.paraContent"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="next_step">
         <element name="next_step">
             <a:documentation>Sub-element to closing paragraph; Invitation to further discuss
-                qualifications and details of position, closing statement for closing paragraph </a:documentation>
+                qualifications and details of position, closing statement for closing paragraph.
+                Must come after compatibility statement. </a:documentation>
+            <oneOrMore>
+                <ref name="macro.paraContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="acknowledgement">
+        <element name="acknowledgement">
+            <a:documentation> Optional element for saying thank you to the reader for their
+                time/consideration etc.</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
-    <define name="para_closing">
-        <element name="para_closing">
+    <define name="closing_statements">
+        <element name="closing_statements">
             <a:documentation>(Closing Paragraph) Container element for compatibility and next step,
                 mandatory element, cover letter must include (only) one closing paragraph </a:documentation>
             <ref name="compatability"/>
+            <optional>
+                <ref name="pb"/>
+            </optional>
             <ref name="next_step"/>
+            <optional>
+                <ref name="pb"/>
+            </optional>
+            <optional>
+                <ref name="acknowledgement"/>
+            </optional>
         </element>
     </define>
     <define name="salutation">
         <element name="salutation">
             <a:documentation>Sub-element to signature; Sincerely, Best, Cheers, etc… </a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <ref name="macro.paraContent"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="signature">
@@ -1774,7 +1994,7 @@
             <oneOrMore>
                 <ref name="para_background"/>
             </oneOrMore>
-            <ref name="para_closing"/>
+            <ref name="closing_statements"/>
             <ref name="signature"/>
         </element>
     </define>

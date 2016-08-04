@@ -14,24 +14,23 @@
             <contributors>Chi Mo</contributors>
             <date>2016-07-30</date>
         </page>
-        <page type="tbl_contents">
-            <note type="peer" resp="#v26">
-                The sect element should be used with the n and lvl attributes. 
-                The n attribute should replace the Roman numeral value (I to 1, etc.).
-                The lvl should denote subsections, e.g., pre_req_ana has subsection app_ovr.
-            </note>
-            <sect>I. Exclusive Summary</sect>
-            <sect>II. Preliminary Requirements Analysis</sect>
-            <sect>III. Feasibility</sect>
-            <sect>IV. Success criteria</sect>
-            <sect>V. Cost Estimates</sect>
-            <sect>VI. Report page</sect>
-            <sect>VII. Risk Analysis</sect>
-            <sect>VIII. Financial</sect>
-            <sect>IX. Conclusion</sect>
+        <page type="tbl_contents">           
+            <sect n="1" lvl="1">Exclusive Summary</sect>
+            <sect n="2" lvl="1">Preliminary Requirements Analysis</sect>
+            <sect n="2" lvl="2">Application Overview</sect>
+            <sect n="2" lvl="3">Object</sect>
+            <sect n="2" lvl="3">synergy</sect>
+            <sect n="2" lvl="3">rules</sect>
+            <sect n="3" lvl="1">Feasibility</sect>
+            <sect n="4" lvl="1">Success criteria</sect>
+            <sect n="5" lvl="1">Cost Estimates</sect>
+            <sect n="6" lvl="1">Report page</sect>
+            <sect n="7" lvl="1"> Risk Analysis</sect>
+            <sect n="8" lvl="1">Financial</sect>
+            <sect n="9" lvl="1">Conclusion</sect>
         </page> 
         <page type="exec_sum">
-            The App <note type="peer" resp="#v26">Is it necessary to capitalize the A in App?</note> is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
+            The app <note type="peer" resp="#v26">Is it necessary to capitalize the A in App?</note> is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
             so that they don't need to be arrived and wait for 45 minutes. If you always have dinner outside in Boston, you may find this 
             situation very common. This new app is going to short the waiting time. After you download this app on your phone and the restaurant 
             also has this app downloaded on their device, the time saving trip is started. You can start to wait when you heading to the place 
@@ -40,15 +39,21 @@
             It's a combination of Google Map, Yelp and waiting time of all the restaurants. Also, it can make the points card electronical.
         </page>
         <page type="pre_req_ana">
-            <app_ovr type="synergy">
-                For now, people need to go to the restaurant first, get in a line if it’s busy there, and wait until your turn. Since 
-                there won’t be enough space for customers to wait inside the restaurant, you will have to wait outside. In Boston, the 
-                winter is cold and long, by long, I mean 6 months of a year. In possibility, there will be 50% of times that you wait for 
-                food is going to be in the cold winter. Some of the restaurants call by name which means you can’t leave. Some of restaurants 
-                use the “buzz thing” to let you know your turn but you can’t stay too far from the restaurant. After installing Waitless, 
-                all these problems solved! No need for waiting outside in the wind for a long time and you can plan your time for your meal. 
-                Besides, you don’t need to carry all the points cards with you or getting more points cards if you didn’t bring your own.  
-        </app_ovr></page>
+            <app_ovr type="obj">
+                Currently, people need to go to the restaurant first, get in a line if it’s busy there, and wait until your turn. Since 
+                there won’t be enough space for customers to wait inside the restaurant, customers will have to wait outside. In Boston, the 
+                winter is cold and long which is up to 6 months of a year. Therefore, by possibility, there will be 50% of times that a customer
+                waits for food is going to be in the cold winter. Some of the restaurants call by name which means the customer can’t leave. 
+                Some of restaurants use the “buzz thing” to let customers know their turn but they can’t stay too far from the restaurant. 
+                After installing Waitless, all these problems solved! No need for waiting outside in the wind for a long time and you can 
+                plan your time for your meal.Besides, you don’t need to remeber to carry all the points cards with you or get more points cards 
+                if you didn’t bring your own.
+            </app_ovr>            
+            <app_ovr type="rls">
+                
+            </app_ovr>
+            
+        </page>
         <page type="fsb">
             <fsb_hlgt type="tcnl">
                 In order to develop an App like this, we need to understand how does a restaurant calculate the time. Also, the other 
@@ -59,29 +64,27 @@
             </fsb_hlgt>
         </page>
         <page type="sccs_crt"><req_sect>
-            Needs at least two computer with ISO <note type="peer" resp="#v26">Replace ISO with IOS
-                (also in other location).</note> Xcode installed and Java access. 
-            Xcode is for the ISO App design and Java is for the Android. 
+            <req n="1">Needs two computers</req> The computers need IOS Xcode installed and Java access. 
+            Xcode is for the IOS App design and Java is for the Android. 
         </req_sect></page>
         <page type="cost">
-            <est type="lgl">$5000</est>
-            <est type="fnc">$5000</est>   
+            <est type="lgl">$5000 for attorney to get the App lience and patent</est>
+            <est type="fnc">$5000 for paying the computer developers to develop the code</est>   
         </page>
         <page type="rpt">
-            <note type="peer" resp="#v26">These should have "n" attributes.</note>
-            <tmln date="2016-08-01">Get the idea and find people to work with</tmln>
-            <tmln date="2016-08-05">Starting the GUI design</tmln>
-            <tmln date="2016-09-20">Get data from restaurant</tmln>
-            <tmln date="2016-10-20">Inner testing</tmln>
-            <tmln date="2016-10-31">Trail testing</tmln>
-            <tmln date="2016-11-01">Release</tmln>
+            <tmln date="2016-08-01" n="1">Get the idea and find people to work with</tmln>
+            <tmln date="2016-08-05" n="2">Starting the GUI design</tmln>
+            <tmln date="2016-09-20" n="3">Get data from restaurant</tmln>
+            <tmln date="2016-10-20" n="4">Inner testing</tmln>
+            <tmln date="2016-10-31" n="5">Trail testing</tmln>
+            <tmln date="2016-11-01" n="6">Release</tmln>
         </page>
         <page type="rsk_ana">
             The risk of this App is the lack of users. The way to avoid it is to send advertisements in popular restaurants around Boston. 
             The App is free first 6-months to restaurants so that they will get to know it well and starting using it. 
         </page>
         <page type="fnc">
-            <fnc type="fund"> The cost of developing the ISO APP is the cost of human. It may need 3 person to get all these done. 
+            <fnc type="fund"> The cost of developing the IOS APP is the cost of human. It may need 3 person to get all these done. 
             One for the GUI design for the customer side, one for GUI design for the restaurant side and the last one is to get all the 
             data from customer and restaurants. There will be no more cost other than people. Thus, developing a software doesn't need 
             huge funds. </fnc>
