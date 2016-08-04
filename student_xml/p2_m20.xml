@@ -18,13 +18,16 @@
             <sect n="1" lvl="1">Exclusive Summary</sect>
             <sect n="2" lvl="1">Preliminary Requirements Analysis</sect>
             <sect n="2" lvl="2">Application Overview</sect>
+            <sect n="2" lvl="3">Object</sect>
+            <sect n="2" lvl="3">synergy</sect>
+            <sect n="2" lvl="3">rules</sect>
             <sect n="3" lvl="1">Feasibility</sect>
             <sect n="4" lvl="1">Success criteria</sect>
-            <sect n="V" lvl="1">Cost Estimates</sect>
-            <sect n="VI" lvl="1">Report page</sect>
-            <sect n="VII" lvl="1"> Risk Analysis</sect>
-            <sect n="VIII" lvl="1">Financial</sect>
-            <sect n="IX" lvl="1">Conclusion</sect>
+            <sect n="5" lvl="1">Cost Estimates</sect>
+            <sect n="6" lvl="1">Report page</sect>
+            <sect n="7" lvl="1"> Risk Analysis</sect>
+            <sect n="8" lvl="1">Financial</sect>
+            <sect n="9" lvl="1">Conclusion</sect>
         </page> 
         <page type="exec_sum">
             The app <note type="peer" resp="#v26">Is it necessary to capitalize the A in App?</note> is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
@@ -36,21 +39,20 @@
             It's a combination of Google Map, Yelp and waiting time of all the restaurants. Also, it can make the points card electronical.
         </page>
         <page type="pre_req_ana">
-            <app_ovr type="synergy">
+            <app_ovr type="obj">
                 Currently, people need to go to the restaurant first, get in a line if it’s busy there, and wait until your turn. Since 
                 there won’t be enough space for customers to wait inside the restaurant, customers will have to wait outside. In Boston, the 
                 winter is cold and long which is up to 6 months of a year. Therefore, by possibility, there will be 50% of times that a customer
-                waits for food is going to be in the cold winter. Some of the restaurants call by name which means the customer can’t leave. Some of restaurants 
-                use the “buzz thing” to let customers know their turn but they can’t stay too far from the restaurant. After installing Waitless, 
-                all these problems solved! No need for waiting outside in the wind for a long time and you can plan your time for your meal. 
-                Besides, you don’t need to carry all the points cards with you or getting more points cards if you didn’t bring your own.  
-            </app_ovr>
+                waits for food is going to be in the cold winter. Some of the restaurants call by name which means the customer can’t leave. 
+                Some of restaurants use the “buzz thing” to let customers know their turn but they can’t stay too far from the restaurant. 
+                After installing Waitless, all these problems solved! No need for waiting outside in the wind for a long time and you can 
+                plan your time for your meal.Besides, you don’t need to remeber to carry all the points cards with you or get more points cards 
+                if you didn’t bring your own.
+            </app_ovr>            
             <app_ovr type="rls">
                 
             </app_ovr>
-            <app_ovr type="obj">
-                
-            </app_ovr>
+            
         </page>
         <page type="fsb">
             <fsb_hlgt type="tcnl">
