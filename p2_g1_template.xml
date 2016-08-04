@@ -35,7 +35,7 @@
                 Text should agree with ‘section_headers’ used later on. --></list>
         <technical_principle n="">Fundamental theory and concepts involved (such as gravity, matter
             and energy, fluid dynamics, acid-base reactions, etc.). Required in both "background" and
-        "answer," must come before "specific_topic" in "background"</technical_principle>
+        "answer," must come before "specific_topic" in "answer"</technical_principle>
         <misconception n="">Lists any common misconceptions the public has about the topic, or
             includes quoted material from the community that highlights the existing (false) notions
             about the answer</misconception>
