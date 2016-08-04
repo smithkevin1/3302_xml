@@ -976,6 +976,13 @@
                 with other products, projects, and systems. [requires an @type attribute]. Available
                 types: obj, synergy, rls. </a:documentation>
             <ref name="macro.paraContent"/>
+            <optional>
+                <attribute name="title">
+                    <a:documentation>optional title attribute [Should appear at the beginning of the
+                        element, italicized, followed by a colon]</a:documentation>
+                    <text/>
+                </attribute>
+            </optional>
             <attribute name="type">
                 <a:documentation>type of application overview</a:documentation>
                 <choice>
