@@ -11,25 +11,23 @@
     </docHead>
     <blog_post>
         <!-- Table of Contents -->
-        <roadmap>
-            <section_header>Introduction</section_header>
-            <section_header>Connect The Dots:  Graphs</section_header>
-            <section_header>Bro #1:  Dijkstra’s Algorithm</section_header>
-            <section_header>Bro #2:  Best-First Search Algorithm</section_header>
-            <section_header>A* Is Born</section_header>
-            <section_header>Expanding Horizons</section_header>
+        <list type="roadmap">
+            <section_header>Introduction</section_header><pb></pb>
+            <section_header>Connect The Dots:  Graphs</section_header><pb></pb>
+            <section_header>Bro #1:  Dijkstra’s Algorithm</section_header><pb></pb>
+            <section_header>Bro #2:  Best-First Search Algorithm</section_header><pb></pb>
+            <section_header>A* Is Born</section_header><pb></pb>
+            <section_header>Expanding Horizons</section_header><pb></pb>
             <section_header>TL;DR</section_header>
-        </roadmap>
-        <pb></pb>
+        </list>
         <background>
             <!-- Introduction -->
             <section_header>Introduction</section_header>
             <question>Okay, so I have this dilemma:  How do I get from A to B as quickly as possible?</question>
-            <scientific_principle n="1"><!-- PROB #1 - should I put this in scientific principle? It just casually says why we need to go over pathfinding algs -->
-                <visual type="drawing">Map</visual>
+            <technical_principle n="1">
+                <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/map.png">Map</visual>
+                Hmmm, maybe we can just guess and check like this?
                 <visual type="drawing">
-                    Hmmm, maybe we can just guess and check like this?
-                    
                     guess and checking w/ multiple paths
                     P:  Oh, I guess I’ll try going here. 
                     Hmm, that’s not it. 
@@ -38,75 +36,43 @@
                     Heeeere?
                     AHA! FINALLY. (He got lucky.)
                 </visual>
-                
                 That’s nice and dandy and all, but we really shouldn’t depend on luck for these things.
-                
-                <visual type="comic">
-                    P:  Haha, oh yeah, remember that time in Vegas?
-                    - Flashback -
-                    P2: Pay up.
-                    P: Um…High 5..? O__O; 
-                </visual>
-                
+                <visual type="comic" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/vegas.png"></visual>
                 And what if we make this map a little more complicated?
-                
                 <visual type="drawing">
                     awful map of guessing and checking
                     P:  wut.
                 </visual>
-                
                 Riiight… We need a more procedural way to do this. That’s where these guys come in handy.
-                
-                <visual type="drawing">
-                    Dijkstra, Best-First, A* (pronounced "A Star")
+                <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/algorithms.png">
+                    Algorithm Brothers:  Dijkstra, Best-First, A* (pronounced "A Star")
                 </visual>
-            </scientific_principle>
-            But before you get to know them, you need to understand some basics first. So! That leads us into graphs!
-            
-            <pb></pb>
-            
+                They’re what you call algorithms, or a set of well-defined rules in sequence. Before you get to know these algorithms though, you need to understand some basics first. So! That leads us into graphs!
+            </technical_principle>
+        </background>
+        <answer>
             <!-- Graphs -->
             <section_header>Connect The Dots:  Graphs</section_header>
-            <scientific_principle n="2">
-                Connect The Dots:  Graphs
+            <technical_principle n="2">
+                But before you get to know them, you need to understand some basics first. So! That leads us into graphs!
+                <pb></pb>            
                 A graph is a collection of nodes or vertices, connected by edges. A square has 4 nodes and 4 edges:
-                
-                <visual>Square pic here w/ arrows pointing to nodes and edges</visual>
-                
+                <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/square.png"></visual>
                 <analogy>
                     The nodes represent some sort of data, so we don’t need to depict them as points like above. Think of constellations!
-                    
-                    <visual type="comic">
-                        Little dipper constellation
-                        
-                        P1:  Wow, would you look at the beautiful nodes tonight!
-                        P2:  You mean stars?
-                        P1:  Shut up.
-                    </visual>
+                    <visual type="comic" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/constellation.png"></visual>
                 </analogy>
                 Ah, but how does that relate to our problem? Well, let’s look at our map again.
-                
-                <visual type="drawing">Map w/ deconstructed graph</visual>
-                
+                <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/map_to_graph.png"></visual>
                 In this case, the nodes represent our terrain tiles, and the edges represent the connection between adjacent tiles (directly horizontal/vertical or diagonal).
-                
                 <visual type="drawing">Depiction of adjacent tiles w/ arrows</visual>
-                
                 Got it? Great! We can finally move on to our three algo brothers.
-                
-                <visual type="drawing">A*:  Oh! Does that mean I get to meet everyone now?</visual>
-                
+                <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/eager_star.png"></visual>
                 Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first.
-            </scientific_principle>
-        </background>
-        
-        <answer>
-            <fundamental_science_involved n=""></fundamental_science_involved>
-            <question_relevant_topic n=""></question_relevant_topic>
-            
+            </technical_principle>
             <pb></pb>
             <!-- Dijkstra's Algorithm -->
-            <explanation n="1">
+            <specific_topic n="1">
                 <section_header>Bro #1:  Dijkstra’s Algorithm</section_header>
                 Dijkstra’s Algorithm finds the shortest path from a source node to all other nodes. As before, we represent our map as a graph, where our tiles are nodes and the connection between adjacent tiles are edges.
                 
@@ -115,9 +81,7 @@
                 <visual type="image">
                     pic
                 </visual>
-                
                 But if we haven’t reached the nodes yet, how do we know that information? Ah, that’s a good point. Really, we don’t know, so we will initialize all of the nodes, except A, with an infinite distance and say that they didn’t come from anywhere, or that their parent is null <note type="peer" resp="s24">Using 'parent' and 'null' here without previously defining them. Perhaps this can be established in the 'Graphs' section? Also I think establishing that 'cost' and 'distance' are the same term is necessary, or perhaps only use one term consistently.</note>. Giving them an infinite distance may seem weird, but this ensures that we update it the first time we find a path to it (since the cost we find to it will definitely be less than infinity).
-                
                 <visual type="image">
                     A to other tiles: You guys are so far. :c
                     
@@ -127,25 +91,22 @@
                 </visual>
                 
                 We also have a list, initially empty, that tracks the nodes we visited. To begin the algorithm, we place A on this visited list and then repeat the following steps until we run out of tiles to visit.
-                
-                (1)	Find an unvisited tile closet to our current node.
-                
-                (2)	Go to that tile and mark it as visited. This means that we have found the shortest path from A to the current node. Thus, if the new node is our goal, we can stop the algorithm. The steps following it are to ensure that we also get the shortest path from A to its neighbors. But really, if we reached the end, we don’t care about them anymore. 
-                
-                <visual type="image">
-                    Uninspected tiles:  D’:
-                </visual>
-                
-                But if this wasn’t the goal, go on to (3).
-                
-                (3)	Look at all of the tiles neighboring this new node. If the cost of the path going from A to the neighbor in which we pass through the current tile is shorter than any previous distance to the node, update it with the shorter path (cost and parent).
-                
+                <list type="generic">
+                    (1)	Find an unvisited tile closet to our current node.
+                    <pb></pb>
+                    (2)	Go to that tile and mark it as visited. This means that we have found the shortest path from A to the current node. Thus, if the new node is our goal, we can stop the algorithm. The steps following it are to ensure that we also get the shortest path from A to its neighbors. But really, if we reached the end, we don’t care about them anymore. 
+                    <visual type="image">
+                        Uninspected tiles:  D’:
+                    </visual>
+                    But if this wasn’t the goal, go on to (3).
+                    <pb></pb>
+                    (3)	Look at all of the tiles neighboring this new node. If the cost of the path going from A to the neighbor in which we pass through the current tile is shorter than any previous distance to the node, update it with the shorter path (cost and parent).
+                </list>
                 <visual type="image">
                     P:  Oh, hey! I found a shortcut! 
                 </visual>
-                
+                <pb></pb>
                 Another way to look at this is that the cost from A to the particular neighbor we’re looking at is the cost from A to the current tile + the cost of the current tile to the particular neighbor.
-                
                 <visual type="image">
                     pic of added distance
                 </visual>
@@ -157,22 +118,17 @@
                 <visual type="image">
                     Person at blocked off tile:  If only they knew how to climb walls :’(
                 </visual>
-                
                 Alright, that may have been a little confusing, so let’s go through a full run-through on a small map.
-                
                 <visual type="image">
                     Dijkstra's run-through
                 </visual>
                 <!-- NEED TO FIX THIS.-->
                 And that’s it! If you got all of that, you’ve almost got A* down too, but before we go there, let’s look at Bro #2 to really get the full picture.
-                
-                <visual type="image">
-                    A*:  =__= …
-                </visual>
-            </explanation>
+                <visual type="image" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/upset_star.png"></visual>
+            </specific_topic>
             <pb></pb>
             <!-- Best-First Search Algorithm -->
-            <explanation n="2">
+            <specific_topic n="2">
                     <section_header>Bro #2:  Best-First Search Algorithm</section_header>
                     
                     Unlike Dijkstra’s, Best-First Search uses a heuristic to estimate the shortest path between A and B (recall that Dijkstra’s is from A to any other node). A heuristic is a method where we use an educated “guess” to lead us to the solution.
@@ -181,7 +137,7 @@
                         P: But I thought you said my guessing strategy wasn’t good? Pointing to previous image
                     </visual>
                     
-                    What you did before was randomly guessing. This is using an educated guess as a guide. 
+                    What you did before was ransdomly guessing. This is using an educated guess as a guide. 
                     <analogy>Think of a detective who’s searching for a criminal. If she doesn’t have anything to go off, she has to visit every district. But if she gets a good clue that the criminal is around District A, she can direct her investigation there. We can think of the heuristic as a tipoff.</analogy>
                     
                     <visual type="image">
@@ -227,28 +183,23 @@
                     We won’t dive deep into this algorithm since A* is more similar in implementation to Dijkstra’s.
                     
                     <visual type="image">BF: Well, ok, it was nice to meet you. ;w;</visual>
-            </explanation>
+            </specific_topic>
             <pb></pb>
             <!-- A* Is Born -->
-            <explanation n="3">
+            <explanation n="1">
                 <section_header>A* Is Born</section_header>
-                
                 <visual type="drawing">A*: Hi. c:</visual>
-                
                 A* is a fusion of Dijkstra’s and Best-First.
-                
-                <visual type="other">DBZ fusion dance</visual>
-                
+                <visual type="comic" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/fusion.png">DBZ fusion dance</visual>
                 It takes into account both the cost from the start to the current node and the cost from the current node to the end.
-                
+                <pb></pb>
                 F = G + H
-                
-                Where 
-                G = cost from the start to the current node
+                <pb></pb>
+                Where <pb></pb>
+                G = cost from the start to the current node <pb></pb>
                 H = estimated cost from the current node to the end
-                
+                <pb></pb>
                 Remember, we say H, the heuristic value, is an estimate because there are many things that it doesn’t take into account, like obstacles.
-                
                 <!-- NEED TO FINISH THIS.-->
             </explanation>
             <important_idea n="1">
@@ -265,7 +216,6 @@
                 <!-- NEED TO FINISH THIS.-->
             </conclusion>
         </answer>
-        
         <sources>
             <citation style=""><!-- Optional sub-element --></citation> 
         </sources>    
