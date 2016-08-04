@@ -17,10 +17,10 @@
         <page type="tbl_contents">           
             <sect n="1" lvl="1">Exclusive Summary</sect>
             <sect n="2" lvl="1">Preliminary Requirements Analysis</sect>
-            <sect n="2" lvl="2">Application Overview</sect>
-            <sect n="2" lvl="3">Object</sect>
+            <sect n="1" lvl="2">Application Overview</sect>
+            <sect n="1" lvl="3">Object</sect>
             <sect n="2" lvl="3">synergy</sect>
-            <sect n="2" lvl="3">rules</sect>
+            <sect n="3" lvl="3">rules</sect>
             <sect n="3" lvl="1">Feasibility</sect>
             <sect n="4" lvl="1">Success criteria</sect>
             <sect n="5" lvl="1">Cost Estimates</sect>
@@ -64,8 +64,8 @@
             </fsb_hlgt>
         </page>
         <page type="sccs_crt"><req_sect>
-            <req n="1">Needs two computers</req> The computers need IOS Xcode installed and Java access. 
-            Xcode is for the IOS App design and Java is for the Android. 
+            <req n="1">Needs two computers. The computers need IOS Xcode installed and Java access. 
+                Xcode is for the IOS App design and Java is for the Android.</req>
         </req_sect></page>
         <page type="cost">
             <est type="lgl">$5000 for attorney to get the App lience and patent</est>
