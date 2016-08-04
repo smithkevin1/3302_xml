@@ -54,7 +54,6 @@
             <!-- Graphs -->
             <section_header>Connect The Dots:  Graphs</section_header>
             <technical_principle n="2">
-                But before you get to know them, you need to understand some basics first. So! That leads us into graphs!
                 <pb></pb>            
                 A graph is a collection of nodes or vertices, connected by edges. A square has 4 nodes and 4 edges:
                 <visual type="drawing" url="https://raw.githubusercontent.com/huynhta1/awd_p2_images/master/square.png"></visual>
