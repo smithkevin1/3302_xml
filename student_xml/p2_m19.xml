@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project 2 Feasibility Report</title>
         <author xml:id="m19">Sydnee Mizuno</author>
-        <version n="2" date="2016-08-03"/>
+        <version n="3" date="2016-08-06"/>
     </docHead>
 
     <!--paste body of your template file here-->
@@ -72,24 +72,31 @@
                 a university lab, and that a vehicle stopped within the required braking distance.
                 However, the DOT has not confirmed this. Also, the DOT was unable to send its impact
                 load testing equipment to Solar Roadways, so the glass panels' load carrying
-                capacity has only been officially tested through 3D modeling. Solar Roadways has not
-                yet decided on any specific solution to keep these panels clean. The LEDs that are
-                embedded in the panels would replace the need for painting road lines. They would
-                also increase visibility. Solar Roadways envisions these LEDs flashing in response
-                to oncoming obstacles like pedestrians and wildlife. The circuits also contain solar
-                cells to collect energy, and they also contain heating systems to keep the panels
-                above freezing. This would prevent the accumulation of snow and ice. Difficulties
-                have been ecountered in the manufacture of these panels. With the rise of smart,
-                personal electronics, companies have focused on making circuits smaller. This
-                presents a problem with finding circuits big enough for Solar Roadways' panels.
+                capacity has only been officially tested through 3D modeling. Eric Weaver, an
+                engineer with the Federal highway Assocation, says that the DOT will need to
+                continue testing the panels' traction. At this time, the DOT needs to perform more
+                field traffic evaluation. Solar Roadways has not yet decided on any specific
+                solution to keep these panels clean. The company will need to engineer a solution
+                that prevents dirty buildup while maintaining traction for traffic. The LEDs that
+                are embedded in the panels would replace the need for painting road lines. They
+                would also increase visibility. Solar Roadways envisions these LEDs flashing in
+                response to oncoming obstacles like pedestrians and wildlife. The circuits also
+                contain solar cells to collect energy, and they also contain heating systems to keep
+                the panels above freezing. This would prevent the accumulation of snow and ice.
+                Difficulties have been ecountered in the manufacture of these panels. With the rise
+                of smart, personal electronics, companies have focused on making circuits smaller.
+                This presents a problem with finding circuits big enough for Solar Roadways' panels.
                 Another major issue is the efficiency of the solar cells being used. At this time,
-                the cells have not been tested anywhere except at the Brusaws' house. This is
-                problematic because there has been no independent testing acorss different
-                environments.</fsb_hlgt>
-            <fsb_hlgt type="econ"> Solar Roadways has not completed a cost analysis yet. But in
-                2010, co-founder Scott Brusaw estimated that a 12 by 12 foot panel would cost
-                $10,000. With about 29,000 square miles of paved roads in the US, it is estimated
-                that the total replacement cost would be $56 trillion.</fsb_hlgt>
+                the cells have not been tested anywhere except at the Brusaws' house. Scott Brusaw
+                has reported that the cells performed within 5% of theoretical values compared to
+                solar cells on rooftops. One self-reported test is not enough to confirm that these
+                solar cells function well. More independent testing across different environments
+                will be needed for unbiased results that confirm that the solar cells
+                work.</fsb_hlgt>
+            <fsb_hlgt type="econ"> Solar Roadways has not completed a cost analysis
+                yet. But in 2010, co-founder Scott Brusaw estimated that a 12 by 12 foot panel would
+                cost $10,000. With about 29,000 square miles of paved roads in the US, it is
+                estimated that the total replacement cost would be $56 trillion.</fsb_hlgt>
             <fsb_hlgt type="socl"> If these solar-powered roads were adopted, Solar Roadways would
                 only be the manufacturer of the solar panels. The goverment and other independent
                 companies would be left to solve the logistics of replacing the country's current
@@ -103,9 +110,15 @@
                     and heating systems to prevent snow buildup. </req></req_sect>
             <req_sect>Testing <req> Before solar-powered roads could be adopted throughout the
                     country, they would need to be rigorously tested. The Department of
-                    Transportation would need to test the panels for safety, efficieny, and
-                    reliability. These and other independent tests would be needed in addition to
-                    the Brusaws' home tests.</req></req_sect>
+                    Transportation and other accredited independent agencies would need to test the
+                    panels for safety, efficiency, and reliability. The Brusaws' self-reported home
+                    tests need to be confirmed by other sources to ensure that there are accurate,
+                    non-biased results. The DOT needs to use a weight deflectometer to test how
+                    Solar Roadway's panels handle impact loads. The solar cells and LEDs will need
+                    to be tested for energy efficiency and longevity. Also, field traffic
+                    evaluations will need to be run in order to test how the panels hold up to
+                    continued use. The panels need to have sufficient traction and
+                durability.</req></req_sect>
             <req_sect>Implementation <req>The Department of Transportation and other service
                     agencies would need to handle the installation of Solar Roadways' panels. They
                     would be responsible for creating building projects, financing them, and
@@ -113,7 +126,7 @@
         </page>
 
         <page type="dsn">
-            <img url="http://imgur.com/rksJf69">Solar Panel Layers</img>
+            <img url="http://i.imgur.com/rksJf69.png">Solar Panel Layers</img>
         </page>
 
         <page type="cost">
@@ -124,10 +137,13 @@
         </page>
 
         <page type="rpt"> Solar Roadways has tested most of its design at the founders' home, and it
-            has posted some of those reults to the company website. The company has also
-            collaborated with the DOT and various university labs for testing. It will continue to
-            test and report its findings to these organizations as product development
-            continues.</page>
+            has posted some of those results to the company website. Solar Roadways' website claims
+            that weight limits have been tested with 3D Finite Element Method analysis. Scott Brusaw
+            also says that he used micro-inverters to confirm that Solar Roadways' panels performed
+            within 5% of theoretical values compared to regular rooftop solar panels. The company has
+            also collaborated with the DOT and various university labs for testing traction testing.
+            It will continue to test and report its findings to these organizations as product
+            development continues.</page>
 
         <page type="rsk_ana"> There are potential risks to using solar-powered roads. One of these
             is the strength of the glass panels. Solar Roadways uses tempered glass, and it
@@ -142,10 +158,12 @@
             <fsb> While the benefits of solar-powered roads are great in theory, there is not enough
                 evidence to prove that they could be practically implemented throughout the U.S. </fsb>
             <cond> At this time, the majority of testing has been completed at the Brusaws' home,
-                and the results have been self-reported. The DOT and other organizations would need
-                to independently test and verify the solar panels' performance. Also, Solar Roadways
-                would need to run a financial analysis of its product in order for any organization
-                to seriously consider financing it.</cond>
+                and the results have been self-reported. The DOT and other accredited organizations
+                would need to independently test and verify the solar panels' performance. These
+                tests would check for the panels' efficiency, durability, and safety using methods
+                described in Technical Feasibility and Success Criteria. Also, Solar Roadways would
+                need to run a financial analysis of its product in order for any organization to
+                seriously consider financing it.</cond>
             <sum>With the lack of official testing and the extreme cost of road replacement, it is
                 unfeasible to adopt these new types of roads across the country. While it may be
                 possible to expand this technology from the Brusaws' small prototype parking lot to
