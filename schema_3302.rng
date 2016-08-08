@@ -1965,8 +1965,8 @@
             </oneOrMore>
         </element>
     </define>
-    <define name="acknowledgement">
-        <element name="acknowledgement">
+    <define name="acknowledgment">
+        <element name="acknowledgment">
             <a:documentation> Optional element for saying thank you to the reader for their
                 time/consideration etc.</a:documentation>
             <ref name="macro.paraContent"/>
@@ -1985,7 +1985,7 @@
                 <ref name="pb"/>
             </optional>
             <optional>
-                <ref name="acknowledgement"/>
+                <ref name="acknowledgment"/>
             </optional>
         </element>
     </define>
