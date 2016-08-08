@@ -15,7 +15,8 @@
             <name>Monica Salas</name>
             <contact_info>
                 <!-- One or More Contact -->
-                <contact type="address">48 Saint Stephen St. Boston, MA 02115</contact>
+                <contact type="address">48 Saint Stephen St., Apt 4</contact>
+                <contact type="address">Boston, MA 02115</contact>
                 <contact type="phone"> 508-335-8828 </contact>
                 <contact type="email"> monicasalas114@gmail.com </contact>
             </contact_info>
@@ -25,63 +26,54 @@
 
         <intro_para>
             <intent type="purpose">I am writing to apply for the MotorSports development engineer
-                position at A123 Systems Inc. listed in NUCareers. <note type="peer" resp="#s_25"
-                    >Hiring committee might not know that NUCareers is, maybe say something
-                    like"career services website" instead</note>
-            </intent>
-            <reason>I am thrilled to see progress being made into the future of clean energy in the
-                automotive industry. I am also most driven in a work environment that keeps me on my
-                toes with both business development work and engineering based problem
-                solving.</reason>
-            <proposition>I think my experience working for both well established engineering
-                companies and fast paced start ups that are still establishing themselves gives me a
-                unique set of skills that are useful in process development.</proposition>
+                position at A123 Systems Inc. listed on Northeastern University’s job search
+                website.</intent>
+            <reason>I was excited to see a growing company invested in making progress into the
+                future of clean energy in the automotive industry.</reason>
+            <proposition>I have experience with startups similar to A123 and find that I am most
+                driven in such an environment. </proposition>
         </intro_para>
 
         <para_background>
-            <experience type="work">At my first co-op at Amphenol PCD, I was introduced to the types
-                of standards that needed to be met to serve customers in the military and aerospace
-                industries. I produced and followed standard operating procedures created by
-                companies like Raytheon and Boeing in the process of developing and supplying
-                quality electrical products for their assemblies. The rigorous standards implemented
-                at this job taught me the importance of well organized and effective documentation
-                of everything involved in an engineering company. It also taught me how necessary it
-                was to work creatively within the bounds of these SOPs in order to produce quality
-                end products. This job is also where I became accomplished using 3D modeling and
-                rapid prototyping programs such as Pro-E/Creo and 3D printing.</experience>
+            <experience type="work">Working at Amphenol PCD, I was introduced to the types of
+                standards mandated by military and aerospace industries. The rigorous standards
+                implemented on us by ITAR and military arms suppliers taught me the importance of
+                well-organized and effective documentation. This job is also where I became
+                accomplished using <programs>Pro-E/Creo</programs> and implementing <skills>quality
+                    control processes</skills>. </experience>
         </para_background>
 
         <para_background>
-            <experience type="work">In my experience working at Infinium, Inc., a material science
-                start up, I learned all about process development in a research environment. At this
-                company I worked on a small team to refine a process to create primary aluminum via
-                electrochemical processes. I modelled in AutoCAD inventor and helped to build
-                infrastructure for the developing process. I also performed material compatibility
-                tests and post experiment analysis using x-ray diffraction, scanning electron
-                microscopy, and data analysis in MatLab. </experience>
+            <experience type="work">While working at Infinium, Inc., I worked on a small research
+                team refining a process to create primary aluminum via electrolysis. I modelled in
+                    <programs>AutoCAD Inventor</programs> and helped to <skills>build
+                    infrastructure</skills> for the developing process. I also performed material
+                compatibility tests and <skills>post experiment analysis using x-ray diffraction,
+                    scanning electron microscopy, and data analysis</skills> in
+                    <programs>MatLab.</programs>
+            </experience>
         </para_background>
 
         <para_background>
-            <experience type="school">Aside from my work experience, I am a recent student at a
-                University <note type="peer" resp="#s_25">"recent graduate from Northeastern
-                    University which" might sound more impressive here</note>that emphasizes
-                professional development and entrepreneurship. In my labs and classes, I have
-                developed strong technical writing and communication skills, the ability to work
-                effectively with teams of people, and resourceful problem solving
-                skills.</experience>
+            <experience type="school">Aside from my work experience, I am a recent student at
+                Northeastern University. In my labs and classes, I have developed strong technical
+                writing and communication skills, the ability to work effectively with teams of
+                people, and resourceful problem solving skills. </experience>
         </para_background>
 
         <para_closing>
             <compatability>I believe I work best in a fast paced, energetic environment and think I
-                would be able to integrate well into a team like A123 Systems'
-                MotorSports.</compatability>
+                would be able to integrate well into a team like A123 Systems' MotorSports. </compatability>
             <next_step>I would welcome the opportunity to further discuss the position and my
-                qualifications in the near future. Thank you very much for your
-                consideration!</next_step>
+                qualifications in the near future. </next_step>
+            <acknowledgment>Thank you very much for your consideration! </acknowledgment>
         </para_closing>
 
         <signature>
             <salutation>Sincerely,</salutation>
+            <pb/>
+            <pb/>
+            <pb/>
             <name>Monica Salas</name>
         </signature>
 
