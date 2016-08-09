@@ -54,8 +54,7 @@
                 /> Hmmm, maybe we can just guess and check like this? <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_01_map_with_paths.png"
                 /> That’s nice and dandy and all, but we really shouldn’t depend on luck for these
-                things. What if we make this map a little more complicated? And what if we make this
-                map a little more complicated? <visual type="drawing"
+                things. What if we make this map a little more complicated? <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_02_complex_map.png"
                 /> Riiight… We need a more procedural way to do this. That’s where these guys come
                 in handy. <visual type="drawing"
@@ -123,7 +122,7 @@
                     type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_02_map_water.png?raw=true"
                 /> If we wanted to mark the body of water as more difficult to cross than the
-                grasslands, we can make the cost to cross it is greater. But for now, we’ll ignore
+                grasslands, we can make the cost to cross it greater than that of grass. But for now, we’ll ignore
                 any extra terrain until we meet A* for simplicity. <pb/> Now, if we haven’t reached
                 the nodes yet, how do we know that information? Ah, that’s a good point. Really, we
                 don’t know, so we will initialize all of the nodes, except A, with an infinite
@@ -171,7 +170,7 @@
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_08_dijkstra_04.png?raw=true"/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_09_dijkstra_05.png?raw=true"
-                /> Nice! Covered all the 10’s. Now, you continue. What nodes that haven’t been
+                /> Nice! Covered all the 10’s. Now, you continue. What nodes haven’t been
                 visited and have the lowest cost to A now? The diagonal nodes, so visit them and
                 inspect their neighbors to see if going through them gives their neighbors a lower
                 cost path to A (in this case it doesn’t). <visual type="drawing"
@@ -377,7 +376,7 @@
             <hr/>
             <citation style="APA" n="1">
                 <author n="1">Patrick Lester</author> (2005, Jul 18) <title level="a">A* Pathfinding
-                    for Beginners</title>. Retrieved from
+                    for Beginners</title>. Retrieved fromw
                 http://www.policyalmanac.org/games/aStarTutorial.htm. </citation>
             <citation style="APA" n="2">
                 <author n="1">Amit Patel</author> (2016, Jun). <title level="a">Introduction to
