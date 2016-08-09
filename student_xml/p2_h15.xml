@@ -32,6 +32,7 @@
             <pb/>
             <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
                 <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Comparisons</section_header>
                 <pb/>
             </list>
             <section_header>End: Expanding Horizons</section_header>
@@ -296,6 +297,7 @@
             <section_header>Chapter 3: More on A*</section_header>
             <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
                 <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Comparisons</section_header>
             </list>
             <hr/>
             <!-- Weighted Tiles -->
