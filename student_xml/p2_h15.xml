@@ -47,7 +47,7 @@
             <pb/>
 
             <section_header>A to B</section_header>
-
+            <pb/>
             <question>Okay, so I have this dilemma: How do I get from A to B as quickly as
                 possible?</question>
             <technical_principle n="1">
@@ -74,10 +74,9 @@
         </background>
         <answer>
             <!-- Graphs -->
-            <section_header>Connect The Dots: Graphs</section_header>
-            <technical_principle n="2">
-                <pb/> A graph is a collection of nodes or vertices, connected by edges. A square has
-                4 nodes and 4 edges: <visual type="drawing"
+            <section_header>Connect The Dots: Graphs</section_header><pb/>
+            <technical_principle n="2"> A graph is a collection of nodes or vertices, connected by
+                edges. A square has 4 nodes and 4 edges: <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_04_square.png"/>
                 <analogy> The nodes represent some sort of data, so we don’t need to depict them as
                     points like above. Think of constellations! <visual type="comic"
@@ -104,7 +103,7 @@
             <section_header>Chapter 2: Meet the Algorithms</section_header><pb/>
             <!-- Dijkstra's Algorithm -->
             <specific_topic n="1">
-                <section_header>Bro #1: Dijkstra’s Algorithm</section_header>
+                <section_header>Bro #1: Dijkstra’s Algorithm</section_header><pb/>
                 <analogy>Dijkstra's Algorithm is like a dog who's slow but very thorough in his
                     search.</analogy>
                 <visual type="drawing"
@@ -195,7 +194,7 @@
             <pb/>
             <!-- Best-First Search Algorithm -->
             <specific_topic n="2">
-                <section_header>Bro #2: Best-First Search Algorithm</section_header>
+                <section_header>Bro #2: Best-First Search Algorithm</section_header><pb/>
                 <analogy>Best-First Search is like a speedy bunny who is so focuses on the end goal
                     that he ends up ignoring potentially better paths.</analogy>
                 <visual type="drawing"
@@ -246,12 +245,11 @@
             all you really need to know, so let’s finally meet A*! <pb/>
             <!-- A* Is Born -->
             <explanation n="1">
-                <section_header>A* Is Born</section_header>
+                <section_header>A* Is Born</section_header><pb/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_01_astar_greeting.png?raw=true"
                 /> A* is a fusion of Dijkstra’s and Best-First. <visual type="comic"
-                    url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_02_fusion.png?raw=true"
-                    ></visual>
+                    url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_02_fusion.png?raw=true"/>
                 <pb/> He takes into account both the cost from the start to the current node and the
                 cost from the current node to the end. <pb/> F = G + H <pb/> Where <pb/> G = cost
                 from the start to the current node<pb/> H = estimated cost from the current node to
@@ -289,14 +287,14 @@
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_10_astar_path_parent.png?raw=true"
                 /> Nice looking path! Great job A*! Let’s dig a bit deeper though. </explanation>
             <!-- CHAPTER 3: More on A* -->
-            <section_header>Chapter 3: More on A*</section_header>
+            <section_header>Chapter 3: More on A*</section_header><pb/>
             <!-- Weighted Tiles -->
             <important_idea n="2">
-                <section_header>Weighted Tiles</section_header> Let’s say we decide to add a river
-                to our map. We can cross it, but it takes a lot of effort to, so we decide to add an
-                extra value of 30 on top of the normal 10 for going horizontal or 14 to go diagonal.
-                This will make the algorithm skirt around the river to find a less costly way to get
-                to B. <visual type="drawing"
+                <section_header>Weighted Tiles</section_header><pb/> Let’s say we decide to add a
+                river to our map. We can cross it, but it takes a lot of effort to, so we decide to
+                add an extra value of 30 on top of the normal 10 for going horizontal or 14 to go
+                diagonal. This will make the algorithm skirt around the river to find a less costly
+                way to get to B. <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_01_astar_river_1.png?raw=true"/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_02_astar_river_2.png?raw=true"/>
@@ -306,9 +304,9 @@
             </important_idea>
             <!-- Suboptimal Path -->
             <important_idea n="3">
-                <section_header>Suboptimal Path</section_header> Hey, A*! You’re doing so well! What
-                if we add to this river? Let’s go back to where it’ll change. At some point, we’ll
-                get here: <visual type="drawing"
+                <section_header>Suboptimal Path</section_header><pb/> Hey, A*! You’re doing so well!
+                What if we add to this river? Let’s go back to where it’ll change. At some point,
+                we’ll get here: <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_04_astar_bad_1.png?raw=true"
                 /> And after we run through completely, we’ll get this: <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_05_astar_bad_2.png?raw=true"
@@ -329,37 +327,38 @@
             </important_idea>
             <!-- Comparison -->
             <important_idea n="4">
-                <section_header>Comparison</section_header> Besides that occasional mishap, which
-                can be fixed with different implementations, A* is a good combination of Dijkstra’s
-                and Best-First. Let’s do a comparison of the algorithms. Below is a run-through of
-                the three algorithms on a large map. It’s important to note that diagonals are not
-                counted as neighbors here, so we can only move directly horizontally or vertically.
-                Dijkstra’s spends more time exploring the map and gets the correct shortest path.
-                Meanwhile, Best-First, doesn’t spend as much time exploring but also doesn’t find
-                the shortest path. Instead, he bumps into the wall before correcting himself.
-                Lastly, A* spends only a bit of time exploring and finds the correct path. <visual
-                    type="drawing"
+                <section_header>Comparison</section_header><pb/> Besides that occasional mishap,
+                which can be fixed with different implementations, A* is a good combination of
+                Dijkstra’s and Best-First. Let’s do a comparison of the algorithms. Below is a
+                run-through of the three algorithms on a large map. It’s important to note that
+                diagonals are not counted as neighbors here, so we can only move directly
+                horizontally or vertically. Dijkstra’s spends more time exploring the map and gets
+                the correct shortest path. Meanwhile, Best-First, doesn’t spend as much time
+                exploring but also doesn’t find the shortest path. Instead, he bumps into the wall
+                before correcting himself. Lastly, A* spends only a bit of time exploring and finds
+                the correct path. <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_09_algo_comparison.png?raw=true"
                     >http://www.redblobgames.com/pathfinding/a-star/introduction.html</visual>
             </important_idea>
             <!-- Expanding Horizons -->
             <conclusion>
-                <section_header>Expanding Horizons</section_header> There’s quite a lot you can do
-                with pathfinding! In this post, I showed you three pathfinding algorithms: Dijkstra’s, Best-First, and A*.
-                We focused on A* because it combines the efficiency of Dijkstra’s with the speed of
-                Best-First. A* is the most popular pathfinding algorithm in game development. If
-                you’re interested in learning more, start checking out how weights can affect your
-                units’ movements. For example, you can add them to particular terrain tiles like we
-                did above with the river or subtract them from tiles acting as stairs/teleporters,
-                which take you closer to the target. Also, your tiles don’t have to be squares. You
-                can use hexagonal shapes, and the algorithms still work the same. That actually
-                makes the math easier since the distance to each neighbor is equal. Additionally,
-                it’ll be good to consider movement restrictions, such as those dealing with cutting
-                corners or units that takes up more than one tile space. I recommend checking out
-                the sources below too. RedBlobGames provides great interactive visuals on the
-                algorithms. The author doesn’t use diagonal neighbors in his examples (so only a max
-                of four neighbors for a node), but don’t be confused! The algorithms work the same
-                way! <pb/> That’s all for now! Happy pathfinding! </conclusion>
+                <section_header>Expanding Horizons</section_header><pb/> There’s quite a lot you can
+                do with pathfinding! In this post, I showed you three pathfinding algorithms:
+                Dijkstra’s, Best-First, and A*. We focused on A* because it combines the efficiency
+                of Dijkstra’s with the speed of Best-First. A* is the most popular pathfinding
+                algorithm in game development. If you’re interested in learning more, start checking
+                out how weights can affect your units’ movements. For example, you can add them to
+                particular terrain tiles like we did above with the river or subtract them from
+                tiles acting as stairs/teleporters, which take you closer to the target. Also, your
+                tiles don’t have to be squares. You can use hexagonal shapes, and the algorithms
+                still work the same. That actually makes the math easier since the distance to each
+                neighbor is equal. Additionally, it’ll be good to consider movement restrictions,
+                such as those dealing with cutting corners or units that takes up more than one tile
+                space. I recommend checking out the sources below too. RedBlobGames provides great
+                interactive visuals on the algorithms. The author doesn’t use diagonal neighbors in
+                his examples (so only a max of four neighbors for a node), but don’t be confused!
+                The algorithms work the same way! <pb/> That’s all for now! Happy pathfinding!
+            </conclusion>
         </answer>
         <sources>
             <citation style="APA" n="1">
@@ -367,15 +366,16 @@
                     for Beginners</title>. Retrieved from
                 http://www.policyalmanac.org/games/aStarTutorial.htm. </citation>
             <citation style="APA" n="2">
-                <author n="1">Amit Patel</author> (2016, Jun). <title level="a">Introduction to A*</title>.
-                Retrieved from http://www.redblobgames.com/pathfinding/a-star/introduction.html. </citation>
+                <author n="1">Amit Patel</author> (2016, Jun). <title level="a">Introduction to
+                    A*</title>. Retrieved from
+                http://www.redblobgames.com/pathfinding/a-star/introduction.html. </citation>
             <citation style="APA" n="3">
                 <author n="1">Kevin Thompson</author> (n.d.). <title level="a">Taxicab
                     Geometry</title>. Retrieved from
                 http://taxicabgeometry.altervista.org/general/definitions.html. </citation>
             <citation style="APA" n="4">
-                <author n="1">hakimio</author> (2012, Feb 23). <title level="a">Hexagonal Grid: Path-finding
-                    Using A* Algorithm</title>. Retrieved from
+                <author n="1">hakimio</author> (2012, Feb 23). <title level="a">Hexagonal Grid:
+                    Path-finding Using A* Algorithm</title>. Retrieved from
                 https://tbswithunity3d.wordpress.com/2012/02/23/hexagonal-grid-path-finding-using-a-algorithm/
             </citation>
         </sources>
