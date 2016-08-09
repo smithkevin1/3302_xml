@@ -607,7 +607,7 @@
             <a:documentation>Visuals are any variety of in line imagery used to break up long
                 lengths of text, and/or aid in the understanding of a topic. Comics, pictures and
                 graphics are a few of the possible visuals that can be
-                used.<!-- Types can be: Photo, Comic, Drawing, Animation,
+                used [require @url].<!-- Types can be: Photo, Comic, Drawing, Animation,
                 Quoted Text, Other --></a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.resourced.attribute.url"/>
