@@ -35,15 +35,19 @@
         <para_background>
             <!-- One or More -->
             <experience type="work">During my time at Portal Instruments, another start up in the
-                area, I worked on a complex electromechanical assembly, which was later used as a in
-                human studies for a needle-free drug delivery device. This project involved a lot of
-                independent design, fabrication, and testing, which I believe is not unlike the work
-                I would be doing at Piaggio. At my last co-op at Bio-Rad, I worked mostly
-                independently on a piece of automation equipment, meant to automate a complex
-                manufacturing process of a DNA sequencing consumable. This involved the integration
-                of mechanical, electrical, and software concepts.</experience>
-            
-            
+                area, I worked on a <accomplishments>complex electromechanical assembly, which was
+                    later used as a in human studies for a needle-free drug delivery
+                    device.</accomplishments> This project involved a lot of independent
+                    <skills>design, fabrication, and testing,</skills> which I believe is not unlike
+                the work I would be doing at Piaggio. At my last co-op at Bio-Rad,
+                    <accomplishments>I worked mostly independently on a piece of automation
+                    equipment, meant to automate a complex manufacturing process of a DNA sequencing
+                    consumable.</accomplishments> This involved the integration of
+                    <skills>mechanical, electrical, and software disciplines</skills>. Specifically,
+                this meant extensive experience with <skills>CAD design of precision parts, wiring,</skills> and
+                <programs>programming a TRIO motion controller.</programs></experience>
+
+
             <experience type="personal">In addition to my work experience, I also participate in
                 AIAA, where I have begun to help with the mechanical design of an RC plane as well
                 as the electrical and software implementation of several components.<note
