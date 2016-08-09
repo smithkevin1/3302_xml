@@ -15,24 +15,24 @@
         <list type="roadmap">
             <section_header>Chapter 1: Introduction</section_header>
             <pb/>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>A to B</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Connect The Dots: Graphs</section_header>
+            <list type="roadmap"> -<section_header>A to B</section_header>
+                <pb/> -<section_header>Connect The Dots: Graphs</section_header>
                 <pb/>
             </list>
             <section_header>Chapter 2: Meet the Algorithms</section_header>
             <pb/>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>Bro #1: Dijkstra’s
+            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s
                     Algorithm</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Bro #2: Best-First Search
+                <pb/> -<section_header>Bro #2: Best-First Search
                     Algorithm</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>A* Is Born</section_header>
+                <pb/> -<section_header>A* Is Born</section_header>
                 <pb/>
             </list>
             <section_header>Chapter 3: More on A*</section_header>
             <pb/>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Comparisons</section_header>
+            <list type="roadmap"> -<section_header>Weighted Tiles</section_header>
+                <pb/> -<section_header>Suboptimal Path</section_header>
+                <pb/> -<section_header>Comparisons</section_header>
                 <pb/>
             </list>
             <section_header>End: Expanding Horizons</section_header>
@@ -42,8 +42,8 @@
         <!-- CHAPTER 1 -->
         <background>
             <section_header>Chapter 1: Introduction</section_header>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>A to B</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Connect The Dots: Graphs</section_header>
+            <list type="roadmap"> -<section_header>A to B</section_header>
+                <pb/> -<section_header>Connect The Dots: Graphs</section_header>
             </list>
             <hr/>
             <section_header>A to B</section_header>
@@ -100,11 +100,11 @@
             <!-- CHAPTER 2 -->
             <hr/>
             <section_header>Chapter 2: Meet the Algorithms</section_header>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>Bro #1: Dijkstra’s
+            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s
                     Algorithm</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Bro #2: Best-First Search
+                <pb/> -<section_header>Bro #2: Best-First Search
                     Algorithm</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>A* Is Born</section_header>
+                <pb/> -<section_header>A* Is Born</section_header>
             </list>
             <hr></hr>
             <!-- Dijkstra's Algorithm -->
@@ -295,9 +295,9 @@
             <!-- CHAPTER 3: More on A* -->
             <hr/>
             <section_header>Chapter 3: More on A*</section_header>
-            <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
-                <pb/> &nbsp;&nbsp;<section_header>Comparisons</section_header>
+            <list type="roadmap"> -<section_header>Weighted Tiles</section_header>
+                <pb/> -<section_header>Suboptimal Path</section_header>
+                <pb/> -<section_header>Comparisons</section_header>
             </list>
             <hr/>
             <!-- Weighted Tiles -->
