@@ -33,7 +33,7 @@
             threat. <list type="roadmap"> Better understanding <section_header>why there is
                 danger</section_header> will help us create a plan for <section_header>stopping
                     danger</section_header>. </list><pb/>
-            <section_header> Why There is Danger</section_header><pb/> If we negated threats
+            <section_header> Why There is Danger</section_header> If we negated threats
             stemming from the internet, the world wouldn't be devoid of cyber-danger, however the
             vast majority of problems would not exist. <technical_principle n="1">There is nothing
                 inherently scary about the internet, all it is, is the ability to transmit data
@@ -110,7 +110,7 @@
                 Change your admin password every few months. <pb/>4. Require passwords during
                 log-in.</specific_topic>
             <pb/>
-            <specific_topic n="3"><section_header>3. Patch Management</section_header><pb/>
+            <specific_topic n="3"><section_header>3. Patch Management</section_header>
                 <analogy>This is making sure your house is being maintained. </analogy> Remember those
                 good-guy programmers running on the treadmill? Well,<note type="peer">Insert
                     comma</note> all that work they're doing is no good if you don't download the
@@ -150,7 +150,7 @@
                 limited. <analogy>Together these features are the equivalent of washing your hands.
                 </analogy></explanation>
             <conclusion>
-                <section_header>Be safe out there!</section_header><pb/>We tend to think of
+                <section_header>Be safe out there!</section_header>We tend to think of
                 malicious programmers as working in late night hours to crack our security defenses.
                 While in certain cases this might be the case, <important_idea n="4">for the vast
                     majority of cases this is not so. Most in-home security breaches occur because
@@ -167,7 +167,7 @@
         </answer>
         <section_header>Sources Cited</section_header>
         
-        <pb/><sources><list type="generic"> • Wikipedia (Yes,<note type="peer">comma here and capitalize</note> Wikipedia!)
+        <sources><list type="generic"> • Wikipedia (Yes,<note type="peer">comma here and capitalize</note> Wikipedia!)
             has as <ref type="source" url="https://en.wikipedia.org/wiki/History_of_the_Internet"
                 >good a history of the internet as any.</ref>
             <pb/> • Lecture on the <ref type="source"
