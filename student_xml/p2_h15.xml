@@ -11,43 +11,41 @@
     </docHead>
     <blog_post>
         <!-- Table of Contents -->
+        <section_header>Table of Contents</section_header>
         <list type="roadmap">
             <section_header>Chapter 1: Introduction</section_header>
             <pb/>
-            <list type="roadmap">
-                <section_header>A to B</section_header>
-                <pb/>
-                <section_header>Connect The Dots: Graphs</section_header>
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>A to B</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Connect The Dots: Graphs</section_header>
                 <pb/>
             </list>
             <section_header>Chapter 2: Meet the Algorithms</section_header>
             <pb/>
-            <list type="roadmap">
-                <section_header>Bro #1: Dijkstra’s Algorithm</section_header>
-                <pb/>
-                <section_header>Bro #2: Best-First Search Algorithm</section_header>
-                <pb/>
-                <section_header>A* Is Born</section_header>
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>Bro #1: Dijkstra’s
+                    Algorithm</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Bro #2: Best-First Search
+                    Algorithm</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>A* Is Born</section_header>
                 <pb/>
             </list>
             <section_header>Chapter 3: More on A*</section_header>
             <pb/>
-            <list type="roadmap">
-                <section_header>Weighted Tiles</section_header>
-                <pb/>
-                <section_header>Suboptimal Path</section_header>
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
                 <pb/>
             </list>
-            <section_header>Expanding Horizons</section_header>
+            <section_header>End: Expanding Horizons</section_header>
             <pb/>
         </list>
+        <hr/>
         <!-- CHAPTER 1 -->
         <background>
             <section_header>Chapter 1: Introduction</section_header>
-            <pb/>
-
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>A to B</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Connect The Dots: Graphs</section_header>
+            </list>
+            <hr/>
             <section_header>A to B</section_header>
-            <pb/>
             <question>Okay, so I have this dilemma: How do I get from A to B as quickly as
                 possible?</question>
             <technical_principle n="1">
@@ -74,7 +72,7 @@
         </background>
         <answer>
             <!-- Graphs -->
-            <section_header>Connect The Dots: Graphs</section_header><pb/>
+            <section_header>Connect The Dots: Graphs</section_header>
             <technical_principle n="2"> A graph is a collection of nodes or vertices, connected by
                 edges. A square has 4 nodes and 4 edges: <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_04_square.png"/>
@@ -98,12 +96,20 @@
             </technical_principle> Got it? Great! We can finally move on to our three algo brothers.
                 <visual type="drawing"
                 url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_08_astar_eager.png"
-            /> Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first. <pb/>
+            /> Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first.
             <!-- CHAPTER 2 -->
-            <section_header>Chapter 2: Meet the Algorithms</section_header><pb/>
+            <hr/>
+            <section_header>Chapter 2: Meet the Algorithms</section_header>
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>Bro #1: Dijkstra’s
+                    Algorithm</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Bro #2: Best-First Search
+                    Algorithm</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>A* Is Born</section_header>
+            </list>
+            <hr></hr>
             <!-- Dijkstra's Algorithm -->
             <specific_topic n="1">
-                <section_header>Bro #1: Dijkstra’s Algorithm</section_header><pb/>
+                <section_header>Bro #1: Dijkstra’s Algorithm</section_header>
                 <analogy>Dijkstra's Algorithm is like a dog who's slow but very thorough in his
                     search.</analogy>
                 <visual type="drawing"
@@ -194,7 +200,7 @@
             <pb/>
             <!-- Best-First Search Algorithm -->
             <specific_topic n="2">
-                <section_header>Bro #2: Best-First Search Algorithm</section_header><pb/>
+                <section_header>Bro #2: Best-First Search Algorithm</section_header>
                 <analogy>Best-First Search is like a speedy bunny who is so focuses on the end goal
                     that he ends up ignoring potentially better paths.</analogy>
                 <visual type="drawing"
@@ -245,7 +251,7 @@
             all you really need to know, so let’s finally meet A*! <pb/>
             <!-- A* Is Born -->
             <explanation n="1">
-                <section_header>A* Is Born</section_header><pb/>
+                <section_header>A* Is Born</section_header>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_01_astar_greeting.png?raw=true"
                 /> A* is a fusion of Dijkstra’s and Best-First. <visual type="comic"
@@ -259,13 +265,13 @@
                 doesn’t take into account, like obstacles. We’ll go back to the steps outlined for
                 Dijkstra’s, except we will update it so that we inspect the nodes with the lowest F
                 cost first. <pb/> To begin the algorithm, we place A on the visited list and then
-                repeat the following steps until we run out of nodes to visit: <pb/>
-                <list type="generic"> (1) Find an unvisited node with the lowest F cost.<pb/> (2) Go
-                    to that node and mark it as visited. If the new node is our goal, stop the
-                    algorithm; else, go on to 3)<pb/> (3) Look at all of the neighbors of this new
-                    node. If the G cost of the path going from A to the neighbor in which we pass
-                    through the current node is shorter than any previous distance to the neighbor,
-                    update it with the shorter path (cost and parent).<pb/>
+                repeat the following steps until we run out of nodes to visit: <list type="generic">
+                    (1) Find an unvisited node with the lowest F cost.<pb/> (2) Go to that node and
+                    mark it as visited. If the new node is our goal, stop the algorithm; else, go on
+                    to 3)<pb/> (3) Look at all of the neighbors of this new node. If the G cost of
+                    the path going from A to the neighbor in which we pass through the current node
+                    is shorter than any previous distance to the neighbor, update it with the
+                    shorter path (cost and parent).<pb/>
                 </list> Alright, let’s go through our map now. <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_03_astar_1.png?raw=true"/>
                 <visual type="drawing"
@@ -287,14 +293,19 @@
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/4_astar/4_10_astar_path_parent.png?raw=true"
                 /> Nice looking path! Great job A*! Let’s dig a bit deeper though. </explanation>
             <!-- CHAPTER 3: More on A* -->
-            <section_header>Chapter 3: More on A*</section_header><pb/>
+            <hr/>
+            <section_header>Chapter 3: More on A*</section_header>
+            <list type="roadmap"> &nbsp;&nbsp;<section_header>Weighted Tiles</section_header>
+                <pb/> &nbsp;&nbsp;<section_header>Suboptimal Path</section_header>
+            </list>
+            <hr/>
             <!-- Weighted Tiles -->
             <important_idea n="2">
-                <section_header>Weighted Tiles</section_header><pb/> Let’s say we decide to add a
-                river to our map. We can cross it, but it takes a lot of effort to, so we decide to
-                add an extra value of 30 on top of the normal 10 for going horizontal or 14 to go
-                diagonal. This will make the algorithm skirt around the river to find a less costly
-                way to get to B. <visual type="drawing"
+                <section_header>Weighted Tiles</section_header> Let’s say we decide to add a river
+                to our map. We can cross it, but it takes a lot of effort to, so we decide to add an
+                extra value of 30 on top of the normal 10 for going horizontal or 14 to go diagonal.
+                This will make the algorithm skirt around the river to find a less costly way to get
+                to B. <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_01_astar_river_1.png?raw=true"/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_02_astar_river_2.png?raw=true"/>
@@ -304,9 +315,9 @@
             </important_idea>
             <!-- Suboptimal Path -->
             <important_idea n="3">
-                <section_header>Suboptimal Path</section_header><pb/> Hey, A*! You’re doing so well!
-                What if we add to this river? Let’s go back to where it’ll change. At some point,
-                we’ll get here: <visual type="drawing"
+                <section_header>Suboptimal Path</section_header> Hey, A*! You’re doing so well! What
+                if we add to this river? Let’s go back to where it’ll change. At some point, we’ll
+                get here: <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_04_astar_bad_1.png?raw=true"
                 /> And after we run through completely, we’ll get this: <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/5_more/5_05_astar_bad_2.png?raw=true"
@@ -327,7 +338,7 @@
             </important_idea>
             <!-- Comparison -->
             <important_idea n="4">
-                <section_header>Comparison</section_header><pb/> Besides that occasional mishap,
+                <pb/><section_header>Comparison</section_header> Besides that occasional mishap,
                 which can be fixed with different implementations, A* is a good combination of
                 Dijkstra’s and Best-First. Let’s do a comparison of the algorithms. Below is a
                 run-through of the three algorithms on a large map. It’s important to note that
@@ -342,25 +353,28 @@
             </important_idea>
             <!-- Expanding Horizons -->
             <conclusion>
-                <section_header>Expanding Horizons</section_header><pb/> There’s quite a lot you can
-                do with pathfinding! In this post, I showed you three pathfinding algorithms:
-                Dijkstra’s, Best-First, and A*. We focused on A* because it combines the efficiency
-                of Dijkstra’s with the speed of Best-First. A* is the most popular pathfinding
-                algorithm in game development. If you’re interested in learning more, start checking
-                out how weights can affect your units’ movements. For example, you can add them to
-                particular terrain tiles like we did above with the river or subtract them from
-                tiles acting as stairs/teleporters, which take you closer to the target. Also, your
-                tiles don’t have to be squares. You can use hexagonal shapes, and the algorithms
-                still work the same. That actually makes the math easier since the distance to each
-                neighbor is equal. Additionally, it’ll be good to consider movement restrictions,
-                such as those dealing with cutting corners or units that takes up more than one tile
-                space. I recommend checking out the sources below too. RedBlobGames provides great
-                interactive visuals on the algorithms. The author doesn’t use diagonal neighbors in
-                his examples (so only a max of four neighbors for a node), but don’t be confused!
-                The algorithms work the same way! <pb/> That’s all for now! Happy pathfinding!
-            </conclusion>
+                <hr/><section_header>End: Expanding Horizons</section_header><hr/> There’s quite a
+                lot you can do with pathfinding! In this post, I showed you three pathfinding
+                algorithms: Dijkstra’s, Best-First, and A*. We focused on A* because it combines the
+                efficiency of Dijkstra’s with the speed of Best-First. A* is the most popular
+                pathfinding algorithm in game development. If you’re interested in learning more,
+                start checking out how weights can affect your units’ movements. For example, you
+                can add them to particular terrain tiles like we did above with the river or
+                subtract them from tiles acting as stairs/teleporters, which take you closer to the
+                target. Also, your tiles don’t have to be squares. You can use hexagonal shapes, and
+                the algorithms still work the same. That actually makes the math easier since the
+                distance to each neighbor is equal. Additionally, it’ll be good to consider movement
+                restrictions, such as those dealing with cutting corners or units that takes up more
+                than one tile space. I recommend checking out the sources below too. RedBlobGames
+                provides great interactive visuals on the algorithms. The author doesn’t use
+                diagonal neighbors in his examples (so only a max of four neighbors for a node), but
+                don’t be confused! The algorithms work the same way! <pb/> That’s all for now! Happy
+                pathfinding! </conclusion>
         </answer>
         <sources>
+            <hr/>
+            <section_header>Sources</section_header>
+            <hr/>
             <citation style="APA" n="1">
                 <author n="1">Patrick Lester</author> (2005, Jul 18) <title level="a">A* Pathfinding
                     for Beginners</title>. Retrieved from
