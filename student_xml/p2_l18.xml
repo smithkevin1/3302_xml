@@ -15,30 +15,32 @@
                 <!-- One or More Contact -->
                 <contact type="phone"> 410-660-1969 </contact>
                 <contact type="email"> djlieman712@gmail.com </contact>
+                <contact type="address">4674 Shelley Lane, Ellicott City MD 21043</contact>
             </contact_info> 
         </header>
         <greeting>Hello Mathworks,</greeting>
         <intro_para>
-            <intent type="Purpose">I am interested in <note type="peer">working as a </note> C++ Engineer - Physical Modeling Electrical Simulation at Mathworks.</intent>
-            <reason><!-- Optional --> I have enjoyed my work with Simulation Engineering in
-                the past</reason> and <proposition>I think I will bring all the necessary abilities to go above and beyond my job
-                    requirements.</proposition>
+            <intent type="Purpose">I am interested in the C++ Software Engineer job posted on LinkedIn.</intent>
+            <reason><!-- Optional --> I have enjoyed my work with C++ in
+                the past and I think Mathworks provides valuable tools for numerous technical professions.</reason>  <proposition>I look forward to solving interesting problems in a high paced enviroment.</proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="work">I bring previous experience with C++ from my work at RKF ENgineering. I used C++ while contributing to their satellite communication simulations.</experience>
-            <experience type="school">I have used your software before in my classes.  I also have experience with AC and linear analysis.</experience>
+            <experience type="work">I bring previous experience with <programs>C++ 11</programs> from my work at RKF Engineering. I used C++ while contributing to their satellite communication simulations.  
+                There I became familiar with <skills>multithreading</skills> techniques.  I also was one of the main testers in the company so 
+                I both have experience in <skills>debugging</skills> and reporting bugs.</experience>
+            <experience type="school">I have used <programs>MATLAB</programs> before in my classes, so I appreciate the work Mathworks does. 
+                Your Simulink software in particular has been helpful: one of my more memorable school projects used in in the <accomplishments>controls for a robotic arm</accomplishments>.</experience>
         </para_background>
         <para_closing>
-            <compatability>I think I will fit in well with the Mathworks.</compatability>  <note type="peer" resp="#m21" > check grammar </note>
+            <compatability>I think I will fit in well with Mathworks, and</compatability>  <note type="peer" resp="#m21" > check grammar </note>
               
-            <next_step>I hope you will email me at djlieman712@gmail.com so we can discuss the next step in
-                the hiring process.</next_step>  <note type="peer" resp="#m21" >you do not know if there is a next step for you
+            <next_step>I hope we can further discuss what I can do for Mathworks.</next_step>  <note type="peer" resp="#m21" >you do not know if there is a next step for you
                 -you should sound more open ended with more of a "I hope to hear back from you" attitude.</note>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
-            <name>JDaniel Lieman</name>
+            <name>Daniel Lieman</name>
         </signature>
     </cover_letter>
         
