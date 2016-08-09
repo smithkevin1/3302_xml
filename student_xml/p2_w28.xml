@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project Proposal</title>
         <author xml:id="your_id_here">Samantha Wagner</author>
-        <version n="1" date="2016-07-31"/>
+        <version n="2" date="2016-08-09"/>
     </docHead>
 
     <pub_init_proposal>
@@ -14,7 +14,7 @@
             <title>City Center Park Redesign</title>
             <author>JPP Egineering and Urban Planning</author>
             <submit_date>September 1st 2016</submit_date>
-            <audience> To: Members of the Board of Trustees and residents of the city of Kirkland
+            <audience> To: Members of the Board of Trustees and residents of the city of Kirkland,
                 Washington </audience>
         </cover_page>
 
@@ -43,7 +43,7 @@
             <p>
                 <crnt_cond> Located at 111 Waverly Way in Kirkland, City Center Park currently
                     serves as the city's second largest communal gathering space within city limits.
-                    The large expanse of land has become overgrown with weeds and blackberry bushes.
+                    The large plot of land has become overgrown with weeds and blackberry bushes.
                     <!-- can include <q> element(s) for quoted material -->
                 </crnt_cond>
                 <subj_hist> As the site of the former junior high school which burned down in 1987,
@@ -60,15 +60,15 @@
 
         <purpose>
             <p>
-                <scope type="when"> In the summer of 2017, the city of Kenmore hopes to begin
+                <scope type="when"> In the summer of 2017, the city of Kirkland hopes to begin
                     construction on the vacant lot turned community park in hopes of realizing its
                     value to the community and the organizations within it. </scope>
                 <!--attribute options: what, who, when, where-->
                 <scope type="who"> When completed this project will bring greatly added value to the
                     city and to its residence in many forms. </scope>
-                <objective> The proposed project includes a multi-purpose turf sports feild with
-                    small grandstand seating to serve as a practice area and play space for local
-                    teams. It will include a ecofriendly play space by updating and reinforcing the
+                <objective> The proposed project includes a multi-purpose turf sports feild with a
+                    small grandstand seating area to serve as a practice and game space for local
+                    teams. It will include an ecofriendly play area by updating and reinforcing the
                     existing structure made out of local recycled materials. The existing lookout
                     point at the top of the park's hill will be enhanced with a sculptural totem
                     pole designed and carved by local artists and craftsman. All of which will be
@@ -106,10 +106,10 @@
                     for City Center Park would maximize its usefulness to the community while
                     maintaining minimal costs to the city and its residence. The phases of this
                     project are broken up into four main catergories which can be constructed all at
-                    once on in progression depending on finances and disruption to the surrounding
-                    neighborhoods. The first, and most critical phase involves clearing the bramble
+                    once or in progression depending on finances and disruption to the surrounding
+                    neighborhoods. The first, and most critical phase involves clearing the brambles
                     that covers this already well graded plot of land and removing any remaining
-                    building debris and possibly hazardous waste that may remain on the site. The
+                    building debris and possible hazardous waste that may remain on the site. The
                     second phase includes structurally fortifying and updating the existing recycled
                     play structure and surrounding picnic spaces. This phase can be followed by
                     either the addition of a new multipurpose terf feild and small grandstand area
@@ -127,13 +127,12 @@
                     cover the relatively low costs of this project. Much of the groundwork for this
                     park has already been laid over the past 20 to 30 years through the small
                     neighborhood improvement projects that have taken place. The main cost for this
-                    improvement will be the leveling and placement of the multipurpose terf sports
-                    field. Otherwise art fixtures and building materials will be made of primarily
-                    donated or local recycled materials and repurposed for the park
-                    fixtures.</economic></p>
+                    improvement will be the leveling and placement of the sports field. Otherwise
+                    art fixtures and building materials will be made of primarily donated or local
+                    recycled materials.</economic></p>
             <p><social>Socially, this community space would add exponential value to the surrounding
                     properties and to the lives of those living within and around the city of
-                    Kirkland. By removing any remaining structural debris from the old school and
+                    Kirkland. Removing any remaining structural debris from the old school and
                     reintroducing local plant life back to the land would help to not only improve
                     the local ecosystem and environment, it would help to stabilize the soft soils
                     and loose gravel that makes up the existing ridge at the edge of the park.
@@ -150,7 +149,11 @@
         </conclu>
 
         <references>
-            <citation n="" style="MLA"> </citation>
+            <citation n="1" style="MLA"> United States. National Park Service. "Learn and Explore
+                (US National Park Service)." U.S. Department of the Interior, n.d. Web. 02 Aug.
+                2016.</citation>
+            <citation n="2" style="MLA">"Online Parks Guide." City of Kirkland, Feb. 2014. Web. 02
+                Aug. 2016.</citation>
         </references>
     </pub_init_proposal>
 
