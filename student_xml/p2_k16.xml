@@ -69,10 +69,10 @@
                 dog photos. It can go through the photos and identify differing features between
                 poodles and huskies, such as pointless of it’s ears. The way it identifies these
                 features is by using something called a “convolutional neural network”, but that is
-                another whole can of worms, but you can read more about them in <ref
+                another whole can of worms (you can read more about them in <ref
                     type="supplement"
                     url="https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.v1l1nui91"
-                    >a blog post here</ref> if you're interested. Now since we want the
+                    >a blog post here</ref> if you're interested). Now since we want the
                 classification equation to output a number between 0 and 0.5 if we have a poodle and
                 0.5 and 1 if we have a husky, the computer will form the equation in a way so that
                 the pointier the ears are, the higher number the equation will output. We can see
