@@ -14,13 +14,13 @@
         <page type="ttl">
             
             <contributors>Seth Bakes</contributors>
-            <date>01 August 2016</date>
+            <date>09 August 2016</date>
             <title>Revamping MyNEU COOL</title>
             
         </page>
         
         <!-- Table of Contents, Page 2 -->
-        <page>
+        <page type="tbl_contents">
             
             <sect lvl="1" n="1">Executive Summary</sect>
             <sect lvl="1" n="2">Preliminary Requirements Analysis</sect>
