@@ -29,7 +29,14 @@
 
         <intro type="abstract">
             <!--attribute options: ltr_int, exec_sum, abstract-->
-            <p><!--text to be typed at the end here--></p>
+            <p>The city of Kirkland has published a local request for proposals regarding community
+                improvements at 111 Waverly Way. Currently the empty lot sits partially revamped and
+                partially baren and overgrown with brambles. Our proposal is to completely update
+                the existing park with modern features and sustainable structures. This space holds
+                immense potential to bring added value to the community and meet the needs of a
+                growing and diversifying neighborhood. This project proposal is broken down into
+                four distinct phases so as to allow for flexibility in developement as funds and
+                resources become available to the city. </p>
         </intro>
 
         <background>
