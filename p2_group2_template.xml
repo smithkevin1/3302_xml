@@ -9,67 +9,92 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <fsb_rpt>
-        container element for writing project 2. Contains any number of pages.
-        <page type="" >
-            <!--attribute options: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb, @sccs_crt, @dsn, @cost, 
-            @rpt, @rsk_ana, @fnc, and @conc-->
-            Representing any page of the feasibility report.
-            <sect num="">
-                <!--attribute options:@lvl-->   
-                (Section) is an element for each listing in the tbl_contents page
-            </sect>
-            <app_ovr type="">
-                <!--attributte options: @obj, @synergy, @rls-->
-                Application overview is a highlight of certain element of the application
+        
+        <page type="tbl_contents">
+            <!-- lvl denotes tabbing. 1 is all the way left and roman numerals, 
+                2 is one tab right and letters.
+                n denotes which number or letter. 1 is I, 2 is II. If lvl is 2,
+                1 is A, 2 is B, etc. -->
+            <sect lvl="1" n="1">First Section</sect>
+            <sect lvl="1" n="2">Second Section</sect>
+            <sect lvl="2" n="1">First subsection of Second Section</sect>
+            <sect lvl="2" n="2">Second subsection of Second Section</sect>
+            <sect lvl="1" n="3">Third Section</sect>
+            <!-- Shows up as:
+                I. First Section
+                II. Second Section
+                    A. First subsection of Second Section
+                    B. Second subsection of Second Section
+                III. Third Section
+                    -->
+        </page>
+        
+        <page type="exec_sum">
+            <!-- Quick summary of whole report -->
+        </page>
+        
+        <page type="pre_req_ana">
+            <!-- at least one app_ovr element required-->
+            <app_ovr type="obj">
+                <!-- Can be of type "obj, synergy, or rls". Highlights certain
+                    element of the project/idea
+                -->
             </app_ovr>
-            
-            <fsb_hlgt type="" num="">
-                Body of this element is the general summary of this aspect of feasibility
+        </page>
+        
+        <page type="fsb">
+            <!-- at least one fsb_hlgt required-->
+            <fsb_hlgt type="econ">
+                <!-- can be of type "tcnl, econ, tfrm, socl, suits, or envr".
+                Provides a general summary of feasibility of the type specified
+                -->
             </fsb_hlgt>
-            
-            <req_sect>
-                details a sections of requirements. Strictly related to the project’s components
-                <req num="">
-                    This is a requirement.
-                </req>
+        </page>
+        
+        <page type="sccs_crt">
+            <!-- at least one req_sect element required-->
+            <req_sect>Title of Requirement Section
+                <req n="1"></req>
+                <req n="2"></req>
             </req_sect>
             
-            <est type="">
-                <!--attribute options: @inst, @envr, @lgl, @fnc -->
-                represents an estimated cost
-            </est>
-            
-            <tmln date="" num="">
-                <!--attribute options: @date(writen in mm/dd/yyyy) and will be bold with the text following it. 
-                    Each <tmln> will have a line between them of blank space.-->
-                The tmln element is an optional element design to provide a timeline entry
-            </tmln>
-            
-            <fnc num="" type="">
-                <!--attribute options:@fund, @lns, @exp, @brdn--> 
-                financial highlight
+            <req_sect>Title of Requirement Section 2
+                <req n="1"></req>
+                <req n="2"></req>
+            </req_sect>
+        </page>
+        
+        <page type="dsn">
+            <img url="insert_url_here.com">Caption of image</img>
+        </page>
+        
+        <page type="rpt">
+            <tmln date="2016-10-14">First progress report </tmln>
+            <tmln date="2016-10-08">Second progress report</tmln>
+        </page>
+        
+        <page type="rsk_ana">
+            <!-- Discuss risks associated with problem and how to address -->
+        </page>
+        
+        <page type="fnc">
+            <!-- at least one fnc elements -->
+            <fnc type="exp" n="1">
+                <!-- possible types are "exp, fund, lns, brdn". Contains financial plan.-->
             </fnc>
             
-            <Fsb>
-                This element is used to answer your thoughts on the question “Is it feasible” and why.
-            </Fsb>
-            
-            <cond>  
-                This element is used to identify the key conditions for feasibility.
-            </cond>
-            
-            <sum>
-                This element summarizes the whole report.
-            </sum>
-            
+            <fnc type="fund" n="2">Financial statement 2</fnc>
         </page>
-                        
         
+        <page type= "conc">
+            <!-- One of each of the following -->
+            <fsb><!-- Thoughts on is it feasibile? --></fsb>
+            <cond><!-- Identify key conditions for feasibility --></cond>
+            <sum><!-- Summarizes the report --></sum>
+        </page>
     </fsb_rpt>
-
-    
     
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>

@@ -5,7 +5,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>P2 Cover LEtter</title>
         <author xml:id="m21">Your name here<note type="peer" resp="#l18">Forgot name</note></author>
-        <version n="1" date="2016-07-29"/>
+        <version n="2" date="2016-07-29"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     <cover_letter>
@@ -13,7 +13,8 @@
             <name>Chris Murphy</name>
             <contact_info>
                 <!-- One or More Contact -->
-                <contact type="address">50 River Farm Drive, East Greenwich, RI 02818</contact>
+                <contact type="address">50 River Farm Drive</contact>
+                <contact type="address">East Greenwich, RI 02818</contact>
                 <contact type="phone"> 401-864-2559 </contact>
                 <contact type="email"> murphy.christo@husky.neu.edu </contact>
             </contact_info>
@@ -22,7 +23,7 @@
         <intro_para>
             <intent type="Purpose">I am writing to apply for an HVAC engineer co-op position,
             </intent>
-            <intent type="Connection"><!-- Optional --> which I discovered through my previous boss,
+            <intent type="Connection"><!-- Optional --> which I was recommneded for through my previous boss,
                 John Donahue at Control Consultants Inc.</intent> 
             <reason><!-- Optional --> I am currently enrolled in a BS/MS program at Northeastern University 
                 for Mechanical Engineering and Engineering Management and am looking to gain hands-on experience 
@@ -30,23 +31,24 @@
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="school">As a mechanical engineering major, I have experience with thermodynamics, 
-                fluid dynamics, heat transfer, and software skills with AutoCAD and SolidWorks. </experience>
+            <experience type="school">Through my rigorous coursework, I have gained experience with thermodynamics, 
+                fluid dynamics, heat transfer, and modeling skills with <programs>AutoCAD</programs>and <programs>SolidWorks</programs>. </experience>
             <experience type="work">During my last coop, I gained valuable experience in the HVAC control field; 
-                I was responsible for creating point lists for incoming jobs and AutoCAD system drawings for approved 
-                jobs.</experience>
-            <experience type="personal"><note type="peer" resp="#l18">type for internship should be work</note> Due to a previous internship, I also have minor experience in the water 
+                I was responsible for <skils>creating point lists</skils> for incoming jobs and AutoCAD system drawings for approved 
+                jobs. I routinely contacted contractors regarding plans and visited active sites to perform inspections</experience>
+            <experience type="work"> Due to a previous internship, I also have experience in the water 
                 utility and treatment field.</experience>
-            <experience type="school"><note type="peer" resp="#l18">type for professional orgs should probaly be personal</note>This coming fall I also plan on joining NUMCAA to further my experience 
+            <experience type="personal">This coming fall I also plan on joining NUMCAA to further my experience 
                 with mechanical contracting. </experience>
         </para_background>
         <para_closing>
             <compatability>EMCOR is one of the leading mechanical contractors in the Boston metropolitan area. 
                 After my previous experience with HVAC controls, I am looking to broaden my skills in mechanical 
                 contracting and I believe working at EMCOR would be a challenging and rewarding path to new 
-                knowledge in the industry. <note type="peer" resp="#l18">this is more reason than compatability</note></compatability>
-            <next_step>I am eager to start my future in the HVAC industry and appreciate your consideration for 
-                a position at EMCOR Northeast. I look forward to hearing from you soon. <note type="peer" resp="#l18">you might want to mention preferred mode of communication</note></next_step>
+                knowledge in the industry. I trust that I would be a driven candidate capable of taking on the 
+                adversity and problem solving needed when in the office or out in the field. </compatability>
+            <next_step><pb/>I am eager to start my future in the HVAC industry and appreciate your consideration for 
+                a position at EMCOR Northeast. I look forward to hearing from you soon.</next_step>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
@@ -69,6 +71,9 @@
                 "EMCOR is one of the leading mechanical contractors in the Boston metropolitan area".
                 Try doing some research on the company culture or impressive projects it has done.  </p>
         </report>
+        
+        
+        
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
             <p>Comments on assignment will appear here.</p>

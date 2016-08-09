@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Writing Project 2</title>
         <author xml:id="c12">Brent Christy</author>
-        <version n="1" date="2016-08-01"/>
+        <version n="2" date="2016-08-01"/>
     </docHead>
 
     <fsb_rpt>
@@ -20,8 +20,8 @@
             <sect n="1" lvl="1">Executive Summary</sect>
             <sect n="2" lvl="1">Preliminary Requirements</sect>
             <sect n="3" lvl="1">Feasibility</sect>
-            <sect n="4" lvl="2">Technical</sect>
-            <sect n="5" lvl="2">Economic</sect>
+            <sect n="1" lvl="2">Technical</sect>
+            <sect n="2" lvl="2">Economic</sect>
             <sect n="6" lvl="1">Success Criteria</sect>
             <sect n="7" lvl="1">Design</sect>
             <sect n="8" lvl="1">Cost Estimate</sect>
@@ -43,8 +43,10 @@
                 times.</app_ovr>
             <app_ovr type="synergy"> The proposed system will utilize the current traffic control
                 system which has central control of 544 of 845 lights operated by the Boston
-                Transportation Department. The program will also utilize several sensors present at
-                some stop lights throughout the city.</app_ovr>
+                Transportation Department
+                    <ref>https://www.cityofboston.gov/images_documents/TMC%20Annual%20Report%20FY2013_tcm3-40150.pdf</ref>.
+                The program will also utilize several sensors present at some stop lights throughout
+                the city.</app_ovr>
             <app_ovr type="rls">The proposed system will have to comply will all state and federal
                 laws regarding traffic signals.</app_ovr>
         </page>
@@ -68,9 +70,6 @@
                 lights and receive the sensor data from the main intersections. The network can
                 leverage several papers already written on the subject of traffic control with
                 neural networks. </fsb_hlgt>
-        </page>
-
-        <page type="fsb">
             <fsb_hlgt type="econ">The effective costs of the project will go to three categories:
                 connecting the lights to the central network, adding sensors to main intersections,
                 and coding the neural network. The majority of the cost will go towards the
@@ -80,39 +79,81 @@
         </page>
 
         <page type="sccs_crt">
-            <req_sect>
-                <req n="1"> 1. Connect all traffic lights to central network </req>
-                <req n="2"> 2. Sensors installed at major intersections </req>
-                <req n="3"> 3. Network autonomously operates </req>
-                <req n="4"> 4. Timings adjust depending on current conditions </req>
+            <req_sect>Installation
+                <req n="1" title="Central Network"> All traffic lights must be connected to a central network.
+                This will allow all signals to be controlled by the neural network implemented in a central
+                location.</req>
+                <req n="2" title="Sensors Installed"> Pressure and visual sensors must be added to 
+                high traffic volume intersections throughout the city. This will allow the neural
+                network to adjust the signal timings based on current conditions.</req>
+            </req_sect>
+            
+            <req_sect>Software Components
+                <req n="3" title="Autonomously operating"> The timing system must be able to 
+                autonomously operate. Once implemented, the traffic control system should
+                not require human input unless under extreme circumstances. It should be able to 
+                learn from previous traffic situations and improve its handling of traffic flow
+                in these situations. </req>
+                <req n="4" title="Current Condition Adjustment"> The traffic control system must be able
+                to adjust the timings of lights based on the current conditions. Based on the
+                inputs from sensors at different locations in the city, the traffic control system should 
+                change the timing.</req>
             </req_sect>
         </page>
 
         <page type="dsn">
             <img
                 url="http://image.slidesharecdn.com/neuralnetworkforreal-timetrafficsignalcontrol-150206235042-conversion-gate02/95/neural-network-for-real-time-traffic-signal-control-7-638.jpg?cb=1423266888"
-            />
+                >Neural Network Structure</img>
         </page>
 
         <page type="cost">
-            <est type="fnc">$1,000 per light to connect each to the central network. (301 lights) =
-                $301,000</est>
+            <est type="fnc">$5,000 per light to connect each to the central network. (301 lights) =
+                $1,505,000</est>
             <est type="fnc">$2,000 per intersection that needs sensors (50 intersections) =
                 $100,000</est>
             <est type="fnc">$500,000 to develop neural network</est>
         </page>
 
+        <page type="rpt">
+            <tmln date="2017-01-01" n="1"> Neural Network Development: The software team will begin neural network
+            development. </tmln>
+            
+            <tmln date="2017-03-01"> Sensor Installation: Sensors will begin to be installed at major
+            intersections.</tmln>
+            
+            <tmln date="2017-03-15"> Connection of lights: Unconnected lights will begin to be connected
+            to the central network.</tmln>
+            
+            <tmln date="2017-06-01"> Neural Network Check-In: The neural network team should have a working
+            model by this point. It should be tested with model data to check accuracy. At this point,
+            some sensors will be installed at major intersections and the network can begin to learn.</tmln>
+            
+            <tmln date="2017-11-01"> Installation and Connection Check-in: 150 of the previously disconnected
+                lights should be connected to the central network at this point. All sensors should be installed
+                at major intersections.
+            </tmln>
+            
+            <tmln date="2017-12-01"> Neural Network Implementation Roll-out: Traffic signals will start to be
+            controlled by the neural network at this point. </tmln>
+        </page>
+
         <page type="rsk_ana"> There are several potential risks to this system. One risk is lights
             getting disconnected from the central system. This can be combated by having preset
-            timers as backups to the network timing. Another risk is the introduction of self
-            driving cars. Self driving cars may eliminate the need for traffic signals which would
-            prove the system useless. </page>
+            timers as backups to the network timing. Preset timers is the current format, so this
+            backup would not add much extra work to the system. Another risk is the introduction of
+            self driving cars. Self driving cars may eliminate the need for traffic signals which
+            would prove the system useless. In order for traffic signals to become useless, all cars
+            would need to be autonomous. This is not likely to happen, as there are many cars on the
+            that people will want to continue to drive despite the availability of autonomously
+            driving cars.
+        </page>
 
         <page type="conc">
             <fsb>Given the current budget and technology, it appears to be reasonable to complete
-                this task within the proposed ten year time frame. With much research already done on
-                the subject of neural networks, it would be reasonable to create over the course of
-                several years.</fsb>
+                this task within the proposed ten year time frame. With much research already done
+                on the subject of neural networks, it would be reasonable to create over the course
+                of several years.</fsb>
             <cond>Despite budget concerns throughout the city, this would be a good allocation of
                 funds to increase the quality of life of workers around the area.</cond>
             <sum>The project appears to be technically feasible in that all proposed actions can be
@@ -128,21 +169,25 @@
     <docReview>
         <reviewer type="peer" xml:id="m20">Chi Mo</reviewer>
         <report type="peer" resp="#m20">
-            <p>
-                After reading this feasibility report about the traffic lights neural network, I can see that the feasibility report 
-                is well organized and easy to understand. After a glance, the report looks feasible. It looks like the author is trying 
-                to make the Boston’s traffic signal more efficient. I don’t understand where does the number 544 of traffic lights come 
-                from? It doesn’t have any explanation of it. It has two feasibility pages which I’m confused so I went through the XML 
-                page and realized that they are in different types. I feel like it can be one page with two paragraphs. In this draft, 
-                it doesn’t have the report page and financial page. I think it won’t hurt to have these two pages since they are the part 
-                of the schema and may influence the audience’s decision after they read the report. In the risk analysis page, the author 
-                should not only mention the risk but also explain how will this project reduce some of the risk. You can’t let people know 
-                the risk but no solving plans to it. Also, how is the current Boston traffic signal set up? Why does it need to be changed 
-                into a neural network? I think it will be better if the author mentioned these. The author uses most of the schema in the 
-                same way that we think when we develop the schema. In the success criteria, I’m not sure it we need more words to explain 
-                it or just do the same as the author did in bullet points? The schema is well formed and easy to use, thus, the rules of 
-                the schema is easy to follow as the author did.  
-            </p>
+            <p> After reading this feasibility report about the traffic lights neural network, I can
+                see that the feasibility report is well organized and easy to understand. After a
+                glance, the report looks feasible. It looks like the author is trying to make the
+                Boston’s traffic signal more efficient. I don’t understand where does the number 544
+                of traffic lights come from? It doesn’t have any explanation of it. It has two
+                feasibility pages which I’m confused so I went through the XML page and realized
+                that they are in different types. I feel like it can be one page with two
+                paragraphs. In this draft, it doesn’t have the report page and financial page. I
+                think it won’t hurt to have these two pages since they are the part of the schema
+                and may influence the audience’s decision after they read the report. In the risk
+                analysis page, the author should not only mention the risk but also explain how will
+                this project reduce some of the risk. You can’t let people know the risk but no
+                solving plans to it. Also, how is the current Boston traffic signal set up? Why does
+                it need to be changed into a neural network? I think it will be better if the author
+                mentioned these. The author uses most of the schema in the same way that we think
+                when we develop the schema. In the success criteria, I’m not sure it we need more
+                words to explain it or just do the same as the author did in bullet points? The
+                schema is well formed and easy to use, thus, the rules of the schema is easy to
+                follow as the author did. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

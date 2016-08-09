@@ -8,7 +8,6 @@
         <zeroOrMore>
             <choice>
                 <text/>
-
                 <!--<ref name="model.phrase"/>
                 <ref name="model.inter"/>-->
 
@@ -639,7 +638,7 @@
     </define>
     <define name="list">
         <element name="list">
-            <a:documentation>A multipurpose list element. [required @type; values can be: "generic" or 
+            <a:documentation>A multipurpose list element. [required @type; values can be: "generic" or
                 "roadmap"]</a:documentation>
             <oneOrMore>
                 <choice>
@@ -1587,6 +1586,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="visual"/>
+                    <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1598,6 +1598,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="visual"/>
+                    <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1630,6 +1631,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="visual"/>
+                    <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1642,6 +1644,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="visual"/>
+                    <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1654,6 +1657,7 @@
                 <choice>
                     <ref name="macro.paraContent"/>
                     <ref name="visual"/>
+                    <ref name="model.qLike"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1966,8 +1970,8 @@
             </oneOrMore>
         </element>
     </define>
-    <define name="acknowledgement">
-        <element name="acknowledgement">
+    <define name="acknowledgment">
+        <element name="acknowledgment">
             <a:documentation> Optional element for saying thank you to the reader for their
                 time/consideration etc.</a:documentation>
             <ref name="macro.paraContent"/>
@@ -1986,7 +1990,7 @@
                 <ref name="pb"/>
             </optional>
             <optional>
-                <ref name="acknowledgement"/>
+                <ref name="acknowledgment"/>
             </optional>
         </element>
     </define>
@@ -2045,7 +2049,7 @@
                 <ref name="docHead"/>
                 <oneOrMore>
                     <choice>
-                        <!--<ref name="body"/> 
+                        <!--<ref name="body"/>
                         not needed yet, if at all -->
                         <ref name="annotated_bib"/>
                         <ref name="blog_post"/>
