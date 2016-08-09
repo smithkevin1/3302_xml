@@ -10,52 +10,51 @@
     </docHead>
 
     <blog_post>
-        <background> Computer security<note type="peer">Maybe put a period here instead of a comma
-                and then start a new sentence.</note>, <misconceptions> the words somehow feel like
-                they belong to two types of people: 1) Malicious computer hackers who can cause
-                servers to melt worldwide with the casual swipe of their fingers and a sip of
-                mountain dew. 2) The office IT worker who can transform you into a narcoleptic with
-                a stained oversized white t-shirt and a one <note type="peer">Put hyphen</note>sided
-                discussion about the merits of the Hutt's mafioso control of Tatooine's water
-                supplies. </misconceptions> Consequentially, when the topic of computer security
-            arises, the average computer user's eyes glaze over whilst simultaneously running away
-            at Olympic gold medal speeds. <pb/> This is bad. We (almost) all use computers, and its
-            our responsibility to help keep them safe. <analogy>Who's at fault if you get in an car
-                accident when you're driving without a license.<note type="peer">Replace w/ ?</note>
-                Who's at fault if you leave your door open every day and come home one day to find
-                out you've been robbed? </analogy> A lot of your important stuff exists on a
-            computer somewhere. <important_idea n="1"> What you might not know, is that avoiding
-                having this stuff stolen is not hard nor time intensive,<note type="peer">Replace w/
-                    ;</note> it can be as easy as putting on a seatbelt or locking your
-                door.</important_idea><pb/>
+        <background> Computer security.<note type="peer">Maybe put a period here instead of a comma
+                and then start a new sentence.</note>
+            <misconception> The words somehow feel like they belong to two types of people: 1)
+                Malicious computer hackers who can cause servers to melt worldwide with the casual
+                swipe of their fingers and a sip of mountain dew. 2) The office IT worker who can
+                transform you into a narcoleptic with a stained oversized white t-shirt and a
+                    one-<note type="peer">Put hyphen</note>sided discussion about the merits of the
+                Hutt's mafioso control of Tatooine's water supplies. </misconception>
+            Consequentially, when the topic of computer security arises, the average computer user's
+            eyes glaze over whilst simultaneously running away at Olympic gold medal speeds. <pb/>
+            This is bad. We (almost) all use computers, and its our responsibility to help keep them
+            safe. <analogy>Who's at fault if you get in an car accident when you're driving without
+                a license?<note type="peer">Replace w/ ?</note> Who's at fault if you leave your
+                door open every day and come home one day to find out you've been robbed? </analogy>
+            A lot of your important stuff exists on a computer somewhere. <important_idea n="1">
+                What you might not know, is that avoiding having this stuff stolen is not hard nor
+                time intensive;<note type="peer">Replace w/ ;</note> it can be as easy as putting on
+                a seatbelt or locking your door.</important_idea><pb/>
             <question>So how do we make sure that our computers are secure?</question><pb/>We'll get
             to that shortly, but first let's understand why we are in a state of constant cyber
-            threat. <roadmap> Better understanding <section_header>why there is
+            threat. <list type="roadmap"> Better understanding <section_header>why there is
                     danger</section_header> will help us create a plan for <section_header>stopping
-                    danger</section_header>. </roadmap><pb/>
+                    danger</section_header>. </list><pb/>
             <section_header> Why There is Danger</section_header><pb/> If we negated threats
             stemming from the internet, the world wouldn't be devoid of cyber-danger, however the
-            vast majority of problems would not exist. <scientific_principle n="1">There is nothing
+            vast majority of problems would not exist. <technical_principle n="1">There is nothing
                 inherently scary about the internet, all it is, is the ability to transmit data
                 between computers. <analogy>If we think of a computer as a person, the internet is
                     what gives it the ability to speak to any other person in the world. </analogy>
-            </scientific_principle> The only issue with this, is that when the researchers who were
+            </technical_principle> The only issue with this, is that when the researchers who were
             designing what would one day be referred to as 'the internet' were working, they assumed
             that the world was this : <visual type="drawing" url="http://i.imgur.com/z8OdXVo.png"
-                >Utopia</visual><pb/> when it is really sometimes closer to this : <visual
-                type="drawing" url="http://i.imgur.com/Gj0E8SD.png">Dystopia</visual><pb/>
-            Consequentially, all the security of the internet was not built into its underlying
-            functionality at the time of its creation, but has been added in layers since then.
-            While programmers do a great job of ensuring our data stays safe, <analogy>the situation
-                is akin to a treadmill in which we must develop safety measures more quickly than
-                bad guys can figure out how to subvert them.</analogy><pb/> While it is concerning
-            to think of such a volatile battle for internet supremacy being waged of which you are
-            victim to, as it happens you are not unable to fight in it. The largest issue here at
-            present however, is the computer industry's failing at communicating to users how they
-            should focus on defending themselves. For example, take this graphic : <visual
-                type="other"
+            /><pb/> when it is really sometimes closer to this : <visual type="drawing"
+                url="http://i.imgur.com/Gj0E8SD.png">Dystopia</visual><pb/> Consequentially, all the
+            security of the internet was not built into its underlying functionality at the time of
+            its creation, but has been added in layers since then. While programmers do a great job
+            of ensuring our data stays safe, <analogy>the situation is akin to a treadmill in which
+                we must develop safety measures more quickly than bad guys can figure out how to
+                subvert them.</analogy><pb/> While it is concerning to think of such a volatile
+            battle for internet supremacy being waged of which you are victim to, as it happens you
+            are not unable to fight in it. The largest issue here at present however, is the
+            computer industry's failing at communicating to users how they should focus on defending
+            themselves. For example, take this graphic : <visual type="other"
                 url="http://cdn.arstechnica.net/wp-content/uploads/2015/07/Beutler_Google_Security-practices-v6-640x471.png"
-                >Ouch.</visual><pb/> Batting .200 isn't even good in baseball. Luckily<note
+                >Ouch.</visual><pb/> Batting .200 isn't even good in baseball. Luckily,<note
                 type="peer">,</note> the next section is going to help us to acquire the tools
             necessary to change that. </background>
         <answer>
@@ -72,14 +71,14 @@
                 <visual type="photo"
                 url="http://img-cache.cdn.gaiaonline.com/db52bf9dc339a3b07dc6ae3bae678af0/http://i16.photobucket.com/albums/b34/Andra1/67aa5f8b.jpg"
             /><pb/> Your computer in 4 hours. <pb/>
-            <roadmap>This workout plan has four categories: <section_header>1. Secure
+            <list type="roadmap">This workout plan has four categories: <section_header>1. Secure
                     Configuration</section_header>
                 <section_header>2. Access control and Administrative Privilege
                     Management</section_header>
                 <section_header>3. Patch Management</section_header>
                 <section_header>4. Malware Protection</section_header>
-            </roadmap>
-            <visual type="other" url="http://i.imgur.com/dh7oJai.png"/><pb/>
+            </list>
+            <visual type="other" url="http://i.imgur.com/s91rLKw.png"/><pb/>
             <section_header>1. Secure Configuration</section_header> This is the biggest point of
             concern for computer security experts as reflected by the 'misc errors' category below.
                 <visual type="other" url="http://i.imgur.com/5s0JKlx.png">Verizon 2015 Data Breach
@@ -107,11 +106,12 @@
             password every few months. <pb/>4. Require passwords during log-in.
                 <pb/><section_header>3. Patch Management</section_header><pb/>
             <analogy>This is making sure your house is being maintained. </analogy> Remember those
-            good-guy programmers running on the treadmill? Well<note type="peer">Insert comma</note>
-            all that work they're doing is no good if you don't download the updates that they make
-            to their code. <pb/> 1. Use only legally purchased so that you receive software updates.
-            2. Install these updates in a timely manner. Remember that scary story from 2014 about
-                Heartbleed?<note type="peer">Would be good to hyperlink this to read more about
+            good-guy programmers running on the treadmill? Well,<note type="peer">Insert
+                comma</note> all that work they're doing is no good if you don't download the
+            updates that they make to their code. <pb/> 1. Use only legally purchased so that you
+            receive software updates. 2. Install these updates in a timely manner. Remember that
+            scary story from 2014 about <ref type="supplement" url="http://heartbleed.com/"
+                />Heartbleed?<note type="peer">Would be good to hyperlink this to read more about
                 it</note>
             <pb/>
             <visual type="drawing"
@@ -123,12 +123,12 @@
             <section_header>4. Malware Protection</section_header>
             <fundamental_science_involved>Anti-malware programs scan files and websites and check
                 for publicly known threats. </fundamental_science_involved><analogy>This is having
-                an in<note type="peer">Insert hyphen</note>house security team. </analogy><pb/> 1.
+                an in-<note type="peer">Insert hyphen</note>house security team. </analogy><pb/> 1.
             Install anti-malware software on all computers that are capable of connecting to the
-            internet. There are lots of free alternatives out there,<note type="peer">Replace comma
+            internet. There are lots of free alternatives out there;<note type="peer">Replace comma
                 w/ semicolon</note> I am currently using one called Sophos. <pb/>2. Configure
             software to scan all accessed files and web pages. <pb/> 3. Conduct a full scan of your
-            computer every month. Going out for lunch for a few hours? Before leaving<note
+            computer every month. Going out for lunch for a few hours? Before leaving,<note
                 type="peer">Insert comma</note> click the scan hard-drive button on your
             anti-malware program.<pb/>
             <conclusion>
@@ -147,7 +147,7 @@
                 they're much less likely to waste their time on you if you take even the most basic
                 measures toward security.</conclusion>
         </answer>
-        <pb/><sources>Wikipedia (yes<note type="peer">comma here and capiialize</note> wikipedia!)
+        <pb/><sources>Wikipedia (Yes,<note type="peer">comma here and capitalize</note> Wikipedia!)
             has as <ref type="source" url="https://en.wikipedia.org/wiki/History_of_the_Internet"
                 >good a history of the internet as any.</ref>
             <pb/>Lecture on the <ref type="source"
