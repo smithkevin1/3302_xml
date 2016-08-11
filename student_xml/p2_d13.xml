@@ -44,12 +44,12 @@
                 incidents that highlight the major problems with the system and show that
                 improvements must be made. The MBTA is $8 billion dollars in debt and has put off
                 much needed maintenance due to budget concerns. As a result, the MBTA has become a
-                poorly run organization has numerous issues with all aspects of their operation.
+                poorly run organization has numerous issues with all aspects of their operation<note type="instructor" resp="#kgs">wow, this feels like a strong assertion; will the people reading your proposal be part of MBTA or know people in it? Are there reasons you wouldn't want to be so accusatory here?</note>.
                 However, the most frequent complaints about the MBTA are centered around the subway
                 system and rightly so. The subway system is outdated, overcrowded and often delayed
                 due to technical issues. If Boston is going to continue to be a modern city that
                 seeks to reduce the consumption of fossil fuels by supporting public transportation,
-                the subway system must be updated.</p>
+                the subway system must be updated<note type="instructor" resp="#kgs">I really like this formulation--in some ways it creates a situation to which they must respond (in the way that you want them to).</note>.</p>
         </intro>
 
         <background>
@@ -76,7 +76,7 @@
                     major reason that the citizens of Boston rejected consideration to host the 2024
                     Summer Olympics as it was widely believed the MBTA was incapable of handling the
                     surge of riders in its current state and incapable of securing the funding for
-                    the necessary improvements if the Olympic bid progressed (Manning). The state of
+                    the necessary improvements if the Olympic bid progressed (Manning).<note type="instructor" resp="#kgs">this is an excellent source to use here</note> The state of
                     the subway system in Boston negatively impacts the economy, environment and the
                     society in which we live and must be provided with significant investment to
                     allow Boston to continue to develop into a truly modern and green city.
@@ -94,7 +94,7 @@
                     concerns about financial mismanagement at the MBTA. As a result, the MBTA has
                     been forced to delay major improvements until such time when they receive the
                     necessary funding, causing the subway's infrastructure to fall into
-                    disrepair.</scope>
+                    disrepair.<note type="instructor" resp="#kgs">but does the City of Boston have any control over this? How does this align with your audience?</note></scope>
                 <scope type="when">The MBTA has maintained the subway system with small projects
                     meant to improve one or two stations at a time and make temporary fixes to the
                     outdated rail cars. However, this cannot continue indefinitely and the State
@@ -134,7 +134,7 @@
                     and improvements to the subway system (Vaccaro). Approval of this funding may
                     require a public marketing campaign to persuade the residents of the greater
                     Boston area that the benefits from improving of the subway system outweigh the
-                    costs. Once funding has been secured, new cars using modern AC technology will
+                    costs.<note type="instructor" resp="#kgs">OK, this makes sense</note> Once funding has been secured, new cars using modern AC technology will
                     be purchased from a reliable company with a proven record and implemented as
                     soon as they are constructed. While the cars are being built, the subway
                     stations and lines should undergo renovations and extensions to be finished
@@ -173,7 +173,7 @@
                     years for the modernization and expansion of the subway system. An overhaul of
                     the T system would result in fewer economic interruptions and make Boston a more
                     attractive location for economic development, which would provide more jobs and
-                    opportunity for the citizens of Boston.</economic></p>
+                    opportunity for the citizens of Boston.<note type="instructor" resp="#kgs">this is compelling</note></economic></p>
         </feasibility>
 
         <conclu>
@@ -229,7 +229,7 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>I like the thread of exigence you pull through the proposal: i.e. that in order to continue to be considered a modern city, Boston *must* respond to this public transportation issue. I also particularly enjoyed the economic argument that drew on the amount lost/spent during the snow storm and the economic development opportunities lost as a result of the inefficient system. My one major question is your audience--if MA controls funding to the MBTA, then why is your audience the City of Boston? Even if you convince them to replace the cars as you want, they may not control the capital required to udertake this project. I could imagine a proposal to the Commonwealth, but that would change a lot of the exigence you create.</p>
         </report>
     </docReview>
 </DOC>

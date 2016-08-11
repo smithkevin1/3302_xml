@@ -72,7 +72,9 @@
                 need to be implemented. This neural network will be connected to all of the traffic
                 lights and receive the sensor data from the main intersections. The network can
                 leverage several papers already written on the subject of traffic control with
-                neural networks. </fsb_hlgt>
+                neural networks.<note type="instructor" resp="#kgs">Are these papers you refernce
+                    elsewhere?</note>
+            </fsb_hlgt>
             <fsb_hlgt type="econ">The effective costs of the project will go to three categories:
                 connecting the lights to the central network, adding sensors to main intersections,
                 and coding the neural network. The majority of the cost will go towards the
@@ -194,7 +196,15 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>I like that you continued this project from the annotated bibliogrpahy; I feel like
+                the feasibility report really invites this kind continuation. As far as your
+                report--I think the strength is in the clarity of the writing and the detail--this
+                is particularly evident in the success criteria and report pages, which are very
+                well done. I also think you responded and revised in a productive way following peer
+                review. One question I have (and this maybe goes back to schema design) is about how
+                sources are generally cited in this genre? I see some areas where specific numbers,
+                etc. are used that I would assume have an accompanying reference. These are small
+                issues, though. On the whole this is very well done.</p>
         </report>
     </docReview>
 </DOC>
