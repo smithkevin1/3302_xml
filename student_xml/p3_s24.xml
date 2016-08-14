@@ -8,9 +8,116 @@
         <author xml:id="your_id_here">Your name here</author>
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
-    
-    <!-- root element for P3 here --> 
-    
+    <!-- root element for P3 here -->
+    <fsb_rpt>
+        <page type="ttl">
+            <title>Automated Magnet Based Anti-Drone System</title>
+            <subTitle>Automating drone movements with target based optical tracking</subTitle>
+            <contributors>Oliver Scott, Nate Winn, Tanner Lindemer, Robert Daigle, Robert Peterson,
+                Robert LeBel</contributors>
+            <date>August 16th 2016</date>
+        </page>
+        <page type="tbl_contents">
+            <sect lvl="1" n="1">Executive Summary</sect>
+            <sect lvl="1" n="2">Preliminary Requirements Analysis</sect>
+            <sect lvl="1" n="3">Feasibility</sect>
+            <sect n="3" lvl="1">Success Criteria</sect>
+            <sect lvl="2" n="1"/>
+        </page>
+        <page type="exec_sum">From Arduino to Raspberry Pi, development of affordable SOCs has been
+            the jet-fuel of the 21st century hobbyist revolution. The removal of barriers relating
+            to cost and complexity is causing a largely unregulated proliferation of drone
+            development. As a result, an exponential number of drones are taking to the skies each
+            year, outpacing the FAA and local authorities' ability to regulate them. Compounding the
+            difficulty of impeding aerial objects with the ability of pilots to navigate their
+            drones from remote locations exposes a serious vulnerability with maintaining privacy,
+            safety and security. <pb/>Preempting a dramatic increase in laws regulating drone usage,
+            our goal is to develop an anti-drone system that can autonomously track and capture a
+            target in a way that is safe to the drone and the public.</page>
+        <page type="pre_req_ana">
+            <app_ovr type="obj" title="Tracking">The anti-drone will be able to takeoff from a given
+                location while being operated by a pilot. Once the target is in frame and
+                recognized, the drone should be capable of autonomously moving above of the target. </app_ovr>
+            <app_ovr type="obj" title="Target Acquisition">Once the anti-drone is in position,
+                electromagnets will be deployed to neutralize the target. At this point the pilot
+                can resume control and navigate the anti-drone to a position in which the disabled
+                drone can be dropped. </app_ovr>
+            <app_ovr type="rls" title="Regulations">The FAA has regularly been advancing their
+                regulations on drone usage. The most up to date rules can be found at:
+                    <ref>https://www.faa.gov/uas/media/Part_107_Summary.pdf</ref>. Relevant to our
+                project are the weight constraints (55lb), licensing requirements and flight
+                regulations (Cannot be operated indoors, drone must be visible from pilot's location
+                and drone cannot fly over individuals not involved in its development). </app_ovr>
+        </page>
+
+        <page type="fsb">
+            <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. Although it is
+                possible to appeal for additional funding, there do not exist products on the market
+                that could directly address our goals even with ample funding. It is worth noting
+                that many equal and more advanced DIY projects have achieved success on smaller
+                budgets. </fsb_hlgt>
+            <fsb_hlgt type="tcnl">The project can be broken down into four stages. 1) Determine
+                necessary equipment to assemble a quad-copter drone and camera configuration. 2)
+                Enable long range object tracking for stationary targets. 3) Develop and attach the
+                magnet capturing system. 4) Accommodate short range object tracking and automated
+                capturing for stationary targets. 5) Develop tracking and capture of moving targets.
+                <pb/>1) In order to allow for ample time to tackle the advances in research put
+                forth by our project, it is vital to minimize the amount of time dedicated to drone
+                construction. As a result a quad-copter style frame makes more sense than investing
+                in the more difficult to control (although more steady) hex or octo-copter designs.
+                By using a frame kit, time will be saved by not having to build and tune one from
+                scratch, and being able to modify it provides obvious benefits that buying a
+                stock-copter does not. Similarly, the choice of the Pixy CMUcam5 for camera allows
+                all object detection to be automated. This not only frees up the time of the
+                software developers, allowing them to focus on other goals, but it also justifies
+                the use of the Raspberry Pi 3b -- which has a less complex set of barriers than its
+                more powerful SOC counterparts. <pb/>2) The data being fed from the Pixy should
+                allow for object identification and location. Determining motor commands in order to
+                move toward an identified object is straightforward in a low-variable environment,
+                however the movement of our anti-drone and the frame size of the Pixy (risking the
+                visual loss of the target) pose significant issues. This will likely need to be
+                accommodated by slow movements and an adjustable camera. <pb/>3) The chief concerns
+                for the magnetic system is the weight that it would add to the drone and issues that
+                EMI might cause. A Faraday cage might be a working alternative, however testing will
+                need to be performed to determine the possibility of this option. <pb/>4) In order
+                to descend upon the target, it is very likely that a second camera will need to be
+                added facing downward. The issues with kinematics in this step are that movement
+                must be much more fine in order to ensure visual of the target drone is not lost.
+                Additionally the acquisition of the target must be performed in a way that does not
+                damage the anti-drone, and does not cause an irreconcilable weight increase. <pb/>5)
+                The processes described above are made significantly more challenging when both
+                objects are moving. It is realistic that this would be a project in
+                itself.</fsb_hlgt>
+            <fsb_hlgt type="suits">Acquiring a license and executing the above processes should be
+                of no great impediment. </fsb_hlgt>
+        </page>
+        <page type="sccs_crt">
+            <req_sect>Hardware Design <req>The anti-drone must be capable of flying and be of proper
+                    tuning such that moderate gusts of wind and sudden weight gains do not cause the
+                    vehicle to malfunction. </req>
+                <req>A flying time of roughly 10 minutes is to be expected. </req></req_sect>
+            <req_sect>Optical Tracking </req_sect>
+            <req_sect>Automated Flight </req_sect>
+            <req_sect>Drone Acquisition </req_sect>
+        </page>
+
+        <page type="rsk_ana"> </page>
+
+
+
+        <page type="rpt"/>
+        <page type="cost"/>
+
+
+
+        <page type="conc">
+            <fsb/>
+        </page>
+
+
+    </fsb_rpt>
+
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
