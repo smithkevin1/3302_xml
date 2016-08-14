@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--the second line in the document associates the schema, so be sure not to change it-->
 <DOC>
     <docHead>
@@ -21,10 +21,8 @@
             </list>
             <section_header>Chapter 2: Meet the Algorithms</section_header>
             <pb/>
-            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s
-                    Algorithm</section_header>
-                <pb/> -<section_header>Bro #2: Best-First Search
-                    Algorithm</section_header>
+            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s Algorithm</section_header>
+                <pb/> -<section_header>Bro #2: Best-First Search Algorithm</section_header>
                 <pb/> -<section_header>A* Is Born</section_header>
                 <pb/>
             </list>
@@ -57,8 +55,9 @@
                 /> That’s nice and dandy and all, but we really shouldn’t depend on luck for these
                 things. What if we make this map a little more complicated? <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_02_complex_map.png"
-                /> Riiight… We need a more procedural way to do this. That’s where these guys come
-                in handy. <visual type="drawing"
+                    /><note type="instructor" resp="#kgs">I actually laughed out loud at this</note>
+                Riiight… We need a more procedural way to do this. That’s where these guys come in
+                handy. <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_03_algorithms.png"
                 /> They’re what you call algorithms, or a set of well-defined rules in sequence.
                 They’ll show you how to get from A to B for any map (if there is a path). Dijkstra’s
@@ -68,7 +67,8 @@
                 give a suboptimal path. A* is the star of this post. He’s a combo of the two; he
                 notes how far he is from the start like Dijkstra’s but also focuses on the goal like
                 Best-First. Anyway, before you really get to know them, you need to understand some
-                basics first. So! That leads us into graphs! </technical_principle>
+                basics first. So! That leads us into graphs! <note type="instructor" resp="#kgs"
+                    >Wait, why does that lead to graphs?</note></technical_principle>
         </background>
         <answer>
             <!-- Graphs -->
@@ -82,7 +82,10 @@
                         >Modified
                         https://www.johndenugent.com/images/big-and-little-dippers.jpg</visual>
                 </analogy> Ah, but how does that relate to our problem? Well, let’s look at our map
-                again. <visual type="drawing"
+                    again.<note type="instructor" resp="#kgs">OK, here's the transition. I wonder if
+                    above (at the end of the previous section you said something like "That leads us
+                    to graphs! Why graphs? Just trust me." Or something along those lines</note>
+                <visual type="drawing"
                     url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_00_map.png"
                 /> In this case, the nodes represent our terrain tiles, and the edges represent the
                 connection between adjacent tiles (directly horizontal/vertical or diagonal).
@@ -96,17 +99,14 @@
             </technical_principle> Got it? Great! We can finally move on to our three algo brothers.
                 <visual type="drawing"
                 url="https://raw.githubusercontent.com/huynhta1/awd_p2_final/master/1_intro/1_08_astar_eager.png"
-            /> Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first.
-            <!-- CHAPTER 2 -->
+            /> Shhh, shhh, A*, it’s not your time to shine yet. We need to look at your bros first. <!-- CHAPTER 2 -->
             <hr/>
             <section_header>Chapter 2: Meet the Algorithms</section_header>
-            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s
-                    Algorithm</section_header>
-                <pb/> -<section_header>Bro #2: Best-First Search
-                    Algorithm</section_header>
+            <list type="roadmap"> -<section_header>Bro #1: Dijkstra’s Algorithm</section_header>
+                <pb/> -<section_header>Bro #2: Best-First Search Algorithm</section_header>
                 <pb/> -<section_header>A* Is Born</section_header>
             </list>
-            <hr></hr>
+            <hr/>
             <!-- Dijkstra's Algorithm -->
             <specific_topic n="1">
                 <section_header>Bro #1: Dijkstra’s Algorithm</section_header>
@@ -123,14 +123,14 @@
                     type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_02_map_water.png?raw=true"
                 /> If we wanted to mark the body of water as more difficult to cross than the
-                grasslands, we can make the cost to cross it greater than that of grass. But for now, we’ll ignore
-                any extra terrain until we meet A* for simplicity. <pb/> Now, if we haven’t reached
-                the nodes yet, how do we know that information? Ah, that’s a good point. Really, we
-                don’t know, so we will initialize all of the nodes, except A, with an infinite
-                distance and say that they have no parent. Giving them an infinite distance may seem
-                weird, but this ensures that we update it the first time we find a path to it (since
-                the cost we find to it will definitely be less than infinity). <visual
-                    type="drawing"
+                grasslands, we can make the cost to cross it greater than that of grass. But for
+                now, we’ll ignore any extra terrain until we meet A* for simplicity. <pb/> Now, if
+                we haven’t reached the nodes yet, how do we know that information? Ah, that’s a good
+                point. Really, we don’t know, so we will initialize all of the nodes, except A, with
+                an infinite distance and say that they have no parent. Giving them an infinite
+                distance may seem weird, but this ensures that we update it the first time we find a
+                path to it (since the cost we find to it will definitely be less than infinity).
+                    <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_03_map_no_parent.png?raw=true"
                 /> We also have a list, initially empty, that tracks the nodes we visited. To begin
                 the algorithm, we place A on this visited list and then repeat the following steps
@@ -171,10 +171,10 @@
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_08_dijkstra_04.png?raw=true"/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_09_dijkstra_05.png?raw=true"
-                /> Nice! Covered all the 10’s. Now, you continue. What nodes haven’t been
-                visited and have the lowest cost to A now? The diagonal nodes, so visit them and
-                inspect their neighbors to see if going through them gives their neighbors a lower
-                cost path to A (in this case it doesn’t). <visual type="drawing"
+                /> Nice! Covered all the 10’s. Now, you continue. What nodes haven’t been visited
+                and have the lowest cost to A now? The diagonal nodes, so visit them and inspect
+                their neighbors to see if going through them gives their neighbors a lower cost path
+                to A (in this case it doesn’t). <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_10_dijkstra_06.png?raw=true"/>
                 <visual type="drawing"
                     url="https://github.com/huynhta1/awd_p2_final/blob/master/2_dijkstra/2_11_dijkstra_07.png?raw=true"/>
@@ -365,16 +365,18 @@
                 target. Also, your tiles don’t have to be squares. You can use hexagonal shapes, and
                 the algorithms still work the same. That actually makes the math easier since the
                 distance to each neighbor is equal. Additionally, it’ll be good to consider movement
-                restrictions, such as those dealing with cutting corners or units that takes up more
-                than one tile space. I recommend checking out the sources below too. RedBlobGames
-                provides great interactive visuals on the algorithms. The author doesn’t use
-                diagonal neighbors in his examples (so only a max of four neighbors for a node), but
-                don’t be confused! The algorithms work the same way! <pb/> That’s all for now! Happy
-                pathfinding! </conclusion>
+                restrictions, such as those dealing with cutting corners or units that takes<note
+                    type="instructor" resp="#kgs">take</note> up more than one tile space. I
+                recommend checking out the sources below too. RedBlobGames<note type="instructor"
+                    resp="#kgs">maybe a link here?</note> provides great interactive visuals on the
+                algorithms. The author doesn’t use diagonal neighbors in his examples (so only a max
+                of four neighbors for a node), but don’t be confused! The algorithms work the same
+                way! <pb/> That’s all for now! Happy pathfinding! </conclusion>
         </answer>
         <sources>
             <hr/>
-            <section_header>Sources</section_header>
+            <section_header>Sources<note type="instructor" resp="#kgs">making these links clickable
+                    with the ref element woud seem in line with the genre</note></section_header>
             <hr/>
             <citation style="APA" n="1">
                 <author n="1">Patrick Lester</author> (2005, Jul 18) <title level="a">A* Pathfinding
@@ -435,7 +437,20 @@
 
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Wow, this is a really cool project. I can tell you put a *ton* of work into it. It is
+                fascinating to see the vast differences between your post, which relies primarily on
+                visuals, and other group members, who focus more on textual tools like analogies,
+                etc. You really went above and beyond here and I appreciate that level of
+                commitment. One issue, though, is that your document is not actually valid according
+                to the schema. The main reasons for this are that you have a bunch of empty "hr"
+                elements. I'm not sure what these are meant to be and I don't remember talking about
+                them with your group. the second is that you use section headers inside of some
+                areas like important ideas, etc., which is technically not allowed by the schema
+                (though this is my fault, since section header should be global). I see from your
+                design entry that the hr tag was a formatting issue--you wanted a horizontal line.
+                It is interesting that these formatting issues didn't present themselves when your
+                group met about the format and changes to the schema. Overall, though, this is
+                really excellent work and a model project.</p>
 
         </report>
     </docReview>

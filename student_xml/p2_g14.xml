@@ -81,31 +81,34 @@
                 interaction between complementary shapes, meaning that if a different molecule had a
                 region that was similar in shape to the neurotransmitter in question, it too would
                 interact with the receptor.</important_idea><pb/><visual type="drawing"
-                    url="http://www.daviddarling.info/images/neurotransmitter.jpg">Drawing courtesy
-                    of daviddarling.info.</visual><pb/><analogy>Imagine the shape-fitting
-                toys that toddlers play with, where you insert a triangle or a circle piece into
-                various cutouts, trying to match the correct shape with the correct hole. The
+                url="http://www.daviddarling.info/images/neurotransmitter.jpg">Drawing courtesy of
+                daviddarling.info.</visual><pb/><analogy>Imagine the shape-fitting toys that
+                toddlers play with, where you insert a triangle or a circle piece into various
+                cutouts, trying to match the correct shape with the correct hole. The
                 neurotransmitter is the inserted piece, and it only inserts into the correct hole,
                 or receptor. As an example, let's say the neurotransmitter dopamine is a triangle
                 piece, and serotonin is a circle. Dopamine will only fit in the triangle receptor,
-                and serotonin will only fit in the circle receptor.</analogy>
+                and serotonin will only fit in the circle receptor<note type="instructor"
+                    resp="#kgs">OK nice work! I really needed this at this point, I was beginning to
+                    get lost (as a total outsider to this field).</note>.</analogy>
             <technical_principle n="4">Once activated, the receptor continues the signal cascade in
                 the next cell, either chemically or electrically, furthering the transmission of the
                 signal to its destination, whether it be to the brain to signal something, or to a
                 muscle to tell it to move.</technical_principle><pb/><visual type="drawing"
                 url="http://i.imgur.com/LsVfrJu.png">In this case, the "triangle" dopamine only fits
-                in the correct "triangle" receptor.</visual><pb/><analogy>Now consider a modified version
-                of the shape matching toy mentioned earlier where instead of falling through the
-                hole, the insert has a larger block connected to it, so the piece inserts where the
-                shapes match but the rest of the piece hangs out. The natural neurotransmitter is a
-                triangle inserted into a triangle hole successfully, but there can be other
+                in the correct "triangle" receptor.</visual><pb/><analogy>Now consider a modified
+                version of the shape matching toy mentioned earlier where instead of falling through
+                the hole, the insert has a larger block connected to it, so the piece inserts where
+                the shapes match but the rest of the piece hangs out. The natural neurotransmitter
+                is a triangle inserted into a triangle hole successfully, but there can be other
                 chemicals that can interact with the board too. Another piece with a triangle that
                 fits the hole is referred to as an agonist (one that binds successfully to the
                 receptor), and a piece that partially fits the hole but doesn’t fit perfectly and
                 prevents other pieces from fitting is referred to as an antagonist (obscures the
                 receptor without activating it).</analogy><pb/><visual type="drawing"
                 url="http://i.imgur.com/5IeQkm4.png">Other shapes, like a "trapezoid"-shaped
-                    chemical, can also fit into the "triangle" dopamine receptor, activating it.</visual><pb/>
+                chemical, can also fit into the "triangle" dopamine receptor, activating
+                it.</visual><pb/>
             <explanation n="1">Neurotoxins are molecules that affect the chemical transmission
                 between neurons, by affecting the cell transmitting the chemicals (pre-synaptic) or
                 receiving them (post-synaptic). Some neurotoxins like tetrodototoxin (TTX), which is
@@ -118,32 +121,35 @@
                 the message stops upstream of the muscles, and they do nothing. The toxin becomes
                 fatal when it reaches critical tissue like the heart or lungs, where the stoppage of
                 the involuntary nerve impulses that tell your lungs to expand and contract or your
-                heart to beat causes those organs to become paralyzed. Then you
-                die.</explanation><pb/><explanation n="2">Other toxins can interact with other ion
-                channels or receptors to produce various effects, some of which can become very
+                heart to beat causes those organs to become paralyzed. Then you die.<note
+                    type="instructor" resp="#kgs">well there it
+                is.</note></explanation><pb/><explanation n="2">Other toxins can interact with other
+                ion channels or receptors to produce various effects, some of which can become very
                 complicated and involved. Some toxins like tetanus bind to presynaptic inhibitory
                 interneurons (neurons that release chemicals to other neurons to prevent them from
                 firing action potentials), resulting in repeated muscle spasms because they can't
                 "turn off" the muscular neurons. This ultimately leads to paralysis. Overall, most
                 neurotoxins lead to paralysis in one way or another, and nature has come up with
-                creative ways to cause this from perceivably every angle that it possibly
-                can.</explanation><pb/><explanation n="3">Why some animals are immune or resistant
-                to toxins, animals like the mongoose that can sustain repeated cobra bites, comes
-                down to shape, once again. These animals have evolved channels and/or receptors that
-                have a slightly different shape that prevent the toxin from interacting, while
-                continuing to allow the normal molecules to do their thing. Let's return to our
-                original analogy. <analogy>Imagine if the triangle hole now had a circular bump
-                    around it that prevented larger pieces from staying in place. The normal piece
-                    can still fit fine, but now the toxin piece can no longer fit properly because
-                    of the bump.</analogy> Toxin can't bind, toxin can't block the channel, toxin
-                can't prevent the cell from signaling, and the mongoose goes on its merry way
-                getting bit by cobras. It's not immune, as given enough toxin pieces, eventually as
-                soon as one comes off, another toxin piece takes its place, and the cell can't take
-                in sodium fast enough for an action potential, but the animal is at least resistant
-                to a few bites.</explanation><pb/><visual type="drawing"
-                url="http://i.imgur.com/9YFCOhI.png">If the organism evolved a raised "ring" around
-                    the "triangle" receptor, molecules with other shapes that hang off the side
-                    would bind briefly, then fall off.</visual>
+                creative ways to cause this from perceivably every angle that it possibly can.<note
+                    type="instructor" resp="#kgs">so every way it can interact with the shape board
+                    that you talke about?</note></explanation><pb/><explanation n="3">Why some
+                animals are immune or resistant to toxins, animals like the mongoose that can
+                sustain repeated cobra bites, comes down to shape, once again<note type="instructor"
+                    resp="#kgs">I like that you pull this thread through</note>. These animals have
+                evolved channels and/or receptors that have a slightly different shape that prevent
+                the toxin from interacting, while continuing to allow the normal molecules to do
+                their thing. Let's return to our original analogy. <analogy>Imagine if the triangle
+                    hole now had a circular bump around it that prevented larger pieces from staying
+                    in place. The normal piece can still fit fine, but now the toxin piece can no
+                    longer fit properly because of the bump.</analogy> Toxin can't bind, toxin can't
+                block the channel, toxin can't prevent the cell from signaling, and the mongoose
+                goes on its merry way getting bit by cobras. It's not immune, as given enough toxin
+                pieces, eventually as soon as one comes off, another toxin piece takes its place,
+                and the cell can't take in sodium fast enough for an action potential, but the
+                animal is at least resistant to a few bites.</explanation><pb/><visual
+                type="drawing" url="http://i.imgur.com/9YFCOhI.png">If the organism evolved a raised
+                "ring" around the "triangle" receptor, molecules with other shapes that hang off the
+                side would bind briefly, then fall off.</visual>
             <conclusion><pb/><section_header>So, how does venom
                     work?</section_header><important_idea n="6">Venom is a chemical compound that
                     interacts with receptors and channels in nerve cell membranes that disrupt the
@@ -158,7 +164,8 @@
                     the toxins can no longer bind to them or block
                     them.</important_idea><pb/><visual type="photo"
                     url="https://i.ytimg.com/vi/lsLdLKATnyk/maxresdefault.jpg">Image courtesy of
-                    Super Lion's YouTube video</visual></conclusion>
+                    Super Lion's YouTube video</visual><note type="instructor" resp="#kgs">cool
+                    picture</note></conclusion>
         </answer>
         <pb/><sources>Depending on your neurobiology experience, a myriad of sources can elucidate
             the mechanisms involved in various toxins. <ref type="source"
@@ -210,7 +217,18 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This really is a model project--well researched, well explained, and a quality
+                example of the genre your group studied. I especially like the way that you handled
+                the references section, as a conclusion that points readers to further information.
+                That and the extended analogy you used throughout the post represent some really
+                creative moves within this generic frame. There were a few moments, especially
+                before you deployed the shape-fitting analogy for the first time, that I was feeling
+                a bit out of my depth, so one idea for revision would be to put that analogy at the
+                outset. That is, instead of explaining the biology and then deploying the analogy,
+                give us the analogy to hang onto as you proceed through the biology. Obviously I got
+                through the biology portion and feel like I understand, but I wonder, given the
+                length, if you might want to more gently lead your reader through the early stages
+                of your post. Really nice work here!</p>
         </report>
     </docReview>
 </DOC>

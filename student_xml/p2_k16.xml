@@ -9,20 +9,23 @@
         <version n="num_of_version" date="2016-08-01"/>
     </docHead>
 
-    <blog_post>
+    <blog_post><note type="instructor" resp="#kgs">I'm surprised there's no section header to
+            start...</note>
         <background>
             <pb/> If you have read any technology news or blogs in the past few years, you probably
             have heard of something called “machine learning” being thrown around constantly.
-            Everybody seems to be using it now: car companies are using to make self driving cars,
-            phones companies are using it to make digital assistants that can understand what you're
-            saying, and social media websites are using it to detect your face in your friends
-            pictures. However, even with all of these useful applications of machine learning, most
-            people have no idea whats going on behind the scenes to make all of this work.
-                <technical_principle>If you skim through a book on machine learning, you will
-                probably see a lot of complicated looking math and statistics,<misconception>which
-                    makes most people think that it’s something that would require an advanced
-                    degree to understand, but the idea behind it really isn’t that
-                    complicated.</misconception></technical_principle>
+            Everybody seems to be using it now: car companies are using <note type="instructor"
+                resp="#kgs">it</note>to make self driving cars, phones companies are using it to
+            make digital assistants that can understand what you're saying, and social media
+            websites are using it to detect your face in your friends pictures. However, even with
+            all of these useful applications of machine learning, most people have no idea
+                whats<note type="instructor" resp="#kgs">what's</note> going on behind the scenes to
+            make all of this<note type="instructor" resp="#kgs">what is 'this' here--all of these
+                different applications of ML?</note> work. <technical_principle>If you skim through
+                a book on machine learning, you will probably see a lot of complicated looking math
+                and statistics,<misconception>which makes most people think that it’s something that
+                    would require an advanced degree to understand, but the idea behind it really
+                    isn’t that complicated.</misconception></technical_principle>
             <question>So how exactly does this thing called “machine learning” really work?
             </question>
         </background>
@@ -45,17 +48,19 @@
                 statistical models became much faster, accessible, and reliable. </technical_principle>
             <section_header>What kind of statistics does machine learning use?</section_header>
             <specific_topic>For this example, we are just going to explain how classification by
-                logistic regression in machine learning works. Classification is just a way to label
-                a set of information, such as labeling a set of pictures of dogs by the breed of dog
-                in each photo. All this specific machine learning algortihm does is generate a math
-                equation that looks like this:<visual type="drawing"
-                    url="http://i.stack.imgur.com/5vpYa.png">Logistic Regression</visual>Let says
-                our dog photos only have pictures of poodles and huskies. The machine learning
-                algorithm will take a photo, run it through another generated equation which would
-                spit out a number, and it finds this number on the x axis and calculates the
-                corresponding value on the y axis. Since we are only trying to classify two differnt
-                types of dogs, there are only two cases we care about: <list type="generic"> 1. The
-                    y value is between 0.5 and 1, in which case we can say we have a husky in the
+                logistic regression in machine learning works.<note type="instructor" resp="#kgs"
+                    >why are we only focusing on this aspect? What advantages does this approach
+                    have?</note> Classification is just a way to label a set of information, such as
+                labeling a set of pictures of dogs by the breed of dog in each photo. All this
+                specific machine learning algortihm does is generate a math equation that looks like
+                    this:<visual type="drawing" url="http://i.stack.imgur.com/5vpYa.png">Logistic
+                    Regression</visual>Let says our dog photos only have pictures of poodles and
+                huskies. The machine learning algorithm will take a photo, run it through another
+                generated equation which would spit out a number, and it finds this number on the x
+                axis and calculates the corresponding value on the y axis. Since we are only trying
+                to classify two differnt<note type="instructor" resp="#kgs">different</note> types
+                of dogs, there are only two cases we care about: <list type="generic"> 1. The y
+                    value is between 0.5 and 1, in which case we can say we have a husky in the
                     photo. <pb/> 2. The y value is between 0 and 0.5, in which case we can say we
                     have a poodle in the photo. <pb/>
                 </list>
@@ -69,8 +74,7 @@
                 dog photos. It can go through the photos and identify differing features between
                 poodles and huskies, such as pointless of it’s ears. The way it identifies these
                 features is by using something called a “convolutional neural network”, but that is
-                another whole can of worms (you can read more about them in <ref
-                    type="supplement"
+                another whole can of worms (you can read more about them in <ref type="supplement"
                     url="https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.v1l1nui91"
                     >a blog post here</ref> if you're interested). Now since we want the
                 classification equation to output a number between 0 and 0.5 if we have a poodle and
@@ -148,7 +152,18 @@
             help explain my topic. </note>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>There is a lot going well here. I think your style and tone are very appropriate,
+                your use of images is well done, and the primary analogy and secondary anaologies
+                you deploy are helpful for a novice (but interested) reader to gain a cursory
+                understanding. A few issues I noticed: there are some simple editing errors I tried
+                to indicate; I think a better sense of *why* you focus on classification (perhaps
+                that relates to your intro about the wide arroy of applications of machine learning;
+                lastly, the post ended rather abruptly--I think a more developed conclusion that
+                points back to your introduction would be helpful for a reader: what do we now know
+                about how people use ML? What further reading can we do if we are still interested?
+                How would one go about applying classification to the ML you describe in the
+                background? Etc. Overall, though, I think this is a good example of the genre and
+                certainly the topic is perfect for this treatment.</p>
         </report>
     </docReview>
 </DOC>

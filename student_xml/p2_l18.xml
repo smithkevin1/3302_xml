@@ -7,7 +7,8 @@
         <title>Title of Assignment</title>
         <author xml:id="l18">Daniel Lieman</author>
         <version n="1" date="2016-08-01"/>
-    </docHead> <note type="peer" resp="#m21" >should inlcude permanent address in heading </note>
+    </docHead>
+    <note type="peer" resp="#m21">should inlcude permanent address in heading </note>
     <cover_letter>
         <header>
             <name>Daniel Lieman</name>
@@ -16,66 +17,79 @@
                 <contact type="phone"> 410-660-1969 </contact>
                 <contact type="email"> djlieman712@gmail.com </contact>
                 <contact type="address">4674 Shelley Lane, Ellicott City MD 21043</contact>
-            </contact_info> 
+            </contact_info>
         </header>
         <greeting>Hello Mathworks,</greeting>
         <intro_para>
-            <intent type="Purpose">I am interested in the C++ Software Engineer job posted on LinkedIn.</intent>
-            <reason><!-- Optional --> I have enjoyed my work with C++ in
-                the past and I think Mathworks provides valuable tools for numerous technical professions.</reason>  <proposition>I look forward to solving interesting problems in a high paced enviroment.</proposition>
+            <intent type="Purpose">I am interested in the C++ Software Engineer job posted on
+                LinkedIn.<note type="instructor" resp="#kgs">where?</note></intent>
+            <reason><!-- Optional --> I have enjoyed my work with C++ in the past and I think
+                Mathworks provides valuable tools for numerous technical professions<note type="instructor" resp="#kgs">how are these two statements connected?</note>.</reason>
+            <proposition>I look forward to solving interesting problems in a high paced
+                enviroment<note type="instructor" resp="#kgs">is this specific to Mathworks? this seems very general</note>.</proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="work">I bring previous experience with <programs>C++ 11</programs> from my work at RKF Engineering. I used C++ while contributing to their satellite communication simulations.  
-                There I became familiar with <skills>multithreading</skills> techniques.  I also was one of the main testers in the company so 
-                I both have experience in <skills>debugging</skills> and reporting bugs.</experience>
-            <experience type="school">I have used <programs>MATLAB</programs> before in my classes, so I appreciate the work Mathworks does. 
-                Your Simulink software in particular has been helpful: one of my more memorable school projects used in in the <accomplishments>controls for a robotic arm</accomplishments>.</experience>
+            <experience type="work">I bring previous experience with <programs>C++ 11</programs>
+                from my work at RKF Engineering. I used C++ while contributing to their satellite
+                communication simulations. There I became familiar with
+                    <skills>multithreading</skills> techniques. I also was one of the main testers
+                in the company so I both have experience in <skills>debugging</skills> and reporting
+                bugs.<note type="instructor" resp="#kgs">the level of specificity here is great--how do you see these skills translating to the specific aspects of the job call from Mathworks?</note></experience>
+            <experience type="school">I have used <programs>MATLAB</programs> before in my classes,
+                so I appreciate the work Mathworks does. Your Simulink software<note type="instructor" resp="#kgs">is this not a program?</note> in particular has
+                been helpful: one of my more memorable school projects used in in the
+                    <accomplishments>controls for a robotic arm</accomplishments>.</experience>
         </para_background>
         <para_closing>
-            <compatability>I think I will fit in well with Mathworks, and</compatability>  <note type="peer" resp="#m21" > check grammar </note>
-              
-            <next_step>I hope we can further discuss what I can do for Mathworks.</next_step>  <note type="peer" resp="#m21" >you do not know if there is a next step for you
-                -you should sound more open ended with more of a "I hope to hear back from you" attitude.</note>
+            <compatability>I think I will fit in well with Mathworks<note type="instructor" resp="#kgs">what gives you this impression?</note>, and</compatability>
+            <note type="peer" resp="#m21"> check grammar </note>
+
+            <next_step>I hope we can further discuss what I can do for Mathworks<note type="instructor" resp="#kgs">I thought this was more on the order of "I look forward to discussing my ideas in an interview" or something like that</note>.</next_step>
+            <note type="peer" resp="#m21">you do not know if there is a next step for you -you
+                should sound more open ended with more of a "I hope to hear back from you"
+                attitude.</note>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
             <name>Daniel Lieman</name>
         </signature>
     </cover_letter>
-        
+
     <docReview>
         <reviewer type="peer" xml:id="m21"/>
         <report type="peer" resp="#peer_id_here">
-            <p>This cover letter is for second or third year coop within the computer engineering/science fields.
-                You are trying to appy for a specific C++ engineering position at Mathworks for the job. 
-            </p>
-            <p> I am critiquing the language, brevity, and flow/syntx of the paper. Overall, the letter is very brief 
-                and does not contain a lot of in depth information. Statements such as, "I think I will bring all the the 
-                necessary abilities to go above and beyond" and "I have used your software before in my class" are blanket
-                statements that do not provide any insight into your abilities or why you are different from other applicants.
-                Additionally, the flow in and between setences should be analyzed; while each one may contain the information
-                you want, they do not all flow smoothly into one another
-               </p>
-            <p>The aspects I identified earlier are major points of a cover letter that employers look for; they already have
-                your resume and by viewing your cover letter, are looking for a concise statement about the type of person you
-                are, your experience, and why you would be the best fit for the job compared to other applicants. By making 
-                your letter easily readible and stand out from the rest, you will increase your chances of success. Instead of 
-                saying "I think I will fit in well with the Mathworks," you must explain why you will fit in and give specific 
-                examples. 
-            </p>
-            <p>To improve your cover letter, I would suggest brainstorming a list of specific traits and experiences you posess.
-                You have the correct order of information listed, but need to elaborate on each section. Try adding at least 3
-                new pieces of information to each of the sections. When you are done, read it out loud- this will help you determine
-                how well the letter flows between sentences and sections. Additionally, your tone should display enthusiasm and bring
-                more of a "this is what I can do for you/bring to the table" attitude than a "this is who I am" statement. Incorporating
-                these changes should have large impact on the overall message of your cover letter. 
-                
+            <p>This cover letter is for second or third year coop within the computer
+                engineering/science fields. You are trying to appy for a specific C++ engineering
+                position at Mathworks for the job. </p>
+            <p> I am critiquing the language, brevity, and flow/syntx of the paper. Overall, the
+                letter is very brief and does not contain a lot of in depth information. Statements
+                such as, "I think I will bring all the the necessary abilities to go above and
+                beyond" and "I have used your software before in my class" are blanket statements
+                that do not provide any insight into your abilities or why you are different from
+                other applicants. Additionally, the flow in and between setences should be analyzed;
+                while each one may contain the information you want, they do not all flow smoothly
+                into one another </p>
+            <p>The aspects I identified earlier are major points of a cover letter that employers
+                look for; they already have your resume and by viewing your cover letter, are
+                looking for a concise statement about the type of person you are, your experience,
+                and why you would be the best fit for the job compared to other applicants. By
+                making your letter easily readible and stand out from the rest, you will increase
+                your chances of success. Instead of saying "I think I will fit in well with the
+                Mathworks," you must explain why you will fit in and give specific examples. </p>
+            <p>To improve your cover letter, I would suggest brainstorming a list of specific traits
+                and experiences you posess. You have the correct order of information listed, but
+                need to elaborate on each section. Try adding at least 3 new pieces of information
+                to each of the sections. When you are done, read it out loud- this will help you
+                determine how well the letter flows between sentences and sections. Additionally,
+                your tone should display enthusiasm and bring more of a "this is what I can do for
+                you/bring to the table" attitude than a "this is who I am" statement. Incorporating
+                these changes should have large impact on the overall message of your cover letter.
             </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>The first thing I notice is that your XML document is invalid in several aspects-- the most glaring of which are the invalid attribute value on the first intent element and the incorrect element for your final paragraph. This (as well as the general brevity) indicate to me a lack of attention in the revision process. I think you received a very productive peer review and you did do some revision, but on the whole I don't know that this is a very convincing instance of the genre. See my notes above for specific moments where I think you could be more specific and spend more time attending to the specific aspects of Mathworks and/or the job call.</p>
         </report>
     </docReview>
 </DOC>

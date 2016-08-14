@@ -606,8 +606,8 @@
         <element name="visual">
             <a:documentation>Visuals are any variety of in line imagery used to break up long
                 lengths of text, and/or aid in the understanding of a topic. Comics, pictures and
-                graphics are a few of the possible visuals that can be
-                used [require @url].<!-- Types can be: Photo, Comic, Drawing, Animation,
+                graphics are a few of the possible visuals that can be used [require
+                @url].<!-- Types can be: Photo, Comic, Drawing, Animation,
                 Quoted Text, Other --></a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.resourced.attribute.url"/>
@@ -634,12 +634,13 @@
             <a:documentation>Analogies should be used to better illustrate important and difficult
                 to understand topics put forth by the other elements.</a:documentation>
             <ref name="macro.paraContent"/>
+            <ref name="model.blog.global"/>
         </element>
     </define>
     <define name="list">
         <element name="list">
-            <a:documentation>A multipurpose list element. [required @type; values can be: "generic" or
-                "roadmap"]</a:documentation>
+            <a:documentation>A multipurpose list element. [required @type; values can be: "generic"
+                or "roadmap"]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.blog.global"/>
@@ -649,16 +650,16 @@
             <attribute name="type">
                 <choice>
                     <value>generic</value>
-                    <a:documentation>A generic list of
-                        any related yet separate items. Can also be used for breaking down procedural
-                        orders, an example of this would be notating the steps of a mathematical proof.</a:documentation>
+                    <a:documentation>A generic list of any related yet separate items. Can also be
+                        used for breaking down procedural orders, an example of this would be
+                        notating the steps of a mathematical proof.</a:documentation>
                     <value>roadmap</value>
-                    <a:documentation>A roadmap is a list in which several ‘section_headers’ that build upon
-                        one another to drive home an important point are specified before diving into each
-                        section independently. This allows the reader to understand the purpose of a section
-                        in context to avoid getting lost in its details. Text should agree with
-                        ‘section_headers’ used later on.</a:documentation>
-                    <a:documentation></a:documentation>
+                    <a:documentation>A roadmap is a list in which several ‘section_headers’ that
+                        build upon one another to drive home an important point are specified before
+                        diving into each section independently. This allows the reader to understand
+                        the purpose of a section in context to avoid getting lost in its details.
+                        Text should agree with ‘section_headers’ used later on.</a:documentation>
+                    <a:documentation/>
                 </choice>
             </attribute>
         </element>
@@ -667,7 +668,12 @@
         <element name="important_idea">
             <a:documentation>Major points of interest relating to the topic [takes @n
                 attribute].</a:documentation>
-            <ref name="macro.paraContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.blog.global"/>
+                </choice>
+            </oneOrMore>
             <ref name="att.global.attribute.n"/>
         </element>
     </define>
