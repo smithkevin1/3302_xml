@@ -80,10 +80,19 @@
                 commonly seen on rooftops.</specific_topic>
             <technical_principle>A semiconductor is a material that has the conductivity, or the
                 ability to carry an electrical current, between that of a good conductor, such as
-                metal, and that of an insulator such as rubber. Semiconductors are used as they can be altered and controlled quite easily to perform any electrical result required. Common metals heat up too quickly and conduct electricity to well, making it hard to use them in modern electronics. <analogy>Just as we were told as children not to stand near metal during a lightning storm, utilzing a metal conductor in a solar panel would </analogy></technical_principle>
-            <explanation n="">An in-depth reply to the question proposed in the “background”
-                section. Typically, the author will use common vernacular and devices such as
-                analogies and visuals in order to clearly convey concepts to readers.</explanation>
+                metal, and that of an insulator such as rubber. Semiconductors are used as they can
+                be altered and controlled quite easily to perform any electrical result required.
+                Common metals heat up too quickly and conduct electricity to well, making it hard to
+                use them in modern electronics. <analogy>Just as we were told as children not to
+                    stand near metal during a lightning storm, utilizing a metal conductor in a
+                    solar panel is just as dangerous. The solar panels would overheat as there would
+                    be no resistance to the electrical current, and the panels would likely catch
+                    fire</analogy></technical_principle>
+            <explanation n="">Sunlight is made up of photons, atomic sized particles that radiate
+                from the sun. When sunlight shines on the solar panels, the individual photons
+                strike the silicon and transfer their energy to the electrons of the silicon, and
+                knocks them off the silicon atoms. By forming an electrical circuit on the positive and negative sides of the cell, these electrons can be captured in the form of an electrical current. This current can then be transferred out of the cell and used for electricity. Solar panels have an efficiency of about 22%, meaning that only 22% of the electrons knocked loosed by the photon are captured in the form of an electrical current. The remaining energy is usually lost to heat.
+            <analogy>A photon can be thought of as the white (cue) ball in the game of pool, the electrons as the remaining stripes and solids, and the pockets as the means of capturing the electrical current. Just after racking the balls (electrons), they are "stuck" in that position and will not move unless a force acts upon them. When the cue ball (photon) smacks into them during the break, the energy is transferred to the other balls and they are knocked free of their initial position. A good pool player may hit a few of the balls into the pockets, but most will remain on the table. The balls (electrons) that fall into the pockets represent the 22% efficiency of the panels, as a majority of the balls still remain on the table.</analogy></explanation>
             <conclusion>A conclusion that sums up what was just explained. It acts as a concise
                 response to the question asked in the “background” section </conclusion>
         </answer>
