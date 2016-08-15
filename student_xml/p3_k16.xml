@@ -24,11 +24,12 @@
         <greeting>Dear Mr. O'Brein: </greeting>
         <intro_para>
             <intent type="purpose">I’m writing to apply for the Software Engineering Co-p role over
-                at at Smartleaf. </intent>
+                at at <!-- Repeated word -->Smartleaf. </intent>
             <reason>Currently I'm going into my last coop here at Norteastern, and with my previous
                 two coops I've worked at an extremely small company of about four people and a much
                 larger company of more than 30,000 people, and I'd like to gain experience with
-                working at a company the size of Smartleaf.</reason>
+                working at a company the size of
+                Smartleaf.<!-- Long sentence - break up for conciseness + clarity --></reason>
             <proposition> I believe that my experience as a Computer Science student working in more
                 finance oriented positions would make me a perfect candidate for this position.
             </proposition>
@@ -56,13 +57,13 @@
                 experience with working in a team oriented environment, were multiple teams come
                 together to build a product.</experience>
         </para_background>
-        <para_closing>
+        <para_closing> <!-- Include element "closing statements -->
             <compatability>I believe that I have the experience and skill set to excel in this
                 position , and I feel like the medium sized company environment would be a great fit
                 for me.</compatability>
             <next_step> I'm excited to hear back from you, and would appriciate the opportunity to
                 meet and talk in person. </next_step>
-            <acknowledgment>Thank you for your consideration. </acknowledgment>
+            <acknowledgment>Thank you for your consideration. <!-- Run spell check on final draft --></acknowledgment>
         </para_closing>
         <signature>
             <salutation>Sincerely,</salutation>
@@ -72,6 +73,7 @@
         </signature>
     </cover_letter>
     <docReview>
+<<<<<<< Updated upstream
         <!-- Writer' Memo -->
         <!-- Where are you in the process?
         Currently I have a rough draft of a cover letter
@@ -87,6 +89,32 @@
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
             <p>Peer review report will appear here.</p>
+=======
+        <reviewer type="peer" xml:id="m19"/>
+        <report type="peer" resp="#m19">
+            <p>For Project 3, Gurtaj wrote a cover letter. A cover letter would be included with a
+                resume as a response to a job opening. Overall, Gurtaj's writing follows this genre;
+                it is broken up into introduction, experience, and closing sections. The bulk of the
+                writing deals with his experience, which is appropriate for a cover letter. The
+                sentences and tone are professional, which is important because he is addressing a
+                hiring manager who has the power to continue or stop the job application process.
+                The word choices are mostly appropriate, and they detail his technical experience with
+                different software components. However, I think that the contractions should be left
+                out of professional writing. I also think that the experience sections could be developed
+                with more details of the work and projects Gurtaj has done.</p>
+            <p>I think that Gurtaj has followed the basic schema of a cover letter well. However,
+                the experience sections could use more information. He mentions in his school
+                experience section that his classes and projects helped him build skills, but he
+                does not explain what the classes and projects were and the skills he got from them.
+                In the paragraph about Mavenomics, he could detail what specific projects he worked
+                on. In the Goldman Sachs paragraph, he could explain the work he did when he
+                "learned about applications of Computer Science in the field of finance." I think
+                that this paragraph is especially important considering that he wants to work in
+                finance-oriented positions. While it is good to know and address the desired work
+                environment, I think that the size of companies is over-emphasized. I think that the
+                main focus should be on the work that Smartleaf does, and everything should tie to
+                that and the desire to get more experience in finance-type positions.</p>
+>>>>>>> Stashed changes
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
