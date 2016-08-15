@@ -4,7 +4,7 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>WP3 </title>
+        <title>Writing Project Three </title>
         <author xml:id="p22">Matt Parlon</author>
         <version n="1" date="2016-08-11"/>
     </docHead>
@@ -19,55 +19,112 @@
                 <contact type="email"> parlon.m@husky.neu.edu </contact>
             </contact_info>
         </header>
-        <greeting>Hello Jane Doe,</greeting>
+        <greeting>Hello Jane Doe,<note type="peer">If you don't know who its going to say "Hiring
+                Committee"</note></greeting>
         <intro_para>
-            <intent type="purpose">I am interested in the Analyst position within the Ameresco Project Management team.</intent>
-            <intent type="connection"><!-- Optional --> During my time at BlueWave Capital, I recieved some exposure to Ameresco's 
-            work and was immediately impressed. </intent> After evaluating Ameresco's development history and continual production of quality work
-            , I became interested in this position.
-            <reason><!-- Optional --> I have enjoyed my past work with Solar Project Development in
-                the past</reason> and <proposition>I think I will fit well with Ameresco's challenging culture
-                    and bring all the necessary abilities to go above and beyond my job requirements.
-                </proposition>
+            <intent type="purpose">I am interested in the Analyst position within the Ameresco
+                Project Management team.</intent>
+            <intent type="connection"><!-- Optional --> During my time at BlueWave Capital, I
+                recieved some exposure to Ameresco's work and was immediately impressed. <note
+                    type="peer">was immediately impressed with... their work ethic? their project
+                    difficulty or varety or impact?</note></intent> After evaluating Ameresco's
+            development history and continual production of quality work<note type="peer">consider
+                changing "work" to "projects"</note>, I became interested in this position.<note
+                type="peer">maybe say you became increasingly interested in the company, because
+                right now you haven't really mentioned anything position specific or specific to the
+                management team. If you make it clear you are impressed with the work of the
+                management group then I think it would make sense to say you are interested in the
+                position specifically.</note>
+            <reason><!-- Optional --> I have enjoyed my past work<note type="peer">Consider: I have
+                    enjoyed working with ... in the past. You say past twice right now.</note> with
+                Solar Project Development in the past</reason> and <proposition>I think I will fit
+                well with Ameresco's challenging culture and bring all the necessary abilities to go
+                above and beyond my job requirements. </proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="work">Throughout my three co-ops at Northeastern University, I was able to hone my 
-                <programs>AutoCAD and Excel</programs> 
-                skills in a manner that increased the efficiency of my work as well as that of my peers'.
-                <programs>Excel</programs> proved to be increasingly useful <accomplishments>as I recognized areas of inneficiency within my previous companies' workflow</accomplishments>  and 
-                <accomplishments>was able to develop macros to automate previously manual processes.</accomplishments> </experience>
-            
-            <experience type="school">
-                At Northeastern, I gained <skills>technical communication</skills> 
-                skills from my work within the Sustainable Energy Systems minor. Through various projects within the
-                graduate classes associated with this program I was able to utilize the knowledge gained in my earlier classes as well as on my co-ops
-                to work towards unique solutions to proposed issues regarding the leglislative, economic, and environmental issues assocated with 
-                solar energy.
-                </experience>
-            <experience type="school">
-                My final project at Northeastern allowed me to improve my <skills>ability to communicate effectively with various specialists</skills> 
-                to work toward a common goal. My capstone project to design a potable water distribution system as well as energy generation facility in Haiti 
-                let me communicate with environmental and electric specialists as I filled the role of solar development specialist.
+            <experience type="work">Throughout my three co-ops at Northeastern University, I was
+                able to hone my <programs>AutoCAD and Excel</programs> skills in a manner that
+                increased the efficiency of my work as well as that of my peers'.
+                    <programs>Excel</programs> proved to be increasingly useful <accomplishments>as
+                    I recognized areas of inneficiency within my previous companies'
+                    workflow</accomplishments> and <accomplishments>was able to develop macros to
+                    automate previously manual processes.</accomplishments>
             </experience>
-            
-            
+
+            <experience type="school"> At Northeastern, I gained <note type="peer">cosider: "I
+                    gained valuable technical communication skills"</note><skills>technical
+                    communication</skills> skills from my work within the Sustainable Energy Systems
+                minor. Through various projects within the graduate classes associated with this
+                program I was able to utilize the knowledge gained in my earlier classes as well as
+                on my co-ops to work towards unique solutions to proposed issues regarding the
+                leglislative, economic, and environmental issues assocated with solar energy.<note
+                    type="peer">This is a very long sentence, consider breaking it down for
+                    clarity.</note>
+            </experience>
+            <experience type="school"> My final project<note type="peer">If by final project you are
+                    reffering to capstone, make sure you talk about it in presenent tense if you
+                    plan to send this letter out prior to graduation. Otherwise this sentence makes
+                    it sound like you are already done with school.</note> at Northeastern allowed
+                me to improve my <skills>ability to communicate effectively with various
+                    specialists</skills> to work toward a common goal. My capstone project to design
+                a potable water distribution system as well as an energy generation facility in
+                Haiti let me<note type="peer">consider rewording from "let you" to "required you to"
+                    or something a little less flimsy. It will help make it clear you learned
+                    valuable information from these people rather than just chitchatted or
+                    something!</note> communicate with environmental and electric specialists as I
+                filled the role of solar development specialist. </experience>
+
+
         </para_background>
         <closing_statements>
-            <compatability>I believe my skills and passion for renewable energy will help me to fit in well with a Ameresco team and
-            have a positive impact on the Project Management Team.</compatability><pb/>
-            <next_step>Please call me at 617-319-5868 to discuss the possibility of continuing to the interview phase of the hiring process.</next_step>
+            <compatability>I believe my skills and passion for renewable energy will help me to fit
+                in well with a<note type="peer">change "a" to "the", you want to fit in with the
+                    company as a whole</note> Ameresco team and have a positive impact on the
+                Project Management Team.</compatability>
+            <pb/>
+            <next_step>Please call me at 617-319-5868 to discuss the possibility of continuing to
+                the interview phase of the hiring process.<note type="peer">Consider rewording,
+                    sounds a bit robotic and unfeeling. Maybe also saying that you look forward to hearing
+                    back from them so that they know you are genuinely interested in them!</note></next_step>
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
             <name>Matt Parlon</name>
         </signature>
     </cover_letter>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="w28"/>
+        <report type="peer" resp="#w28">
+            <p>For writing project three Matt wrote a cover letter to Ameresco applying for an
+                analyst position within their project management team. His letter very clearly
+                addresses his privious experience with the company, his reasons for being interested
+                in the position, and his qualifications for holding the position. Overall I think
+                that this is a very solid cover letter that could most definitely warrent a follow
+                up interview. It is very technical in nature and gives simple logical reasons for
+                why he would be an appropriate candidate. One thing that I think he could improve on
+                however is his choice of language. Some of his statements can be a bit too dry, as
+                seen in his next steps sentence. It is important to remember that although a cover
+                letter is an introduction for why you think you should get the position, your resume
+                will highlight many of the academic and experience related reasons for why you are
+                qualified. I have been told by employers in the past that these letters should also
+                be able to highlight your character and your personal interests to show them that
+                you would fit with their company culture. Consider speaking more specifically to
+                what you know and like about the company, rather than keeping it broad, as well as
+                including some level of personal connection to show why you like this thing that
+                they do or service that they provide. Also, in your writers memo you mentioned
+                wanting to show the benfits of having a technical engineering background as a member
+                of the management team. I think that this could be a good thing to tie your personal
+                interests to the position. Consider adding a short second background paragraph
+                discussing how your experience with your capstone team allowed you to learn a lot
+                about managing a team and how that is much easier to do if you understand the
+                technical aspects of what all of your team members are working on. For this reason
+                you would be able to bring those valuable communication and planning skills when
+                working with engineers and technical professionals into the management team at
+                Ameresco. This helps wrap up your background with a tie back to the company and
+                leaves them thinking about how awesome of an addition you would be to their
+                management team specifically! </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
