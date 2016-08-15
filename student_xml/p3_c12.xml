@@ -22,6 +22,7 @@
             <section>Purpose</section>
             <section>Approach</section>
             <section>Feasibility</section>
+            <note type="peer">Make sure you include your conclusion section here too!</note>
         </tbl_cont>
         <intro type="ltr_int">
             <p> Over the course of the past several years, there have been a large number of
@@ -35,7 +36,10 @@
                 the doubt has generally been given to the police officer versus the average citizen.
                 There needs to be a definite way for the correct and accurate story to be told, and
                 that can be done by requiring police body cameras for all members of the Scranton
-                police force. </p>
+                police force. <note type="peer">It could help make your proposal sound less bias
+                    (and thus more persuasive to more people) if you make a statement about how this
+                    is to benefit both the rights of the police officers and citizens. Otherwise,
+                    very effective intro summary.</note></p>
         </intro>
         <background>
             <p>
@@ -53,7 +57,12 @@
                     recent incidents in places like Ferguson and Baton Rouge, it is becoming more
                     and more necessary for footage of questionable police situations to be
                     available. This allows a correct representation of the incident without any
-                    doubts. </subj_hist>
+                    doubts. <note type="peer">It could be helpful to talk about relevant background
+                        in Scranton for this section too. Not necessarily about camera's but maybe
+                        they have had other issues with law enforcement that could have been avoided
+                        by camera's in the past. Something to make the need for body camera's more
+                        obvious to the reader (the Scranton Police Chief).</note>
+                </subj_hist>
             </p>
         </background>
         <purpose>
@@ -77,7 +86,11 @@
                     in two years. Each camera's battery would last a full 24 hour day and record to
                     an SD card. The camera will be impossible to turn off and the SD card will be
                     removable at the end of each day with the video stored for a week. If any
-                    complaints arises, the video of the certain event can be saved. </execution>
+                    complaints arises, the video of the certain event can be saved. <note
+                        type="peer">Is there a situation in which this style of execution was used
+                        and proven to be successful in another city? I could provide credibility to
+                        your whole argument if you had proof that it wasn't a very hard thing to
+                        implement.</note></execution>
             </p>
         </approach>
         <feasibility>
@@ -90,9 +103,18 @@
                     should only be around $1.5 million. Despite the large cost, this is an important
                     program that will provide a safer environment for everyone in the city.
                     President Obama has mentioned on several occasions the need for body cameras and
-                    the possibility of federal funding being provided to equip officers with them. </economic>
+                    the possibility of federal funding being provided to equip officers with them.
+                        <note type="peer">I like that you cite Obama's argument in this, it makes it
+                        sound more interesting and relevant. However, it would be stronger if you
+                        expanded on it a little bit and added a quote or something about why Obama
+                        feels it is important.</note></economic>
                 <!-- should insert some social feasibility about effects of 
                 body cams on public-->
+                <note type="peer">I agree you could use this as an opportunity to comment on the
+                    social feasiblity. You obviously think that it will be a welcomed change in
+                    Scranton from the general publics point of view, and it shouldn't have a major
+                    negative impact on any officer's day to day. So this is probably very feasibile
+                    as a social change.</note>
             </p>
         </feasibility>
         <conclu>
@@ -105,6 +127,9 @@
                 such as New York City and Los Angeles are implementing programs and it would be a
                 good idea to get on the right side of this situation and acquire body cameras as
                 soon as the budget will allow the city to. <!-- Conclusion needs some work -->
+                <note type="peer"> This conclusion is excellent and really gets your point across!
+                    You don't really address all these points in the rest of your report
+                    though.</note>
             </p>
         </conclu>
         <references>
@@ -120,9 +145,43 @@
     </pub_init_proposal>
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="s23"/>
+        <report type="peer" resp="#s23">
+            <p>This particular proposal sounds a lot like a plea from the public for the city of
+                Scranton to make changes in its law enforcement. Public initiative proposals are a
+                means of communicating with government officials (or in this case police officials)
+                the desires of the community, therefore yes, it makes sense to use this genre for
+                the particular rhetorical situation. Language and word level choice are very
+                appropriate for any adult reader, which is important for this genre since anyone
+                could be reading it. However, I feel like you may be a little too factual for the
+                genre. It is good to be professional and have irrefutable arguments in your proposal
+                because that is what makes your proposal legitimate. In your background section I
+                would recommend adding some personal notes about how body cameras could be of
+                particular benefit to Scranton though since you’re trying to convince this
+                particular department. Even if the purpose is for Scranton to take preventative
+                measures and basically “get with the times” and follow the lead of other cities in
+                the nation. You could also mention how it would instill a greater feeling of safety
+                in the community and trust in police officers. Considering your audience is
+                particularly important when you’re addressing your purpose as well. I think you
+                might be thinking mostly about how body camera’s will affect the general public, but
+                your audience is the police chief. I think you should refocus your purpose to also
+                primarily state the benefit body cameras would serve to police officers in the
+                “purpose” section. This would reposition your focus a little more strategically.
+                Also, I like that you outline your scope very clearly, but I wonder if putting such
+                a specific date on this proposal is hindering your argument. It might sound more
+                persuasive and realistic if you give loose deadlines to support your plan to
+                implement body cameras in phases. Instead you could say that these cameras will be
+                implemented over a 2-3 year range so that there is flexibility in finding the funds
+                for this. Despite your concerns, I think you use the schema very well and have a
+                really strong conclusion. I wouldn’t recommend changing anything in your conclusion
+                and instead adjust your background and purpose sections to reflect more on what is
+                in your conclusion. You should absolutely mention that the safety benefits should
+                outweigh the costs earlier in your proposal and talk about how it isn’t something
+                that needs to be done immediately, but it is something that should be on the chief’s
+                mind because it is important. You can also mention earlier that it would be
+                beneficial for Scranton to follow to lead of cities like New York and LA because
+                they have a successful model for what could be really important preventative
+                measures in Scranton. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
