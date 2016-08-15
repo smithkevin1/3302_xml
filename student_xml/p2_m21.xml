@@ -5,7 +5,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>P2 Cover LEtter</title>
         <author xml:id="m21">Your name here</author>
-        <version n="3" date="2016-08-08"/>
+        <version n="4" date="2016-08-08"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
     <cover_letter>
@@ -21,50 +21,34 @@
         </header>
         <greeting>Dear Mr. Stefanick,</greeting>
         <intro_para>
-            <intent type="purpose">I am writing to apply for an HVAC engineer co-op position, </intent>
-            <intent type="connection"><!-- Optional -->
-                <note type="instructor" resp="#kgs">for which (and eliminate trailing
-                'for'</note>which I was recommneded for through my previous boss, John Donahue at
-                Control Consultants<note type="instructor" resp="#kgs">comma following
-                    Consultants</note> Inc.</intent>
-            <reason><!-- Optional --> I am currently enrolled in a BS/MS program at Northeastern
-                University for Mechanical Engineering and Engineering Management </reason>and
-                <proposition>am looking to gain hands-on experience in the HVAC industry<note
-                    type="instructor" resp="#kgs">why specifically with this company, though?
-                    Couldn't you technically gain exp by, I don't know, installing HVAC units or
-                    something?</note>.</proposition>
+            <intent type="purpose">I am writing to apply for an HVAC engineer co-op position,
+            </intent>
+            <intent type="connection"><!-- Optional --> which I was recommneded for through my previous boss,
+                John Donahue at Control Consultants Inc.</intent> 
+            <reason><!-- Optional --> I am currently enrolled in a BS/MS program at Northeastern University 
+                for Mechanical Engineering and Engineering Management </reason>and <proposition>am looking to gain hands-on experience 
+                    in the HVAC industry.</proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="school">Through my rigorous coursework, I have gained experience with
-                thermodynamics, fluid dynamics, heat transfer, and modeling skills with
-                    <programs>AutoCAD</programs>and <programs>SolidWorks</programs><note
-                    type="instructor" resp="#kgs">is it obvious why this is valuable? could you say
-                    you've gained valuable exp in concepts relevant to HVAC, such as...</note>. </experience>
-            <experience type="work">During my last coop, I gained valuable experience in the HVAC
-                control field; I was responsible for <skills>creating point lists</skills> for
-                incoming jobs and AutoCAD system drawings for approved jobs. I routinely contacted
-                contractors regarding plans and visited active sites to perform inspections<note
-                    type="instructor" resp="#kgs">are the last two things in this list not
-                    skills?</note>.</experience>
-            <experience type="work"> Due to a previous internship at the Naragansett Bay Commission,
-                I also have experience in the water utility and treatment field.</experience>
-            <experience type="personal">Additionally, this coming fall I plan on joining the
-                Northeastern chapter of MCAA (NUMCAA) to further my skills with mechanical
-                contracting. </experience>
+            <experience type="school">Through my rigorous coursework, I have gained experience with thermodynamics, 
+                fluid dynamics, heat transfer, and modeling skills with <programs>AutoCAD</programs>and <programs>SolidWorks</programs>. </experience>
+            <experience type="work">During my last coop, I gained valuable experience in the HVAC control field; 
+                I was responsible for <skills>creating point lists</skills> for incoming jobs and AutoCAD system drawings for approved 
+                jobs. I routinely contacted contractors regarding plans and visited active sites to perform inspections.</experience>
+            <experience type="work"> Due to a previous internship at the Naragansett Bay Commission, I also have experience in the water 
+                utility and treatment field.</experience>
+            <experience type="personal">Additionally, this coming fall I plan on joining the Northeastern chapter of MCAA (NUMCAA)
+                to further my skills with mechanical contracting. </experience>
         </para_background>
         <closing_statements>
-            <compatability>EMCOR is one of the leading mechanical contractors in the Boston
-                metropolitan area. After my previous experience with HVAC controls, I am looking to
-                broaden my skills in mechanical contracting and I believe working at EMCOR would be
-                a challenging and rewarding path to new knowledge in the industry. I trust that I
-                would be a driven candidate capable of taking on the adversity and problem solving
-                needed when in the office or out in the field.<note type="instructor" resp="#kgs"
-                    >this section is excellent</note>
-            </compatability>
-            <next_step><pb/>I am eager to start my future in the HVAC industry and appreciate your
-                consideration for a position at EMCOR Northeast. I look forward to hearing from you
-                soon.</next_step>
+            <compatability>EMCOR is one of the leading mechanical contractors in the Boston metropolitan area. 
+                After my previous experience with HVAC controls, I am looking to broaden my skills in mechanical 
+                contracting and I believe working at EMCOR would be a challenging and rewarding path to new 
+                knowledge in the industry. I trust that I would be a driven candidate capable of taking on the 
+                adversity and problem solving needed when in the office or out in the field. </compatability>
+            <next_step><pb/>I am eager to start my future in the HVAC industry and appreciate your consideration for 
+                a position at EMCOR Northeast. I look forward to hearing from you soon.</next_step>
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
@@ -74,31 +58,25 @@
     <docReview>
         <reviewer type="peer" xml:id="l18">Daniel Lieman</reviewer>
         <report type="peer" resp="#l18">
-            <p>You have written a cover letter with the intention of getting an HVAC engineering
-                Co-Op. You want to work with EMCOR because it is prestigious. You hope to get hands
-                on experience and have listed your experiences and abiities that qualify you for
-                that.</p>
-            <p>You could pay a bit more attention to how specific things fit with specific elements
-                and attribute values. The typing of experience could especially use a look over.
-                This is an organizational thing. </p>
-            <p>For experience, you may want to make the things you learned in class stand out more
-                by mentioning how you used them. You may also want to go into more detail on why
-                NUMCAA is useful. Make sure that you don't sacrifice brevity too much if you decide
-                to go into more detail.</p>
-            <p>It would be good if you went into more detail about what you like about EMCOR as a
-                company. The letter can come as you just picking a large local employer when you
-                write "EMCOR is one of the leading mechanical contractors in the Boston metropolitan
-                area". Try doing some research on the company culture or impressive projects it has
-                done. </p>
+            <p>You have written a cover letter with the intention of getting an HVAC engineering Co-Op.  You want to work with EMCOR because it is prestigious.
+            You hope to get hands on experience and have listed your experiences and abiities that qualify you for that.</p>
+            <p>You could pay a bit more attention to how specific things fit with specific elements and attribute values. 
+            The typing of experience could especially use a look over.  This is an organizational thing.  
+            </p>
+            <p>For experience, you may want to make the things you learned in class stand out more by mentioning how you used them. 
+                You may also want to go into more detail on why NUMCAA is useful.  
+                Make sure that you don't sacrifice brevity too much if you decide to go into more detail.</p>
+            <p>It would be good if you went into more detail about what you like about EMCOR as a company.
+                The letter can come as you just picking a large local employer when you write 
+                "EMCOR is one of the leading mechanical contractors in the Boston metropolitan area".
+                Try doing some research on the company culture or impressive projects it has done.  </p>
         </report>
-
-
-
+        
+        
+        
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Really nice work here. I've noted some areas where I had questions as a reader and
-                where I thought you could be a little more explicit as to why this specific company
-                and industry is relevant to your coursework and future career goals.</p>
+            <p>Comments on assignment will appear here.</p>
         </report>
     </docReview>
 </DOC>
