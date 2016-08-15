@@ -5,9 +5,9 @@
     <DOC>
         <docHead>
             <!--required header includes metadata about the assignment (title, author, version)-->
-            <title>Title of Assignment</title>
-            <author xml:id="m21">Your name here</author>
-            <version n="1" date="2016-08-13"/>
+            <title>Mass Ave. Bike Lane Improvement</title>
+            <author xml:id="m21">Chris Murphy</author>
+            <version n="2" date="2016-08-13"/>
             <!--note that the date must be YYYY-MM-DD for the document to be valid-->
         </docHead>
         
@@ -92,13 +92,21 @@
             
             <feasibility type="">  <!--attribute options: economic, social, environmental-->
                 <p>
-                    <!--text here-->
+                    The two main obstacles in the process are costs and disruptions to traffic flow. 
+                    The latter problem could be best mostly resolved by limiting work to night shifts
+                    and if necessary, weekends. Since the department of transportation already has allotted
+                    budgets for roadwork and improvements, the funding problem is mostly a matter of securing 
+                    those funds through petitions and demonstrations as to why the Mass Ave. upgrade is a pertinent 
+                    problem. 
                 </p>
             </feasibility>
             
             <conclu>
                 <p>
-                    <!--text here-->
+                    Performing these upgrades will increase both the usability and safety of bike travel along a 
+                    major city road. Indirect affects of the construction would hopefully be an increase in bike 
+                    users and decrease in traffic congestion. Overall, the changes will leader to improved transportation 
+                    in the city of Boston.  
                 </p>
             </conclu>
             
@@ -114,15 +122,7 @@
             </report>
         </docReview>
     </DOC>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     
     
     
