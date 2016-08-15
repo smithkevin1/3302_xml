@@ -12,8 +12,9 @@
     <blog_post>
         <background>
             <section_header>Why are bacteria shaped the way they are?</section_header>
-            <question>Question</question>
-            <misconception>misconception</misconception>
+            <question>What is responsible for bacteria to develop into weird shapes?</question>
+            <misconception>Could be for food or protection, which might be part of it, but none seem
+                to be the main driving factor.</misconception>
             <important_idea>But to understand exactly the reason for these weird shapes one first
                 has to understand something about the world of bacteria, specifically the fluid the
                 fluid they move in. The first step is to understand the Reynolds number.
@@ -27,24 +28,58 @@
                 /> The Reynolds number (Re in the equation above) is defined as the ratio of
                 inertial forces to viscous forces. What does that mean? Well the first thing that
                 should be noted is that it is a ratio. It has no units attached. The Reynolds number
-                can be 46, it can 46,000. It’s just a number. But it is a very useful number,
+                can be 46, it can 46 million. It’s just a number. But it is a very useful number,
                 especially for engineers. Engineers use the Reynolds number to characterize how a
                 fluid (liquid or gas) flows. It tells engineers when to use certain equations for
                 certain situations, and when not to use them. </technical_principle>
             <section_header>What does the Reynolds number depend on?</section_header>
             <technical_principle n="2">Here’s the breakdown: ρ is density of the fluid, V is
-                velocity, D is diameter, or the size of the volume of the fluid is flowing in, μ is
-                viscosity which is a fluid's resistance to movement <analogy>(molasses is much more
+                velocity, D is diameter, or the size of the volume being analyzed, and μ is
+                viscosity, which is a fluid's resistance to movement <analogy>(molasses is much more
                     viscous than water).</analogy>
             </technical_principle>
-            <analogy>Let's take a person swimming in water.
-            <visual type="drawing"
-                url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
-            />
-               
+            <section_header>So what is low for a Reynolds number?</section_header>
+            <analogy>Let's take a person swimming in water. Let's call him Arnold. <visual
+                    type="drawing"
+                    url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
+                />Arnold swims at an average speed of 2 mph or .894 m/s in water which has a density
+                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Arnolds size,
+                or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we get a
+                Reynolds number of about 409000. Now, lets take a look at an E. Coli cell. <visual
+                    type="drawing"
+                    url="http://hyperphysics.phy-astr.gsu.edu/hbase/biology/imgbio/cellprokaryote6.gif"
+                />A typical cell might be 2 μm or 2*10^-6 m and travel in water at a speed of 30
+                μm/s or 3*10^-7 m/s. In this case your Reynolds number would be 0.00006 . That's
+                several magnitudes smaller than Arnold's situation. If Arnold wanted to experience
+                the same Reynold's number as an E. Coli cell he would have to move at a speed of
+                about 1.3*10^-10 m/s. If he were to move at that speed for a whole year he would
+                travel a staggering 4 millimeters.</analogy>
+            <section_header>What does this tell us?</section_header>
+            <important_idea>It tells us fluid flow has different properties at this level. It tells
+                us life is different at low Reynolds numbers. </important_idea>
+            <analogy>What does this mean? Imagine you get in the water and push Arnold. He will move
+                while he’s being pushed, and then inertia will carry him so he floats a little bit
+                farther away from you. Do the same in molasses, and he’ll stop almost immediately
+                once the force of your push stops acting on him. <technical_principle n="3">His
+                    movement in the water only depends on a current force acting on him, not on the
+                    forces acting on him before. . In this case, his movement is not dependent on
+                    time. It is said to be time invariant. </technical_principle>
             </analogy>
-            
-            
+            <section_header>Scallops Theorem </section_header>
+            <specific_topic>This concept is the cornerstone of Scallop Theorem, a theorem developed
+                by physicist Edward Mills Purcell in his paper “Life at low Reynolds
+                number”.</specific_topic><technical_principle n="4">”. It states that to travel at
+                low Reynolds number a swimmer has to move or deform in a way that is not reciprocal. </technical_principle>
+            <analogy>. A great example of this is, of course, the scallop. A scallop travels in
+                water by slowly opening its shell to take in water, and quickly squirting it out to
+                propel itself. <visual type="drawing"
+                    url="https://upload.wikimedia.org/wikipedia/commons/4/40/Scallop_jump.svg"
+                    /><technical_principle n="5">While this works great in a Scallop’s environment,
+                    it would be useless at low Reynolds numbers, since the motion is reciprocal.
+                    Since motion at low Reynolds flow is time invariant, the fact that the scallop
+                    opened and closed its shell slowly and quickly does not matter. In this case,
+                    the scallop would simply move one way when the shell opens, and move right back
+                    to the same spot when it closes. </technical_principle></analogy>
         </answer>
         <sources/>
     </blog_post>
