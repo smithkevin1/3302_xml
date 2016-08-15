@@ -58,9 +58,9 @@
                     program a Zedboard's FPGA and control a robotic arm.</programs><skills>I wrote
                     technical reports detailing the projects in these classes, and I worked
                     effectively with lab partners.</skills></experience>
-            <experience type="work">While taking classes, I also worked in Northeastern's SMILE lab,
-                which focuses on machine learning and computer vision. I collaborated with a team to
-                gather images for a Kinship Recognition project.</experience>
+            <experience type="work"> While taking classes, I also worked in Northeastern's SMILE
+                lab, which focuses on machine learning and computer vision. I collaborated with a
+                team to gather images for a Kinship Recognition project.</experience>
         </para_background>
 
         <closing_statements>
@@ -75,6 +75,10 @@
             <name>Sydnee Mizuno</name>
         </signature>
     </cover_letter>
+    <!-- Writer' Memo -->
+    <!-- I think that I'm far in the process of writing a cover letter. My rheterorical situation is responding to a job position. 
+         I think that my experience is detailed and helps expand what's listed on my resume. Sometimes it can be difficult to condense all of the
+         work experience into concise paragraphs. I would like the reviewer to look at the "school experience" and "compatibility."-->
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
