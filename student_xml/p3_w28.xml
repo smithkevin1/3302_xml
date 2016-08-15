@@ -4,13 +4,57 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Cover Letter - Writing Project 3</title>
+        <author xml:id="your_id_here">Samantha Wagner</author>
+        <version n="1" date="2016-08-11"/>
     </docHead>
-    
-    <!-- root element for P3 here --> 
-    
+
+    <cover_letter>
+        <header>
+            <name>Samantha Wagner</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="address">38 Hemenway Street; Boston, MA 02115 </contact>
+                <contact type="phone">425-686-0452 </contact>
+                <contact type="email">sammwag@gmail.com</contact>
+            </contact_info>
+        </header>
+        <greeting>Dear Mr. Sarkisian,</greeting>
+        <intro_para>
+            <intent type="purpose">I am interested in applying for a summer internship position at
+                Skidmore, Owings and Merrill.</intent>
+            <intent type="connection"><!-- Optional --> After speaking with you over the phone this
+                past summer</intent>, I became increasingly interested in pursuing a job with your
+            company. <reason><!-- Optional --> I have a strong interest in both architecture and
+                structural engineering</reason> and <proposition>I think I would be a great fit with
+                the SOM culture and bring the necessary abilities to go above and beyond my job
+                requirements.</proposition>
+        </intro_para>
+        <para_background>
+            <!-- One or More -->
+            <experience type="work">I have previous experience with <programs>AutoCAD, Revit, and
+                    other design programs</programs> from my previous work at Simpson, Gumpertz and
+                Heger. I became well versed in <programs>AudoCAD</programs> while
+                    <accomplishments>creating and updating structural and building technology
+                    related drawings</accomplishments> and <accomplishments></accomplishments> with it.</experience>
+            <experience type="personal">I have also improved my ability in <programs>Java</programs>
+                while working on a <accomplishments>chess program</accomplishments> in my spare
+                time.</experience>
+            <experience type="school">I gained <skills>technical communication</skills> skills from
+                my work as a TA at Knowledge University. I often had to explain technical info in
+                many different ways.</experience>
+        </para_background>
+        <closing_statements>
+            <compatability>I think I will fit in well with the holistic design culture of SOM.</compatability>
+            <pb/>
+            <next_step>I have attached my resume to this letter and I hope to hear from you in the future regarding possible opennings for interns in the Summer of 2017.</next_step>
+        </closing_statements>
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <name>Samantha Wagner</name>
+        </signature>
+    </cover_letter>
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
