@@ -30,8 +30,9 @@
                 website.</intent>
             <reason>I was excited to see a growing company invested in making progress into the
                 future of clean energy in the automotive industry.</reason>
-            <proposition>I have experience with startups similar to A123 and find that I am most
-                driven in such an environment. </proposition>
+            <proposition>I have experience<note type="instructor" resp="#kgs">in this type of
+                    position?</note> with startups similar to A123 and find that I am most driven in
+                such an environment. </proposition>
         </intro_para>
 
         <para_background>
@@ -117,7 +118,13 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Your XML document is not valid--8 errors, though it looks like all of those are
+                because you failed to update the element name for the last paragraph to
+                closing_statements, according to your team's revision. The other issue here is that
+                your revised version came in a few hours after the due date (8/9 by class time).
+                Aside from those two issues, this is an excellent example of a cover letter. It is
+                specific, both about the company to which you are applying and your own experience,
+                while remaining personal. Well done.</p>
         </report>
     </docReview>
 </DOC>

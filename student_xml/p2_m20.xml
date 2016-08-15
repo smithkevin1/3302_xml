@@ -6,16 +6,17 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Assignment 2</title>
         <author xml:id="m20">Chi Mo</author>
-        <version n="2" date="2016-07-30"></version>
+        <version n="2" date="2016-07-30"/>
     </docHead>
-    
+
     <fsb_rpt>
-        <page type="ttl" ><title>Waitless App Feasibility Report</title>
+        <page type="ttl"><title>Waitless App Feasibility Report</title>
             <contributors>Chi Mo</contributors>
             <date>2016-07-30</date>
         </page>
-        <page type="tbl_contents">           
-            <sect n="1" lvl="1">Exclusive Summary</sect>
+        <page type="tbl_contents">
+            <sect n="1" lvl="1">Exclusive Summary<note type="instructor" resp="#kgs">Do you mean
+                    "Executive Summary" here?</note></sect>
             <sect n="2" lvl="1">Preliminary Requirements Analysis</sect>
             <sect n="1" lvl="2">Application Overview</sect>
             <sect n="3" lvl="1">Feasibility</sect>
@@ -25,105 +26,132 @@
             <sect n="7" lvl="1"> Risk Analysis</sect>
             <sect n="8" lvl="1">Financial</sect>
             <sect n="9" lvl="1">Conclusion</sect>
-        </page> 
-        <page type="exec_sum">
-            The app is called Waitless and it's designed for helping people get a seat for a restaurant which doesn't take reservations
-            so that they don't need to be arrived and wait for 45 minutes. If you always have dinner outside in Boston, you may find this 
-            situation very common. This new app is going to short the waiting time. After the customer downloads this app on their phones and the restaurant 
-            also has this app downloaded on their device, the time saving trip is started. Customers can start to wait in the list when they heading to the place 
-            and they can see the waiting time so that customers can check the time and decide which place they want to go. It's similar with using Google Map to check 
-            the route and the app will tell the customers that how long it will take for them to get there and how long the waiting time is. 
-            Waitless is a combination of Google Map, Yelp and waiting time of all the restaurants. Also, it can make the points card electronical too. 
-            
         </page>
+        <page type="exec_sum"> The app is called Waitless and it's designed for helping people get a
+            seat for a restaurant which doesn't take reservations so that they don't need to be
+                arrived<note type="instructor" resp="#kgs">don't need to arrive</note> and wait for
+            45 minutes. If you always have dinner outside in Boston, you may find this situation
+            very common. This new app is going to short the waiting time. After the customer
+            downloads this app on their phones and the restaurant also has this app downloaded on
+            their device, the time saving trip is started. Customers can start to wait in the list
+            when they <note type="instructor" resp="#kgs">are</note>heading to the place and they
+            can see the waiting time so that customers can check the time and decide which place
+            they want to go. It's similar with using Google Map to check the route and the app will
+            tell the customers that how long it will take for them to get there and how long the
+            waiting time is. Waitless is a combination of Google Map, Yelp and waiting time of all
+            the restaurants. Also, it can make the points card electronical too. <note
+                type="instructor" resp="#kgs">My understanding is that the executive summary should
+                say whether or not a specific project is feasible and why--I'm not entirely ssure
+                what the 'project' is here. Does this app already exist and you're trying to get a
+                company to invest in it? Are you pitching the app idea to a software dev
+                company?</note></page>
         <page type="pre_req_ana">
-            <app_ovr type="rls"> 
-                Currently, people need to go to the restaurant first, get in a line if it’s busy there, and wait until your turn. Since 
-                there won’t be enough space for customers to wait inside the restaurant, customers will have to wait outside. In Boston, the 
-                winter is cold and long which is up to 6 months of a year. Therefore, by possibility, there will be 50% of times that a customer
-                waits for food is going to be in the cold winter. Some of the restaurants call by name which means the customer can’t leave. 
-                Some of restaurants use the “buzz thing” to let customers know their turn but they can’t stay too far from the restaurant. 
+            <app_ovr type="rls"> Currently, people need to go to the restaurant first, get in a line
+                if it’s busy there, and wait until your turn. Since there won’t be enough space for
+                customers to wait inside the restaurant, customers will have to wait outside. In
+                Boston, the winter is cold and long which is up to 6 months of a year. Therefore, by
+                possibility, there will be 50% of times that a customer waits for food is going to
+                be in the cold winter. Some of the restaurants call by name which means the customer
+                can’t leave. Some of restaurants use the “buzz thing” to let customers know their
+                turn but they can’t stay too far from the restaurant.<note type="instructor"
+                    resp="#kgs">I'm not sure this is a correct usage of this section of the
+                    report--a rule or regulation that affects the application of the service</note>
             </app_ovr>
-            <app_ovr type="obj">                
-                After installing Waitless, all these problems solved! No need for waiting outside in the wind for a long time and you can 
-                plan your time for your meal. Besides, you don’t need to remember to carry all the points cards with you or get more points cards 
-                if you didn’t bring your own.
-            </app_ovr>                       
-            
+            <app_ovr type="obj"> After installing Waitless, all these problems solved! No need for
+                waiting outside in the wind for a long time and you can plan your time for your
+                meal. Besides, you don’t need to remember to carry all the points cards with you or
+                get more points cards if you didn’t bring your own.<note type="instructor"
+                    resp="#kgs">Is this type of writing typical for feasibility reports?</note>
+            </app_ovr>
         </page>
         <page type="fsb">
-            <fsb_hlgt type="tcnl" n="1">
-                In order to develop an app like this, we need to understand how does a restaurant calculate the time. Also, the other 
-                problem is that how can we make everything live. Making the points card electronic is the easy part, as long as the 
-                restaurant has some kind of points card. A good way to develop the calculating the time is that every restaurant has 
-                its own average of dinning time for every numbers of party. As long as we have the average, it will be easy to calculate 
-                time. The app is a live based app which means it will sync the changes at backend every few seconds.                 
-            </fsb_hlgt>
-            <fsb_hlgt type="econ" n="2">
-                Sometimes the cost of developing a software can be huge like Windows10. Sometimes it can be small, for example, the coast of 
-                developing Flappy Bird is tinny where it only needs one developer to code on the IOS platform. What this app will do is not 
-                only saving time for customers but also saving time for parking spots. Suppose, the average time for a meal is 40 minutes, 
-                after the customer using this app, customer should only use the parking spot for at most 1 hour instead of 1.5 hour now. 
+            <fsb_hlgt type="tcnl" n="1"> In order to develop an app like this, we need to understand
+                how does a restaurant calculate the time. Also, the other problem is that how can we
+                make everything live. Making the points card electronic is the easy part, as long as
+                the restaurant has some kind of points card. A good way to develop the calculating
+                the time is that every restaurant has its own average of dinning time for every
+                numbers of party. As long as we have the average, it will be easy to calculate time.
+                The app is a live based app which means it will sync the changes at backend every
+                few seconds. </fsb_hlgt>
+            <fsb_hlgt type="econ" n="2"> Sometimes the cost of developing a software can be huge
+                like Windows10. Sometimes it can be small, for example, the coast of developing
+                Flappy Bird is tinny<note type="instructor" resp="#kgs">tiny</note> where it only
+                needs one developer to code on the IOS platform. What this app will do is not only
+                saving time for customers but also saving time for parking spots. Suppose, the
+                average time for a meal is 40 minutes, after the customer using this app, customer
+                should only use the parking spot for at most 1 hour instead of 1.5 hour now.<note
+                    type="instructor" resp="#kgs">OK, but what will the economic cost of this app
+                    be? Is it more like Windows10 or Flappy Bird?</note>
             </fsb_hlgt>
         </page>
-        <page type="sccs_crt"><req_sect>
-            Equipments
-            <req n="1" title="Hardware">Needs usable computers with required software installed. </req>
-            <req n="2" title="Software">The computers need IOS Xcode installed and Java access. Xcode is for the IOS app design and Java is for the Android.</req>
-        </req_sect></page>
+        <page type="sccs_crt"><req_sect> Equipments<note type="instructor" resp="#kgs"
+                    >Equipment</note>
+                <req n="1" title="Hardware">Needs usable computers<note type="instructor"
+                        resp="#kgs">who needs usable computers? the restaurants?</note> with
+                    required software installed. </req>
+                <req n="2" title="Software">The computers need IOS Xcode installed and Java access.
+                    Xcode is for the IOS app design and Java is for the Android.<note
+                        type="instructor" resp="#kgs">I would think that part of your success
+                        criteria for an app would include how many people or businesses you want to
+                        use the app?</note></req>
+            </req_sect></page>
         <page type="cost">
             <est type="lgl">$5000 for attorney to get the app licence and patent</est>
             <est type="fnc">$5000 for paying the computer developers to develop the code</est>
-            <est type="fnc">$5000 for advertising and publicize</est>
+            <est type="fnc">$5000 for advertising and publicize<note type="instructor" resp="#kgs"
+                    >where do these numbers come from?</note></est>
         </page>
         <page type="rpt">
             <tmln date="2016-08-01" n="1">Get the idea and find people to work with</tmln>
             <tmln date="2016-08-05" n="2">Start the GUI design</tmln>
             <tmln date="2016-09-20" n="3">Get data from restaurant</tmln>
             <tmln date="2016-10-20" n="4">Inner testing</tmln>
-            <tmln date="2016-10-31" n="5">Trail testing</tmln>
+            <tmln date="2016-10-31" n="5">Trail<note type="instructor" resp="#kgs">Trial</note>
+                testing</tmln>
             <tmln date="2016-11-01" n="6">Release</tmln>
         </page>
-        <page type="rsk_ana">
-            The risk of this app is the lack of users. The way to avoid it is to send advertisements in popular restaurants around Boston. 
-            The app is free first 6-months to restaurants so that they will get to know it well and starting using it. 
+        <page type="rsk_ana"> The risk of this app is the lack of users. The way to avoid it is to
+            send advertisements in popular restaurants around Boston. The app is free first 6-months
+            to restaurants so that they will get to know it well and starting using it.<note
+                type="instructor" resp="#kgs">Shouldn't users be a part of your success criteria
+                then?</note>
         </page>
         <page type="fnc">
-            <fnc type="fund"> The cost of developing the IOS app is the cost of human. It may need 3 person to get all these done. 
-            One for the GUI design for the customer side, one for GUI design for the restaurant side and the last one is to get all the 
-            data from customer and restaurants. There will be no more cost other than people. Thus, developing a software doesn't need 
-            huge funds. </fnc>
-        </page> 
+            <fnc type="fund"> The cost of developing the IOS app is the cost of human<note
+                    type="instructor" resp="#kgs">unclear what this means</note>. It may need 3
+                person to get all these done. One for the GUI design for the customer side, one for
+                GUI design for the restaurant side and the last one is to get all the data from
+                customer and restaurants. There will be no more cost other than people. Thus,
+                developing a software doesn't need huge funds. </fnc>
+        </page>
         <page type="conc">
-            <fsb>This app is a feasible application. According to the design, this app should be capable on IOS and Android which are the 
-            two most popular operating system on phones.</fsb>
-            <cond>On the restaurant side, most of them have one device to take waiting list, other wise, it needs a person to 
-                count the tables and calculate the time. If we can make it as a app, things are going to be a lot much easier. 
-                On the customer side, with this app, it will save a lot of time. Instead of waiting outside the restaurant 
-                in the cold freezing weather, it's better to have an app like this to get on the waiting list before you arrive.</cond>        
-            <sum>
-                The Waitless will give both customers and restaurants convenience and help them save time. There is
-                an old saying: "Time is gold." Thus, saving time is the same as saving money which is the core idea of the Waitless app. 
-            </sum>
-        </page>                
+            <fsb>This app is a feasible application.<note type="instructor" resp="#kgs">Great! I
+                    think this should probably appear in your executive summary as well</note>
+                According to the design, this app should be capable on IOS and Android which are the
+                two most popular operating system on phones.</fsb>
+            <cond>On the restaurant side, most of them have one device to take waiting list, other
+                wise, it needs a person to count the tables and calculate the time. If we can make
+                it as a app, things are going to be a lot much easier. On the customer side, with
+                this app, it will save a lot of time. Instead of waiting outside the restaurant in
+                the cold freezing weather, it's better to have an app like this to get on the
+                waiting list before you arrive.</cond>
+            <sum> The Waitless will give both customers and restaurants convenience and help them
+                save time. There is an old saying: "Time is gold." Thus, saving time is the same as
+                saving money which is the core idea of the Waitless app. </sum>
+        </page>
     </fsb_rpt>
-        
+
     <docReview>
         <reviewer type="peer" xml:id="v26"/>
         <report type="peer" resp="#v26">
-            <p>
-                This draft feasibility report describes an app called Waitless, which shows potential
-                restaurant patrons wait times at various restaurants. In the report, conforming to
-                the genre, is evidence that the development of the app is feasible. 
-            </p>
-            <p>
-                A feasibility report is a paper written to explain and show why it is possible that
+            <p> This draft feasibility report describes an app called Waitless, which shows
+                potential restaurant patrons wait times at various restaurants. In the report,
+                conforming to the genre, is evidence that the development of the app is feasible. </p>
+            <p> A feasibility report is a paper written to explain and show why it is possible that
                 a project or idea can be made into reality. The feasibility of the project is
                 displayed via data or other logical evidence. The situation described is very
-                appropriate to the genre and the situation is clearly presented.  
-            </p>
-            <p>
-                For the most part, the sentence structure and word choice are genre appropriate. A
+                appropriate to the genre and the situation is clearly presented. </p>
+            <p> For the most part, the sentence structure and word choice are genre appropriate. A
                 potential problem that I noted was extensive use of pronouns such as "we" and "you".
                 The problem with these pronouns is that a feasibility report is meant to present
                 evidence in a formal fashion; these pronouns make the paper seem too casual. My
@@ -132,19 +160,22 @@
                 to use "we" when referring to the team developing the app. Another note, regarding
                 word choice, more technical jargon could be used. This could be necessary to explain
                 in a more in depth fashion how the back-end of the app functions, how the app works,
-                and how specifically development will take place.
-            </p>
-            <p>
-                The rules of the schema are mostly followed well. One noticeable exception is in the table
-                of contents where the "n" and "lvl" attributes are not used. Another location where
-                the schema isn't followed exactly, is in the report page, the timeline elements are
-                missing "n" attributes. These "n" attributes are not shown to be required in Oxygen,
-                but our schema documentation shows them as required.
-            </p>
+                and how specifically development will take place. </p>
+            <p> The rules of the schema are mostly followed well. One noticeable exception is in the
+                table of contents where the "n" and "lvl" attributes are not used. Another location
+                where the schema isn't followed exactly, is in the report page, the timeline
+                elements are missing "n" attributes. These "n" attributes are not shown to be
+                required in Oxygen, but our schema documentation shows them as required. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a very good start and a lot is going well here. I think the idea for this app
+                is great! I have some questions about 1) your rhetorical situation: who is your
+                audience? where do you imagine yourself in relation to your audience? 2) how you use
+                certain sections: especially the executive summary and preliminary requirements
+                analysis; and 3) Some of the language that you use in the report seems a bit
+                informal when compared with other feasibility reports. Pay careful attention to the
+                in-text comments I've added to your document.</p>
         </report>
     </docReview>
 </DOC>

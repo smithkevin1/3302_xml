@@ -8,34 +8,35 @@
         <author xml:id="s24">Oliver Scott</author>
         <version n="num_of_version" date="2016-08-08"/>
     </docHead>
-    
+
     <blog_post>
         <background> Computer security.<note type="peer">Maybe put a period here instead of a comma
-            and then start a new sentence.</note>
+                and then start a new sentence.</note>
             <misconception> The words somehow feel like they belong to two types of people: 1)
                 Malicious computer hackers who can cause servers to melt worldwide with the casual
                 swipe of their fingers and a sip of mountain dew. 2) The office IT worker who can
                 transform you into a narcoleptic with a stained oversized white t-shirt and a
-                one-<note type="peer">Put hyphen</note>sided discussion about the merits of the
-                Hutt's mafioso control of Tatooine's water supplies. </misconception>
-            Consequentially, when the topic of computer security arises, the average computer user's
-            eyes glaze over whilst simultaneously running away at Olympic gold medal speeds. <pb/>
-            This is bad. We (almost) all use computers, and its our responsibility to help keep them
-            safe. <analogy>Who's at fault if you get in an car accident when you're driving without
-                a license?<note type="peer">Replace w/ ?</note> Who's at fault if you leave your
-                door open every day and come home one day to find out you've been robbed? </analogy>
-            A lot of your important stuff exists on a computer somewhere. <important_idea n="1">
-                What you might not know, is that avoiding having this stuff stolen is not hard nor
-                time intensive;<note type="peer">Replace w/ ;</note> it can be as easy as putting on
-                a seatbelt or locking your door.</important_idea><pb/>
+                one-sided discussion about the merits of the Hutt's mafioso control of Tatooine's
+                water supplies. </misconception> Consequentially, when the topic of computer
+            security arises, the average computer user's eyes glaze over whilst simultaneously
+            running away at Olympic gold medal speeds. <pb/> This is bad. We (almost) all use
+            computers, and its our responsibility to help keep them safe. <analogy>Who's at fault if
+                you get in an car accident when you're driving without a license?<note type="peer"
+                    >Replace w/ ?</note> Who's at fault if you leave your door open every day and
+                come home one day to find out you've been robbed? </analogy> A lot of your important
+            stuff exists on a computer somewhere. <important_idea n="1"> What you might not know, is
+                that avoiding having this stuff stolen is not hard nor time intensive;<note
+                    type="peer">Replace w/ ;</note> it can be as easy as putting on a seatbelt or
+                locking your door.</important_idea><pb/>
             <question>So how do we make sure that our computers are secure?</question><pb/>We'll get
             to that shortly, but first let's understand why we are in a state of constant cyber
             threat. <list type="roadmap"> Better understanding <section_header>why there is
-                danger</section_header> will help us create a plan for <section_header>stopping
-                    danger</section_header>. </list><pb/>
-            <section_header> Why There is Danger</section_header> If we negated threats
-            stemming from the internet, the world wouldn't be devoid of cyber-danger, however the
-            vast majority of problems would not exist. <technical_principle n="1">There is nothing
+                    danger</section_header> will help us create a plan for <section_header>stopping
+                    danger</section_header>. <note type="instructor" resp="#kgs">this is a really
+                    good use of the roadmap list type</note></list><pb/>
+            <section_header> Why There is Danger</section_header> If we negated threats stemming
+            from the internet, the world wouldn't be devoid of cyber-danger, however the vast
+            majority of problems would not exist. <technical_principle n="1">There is nothing
                 inherently scary about the internet, all it is, is the ability to transmit data
                 between computers. <analogy>If we think of a computer as a person, the internet is
                     what gives it the ability to speak to any other person in the world. </analogy>
@@ -50,12 +51,13 @@
                 we must develop safety measures more quickly than bad guys can figure out how to
                 subvert them.</analogy><pb/> While it is concerning to think of such a volatile
             battle for internet supremacy being waged of which you are victim to, as it happens you
-            are not unable to fight in it. The largest issue here at present however, is the
-            computer industry's failing at communicating to users how they should focus on defending
-            themselves. For example, take this graphic : <visual type="other"
+            are not unable to fight in it.<note type="instructor" resp="#kgs">this sentence is a bit
+                unclear</note> The largest issue here at present however, is the computer industry's
+            failing at communicating to users how they should focus on defending themselves. For
+            example, take this graphic : <visual type="other"
                 url="http://cdn.arstechnica.net/wp-content/uploads/2015/07/Beutler_Google_Security-practices-v6-640x471.png"
                 >Ouch.</visual><pb/> Batting .200 isn't even good in baseball. Luckily,<note
-                    type="peer">,</note> the next section is going to help us to acquire the tools
+                type="peer">,</note> the next section is going to help us to acquire the tools
             necessary to change that. </background>
         <answer>
             <section_header> Stopping Danger </section_header>
@@ -72,13 +74,15 @@
             <visual type="photo"
                 url="http://img-cache.cdn.gaiaonline.com/db52bf9dc339a3b07dc6ae3bae678af0/http://i16.photobucket.com/albums/b34/Andra1/67aa5f8b.jpg"
                 >Your computer in 4 hours</visual>
-            <technical_principle><list type="roadmap">This workout plan has four categories:
-                <section_header>1. Secure Configuration</section_header>
-                <section_header>2. Access control and Administrative Privilege
-                    Management</section_header>
-                <section_header>3. Patch Management</section_header>
-                <section_header>4. Malware Protection</section_header>
-            </list></technical_principle>
+            <technical_principle><list type="roadmap">This workout plan<note type="instructor"
+                        resp="#kgs">Ha, I like that you extended the analogy here, it provides a
+                        nice transition to the steps below</note> has four categories:
+                        <section_header>1. Secure Configuration</section_header>
+                    <section_header>2. Access control and Administrative Privilege
+                        Management</section_header>
+                    <section_header>3. Patch Management</section_header>
+                    <section_header>4. Malware Protection</section_header>
+                </list></technical_principle>
             <visual type="other" url="http://i.imgur.com/s91rLKw.png"/><pb/>
             <technical_principle/>
             <specific_topic n="1"><section_header>1. Secure Configuration</section_header> This is
@@ -94,10 +98,11 @@
                 applications you've had for years but haven't used; delete them. <pb/>4. Disable
                 auto-run for USBs and other insertable media. <pb/>5. Your computer has a firewall,
                 turn it on. Got it? Good job. Now configure it to block unapproved connections by
-                default.</specific_topic>
+                    default.<note type="instructor" resp="#kgs">how would a novice do this? Would
+                    these be good spots to link out to other resources?</note></specific_topic>
             <pb/>
             <specific_topic n="2"><section_header>2. Access control and Administrative Privilege
-                Management</section_header>
+                    Management</section_header>
                 <technical_principle>A computer has an internal list of rules referenced by the
                     operating system to determine what different user accounts can and cannot do. If
                     one of these accounts is compromised by a malicious entity, that entity can
@@ -111,26 +116,27 @@
                 log-in.</specific_topic>
             <pb/>
             <specific_topic n="3"><section_header>3. Patch Management</section_header>
-                <analogy>This is making sure your house is being maintained. </analogy> Remember those
-                good-guy programmers running on the treadmill? Well,<note type="peer">Insert
+                <analogy>This is making sure your house is being maintained. </analogy> Remember
+                those good-guy programmers running on the treadmill? Well,<note type="peer">Insert
                     comma</note> all that work they're doing is no good if you don't download the
-                updates that they make to their code. <pb/> 1. Use only legally purchased so that you
-                receive software updates. 2. Install these updates in a timely manner. Remember that
-                scary story from 2014 about <ref type="supplement" url="http://heartbleed.com/"
-                />Heartbleed?
-                <note type="peer">Would be good to hyperlink this to read more about it</note>
+                updates that they make to their code. <pb/> 1. Use only legally purchased so that
+                you receive software updates. 2. Install these updates in a timely manner. Remember
+                that scary story from 2014 about <ref type="supplement" url="http://heartbleed.com/"
+                />Heartbleed? <note type="peer">Would be good to hyperlink this to read more about
+                    it</note>
                 <pb/>
                 <visual type="drawing"
                     url="http://static1.squarespace.com/static/503816eac4aa7834e13e0d6c/t/5346eed5e4b04a8c95aa9f1c/1397157641699/https://cnet3.cbsistatic.com/hub/i/r/2014/04/08/8f73b170-7a7f-4eb6-bffb-7487162b7bb6/thumbnail/670x503/9a423ef102a69cc001858744c9d4a3dd/heartbleed.png"/>
-                <pb/>An update solving this issue was made available within days of its update. A year
-                later 33% of servers had failed to install this update. <important_idea n="3">These
-                    servers are still vulnerable. </important_idea> 3. If software is no longer being
-                supported, remove it.</specific_topic> <pb/>
+                <pb/>An update solving this issue was made available within days of its update. A
+                year later 33% of servers had failed to install this update. <important_idea n="3"
+                    >These servers are still vulnerable. </important_idea> 3. If software is no
+                longer being supported, remove it.</specific_topic>
+            <pb/>
             <specific_topic n="4"><section_header>4. Malware Protection</section_header>
                 <technical_principle>Anti-malware programs scan files and websites and check for
                     publicly known threats. </technical_principle><analogy>This is having an
                         in-<note type="peer">Insert hyphen</note>house security team.
-                    </analogy><pb/> 1. Install anti-malware software on all computers that are capable
+                </analogy><pb/> 1. Install anti-malware software on all computers that are capable
                 of connecting to the internet. There are lots of free alternatives out there;<note
                     type="peer">Replace comma w/ semicolon</note> I am currently using one called
                 Sophos. <pb/>2. Configure software to scan all accessed files and web pages. <pb/>
@@ -147,74 +153,79 @@
                 that the number of doors leading into your computer are limited, malware protection
                 will alert you if an evil-doer has managed to enter your computer, and patching your
                 software helps to ensure that what the evil-doer can do once on the inside is
-                limited. <analogy>Together these features are the equivalent of washing your hands.
+                    limited.<note type="instructor" resp="#kgs">great summary here</note>
+                <analogy>Together these features are the equivalent of washing your hands.
                 </analogy></explanation>
             <conclusion>
-                <section_header>Be safe out there!</section_header>We tend to think of
-                malicious programmers as working in late night hours to crack our security defenses.
-                While in certain cases this might be the case, <important_idea n="4">for the vast
-                    majority of cases this is not so. Most in-home security breaches occur because
-                    there are known security flaws that malicious hackers exploit.</important_idea>b
-                While even being aware of these steps isn't going to make you 100% impervious to the
-                evil-doers of the internet, there is one last thing you've now got going for you.
-                <visual type="comic" url="http://i.imgur.com/48SHE61.jpg">Sheep and
-                    wolves</visual><pb/> As the old joke goes, you don't need to be faster than the
-                bear, just faster than your slowest friend. Even for an internet evil-doer, stealing
-                data can be difficult. Luckily for the internet evil-doers, the average internet
-                user isn't properly protected. There are plenty of unarmed sheep in the world, so
-                they're much less likely to waste their time on you if you take even the most basic
-                measures toward security.</conclusion>
+                <section_header>Be safe out there!</section_header>We tend to think of malicious
+                programmers as working in late night hours to crack our security defenses. While in
+                certain cases this might be the case, <important_idea n="4">for the vast majority of
+                    cases this is not so. Most in-home security breaches occur because there are
+                    known security flaws that malicious hackers exploit.</important_idea> While even
+                being aware of these steps isn't going to make you 100% impervious to the evil-doers
+                of the internet, there is one last thing you've now got going for you. <visual
+                    type="comic" url="http://i.imgur.com/48SHE61.jpg">Sheep and wolves</visual><pb/>
+                As the old joke goes, you don't need to be faster than the bear, just faster than
+                your slowest friend. Even for an internet evil-doer, stealing data can be difficult.
+                Luckily for the internet evil-doers, the average internet user isn't properly
+                protected. There are plenty of unarmed sheep in the world, so they're much less
+                likely to waste their time on you if you take even the most basic measures toward
+                security.</conclusion>
         </answer>
         <section_header>Sources Cited</section_header>
-        
-        <sources><list type="generic"> • Wikipedia (Yes,<note type="peer">comma here and capitalize</note> Wikipedia!)
-            has as <ref type="source" url="https://en.wikipedia.org/wiki/History_of_the_Internet"
-                >good a history of the internet as any.</ref>
-            <pb/> • Lecture on the <ref type="source"
-                url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture02_CyberEssentials.pdf"
-                >five step workout plan for computer security.</ref><pb/> • Verizon's annual <ref
-                    type="supplement"
-                    url="http://www.verizonenterprise.com/verizon-insights-lab/dbir/2016/">data breach
-                    report.</ref><pb/> • A <ref type="source"
-                        url="https://securityintelligence.com/free-ebook-practical-guide-to-staying-ahead-in-the-cyber-security-game/"
-                        >free e-book</ref> that goes in depth on the issues above. <pb/> • The security
-            measures above are incredibly adept at keeping you safe, and as a result in instances in
-            which a user implements all of the 4 features discussed, issues arise when users
-            unwittingly invite malicious entities in. <ref type="supplement"
-                url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture05_UsableSecurity.pdf"
-                > Learn how to avoid this. </ref></list></sources>
+        <sources><list type="generic"> • Wikipedia (Yes,<note type="peer">comma here and
+                    capitalize</note> Wikipedia!) has as <ref type="source"
+                    url="https://en.wikipedia.org/wiki/History_of_the_Internet">good a history of
+                    the internet as any.</ref>
+                <pb/> • Lecture on the <ref type="source"
+                    url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture02_CyberEssentials.pdf"
+                    >five step workout plan for computer security.</ref><pb/> • Verizon's annual
+                    <ref type="supplement"
+                    url="http://www.verizonenterprise.com/verizon-insights-lab/dbir/2016/">data
+                    breach report.</ref><pb/> • A <ref type="source"
+                    url="https://securityintelligence.com/free-ebook-practical-guide-to-staying-ahead-in-the-cyber-security-game/"
+                    >free e-book</ref> that goes in depth on the issues above. <pb/> • The security
+                measures above are incredibly adept at keeping you safe, and as a result in
+                instances in which a user implements all of the 4 features discussed, issues arise
+                when users unwittingly invite malicious entities in. <ref type="supplement"
+                    url="http://www.inf.ed.ac.uk/teaching/courses/cs/1516/lects/Lecture05_UsableSecurity.pdf"
+                    > Learn how to avoid this. </ref></list></sources>
     </blog_post>
-    
-    
+
+
     <docReview>
         <reviewer type="peer" xml:id="h15"/>
         <report type="peer" resp="h15">
-            <p>
-                <summary> Oliver’s scientific post covers the dangers of an insecure computer and
-                    ways you can prevent these dangers through simple measures (having strong
-                    passwords that change every free months, removing any unused accounts or
-                    applications, giving accounts the minimum requirements to function, keeping up
-                    with updates, conducting regular scans, etc.). </summary>
-                <critique> Oliver’s topic is relevant to our genre since computer security is a
-                    subject that people generally fail to take note of. He does a good job
-                    explaining why keeping your computer secure is important and separating out how
-                    we should go about fixing technical insecurities. I liked how he wrote "Your
-                    computer in 4 hours" to compare it to the four steps. The image following that
-                    part seemed a little off since it had 5 symbols (though I do see how he places
-                    "Boundary firewalls and internet gateways" with "Secure configuration"). I also
-                    liked how he introduced an analogy at the beginning of each section. It would be
-                    good if he referred to a site that provided good reviews and recommendations to
-                    good anti-malware programs. He wraps the piece up with the conclusion well by
-                    informing readers that the steps aren’t difficult and that they only need to be
-                    more secure than the regular user to be a bit safer. I think this is good since
-                    people are more likely to act on something that doesn’t take much effort. It
-                    would be good if he lead into the links at the end - something like, "If you're
-                    interested in learning more about ..." </critique>
-            </p>
+            <p> Oliver’s scientific post covers the dangers of an insecure computer and ways you can
+                prevent these dangers through simple measures (having strong passwords that change
+                every free months, removing any unused accounts or applications, giving accounts the
+                minimum requirements to function, keeping up with updates, conducting regular scans,
+                etc.). </p>
+            <p> Oliver’s topic is relevant to our genre since computer security is a subject that
+                people generally fail to take note of. He does a good job explaining why keeping
+                your computer secure is important and separating out how we should go about fixing
+                technical insecurities. I liked how he wrote "Your computer in 4 hours" to compare
+                it to the four steps. The image following that part seemed a little off since it had
+                5 symbols (though I do see how he places "Boundary firewalls and internet gateways"
+                with "Secure configuration"). I also liked how he introduced an analogy at the
+                beginning of each section. It would be good if he referred to a site that provided
+                good reviews and recommendations to good anti-malware programs. He wraps the piece
+                up with the conclusion well by informing readers that the steps aren’t difficult and
+                that they only need to be more secure than the regular user to be a bit safer. I
+                think this is good since people are more likely to act on something that doesn’t
+                take much effort. It would be good if he lead into the links at the end - something
+                like, "If you're interested in learning more about ..." </p>
+
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Excellent work--really nice mix of visuals, analogies, lists, and important ideas.
+                Your writing is, for the most part, very clear and well-structured. I found that you
+                leveraged the schema in really successful ways to provide structure to your post and
+                transitions between the sections. The topic is very appropriate for your audience
+                and, I might add, useful for me as well! I'll be implementing the 'workout plan' on
+                my computers. Note the few questions I had in the in-text comments above. Really
+                nice job here.</p>
         </report>
     </docReview>
 </DOC>
