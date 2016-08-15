@@ -72,6 +72,18 @@
         </signature>
     </cover_letter>
     <docReview>
+        <!-- Writer' Memo -->
+        <!-- Where are you in the process?
+        Currently I have a rough draft of a cover letter
+        
+        2. What is your rhetorical situation?
+        I’m writing a cover letter for a coop position I found on NEUCool. The company is a place called Smartleaf, and it builds computer algorithms automate wealth management.
+        
+        3. What is going well?
+        Overall, I feel like writing a cover letter is a fairly straight forward, and I think I managed to follow the schema and put together a decent cover letter.
+        
+        4. What has been difficult?
+        Reading over my cover letter, I feel like it seems a little bit scattered. I think I should add more about why I would be a good fit. --> 
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
             <p>Peer review report will appear here.</p>
