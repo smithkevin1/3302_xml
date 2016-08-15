@@ -8,7 +8,7 @@
         <author xml:id="m20">Chi Mo</author>
         <version n="1" date="2016-08-11"/>
     </docHead>
-    
+
     <cover_letter>
         <header>
             <name>Chi Mo</name>
@@ -19,36 +19,72 @@
                 <contact type="email"> moira0501@gmail.com </contact>
             </contact_info>
         </header>
-        <greeting>Hello M.Morrissey,</greeting>
+        <greeting>Hello M.<note type="peer">Insert space. Using Mr. or writing out his full name may
+                be more proper.</note>Morrissey,</greeting>
         <intro_para>
-            <intent type="purpose">I am interested in the Software Engineering job at EMC Corporation.</intent>
-            <intent type="connection">After searching the job position on NEU COOL,</intent> I became interested in the job.
-            <reason>I have enjoyed my past work at EMC in the position of ADS testing. </reason> and <proposition>I think I will 
-                fit well with EMC culture and bring all the necessary abilities to go above and beyond my job requirements.</proposition>
+            <intent type="purpose">I am interested in the Software Engineering job at EMC
+                Corporation.</intent>
+            <intent type="connection">After searching the job position on NEU COOL,</intent> I
+            became interested in the job.<note type="peer">Perhaps reword to "I became interested in
+                the position after discovering it on NEU COOL."</note>
+            <reason>I have enjoyed my past work at EMC in the position of ADS testing.
+                </reason><note type="peer">,</note> and <proposition>I think I will fit well with
+                    EMC<note type="peer">'s</note> culture and bring all the necessary abilities to
+                go above and beyond my job requirements.</proposition>
         </intro_para>
         <para_background>
-            <experience type="work">I bring previous experience with <programs>Python</programs> from my work at EMC in Spring 2016.
-                I coded in <programs>Python</programs> to <accomplishments>test the newest servers and equipments.</accomplishments></experience>
-            <experience type="work">I used the <skills>technical skills</skills>, such as<accomplishments>fixing computers in hardware and 
-                software</accomplishments> while co-oping in Harvard School of Public Health in spring 2015.</experience>
-            <experience type="school">Aside from my work experience, I gained <programs>C++</programs>, <programs>Python</programs>, <programs>Java</programs> and 
-                <programs>XML</programs> from learning courses while I'm at Northeastern University.</experience>
+            <experience type="work">I bring previous experience with <programs>Python</programs>
+                from my work at EMC in Spring<note type="peer">spring</note> 2016. I coded in
+                    <programs>Python</programs> to <accomplishments>test the newest servers and
+                    equipments.</accomplishments></experience>
+            <experience type="work">I used the <skills>technical skills</skills>, such
+                    as<accomplishments>fixing computers in hardware and software</accomplishments>
+                while co-oping in Harvard School of Public Health in spring 2015.</experience>
+            <experience type="school">Aside from my work experience, I gained<note type="peer"
+                    >change gained to "learned"</note>
+                <programs>C++</programs>, <programs>Python</programs>, <programs>Java</programs> and
+                    <programs>XML</programs> from learning<note type="peer">Remove "learning" and
+                    insert "my"</note> courses while I'm <note type="peer">Remove "while
+                I'm"</note>at Northeastern University.</experience>
         </para_background>
         <closing_statements>
-            <compatability>I think I will fit in well with the culture of EMC Corporation and this job position.</compatability><pb/>
-            <next_step>I hope you will call me at 857-222-0943 so we can discuss the next step in
-                the hiring process. Thank you very much for your consideration!</next_step>
+            <compatability>I think I will fit in well with the culture of EMC Corporation and this
+                job position.</compatability>
+            <pb/>
+            <next_step>I hope you will call me at 857-222-0943 so <note type="peer">Insert
+                    "that"</note> we can discuss the next step in the hiring process. Thank you very
+                much for your consideration!</next_step>
         </closing_statements>
         <signature>
             <salutation>Yours sincerely,</salutation>
             <name>Chi Mo</name>
         </signature>
     </cover_letter>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="h15"/>
+        <report type="peer" resp="h15">
+            <p>Chi’s genre is a cover letter for a Software Engineering position at EMC, a company
+                for which she previously worked as an ADS tester. The object of the piece is to
+                emphasize her interests and abilities relating to the job and to get an interview or
+                get to the next steps of the hiring process. </p>
+            <p> Chi does a good job in bringing in her previous experience from her co-ops,
+                especially her previous EMC position. Potentially, she should go more in depth with
+                her previous position at EMC and emphasize that she has already been a part of the
+                community and flourished. Adding something like, “I look forward to working for this
+                company again” will grab their attention and reiterate her involvement.
+                Additionally, it would be good if she mentions her nontechnical abilities, such as
+                working in a team and meeting stressful deadlines since those are important
+                qualities in a candidate. I also recommend explaining any personal projects that
+                relates to the skills needed for the position to show that she has a passion for
+                that type of work. If not, then she can list some of her main technical interests or
+                focus areas that tie in. Other than that, rewording some sentences and fixing some
+                grammar would help the flow of the piece (I put some recommendations in). </p>
+            <p> Overall, cover letters accompany resumes, so I think she should focus on emphasizing
+                what isn’t included on her resume – that is strong personal traits and technical
+                interests. Lastly, cover letters let candidates go more in depth in projects to show
+                the company that they have a strong understanding in their studies, so that would
+                also be good to look into. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
