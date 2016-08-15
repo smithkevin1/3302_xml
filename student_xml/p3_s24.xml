@@ -20,9 +20,16 @@
         <page type="tbl_contents">
             <sect lvl="1" n="1">Executive Summary</sect>
             <sect lvl="1" n="2">Preliminary Requirements Analysis</sect>
+            <sect lvl="2" n="1">Tracking</sect>
+            <sect lvl="2" n="2">Target Acquisition</sect>
+            <sect lvl="2" n="3">Regulations</sect>
             <sect lvl="1" n="3">Feasibility</sect>
-            <sect n="3" lvl="1">Success Criteria</sect>
-            <sect lvl="2" n="1"/>
+            <sect lvl="1" n="3" >Success Criteria</sect>
+            <sect lvl="2" n="1" >Hardware Design</sect>
+            <sect lvl="2" n="2">Automated Flight</sect>
+            <sect lvl="2" n="3">Target Acquisition</sect>
+            <sect lvl="1" n="4">Cost</sect>
+            <sect lvl="1" n="5">Report</sect>
         </page>
         <page type="exec_sum">From Arduino to Raspberry Pi, development of affordable SOCs has been
             the jet-fuel of the 21st century hobbyist revolution. The removal of barriers relating
