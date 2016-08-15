@@ -5,12 +5,72 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
+        <author xml:id="your_id_here">Gurtaj Khatra</author>
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
-    
-    <!-- root element for P3 here --> 
-    
+
+    <!-- root element for P3 here -->
+    <cover_letter>
+        <header>
+            <name>Gurtaj Khatra</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="address">54 Westland Ave</contact>
+                <contact type="address">Boston, MA 02115</contact>
+                <contact type="phone"> 508-353-9888 </contact>
+                <contact type="email"> gurtajkhatra@gmail.com </contact>
+            </contact_info>
+        </header>
+        <greeting>Dear Mr. O'Brein: </greeting>
+        <intro_para>
+            <intent type="purpose">I’m writing to apply for the Software Engineering Co-p role over
+                at at Smartleaf. </intent>
+            <reason>Currently I'm going into my last coop here at Norteastern, and with my previous
+                two coops I've worked at an extremely small company of about four people and a much
+                larger company of more than 30,000 people, and I'd like to gain experience with
+                working at a company the size of Smartleaf.</reason>
+            <proposition> I believe that my experience as a Computer Science student working in more
+                finance oriented positions would make me a perfect candidate for this position.
+            </proposition>
+        </intro_para>
+
+        <para_background>
+            <experience type="school"> Currently, I'm a Computer Science student here at
+                Northeastern University. I beleive that my experiences with going through my classes
+                and projects has helped me build skills to excel in industry. However, one of the
+                main advantages of going to Northeastern was being able to gain experience through
+                different coops. </experience>
+        </para_background>
+        <para_background>
+            <experience type="work">My first coop was working at Mavenomics, a small company in
+                Cambridge. I created and implemented tools for data analysis into their main product
+                and used languages such as <programs>python and JavaScript</programs>, and
+                frameworks such as <programs>d3.js and React.</programs> Due to the small nature of
+                the company, I gained exposure to every other part of the company, and I gained an
+                overarching view about how businesses are run. </experience>
+        </para_background>
+        <para_background>
+            <experience type="work"> My next coop was working for Goldman Sachs in New York, a much
+                larger company than my previous coop. During my time there, I learned more about
+                applications of Computer Science in the field of finance. On top of that, I gained
+                experience with working in a team oriented environment, were multiple teams come
+                together to build a product.</experience>
+        </para_background>
+        <para_closing>
+            <compatability>I believe that I have the experience and skill set to excel in this
+                position , and I feel like the medium sized company environment would be a great fit
+                for me.</compatability>
+            <next_step> I'm excited to hear back from you, and would appriciate the opportunity to
+                meet and talk in person. </next_step>
+            <acknowledgment>Thank you for your consideration. </acknowledgment>
+        </para_closing>
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <pb/>
+            <pb/>
+            <name>Gurtaj Khatra</name>
+        </signature>
+    </cover_letter>
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
