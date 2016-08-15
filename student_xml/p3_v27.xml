@@ -8,7 +8,7 @@
         <author xml:id="v_27">Djordje Vlajkovic</author>
         <version n="1" date="2016-08-11"/>
     </docHead>
-    
+
     <cover_letter>
         <header>
             <name>Djordje Vlajkovic</name>
@@ -21,43 +21,104 @@
         </header>
         <greeting>Hello hiring committee,</greeting>
         <intro_para>
-            <intent type="purpose">I am applying for the open lead engineering position in your development department at GE Aviation.</intent> I have been looking for a job lately and when I saw that you were
-            hiring for this position, I immediately had to put in my application. 
-            <intent type="connection">After showing up to a seminar hosted by one of your employees, I found some open positions at your company and when I saw this position open I knew where I want to apply to.</intent>
-            <reason>Considering my background and qualifications, I think that I would be a perfect fit for the position</reason> and <proposition>if you hire me I will translate well into the culture of the 
-            company and excel at every turn.</proposition>
+            <intent type="purpose">I am applying for the open lead engineering position in your
+                development department at GE Aviation.</intent> I have been looking for a job lately
+            and when I saw that you were hiring for this position, I immediately had to put in my
+            application. <intent type="connection">After showing up to a seminar hosted by one of
+                your employees, I found some open positions at your company and when I saw this
+                position open I knew where I want to apply to.</intent><note type="peer"
+                xml:id="g14">In this paragraph, try to use stronger action verbs: "attending" vs.
+                "showing up to," "became interested in" vs. "found," etc. Rephrase "I have been
+                looking for a job lately" -- if you weren't, you wouldn't be applying.</note>
+            <reason>Considering my background and qualifications, I think that I would be a perfect
+                fit for the position</reason> and <proposition>if you hire me I will translate well
+                into the culture of the company and excel at every turn.</proposition><note
+                type="peer" xml:id="g14">rephrase "if you hire me" to "if I am accepted I feel that
+                I will translate well," etc.</note>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="work">In my previous work experience, I've with GE Aviation in a business and manufacturing capacity. From that experience I've worked within <programs>Solidworks and DWB</programs> to design and  
-                review parts of the engine. I've also worked with customers in a business manners, fulfill their needs and making sure necessary arrangements are made to satisfy their experience. I am also 
-                experienced in the<programs>Microsoft Office Programs such as Excel, Powerpoint and Word.</programs> Through my experiences I have been able to acquire a lot of knowledge and skills that have enabled 
-                me to succeed at my previous positions. Some of my achievements over the years include <accomplishments>reducing inventory by over a quarter million dollars, creating engine shipments to multiple nations, 
-                identifying and incorporating process drawings to thousands of parts and designing apparatuses for fully automated production cells.</accomplishments> From my experiences I've been able to attain many 
-                beneficial traits while also helping the individuals around me.</experience>
-            <experience type="personal">Outside of work I also have many other skills that I practiced or learned in my spare time. One such skill that I've acquired over the years has been coding in languages such as
-                 <programs>C++, Matlab, and Python </programs> where I've developed many programs and in turn strengthen my ability to comprehend and write within those languages. I also come from a diverse background
-                from which I capable of speaking languages like <languages>Serbian, Bosnian, Croatian, and Montenegrin</languages>.</experience>
-            <experience type="school">I received a bachelor's degree in Mechanical Engineering at Northeastern University. From there I have developed a strong understanding in math and sciences and have learned 
-            all of the necessary information that the field of Mechanical Engineering would require. From my classes in school I am capable of <skills>understanding the mechanics and principles with components like 
-            turbines, compressors and combustors</skills>.</experience>
+            <experience type="work">In my previous work experience, I've with GE Aviation in a
+                business and manufacturing capacity. From that experience I've worked within
+                    <programs>Solidworks and DWB</programs> to design and review parts of the
+                engine. I've also worked with customers in a business manners, fulfill their needs
+                and making sure necessary arrangements are made to satisfy their experience. I am
+                also experienced in the<programs>Microsoft Office Programs such as Excel, Powerpoint
+                    and Word.</programs> Through my experiences I have been able to acquire a lot of
+                knowledge and skills that have enabled me to succeed at my previous positions. Some
+                of my achievements over the years include <accomplishments>reducing inventory by
+                    over a quarter million dollars, creating engine shipments to multiple nations,
+                    identifying and incorporating process drawings to thousands of parts and
+                    designing apparatuses for fully automated production cells.</accomplishments>
+                From my experiences I've been able to attain many beneficial traits while also
+                helping the individuals around me.</experience>
+            <experience type="personal">Outside of work I also have many other skills that I
+                practiced or learned in my spare time. One such skill that I've acquired over the
+                years has been coding in languages such as <programs>C++, Matlab, and Python
+                </programs> where I've developed many programs and in turn strengthen my ability to
+                comprehend and write within those languages. I also come from a diverse background
+                from which I capable of speaking languages like <languages>Serbian, Bosnian,
+                    Croatian, and Montenegrin</languages>.</experience>
+            <experience type="school">I received a bachelor's degree in Mechanical Engineering at
+                Northeastern University. From there I have developed a strong understanding in math
+                and sciences and have learned all of the necessary information that the field of
+                Mechanical Engineering would require. From my classes in school I am capable of
+                    <skills>understanding the mechanics and principles with components like
+                    turbines, compressors and combustors</skills>.</experience>
         </para_background>
         <closing_statements>
-            <compatability>Hopefully you can see from what I have written that I would be right for the position. I am a very easy person to get along with and communicate well with my co-workers. I am very respectful 
-            of others views and can conform to the environment that I am placed in.</compatability><pb/>
-            <next_step>I hope that you find my application to your liking, and if you need to reach me for an interview and need to acquire any additional information my phone number is 857-285-8415 and my email 
-            address is vlajkovic.d@husky.neu.edu. I appreciate the time you took to go through my application and thank you for your consideration.</next_step>
+            <compatability>Hopefully you can see from what I have written<note type="peer"
+                    xml:id="g14">Rephrase this</note> that I would be right for the position. I am a
+                very easy person to get along with and communicate well with my co-workers. I am
+                very respectful of others views and can conform to the environment that I am placed
+                in.</compatability>
+            <pb/>
+            <next_step>I hope that you find my application to your liking,<note type="peer"
+                    xml:id="">Again, rephrase - you didn't write this to match their "liking,"
+                    you're writing this to get an interview</note> and if you need to reach me for
+                an interview and need to acquire any additional information my phone number is
+                857-285-8415 and my email address is vlajkovic.d@husky.neu.edu.<note type="peer"
+                    xml:id="g14">They WILL reach out for an interview, rephrase this so it isn't a
+                    passive gesture.</note> I appreciate the time you took to go through my
+                application and thank you for your consideration.</next_step>
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
             <name>Djordje Vlajkovic</name>
         </signature>
     </cover_letter>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="g14"/>
+        <report type="peer" resp="#g14">
+            <p>I'll list some typos/minor suggestions as I come across them here: In the first
+                background paragraph, check for missing words, typos, etc., there are a couple that
+                standout. I recommend against listing experience with Microsoft Office and then
+                listing specific programs, your resume can speak to this, it's probably assumed at
+                this point that everyone knows how to use these programs, only mention them if you
+                are an Excel expert, etc., something that really stands out. Otherwise, I recommend
+                omitting or just mentioning Microsoft Office and leaving it at that. Especially so
+                since your following accomplishments are supremely more relevant and impressive.
+                Rephrase "traits" to "skills" unless you want to take a sentence to talk about
+                personal/character trait development.</p>
+            <p>In the "personal" paragraph, add in any hobbies or interests that might be relevant
+                (read about aircraft development/design, etc.) or any volunteer research work you
+                have done in mechanical engineering/related disciplines (or even unrelated personal
+                volunteer work that speak to your character). In the final background paragraph, add
+                more info on specific higher level classes that are relevant to the position, such
+                as thermo, materials, etc. (you know them better than I do) - classes that
+                demonstrate you have gained a comprehensive relevant education. Include any minors,
+                etc. that might or might not be directly relevant (math minor, etc.).</p>
+            <p>We can speak in person about exact phrasings of things, but overall the key takeaways
+                are to take a more action-oriented stance, as opposed to passive suggestions, and
+                minimize the use of "you" and "your" whenever possible. Remember: this is about you
+                trying to get an interview, not about pleasing them directly. My ultimate
+                recommendation is to use language that expresses interest in the company or the
+                position -- at times you sound dispassionate and disinterested, and a hiring manager
+                isn't going to feel urgency to call someone who openly uses
+                passive/disinterested/last resort language. In terms of structure itself, I might
+                suggest making your work experience last, so that your big accomplishments are the
+                most recent thing on their mind when they reach the bottom.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
