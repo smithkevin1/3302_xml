@@ -24,7 +24,8 @@
             <intent type="purpose">I am interested in applying for a summer internship position at
                 Skidmore, Owings and Merrill.</intent>
             <intent type="connection"><!-- Optional --> After speaking with you over the phone this
-                past summer</intent>, I became increasingly interested in pursuing a job with your
+                past summer</intent>, I became increasingly interested <note type="peer">What did he say over the
+                    phone that really attracted you?</note>in pursuing a job with your
             company. <reason><!-- Optional --> I have a strong interest in both architecture and
                 structural engineering</reason> and <proposition>I think I would be a great fit with
                 the SOM culture and bring the necessary abilities to go above and beyond my job
@@ -37,8 +38,8 @@
                 architecture. However it was not until late in highschool that I realized that my
                 interests were more technical in nature. Now in my fourth year at Northeastern
                 University I am pursuing a master's degree in civil engineering with a focus in
-                structural. I have taken courses both the technical aspects of engineering and
-                design as well as a class on the history of architecture in America. <programs/>
+                structural. I have taken courses <note type="peer">in </note>both the technical aspects of engineering and
+                design as well as a class on the history of architecture in America. <note type="peer">Formatting: extra closing accomplishments section</note><programs/>
                 <accomplishments/></experience>
             <experience type="school">I gained <skills>technical communication</skills> skills from
                 my work as a TA at Knowledge University. I often had to explain technical info in
@@ -47,7 +48,10 @@
                     other design programs</programs> from my previous work at Simpson, Gumpertz and
                 Heger. I became well versed in <programs>AudoCAD</programs> while
                     <accomplishments>creating and updating structural and building technology
-                    related drawings</accomplishments> and <accomplishments/> with it.</experience>
+                    related drawings<note type="peer">maybe be more specific with an accomplishment you've made at work, this is our
+                    chance to show off your technical skills. Consider mentioning how your structural expertise 
+                    played into your ability to quickly pick up new programs</note></accomplishments> and <accomplishments/> with it.<note type="peer"> Formatting: I think there is an extra accomplishments section,
+                    also, this sentence acts as if more is to be introduced. Consider dropping the "and" </note></experience>
         </para_background>
         <closing_statements>
             <compatability>I think I will fit in well with the holistic design culture of
@@ -63,9 +67,16 @@
     </cover_letter>
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="p22"/>
+        <report type="peer" resp="#p22">
+            <p> Your background sections shows how you came to the conclusion that SOM would be a good fit for you.
+            Maybe touch on how your desires play well into what SOM wants. For example, your interest in architecture
+            combined with your technical expertise will allow you to be a crucial player in late-term project meetings
+            where these two, commonly incompatible, goups have to meet (architects and structural engineers). Your ability in one field and your interest in the other
+            sets you up well for upper management down the line as well as allows you to save the company money by not persuing one
+            path initially with complete ignorance of the priorities of the other departments.
+            
+            For a company, having someone that can act as a technical specialist and a communications asset is extremely valuable.  </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
