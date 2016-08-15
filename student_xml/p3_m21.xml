@@ -1,15 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--the second line in the document associates the schema, so be sure not to change it-->
-<DOC>
-    <docHead>
-        <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
-    </docHead>
-    
     <!-- root element for P3 here --> 
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <!--the second line in the document associates the schema, so be sure not to change it-->
+    <DOC>
+        <docHead>
+            <!--required header includes metadata about the assignment (title, author, version)-->
+            <title>Title of Assignment</title>
+            <author xml:id="m21">Your name here</author>
+            <version n="1" date="2016-08-13"/>
+            <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+        </docHead>
+        
+        <pub_init_proposal>
+            <cover_page>
+                <title>Mass Ave. Bike Lane Improvement</title>
+                <author> Chris Murphy</author>
+                <submit_date> </submit_date>
+                <audience>
+                   To the City of Boston and Massachusetts Department of Transportation
+                </audience>
+            </cover_page>
+            
+            <tbl_cont>
+                    <section n="1">Introduction</section>
+                    <section n="2">Background</section>
+                    <section n="3">Purpose</section>
+                    <section n="4">Action Plan</section>
+                    <section n="5">Feasibility</section>
+                    <section n="6">Conclusion</section>
+                
+            </tbl_cont>
+            
+            <intro type="abstract"><!--attribute options: ltr_int, exec_sum, abstract-->
+                <p>Boston is a city well known for its traffic congestion and bad drivers. 
+                    In an effort to beat the congestion and go green, many people have turned
+                    to biking as an alternative method of transportation in the city. While 
+                    Boston has become increasingly bike friendly over the years, there are 
+                    still many problem areas, the two most prominent being Commonwealth Avenue 
+                    and Massachusetts Avenue. These two roadways account for largest contributions 
+                    to bike accident numbers in the city. Although Commonwealth Ave. has a higher
+                    total number of accidents, Mass Ave. has the most potential to increase the
+                    safety of bike travel through upgrades to the roadway. </p>
+            </intro>
+            
+            <background>
+                <p>
+                    <crnt_cond>
+                        From the Huntington Ave. intersection to the Charles River Bridge is the 
+                        most problematic section of Mass Ave. This stretch of road is characterized
+                        by poor road conditions, dark areas, and random sharrows, or shared bike/car lanes. 
+                    </crnt_cond>
+                    <subj_hist>
+                        The vast majority of Boston bike infrastructure has been installed very recently, 
+                        with most improvements taking place within the last decade. Since 2008, over 90 miles 
+                        of bike lanes and markings have been put in place. An additional 3600 public bike 
+                        parking spots have also been installed in the same time frame. It is clear that the 
+                        city is still undergoing the process of becoming bike friendly and the improvements 
+                        to Mass Ave. would be the next logical step in this process. 
+                    </subj_hist>
+                </p>
+            </background>
+            
+            <purpose>
+                <p>
+                    <scope type="who"> The city of Boston must give funding to the Massachusetts Department 
+                        of Transportation (MassDOT) to organize the construction necessary to improve bike 
+                        safety on the highlighted stretch of Mass Ave. When completed, the improved bike lanes 
+                        will increase travel safety and efficiency while satisfying the demands of Boston bike 
+                        advocate groups. </scope>
+                    <objective>The proposed project would include repaving most sections of Mass Ave, 
+                        followed by creating clear markings for the bike lanes. It would also include reclaiming 
+                        the areas around the Huntington Ave. and Boylston St. intersections, where mismanaged 
+                        construction has left concrete barriers indefinitely blocking the bike lanes. Lastly, 
+                        there would be lighting upgrades along the stretch from Newbury St. to the Charles River Bridge.
+                    </objective>
+         
+                </p>
+            </purpose>
+            
+            <approach type="">  <!--attribute options: execution, action-->
+                <p>
+                    To implement the changes, the first step that must be taken is having the MassDOT 
+                    hire out a private construction company to take on the upgrades. From there, a plan
+                    must be created to carry out the construction process with minimal disruption to 
+                    daily traffic flows. Ideally, the ripping, paving, and repainting process could be
+                    completed along the 1.2-mile stretch within 2 weeks of night work. Since the 
+                    installation/upgrade of streetlights on the sidewalks is a more intensive but much 
+                    less disruptive process, it could take closer to a full month to complete.   <!--text here-->
+                </p>
+            </approach>
+            
+            <feasibility type="">  <!--attribute options: economic, social, environmental-->
+                <p>
+                    <!--text here-->
+                </p>
+            </feasibility>
+            
+            <conclu>
+                <p>
+                    <!--text here-->
+                </p>
+            </conclu>
+            
+            <references>
+                <citation n="" style=""> </citation>
+            </references>
+        </pub_init_proposal>
+        
+        <docReview>
+            <reviewer type="instructor" xml:id="kgs"/>
+            <report type="instructor" resp="#kgs">
+                <p>Comments on assignment will appear here.</p>
+            </report>
+        </docReview>
+    </DOC>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
