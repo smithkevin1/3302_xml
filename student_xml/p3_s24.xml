@@ -91,30 +91,73 @@
             <fsb_hlgt type="suits">Acquiring a license and executing the above processes should be
                 of no great impediment. </fsb_hlgt>
         </page>
+
+
         <page type="sccs_crt">
             <req_sect>Hardware Design <req>The anti-drone must be capable of flying and be of proper
                     tuning such that moderate gusts of wind and sudden weight gains do not cause the
                     vehicle to malfunction. </req>
                 <req>A flying time of roughly 10 minutes is to be expected. </req></req_sect>
-            <req_sect>Optical Tracking </req_sect>
-            <req_sect>Automated Flight </req_sect>
-            <req_sect>Drone Acquisition </req_sect>
+            <req_sect>Automated Flight <req>The anti-drone should be capable of the anti-drone can
+                    autonomously navigate to and follow a test drone. Before deployment in the real
+                    world, a time requirement should be instantiated such that the drone could react
+                    quickly to a threat, however as this report details a research project, there is
+                    no time expectation in effect. </req></req_sect>
+            <req_sect>Drone Acquisition <req>The anti-drone should be able to make contact with at
+                    least a 10lb target drone. Theoretically it should be able to disable the target
+                    drone, however there is no way of guaranteeing that the magnets will be capable
+                    of this in all circumstances. After acquisition, the drone should be able to fly
+                    at least 100 yards with the target drone in tow before releasing it.
+                </req></req_sect>
         </page>
 
-        <page type="rsk_ana"> </page>
+        <page type="cost">
+            <est type="fnc"> Electrical Controls Components: $200 </est>
+            <est type="fnc"> Batteries and Power Components: $50 </est>
+            <est type="fnc"> Frame Kit : $90 </est>
+            <est type="fnc"> Connectors and Cables : $50 </est>
+            <est type="fnc"> Target Drone : $30 </est>
+            <est type="fnc"> Misc : $200 </est>
+        </page>
 
-
-
-        <page type="rpt"/>
-        <page type="cost"/>
-
-
+        <page type="rpt"> All stages of this process will be monitored and developed with the help
+            of Dr. Bahram Shafai. <tmln date="2016-09-02">Kit drone fully assembled (but un-tuned)
+                with with stage 1 of parts added. Stage 1 parts: Pixy, Raspberry Pi3, Flip32 flight
+                controller, power distribution components. </tmln>
+            <tmln date="2016-09-05">Control of drone using WiFi established, drone tuned and ready
+                to fly. </tmln>
+            <tmln date="2016-09-12">All subsystems communicating successfully.</tmln>
+            <tmln date="2016-09-20">Hardware team finishes testing of Faraday cage.</tmln>
+            <tmln date="2016-10-01">Finalize capture system choice along with design for
+                implementation.</tmln>
+            <tmln date="2016-10-08">Finalize hardware design.</tmln>
+            <tmln date="2016-10-14">Software team has working prototype of tracking stationary
+                object.</tmln>
+            <tmln date="2016-10-15">Capture system integrated.</tmln>
+            <tmln date="2016-11-20">Software team has working prototype of tracking moving object. </tmln>
+            <tmln date="2016-11-29">Development of new features ceases. Debug and perfect current
+                working model.</tmln>
+            <tmln date="2016-12-04">Capstone presentation week</tmln>
+        </page>
 
         <page type="conc">
-            <fsb/>
+            <fsb>In order to accomplish the mission put forth by our capstone design, not only does
+                our project require well executed engineering, but it will also contain an aspect of
+                research. The engineering portion is represented by the leveraging of existing
+                tools, and the research portion is represented in our tracking and capture
+                technology. Due to the uncertainty of research, not only is it impossible to
+                accurately predict the development process, but it also obfuscates what is
+                realistic.</fsb>
+            <cond>The primary point of difficulty will be the limited time we have to develop our
+                product. There is no doubt that what we seek to do is possible, however budgeting
+                time is of the greatest order of importance. Minimizing time spent on "reinventing
+                the wheel" will allow us to focus on the unique aspects of our project, however even
+                then it still seems doubtful that the project will be functioning at peak
+                performance come December. </cond>
+            <sum>It is reasonable to expect the tracking capabilities of two moving objects can be
+                completed by December, however the team will need to reevaluate at a later and better informed date if time allows for
+                the capturing capabilities to be integrated.</sum>
         </page>
-
-
     </fsb_rpt>
 
 
