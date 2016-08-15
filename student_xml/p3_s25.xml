@@ -11,14 +11,13 @@
 
     <blog_post>
         <background>
-            <section_header>Why are bacteria shaped the way they are?</section_header>
-            <question>What is responsible for bacteria to develop into weird shapes?</question>
-            <misconception>Could be for food or protection, which might be part of it, but none seem
-                to be the main driving factor.</misconception>
-            <important_idea>But to understand exactly the reason for these weird shapes one first
-                has to understand something about the world of bacteria, specifically the fluid the
-                fluid they move in. The first step is to understand the Reynolds number.
-            </important_idea>
+            <section_header>How do bacteria move?</section_header>
+            <question>How is it that bacteria travel from one place to another?</question>
+            <misconception>You may think the answer is trivial, since moving is a problem solved by
+                nature time and time again. However, to truly understand the mechanisms for travel
+                and why they are the way they are requires an understanding about the world of
+                bacteria, specifically the world they live in.</misconception>
+            <important_idea>The first step is to understand the Reynolds number. </important_idea>
         </background>
         <answer>
             <section_header>What is the Reynolds number?</section_header>
@@ -80,8 +79,40 @@
                     opened and closed its shell slowly and quickly does not matter. In this case,
                     the scallop would simply move one way when the shell opens, and move right back
                     to the same spot when it closes. </technical_principle></analogy>
+            <section_header>So how do you move?</section_header>
+            <explanation>Due to these constraints, bacteria have developed interesting ways to move
+                around. The most common of these methods is the use of flagella, which are whip-like
+                appendages connected to the main cell body by a hook.<visual type="drawing"
+                    url="http://i.imgur.com/hDHJp6l.jpg"/> The hook is connected to a biological
+                motor, which spins the flagella. The spinning of these typically helical flagella
+                works since it is not reciprocal; it is not the same if you were to look at the
+                motion forward and in reverse. <visual type="drawing"
+                    url="http://i.imgur.com/l2bQzNs.png"/> The use of flagella is fairly common in
+                the world of bacteria. E Coli. use flagella. <visual type="photo"
+                    url="http://knowledgeinsider.com/wp-content/uploads/2016/02/e-coli-streptococci.jpg"
+                /> So does Helicobacter pylori, a bacterium found in the stomach. <visual
+                    type="photo"
+                    url="http://userfiles.steadyhealth.com/userfiles/4540/articles/H.pylori.gif"/>
+                Other bacteria such as the Spirochaete have a spiral shape and move by whole-body
+                undulations. <visual type="photo"
+                    url="http://tolweb.org/tree/ToLimages/Leptospira_interrogans.jpg"/>
+            </explanation>
+            <section_header>Conclusion</section_header>
+            <conclusion>Given their microscopic size, it's quite fascinating to see such developed
+                forms of movement. A rotating element and motor is certainly an uncommon and
+                surprising characteristic in nature that human swimmers like Arnold can only observe
+                and envy. Nevertheless, it makes sense, since these traits were the response to a
+                completely different set of rules on the microscopic level. </conclusion>
         </answer>
-        <sources/>
+        <sources> I highly recommend reading <ref type="source"
+                url="http://www.uam.es/personal_pdi/ciencias/agrait/nico_archivos/docencia/fisica%20de%20fluidos/Life%20at%20Low%20Reynolds%20Number,%20EM%20Purcell%201973.htm"
+                > Life at Low Reynolds Number </ref> for a more in depth look at this topic. <ref
+                type="source" url="http://www.damtp.cam.ac.uk/user/lauga/papers/114.pdf">This
+                paper</ref> on Bacterial Hydrodynamics provides a closer look on bacteria mechanism
+            for movement, especially the use of rotating flagella. Additionally, <ref type="source"
+                url="https://www.amherst.edu/users/D/ndarnton/extra/hydrodynamics">this post</ref>
+            on Hydrodynamics has great analogies and examples relevant to the Reynolds number.
+        </sources>
     </blog_post>
 
     <docReview>
