@@ -17,7 +17,9 @@
                 nature time and time again. However, to truly understand the mechanisms for travel
                 and why they are the way they are requires an understanding about the world of
                 bacteria, specifically the world they live in.</misconception>
-            <important_idea>The first step is to understand the Reynolds number. </important_idea>
+            <technical_principle>The first step is to understand the <important_idea>Reynolds
+                    number.</important_idea>
+            </technical_principle>
         </background>
         <answer>
             <section_header>What is the Reynolds number?</section_header>
@@ -42,43 +44,50 @@
                     type="drawing"
                     url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
                 />Arnold swims at an average speed of 2 mph or .894 m/s in water which has a density
-                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Arnolds size,
-                or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we get a
-                Reynolds number of about 409000. Now, lets take a look at an E. Coli cell. <visual
-                    type="drawing"
+                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Arnold's
+                size, or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we
+                get a Reynolds number of about 409000. Now, lets take a look at an E. coli cell.
+                    <visual type="drawing"
                     url="http://hyperphysics.phy-astr.gsu.edu/hbase/biology/imgbio/cellprokaryote6.gif"
                 />A typical cell might be 2 μm or 2*10^-6 m and travel in water at a speed of 30
                 μm/s or 3*10^-7 m/s. In this case your Reynolds number would be 0.00006 . That's
                 several magnitudes smaller than Arnold's situation. If Arnold wanted to experience
-                the same Reynold's number as an E. Coli cell he would have to move at a speed of
+                the same Reynold's number as an E. coli cell he would have to move at a speed of
                 about 1.3*10^-10 m/s. If he were to move at that speed for a whole year he would
                 travel a staggering 4 millimeters.</analogy>
             <section_header>What does this tell us?</section_header>
             <important_idea>It tells us fluid flow has different properties at this level. It tells
-                us life is different at low Reynolds numbers. </important_idea>
+                us life is different at low Reynolds numbers. </important_idea><technical_principle
+                n="3">To understand this further we have to go back to the definition of Reynolds
+                number: the ratio of inertial forces to viscous forces. The lower your Reynolds
+                number, the lower your inertia is compared to the viscous forces of the fluid around
+                you.</technical_principle>
             <analogy>What does this mean? Imagine you get in the water and push Arnold. He will move
                 while he’s being pushed, and then inertia will carry him so he floats a little bit
                 farther away from you. Do the same in molasses, and he’ll stop almost immediately
-                once the force of your push stops acting on him. <technical_principle n="3">His
+                once the force of your push stops acting on him. <technical_principle n="4">His
                     movement in the water only depends on a current force acting on him, not on the
-                    forces acting on him before. . In this case, his movement is not dependent on
-                    time. It is said to be time invariant. </technical_principle>
+                    forces acting on him before. In this case, his movement is not dependent on
+                    time. It is said to be <important_idea>time invariant.</important_idea>
+                </technical_principle>
             </analogy>
-            <section_header>Scallops Theorem </section_header>
+            <section_header>Scallop Theorem </section_header>
             <specific_topic>This concept is the cornerstone of Scallop Theorem, a theorem developed
-                by physicist Edward Mills Purcell in his paper “Life at low Reynolds
-                number”.</specific_topic><technical_principle n="4">”. It states that to travel at
-                low Reynolds number a swimmer has to move or deform in a way that is not reciprocal. </technical_principle>
+                by physicist Edward Mills Purcell in his paper &quot;Life at low Reynolds
+                number.&quot;</specific_topic><technical_principle n="5">”. It states that to travel
+                at low Reynolds number a swimmer has to move or deform in a way that is not
+                reciprocal. </technical_principle>
             <analogy>. A great example of this is, of course, the scallop. A scallop travels in
                 water by slowly opening its shell to take in water, and quickly squirting it out to
                 propel itself. <visual type="drawing"
                     url="https://upload.wikimedia.org/wikipedia/commons/4/40/Scallop_jump.svg"
-                    /><technical_principle n="5">While this works great in a Scallop’s environment,
-                    it would be useless at low Reynolds numbers, since the motion is reciprocal.
-                    Since motion at low Reynolds flow is time invariant, the fact that the scallop
-                    opened and closed its shell slowly and quickly does not matter. In this case,
-                    the scallop would simply move one way when the shell opens, and move right back
-                    to the same spot when it closes. </technical_principle></analogy>
+                    /><technical_principle n="6">While this works great in a scallop’s environment,
+                    it would be useless at low Reynolds numbers, due to the fact that the movement
+                    is reciprocal. Since motion at low Reynolds flow is time invariant, the fact
+                    that the scallop opened and closed its shell slowly and quickly does not matter.
+                    In this case, the scallop would simply move one way when the shell opens, and
+                    move right back to the same spot when it closes.
+                </technical_principle></analogy>
             <section_header>So how do you move?</section_header>
             <explanation>Due to these constraints, bacteria have developed interesting ways to move
                 around. The most common of these methods is the use of flagella, which are whip-like
@@ -88,7 +97,7 @@
                 works since it is not reciprocal; it is not the same if you were to look at the
                 motion forward and in reverse. <visual type="drawing"
                     url="http://i.imgur.com/l2bQzNs.png"/> The use of flagella is fairly common in
-                the world of bacteria. E Coli. use flagella. <visual type="photo"
+                the world of bacteria. E coli. use flagella. <visual type="photo"
                     url="http://knowledgeinsider.com/wp-content/uploads/2016/02/e-coli-streptococci.jpg"
                 /> So does Helicobacter pylori, a bacterium found in the stomach. <visual
                     type="photo"
