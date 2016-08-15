@@ -13,14 +13,13 @@
         <header>
             <name>Chi Mo</name>
             <contact_info>
-                <!-- One or More Contact -->
                 <contact type="address">1025 Hancock St, Apt 8G</contact>
                 <contact type="address">Quincy, MA, 02169</contact>
                 <contact type="phone"> 857-222-0943 </contact>
                 <contact type="email"> moira0501@gmail.com </contact>
             </contact_info>
         </header>
-        <greeting>Hello,</greeting>
+        <greeting>Hello M.Morrissey,</greeting>
         <intro_para>
             <intent type="purpose">I am interested in the Software Engineering job at EMC Corporation.</intent>
             <intent type="connection">After searching the job position on NEU COOL,</intent> I became interested in the job.
@@ -36,7 +35,7 @@
                 <programs>XML</programs> from learning courses while I'm at Northeastern University.</experience>
         </para_background>
         <closing_statements>
-            <compatability>I think I will fit in well with the culture of EMC Corporation</compatability><pb/>
+            <compatability>I think I will fit in well with the culture of EMC Corporation and this job position.</compatability><pb/>
             <next_step>I hope you will call me at 857-222-0943 so we can discuss the next step in
                 the hiring process. Thank you very much for your consideration!</next_step>
         </closing_statements>
