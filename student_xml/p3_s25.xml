@@ -4,13 +4,51 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>WP3 Edutainment Blog Post</title>
+        <author xml:id="s25">Leo Stolov</author>
+        <version n="1" date="2016-08-13"/>
     </docHead>
-    
-    <!-- root element for P3 here --> 
-    
+
+    <blog_post>
+        <background>
+            <section_header>Why are bacteria shaped the way they are?</section_header>
+            <question>Question</question>
+            <misconception>misconception</misconception>
+            <important_idea>But to understand exactly the reason for these weird shapes one first
+                has to understand something about the world of bacteria, specifically the fluid the
+                fluid they move in. The first step is to understand the Reynolds number.
+            </important_idea>
+        </background>
+        <answer>
+            <section_header>What is the Reynolds number?</section_header>
+            <technical_principle n="1">Mathematically, the Reynolds number can be expressed like
+                this: <visual type="other"
+                    url="http://ffden-2.phys.uaf.edu/104_2012_web_projects/Daniela_Wilner/Images/ReynoldsNumber.png"
+                /> The Reynolds number (Re in the equation above) is defined as the ratio of
+                inertial forces to viscous forces. What does that mean? Well the first thing that
+                should be noted is that it is a ratio. It has no units attached. The Reynolds number
+                can be 46, it can 46,000. It’s just a number. But it is a very useful number,
+                especially for engineers. Engineers use the Reynolds number to characterize how a
+                fluid (liquid or gas) flows. It tells engineers when to use certain equations for
+                certain situations, and when not to use them. </technical_principle>
+            <section_header>What does the Reynolds number depend on?</section_header>
+            <technical_principle n="2">Here’s the breakdown: ρ is density of the fluid, V is
+                velocity, D is diameter, or the size of the volume of the fluid is flowing in, μ is
+                viscosity which is a fluid's resistance to movement <analogy>(molasses is much more
+                    viscous than water).</analogy>
+            </technical_principle>
+            <analogy>Let's take a person swimming in water.
+            <visual type="drawing"
+                url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
+            />
+               
+            </analogy>
+            
+            
+        </answer>
+        <sources/>
+    </blog_post>
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
