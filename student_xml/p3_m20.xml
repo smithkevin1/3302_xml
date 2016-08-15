@@ -5,11 +5,46 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <author xml:id="m20">Chi Mo</author>
+        <version n="1" date="2016-08-11"/>
     </docHead>
     
-    <!-- root element for P3 here --> 
+    <cover_letter>
+        <header>
+            <name>Chi Mo</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="address">1025 Hancock St, Apt 8G</contact>
+                <contact type="address">Quincy, MA, 02169</contact>
+                <contact type="phone"> 857-222-0943 </contact>
+                <contact type="email"> moira0501@gmail.com </contact>
+            </contact_info>
+        </header>
+        <greeting>Hello,</greeting>
+        <intro_para>
+            <intent type="purpose">I am interested in the Software Engineering job at EMC Corporation.</intent>
+            <intent type="connection">After searching the job position on NEU COOL,</intent> I became interested in the job.
+            <reason>I have enjoyed my past work at EMC in the position of ADS testing. </reason> and <proposition>I think I will 
+                fit well with EMC culture and bring all the necessary abilities to go above and beyond my job requirements.</proposition>
+        </intro_para>
+        <para_background>
+            <experience type="work">I bring previous experience with <programs>Python</programs> from my work at EMC in Spring 2016.
+                I used <programs>Python</programs> to <accomplishments>test the newest servers and equipments.</accomplishments></experience>
+            <experience type="work">I used the <skills>technical skills</skills>, such as<accomplishments>fixing computers in hardware and 
+                software</accomplishments> while co-oping in Harvard School of Public Health.</experience>
+            <experience type="school">I gained <programs>C++</programs>, <programs>Python</programs>, <programs>Java</programs> and 
+                <programs>XML</programs> from learning courses while I'm at Northeastern University.</experience>
+        </para_background>
+        <closing_statements>
+            <compatability>I think I will fit in well with the culture of EMC Corporation</compatability><pb/>
+            <next_step>I hope you will call me at 857-222-0943 so we can discuss the next step in
+                the hiring process. Thank you very much for your consideration!</next_step>
+        </closing_statements>
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <name>Chi Mo</name>
+        </signature>
+    </cover_letter>
     
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
