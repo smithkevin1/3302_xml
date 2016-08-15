@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>WP3 Edutainment Blog Post</title>
         <author xml:id="s25">Leo Stolov</author>
-        <version n="1" date="2016-08-13"/>
+        <version n="1" date="2016-08-15"/>
     </docHead>
 
     <blog_post>
@@ -94,17 +94,17 @@
                 appendages connected to the main cell body by a hook.<visual type="drawing"
                     url="http://i.imgur.com/hDHJp6l.jpg"/> The hook is connected to a biological
                 motor, which spins the flagella. The spinning of these typically helical flagella
-                works since it is not reciprocal; it is not the same if you were to look at the
-                motion forward and in reverse. <visual type="drawing"
-                    url="http://i.imgur.com/l2bQzNs.png"/> The use of flagella is fairly common in
-                the world of bacteria. E coli. use flagella. <visual type="photo"
+                works since it is not reciprocal; it is different when done in forward or in
+                reverse. <visual type="drawing" url="http://i.imgur.com/l2bQzNs.png"/> The use of
+                flagella is fairly common in the world of bacteria. E coli. use flagella. <visual
+                    type="photo"
                     url="http://knowledgeinsider.com/wp-content/uploads/2016/02/e-coli-streptococci.jpg"
                 /> So does Helicobacter pylori, a bacterium found in the stomach. <visual
                     type="photo"
                     url="http://userfiles.steadyhealth.com/userfiles/4540/articles/H.pylori.gif"/>
                 Other bacteria such as the Spirochaete have a spiral shape and move by whole-body
-                undulations. <visual type="photo"
-                    url="http://tolweb.org/tree/ToLimages/Leptospira_interrogans.jpg"/>
+                undulations. Their spiral shape allow their movement to be non-reciprocal. <visual
+                    type="photo" url="http://tolweb.org/tree/ToLimages/Leptospira_interrogans.jpg"/>
             </explanation>
             <section_header>Conclusion</section_header>
             <conclusion>Given their microscopic size, it's quite fascinating to see such developed
@@ -113,7 +113,8 @@
                 and envy. Nevertheless, it makes sense, since these traits were the response to a
                 completely different set of rules on the microscopic level. </conclusion>
         </answer>
-        <sources> I highly recommend reading <ref type="source"
+        <sources>
+            <section_header>Sources</section_header>I highly recommend reading <ref type="source"
                 url="http://www.uam.es/personal_pdi/ciencias/agrait/nico_archivos/docencia/fisica%20de%20fluidos/Life%20at%20Low%20Reynolds%20Number,%20EM%20Purcell%201973.htm"
                 > Life at Low Reynolds Number </ref> for a more in depth look at this topic. <ref
                 type="source" url="http://www.damtp.cam.ac.uk/user/lauga/papers/114.pdf">This
