@@ -28,10 +28,10 @@
         </intro_para>
         <para_background>
             <experience type="work">I bring previous experience with <programs>Python</programs> from my work at EMC in Spring 2016.
-                I used <programs>Python</programs> to <accomplishments>test the newest servers and equipments.</accomplishments></experience>
+                I coded in <programs>Python</programs> to <accomplishments>test the newest servers and equipments.</accomplishments></experience>
             <experience type="work">I used the <skills>technical skills</skills>, such as<accomplishments>fixing computers in hardware and 
-                software</accomplishments> while co-oping in Harvard School of Public Health.</experience>
-            <experience type="school">I gained <programs>C++</programs>, <programs>Python</programs>, <programs>Java</programs> and 
+                software</accomplishments> while co-oping in Harvard School of Public Health in spring 2015.</experience>
+            <experience type="school">Aside from my work experience, I gained <programs>C++</programs>, <programs>Python</programs>, <programs>Java</programs> and 
                 <programs>XML</programs> from learning courses while I'm at Northeastern University.</experience>
         </para_background>
         <closing_statements>
@@ -40,7 +40,7 @@
                 the hiring process. Thank you very much for your consideration!</next_step>
         </closing_statements>
         <signature>
-            <salutation>Sincerely,</salutation>
+            <salutation>Yours sincerely,</salutation>
             <name>Chi Mo</name>
         </signature>
     </cover_letter>
