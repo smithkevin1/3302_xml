@@ -36,11 +36,14 @@
                 Union Station, establishing community centers and helping create jobs for the
                 citizens of Worcester. Despite all the work going into these projects, public
                 transportation has been completely overlooked. How does the city expect to increase
-                employment if half of it’s population doesn’t have a good way to get to work?
+                employment if half of it’s population doesn’t have a good way to get to work?<note 
+                    type="peer" resp="#m21">might not want to phrase as a rhetorical question.
+                instead make a statement "It is unjustifiable/unfounded to expect..." </note>
                 Worcester has long been a city dependent on cars since so much of it’s work force
                 resides in suburbs and neighboring towns. Most people know that the WRTA (Worcester
                 Regional Transit Authority) exists, but they don’t know how to use it. This is
-                because of the small amount and obscurity of bus stops and schedules and completely
+                because of the small amount <note type="peer" resp="#m21"> grammar; replace "amount" with "number"</note>
+                and obscurity of bus stops and schedules and completely
                 inconvenient routes. Implementing something like Boston’s MBTA is not realistic in a
                 city like Worcester, however major reorganization and improvements to the WRTA could
                 provide huge benefits in driving economic growth in Worcester, as well as making it
@@ -187,9 +190,34 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="m21"/>
+        <report type="peer" resp="#m21">
+            <p>Your background and history sections are very strong with the number of arugments they contains and the amount
+                of information. However, at times they can start to become a little redundant. It is mentioned several times
+                that many residential areas do not have bus access or what they do have is below par. Due to the redundant 
+                nature between certain sections of the proposal, it might be better to limit the amount of time you spend
+                talking about the lack of access in certain areas and create a shorter and moreconcise statement that
+                encompasses everything. This could be done along the lines of "the target audience for public transportation
+                is the one with the least access to the invaluable resource." A similar widdling down could potentially be done
+                to your intor paragraph
+                
+                The execution section has a very good list of all the major attributes that would be addressed in the process 
+                of upgrading the system. One place it may fall short is in the actual numbers section though, since 15-30% of 
+                the highlighted grant would equal roughly $1 million a year. With new buses costing upwards of $100,000, an 
+                increase in the donations and support from business or other subsidaries might be necessary to realistically 
+                reach the goal. You could improve this section by adding an emphasis on the collective effort it would take 
+                to improve the current state of the system. 
+                
+                In regards to your feasiblity section (and difference from the action plan), the sections seem to be pushing
+                the same idea. The action plan states what must be done and the feasibility plan echos how it must be done, more
+                so than if it can be. You did a great job adressing the problem and how it must be fixed, but must take into 
+                how realistic it is that every problem will be addressed. You can emphasise that unless big things are changed,
+                it might not be feasible to persue the entire project. Remember, it will not lower the validity or urgency of 
+                your argument if you say that it is not entirely feasible given the current state.
+                
+                Overall great job!
+                
+                .</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
