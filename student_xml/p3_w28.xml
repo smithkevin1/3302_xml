@@ -32,22 +32,29 @@
         </intro_para>
         <para_background>
             <!-- One or More -->
+
+            <experience type="personal">Growing up I was exceedingly interested in the study of
+                architecture. However it was not until late in highschool that I realized that my
+                interests were more technical in nature. Now in my fourth year at Northeastern
+                University I am pursuing a master's degree in civil engineering with a focus in
+                structural. I have taken courses both the technical aspects of engineering and
+                design as well as a class on the history of architecture in America. <programs/>
+                <accomplishments/></experience>
+            <experience type="school">I gained <skills>technical communication</skills> skills from
+                my work as a TA at Knowledge University. I often had to explain technical info in
+                many different ways.</experience>
             <experience type="work">I have previous experience with <programs>AutoCAD, Revit, and
                     other design programs</programs> from my previous work at Simpson, Gumpertz and
                 Heger. I became well versed in <programs>AudoCAD</programs> while
                     <accomplishments>creating and updating structural and building technology
-                    related drawings</accomplishments> and <accomplishments></accomplishments> with it.</experience>
-            <experience type="personal">I have also improved my ability in <programs>AutoCAD and Revit</programs>
-                while working on a <accomplishments>chess program</accomplishments> in my spare
-                time.</experience>
-            <experience type="school">I gained <skills>technical communication</skills> skills from
-                my work as a TA at Knowledge University. I often had to explain technical info in
-                many different ways.</experience>
+                    related drawings</accomplishments> and <accomplishments/> with it.</experience>
         </para_background>
         <closing_statements>
-            <compatability>I think I will fit in well with the holistic design culture of SOM.</compatability>
+            <compatability>I think I will fit in well with the holistic design culture of
+                SOM.</compatability>
             <pb/>
-            <next_step>I have attached my resume to this letter and I hope to hear from you in the future regarding possible opennings for interns in the Summer of 2017.</next_step>
+            <next_step>I have attached my resume to this letter and I hope to hear from you in the
+                future regarding possible opennings for interns in the Summer of 2017.</next_step>
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
