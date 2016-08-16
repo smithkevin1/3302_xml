@@ -22,7 +22,7 @@
         
         <tbl_cont>
             <section n="">
-                <!--text here-->
+                <!--Section name here-->
             </section>
         </tbl_cont>
         
@@ -43,6 +43,7 @@
         
         <purpose>
             <p>
+                <!-- who, what, when are mandatory -->
                 <scope type=""> </scope>  <!--attribute options: what, who, when, where-->
                 <objective>
                     <!-- can include <q> element(s) for quoted material -->
@@ -53,15 +54,19 @@
             </p>
         </purpose>
         
-        <approach type="">  <!--attribute options: execution, action-->
+        <approach>
             <p>
                 <!--text here-->
             </p>
         </approach>
         
-        <feasibility type="">  <!--attribute options: economic, social, environmental-->
+        <feasibility>
             <p>
-                <!--text here-->
+                <!-- possible subelements are: economic, environmental, social,
+                    legal, or other -->
+                <economic>
+                    <!-- text here -->
+                </economic>
             </p>
         </feasibility>
         
