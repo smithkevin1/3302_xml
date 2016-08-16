@@ -9,47 +9,13 @@
         <version n="1" date="2016-08-15"/>
     </docHead>
     
-    <blog_post><note type="peer" resp="#v26">Delete the boilerplate text.</note> Root element for Science Blog genre <!-- Global Elements-->
-        <!-- Optional elements that can go anywhere -->
-        <!-- "n" attribute used to number potentially repeated elements. Optional. -->
-        <section_header>’background’ and ‘answer’ are best broken into modular digestible sections
-            consisting of several paragraphs. ‘section_header’ should be titled in a way such that
-            the following paragraphs either work in concert to make the point specified by
-            ‘section_header’, or answer a question put forth by ‘section_header’. </section_header>
-        <visual type="" url="">Visuals are any variety of in line imagery used to break up long
-            lengths of text, and/or aid in the understanding of a topic. Comics, pictures and
-            graphics are a few of the possible visuals that can be
-            used.<!-- Types can be: Photo, Comic, Drawing, Animation,
-                Quoted Text, Other --></visual>
-        <analogy>Analogies should be used to better illustrate important and difficult to understand
-            topics put forth by the other elements.</analogy>
-        <list type="">A multipurpose list element.
-            <!-- Types can be: "Generic": A generic list of any related yet separate items. 
-                Can also be used for breaking down procedural orders, an example of this would be 
-                notating the steps of a mathematical proof.  "Roadmap": A roadmap is a list in which 
-                several ‘section_headers’ that build upon one another to drive home an important point 
-                are specified before diving into each section independently. This allows the reader to 
-                understand the purpose of a section in context to avoid getting lost in its details. 
-                Text should agree with ‘section_headers’ used later on. --></list>
-        <technical_principle n="">Fundamental theory and concepts involved (such as gravity, matter
-            and energy, fluid dynamics, acid-base reactions, etc.). Required in both "background"
-            and "answer," must come before "specific_topic" in "answer"</technical_principle>
-        <misconception n="">Lists any common misconceptions the public has about the topic, or
-            includes quoted material from the community that highlights the existing (false) notions
-            about the answer</misconception>
-        <pb>Paragraph break</pb>
-        <ref type="" url="">Hyperlink around a phrase that directs to a source or resource, can be
-            found throughout the post depending on author's preference
-            <!-- Types can be "source" or "supplement" for source material or supplemental material --></ref>
-        <important_idea n="">Major points of interest relating to the topic.</important_idea>
-        <!-- Structure -->
-        <!-- Fitting the genre model, Background is followed by Answer, followed by Sources -->
-        <!-- Elements within each parent element can occur in any order, though the listed order is
-            standard. Typically, each element is its own paragraph, but can be combined in interest
-            of brevity. -->
-        <!-- Unless otherwise noted, all following elements are required -->
+    <blog_post>
+      
         <background>
-            <section_header>Solar Energy</section_header> The Space Industry was the first to use
+            <section_header>How is does solar energy work?</section_header> 
+            <question>How does sunlight shining on a solar panel generate electricity?</question>
+            <misconception></misconception>
+            The Space Industry was the first to use
             solar technology in a practical method and greatly improved the existing technology at
             the time. Solar energy is now a rapidly expanding sector in the energy industry as
             improvements to technology and government subsidies have made solar energy more
