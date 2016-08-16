@@ -168,6 +168,7 @@
             <ref name="pb"/>
             <ref name="ref"/>
             <ref name="visual"/>
+            <ref name="style"/>
 
             <!--<ref name="figure"/> hold off on figure for now-->
         </choice>
@@ -210,6 +211,19 @@
                 </choice>
             </attribute>
             <text/>
+        </element>
+    </define>
+    <define name="style">
+        <element name="style">
+            <a:documentation>(style) style the content [required @type attribute; values include "italics" "underline" and "bold"]</a:documentation>
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>italics</value>
+                    <value>underline</value>
+                    <value>bold</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="bibl">
@@ -763,33 +777,20 @@
         </element>
     </define>
     <define name="blog.answer.content">
-        <group>
-            <group>
-                <zeroOrMore>
-                    <ref name="model.blog.global.less"/>
-                </zeroOrMore>
-                <oneOrMore>
-                    <ref name="technical_principle"/>
-                </oneOrMore>
-                <zeroOrMore>
-                    <ref name="model.blog.global.less"/>
-                </zeroOrMore>
-            </group>
             <group>
                 <interleave>
                     <zeroOrMore>
                         <ref name="model.blog.global"/>
                     </zeroOrMore>
-                    <oneOrMore>
+                    <zeroOrMore>
                         <ref name="specific_topic"/>
-                    </oneOrMore>
+                    </zeroOrMore>
                     <oneOrMore>
                         <ref name="explanation"/>
                     </oneOrMore>
                     <ref name="conclusion"/>
                 </interleave>
             </group>
-        </group>
     </define>
     <define name="answer">
         <element name="answer">
@@ -821,7 +822,7 @@
         <element name="technical_principle">
             <a:documentation>Fundamental theory and concepts involved (such as gravity, matter and
                 energy, fluid dynamics, acid-base reactions, etc.). Required in both "background"
-                and "answer," must come before "specific_topic" in "background" [takes @n
+                and "answer," must come before "specific_topic" in "answer" [takes @n
                 attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
@@ -901,6 +902,10 @@
     </define>
     <define name="model.blog.content">
         <group>
+            <ref name="title"/>
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
             <ref name="blog.background"/>
             <optional>
                 <ref name="model.blog.global"/>
