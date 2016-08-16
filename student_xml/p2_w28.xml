@@ -51,8 +51,11 @@
                     neighborhoods banned together to bring purpose back to the land. Over the years
                     since the fire, different features have been added progressively. Starting with
                     the creation of the winding path up to a senic lookout point over Lake
-                    Washington and then building a small play ground out of local recycled
-                    materials. The potential of this space is obvious to those who live around
+                    Washington and then building<note type="instructor" resp="#kgs">having an issue
+                        with parallel construction in this sentence; I think you just need an
+                        article (the) before building to fix this grammatical issue</note> a small
+                    play ground out of local recycled materials. The potential of this space is
+                    obvious to those who live around
                     it.<!-- can include <q> element(s) for quoted material -->
                 </subj_hist>
             </p>
@@ -65,15 +68,18 @@
                     value to the community and the organizations within it. </scope>
                 <!--attribute options: what, who, when, where-->
                 <scope type="who"> When completed this project will bring greatly added value to the
-                    city and to its residence in many forms. </scope>
-                <objective> The proposed project includes a multi-purpose turf sports feild with a
-                    small grandstand seating area to serve as a practice and game space for local
-                    teams. It will include an ecofriendly play area by updating and reinforcing the
-                    existing structure made out of local recycled materials. The existing lookout
-                    point at the top of the park's hill will be enhanced with a sculptural totem
-                    pole designed and carved by local artists and craftsman. All of which will be
-                    surrounded by patches of community gardens for town residents to manage and
-                    attend to. <!-- can include <q> element(s) for quoted material -->
+                    city and to its residence in many forms<note type="instructor" resp="#kgs">sych
+                        as...?</note>. </scope>
+                <objective> The proposed project includes a multi-purpose turf sports feild<note
+                        type="instructor" resp="#kgs">field</note> with a small grandstand seating
+                    area to serve as a practice and game space for local teams. It will include an
+                    ecofriendly play area<note type="instructor" resp="#kgs">, created </note> by
+                    updating and reinforcing the existing structure made out of local recycled
+                    materials. The existing lookout point at the top of the park's hill will be
+                    enhanced with a sculptural totem pole designed and carved by local artists and
+                    craftsman. All of which will be surrounded by patches of community gardens for
+                    town residents to manage and attend to.
+                    <!-- can include <q> element(s) for quoted material -->
                 </objective>
             </p>
             <p>
@@ -107,14 +113,17 @@
                     maintaining minimal costs to the city and its residence. The phases of this
                     project are broken up into four main catergories which can be constructed all at
                     once or in progression depending on finances and disruption to the surrounding
-                    neighborhoods. The first, and most critical phase involves clearing the brambles
-                    that covers this already well graded plot of land and removing any remaining
-                    building debris and possible hazardous waste that may remain on the site. The
-                    second phase includes structurally fortifying and updating the existing recycled
-                    play structure and surrounding picnic spaces. This phase can be followed by
-                    either the addition of a new multipurpose terf feild and small grandstand area
-                    or improvement of the senic lookout ridge above with the addition of several
-                    plots for community gardens for local residence to use. </action></p>
+                        neighborhoods.<note type="instructor" resp="#kgs">this fleibility seems very
+                        important for a project like this</note> The first, and most critical phase
+                    involves clearing the brambles that covers<note type="instructor" resp="#kgs"
+                        >cover</note> this already well graded plot of land and removing any
+                    remaining building debris and possible hazardous waste that may remain on the
+                    site. The second phase includes structurally fortifying and updating the
+                    existing recycled play structure and surrounding picnic spaces. This phase can
+                    be followed by either the addition of a new multipurpose terf<note
+                        type="instructor" resp="#kgs">turf</note> feild and small grandstand area or
+                    improvement of the senic lookout ridge above with the addition of several plots
+                    for community gardens for local residence to use. </action></p>
         </approach>
 
         <feasibility>
@@ -132,11 +141,13 @@
                     recycled materials.</economic></p>
             <p><social>Socially, this community space would add exponential value to the surrounding
                     properties and to the lives of those living within and around the city of
-                    Kirkland. Removing any remaining structural debris from the old school and
-                    reintroducing local plant life back to the land would help to not only improve
-                    the local ecosystem and environment, it would help to stabilize the soft soils
-                    and loose gravel that makes up the existing ridge at the edge of the park.
-                </social></p>
+                        Kirkland.<note type="instructor" resp="#kgs">right, do you have any sources
+                        that attest to the social benefits of public parks? Or of cities investing
+                        funds into local improvement projects?</note> Removing any remaining
+                    structural debris from the old school and reintroducing local plant life back to
+                    the land would help to not only improve the local ecosystem and environment, it
+                    would help to stabilize the soft soils and loose gravel that makes up the
+                    existing ridge at the edge of the park. </social></p>
         </feasibility>
 
         <conclu>
@@ -188,7 +199,14 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is an interesting project and seems perfect for the genre. There are a few
+                moments where I had questions or pointed out minor changes above; be sure to pay
+                attention to those. My other critique would be that there are times when the
+                proposal seems vague or non-specific, when more specificity might improve the
+                effectiveness of the document (e.g., in the economic section). The proposal may have
+                benefitted from some additional research into similar sized cities investing in
+                public parks--financial costs, benefits to the community, etc. Overall, though, this
+                is nice work.</p>
         </report>
     </docReview>
 </DOC>
