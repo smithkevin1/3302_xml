@@ -24,12 +24,12 @@
             <sect lvl="2" n="2">Target Acquisition</sect>
             <sect lvl="2" n="3">Regulations</sect>
             <sect lvl="1" n="3">Feasibility</sect>
-            <sect lvl="1" n="3" >Success Criteria</sect>
+            <sect lvl="1" n="3" > <note type="peer">should be n="4"</note>Success Criteria</sect> 
             <sect lvl="2" n="1" >Hardware Design</sect>
             <sect lvl="2" n="2">Automated Flight</sect>
             <sect lvl="2" n="3">Target Acquisition</sect>
             <sect lvl="1" n="4">Cost</sect>
-            <sect lvl="1" n="5">Report</sect>
+            <sect lvl="1" n="5">Report <note type="peer"> Are you going to include the conclusion in the table of contents?</note></sect>
         </page>
         <page type="exec_sum">From Arduino to Raspberry Pi, development of affordable SOCs has been
             the jet-fuel of the 21st century hobbyist revolution. The removal of barriers relating
@@ -58,7 +58,8 @@
         </page>
 
         <page type="fsb">
-            <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. Although it is
+            <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. 
+                <note type="peer">Glad you included budget, it puts alot of the project in perspective</note> Although it is
                 possible to appeal for additional funding, there do not exist products on the market
                 that could directly address our goals even with ample funding. It is worth noting
                 that many equal and more advanced DIY projects have achieved success on smaller
@@ -169,9 +170,32 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="b11"/>
+        <report type="peer" resp="#b11">
+            <p>Oliver is writing a feasibility study for developing an anti-drone system
+            in order to combat the speedy rise of commercial drones because of the percieved
+            risks to safety and security, and also the slowness of regulation to adapt to technology.
+            </p>
+            <p>So firstly, I have to hand it to the author and say that this is a really cool idea. His 
+            preliminary document mentioned that he has worked with this as part of his capstone, and I think
+            it lends itself really well to the genre of the Feasibility Study. He mentioned that he wanted to 
+            avoid being redundant in the document, I definitely understand that because it is easy to do so here.
+            Oliver does a really good job avoiding this and it makes the document fun to read, which feasibility studies are often not. 
+            I noted a few things I thought were discrepancies in the table of contents, but otherwise the present content matches 
+            the genre very well, at least from my understanding of it. </p>
+            
+            <p> That being said I think this specific feasibility study would benefit greatly from a risk analysis chart and
+            an image/design of the proposed system. I think detailing what you believe the final result
+            may look like, even if you don't have the full picture yet, would help support the "pick-up and read"
+            idea of feasibility studies. It would support the simplicity of the document, and as you know
+            everyone loves pictures. </p>
+            
+            <p> Oliver asked for a critique of his use of "pre_req_ana and succ_crit", but I think they
+            are being used very appropriately. I think he avoids being redundant where it is very easy to do
+            and successfully separated the paradigm of thinking between the two. The "What will we have to do" vs
+            "what will make / break this project" My one thought might be to include more regulatory thoughts
+            relating to the permitting of the anti-drone device and how you might run into legal trouble, but that could also
+            be included in a risk analysis table. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

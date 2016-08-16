@@ -64,9 +64,28 @@
         </signature>
     </cover_letter>
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="m20">Chi Mo</reviewer>
+        <report type="peer" resp="#m20">
+            <p>From reading the cover letter, the writer wants to apply a game programming job in
+                Filament Games. The cover letter shows that the writer had met most of the
+                requirement and would fit well for the job position. The rhetorical situation is
+                appropriate for the cover letter and the whole cover letter looks well organized and
+                clear. I think the writer did well in demonstrate the school, work and personal
+                experience in the background paragraph. After reading the job description, I can see
+                that the writer really fits the position well. The word-level is pretty good since
+                the person who will read the cover letter is an expert of all those computer
+                engineering works. The question from her self-review about the <proposition/>, I
+                think it fits the element meaning, I used the element in the same way. I don’t think
+                the writer needs to add anything to the background but I think she can add something
+                to make the reader feel that she really wants the job and did the research on the
+                company at the beginning of the cover letter or at the end of it. Also, the writer
+                can add some other skills such as communication skills which can show she would be a
+                good in team working. Other than the content in the cover letter, I think some of
+                the schema are not used. Most of the schema uses fine but I think it would be more
+                clearly if the writer can put the background paragraph “in pieces” by schema, such
+                as <programs/>
+                <skills/>
+                <accomplishments/>. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

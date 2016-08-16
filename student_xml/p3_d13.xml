@@ -8,8 +8,8 @@
         <author xml:id="d13">Daniel Doherty</author>
         <version n="1" date="2016-08-15"/>
     </docHead>
-
-    <blog_post> Root element for Science Blog genre <!-- Global Elements-->
+    
+    <blog_post><note type="peer" resp="#v26">Delete the boilerplate text.</note> Root element for Science Blog genre <!-- Global Elements-->
         <!-- Optional elements that can go anywhere -->
         <!-- "n" attribute used to number potentially repeated elements. Optional. -->
         <section_header>’background’ and ‘answer’ are best broken into modular digestible sections
@@ -69,7 +69,7 @@
                 panels generate electricity?</question>
         </background>
         <answer>
-            <specific_topic n="1">A solar panel is made up a many individual photovoltaic cells. A
+            <specific_topic n="1"><note type="peer" resp="#v26">Schema error here</note>A solar panel is made up a many individual photovoltaic cells. A
                 photovoltaic cell has a design similar to a common battery, containing both positive
                 and negative charges, that when aligned properly can generate electricity. However,
                 a photovoltaic cell relies on the use of a thin wafer made of a semiconductor,
@@ -84,6 +84,7 @@
                 be altered and controlled quite easily to perform any electrical result required.
                 Common metals heat up too quickly and conduct electricity to well, making it hard to
                 use them in modern electronics. <analogy>Just as we were told as children not to
+<<<<<<< HEAD
                     stand near metal during a lightning storm, utilizing a metal conductor in a
                     solar panel is just as dangerous. The solar panels would overheat as there would
                     be no resistance to the electrical current, and the panels would likely catch
@@ -93,10 +94,18 @@
                 strike the silicon and transfer their energy to the electrons of the silicon, and
                 knocks them off the silicon atoms. By forming an electrical circuit on the positive and negative sides of the cell, these electrons can be captured in the form of an electrical current. This current can then be transferred out of the cell and used for electricity. Solar panels have an efficiency of about 22%, meaning that only 22% of the electrons knocked loosed by the photon are captured in the form of an electrical current. The remaining energy is usually lost to heat.
             <analogy>A photon can be thought of as the white (cue) ball in the game of pool, the electrons as the remaining stripes and solids, and the pockets as the means of capturing the electrical current. Just after racking the balls (electrons), they are "stuck" in that position and will not move unless a force acts upon them. When the cue ball (photon) smacks into them during the break, the energy is transferred to the other balls and they are knocked free of their initial position. A good pool player may hit a few of the balls into the pockets, but most will remain on the table. The balls (electrons) that fall into the pockets represent the 22% efficiency of the panels, as a majority of the balls still remain on the table.</analogy></explanation>
+=======
+                    stand near metal during a lightning storm, utilzing<note type="peer"
+                        resp="#v26">utilizing is spelled wrong</note> a metal conductor in a solar
+                    panel would <note type="peer" resp="#v26">This sentence has no ending</note></analogy></technical_principle>
+            <explanation n=""><note type="peer" resp="#v26">Template code should be replaced</note>An in-depth reply to the question proposed in the “background”
+                section. Typically, the author will use common vernacular and devices such as
+                analogies and visuals in order to clearly convey concepts to readers.</explanation>
+>>>>>>> origin/master
             <conclusion>A conclusion that sums up what was just explained. It acts as a concise
                 response to the question asked in the “background” section </conclusion>
         </answer>
-        <sources> Contains sources the author used to answer the question <citation style="">A
+        <sources><note type="peer" resp="#v26"></note> Contains sources the author used to answer the question <citation style="">A
                 citation for the source written in the style the author decides to use (ex. MLA, APA
                 etc.)<!-- Optional sub-element --></citation>
         </sources>
@@ -104,9 +113,45 @@
     <!-- root element for P3 here -->
 
     <docReview>
-        <reviewer type="peer" xml:id="peer_id_here"/>
-        <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+        <reviewer type="peer" xml:id="v26"/>
+        <report type="peer" resp="#v26">
+            <p>
+                Dan wrote a Science Blog composition based on the question: "How do solar panels
+                generate electricity?". He starts with an outline on the history and technical
+                aspects of solar panels which is followed up by the actual answer. 
+            </p>
+            <p>
+                The rhetorical situation here is clear, a question is being answered. I would
+                imagine an audience of scientifically literate, curious people. This genre is
+                appropriate for this situation, as answering a question or explaining some
+                scientific principle is the reason for this genre's existence. As this genre is
+                meant to make complex scientific problems more understandable, Dan's word choice and
+                sentence structure are more or less sound. There are some syntactical problems such
+                as the last sentence in the answer just ending. An aspect of the genre that Dan does
+                not take up is the visual aid. An example of where a visual aid could come in handy
+                could be to better illustrate the photoelectric effect. There is an analogy but
+                there is potential for more. As I discussed previously (the last three sentences),
+                using the rhetorical devices of visual aids and analogies would assist in making
+                this piece more successful. As I will discuss later on, conforming more towards the
+                schema would also help the piece by making it more digestible.
+            </p>
+            <p>
+                The schema outlined by group 1 is not particularly well conformed to in this
+                composition. For instance, the first element in the answer, a "specific_topic"
+                element, raises a schema error. As far as I can tell this is because a
+                "specific_topic" element must be preceded by a "technical_principle" element. Also a
+                problem with this composition is the code left over from the template file. All of
+                this code should be removed and replaced with one's own. Lastly, the "sources"
+                element/section of the blog was left entirely untouched.
+            </p>
+            <p>
+                In terms of rhetorical situation and response, Dan's piece reflects research done by
+                group one quite well. However in terms of schema conformity, it could use some work.
+                My main piece of advice is to get rid of all the boilerplate XML that comes with the
+                template. Simply doing this will, in my opinion, enhance readability. A corollary to
+                this advice is to clean up schema errors. Finally, adding such devices as visual
+                aids and analogies would help in conforming to the genre. 
+            </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

@@ -53,14 +53,16 @@
             <experience type="school">In addition to my work experience, I have developed many
                 technical and communication skills through my classes and labs at
                     Northeastern.<skills> In my Electronics class, I worked with op-amps, diodes,
-                    BJTs, and MOSFETS.</skills><programs> In my Embedded Design class, I wrote C
-                    programs in Linux to run on an embedded processor. I also used Simulink to
-                    program a Zedboard's FPGA and control a robotic arm.</programs><skills>I wrote
-                    technical reports detailing the projects in these classes, and I worked
+                    BJTs, and MOSFETS <note type="peer">You could include an example of what you did
+                        with these components. Ex. "I worked with op-amps, diodes, BJTs, and MOSFETS
+                        to build an EKG"</note>.</skills><programs> In my Embedded Design class, I
+                    wrote C programs in Linux to run on an embedded processor. I also used Simulink
+                    to program a Zedboard's FPGA and control a robotic arm.</programs><skills>I
+                    wrote technical reports detailing the projects in these classes, and I worked
                     effectively with lab partners.</skills></experience>
-            <experience type="work">While taking classes, I also worked in Northeastern's SMILE lab,
-                which focuses on machine learning and computer vision. I collaborated with a team to
-                gather images for a Kinship Recognition project.</experience>
+            <experience type="work"> While taking classes, I also worked in Northeastern's SMILE
+                lab, which focuses on machine learning and computer vision. I collaborated with a
+                team to gather images for a Kinship Recognition project.</experience>
         </para_background>
 
         <closing_statements>
@@ -75,10 +77,30 @@
             <name>Sydnee Mizuno</name>
         </signature>
     </cover_letter>
+    <!-- Writer' Memo -->
+    <!-- I think that I'm far in the process of writing a cover letter. My rheterorical situation is responding to a job position. 
+         I think that my experience is detailed and helps expand what's listed on my resume. Sometimes it can be difficult to condense all of the
+         work experience into concise paragraphs. I would like the reviewer to look at the "school experience" and "compatibility."-->
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">
-            <p>Peer review report will appear here.</p>
+            <p>In this cover letter, Sydnee is wrting a cover letter for a coop position at
+                iRobot</p>
+            <p> Overall, this cover letter seems well written and professional. You go through your
+                different experiences that are relevant to the position and describe them clearly.
+                However, one thing I would recommend is not to give as detailed of a job description
+                here, since most of that will already be part of your resume. You could add a little
+                more information about things that wouldn't be on your resume, such as soft skills
+                you picked up over the course of your experiences. You do this pretty well at the
+                end of the first "work" section, when you talk about how you collaborated with your
+                team. You could add something of this to your "school" or last "work" section along
+                those lines (Ex."I collaborated with a team of Phd students on a Kinship Recognition
+                Project, and then helped present our findings to a group of professors"). I also saw
+                you mentioned that you wanted the reviewer to look at the "school experience" and
+                "compatibility sections". I feel like the compatibility section works pretty well,
+                and if you rework the school experience section a little bit to include some more
+                about you that the reader wouldn't find on your resume, it would be pretty solid. </p>
+
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
