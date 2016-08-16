@@ -215,7 +215,8 @@
     </define>
     <define name="style">
         <element name="style">
-            <a:documentation>(style) style the content [required @type attribute; values include "italics" "underline" and "bold"]</a:documentation>
+            <a:documentation>(style) style the content [required @type attribute; values include
+                "italics" "underline" and "bold"]</a:documentation>
             <ref name="macro.paraContent"/>
             <attribute name="type">
                 <choice>
@@ -777,20 +778,20 @@
         </element>
     </define>
     <define name="blog.answer.content">
-            <group>
-                <interleave>
-                    <zeroOrMore>
-                        <ref name="model.blog.global"/>
-                    </zeroOrMore>
-                    <zeroOrMore>
-                        <ref name="specific_topic"/>
-                    </zeroOrMore>
-                    <oneOrMore>
-                        <ref name="explanation"/>
-                    </oneOrMore>
-                    <ref name="conclusion"/>
-                </interleave>
-            </group>
+        <group>
+            <interleave>
+                <zeroOrMore>
+                    <ref name="model.blog.global"/>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <ref name="specific_topic"/>
+                </zeroOrMore>
+                <oneOrMore>
+                    <ref name="explanation"/>
+                </oneOrMore>
+                <ref name="conclusion"/>
+            </interleave>
+        </group>
     </define>
     <define name="answer">
         <element name="answer">
@@ -1757,6 +1758,7 @@
                     <ref name="pb"/>
                 </choice>
             </oneOrMore>
+            <ref name="att.resourced.attribute.url"/>
             <attribute name="type">
                 <choice>
                     <value>address</value>
@@ -1868,10 +1870,10 @@
                 introductory paragraph</a:documentation>
             <interleave>
                 <ref name="intent"/>
-                <optional>
+                <zeroOrMore>
                     <ref name="reason"/>
-                </optional>
-                <ref name="proposition"/>
+                </zeroOrMore>
+                <optional><ref name="proposition"/></optional>
                 <zeroOrMore>
                     <choice>
                         <ref name="macro.paraContent"/>
@@ -1914,6 +1916,12 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
+    <define name="interest">
+        <element name="interest">
+            <a:documentation>Sub-element of experience, expressing an interest (either specific to company project or to company long-term) </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
     <define name="model.experience.contents">
         <zeroOrMore>
             <choice>
@@ -1923,6 +1931,7 @@
                 <ref name="accomplishments"/>
                 <ref name="certifications"/>
                 <ref name="programs"/>
+                <ref name="interest"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1957,7 +1966,10 @@
                 information about candidate experience, cover letter must include one or more
                 background paragraphs </a:documentation>
             <oneOrMore>
-                <ref name="experience"/>
+                <choice>
+                    <ref name="experience"/>
+                    <text/>
+                </choice>
             </oneOrMore>
         </element>
     </define>
@@ -2018,6 +2030,14 @@
             <a:documentation>Mandatory element in cover letter, container element for signing off of
                 cover letter; includes salutation and name. </a:documentation>
             <ref name="salutation"/>
+            <optional>
+                <choice>
+                    <oneOrMore>
+                        <ref name="pb"/>
+                    </oneOrMore>
+                    <ref name="img"/>
+                </choice>
+            </optional>
             <ref name="name"/>
         </element>
     </define>
