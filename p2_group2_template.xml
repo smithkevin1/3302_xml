@@ -11,91 +11,190 @@
     </docHead>
 
     <fsb_rpt>
-        
-        <page type="tbl_contents">
-            <!-- lvl denotes tabbing. 1 is all the way left and roman numerals, 
-                2 is one tab right and letters.
+        <!-- 
+            (Table of Contents)
+            
+            Interior Elements : 
+            
+            sect : listing in the tbl_contents
+                [requires a mandatory @num attribute and an optional @lvl (level). Each use of a 
+                sub level begins again at @num=1. lvl denotes tabbing. 1 is all the way left and roman numerals, 
                 n denotes which number or letter. 1 is I, 2 is II. If lvl is 2,
-                1 is A, 2 is B, etc. -->
+                    Attributes :
+                        lvl : attribute denoting its level in the hierarchy. A sect element with @lvl=1 will be numbered
+                             with a roman numeral corresponding to its native @num attribute. 
+                        n : 
+        -->
+        <page type="tbl_contents">
             <sect lvl="1" n="1">First Section</sect>
             <sect lvl="1" n="2">Second Section</sect>
             <sect lvl="2" n="1">First subsection of Second Section</sect>
             <sect lvl="2" n="2">Second subsection of Second Section</sect>
             <sect lvl="1" n="3">Third Section</sect>
-            <!-- Shows up as:
-                I. First Section
-                II. Second Section
-                    A. First subsection of Second Section
-                    B. Second subsection of Second Section
-                III. Third Section
-                    -->
         </page>
-        
+
+        <!-- (Executive Summary) a quick summary
+                        of the whole presentation. From these paragraphs you should be able to
+                        understand whether or not the author supports the project, the most critical
+                        limitations / benefits where applicable 
+                Interior Elements :       
+                    background : Short sentence or two to give context to problem. 
+                    report_purpose : Present the problem being addressed. 
+                    approach : Approach taken
+                    key_findings : Concisely discuss unfeasability or feasability of given solutions.
+         -->
         <page type="exec_sum">
-            <!-- Quick summary of whole report -->
+            <!-- <background /> -->
+            <!-- <report_purpose /> -->
+            <!-- <approach /> -->
+            <!-- <key_findings /> -->
         </page>
+
+        <!-- (Preliminary analysis) This page type contains the
+                        evaluation of the environment for the project before beginning it. Contains
+                        >= 1 app_ovr elements.
         
-        <page type="pre_req_ana">
-            <!-- at least one app_ovr element required-->
-            <app_ovr type="obj">
-                <!-- Can be of type "obj, synergy, or rls". Highlights certain
-                    element of the project/idea
-                -->
-            </app_ovr>
+        Interior Elements : 
+                app_ovr : (Application overview) a highlight of certain element of the
+                application. This can be anything from you/your team's goals to how it interacts
+                with other products, projects, and systems. [requires an @type attribute]. Available
+                types: obj, synergy, rls.
+                    Attributes : 
+                        obj : Objective - Services rendered by the solution being addressed
+                            synergy : Synergy - How the proposed solution will interact with existing entities
+                        rls : Relevent laws and regulations which have a bearing on solution-->
+        
+        <page type="pre_req_ana"> <!-- Rename to prelim_ana -->
+            <app_ovr type="obj"/>
+            <app_ovr type="synergy"/>
+            <app_ovr type="rls"/>
         </page>
-        
+
+        <!-- (Feasibility Report) container element for writing project 2. Contains
+                any number of pages. Cannot contain text by itself. Can only contain text in
+                pages. 
+            Interior Elements : 
+                fsb_hlgt : Provides a general summary of feasibility with regard to the type specified                
+                    Attributes :
+                        tcnl : Technical feasability 
+                        econ : Economic feasability 
+                        socl : Social feasability 
+                        suits : Legality feasability 
+                        envr : Enviornmental feasability  
+        -->
         <page type="fsb">
-            <!-- at least one fsb_hlgt required-->
-            <fsb_hlgt type="econ">
-                <!-- can be of type "tcnl, econ, tfrm, socl, suits, or envr".
-                Provides a general summary of feasibility of the type specified
-                -->
-            </fsb_hlgt>
+            <fsb_hlgt type="econ"/>
+            <fsb_hlgt type="envr"/>
+            <fsb_hlgt type="socl"/>
+            <fsb_hlgt type="suits"/>
+            <fsb_hlgt type="tcnl"/>
         </page>
-        
+
+        <!-- (Success criteria). This pages contains the pre-defined
+                        requirements for the project to be declared successful. Contains >= 0 
+                        req_sect elements. Easy to confuse with the page @pre_req_ana, or
+                        the preliminary requirements analysis. This page contains the technical
+                        aspects describing the actual project rather than the environment
+                        surrounding the project and it’s success.  
+                Interior Elements : 
+                    req_sect : details a sections of requirements. Strictly related to the project’s components. 
+                    For example an appropriate <req_sect> element would be “userinterface”, “Database/database interaction”, or 
+                    “construction”.                                
+                        Attributes :
+                            title: Tile of the req_sect : Appears italicized and underlined above text.
+                            type: The type of achievemnt being met
+                                tchncl : Technical
+                                tmfrm : Timeframe
+                                socl : Social, the effect of the goal
+                                other : 
+        -->
         <page type="sccs_crt">
-            <!-- at least one req_sect element required-->
-            <req_sect>Title of Requirement Section
-                <req n="1"></req>
-                <req n="2"></req>
-            </req_sect>
-            
-            <req_sect>Title of Requirement Section 2
-                <req n="1"></req>
-                <req n="2"></req>
-            </req_sect>
+            <req_sect></req_sect>
+            <!-- <req_sect type="tchnl" title="Title of Requirement Section"> 
+            </req_sect> -->
+            <!-- <req_sect type="tmfrm" title="Title of Requirement Section"> 
+            </req_sect> -->
+            <!-- <req_sect type="socl" title="Title of Requirement Section"> 
+            </req_sect> -->
+            <!-- <req_sect type="other" title="Title of Requirement Section"> 
+            </req_sect> -->
         </page>
-        
+
+        <!-- (Design or Diagram). This type of page is a diagram or image
+                        that shows a quick highlight of the system / structure. Usually outline
+                        interconnecting parts. -->
         <page type="dsn">
             <img url="insert_url_here.com">Caption of image</img>
         </page>
-        
+
+        <!-- (Cost Estimates) The Cost estimates page contains any number of
+                        est elements 
+            Internal Elements, all required : 
+                cost : A specific cost type with estimate included
+                    Attributes :
+                       envr : Environmental cost
+                       fnc : Financial cost
+                       lgl : Legal cost 
+        -->
+        <page type="cost">
+            <est type="envr"/>
+            <est type="fnc"/>
+            <est type="lgl"/>
+        </page>
+
+        <!-- (Report page) Not to be mistake with an estimate, this page is
+                        about outlining how you show or prove progress on your project and how you
+                        will report that progress. Examples include the medium / genre for your
+                        report. Who you are reporting too, and what deliverables you will have.
+                        Deliverables could include a tour a facility / physical project, or an
+                        interactive demo of software. Includes any number of tmln;
+                        elements.
+                Interior Elements: 
+                    tmln : Marks a deliverable with specified date
+                        Attributes : 
+                            - date : Date due 
+        -->
         <page type="rpt">
             <tmln date="2016-10-14">First progress report </tmln>
             <tmln date="2016-10-08">Second progress report</tmln>
         </page>
-        
+
+        <!-- (Risk Analysis) chart/graphics/paragraph dedicated to covering
+                        certain risks and how your project will avoid them -->
         <page type="rsk_ana">
-            <!-- Discuss risks associated with problem and how to address -->
         </page>
-        
+
+        <!-- (Financial) This page is for a detailed financing plan if
+            necessary. May be covered already by previous sections if not as detailed.     
+            at least one fnc elements 
+           
+           Interior Elements : 
+                fnc : Specifies a particlar financial topic
+                     Attributes : 
+                        brdn : Internal funding/burden of the project
+                        fund : External fundraising for the project
+                        lns : Loans taking for funding purpose
+        -->
         <page type="fnc">
-            <!-- at least one fnc elements -->
-            <fnc type="exp" n="1">
-                <!-- possible types are "exp, fund, lns, brdn". Contains financial plan.-->
-            </fnc>
-            
-            <fnc type="fund" n="2">Financial statement 2</fnc>
+            <fnc type="brdn" />
+            <fnc type="fund"></fnc>
+            <fnc type="lns"></fnc>
         </page>
-        
-        <page type= "conc">
-            <!-- One of each of the following -->
-            <fsb><!-- Thoughts on is it feasibile? --></fsb>
-            <cond><!-- Identify key conditions for feasibility --></cond>
-            <sum><!-- Summarizes the report --></sum>
+
+        <!-- (Conclusion) The conclusion page consists of a body of writing
+                        that is three parts. It contains one of each of the following elements: fsb,
+                        cond, and sum. This page should be very direct and to the point 
+            Interior Elements, all required: 
+                   fsb : Thoughts on is it feasibile?  
+                   cond : Identify key conditions for feasibility
+        -->
+        <page type="conc">
+            <fsb />
+            <cond />
+            <sum></sum> <!-- this ele is removed in revision -->
         </page>
     </fsb_rpt>
-    
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
