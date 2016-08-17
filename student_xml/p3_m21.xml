@@ -6,7 +6,7 @@
             <!--required header includes metadata about the assignment (title, author, version)-->
             <title>Mass Ave. Bike Lane Improvement</title>
             <author xml:id="m21">Chris Murphy</author>
-            <version n="2" date="2016-08-13"/>
+            <version n="3" date="2016-08-16"/>
             <!--note that the date must be YYYY-MM-DD for the document to be valid-->
         </docHead>
         
@@ -62,42 +62,66 @@
             
             <purpose>
                 <p>
-                    <scope type="who"> The city of Boston must give funding to the Massachusetts Department 
+                    <scope type="what"> The state of Massachusetts must give funding to the Massachusetts Department 
                         of Transportation (MassDOT) to organize the construction necessary to improve bike 
-                        safety on the highlighted stretch of Mass Ave. When completed, the improved bike lanes 
-                        will increase travel safety and efficiency while satisfying the demands of Boston bike 
-                        advocate groups. </scope>
+                        safety on the highlighted stretch of Mass Ave.
+                    </scope>
+                    
+                    <scope type="who">  When completed, the improved bike lanes will increase travel safety and 
+                        efficiency while satisfying the demands of Boston bike advocate groups.                 
+                    </scope>
+                                        
+                    <scope type="when"> The two major steps towards action being taken are approval by the city, followed
+                        by the construction bidding process. At current rates, it would take approximately a year
+                        before any phyiscal work was done. Once started, it should take approximately one month or less
+                        to complete the project in its entirety. If persued immediately, the project could be done by
+                        fall of 2017. 
+                    </scope>
+                                      
+                                                                   
                     <objective>The proposed project would include repaving most sections of Mass Ave, 
                         followed by creating clear markings for the bike lanes. It would also include reclaiming 
                         the areas around the Huntington Ave. and Boylston St. intersections, where mismanaged 
                         construction has left concrete barriers indefinitely blocking the bike lanes. Lastly, 
-                        there would be lighting upgrades along the stretch from Newbury St. to the Charles River Bridge.
+                        there would be lighting upgrades along the stretch from Newbury St. to the Charles River Bridge,
+                        where
                     </objective>
          
                 </p>
             </purpose>
             
-            <approach type="">  <!--attribute options: execution, action-->
+            <approach>  <!--attribute options: execution, action-->
                 <p>
-                    To implement the changes, the first step that must be taken is having the MassDOT 
+                    <action>To implement the changes, the first step that must be taken is having the MassDOT 
                     hire out a private construction company to take on the upgrades. From there, a plan
                     must be created to carry out the construction process with minimal disruption to 
                     daily traffic flows. Ideally, the ripping, paving, and repainting process could be
                     completed along the 1.2-mile stretch within 2 weeks of night work. Since the 
                     installation/upgrade of streetlights on the sidewalks is a more intensive but much 
                     less disruptive process, it could take closer to a full month to complete.   <!--text here-->
-                </p>
+                </action></p>
             </approach>
             
-            <feasibility type="">  <!--attribute options: economic, social, environmental-->
-                <p>
-                    The two main obstacles in the process are costs and disruptions to traffic flow. 
+            <feasibility>  <!--attribute options: economic, social, environmental-->
+                <p><economic>The two main obstacles in the process are costs and disruptions to traffic flow. 
                     The latter problem could be best mostly resolved by limiting work to night shifts
-                    and if necessary, weekends. Since the department of transportation already has allotted
-                    budgets for roadwork and improvements, the funding problem is mostly a matter of securing 
-                    those funds through petitions and demonstrations as to why the Mass Ave. upgrade is a pertinent 
-                    problem. 
+                    and if necessary, weekends. This would eliminate most lost revenues from employees being late
+                    or storefronts being inaccessible. Furhtermore, since the department of transportation already 
+                    has allotted budgets for roadwork and improvements, the funding problem is mostly a matter of 
+                    securing those funds through petitions and demonstrations as to why the Mass Ave. upgrade is a 
+                    pertinent problem. Several years ago the state approved Chapter 90, which allocated $200 million 
+                    towards road repeairs. The US DOT average for repaving a 4-lane, 1 mile stretch of road is $502,000.
+                    For the 1.2 mile stretch of repaving + light fixtures, the project would likely cost around $1.5 million.
+                    Given the funds available and the relevance of Mass Ave. to transportation, the listed improvements
+                    are highly feasible from a financial standpoint.</economic>
                 </p>
+                <p><environmental>
+                    Since the entire stretch of road already exists, no clearing of any greenspace or natural elements would
+                    be required. As a result, the construction process would have no environmental impacts on the road or 
+                    surrounding areas.                                
+                </environmental></p>
+                
+                
             </feasibility>
             
             <conclu>
@@ -110,7 +134,8 @@
             </conclu>
             
             <references>
-                <citation n="" style=""> </citation>
+                <citation n="1" style="MLA"> 
+                https://www.dot.state.oh.us/Divisions/Finance/GASB%2034%20Documents/PavingCostpermile.pdf</citation>
             </references>
         </pub_init_proposal>
    
