@@ -1417,6 +1417,16 @@
 
 
     <!-- Group 3: public initiative proposal -->
+   <define name="proposal.ref">
+       <element name="ref">
+           <a:documentation>(reference) defines a reference; empty element [requires @author attribute corresponding to author in reference list</a:documentation>
+           <empty/>
+           <attribute name="author">
+               <a:documentation>author/authors/or entity responsible for a given source</a:documentation>
+               <text/>
+           </attribute>
+       </element>
+   </define>
     <define name="submit_date">
         <element name="submit_date">
             <ref name="macro.paraContent"/>
@@ -1449,7 +1459,7 @@
     </define>
     <define name="tbl_cont">
         <element name="tbl_cont">
-            <a:documentation>(table of contents</a:documentation>
+            <a:documentation>(table of contents)</a:documentation>
             <oneOrMore>
                 <ref name="section"/>
             </oneOrMore>
@@ -1674,6 +1684,31 @@
             </oneOrMore>
         </element>
     </define>
+    <define name="legal">
+        <element name="legal">
+            <a:documentation>Legal: Initial and long-term legal implications of project
+                </a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="other">
+        <element name="other">
+            <a:documentation>Other: Other implications of the project that do not fit in other sub-elements of feasibility</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
     <define name="model.feasibility.content">
         <zeroOrMore>
             <choice>
@@ -1682,6 +1717,8 @@
                 <ref name="economic"/>
                 <ref name="social"/>
                 <ref name="environmental"/>
+                <ref name="legal"/>
+                <ref name="other"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1758,7 +1795,9 @@
                     <ref name="pb"/>
                 </choice>
             </oneOrMore>
-            <ref name="att.resourced.attribute.url"/>
+            <optional>
+                <ref name="att.resourced.attribute.url"/>
+            </optional>
             <attribute name="type">
                 <choice>
                     <value>address</value>
@@ -1873,7 +1912,9 @@
                 <zeroOrMore>
                     <ref name="reason"/>
                 </zeroOrMore>
-                <optional><ref name="proposition"/></optional>
+                <optional>
+                    <ref name="proposition"/>
+                </optional>
                 <zeroOrMore>
                     <choice>
                         <ref name="macro.paraContent"/>
@@ -1918,7 +1959,8 @@
     </define>
     <define name="interest">
         <element name="interest">
-            <a:documentation>Sub-element of experience, expressing an interest (either specific to company project or to company long-term) </a:documentation>
+            <a:documentation>Sub-element of experience, expressing an interest (either specific to
+                company project or to company long-term) </a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
