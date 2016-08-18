@@ -6,17 +6,17 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>WP3 Edutainment Blog Post</title>
         <author xml:id="s25">Leo Stolov</author>
-        <version n="1" date="2016-08-15"/>
+        <version n="1" date="2016-08-18"/>
     </docHead>
 
     <blog_post>
         <background>
-            <section_header>How do bacteria move?</section_header>
+            <section_header>Traveling at the microscopic level</section_header>
             <question>How is it that bacteria travel from one place to another?</question>
             <misconception>You may think the answer is trivial, since moving is a problem solved by
                 nature time and time again. However, to truly understand the mechanisms for travel
-                and why they are the way they are requires an understanding about the world of
-                bacteria, specifically the world they live in.</misconception>
+                and why they are the way they are requires an understanding about microscopic things
+                like bacteria, specifically the world they live in.</misconception>
             <technical_principle>The first step is to understand the <important_idea>Reynolds
                     number.</important_idea>
             </technical_principle>
@@ -123,7 +123,10 @@
                 forms of movement. A rotating element and motor is certainly an uncommon and
                 surprising characteristic in nature that human swimmers like Arnold can only observe
                 and envy. Nevertheless, it makes sense, since these traits were the response to a
-                completely different set of rules on the microscopic level. </conclusion>
+                completely different set of rules on the microscopic level. </conclusion><visual
+                type="comic"
+                url="https://s-media-cache-ak0.pinimg.com/564x/cb/32/6c/cb326c2a1112a7ed8b9484651ae3a3e6.jpg"
+            />
         </answer>
         <sources>
             <section_header>Sources</section_header>I highly recommend reading <ref type="source"
