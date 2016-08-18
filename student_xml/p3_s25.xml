@@ -10,13 +10,14 @@
     </docHead>
 
     <blog_post>
+        <title>Traveling at the microscopic level</title>
         <background>
-            <section_header>Traveling at the microscopic level</section_header>
             <question>How is it that bacteria travel from one place to another?</question>
-            <misconception>You may think the answer is trivial, since moving is a problem solved by
-                nature time and time again. However, to truly understand the mechanisms for travel
-                and why they are the way they are requires an understanding about microscopic things
-                like bacteria, specifically the world they live in.</misconception>
+            <misconception>to many, the answer may seem trivial, since motion is a problem solved by
+                nature time and time again, when in reality, there are many concepts at play which
+                complicate this problem. To truly understand the mechanisms for travel and why they
+                are the way they are requires an understanding about microscopic things like
+                bacteria, specifically the world they live in.</misconception>
             <technical_principle>The first step is to understand the <important_idea>Reynolds
                     number.</important_idea>
             </technical_principle>
@@ -48,11 +49,11 @@
             <analogy>Let's take a person swimming in water. Let's call him Pichael Melps. <visual
                     type="drawing"
                     url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
-                />Pichael swims at an average speed of 2 mph or .894 m/s in water which has a density
-                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Pichael's
-                size, or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we
-                get a Reynolds number of about 409000. Now, lets take a look at an E. coli cell.
-                    <visual type="drawing"
+                />Pichael swims at an average speed of 2 mph or .894 m/s in water which has a
+                density of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate
+                Pichael's size, or diameter, as 1.5 ft or .457 m. Put these numbers into the
+                equation and we get a Reynolds number of about 409000. Now, lets take a look at an
+                E. coli cell. <visual type="drawing"
                     url="http://hyperphysics.phy-astr.gsu.edu/hbase/biology/imgbio/cellprokaryote6.gif"
                 />A typical cell might be 2 μm or 2*10^-6 m and travel in water at a speed of 30
                 μm/s or 3*10^-7 m/s. In this case your Reynolds number would be 0.00006 . That's
@@ -67,16 +68,16 @@
                 number: the ratio of inertial forces to viscous forces. The lower your Reynolds
                 number, the lower your inertia is compared to the viscous forces of the fluid around
                 you.</technical_principle>
-            <analogy>What does this mean? Imagine you get in the water and push Pichael. He will move
-                while he’s being pushed, and then inertia will carry him so he floats a little bit
-                farther away from you. Do the same in molasses, and he’ll stop almost immediately
-                once the force of your push stops acting on him. <technical_principle n="4">His
-                    movement in the water only depends on a current force acting on him, not on the
-                    forces acting on him before. <note type="peer" resp="#d13">Do you mean his
-                        movement in molasses requires an active force? You seem to contradict
-                        yourself here as Pichael would continue to float away from you after the
-                        initial force had ceased to affect him.</note>In this case, his movement is
-                    not dependent on time. It is said to be <important_idea>time
+            <analogy>What does this mean? Imagine you get in the water and push Pichael. He will
+                move while he’s being pushed, and then inertia will carry him so he floats a little
+                bit farther away from you. Do the same in molasses, and he’ll stop almost
+                immediately once the force of your push stops acting on him. <technical_principle
+                    n="4">His movement in the water only depends on a current force acting on him,
+                    not on the forces acting on him before. <note type="peer" resp="#d13">Do you
+                        mean his movement in molasses requires an active force? You seem to
+                        contradict yourself here as Pichael would continue to float away from you
+                        after the initial force had ceased to affect him.</note>In this case, his
+                    movement is not dependent on time. It is said to be <important_idea>time
                         invariant.</important_idea>
                 </technical_principle>
             </analogy>
@@ -121,10 +122,10 @@
             <section_header>Conclusion</section_header>
             <conclusion>Given their microscopic size, it's quite fascinating to see such developed
                 forms of movement. A rotating element and motor is certainly an uncommon and
-                surprising characteristic in nature that human swimmers like Pichael can only observe
-                and envy. Nevertheless, it makes sense, since these traits were the response to a
-                completely different set of rules on the microscopic level. </conclusion><visual
-                type="comic"
+                surprising characteristic in nature that human swimmers like Pichael can only
+                observe and envy. Nevertheless, it makes sense, since these traits were the response
+                to a completely different set of rules on the microscopic level.
+                </conclusion><visual type="comic"
                 url="https://s-media-cache-ak0.pinimg.com/564x/cb/32/6c/cb326c2a1112a7ed8b9484651ae3a3e6.jpg"
             />
         </answer>
