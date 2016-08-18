@@ -45,18 +45,18 @@
             <section_header>So what is low for a Reynolds number?</section_header><note type="peer"
                 resp="#d13"> You could consider mentioning the terms laminar and turbulent flow
                 here. Laminar at lower Re numbers, a transition phase and then turbulent</note>
-            <analogy>Let's take a person swimming in water. Let's call him Arnold. <visual
+            <analogy>Let's take a person swimming in water. Let's call him Pichael Melps. <visual
                     type="drawing"
                     url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
-                />Arnold swims at an average speed of 2 mph or .894 m/s in water which has a density
-                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Arnold's
+                />Pichael swims at an average speed of 2 mph or .894 m/s in water which has a density
+                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Pichael's
                 size, or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we
                 get a Reynolds number of about 409000. Now, lets take a look at an E. coli cell.
                     <visual type="drawing"
                     url="http://hyperphysics.phy-astr.gsu.edu/hbase/biology/imgbio/cellprokaryote6.gif"
                 />A typical cell might be 2 μm or 2*10^-6 m and travel in water at a speed of 30
                 μm/s or 3*10^-7 m/s. In this case your Reynolds number would be 0.00006 . That's
-                several magnitudes smaller than Arnold's situation. If Arnold wanted to experience
+                several magnitudes smaller than Pichael's situation. If Pichael wanted to experience
                 the same Reynold's number as an E. coli cell he would have to move at a speed of
                 about 1.3*10^-10 m/s. If he were to move at that speed for a whole year he would
                 travel a staggering 4 millimeters.</analogy>
@@ -67,14 +67,14 @@
                 number: the ratio of inertial forces to viscous forces. The lower your Reynolds
                 number, the lower your inertia is compared to the viscous forces of the fluid around
                 you.</technical_principle>
-            <analogy>What does this mean? Imagine you get in the water and push Arnold. He will move
+            <analogy>What does this mean? Imagine you get in the water and push Pichael. He will move
                 while he’s being pushed, and then inertia will carry him so he floats a little bit
                 farther away from you. Do the same in molasses, and he’ll stop almost immediately
                 once the force of your push stops acting on him. <technical_principle n="4">His
                     movement in the water only depends on a current force acting on him, not on the
                     forces acting on him before. <note type="peer" resp="#d13">Do you mean his
                         movement in molasses requires an active force? You seem to contradict
-                        yourself here as Arnold would continue to float away from you after the
+                        yourself here as Pichael would continue to float away from you after the
                         initial force had ceased to affect him.</note>In this case, his movement is
                     not dependent on time. It is said to be <important_idea>time
                         invariant.</important_idea>
@@ -121,7 +121,7 @@
             <section_header>Conclusion</section_header>
             <conclusion>Given their microscopic size, it's quite fascinating to see such developed
                 forms of movement. A rotating element and motor is certainly an uncommon and
-                surprising characteristic in nature that human swimmers like Arnold can only observe
+                surprising characteristic in nature that human swimmers like Pichael can only observe
                 and envy. Nevertheless, it makes sense, since these traits were the response to a
                 completely different set of rules on the microscopic level. </conclusion><visual
                 type="comic"
