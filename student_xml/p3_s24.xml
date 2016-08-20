@@ -51,12 +51,12 @@
                 drone can be dropped. </app_ovr>
             <app_ovr type="rls" title="Regulations">The FAA has regularly been advancing their
                 regulations on drone usage. The most up to date rules can be found at:
-                    <ref>https://www.faa.gov/uas/media/Part_107_Summary.pdf</ref>. Relevant to our
+                <ref>https://www.faa.gov/uas/media/Part_107_Summary.pdf</ref>. Relevant to our
                 project are the weight constraints (55lb), licensing requirements and flight
                 regulations (Cannot be operated indoors, drone must be visible from pilot's location
                 and drone cannot fly over individuals not involved in its development). </app_ovr>
         </page>
-
+        
         <page type="fsb">
             <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. 
                 <note type="peer">Glad you included budget, it puts alot of the project in perspective</note> Although it is
@@ -99,26 +99,26 @@
             <fsb_hlgt type="suits">Acquiring a license and executing the above processes should be
                 of no great impediment. </fsb_hlgt>
         </page>
-
-
+        
+        
         <page type="sccs_crt">
             <req_sect>Hardware Design <req>The anti-drone must be capable of flying and be of proper
-                    tuning such that moderate gusts of wind and sudden weight gains do not cause the
-                    vehicle to malfunction. </req>
+                tuning such that moderate gusts of wind and sudden weight gains do not cause the
+                vehicle to malfunction. </req>
                 <req>A flying time of roughly 10 minutes is to be expected. </req></req_sect>
             <req_sect>Automated Flight <req>The anti-drone should be capable of the anti-drone can
-                    autonomously navigate to and follow a test drone. Before deployment in the real
-                    world, a time requirement should be instantiated such that the drone could react
-                    quickly to a threat, however as this report details a research project, there is
-                    no time expectation in effect. </req></req_sect>
+                autonomously navigate to and follow a test drone. Before deployment in the real
+                world, a time requirement should be instantiated such that the drone could react
+                quickly to a threat, however as this report details a research project, there is
+                no time expectation in effect. </req></req_sect>
             <req_sect>Drone Acquisition <req>The anti-drone should be able to make contact with at
-                    least a 10lb target drone. Theoretically it should be able to disable the target
-                    drone, however there is no way of guaranteeing that the magnets will be capable
-                    of this in all circumstances. After acquisition, the drone should be able to fly
-                    at least 100 yards with the target drone in tow before releasing it.
-                </req></req_sect>
+                least a 10lb target drone. Theoretically it should be able to disable the target
+                drone, however there is no way of guaranteeing that the magnets will be capable
+                of this in all circumstances. After acquisition, the drone should be able to fly
+                at least 100 yards with the target drone in tow before releasing it.
+            </req></req_sect>
         </page>
-
+        
         <page type="cost">
             <est type="fnc"> Electrical Controls Components: $200 </est>
             <est type="fnc"> Batteries and Power Components: $50 </est>
@@ -127,7 +127,7 @@
             <est type="fnc"> Target Drone : $30 </est>
             <est type="fnc"> Misc : $200 </est>
         </page>
-
+        
         <page type="rpt"> All stages of this process will be monitored and developed with the help
             of Dr. Bahram Shafai. <tmln date="2016-09-02">Kit drone fully assembled (but un-tuned)
                 with with stage 1 of parts added. Stage 1 parts: Pixy, Raspberry Pi3, Flip32 flight
@@ -147,7 +147,24 @@
                 working model.</tmln>
             <tmln date="2016-12-04">Capstone presentation week</tmln>
         </page>
-
+        <page type="conc">
+            <fsb>In order to accomplish the mission put forth by our capstone design, not only does
+                our project require well executed engineering, but it will also contain an aspect of
+                research. The engineering portion is represented by the leveraging of existing
+                tools, and the research portion is represented in our tracking and capture
+                technology. Due to the uncertainty of research, not only is it impossible to
+                accurately predict the development process, but it also obfuscates what is
+                realistic.</fsb>
+            <cond>The primary point of difficulty will be the limited time we have to develop our
+                product. There is no doubt that what we seek to do is possible, however budgeting
+                time is of the greatest order of importance. Minimizing time spent on "reinventing
+                the wheel" will allow us to focus on the unique aspects of our project, however even
+                then it still seems doubtful that the project will be functioning at peak
+                performance come December. </cond>
+            <sum>It is reasonable to expect the tracking capabilities of two moving objects can be
+                completed by December, however the team will need to reevaluate at a later and better informed date if time allows for
+                the capturing capabilities to be integrated.</sum>
+        </page>
         <page type="conc">
             <fsb>In order to accomplish the mission put forth by our capstone design, not only does
                 our project require well executed engineering, but it will also contain an aspect of
@@ -167,35 +184,35 @@
                 the capturing capabilities to be integrated.</sum>
         </page>
     </fsb_rpt>
-
-
+    
+    
     <docReview>
         <reviewer type="peer" xml:id="b11"/>
         <report type="peer" resp="#b11">
             <p>Oliver is writing a feasibility study for developing an anti-drone system
-            in order to combat the speedy rise of commercial drones because of the percieved
-            risks to safety and security, and also the slowness of regulation to adapt to technology.
+                in order to combat the speedy rise of commercial drones because of the percieved
+                risks to safety and security, and also the slowness of regulation to adapt to technology.
             </p>
             <p>So firstly, I have to hand it to the author and say that this is a really cool idea. His 
-            preliminary document mentioned that he has worked with this as part of his capstone, and I think
-            it lends itself really well to the genre of the Feasibility Study. He mentioned that he wanted to 
-            avoid being redundant in the document, I definitely understand that because it is easy to do so here.
-            Oliver does a really good job avoiding this and it makes the document fun to read, which feasibility studies are often not. 
-            I noted a few things I thought were discrepancies in the table of contents, but otherwise the present content matches 
-            the genre very well, at least from my understanding of it. </p>
+                preliminary document mentioned that he has worked with this as part of his capstone, and I think
+                it lends itself really well to the genre of the Feasibility Study. He mentioned that he wanted to 
+                avoid being redundant in the document, I definitely understand that because it is easy to do so here.
+                Oliver does a really good job avoiding this and it makes the document fun to read, which feasibility studies are often not. 
+                I noted a few things I thought were discrepancies in the table of contents, but otherwise the present content matches 
+                the genre very well, at least from my understanding of it. </p>
             
             <p> That being said I think this specific feasibility study would benefit greatly from a risk analysis chart and
-            an image/design of the proposed system. I think detailing what you believe the final result
-            may look like, even if you don't have the full picture yet, would help support the "pick-up and read"
-            idea of feasibility studies. It would support the simplicity of the document, and as you know
-            everyone loves pictures. </p>
+                an image/design of the proposed system. I think detailing what you believe the final result
+                may look like, even if you don't have the full picture yet, would help support the "pick-up and read"
+                idea of feasibility studies. It would support the simplicity of the document, and as you know
+                everyone loves pictures. </p>
             
             <p> Oliver asked for a critique of his use of "pre_req_ana and succ_crit", but I think they
-            are being used very appropriately. I think he avoids being redundant where it is very easy to do
-            and successfully separated the paradigm of thinking between the two. The "What will we have to do" vs
-            "what will make / break this project" My one thought might be to include more regulatory thoughts
-            relating to the permitting of the anti-drone device and how you might run into legal trouble, but that could also
-            be included in a risk analysis table. </p>
+                are being used very appropriately. I think he avoids being redundant where it is very easy to do
+                and successfully separated the paradigm of thinking between the two. The "What will we have to do" vs
+                "what will make / break this project" My one thought might be to include more regulatory thoughts
+                relating to the permitting of the anti-drone device and how you might run into legal trouble, but that could also
+                be included in a risk analysis table. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
