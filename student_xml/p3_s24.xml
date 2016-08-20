@@ -4,9 +4,9 @@
 <DOC>
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
-        <title>Title of Assignment</title>
-        <author xml:id="your_id_here">Your name here</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <title>Automated Magnet Based Anti-Drone System Feasibility Report</title>
+        <author xml:id="s24">Oliver Scott</author>
+        <version n="1" date="2016-08-20"/>
     </docHead>
     <!-- root element for P3 here -->
     <fsb_rpt>
