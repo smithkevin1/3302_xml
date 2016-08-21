@@ -24,24 +24,32 @@
             <sect lvl="2" n="2">Target Acquisition</sect>
             <sect lvl="2" n="3">Regulations</sect>
             <sect lvl="1" n="3">Feasibility</sect>
-            <sect lvl="1" n="3" > <note type="peer">should be n="4"</note>Success Criteria</sect> 
-            <sect lvl="2" n="1" >Hardware Design</sect>
+            <sect lvl="1" n="3">
+                <note type="peer">should be n="4"</note>Success Criteria</sect>
+            <sect lvl="2" n="1">Hardware Design</sect>
             <sect lvl="2" n="2">Automated Flight</sect>
             <sect lvl="2" n="3">Target Acquisition</sect>
             <sect lvl="1" n="4">Cost</sect>
-            <sect lvl="1" n="5">Report <note type="peer"> Are you going to include the conclusion in the table of contents?</note></sect>
+            <sect lvl="1" n="5">Report <note type="peer"> Are you going to include the conclusion in
+                    the table of contents?</note></sect>
         </page>
-        <page type="exec_sum">From Arduino to Raspberry Pi, development of affordable SOCs has been
-            the jet-fuel of the 21st century hobbyist revolution. The removal of barriers relating
-            to cost and complexity is causing a largely unregulated proliferation of drone
-            development. As a result, an exponential number of drones are taking to the skies each
-            year, outpacing the FAA and local authorities' ability to regulate them. Compounding the
-            difficulty of impeding aerial objects with the ability of pilots to navigate their
-            drones from remote locations exposes a serious vulnerability with maintaining privacy,
-            safety and security. <pb/>Preempting a dramatic increase in laws regulating drone usage,
-            our goal is to develop an anti-drone system that can autonomously track and capture a
-            target in a way that is safe to the drone and the public.</page>
-        <page type="pre_req_ana">
+        <page type="exec_sum"><background>The proliferation of single board computers has greatly
+                reduced the cost and complexity of drone development. As a result, an exponential
+                number of drones are taking to the skies each year, outpacing the FAA and local
+                authorities' ability to regulate them. The difficulty of regulating aerial vehicles
+                compounded with the ability of pilots to navigate their drones from remote locations
+                exposes a serious vulnerability with maintaining privacy, safety and
+                security.</background>
+            <pb/><report_purpose>This report will investigate a novel way to police drones using an
+                anti-drone system.</report_purpose><fsb.approach> The approach discussed below
+                surveys an anti-drone that would autonomously track and capture a target drone using
+                electromagnets.</fsb.approach>
+            <key_findings>The report highlights many potential difficulties in development --
+                chiefly that research is being performed in tandem with engineering -- making
+                predicting success highly difficult, however the design remains feasible enough to
+                develop as a proof of concept. </key_findings>
+        </page>
+        <page type="prelim_ana">
             <app_ovr type="obj" title="Tracking">The anti-drone will be able to takeoff from a given
                 location while being operated by a pilot. Once the target is in frame and
                 recognized, the drone should be capable of autonomously moving above of the target. </app_ovr>
@@ -51,19 +59,19 @@
                 drone can be dropped. </app_ovr>
             <app_ovr type="rls" title="Regulations">The FAA has regularly been advancing their
                 regulations on drone usage. The most up to date rules can be found at:
-                <ref>https://www.faa.gov/uas/media/Part_107_Summary.pdf</ref>. Relevant to our
+                    <ref>https://www.faa.gov/uas/media/Part_107_Summary.pdf</ref>. Relevant to our
                 project are the weight constraints (55lb), licensing requirements and flight
                 regulations (Cannot be operated indoors, drone must be visible from pilot's location
                 and drone cannot fly over individuals not involved in its development). </app_ovr>
         </page>
-        
+
         <page type="fsb">
-            <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. 
-                <note type="peer">Glad you included budget, it puts alot of the project in perspective</note> Although it is
-                possible to appeal for additional funding, there do not exist products on the market
-                that could directly address our goals even with ample funding. It is worth noting
-                that many equal and more advanced DIY projects have achieved success on smaller
-                budgets. </fsb_hlgt>
+            <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. <note
+                    type="peer">Glad you included budget, it puts alot of the project in
+                    perspective</note> Although it is possible to appeal for additional funding,
+                there do not exist products on the market that could directly address our goals even
+                with ample funding. It is worth noting that many equal and more advanced DIY
+                projects have achieved success on smaller budgets. </fsb_hlgt>
             <fsb_hlgt type="tcnl">The project can be broken down into four stages. 1) Determine
                 necessary equipment to assemble a quad-copter drone and camera configuration. 2)
                 Enable long range object tracking for stationary targets. 3) Develop and attach the
@@ -96,57 +104,78 @@
                 The processes described above are made significantly more challenging when both
                 objects are moving. It is realistic that this would be a project in
                 itself.</fsb_hlgt>
-            <fsb_hlgt type="suits">Acquiring a license and executing the above processes should be
-                of no great impediment. </fsb_hlgt>
+            <fsb_hlgt type="lgl">Acquiring a license and executing the above processes should be of
+                no great impediment. </fsb_hlgt>
         </page>
-        
-        
+
+
         <page type="sccs_crt">
             <req_sect>Hardware Design <req>The anti-drone must be capable of flying and be of proper
-                tuning such that moderate gusts of wind and sudden weight gains do not cause the
-                vehicle to malfunction. </req>
+                    tuning such that moderate gusts of wind and sudden weight gains do not cause the
+                    vehicle to malfunction. </req>
                 <req>A flying time of roughly 10 minutes is to be expected. </req></req_sect>
             <req_sect>Automated Flight <req>The anti-drone should be capable of the anti-drone can
-                autonomously navigate to and follow a test drone. Before deployment in the real
-                world, a time requirement should be instantiated such that the drone could react
-                quickly to a threat, however as this report details a research project, there is
-                no time expectation in effect. </req></req_sect>
+                    autonomously navigate to and follow a test drone. Before deployment in the real
+                    world, a time requirement should be instantiated such that the drone could react
+                    quickly to a threat, however as this report details a research project, there is
+                    no time expectation in effect. </req></req_sect>
             <req_sect>Drone Acquisition <req>The anti-drone should be able to make contact with at
-                least a 10lb target drone. Theoretically it should be able to disable the target
-                drone, however there is no way of guaranteeing that the magnets will be capable
-                of this in all circumstances. After acquisition, the drone should be able to fly
-                at least 100 yards with the target drone in tow before releasing it.
-            </req></req_sect>
+                    least a 10lb target drone. Theoretically it should be able to disable the target
+                    drone, however there is no way of guaranteeing that the magnets will be capable
+                    of this in all circumstances. After acquisition, the drone should be able to fly
+                    at least 100 yards with the target drone in tow before releasing it.
+                </req></req_sect>
         </page>
-        
+
         <page type="cost">
-            <est type="fnc"> Electrical Controls Components: $200 </est>
-            <est type="fnc"> Batteries and Power Components: $50 </est>
-            <est type="fnc"> Frame Kit : $90 </est>
+            <est type="fnc"> Pixy motion sensor : $69.00</est>
+            <est type="fnc"> 1400 mAh LiPo Battery Pack: $28.99 </est>
+            <est type="fnc"> Carbon Fiber Frame Kit: $98 </est>
+            <est type="fnc"> Flip32 Flight Controller </est>
             <est type="fnc"> Connectors and Cables : $50 </est>
-            <est type="fnc"> Target Drone : $30 </est>
-            <est type="fnc"> Misc : $200 </est>
+            <est type="fnc"> Supplementary Components (Power cables, connectors, etc.): $86.95 </est>
+            <est type="fnc"> Misc (Shipping, tax, nuts and bolts etc.): $120 </est>
+            <est type="fnc"> Total : $469</est>
         </page>
-        
+
         <page type="rpt"> All stages of this process will be monitored and developed with the help
             of Dr. Bahram Shafai. <tmln date="2016-09-02">Kit drone fully assembled (but un-tuned)
                 with with stage 1 of parts added. Stage 1 parts: Pixy, Raspberry Pi3, Flip32 flight
                 controller, power distribution components. </tmln>
-            <tmln date="2016-09-05">Control of drone using WiFi established, drone tuned and ready
-                to fly. </tmln>
-            <tmln date="2016-09-12">All subsystems communicating successfully.</tmln>
-            <tmln date="2016-09-20">Hardware team finishes testing of Faraday cage.</tmln>
-            <tmln date="2016-10-01">Finalize capture system choice along with design for
-                implementation.</tmln>
-            <tmln date="2016-10-08">Finalize hardware design.</tmln>
-            <tmln date="2016-10-14">Software team has working prototype of tracking stationary
-                object.</tmln>
-            <tmln date="2016-10-15">Capture system integrated.</tmln>
-            <tmln date="2016-11-20">Software team has working prototype of tracking moving object. </tmln>
-            <tmln date="2016-11-29">Development of new features ceases. Debug and perfect current
-                working model.</tmln>
-            <tmln date="2016-12-04">Capstone presentation week</tmln>
+            <tmln date="2016-09-04"> Drone Assembly </tmln>
+            <tmln date="2016-09-18"> Establish WiFi Control and Tuning </tmln>
+            <tmln date="2016-09-18"> Independent Subsystem API Dev. </tmln>
+            <tmln date="2016-09-25"> Faraday cage testing.</tmln>
+            <tmln date="2016-10-02"> Finalize capture Method.</tmln>
+            <tmln date="2016-10-09"> Stationary Object Tracking. </tmln>
+            <tmln date="2016-10-16"> Hardware Design Finalization. </tmln>
+            <tmln date="2016-11-06"> Independent Capture System Working. </tmln>
+            <tmln date="2016-11-06"> Mobile Object Tracking. </tmln>
+            <tmln date="2016-11-27"> Mobile Tracking and Acquisition. </tmln>
+            <tmln date="2016-12-24"> Organize Capstone Report. </tmln>
+            <tmln date="2016-12-11"> Capstone presentation week</tmln>
+            <visual type="other" url="http://i.imgur.com/femCoTp.png">Team Based Visual
+                Timeline</visual>
         </page>
+
+        <page type="rsk_ana"> The primary risks posed to this project are assessed as follows:
+                <visual type="other" url="http://i.imgur.com/EI8HSAk.png"/>
+            <pb/>These risks can be mitigated as follows : Severe Crash : Maintain a low cost of
+            components. Only of the expenditures proposed are attributed to on-board systems.
+            Replacing these is trivial. The largest consequence of any broken components would be
+            the downtime in development. <pb/> Connectivity Issues : Time spent solving these issues
+            is offset by our choice of devices that are well known for easy development
+            environments. <pb/> Unworkable EMF : Should the electromagnet not be a viable solution,
+            other alternatives of capture can be investigated. <pb/> System Compatibility:
+            Preliminary analysis has been performed to verify all components are compatible. <pb/>
+            Processor Overwork : Using the Pixy to perform image analysis off of the Raspberry Pi
+            heavily reduces the workload expected of the controls program. Time frame : Weekly
+            assessments of development must be in place to ensure the workload keeps pace. Given our
+            project tackles two new ares (tracking and capture) of drone technology, the goal of
+            capture can be left incomplete without having the entire project be deemed a failure.
+            Under-budgeting : We have received notice that an additional $200 can likely be made
+        available to us should our project run over budget. </page>
+
         <page type="conc">
             <fsb>In order to accomplish the mission put forth by our capstone design, not only does
                 our project require well executed engineering, but it will also contain an aspect of
@@ -160,58 +189,43 @@
                 time is of the greatest order of importance. Minimizing time spent on "reinventing
                 the wheel" will allow us to focus on the unique aspects of our project, however even
                 then it still seems doubtful that the project will be functioning at peak
-                performance come December. </cond>
-            <sum>It is reasonable to expect the tracking capabilities of two moving objects can be
-                completed by December, however the team will need to reevaluate at a later and better informed date if time allows for
-                the capturing capabilities to be integrated.</sum>
-        </page>
-        <page type="conc">
-            <fsb>In order to accomplish the mission put forth by our capstone design, not only does
-                our project require well executed engineering, but it will also contain an aspect of
-                research. The engineering portion is represented by the leveraging of existing
-                tools, and the research portion is represented in our tracking and capture
-                technology. Due to the uncertainty of research, not only is it impossible to
-                accurately predict the development process, but it also obfuscates what is
-                realistic.</fsb>
-            <cond>The primary point of difficulty will be the limited time we have to develop our
-                product. There is no doubt that what we seek to do is possible, however budgeting
-                time is of the greatest order of importance. Minimizing time spent on "reinventing
-                the wheel" will allow us to focus on the unique aspects of our project, however even
-                then it still seems doubtful that the project will be functioning at peak
-                performance come December. </cond>
-            <sum>It is reasonable to expect the tracking capabilities of two moving objects can be
-                completed by December, however the team will need to reevaluate at a later and better informed date if time allows for
-                the capturing capabilities to be integrated.</sum>
-        </page>
+                performance come December. </cond> It is reasonable to expect the tracking
+            capabilities of two moving objects can be completed by December, however the team will
+            need to reevaluate at a later and better informed date if time allows for the capturing
+            capabilities to be integrated. </page>
+
     </fsb_rpt>
-    
-    
+
+
     <docReview>
         <reviewer type="peer" xml:id="b11"/>
         <report type="peer" resp="#b11">
-            <p>Oliver is writing a feasibility study for developing an anti-drone system
-                in order to combat the speedy rise of commercial drones because of the percieved
-                risks to safety and security, and also the slowness of regulation to adapt to technology.
-            </p>
-            <p>So firstly, I have to hand it to the author and say that this is a really cool idea. His 
-                preliminary document mentioned that he has worked with this as part of his capstone, and I think
-                it lends itself really well to the genre of the Feasibility Study. He mentioned that he wanted to 
-                avoid being redundant in the document, I definitely understand that because it is easy to do so here.
-                Oliver does a really good job avoiding this and it makes the document fun to read, which feasibility studies are often not. 
-                I noted a few things I thought were discrepancies in the table of contents, but otherwise the present content matches 
-                the genre very well, at least from my understanding of it. </p>
-            
-            <p> That being said I think this specific feasibility study would benefit greatly from a risk analysis chart and
-                an image/design of the proposed system. I think detailing what you believe the final result
-                may look like, even if you don't have the full picture yet, would help support the "pick-up and read"
-                idea of feasibility studies. It would support the simplicity of the document, and as you know
-                everyone loves pictures. </p>
-            
-            <p> Oliver asked for a critique of his use of "pre_req_ana and succ_crit", but I think they
-                are being used very appropriately. I think he avoids being redundant where it is very easy to do
-                and successfully separated the paradigm of thinking between the two. The "What will we have to do" vs
-                "what will make / break this project" My one thought might be to include more regulatory thoughts
-                relating to the permitting of the anti-drone device and how you might run into legal trouble, but that could also
+            <p>Oliver is writing a feasibility study for developing an anti-drone system in order to
+                combat the speedy rise of commercial drones because of the percieved risks to safety
+                and security, and also the slowness of regulation to adapt to technology. </p>
+            <p>So firstly, I have to hand it to the author and say that this is a really cool idea.
+                His preliminary document mentioned that he has worked with this as part of his
+                capstone, and I think it lends itself really well to the genre of the Feasibility
+                Study. He mentioned that he wanted to avoid being redundant in the document, I
+                definitely understand that because it is easy to do so here. Oliver does a really
+                good job avoiding this and it makes the document fun to read, which feasibility
+                studies are often not. I noted a few things I thought were discrepancies in the
+                table of contents, but otherwise the present content matches the genre very well, at
+                least from my understanding of it. </p>
+
+            <p> That being said I think this specific feasibility study would benefit greatly from a
+                risk analysis chart and an image/design of the proposed system. I think detailing
+                what you believe the final result may look like, even if you don't have the full
+                picture yet, would help support the "pick-up and read" idea of feasibility studies.
+                It would support the simplicity of the document, and as you know everyone loves
+                pictures. </p>
+
+            <p> Oliver asked for a critique of his use of "pre_req_ana and succ_crit", but I think
+                they are being used very appropriately. I think he avoids being redundant where it
+                is very easy to do and successfully separated the paradigm of thinking between the
+                two. The "What will we have to do" vs "what will make / break this project" My one
+                thought might be to include more regulatory thoughts relating to the permitting of
+                the anti-drone device and how you might run into legal trouble, but that could also
                 be included in a risk analysis table. </p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
