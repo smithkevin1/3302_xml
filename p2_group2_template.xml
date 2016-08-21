@@ -9,7 +9,7 @@
         <version n="num_of_version" date="2016-01-01"/>
         <!--note that the date must be YYYY-MM-DD for the document to be valid-->
     </docHead>
-    
+
     <fsb_rpt>
         <!-- 
             (Table of Contents)
@@ -32,7 +32,7 @@
             <sect lvl="2" n="2">Second subsection of Second Section</sect>
             <sect lvl="1" n="3">Third Section</sect>
         </page>
-        
+
         <!-- (Executive Summary) a quick summary
                         of the whole presentation. From these paragraphs you should be able to
                         understand whether or not the author supports the project, the most critical
@@ -44,12 +44,12 @@
                     key_findings : Concisely discuss unfeasability or feasability of given solutions.
          -->
         <page type="exec_sum">
-            <!-- <background /> -->
-            <!-- <report_purpose /> -->
-            <!-- <approach /> -->
-            <!-- <key_findings /> -->
+            <background/>
+            <report_purpose/>
+            <fsb.approach/>
+            <key_findings/>
         </page>
-        
+
         <!-- (Preliminary analysis) This page type contains the
                         evaluation of the environment for the project before beginning it. Contains
                         >= 1 app_ovr elements. This section can be confused with the 'sccs_crt' element,
@@ -66,13 +66,14 @@
                         obj : Objective - Services rendered by the solution being addressed
                             synergy : Synergy - How the proposed solution will interact with existing entities
                         rls : Relevent laws and regulations which have a bearing on solution-->
-        
-        <page type="pre_req_ana"> <!-- Rename to prelim_ana -->
+
+        <page type="prelim_ana">
+            <!-- Rename to prelim_ana -->
             <app_ovr type="obj"/>
             <app_ovr type="synergy"/>
             <app_ovr type="rls"/>
         </page>
-        
+
         <!-- (Feasibility Report) container element for writing project 2. Contains
                 any number of pages. Cannot contain text by itself. Can only contain text in
                 pages. 
@@ -89,10 +90,10 @@
             <fsb_hlgt type="econ"/>
             <fsb_hlgt type="envr"/>
             <fsb_hlgt type="socl"/>
-            <!--<fsb_hlgt type="lgl"/> --> <!-- replaces 'suits' -->
+            <fsb_hlgt type="lgl"/> 
             <fsb_hlgt type="tcnl"/>
         </page>
-        
+
         <!-- (Success criteria). This pages contains the pre-defined
                         requirements for the project to be declared successful. Contains >= 0 
                         req_sect elements. Easy to confuse with the page pre_req_ana, or
@@ -112,24 +113,19 @@
                                 other : 
         -->
         <page type="sccs_crt">
-            <req_sect></req_sect>
-            <!-- <req_sect type="tchnl" title="Title of Requirement Section"> 
-            </req_sect> -->
-            <!-- <req_sect type="tmfrm" title="Title of Requirement Section"> 
-            </req_sect> -->
-            <!-- <req_sect type="socl" title="Title of Requirement Section"> 
-            </req_sect> -->
-            <!-- <req_sect type="other" title="Title of Requirement Section"> 
-            </req_sect> -->
+            <req_sect type="socl"></req_sect>
+            <req_sect type="tmfrm"></req_sect>
+            <req_sect type="tchncl"></req_sect>
+            <req_sect type="other"></req_sect>
         </page>
-        
+
         <!-- (Design or Diagram). This type of page is a diagram or image
                         that shows a quick highlight of the system / structure. Usually outline
                         interconnecting parts. -->
         <page type="dsn">
             <img url="insert_url_here.com">Caption of image</img>
         </page>
-        
+
         <!-- (Cost Estimates) The Cost estimates page contains any number of
                         est elements 
             Internal Elements, all required : 
@@ -144,7 +140,7 @@
             <est type="fnc"/>
             <est type="lgl"/>
         </page>
-        
+
         <!-- (Report page) Not to be mistake with an estimate, this page is
                         about outlining how you show or prove progress on your project and how you
                         will report that progress. Examples include the medium / genre for your
@@ -161,12 +157,11 @@
             <tmln date="2016-10-14">First progress report </tmln>
             <tmln date="2016-10-08">Second progress report</tmln>
         </page>
-        
+
         <!-- (Risk Analysis) chart/graphics/paragraph dedicated to covering
                         certain risks and how your project will avoid them -->
-        <page type="rsk_ana">
-        </page>
-        
+        <page type="rsk_ana"> </page>
+
         <!-- (Financial) This page is for a detailed financing plan if
             necessary. May be covered already by previous sections if not as detailed.     
             at least one fnc elements 
@@ -179,11 +174,11 @@
                         lns : Loans taking for funding purpose
         -->
         <page type="fnc">
-            <fnc type="brdn" />
-            <fnc type="fund"></fnc>
-            <fnc type="lns"></fnc>
+            <fnc type="brdn"/>
+            <fnc type="fund"/>
+            <fnc type="lns"/>
         </page>
-        
+
         <!-- (Conclusion) The conclusion page consists of a body of writing
                         that is three parts. It contains one of each of the following elements: fsb,
                         cond, and sum. This page should be very direct and to the point 
@@ -192,12 +187,11 @@
                    cond : Identify key conditions for feasibility
         -->
         <page type="conc">
-            <fsb />
-            <cond />
-            <sum></sum> <!-- this ele is removed in revision -->
+            <fsb/>
+            <cond/>
         </page>
     </fsb_rpt>
-    
+
     <docReview>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
