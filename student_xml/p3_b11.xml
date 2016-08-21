@@ -19,7 +19,11 @@
                 later, many of which are not what you might think of as "hacking". There is always a
                 written consent by the party, almost always with a payment involved, making
                 penetration testing a service, sought after by those looking to improve the security
-                of whatever property or infrastructure they have. <!-- Insert cringy hacker image -->
+                of whatever property or infrastructure they have. 
+                
+                <!-- Cringy hacker image -->
+                <ref type="supplement" url="http://blog.venturesity.com/wp-content/uploads/2016/06/the-nsa-trained-edward-snowden-to-be-an-elite-hacker.jpg"></ref>
+                
                 <misconception n="1">
                     <note type="peer" resp="s24">I think it could be beneficial to open with the
                         misconception of hacking. </note>"Hacking", the wildly used term that it is,
@@ -33,7 +37,28 @@
                     approaches, not really the highspeed action that we see in movies. Successful
                     penetration of a system is what you would call genuine hacking, usually
                     accompanied with the stealing of sensitive information. </misconception>
-                <!-- Insert examples: Steam forums, Sony Pictures, Team Viewer-->
+                
+                    <!-- examples: Steam forums, Sony Pictures, Team Viewer-->
+                <important_idea> An individual breaking into a system is primarily looking for sensitive
+                data. You can see this with the kinds of systems that are targeted. On a more serious
+                level banks and pentagon computer recieve millions of un-authorized access attempts
+                every day, but the majority of this work is done through automated software. More human 
+                attempts (by human I mean small scale and operated by human beings) target services like 
+                forums in attempts to gain large ammounts of emails, or online small financial services or
+                stores looking for debit or credit card numbers. These emails or financial information can
+                then be sold on under-belly websites, but that is different conversation. The important part
+                is that it is very profitable, and there are little reprecussions for those outside of western
+                juristictions. </important_idea>
+                
+                <important_idea> You can see examples of this with the recent 
+                    team viewer service hack <ref type="source" url="http://arstechnica.com/security/2016/06/teamviewer-says-theres-no-evidence-of-2fa-bypass-in-mass-account-hack/"></ref>
+                    here, any one retrieving user accounts gets access to sensitive network information and
+                    potentially access to their computer through the service. Another example is the steam
+                    user forums hack <ref type="supplement" url="http://www.neogaf.com/forum/showpost.php?p=32479729&amp;postcount=7264"></ref>
+                    Here you might not see that value, but the group gets notoriety and advertising to a large audience (even if
+                    their damage was quickly fixed). 
+                </important_idea>
+                
             </technical_principle>
             <section_header> How do you "penetrate" a system?</section_header>
             <technical_principle n="2">The main purpose of penetration testing is to identify
