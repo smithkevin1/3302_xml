@@ -23,9 +23,7 @@
                 of whatever property or infrastructure they have. 
                 
                 <!-- Cringy hacker image -->
-                <ref type="supplement" url="http://blog.venturesity.com/wp-content/uploads/2016/06/the-nsa-trained-edward-snowden-to-be-an-elite-hacker.jpg">
-                    <visual type="photo" url="http://blog.venturesity.com/wp-content/uploads/2016/06/the-nsa-trained-edward-snowden-to-be-an-elite-hacker.jpg"></visual>
-                </ref>
+                <visual type="photo" url="http://blog.venturesity.com/wp-content/uploads/2016/06/the-nsa-trained-edward-snowden-to-be-an-elite-hacker.jpg"></visual>
                 
                 <misconception n="1">
                     <note type="peer" resp="s24">I think it could be beneficial to open with the
@@ -121,7 +119,7 @@
             If you're looking to learn about penetration testing, or want to try it yourself, 
             you should checkout <ref type="source" url="https://www.metasploit.com/"></ref>. Metasploit
             is an open source penetration testing community. Any software you would need to get started is
-            available there, and they even have a number of guides! Penetration testing can be lucritive career, 
+            available there, and they even have a number of guides! Penetration testing can be lucrative career, 
             or just a hobby. Many corporations have "bug bounties". you can see google's page  
             <ref type="supplement" url="https://www.google.com/about/appsecurity/reward-program/">here</ref>. 
             Regardless of what your intentions are, if you're looking to learn I encourage to delv deeper with
