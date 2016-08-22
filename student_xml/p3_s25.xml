@@ -6,16 +6,17 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>WP3 Edutainment Blog Post</title>
         <author xml:id="s25">Leo Stolov</author>
-        <version n="1" date="2016-08-15"/>
+        <version n="1" date="2016-08-18"/>
     </docHead>
 
     <blog_post>
+        <title>Traveling at the microscopic level</title>
         <background>
-            <section_header>How do bacteria move?</section_header>
             <question>How is it that bacteria travel from one place to another?</question>
-            <misconception>You may think the answer is trivial, since moving is a problem solved by
-                nature time and time again. However, to truly understand the mechanisms for travel
-                and why they are the way they are requires an understanding about the world of
+            <misconception>To many, the answer may seem trivial, since motion is a problem solved by
+                nature time and time again, when in reality, there are many concepts at play which
+                complicate this problem. To truly understand the mechanisms for travel and why they
+                are the way they are requires an understanding about microscopic things like
                 bacteria, specifically the world they live in.</misconception>
             <technical_principle>The first step is to understand the <important_idea>Reynolds
                     number.</important_idea>
@@ -31,32 +32,27 @@
                 should be noted is that it is a ratio. It has no units attached. The Reynolds number
                 can be 46, it can 46 million. It’s just a number. But it is a very useful number,
                 especially for engineers. Engineers use the Reynolds number to characterize how a
-                fluid (liquid or gas) flows. It tells engineers when to use certain equations for
-                certain situations, and when not to use them.<note type="peer" resp="#d13"> more
-                    accurately the Reynolds number characterizes the flow of a liquid, allowing
-                    engineers to make certain assumptions based on the result.</note>
-            </technical_principle>
+                fluid (liquid or gas) flows. It characterizes the flow of a liquid, allowing
+                engineers to make certain assumptions and what equations to use. </technical_principle>
             <section_header>What does the Reynolds number depend on?</section_header>
             <technical_principle n="2">Here’s the breakdown: ρ is density of the fluid, V is
                 velocity, D is diameter, or the size of the volume being analyzed, and μ is
                 viscosity, which is a fluid's resistance to movement <analogy>(molasses is much more
                     viscous than water).</analogy>
             </technical_principle>
-            <section_header>So what is low for a Reynolds number?</section_header><note type="peer"
-                resp="#d13"> You could consider mentioning the terms laminar and turbulent flow
-                here. Laminar at lower Re numbers, a transition phase and then turbulent</note>
-            <analogy>Let's take a person swimming in water. Let's call him Arnold. <visual
+            <section_header>So what is low for a Reynolds number?</section_header>
+            <analogy>Let's take a person swimming in water. Let's call him Pichael Melps. <visual
                     type="drawing"
                     url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
-                />Arnold swims at an average speed of 2 mph or .894 m/s in water which has a density
-                of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate Arnold's
-                size, or diameter, as 1.5 ft or .457 m. Put these numbers into the equation and we
-                get a Reynolds number of about 409000. Now, lets take a look at an E. coli cell.
-                    <visual type="drawing"
+                />Pichael swims at an average speed of 2 mph or .894 m/s in water which has a
+                density of 1000 kg/m^3 and a viscosity of about 10^-3 Pa*s. We can approximate
+                Pichael's size, or diameter, as 1.5 ft or .457 m. Put these numbers into the
+                equation and we get a Reynolds number of about 409000. Now, lets take a look at an
+                E. coli cell. <visual type="drawing"
                     url="http://hyperphysics.phy-astr.gsu.edu/hbase/biology/imgbio/cellprokaryote6.gif"
                 />A typical cell might be 2 μm or 2*10^-6 m and travel in water at a speed of 30
                 μm/s or 3*10^-7 m/s. In this case your Reynolds number would be 0.00006 . That's
-                several magnitudes smaller than Arnold's situation. If Arnold wanted to experience
+                several magnitudes smaller than Pichael's situation. If Pichael wanted to experience
                 the same Reynold's number as an E. coli cell he would have to move at a speed of
                 about 1.3*10^-10 m/s. If he were to move at that speed for a whole year he would
                 travel a staggering 4 millimeters.</analogy>
@@ -67,16 +63,13 @@
                 number: the ratio of inertial forces to viscous forces. The lower your Reynolds
                 number, the lower your inertia is compared to the viscous forces of the fluid around
                 you.</technical_principle>
-            <analogy>What does this mean? Imagine you get in the water and push Arnold. He will move
-                while he’s being pushed, and then inertia will carry him so he floats a little bit
-                farther away from you. Do the same in molasses, and he’ll stop almost immediately
-                once the force of your push stops acting on him. <technical_principle n="4">His
-                    movement in the water only depends on a current force acting on him, not on the
-                    forces acting on him before. <note type="peer" resp="#d13">Do you mean his
-                        movement in molasses requires an active force? You seem to contradict
-                        yourself here as Arnold would continue to float away from you after the
-                        initial force had ceased to affect him.</note>In this case, his movement is
-                    not dependent on time. It is said to be <important_idea>time
+            <analogy>What does this mean? Imagine you get in the water and push Pichael. He will
+                move while he’s being pushed, and then inertia will carry him so he floats a little
+                bit farther away from you. Do the same in molasses, and he’ll stop almost
+                immediately once the force of your push stops acting on him. <technical_principle
+                    n="4">His movement in the molasses only depends on a current force acting on
+                    him, not on the forces acting on him before. In this case, his movement is not
+                    dependent on time. It is said to be <important_idea>time
                         invariant.</important_idea>
                 </technical_principle>
             </analogy>
@@ -97,8 +90,7 @@
                     In this case, the scallop would simply move one way when the shell opens, and
                     move right back to the same spot when it closes.
                 </technical_principle></analogy>
-            <section_header>So how do you move?</section_header><note type="peer" resp="#d13">Maybe
-                rename to how bacteria move?</note>
+            <section_header>How does this apply to microorganisms?</section_header>
             <explanation>Due to these constraints, bacteria have developed interesting ways to move
                 around. The most common of these methods is the use of flagella, which are whip-like
                 appendages connected to the main cell body by a hook.<visual type="drawing"
@@ -120,20 +112,23 @@
             </explanation>
             <section_header>Conclusion</section_header>
             <conclusion>Given their microscopic size, it's quite fascinating to see such developed
-                forms of movement. A rotating element and motor is certainly an uncommon and
-                surprising characteristic in nature that human swimmers like Arnold can only observe
-                and envy. Nevertheless, it makes sense, since these traits were the response to a
-                completely different set of rules on the microscopic level. </conclusion>
+                forms of movement. A naturally occurring rotating element and motor are certainly
+                surprising characteristics to find in puny bacteria since these are things that
+                cultured humans like Pichael need lots of brainpower and resources to create.
+                Nevertheless, it makes sense, since these traits were the response to a completely
+                different set of rules on the microscopic level. </conclusion><visual type="comic"
+                url="https://s-media-cache-ak0.pinimg.com/564x/cb/32/6c/cb326c2a1112a7ed8b9484651ae3a3e6.jpg"
+            />
         </answer>
         <sources>
             <section_header>Sources</section_header>I highly recommend reading <ref type="source"
                 url="http://www.uam.es/personal_pdi/ciencias/agrait/nico_archivos/docencia/fisica%20de%20fluidos/Life%20at%20Low%20Reynolds%20Number,%20EM%20Purcell%201973.htm"
                 > Life at Low Reynolds Number </ref> for a more in depth look at this topic. <ref
                 type="source" url="http://www.damtp.cam.ac.uk/user/lauga/papers/114.pdf">This
-                paper</ref> on Bacterial Hydrodynamics provides a closer look on bacteria mechanism
+                paper</ref> on bacterial hydrodynamics provides a closer look on bacteria mechanism
             for movement, especially the use of rotating flagella. Additionally, <ref type="source"
                 url="https://www.amherst.edu/users/D/ndarnton/extra/hydrodynamics">this post</ref>
-            on Hydrodynamics has great analogies and examples relevant to the Reynolds number.
+            on hydrodynamics has great analogies and examples relevant to the Reynolds number.
         </sources>
     </blog_post>
 

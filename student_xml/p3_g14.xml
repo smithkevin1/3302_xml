@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>WP3: Cover Letter</title>
         <author xml:id="g14">Ben Gincley</author>
-        <version n="1" date="2016-08-11"/>
+        <version n="2" date="2016-08-22"/>
     </docHead>
     <cover_letter>
         <header>
@@ -14,7 +14,7 @@
             <contact_info>
                 <!-- One or More Contact -->
                 <contact type="address">700 Columbus Ave, Boston, MA 02120</contact>
-                <contact type="phone"> 1-800-666-5555 </contact>
+                <contact type="phone"> 411-666-3333 </contact>
                 <contact type="email"> gincley.b@husky.neu.edu </contact>
             </contact_info>
         </header>
@@ -37,19 +37,21 @@
             <!-- One or More -->
             <experience type="school">Through my Bioengineering coursework, with a concentration in
                 Cell and Tissue Engineering, I have gained an understanding of genetics, tissue
-                mechanics, proteomics, and cellular engineering, and continue to pursue
-                opportunities to learn more about the science and find creative ways to apply this
-                knowledge.</experience> <note type="peer" resp="#v_27">For this school experience sentence you can
-                split it up into two sentences just because there needs to be a break so that it does not feel cluttered
-                to the reader. I would suggest breaking it after cellular engineering.</note>
-            <experience type="personal">While on campus, I have volunteered my time in two research
-                labs, <skills>developing and executing mechanical engineering experiments</skills>
-                in the Bubble Imaging Lab and <skills>learning cell culture/passaging, transfection,
-                    and biological assay techniques</skills> in the Addiction Sciences Lab, which I
-                continue to be involved with. When not doing research, I serve as a mentor with
-                multiple organizations on campus, further developing <skills>strong interpersonal
-                    and leadership skills that enable my ability to lead groups and harness
-                    initiative.</skills></experience>
+                mechanics, proteomics, and cellular engineering. I continue to pursue opportunities
+                to learn more about the science and find creative ways to apply this knowledge,
+                through conversations with peers and teachers</experience>
+            <experience type="personal">and by reading about advances and research being done in my
+                spare time. <note type="peer" resp="#v_27">For this school experience sentence you
+                    can split it up into two sentences just because there needs to be a break so
+                    that it does not feel cluttered to the reader. I would suggest breaking it after
+                    cellular engineering.</note> While on campus, I have volunteered my time in two
+                research labs, <skills>developing and executing mechanical engineering
+                    experiments</skills> in the Bubble Imaging Lab and <skills>learning cell
+                    culture/passaging, transfection, and biological assay techniques</skills> in the
+                Addiction Sciences Lab, which I continue to be involved with. When not doing
+                research, I serve as a mentor with multiple organizations on campus, further
+                developing <skills>strong interpersonal and leadership skills that enable my ability
+                    to lead groups and harness initiative.</skills></experience>
         </para_background>
         <para_background>
             <experience type="work">At my first co-op, I gained experience in a neurobiological
@@ -67,12 +69,16 @@
                     meeting.</accomplishments></experience>
         </para_background>
         <closing_statements>
-            <compatability>I believe that my relevant experience, extreme interest in the work being
-                done/potential applications of the technological paradigm being developed at Ginkgo,
-                and personal qualities would make this a great fit.</compatability> 
-            <note type="peer" resp="#v_27">I feel that you could give an addition sentence or two if it be in your
-            closing statements or experience section, where you can give some background on how your skills and 
-            experiences translate well to position that you are applying to.</note>
+            <compatability>My coursework in genetic and protein engineering, as well as my
+                experience using coding to automate existing processes while on my previous co-op,
+                would allow me to succeed as a Foundry Operations Co-op at Ginkgo. I believe that
+                this relevant experience, as well as my extreme interest in the work being
+                done/potential applications of the technological paradigm being developed at Ginkgo
+                and my personal qualities, would make this a great fit. <note type="peer"
+                    resp="#v_27">I feel that you could give an addition sentence or two if it be in
+                    your closing statements or experience section, where you can give some
+                    background on how your skills and experiences translate well to position that
+                    you are applying to.</note></compatability>
             <pb/>
             <next_step>I eagerly await your call at 1-800-666-5555 so that we can discuss possible
                 next steps and answer questions about moving forward.</next_step>
@@ -83,38 +89,49 @@
         </signature>
     </cover_letter>
     <docReview>
-        <writers_memo>I am mostly finished with the bulk of the process, just looking for any tips
+        <!-- <writers_memo>
+            I am mostly finished with the bulk of the process, just looking for any tips
             or advice regarding content or format. The situation here is my application to a
             Boston-based biotech company, and presented is my cover letter to be sent with a resume
             to garner an interview with the company. The simple structure of the genre has been easy
-        to work with, and everything is by and large well-defined, making the template easy to
-        follow. The only difficulty has been the tagging of body content, as some situations are not
-        clearly "work," "personal," or "school," but I suppose in reality it's up to the writer's
-        discretion to decide which tag fits best, and overall it's relatively inconsequential. I
-        would mainly like focus to be on the order of the paragraphs/content presented (I have moved
-        the order around a few times), as well as if any of the information seems extraneous of not
-        directly relevant. For reference: The position is working at a biotech company that uses
-        genetic engineering to take natural principles and engineer novel chemicals/substances such
-        as flavors and scents (right now) for commercial use, using principles of bioengineering and
-        scaling to commercialize discoveries made in the lab. It is a small-ish spinoff from MIT
-        consisting mostly of engineers. Last year when I was phone interviewed, it was with an
-        engineering/recruitment staff, not an HR-background person. I assume an
-        engineering-background individual will likely do the hiring again this year. </writers_memo>
+            to work with, and everything is by and large well-defined, making the template easy to
+            follow. The only difficulty has been the tagging of body content, as some situations are
+            not clearly "work," "personal," or "school," but I suppose in reality it's up to the
+            writer's discretion to decide which tag fits best, and overall it's relatively
+            inconsequential. I would mainly like focus to be on the order of the paragraphs/content
+            presented (I have moved the order around a few times), as well as if any of the
+            information seems extraneous of not directly relevant. For reference: The position is
+            working at a biotech company that uses genetic engineering to take natural principles
+            and engineer novel chemicals/substances such as flavors and scents (right now) for
+            commercial use, using principles of bioengineering and scaling to commercialize
+            discoveries made in the lab. It is a small-ish spinoff from MIT consisting mostly of
+            engineers. Last year when I was phone interviewed, it was with an
+            engineering/recruitment staff, not an HR-background person. I assume an
+            engineering-background individual will likely do the hiring again this year.
+            </writers_memo> -->
         <reviewer type="peer" xml:id="v_27"/>
         <report type="peer" resp="#v_27">
-            <p>For Ben's project he is writing a cover letter to Ginkgo BioWorks in hopes of landing a Foundry Operations Co-op position. 
-            Throughout the cover letter he discusses his background in school, work and personal life, where he brings up many of his 
-            skills and accomplishments that he has gained and why he would be a strong choice for the position. I can tell from reading your 
-            letter that you have an understanding of the rhetorical situation and audience that you are targeting. Which means that you know that
-            you are apply for a position in which you hope to get an interview and your audience is someone within an engineering/recruitment staff. What really impressed 
-            me in your draft was the seamless transition from element to element. What I think could be improved in your letter is your argument 
-            as to why you would be the best candidate for the position. I found that you were able to state all of your skills, experiences, 
-            and accomplishments well, but you did not engage as much into the actual position and how/why you would fit in there. I would say that 
-            the way that you have structured your background paragraphs seem to be good. It looks like you made it a point to transition from
-            your academic experience to your work experience using your personal experience as a mechanism to get from one to the other which 
-            I appreciated. I did not find any of information that you included to be extraneous and I found that by including all of these achievements 
-            and going into detail with them that you gave off a stronger image of yourself to the employers. Overall I think that your draft was
-            very well constructed and that there are only a few adjustments that should make to improve it.</p>
+            <p>For Ben's project he is writing a cover letter to Ginkgo BioWorks in hopes of landing
+                a Foundry Operations Co-op position. Throughout the cover letter he discusses his
+                background in school, work and personal life, where he brings up many of his skills
+                and accomplishments that he has gained and why he would be a strong choice for the
+                position. I can tell from reading your letter that you have an understanding of the
+                rhetorical situation and audience that you are targeting. Which means that you know
+                that you are apply for a position in which you hope to get an interview and your
+                audience is someone within an engineering/recruitment staff. What really impressed
+                me in your draft was the seamless transition from element to element. What I think
+                could be improved in your letter is your argument as to why you would be the best
+                candidate for the position. I found that you were able to state all of your skills,
+                experiences, and accomplishments well, but you did not engage as much into the
+                actual position and how/why you would fit in there. I would say that the way that
+                you have structured your background paragraphs seem to be good. It looks like you
+                made it a point to transition from your academic experience to your work experience
+                using your personal experience as a mechanism to get from one to the other which I
+                appreciated. I did not find any of information that you included to be extraneous
+                and I found that by including all of these achievements and going into detail with
+                them that you gave off a stronger image of yourself to the employers. Overall I
+                think that your draft was very well constructed and that there are only a few
+                adjustments that should make to improve it.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">

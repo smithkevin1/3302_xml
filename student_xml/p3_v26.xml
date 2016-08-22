@@ -6,20 +6,18 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Writing Project 3</title>
         <author xml:id="v26">Michael Van Wickle</author>
-        <version n="1" date="2016-08-15"/>
+        <version n="2" date="2016-08-22"/>
     </docHead>
 
     <blog_post>
+        <title>A Second Sun?</title>
         <background>
-            <pb/>
-            <section_header>A Second Sun?</section_header>
-            <question>What would happen if a second sun appeared where Pluto currently
-                is?</question>
+            <question> What would happen if a second sun appeared where Pluto currently is? </question>
             <pb/>
             <technical_principle n="1"> The core principle involved here is the theory of
                 gravitation. We will be using the Newtonian theory, first formulated by Isaac Newton
-                in the 17th century. <important_idea n="1">The gravitational force is predicated on
-                    the mass of each object and the distance between them.</important_idea> This
+                in the 17th century. <important_idea n="1"> The gravitational force is predicated on
+                    the mass of each object and the distance between them. </important_idea> This
                 version of gravitation has since been replaced by General Relativity, described
                 first by Albert Einstein, but still serves fine for large-scale approximations,
                 which we will do here. </technical_principle>
@@ -28,8 +26,10 @@
             <pb/>
             <section_header>The Situation</section_header>
             <important_idea n="2"> Imagine it's any other day, like a Tuesday, you're going about
-                your day when suddenly Pluto suddenly becomes a G-type main sequence star. This star
-                is exactly identical to the Sun. </important_idea>
+                your day when suddenly Pluto suddenly becomes a G-type main sequence star (the same
+                type of star as the sun). This star is exactly identical to the Sun. <visual
+                    type="drawing" url="http://i.imgur.com/bRLFQnU.jpg">Close up of Pluto</visual>
+            </important_idea>
             <pb/>
             <section_header>Assumptions</section_header>
             <important_idea n="3"> In order to make this problem more tractable, we make a few
@@ -41,30 +41,26 @@
                 take a fair amount of simulation, so I'll ignore it, for now. <pb/> As a notation
                 note, I'll be using Sol1 to refer to the Sun we have now and Sol2 to refer to the
                 star where Pluto is now. </important_idea>
+            <pb/>
             <section_header>Effects on Earth</section_header>
             <technical_principle n="2"> Gravitation, as stated above, is predicated on three
                 variables, the mass of object one, the mass of object 2, and the inverse square of
-                the distance between them.<note type="peer" xml:id="s25">This might be a good place
-                    for a visual, like a picture of the equation.</note> The distance between Earth
-                and the Sun (Sol1) is defined as one astronomical unit (AU), which is about 150
-                kilometers (93 million miles). The distance between Pluto (Sol2) and Earth is 48
-                times that distance. <note type="peer" xml:id="s25">Somewhere here might be a good
-                    place for an analogy to maybe help the reader grasp how large of a distance that
-                    is.</note>
-            </technical_principle>
+                the distance between them. The distance between Earth and the Sun (Sol1) is defined
+                as one astronomical unit (AU), which is about 150 kilometers (93 million miles). The
+                distance between Pluto (Sol2) and Earth is 48 times that distance. </technical_principle>
             <specific_topic n="1"> We'll first tackle the effects this change would have on us,
                 since we're so self centered. The good news, sort of, is that Earth will remain in
                 orbit mainly around Sol1. Since Sol2 is so very, very far away, its gravitational
                 effect is very, very small compared to Sol1's (around 23 hundred times smaller). The
                 overall effect is, essentially Sol1's gravity becomes slightly weaker and we move
-                slightly further away from the Sol1. The net effect? Earth gets a little colder
-                    <note type="peer" xml:id="s25">Is this true? I always thought temperature was
-                    mostly controlled by the tilt of the Earth. This might be a good place for
-                    elaboration.</note> and slowly drifts outwards, towards an equilibrium point
+                slightly further away from the Sol1. <visual type="drawing"
+                    url="http://i.imgur.com/jc82jmo.jpg">Force on Earth</visual> The net effect?
+                Earth gets a little colder and slowly drifts outwards, towards an equilibrium point
                 between Sol1 and Sol2. This may sound bad, and it is. </specific_topic>
             <important_idea n="4"> Net gravitational force from Sol1 is decreased, we drift
                 outwards, and most likely slowly freeze to death. This outcome is predicted even
                 without taking into account other effects of having a second sun. </important_idea>
+            <pb/>
             <section_header>Effects on Other Planets</section_header>
             <technical_principle n="3"> What I'll be doing here is comparing the gravitational force
                 exerted by Sol1 with the gravitational force exerted by Sol2 (on each planet). If
@@ -89,8 +85,9 @@
                 planets will become more and more perturbed and complicated. In fact, at a certain
                 point, some planets may be ejected from the solar system or collide with Sol1 or
                 Sol2. </explanation>
+            <pb/>
             <conclusion>
-                <section_header/>
+                <section_header></section_header>
                 <important_idea n="7"> The general takeaway here is that in this situation, the
                     solar system will change drastically. A side effect of this change: human
                     extinction comes much sooner than most people currently expect.
