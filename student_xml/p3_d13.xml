@@ -33,7 +33,7 @@
                 when the sun shines. The electricity generated is thus a transformation of the only
                 other energy source available, light. An easier way to think of this concept is to
                 imagine baking a cake. <visual type="photo"
-                    url="http://www.clipartkid.com/first-birthday-cake-clip-art-at-clker-com-vector-clip-art-online-qegx0h-clipart/"/>
+                    url="http://www.how-to-draw-funny-cartoons.com/images/cartoon-cake-7.gif"/>
                 <analogy>All of the ingredients required to make a cake; the eggs, flour, milk etc.
                     can be thought of as a type of energy source. <visual type="photo"
                         url="http://www.exclusivelyfood.com.au/uploaded_images/crepe1-792519.JPG"
@@ -64,7 +64,7 @@
                 metal, and that of an insulator, such as rubber. Semiconductors are used as they can
                 be altered and controlled quite easily to obtain the necessary level of electrical
                 resistance required to perform electrical operations. Common metals heat up too
-                quickly and conduct electricity to well, making it hard to use them in modern
+                quickly and conduct electricity too well, making it hard to use them in modern
                 electronics. <analogy>Just as we were told as children not to stand near metal
                     during a lightning storm, utilizing a metal conductor in a solar panel is just
                     as dangerous. The solar panels would overheat as there would be no resistance to
@@ -96,7 +96,8 @@
                 negatively charged, they will be pushed away from the negative side and towards the
                 positive side.<analogy> Just as water will always flow downhill due to the effects
                     of gravity, an electron will always move away from negatively charged objects
-                    and towards a positive charge. <visual type="comic"
+                    and towards a positive charge. This scientific principle will always hold true,
+                    unlike the laws of nature when depicted in cartoons. <visual type="comic"
                         url="http://itsfunny.org/wp-content/uploads/2013/05/Gravity-in-cartoons.jpg"
                     /></analogy>The electric field directs this current to a node, which transfers
                 it out of the individual photovoltaic cells and converts it to an alternating
@@ -110,7 +111,7 @@
                 in the form of heat. The effectiveness of a solar panel is thus determined by how
                 well the electric field created by the semiconductor can direct the electrical
                 current to the node which transfers the electricity out of the photovoltaic
-                    cells.<analogy>Going back to our pool example: A good pool player may hit a few
+                    cells.<analogy> Going back to our pool example: A good pool player may hit a few
                     of the balls from the break into the pockets, but most will remain on the table.
                     The balls (electrons) that fall into the pockets represent the 22% efficiency of
                     the panels, as a majority of the balls still remain on the table.</analogy> New
@@ -131,12 +132,29 @@
                 the efficiency of the panels remains the most important research in the solar
                 technology field.</conclusion>
         </answer>
-        <sources><note type="peer" resp="#v26"/> Contains sources the author used to answer the
-            question <citation style="">A citation for the source written in the style the author
-                decides to use (ex. MLA, APA etc.)<!-- Optional sub-element --></citation>
+        <sources>
+            <citation style="APA" n="1">
+                <title level="w">Florida Solar Energy Center</title>
+                <title level="a">Solar Energy Basics</title>
+                <ref>http://www.fsec.ucf.edu/en/consumer/solar_electricity/basics/index.htm</ref> Web. 20 August 2016
+            </citation>
+            <citation style="APA" n="2">
+                <title level="w">National Aeronautics and Space Administration</title>
+                <ref>http://science.nasa.gov/science-news/science-at-nasa/2002/solarcells/</ref> Web. 18 August 2016
+            </citation>
+            <citation style="APA" n="3">
+                <title level="w">The Physics Classroom</title>
+                <title level="a">Electric Field and the Movement of Charge</title>
+                <ref>http://www.physicsclassroom.com/class/circuits/Lesson-1/Electric-Field-and-the-Movement-of-Charge</ref> Web. 21 August 2016
+            </citation>
+            <citation style="APA" n="4">
+                <title level="w">NW Wind and Solar</title>
+                <title level="a">How do solar systems generate electricity?</title>
+                <ref>http://www.nwwindandsolar.com/solar-power-in-seattle-and-the-northwest/how-do-solar-systems-produce-energy/</ref>
+            </citation>
         </sources>
     </blog_post>
-    <!-- root element for P3 here -->
+    
 
     <docReview>
         <reviewer type="peer" xml:id="v26"/>
