@@ -106,7 +106,8 @@
                 more precise in order to preserve downward visuals of the target drone.<pb/>6) The
                 processes described above are made significantly more challenging due to both
                 objects being in movement. Developing a successful mobile tracking algorithm -- even
-                without the integration of capture technology -- would be a highly commendable technological achievement. </fsb_hlgt>
+                without the integration of capture technology -- would be a highly commendable
+                technological achievement. </fsb_hlgt>
             <fsb_hlgt type="lgl">Lastly, acquiring the FAA required license and executing the above
                 processes should be of no great impediment. </fsb_hlgt>
         </page>
@@ -159,20 +160,21 @@
 
         <page type="rsk_ana"> The project lends itself to many potential developmental issues. <pb/>
             <img url="http://i.imgur.com/EI8HSAk.png"/>
-            <pb/>These risks can be mitigated as follows : Severe Crash : Maintain a low cost of
-            components. Less than half of the proposed expenditures relate to the on-board systems.
-            Replacing these components is trivial. <pb/> Connectivity Issues : Time spent solving
-            connectivity issues is offset by our choosing devices that are well supported and are
-            known for their ease of development. <pb/> Unworkable EMF : Should the electromagnet not
-            be a viable solution, other alternatives of capture can be investigated. <pb/> System
-            Compatibility: Preliminary analysis has been performed to verify all components are
-            compatible. <pb/> Processor Overwork : Using the Pixy to perform image analysis off of
-            the Raspberry Pi heavily reduces the workload expected of the Pi. <pb/>Time frame :
-            Weekly assessments of development must be in place to ensure the workload keeps pace.
-            Given our project tackles two new ares (tracking and capture) of drone technology, the
-            goal of capture can be left incomplete without having the entire project be deemed a
-            failure. <pb/>Under-budgeting : We have received notice that an additional $200 can
-            likely be made available should our project run over budget. </page>
+            <pb/>These risks can be mitigated as follows : <pb/>• Severe Crash : Maintain a low cost
+            of components. Less than half of the proposed expenditures relate to the on-board
+            systems. Replacing these components is trivial if economical device choices are made.
+            <pb/>• Connectivity Issues : Time spent solving connectivity issues can be offset by
+            choosing devices that are well supported and are known for their ease of development.
+            <pb/>• Unworkable EMF : Should the electromagnet not be a viable solution, other
+            alternatives of capture can be investigated. <pb/>• System Compatibility: Perform
+            preliminary analysis on all additional components to ensure compatibility. <pb/>•
+            Processor Overwork : Using the Pixy to perform image analysis can heavily reduce the
+            workload expected of the Raspberry Pi. <pb/>• Time frame : Weekly assessments of
+            development must be in place to ensure the workload keeps pace. Given our project
+            tackles two new ares (tracking and capture) of drone technology, if the capture portion
+            of the project fails to be developed in time, the group will still have presentable
+            material using the tracking research. <pb/>• Under-budgeting : We have received notice
+            that an additional $200 can likely be made available should our project run over budget. </page>
 
         <page type="conc">
             <fsb>To meet the goals set by our capstone design, not only does the project require
@@ -185,14 +187,15 @@
             <cond>Technical difficulties are accentuated by the limited time frame allotted. The
                 goals presented are in the realm of possibility, however budgeting time is of
                 paramount importance. Minimizing time spent on "reinventing the wheel" will allow us
-                to focus on the unique aspects of our project, however even with proper time
-                management it seems reasonable to doubt that the full manifestation of tracking and
-                development will be functional before December 4th. </cond> Fortunately, assessment
-            of the current achievements in drone technology establishes that an autonomous tracking
-            system for moving objects in three dimensional space can be considered a satisfactory
-            achievement on its own. The team should prioritize the tracking system, and reevaluate
-            at a later date to determine if time allows to develop and integrate the capture
-            mechanisms. </page>
+                to focus on the unique aspects of our project. Even with proper time management
+                however, it seems reasonable to doubt that the full manifestation of tracking and
+                development will be functional before December 4th. Fortunately, assessment of the
+                current achievements in drone technology establishes that an autonomous tracking
+                system for moving objects in three dimensional space can be considered a
+                satisfactory achievement on its own. The team should prioritize the tracking system,
+                and reevaluate at a later date to determine if time allows to develop and integrate
+                the capture mechanisms.</cond>
+        </page>
 
     </fsb_rpt>
 
