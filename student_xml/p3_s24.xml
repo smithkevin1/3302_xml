@@ -24,8 +24,8 @@
             <sect lvl="2" n="2">Target Acquisition</sect>
             <sect lvl="2" n="3">Regulations</sect>
             <sect lvl="1" n="3">Feasibility</sect>
-            <sect lvl="1" n="4"> Success Criteria
-                <note type="peer">should be n="4"</note>Success Criteria</sect>
+            <sect lvl="1" n="4"> Success Criteria <note type="peer">should be n="4"</note>Success
+                Criteria</sect>
             <sect lvl="2" n="1">Hardware Design</sect>
             <sect lvl="2" n="2">Automated Flight</sect>
             <sect lvl="2" n="3">Target Acquisition</sect>
@@ -48,8 +48,9 @@
                 electromagnets.</fsb.approach>
             <key_findings>The project carries a high number of developmental difficulties -- chiefly
                 due to the fact research is being performed in tandem with engineering -- making
-                predicting success highly difficult. Even with these risks in consideration however, the
-                design remains feasible enough to develop as a worthwhile proof of concept. </key_findings>
+                predicting success highly difficult. Even with these risks in consideration however,
+                the design remains feasible enough to develop as a worthwhile proof of concept.
+            </key_findings>
         </page>
         <page type="prelim_ana">
             <app_ovr type="obj" title="Tracking">The anti-drone will be able to takeoff from a given
@@ -69,8 +70,8 @@
 
         <page type="fsb">
             <fsb_hlgt type="econ">This project has been allotted a budget of $1,000. <note
-                    type="peer">Glad you included budget, it puts alot of the project in
-                    perspective</note> Although it is possible to appeal for additional funding,
+                    type="peer">Glad you included budget, it puts a lot of the project in
+                    perspective</note> Although there are avenues available for additional funding,
                 there do not exist products on the market that could directly address our goals even
                 with blank check funding. It is worth noting that many equal and more advanced DIY
                 projects have achieved success on smaller budgets. </fsb_hlgt>
