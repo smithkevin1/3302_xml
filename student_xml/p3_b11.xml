@@ -6,7 +6,7 @@
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project 3: Penetration Testing Edutainment</title>
         <author xml:id="b11">Seth Bakes</author>
-        <version n="num_of_version" date="2016-01-01"/>
+        <version n="4" date="2016-08-22"/>
     </docHead>
 
     <blog_post>
@@ -41,8 +41,8 @@
                 
                     <!-- examples: Steam forums, Sony Pictures, Team Viewer-->
                 <important_idea> An individual breaking into a system is primarily looking for sensitive
-                    data. </important_idea> You can see this with the kinds of systems that are targeted. On a more serious
-                level banks and pentagon computer receive millions of un-authorized access attempts
+                data. </important_idea> You can see this with the kinds of systems that are targeted. On a more serious
+                level banks and pentagon computers receive millions of un-authorized access attempts
                 every day, but the majority of this work is done through automated software. More human 
                 attempts (by human I mean small scale and operated by human beings) target services like 
                 forums in attempts to gain large amounts of emails, or online small financial services or
@@ -51,18 +51,17 @@
                 is that it is very profitable, and there are little repercussions for those outside of western
                 jurisdictions. 
                 
-                    You can see examples of this with the recent team viewer service hack: 
-                    <ref type="source" url="http://arstechnica.com/security/2016/06/teamviewer-says-theres-no-evidence-of-2fa-bypass-in-mass-account-hack/">
+                    You can see examples of this with the recent  
+                    <ref type="source" url="http://arstechnica.com/security/2016/06/teamviewer-says-theres-no-evidence-of-2fa-bypass-in-mass-account-hack/">team viewer service hack: </ref> 
                     here, any one retrieving user accounts gets access to sensitive network information and
                     potentially access to their computer through the popular screen sharing service. 
-                    </ref>
                     
-                    Another example is the steam user forums hack: 
-                    <ref type="supplement" url="http://www.neogaf.com/forum/showpost.php?p=32479729&amp;postcount=7264">
+                    Another example is the <ref type="supplement" url="http://www.neogaf.com/forum/showpost.php?p=32479729&amp;postcount=7264">
+                    steam user forums hack: </ref>
                     <visual type="photo" url="http://i.imgur.com/NEBfk.jpg"></visual>
                     Here you might not see that value, but the group gets notoriety and advertising to a large audience (even if
                     their damage was quickly fixed). 
-                    </ref>
+                    
                     
             </technical_principle>
             
@@ -102,9 +101,8 @@
                     using a 'ref' element here</note>.
                 
                 <!-- Payload & exploit diagram (from user "NULLZ")--> 
-                <ref type="source" url="http://i.stack.imgur.com/2mykq.png">
-                    <visual type="photo" url="http://i.stack.imgur.com/2mykq.png"></visual>
-                </ref>
+                <visual type="photo" url="http://i.stack.imgur.com/2mykq.png"></visual>
+                <ref type="source" url="http://i.stack.imgur.com/2mykq.png"></ref>
                 
                 So a payload is software that uses an exploit to gain access to a system. This can 
                 take different forms, there are completely independent payloads, that you cannot interact 
