@@ -31,7 +31,7 @@
         </intro_para>
         <para_background>
             <experience type="work">I bring previous experience with <programs>Python</programs>
-                from my work at EMC in spring 2016. As I mentioned before, I worked at Advanced
+                from my work at EMC in spring 2016 for my second co-op. As I mentioned before, I worked at Advanced
                 Design Services group and I coded in <programs>Python</programs> to
                     <accomplishments>test the newest servers and equipments.</accomplishments> Our
                 group, ADS, is a sub-team in DFx which stands for Design For X and my boss Dick
@@ -48,14 +48,15 @@
                     tests for Infinity/Arcus by running tests on all the Warthogs and fixing the
                     software or potiential hardware problem. </accomplishments> Besides the work, I
                 had attend drating class and IPMI class while I was working at EMC. I also attended
-                the 3D priting workshop which was held in UMASS Lowell. </experience>
-            <experience type="work">I was co-oping in Harvard School of Public Health in spring 2015
+                the 3D priting workshop which was held in UMASS Lowell. I really enjoyed working in
+                EMC before and after the Dell deal.</experience>
+            <experience type="work">I had my first co-op in Harvard School of Public Health in spring 2015
                 as IT services. In this co-op, I <accomplishments>troubleshot users’ software
                     problems and demonstrated strong custom service skills</accomplishments> and
                     <accomplishments>collaborated with team to manage helpdesk responsibilities and
                     customer issues</accomplishments>.</experience>
             <experience type="school">Aside from my work experience, I learned
-                    <programs>C++</programs>, <programs>Java</programs> and <programs>XML</programs>
+                    <programs>C++</programs>, <programs>Java</programs>, <programs>C</programs>, and <programs>XML</programs>
                 from my courses at Northeastern University.</experience>
         </para_background>
         <closing_statements>
