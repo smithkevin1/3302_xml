@@ -80,7 +80,7 @@
                 Develop long range object tracking software for stationary targets. 3) Develop long
                 range object tracking software for moving targets. 4) Develop and attach the magnet
                 capturing system. 5) Accommodate object tracking and automated capture for
-                stationary targets. 5) Develop tracking and capture of moving targets. <pb/>1) In
+                stationary targets. 6) Develop tracking and capture of moving targets. <pb/>1) In
                 order to allow for ample time to tackle the advances in research put forth by our
                 project, it is vital to minimize the amount of time dedicated to "reinventing the
                 wheel". With this in mind, the minimal quad-copter style frame is justified rather
@@ -100,15 +100,13 @@
                 the magnetic system are the weight that it will add to the drone and issues that EMF
                 interference might cause. A Faraday cage might be able to offset the EMF
                 interference, however time intensive tests must be performed in order to determine
-                its viability. <pb/>4) In order to descend upon the target, it is highly probable
-                that a second downward facing camera will need to be added. This poses issues with
-                kinematics, as movements must be made much more precise in order to preserve
-                downward visuals of the target drone. Additionally, the acquisition of the target
-                must be performed in a way that does not damage the anti-drone, and does not cause
-                an irreconcilable weight increase. <pb/>5) The processes described above are made
-                significantly more challenging due to both objects being in movement. Developing
-                mobile tracking algorithms would be an achievement without the capture in
-                consideration. </fsb_hlgt>
+                its viability. <pb/>4) Acquisition of the target must be performed in a way that
+                does not damage the anti-drone, and does not cause an irreconcilable weight
+                increase. <pb/>5) Capture poses issues with kinematics. Movements must be made much
+                more precise in order to preserve downward visuals of the target drone.<pb/>6) The
+                processes described above are made significantly more challenging due to both
+                objects being in movement. Developing a successful mobile tracking algorithm -- even
+                without the integration of capture technology -- would be a highly commendable technological achievement. </fsb_hlgt>
             <fsb_hlgt type="lgl">Lastly, acquiring the FAA required license and executing the above
                 processes should be of no great impediment. </fsb_hlgt>
         </page>
