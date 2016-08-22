@@ -24,16 +24,16 @@
             <sect lvl="2" n="2">Target Acquisition</sect>
             <sect lvl="2" n="3">Regulations</sect>
             <sect lvl="1" n="3">Feasibility</sect>
-            <sect lvl="1" n="3">
+            <sect lvl="1" n="4"> Success Criteria
                 <note type="peer">should be n="4"</note>Success Criteria</sect>
             <sect lvl="2" n="1">Hardware Design</sect>
             <sect lvl="2" n="2">Automated Flight</sect>
             <sect lvl="2" n="3">Target Acquisition</sect>
-            <sect lvl="1" n="4">Cost</sect>
-            <sect lvl="1" n="5">Report <note type="peer"> Are you going to include the conclusion in
+            <sect lvl="1" n="5">Cost</sect>
+            <sect lvl="1" n="6">Report <note type="peer"> Are you going to include the conclusion in
                     the table of contents?</note></sect>
-            <sect lvl="1" n="6">Risk Analysis</sect>
-            <sect lvl="1" n="6">Conclusion</sect>
+            <sect lvl="1" n="7">Risk Analysis</sect>
+            <sect lvl="1" n="8">Conclusion</sect>
         </page>
         <page type="exec_sum"><background>The proliferation of single board computers has greatly
                 reduced the cost and complexity of drone development. As a result, an exponential
