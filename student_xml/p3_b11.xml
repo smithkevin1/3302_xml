@@ -102,7 +102,6 @@
                 
                 <!-- Payload & exploit diagram (from user "NULLZ")--> 
                 <visual type="photo" url="http://i.stack.imgur.com/2mykq.png"></visual>
-                <ref type="source" url="http://i.stack.imgur.com/2mykq.png"></ref>
                 
                 So a payload is software that uses an exploit to gain access to a system. This can 
                 take different forms, there are completely independent payloads, that you cannot interact 
@@ -115,7 +114,7 @@
         
             <technical_principle n="4"> Metasploit </technical_principle>
             If you're looking to learn about penetration testing, or want to try it yourself, 
-            you should checkout <ref type="source" url="https://www.metasploit.com/"></ref>. Metasploit
+            you should checkout <ref type="source" url="https://www.metasploit.com/">Metasploit</ref>. Metasploit
             is an open source penetration testing community. Any software you would need to get started is
             available there, and they even have a number of guides! Penetration testing can be lucrative career, 
             or just a hobby. Many corporations have "bug bounties". you can see google's page  
