@@ -5,8 +5,8 @@
     <docHead>
         <!--required header includes metadata about the assignment (title, author, version)-->
         <title>Project 3 Cover Letter</title>
-        <author xml:id="m19">Your name here</author>
-        <version n="1" date="2016-08-14"/>
+        <author xml:id="m19">Sydnee Mizuno</author>
+        <version n="2" date="2016-08-22"/>
     </docHead>
 
     <!-- root element for P3 here -->
@@ -45,7 +45,9 @@
                     developed Windows applications to assist with automated reliability testing.
                     Throughout this work, I collaborated closely with other members of the software
                     team to meet our goals. This included participating in daily stand-up meetings
-                    to discuss completed tasks, items in progress, and future work.</skills>
+                    to discuss completed tasks, items in progress, and future work. While on the
+                    software team, I also collaborated across disciplines to assist the mechanical
+                    and manufacturing teams.</skills>
             </experience>
         </para_background>
 
@@ -55,14 +57,16 @@
                     Northeastern.<skills> In my Electronics class, I worked with op-amps, diodes,
                     BJTs, and MOSFETS <note type="peer">You could include an example of what you did
                         with these components. Ex. "I worked with op-amps, diodes, BJTs, and MOSFETS
-                        to build an EKG"</note>.</skills><programs> In my Embedded Design class, I
+                        to build an EKG"</note>. One of these projects was designing an audio
+                    amplifier for a microphone.</skills><programs> In my Embedded Design class, I
                     wrote C programs in Linux to run on an embedded processor. I also used Simulink
                     to program a Zedboard's FPGA and control a robotic arm.</programs><skills>I
                     wrote technical reports detailing the projects in these classes, and I worked
                     effectively with lab partners.</skills></experience>
             <experience type="work"> While taking classes, I also worked in Northeastern's SMILE
                 lab, which focuses on machine learning and computer vision. I collaborated with a
-                team to gather images for a Kinship Recognition project.</experience>
+                team to gather images for a Kinship Recognition project. I met weekly with a PhD
+                student and other undergraduates to discuss updates on the project.</experience>
         </para_background>
 
         <closing_statements>

@@ -168,6 +168,7 @@
             <ref name="pb"/>
             <ref name="ref"/>
             <ref name="visual"/>
+            <ref name="style"/>
 
             <!--<ref name="figure"/> hold off on figure for now-->
         </choice>
@@ -210,6 +211,20 @@
                 </choice>
             </attribute>
             <text/>
+        </element>
+    </define>
+    <define name="style">
+        <element name="style">
+            <a:documentation>(style) style the content [required @type attribute; values include
+                "italics" "underline" and "bold"]</a:documentation>
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>italics</value>
+                    <value>underline</value>
+                    <value>bold</value>
+                </choice>
+            </attribute>
         </element>
     </define>
     <define name="bibl">
@@ -764,31 +779,18 @@
     </define>
     <define name="blog.answer.content">
         <group>
-            <group>
+            <interleave>
                 <zeroOrMore>
-                    <ref name="model.blog.global.less"/>
+                    <ref name="model.blog.global"/>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <ref name="specific_topic"/>
                 </zeroOrMore>
                 <oneOrMore>
-                    <ref name="technical_principle"/>
+                    <ref name="explanation"/>
                 </oneOrMore>
-                <zeroOrMore>
-                    <ref name="model.blog.global.less"/>
-                </zeroOrMore>
-            </group>
-            <group>
-                <interleave>
-                    <zeroOrMore>
-                        <ref name="model.blog.global"/>
-                    </zeroOrMore>
-                    <oneOrMore>
-                        <ref name="specific_topic"/>
-                    </oneOrMore>
-                    <oneOrMore>
-                        <ref name="explanation"/>
-                    </oneOrMore>
-                    <ref name="conclusion"/>
-                </interleave>
-            </group>
+                <ref name="conclusion"/>
+            </interleave>
         </group>
     </define>
     <define name="answer">
@@ -821,7 +823,7 @@
         <element name="technical_principle">
             <a:documentation>Fundamental theory and concepts involved (such as gravity, matter and
                 energy, fluid dynamics, acid-base reactions, etc.). Required in both "background"
-                and "answer," must come before "specific_topic" in "background" [takes @n
+                and "answer," must come before "specific_topic" in "answer" [takes @n
                 attribute]</a:documentation>
             <zeroOrMore>
                 <choice>
@@ -901,6 +903,10 @@
     </define>
     <define name="model.blog.content">
         <group>
+            <ref name="title"/>
+            <optional>
+                <ref name="model.blog.global"/>
+            </optional>
             <ref name="blog.background"/>
             <optional>
                 <ref name="model.blog.global"/>
@@ -968,6 +974,53 @@
             </optional>
         </interleave>
     </define>
+    <define name="key_findings">
+        <element name="key_findings">
+            <a:documentation>(key findings) Concisely discuss unfeasability or feasability of given
+                solutions</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="fsb.approach">
+        <element name="fsb.approach">
+            <a:documentation>approach : Approach taken</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="report_purpose">
+        <element name="report_purpose">
+            <a:documentation>report_purpose : Present the problem being addressed. </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="fsb.background">
+        <element name="background">
+            <a:documentation>background : Short sentence or two to give context to
+                problem.</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="model.exec_sum">
+        <zeroOrMore>
+            <ref name="macro.paraContent"/>
+        </zeroOrMore>
+        <ref name="fsb.background"/>
+        <zeroOrMore>
+            <ref name="macro.paraContent"/>
+        </zeroOrMore>
+        <ref name="report_purpose"/>
+        <zeroOrMore>
+            <ref name="macro.paraContent"/>
+        </zeroOrMore>
+        <ref name="fsb.approach"/>
+        <zeroOrMore>
+            <ref name="macro.paraContent"/>
+        </zeroOrMore>
+        <ref name="key_findings"/>
+        <zeroOrMore>
+            <ref name="macro.paraContent"/>
+        </zeroOrMore>
+    </define>
     <define name="model.tbl_contents">
         <element name="sect">
             <a:documentation>(Section) is an element for each listing in the &lt;tbl_contents&gt;
@@ -1025,7 +1078,7 @@
             </attribute>
         </element>
     </define>
-    <define name="model.pre_req_ana">
+    <define name="model.prelim_ana">
         <oneOrMore>
             <ref name="app_ovr"/>
         </oneOrMore>
@@ -1035,7 +1088,7 @@
             <a:documentation>(feasibility highlight) Body of this element is the general summary of
                 this aspect of feasibility [required @type attribute and @n attribute] available
                 types: @tcnl (technical), @econ (economic), @tfrm (timeframe), @socl (public
-                reception), @suits (legality), or @envr (environmental).</a:documentation>
+                reception), @lgl (legality), or @envr (environmental).</a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.global.attribute.n"/>
             <attribute name="type">
@@ -1049,7 +1102,7 @@
                     <a:documentation>(economic)</a:documentation>
                     <value>socl</value>
                     <a:documentation>(public reception)</a:documentation>
-                    <value>suits</value>
+                    <value>lgl</value>
                     <a:documentation>(legality)</a:documentation>
                     <value>envr</value>
                     <a:documentation>(environmental)</a:documentation>
@@ -1082,11 +1135,25 @@
                 related to the project’s components. For example an appropriate &lt;req_sect&gt;
                 element would be “userinterface”, “Database/database interaction”, or
                 “construction”. A &lt;req_sect&gt; element is simple an italicized and underlined
-                above each of its requirement. </a:documentation>
+                above each of its requirement. [required @type attribute; values include tchncl :
+                Technical tmfrm : Timeframe socl : Social, the effect of the goal; and
+                other</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="req"/>
                     <ref name="macro.paraContent"/>
+                    <attribute name="type">
+                        <choice>
+                            <value>tchncl</value>
+                            <a:documentation>Technical</a:documentation>
+                            <value>tmfrm</value>
+                            <a:documentation>Timeframe</a:documentation>
+                            <value>socl</value>
+                            <a:documentation>Social</a:documentation>
+                            <value>other</value>
+                            <a:documentation/>
+                        </choice>
+                    </attribute>
                 </choice>
             </oneOrMore>
         </element>
@@ -1155,8 +1222,8 @@
     <define name="fnc">
         <element name="fnc">
             <a:documentation>(financial highlight). [required @num, and @type attribute] example
-                @types: @fund (Funding), @lns (loans), @exp (expenses), @brdn (Burden to company /
-                organization).</a:documentation>
+                @types: @fund (Funding), @lns (loans), <!--@exp (expenses) removed in WP3-->@brdn
+                (Burden to company / organization).</a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.global.attribute.n"/>
             <attribute name="type">
@@ -1165,8 +1232,6 @@
                     <a:documentation>(Funding)</a:documentation>
                     <value>lns</value>
                     <a:documentation>(loans)</a:documentation>
-                    <value>exp</value>
-                    <a:documentation>(expenses)</a:documentation>
                     <value>brdn</value>
                     <a:documentation>(Burden to company / organization)</a:documentation>
                     <data type="token">
@@ -1201,11 +1266,17 @@
             <a:documentation>This element summarizes the whole report. </a:documentation>
             <ref name="macro.paraContent"/>
         </element>
+        <!-- removed from conclusion page in WP3 -->
     </define>
     <define name="model.conc">
-        <ref name="fsb"/>
-        <ref name="cond"/>
-        <ref name="sum"/>
+        <interleave>
+            <ref name="fsb"/>
+            <ref name="cond"/>
+            <zeroOrMore>
+                <ref name="macro.paraContent"/>
+            </zeroOrMore>
+        </interleave>
+        <!--<ref name="sum"/> removed in WP3-->
     </define>
 
     <define name="macro.pageContent">
@@ -1213,7 +1284,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>ttl</value>
@@ -1230,7 +1301,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>tbl_contents</value>
@@ -1247,37 +1318,37 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>exec_sum</value>
                     <a:documentation>(Executive Summary) [Requires @type attribute] a quick summary
                         of the whole presentation. From these paragraphs you should be able to
                         understand whether or not the author supports the project, the most critical
-                        limitations / benefits where applicable, and </a:documentation>
+                        limitations / benefits where applicable.</a:documentation>
                 </attribute>
-                <ref name="macro.paraContent"/>
+                <ref name="model.exec_sum"/>
             </element>
         </zeroOrMore>
 
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
-                    <value>pre_req_ana</value>
+                    <value>prelim_ana</value>
                     <a:documentation>(Preliminary requirements analysis) This page type contains the
                         evaluation of the environment for the project before beginning it. Contains
                         any number of &lt;app_ovr&gt; elements.</a:documentation>
                 </attribute>
-                <ref name="model.pre_req_ana"/>
+                <ref name="model.prelim_ana"/>
             </element>
         </zeroOrMore>
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>fsb</value>
@@ -1290,13 +1361,13 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>sccs_crt</value>
                     <a:documentation>(Success criteria). This pages contains the pre-defined
                         requirements for the project to be declared successful. Contains any number
-                        of &lt;req_sect&gt; elements. Easy to confuse with the page @pre_req_ana, or
+                        of &lt;req_sect&gt; elements. Easy to confuse with the page @prelim_ana, or
                         the preliminary requirements analysis. This page contains the technical
                         aspects describing the actual project rather than the environment
                         surrounding the project and it’s success. </a:documentation>
@@ -1307,7 +1378,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>dsn</value>
@@ -1321,7 +1392,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>cost</value>
@@ -1334,7 +1405,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>rpt</value>
@@ -1352,7 +1423,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>rsk_ana</value>
@@ -1370,7 +1441,7 @@
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>fnc</value>
@@ -1381,11 +1452,10 @@
                 <ref name="model.fnc"/>
             </element>
         </zeroOrMore>
-
         <zeroOrMore>
             <element name="page">
                 <a:documentation>Representing any page of the feasibility report. [required @type
-                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @pre_req_ana, @fsb,
+                    attribute] Available types: @ttl, @tbl_contents, @exec_sum, @prelim_ana, @fsb,
                     @sccs_crt, @dsn, @cost, @rpt, @rsk_ana, @fnc, and @conc.</a:documentation>
                 <attribute name="type">
                     <value>conc</value>
@@ -1411,6 +1481,18 @@
 
 
     <!-- Group 3: public initiative proposal -->
+    <define name="proposal.ref">
+        <element name="ref">
+            <a:documentation>(reference) defines a reference; empty element [requires @author
+                attribute corresponding to author in reference list</a:documentation>
+            <empty/>
+            <attribute name="author">
+                <a:documentation>author/authors/or entity responsible for a given
+                    source</a:documentation>
+                <text/>
+            </attribute>
+        </element>
+    </define>
     <define name="submit_date">
         <element name="submit_date">
             <ref name="macro.paraContent"/>
@@ -1443,7 +1525,7 @@
     </define>
     <define name="tbl_cont">
         <element name="tbl_cont">
-            <a:documentation>(table of contents</a:documentation>
+            <a:documentation>(table of contents)</a:documentation>
             <oneOrMore>
                 <ref name="section"/>
             </oneOrMore>
@@ -1668,6 +1750,31 @@
             </oneOrMore>
         </element>
     </define>
+    <define name="legal">
+        <element name="legal">
+            <a:documentation>Legal: Initial and long-term legal implications of project </a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="other">
+        <element name="other">
+            <a:documentation>Other: Other implications of the project that do not fit in other
+                sub-elements of feasibility</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="visual"/>
+                    <ref name="model.qLike"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
     <define name="model.feasibility.content">
         <zeroOrMore>
             <choice>
@@ -1676,6 +1783,8 @@
                 <ref name="economic"/>
                 <ref name="social"/>
                 <ref name="environmental"/>
+                <ref name="legal"/>
+                <ref name="other"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1752,6 +1861,9 @@
                     <ref name="pb"/>
                 </choice>
             </oneOrMore>
+            <optional>
+                <ref name="att.resourced.attribute.url"/>
+            </optional>
             <attribute name="type">
                 <choice>
                     <value>address</value>
@@ -1863,10 +1975,12 @@
                 introductory paragraph</a:documentation>
             <interleave>
                 <ref name="intent"/>
-                <optional>
+                <zeroOrMore>
                     <ref name="reason"/>
+                </zeroOrMore>
+                <optional>
+                    <ref name="proposition"/>
                 </optional>
-                <ref name="proposition"/>
                 <zeroOrMore>
                     <choice>
                         <ref name="macro.paraContent"/>
@@ -1909,6 +2023,13 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
+    <define name="interest">
+        <element name="interest">
+            <a:documentation>Sub-element of experience, expressing an interest (either specific to
+                company project or to company long-term) </a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
     <define name="model.experience.contents">
         <zeroOrMore>
             <choice>
@@ -1918,6 +2039,7 @@
                 <ref name="accomplishments"/>
                 <ref name="certifications"/>
                 <ref name="programs"/>
+                <ref name="interest"/>
             </choice>
         </zeroOrMore>
     </define>
@@ -1952,7 +2074,10 @@
                 information about candidate experience, cover letter must include one or more
                 background paragraphs </a:documentation>
             <oneOrMore>
-                <ref name="experience"/>
+                <choice>
+                    <ref name="experience"/>
+                    <text/>
+                </choice>
             </oneOrMore>
         </element>
     </define>
@@ -2013,6 +2138,14 @@
             <a:documentation>Mandatory element in cover letter, container element for signing off of
                 cover letter; includes salutation and name. </a:documentation>
             <ref name="salutation"/>
+            <optional>
+                <choice>
+                    <oneOrMore>
+                        <ref name="pb"/>
+                    </oneOrMore>
+                    <ref name="img"/>
+                </choice>
+            </optional>
             <ref name="name"/>
         </element>
     </define>
