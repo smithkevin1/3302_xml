@@ -25,10 +25,10 @@
                 Corporation.</intent>
             <intent type="connection"/> I became interested in the job, after searching the job
             position on NEU COOL. Although my major is information science, I took all the computer
-            science classes in college and I meet the requirments of the computer
-                knowledge for this job.<reason>I have enjoyed my past work at EMC in the position of ADS testing
-                in Hopkinton, </reason> and <proposition>I think I will fit well with EMC's culture
-                and bring all the necessary abilities to go above and beyond my job
+            science classes in college and I meet the requirments of the computer knowledge for this
+                job.<reason>I have enjoyed my past work at EMC in the position of ADS testing in
+                Hopkinton, </reason> and <proposition>I think I will fit well with EMC's culture and
+                bring all the necessary abilities to go above and beyond my job
                 requirements.</proposition>
         </intro_para>
         <para_background>
@@ -56,21 +56,24 @@
                 also attended the 3D printing workshop which was held in UMASS Lowell. I really
                 enjoyed working at EMC because the EMC community has many events for employees from
                 different culture. There were Ping Pong competitions and lion dance during the
-                Chinese New Year in February. These events help me make myself as a part of the EMC
+                Chinese New Year in February. These events help me put myself as a part of the EMC
                 community. </experience>
-            <experience type="work">I had my first co-op in Harvard School of Public Health in
-                spring 2015 in IT services. In this co-op, I <accomplishments>developed strong
-                    customer service skills by troubleshooting users’ software and hardware
+        </para_background>
+        <para_background><experience type="work">I had my first co-op in Harvard School of Public
+                Health in spring 2015 in IT services. In this co-op, I <accomplishments>developed
+                    strong customer service skills by troubleshooting users’ software and hardware
                     problems. I communicated with customers by emails, phones and in-person. Because
-                    most of my customers are not experts in computer, I need to explain the reason of
-                    causing the problem and the way to prevent it. </accomplishments> I also
+                    most of my customers are not experts in computer, I need to explain the reason
+                    of causing the problem and the way to prevent it. </accomplishments> I also
                     <accomplishments>collaborated with team to manage helpdesk responsibilities and
-                    customer issues</accomplishments>.</experience>
+                    customer issues</accomplishments>. These experience helped me gain communication
+                skills by facing different people.</experience>
             <experience type="school">Aside from my work experience, I learned
                     <programs>C++</programs>, <programs>Java</programs>, <programs>C</programs>, and
-                    <programs>XML</programs> from my courses at Northeastern University which is
-                perfectly for this job as a software engineer.</experience>
-        </para_background>
+                    <programs>XML</programs> from my courses at Northeastern University which is a
+                perfect fit for this job as a software engineer.</experience></para_background>
+
+
         <closing_statements>
             <compatability>Because of the previous work at EMC and my computer science knowledge, I
                 think I will fit in well with the culture of EMC Corporation and this job position. </compatability>
