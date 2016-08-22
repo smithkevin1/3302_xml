@@ -13,7 +13,7 @@
         <title>Traveling at the microscopic level</title>
         <background>
             <question>How is it that bacteria travel from one place to another?</question>
-            <misconception>to many, the answer may seem trivial, since motion is a problem solved by
+            <misconception>To many, the answer may seem trivial, since motion is a problem solved by
                 nature time and time again, when in reality, there are many concepts at play which
                 complicate this problem. To truly understand the mechanisms for travel and why they
                 are the way they are requires an understanding about microscopic things like
@@ -32,20 +32,15 @@
                 should be noted is that it is a ratio. It has no units attached. The Reynolds number
                 can be 46, it can 46 million. It’s just a number. But it is a very useful number,
                 especially for engineers. Engineers use the Reynolds number to characterize how a
-                fluid (liquid or gas) flows. It tells engineers when to use certain equations for
-                certain situations, and when not to use them.<note type="peer" resp="#d13"> more
-                    accurately the Reynolds number characterizes the flow of a liquid, allowing
-                    engineers to make certain assumptions based on the result.</note>
-            </technical_principle>
+                fluid (liquid or gas) flows. It characterizes the flow of a liquid, allowing
+                engineers to make certain assumptions and what equations to use. </technical_principle>
             <section_header>What does the Reynolds number depend on?</section_header>
             <technical_principle n="2">Here’s the breakdown: ρ is density of the fluid, V is
                 velocity, D is diameter, or the size of the volume being analyzed, and μ is
                 viscosity, which is a fluid's resistance to movement <analogy>(molasses is much more
                     viscous than water).</analogy>
             </technical_principle>
-            <section_header>So what is low for a Reynolds number?</section_header><note type="peer"
-                resp="#d13"> You could consider mentioning the terms laminar and turbulent flow
-                here. Laminar at lower Re numbers, a transition phase and then turbulent</note>
+            <section_header>So what is low for a Reynolds number?</section_header>
             <analogy>Let's take a person swimming in water. Let's call him Pichael Melps. <visual
                     type="drawing"
                     url="http://www.how-to-draw-funny-cartoons.com/image-files/cartoon-swimmer-007.jpg"
@@ -72,12 +67,9 @@
                 move while he’s being pushed, and then inertia will carry him so he floats a little
                 bit farther away from you. Do the same in molasses, and he’ll stop almost
                 immediately once the force of your push stops acting on him. <technical_principle
-                    n="4">His movement in the water only depends on a current force acting on him,
-                    not on the forces acting on him before. <note type="peer" resp="#d13">Do you
-                        mean his movement in molasses requires an active force? You seem to
-                        contradict yourself here as Pichael would continue to float away from you
-                        after the initial force had ceased to affect him.</note>In this case, his
-                    movement is not dependent on time. It is said to be <important_idea>time
+                    n="4">His movement in the molasses only depends on a current force acting on
+                    him, not on the forces acting on him before. In this case, his movement is not
+                    dependent on time. It is said to be <important_idea>time
                         invariant.</important_idea>
                 </technical_principle>
             </analogy>
@@ -98,8 +90,7 @@
                     In this case, the scallop would simply move one way when the shell opens, and
                     move right back to the same spot when it closes.
                 </technical_principle></analogy>
-            <section_header>So how do you move?</section_header><note type="peer" resp="#d13">Maybe
-                rename to how bacteria move?</note>
+            <section_header>How does this apply to microorganisms?</section_header>
             <explanation>Due to these constraints, bacteria have developed interesting ways to move
                 around. The most common of these methods is the use of flagella, which are whip-like
                 appendages connected to the main cell body by a hook.<visual type="drawing"
@@ -121,11 +112,11 @@
             </explanation>
             <section_header>Conclusion</section_header>
             <conclusion>Given their microscopic size, it's quite fascinating to see such developed
-                forms of movement. A rotating element and motor is certainly an uncommon and
-                surprising characteristic in nature that human swimmers like Pichael can only
-                observe and envy. Nevertheless, it makes sense, since these traits were the response
-                to a completely different set of rules on the microscopic level.
-                </conclusion><visual type="comic"
+                forms of movement. A naturally occurring rotating element and motor are certainly
+                surprising characteristics to find in puny bacteria since these are things that
+                cultured humans like Pichael need lots of brainpower and resources to create.
+                Nevertheless, it makes sense, since these traits were the response to a completely
+                different set of rules on the microscopic level. </conclusion><visual type="comic"
                 url="https://s-media-cache-ak0.pinimg.com/564x/cb/32/6c/cb326c2a1112a7ed8b9484651ae3a3e6.jpg"
             />
         </answer>
@@ -134,10 +125,10 @@
                 url="http://www.uam.es/personal_pdi/ciencias/agrait/nico_archivos/docencia/fisica%20de%20fluidos/Life%20at%20Low%20Reynolds%20Number,%20EM%20Purcell%201973.htm"
                 > Life at Low Reynolds Number </ref> for a more in depth look at this topic. <ref
                 type="source" url="http://www.damtp.cam.ac.uk/user/lauga/papers/114.pdf">This
-                paper</ref> on Bacterial Hydrodynamics provides a closer look on bacteria mechanism
+                paper</ref> on bacterial hydrodynamics provides a closer look on bacteria mechanism
             for movement, especially the use of rotating flagella. Additionally, <ref type="source"
                 url="https://www.amherst.edu/users/D/ndarnton/extra/hydrodynamics">this post</ref>
-            on Hydrodynamics has great analogies and examples relevant to the Reynolds number.
+            on hydrodynamics has great analogies and examples relevant to the Reynolds number.
         </sources>
     </blog_post>
 
