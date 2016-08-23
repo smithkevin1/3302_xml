@@ -30,10 +30,11 @@
                 /> The Reynolds number (Re in the equation above) is defined as the ratio of
                 inertial forces to viscous forces. What does that mean? Well the first thing that
                 should be noted is that it is a ratio. It has no units attached. The Reynolds number
-                can be 46, it can 46 million. It’s just a number. But it is a very useful number,
-                especially for engineers. Engineers use the Reynolds number to characterize how a
-                fluid (liquid or gas) flows. It characterizes the flow of a liquid, allowing
-                engineers to make certain assumptions and what equations to use. </technical_principle>
+                can be 46, it can<note type="instructor" resp="#kgs">be</note> 46 million. It’s just
+                a number. But it is a very useful number, especially for engineers. Engineers use
+                the Reynolds number to characterize how a fluid (liquid or gas) flows. It
+                characterizes the flow of a liquid, allowing engineers to make certain assumptions
+                and what equations to use. </technical_principle>
             <section_header>What does the Reynolds number depend on?</section_header>
             <technical_principle n="2">Here’s the breakdown: ρ is density of the fluid, V is
                 velocity, D is diameter, or the size of the volume being analyzed, and μ is
@@ -174,7 +175,10 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This post is a great example of the genre--an appropriate topic, tone, and level of
+                complexity for a non-specialist (me) to easily understand. I also think your use of
+                images was helpful throughout, and the extended Pichael Melps analogy worked well.
+                Nice work.</p>
         </report>
     </docReview>
 </DOC>

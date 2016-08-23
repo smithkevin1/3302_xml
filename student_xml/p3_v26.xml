@@ -40,7 +40,9 @@
                 short term. The long term effects on orbits is a complex problem that would likely
                 take a fair amount of simulation, so I'll ignore it, for now. <pb/> As a notation
                 note, I'll be using Sol1 to refer to the Sun we have now and Sol2 to refer to the
-                star where Pluto is now. </important_idea>
+                star where Pluto is now. <note type="instructor" resp="#kgs">this amount of
+                    formatting as important idea might reduce the effectiveness of italics as a way
+                    to have info stand out.</note></important_idea>
             <pb/>
             <section_header>Effects on Earth</section_header>
             <technical_principle n="2"> Gravitation, as stated above, is predicated on three
@@ -87,13 +89,15 @@
                 Sol2. </explanation>
             <pb/>
             <conclusion>
-                <section_header></section_header>
-                <important_idea n="7"> The general takeaway here is that in this situation, the
-                    solar system will change drastically. A side effect of this change: human
-                    extinction comes much sooner than most people currently expect.
-                </important_idea> Luckily this situation has effectively zero percent chance of
-                happening, so we can sleep easy at night knowing that Pluto will not become a star.
-            </conclusion>
+                <section_header/>
+                <important_idea n="7">
+                    <note type="instructor" resp="#kgs">the empty section header affects the way
+                        that the 'important idea' below is rendered</note>The general takeaway here
+                    is that in this situation, the solar system will change drastically. A side
+                    effect of this change: human extinction comes much sooner than most people
+                    currently expect. </important_idea> Luckily this situation has effectively zero
+                percent chance of happening, so we can sleep easy at night knowing that Pluto will
+                not become a star. </conclusion>
         </answer>
         <pb/>
         <sources> Wikipedia was a great help in finding the masses and orbital radii of planets.
@@ -162,7 +166,11 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>There is a lot going well here. I was interested to see that you decided not to use
+                any anologies, since they seem to integral to the style of the genre. I might also
+                suggest adding a bit more information, perhaps on the effects on other planets,
+                since your post is a bit short. Or choose a topic with more imlpications than
+                this.</p>
         </report>
     </docReview>
 </DOC>

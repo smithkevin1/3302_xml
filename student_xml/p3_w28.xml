@@ -30,32 +30,36 @@
                 over the phone that really attracted you?</note>
             <reason>I have a strong interest in both architecture and structural
                 engineering</reason> and <proposition>I think I would be a great fit with the SOM
-                culture. I have the necessary technical skills and passion for learning
-            that would help me to succeed in a fast paced environment.</proposition>
+                culture. I have the necessary technical skills and passion for learning that would
+                help me to succeed in a fast paced environment.</proposition>
         </intro_para>
         <para_background>
             <experience type="personal">Growing up I was exceedingly interested in the study of
                 architecture and the design of the built environment. However it was not until late
                 in highschool that I realized that my interests were more technical in nature. <note
-                    type="peer">Formatting: extra closing accomplishments section</note></experience>
+                    type="peer">Formatting: extra closing accomplishments
+                section</note></experience>
             <experience type="school">Now in my fourth year at Northeastern University I am pursuing
-                a master's degree in civil engineering with a focus in structural.<accomplishments> I have taken
-                courses in both the technical aspects of engineering and design as well as on the
-                history of architecture in America.</accomplishments> </experience>
+                a master's degree in civil engineering with a focus in structural.<accomplishments>
+                    I have taken courses in both the technical aspects of engineering and design as
+                    well as on the history of architecture in America.</accomplishments>
+            </experience>
             <experience type="work">Entering into the industry I did not realize how isolated each
                 of the different companies working on a project could be. In the past two years I
                 have co-oped with two different companies within the building industry. With Skanska
                 I <accomplishments>developed a better understanding of the technical and
-                    coordination aspects involved with the construction of a
-                    project.</accomplishments> While working at Simpson Gumpertz and Heger I was
-                able to apply my <skills>technical knowledge from classes</skills> and improve my
-                design skills with programs such as <programs>AutoCAD, Revit and RAM Steel.</programs>
-                Ultimately I hope to one day use my technical background and project management
-                skills to bring the separate groups together to work as a cohesive unit under each
-                    project.<note type="peer">maybe be more specific with an accomplishment you've
-                    made at work, this is our chance to show off your technical skills. Consider
-                    mentioning how your structural expertise played into your ability to quickly
-                    pick up new programs</note></experience>
+                    coordination aspects involved with the construction of a project.<note
+                        type="instructor" resp="#kgs">could be useful to go into more specifics
+                        here: what kinds of projects did you work on; what were your primary
+                        responsibilities?</note></accomplishments> While working at Simpson Gumpertz
+                and Heger I was able to apply my <skills>technical knowledge from classes</skills>
+                and improve my design skills with programs such as <programs>AutoCAD, Revit and RAM
+                    Steel.</programs> Ultimately I hope to one day use my technical background and
+                project management skills to bring the separate groups together to work as a
+                cohesive unit under each project.<note type="peer">maybe be more specific with an
+                    accomplishment you've made at work, this is our chance to show off your
+                    technical skills. Consider mentioning how your structural expertise played into
+                    your ability to quickly pick up new programs</note></experience>
         </para_background>
         <closing_statements>
             <compatability> For these reasons I think I will fit in well with the holistic design
@@ -65,7 +69,7 @@
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
-            <pb></pb>
+            <pb/>
             <name>Samantha Wagner</name>
         </signature>
     </cover_letter>
@@ -86,7 +90,12 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a good cover letter. My main advice on revising is to try to find some
+                aspects of the job that you can reference w/r/t your past experiences. You might
+                also bring up certain classes that are relevant. I realize this cover letter is a
+                bit different since there is no actual job call, but it seems you have a pretty good
+                sense of the firm and position, leverage that knowledge to promote your previous
+                skills as applicable to SOM's mission/projects.</p>
         </report>
     </docReview>
 </DOC>

@@ -22,62 +22,76 @@
         <greeting>Hello hiring committee,</greeting>
         <intro_para>
             <intent type="purpose">I am applying for the lead engineering position in your
-                development department at GE Aviation.</intent><intent type="connection">After attending a 
-                seminar hosted by one of your employees, I found out that there were some open positions at 
-                the company which made me apply immediately.</intent> I have been looking for a position  
-            at GE Aviation for a while now, so when I saw that this position was open, I knew that I had to apply. 
-            <reason> Considering my background and qualifications, I think that I would be a perfect 
-                fit for the position.</reason> <proposition>If I am accepted, I feel that I will translate well 
-                    into the culture of the company and excel at every opportunity the position throws at me.</proposition>
+                development department at GE Aviation.</intent><intent type="connection">After
+                attending a seminar hosted by one of your employees, I found out that there were
+                some open positions at the company which made me apply immediately.<note
+                    type="instructor" resp="#kgs">this sentence is a little awkward
+                sounding</note></intent> I have been looking for a position at GE Aviation for a
+            while now,<note type="instructor" resp="#kgs">what is it about this branch of GE that
+                you find so appealing?</note> so when I saw that this position was open, I knew that
+            I had to apply. <reason> Considering my background and qualifications, I think that I
+                would be a perfect fit for the position.</reason>
+            <proposition>If I am accepted, I feel that I will translate well into the culture of the
+                company and excel at every opportunity the position throws at me.</proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
-            <experience type="work">In my previous work experience, I've worked at GE Aviation in a 
-                business and manufacturing capacity. From that experience I've worked with 
-                <programs>Solidworks and Digital Workbench</programs> to design and review parts of the 
-                engine. I've also worked with customers in a business manners, fulfilling their needs
-                and making sure necessary arrangements are made to satisfy their experience. Some
-                of my achievements over the years include <accomplishments>reducing inventory by 
-                    over a quarter million dollars, creating engine shipments to multiple nations, 
-                    identifying and incorporating process drawings to thousands of parts and 
-                    designing apparatuses for fully automated production cells.</accomplishments> 
-                Through these experiences I have been able to acquire a lot of 
-                knowledge and skills that have enabled me to succeed at my previous positions and hopefully in future ones. 
-                From working with other individuals at the company I have developed interpersonal 
-                and communication skills that I've used to be successful lead and guide others in team projects.</experience>
+            <experience type="work">In my previous work experience, I've worked at GE Aviation in a
+                business and manufacturing capacity. From that experience I've worked with
+                    <programs>Solidworks and Digital Workbench</programs> to design and review parts
+                of the engine. I've also worked with customers in a business manners<note
+                    type="instructor" resp="#kgs">manner</note>, fulfilling their needs and making
+                sure necessary arrangements are made to satisfy their experience. Some of my
+                achievements over the years include <accomplishments>reducing inventory by over a
+                    quarter million dollars, creating engine shipments to multiple nations,
+                    identifying and incorporating process drawings to thousands of parts and
+                    designing apparatuses for fully automated production cells.</accomplishments>
+                Through these experiences I have been able to acquire a lot of knowledge and skills
+                that have enabled me to succeed at my previous positions and hopefully in future
+                ones. From working with other individuals at the company I have developed
+                interpersonal and communication skills that I've used to be successful lead<note
+                    type="instructor" resp="#kgs">leader</note> and guide others in team
+                    projects.<note type="instructor" resp="#kgs">any specifics you could add
+                    here?</note></experience>
         </para_background>
         <para_background>
-            <experience type="personal">Outside of work I have many other skills that I practice 
-                or have learned in my spare time. One such skill that I've acquired over the 
-                years has been coding in languages such as <programs>C++, Matlab, and Python
-                </programs>, where I've developed many programs and in turn strengthen my ability to 
-                comprehend and write within those languages. I also come from a diverse background 
-                which enables me to speak languages like <languages>Serbian, Bosnian, Croatian, and 
-                    Montenegrin</languages>. Between my work and school experience, I've 
-                also <accomplishments>done some research work on weld samples, measuring the deformations in the samples 
-                    in relationship to their material type.</accomplishments> And in my spare time I like to 
-                <interest>read up on new breakthroughs in the aerospace field and learn about the new engines 
-                    and air crafts that are being released.</interest></experience>
+            <experience type="personal">Outside of work I have many other skills that I practice or
+                have learned in my spare time. One such skill that I've acquired over the years has
+                been coding in languages such as <programs>C++, Matlab, and Python </programs>,
+                where I've developed many programs and in turn strengthen my ability to comprehend
+                and write within those languages<note type="instructor" resp="#kgs">this last clause
+                    is a bit difficult to follow, maybe break this into two sentences</note>. I also
+                come from a diverse background which enables me to speak languages like
+                    <languages>Serbian, Bosnian, Croatian, and Montenegrin</languages>. Between my
+                work and school experience, I've also <accomplishments>done some research work on
+                    weld samples, measuring the deformations in the samples in relationship to their
+                    material type.<note type="instructor" resp="#kgs">how does this relate to the
+                        position?</note></accomplishments> And in my spare time I like to
+                    <interest>read up on new breakthroughs in the aerospace field and learn about
+                    the new engines and air crafts that are being released.</interest></experience>
         </para_background>
-        <para_background>
-            For my education background, <experience type="school">I have a bachelor's degree in Mechanical Engineering at 
-                Northeastern University. There I have developed a strong understanding in the sciences 
-                and math, and have learned all of the necessary information that the field of 
-                Mechanical Engineering would require. Some of the classes that I've taken that are 
-                relevant to the position include: Thermodynamics, Fluid Mechanics, Static and Dynamics, Material 
-                Science and Vibrations. From my classes in school I am capable of <skills>understanding the mechanics and 
-                    principles with components like turbines, compressors and combustors</skills>. I've also developed an <skills>
-                        understanding behind the physics and characteristics that exist on an operating aircraft.</skills></experience>
+        <para_background> For my education background, <experience type="school">I have a bachelor's
+                degree in Mechanical Engineering at Northeastern University. There I have developed
+                a strong understanding in the sciences and math, and have learned all of the
+                necessary information that the field of Mechanical Engineering would require. Some
+                of the classes that I've taken that are relevant to the position include:
+                Thermodynamics, Fluid Mechanics, Static and Dynamics, Material Science and
+                Vibrations. From my classes in school I am capable of <skills>understanding the
+                    mechanics and principles with components like turbines, compressors and
+                    combustors</skills>. I've also developed an <skills> understanding behind the
+                    physics and characteristics that exist on an operating
+                aircraft.</skills></experience>
         </para_background>
         <closing_statements>
-            <compatability>From what I have written, I hope that you can see that I would be right for the position. 
-                I get on the same page with others quickly and communicate well with my co-workers. I am 
-                very respectful of other individual's views and can conform to the environment that I am placed 
-                in swiftly.</compatability>
+            <compatability>From what I have written, I hope that you can see that I would be right
+                for the position. I get on the same page with others quickly and communicate well
+                with my co-workers. I am very respectful of other individual's views and can conform
+                to the environment that I am placed in swiftly.</compatability>
             <pb/>
-            <next_step>I hope we can talk about the position in the future, and to reach me 
-                you can contact me by phone, 857-285-8415, or email, vlajkovic.d@husky.neu.edu. 
-                I appreciate the time you took to go through my application and thank you for your consideration.</next_step>
+            <next_step>I hope we can talk about the position in the future, and to reach me you can
+                contact me by phone, 857-285-8415, or email, vlajkovic.d@husky.neu.edu. I appreciate
+                the time you took to go through my application and thank you for your
+                consideration.</next_step>
         </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
@@ -117,26 +131,31 @@
                 recommendation is to use language that expresses interest in the company or the
                 position -- at times you sound dispassionate and disinterested, and a hiring manager
                 might not feel the urgency to call someone who outwardly uses
-                passive/disinterested/last resort-type language. In terms of structure itself, I might
-                suggest making your work experience last, so that your big accomplishments are the
-                most recent thing on their mind when they reach the bottom. Also, upon realizing
+                passive/disinterested/last resort-type language. In terms of structure itself, I
+                might suggest making your work experience last, so that your big accomplishments are
+                the most recent thing on their mind when they reach the bottom. Also, upon realizing
                 this is for a lead engineering position, I recommend citing any
                 leadership/teamwork/teambuiling experience you have (mention it to have it come up
-                in the interview) that would make you a strong candidate for this
-                position, as opposed to a process engineering/lower-profile position in the same
-                department with less leadership expectations.</p>
+                in the interview) that would make you a strong candidate for this position, as
+                opposed to a process engineering/lower-profile position in the same department with
+                less leadership expectations.</p>
             <p>Overall, you did a great job of using all/most of the elements of the schema, and did
-            a fantastic job using skills, accomplishments, programs tags. If possible, include a few
-            more accomplishments to really demonstrate your prowess. After you visit each of the
-            comments listed above, feel free to remove them, the XML schema agreement was impeccable
-            before it started getting upset that I used my xml id multiple times (giving the red
-            flags -- just delete them when you're done with them). Overall the schema use is
-            perfect, only steps need to be taken on typos and rephrasings, and adding more content
-            as suggested previously. Great start.</p>
+                a fantastic job using skills, accomplishments, programs tags. If possible, include a
+                few more accomplishments to really demonstrate your prowess. After you visit each of
+                the comments listed above, feel free to remove them, the XML schema agreement was
+                impeccable before it started getting upset that I used my xml id multiple times
+                (giving the red flags -- just delete them when you're done with them). Overall the
+                schema use is perfect, only steps need to be taken on typos and rephrasings, and
+                adding more content as suggested previously. Great start.</p>
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a good effort and I'm glad to see you found a relevant position that you are
+                interested in for this project. See my notes above that focus on two main areas for
+                revision: 1) additional specificity w/r/t the position (consider referencing
+                specific language from the job call or your research into the division at GE); and
+                2) specific words/phrases that are difficult to follow or sound awkward. Good work,
+                overall.</p>
         </report>
     </docReview>
 </DOC>
