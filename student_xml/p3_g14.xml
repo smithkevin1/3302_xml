@@ -31,7 +31,10 @@
                 <proposition>I believe that an opportunity to work at Ginkgo in Spring 2017 would
                 allow for me to both make a noticeable contribution to the team and work being done,
                 as well as provide a unique and powerful learning and skill-development experience
-                as I strive to further develop my competency in this field.</proposition>
+                as I strive to further develop my competency in this field.<note type="instructor"
+                    resp="#kgs">based on your explanation of your unique rhetorical situation (in
+                    your presentation), this is a well crafted and, I think, effective opening
+                    paragraph</note></proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
@@ -74,7 +77,8 @@
                 would allow me to succeed as a Foundry Operations Co-op at Ginkgo. I believe that
                 this relevant experience, as well as my extreme interest in the work being
                 done/potential applications of the technological paradigm being developed at Ginkgo
-                and my personal qualities, would make this a great fit. <note type="peer"
+                and my personal qualities<note type="instructor" resp="#kgs">this clause gets a bit
+                    clunky/hard to follow</note>, would make this a great fit. <note type="peer"
                     resp="#v_27">I feel that you could give an addition sentence or two if it be in
                     your closing statements or experience section, where you can give some
                     background on how your skills and experiences translate well to position that
@@ -135,7 +139,10 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Excellent work here; I think you demonstrate real knowledge of the position, skill
+                set, and attitude required of the position (due in part, no doubt, from your
+                previous contact with them). I made a few small comments above, but on the whole
+                this is very well done and I hope proves useful for you going forward.</p>
         </report>
     </docReview>
 </DOC>

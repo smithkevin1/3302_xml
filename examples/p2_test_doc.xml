@@ -8,45 +8,56 @@
         <author xml:id="your_id_here">Your name here</author>
         <version n="num_of_version" date="2016-01-01"/>
     </docHead>
-    
-    <blog_post> <roadmap><section_header>Heading 1</section_header>
-        <section_header>Section 2</section_header>
-        <section_header>Section 3</section_header></roadmap>  <background>
-            <section_header>Section header</section_header> 
-            <question>The question or topic that we are trying to answer or simplify to a general 
+
+    <blog_post>
+        <title>Title</title><list type="roadmap"><section_header>Heading 1</section_header>
+            <section_header>Section 2</section_header>
+            <section_header>Section 3</section_header></list>
+        <background>
+            <section_header>Section header</section_header>
+            <question>The question or topic that we are trying to answer or simplify to a general
                 audience.</question>
             <pb/>
-            <scientific_principle n="1">Big picture fundamental scientific concepts involved (such as
-                gravity, matter and energy, fluid dynamics, acid-base reactions,
-                etc.) <visual type="photo" url="http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/11/18131428/SneakersSocialDog.png">Dog</visual><important_idea n="1">Major points of interest relating to the topic.</important_idea></scientific_principle>
+            <technical_principle>Big picture <style type="italics">test style</style>fundamental scientific concepts involved (such as
+                gravity, matter and energy, fluid dynamics, acid-base reactions, etc.) <visual
+                    type="photo"
+                    url="http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/11/18131428/SneakersSocialDog.png"
+                    >Dog</visual><important_idea n="1">Major points of interest relating to the
+                    topic.</important_idea></technical_principle>
             <pb/>
-            <misconceptions n="1">Lists any common misconceptions the public has about the topic, or
+            <misconception n="1">Lists any common misconceptions the public has about the topic, or
                 includes quoted material from the community that highlights the existing (false)
-                notions about the answer. <ref type="source" url="http://su16awd.kevingeraldsmith.com">This is a link to a source<!-- Types can be "source" or "supplement" for
-               source material or supplemental material --></ref><!-- Optional --></misconceptions>
+                notions about the answer. <ref type="source"
+                    url="http://su16awd.kevingeraldsmith.com">This is a link to a
+                    source<!-- Types can be "source" or "supplement" for
+               source material or supplemental material --></ref><!-- Optional --></misconception>
             <pb/>
         </background>
         <answer>Body of text that moves towards the answer of the question, presenting topics,
-            ideas, analogies, and explanations that lead towards the ultimate conclusion
-            <fundamental_science_involved n="">A wide-angled cursory description of the basic ideas
-                framing the answer.  <analogy>Analogies should be used to better illustrate important and difficult to understand
-                    topics put forth by the other elements.</analogy> Can be as little as 1 sentence. Ex. Explain one of Newton’s
-                Laws, or introduce the basic idea of chemical reactions, etc. </fundamental_science_involved>
-            <question_relevant_topic n="">Specific scientific principles that are directly relevant to
-                the explanation of the question. Ex. A description of the chemistry behind acid-base
-                reactions. </question_relevant_topic>
-            <explanation n="">An in-depth reply to the question proposed in the “background”
-                section.<pb/> Typically, the author will use common vernacular and devices such as
-                analogies and visuals in order to clearly convey concepts to readers.</explanation><pb/>
+            ideas, analogies, and explanations that lead towards the ultimate conclusion A
+            wide-angled cursory description of the basic ideas framing the answer.
+                <analogy>Analogies should be used to better illustrate important and difficult to
+                understand topics put forth by the other elements.</analogy> Can be as little as 1
+            sentence. Ex. Explain one of Newton’s Laws, or introduce the basic idea of chemical
+            reactions, etc. <technical_principle>Fundamental theory and concepts involved (such as
+                gravity, matter and energy, fluid dynamics, acid-base reactions, etc.). Required in
+                both "background" and "answer," must come before "specific_topic" in "background"
+                [takes @n attribute]</technical_principle><explanation n="">An in-depth reply to the
+                question proposed in the “background” section.<pb/> Typically, the author will use
+                common vernacular and devices such as analogies and visuals in order to clearly
+                convey concepts to readers.</explanation><specific_topic n="">Specific scientific
+                    principles that are directly relevant to the explanation of the question. Ex. A
+                    description of the chemistry behind acid-base reactions. </specific_topic><pb/>
             <conclusion>A conclusion that sums up what was just explained. It acts as a concise
                 response to the question asked in the “background” section </conclusion>
         </answer>
-        <sources> Contains sources the author used to answer the question 
-            <citation style="MLA">Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>. New York: Scholastic, 1994. Print.</citation> 
+        <sources> Contains sources the author used to answer the question <citation style="MLA"
+                >Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>. New York:
+                Scholastic, 1994. Print.</citation>
         </sources>
     </blog_post>
-    
-    
+
+
     <fsb_rpt>
         <page type="ttl">
             <title>Project 2 Feasibility Report</title>
@@ -54,7 +65,7 @@
             <contributors>Sydnee Mizuno</contributors>
             <date>August 1, 2016</date>
         </page>
-        
+
         <page type="tbl_contents">
             <sect n="1" lvl="1"> Executive Summary </sect>
             <sect n="2" lvl="1"> Preliminary Requirements Analysis </sect>
@@ -68,7 +79,7 @@
             <sect n="6" lvl="1"> Financial Planning </sect>
             <sect n="7" lvl="1"> Conclusion </sect>
         </page>
-        
+
         <page type="exec_sum"> In 2006 the startup Solar Roadways was founded by Julie and Scott
             Brusaw. Solar Roadway's goal is to create solar panels that can replace existing roads.
             These panels are hexagonal layers of tempered glass with solar cells and LEDs in between
@@ -82,7 +93,7 @@
             the vast scope of the project, there are also issues with the solar panels themselves.
             The rest of this study will address the requirements needed for solar-powered roadways
             and how they are not met.</page>
-        
+
         <page type="pre_req_ana">
             <app_ovr type="obj"> Solar Roadway's mission is to generate clean, reneweable solar
                 energy on roadways. To accomplish this, the startup has developed modular solar
@@ -100,7 +111,7 @@
                 would need replacement. Also this new road system would need to be integrated into
                 current electric grids.</app_ovr>
         </page>
-        
+
         <page type="fsb">
             <fsb_hlgt type="tcnl"> The current prototype for solar-powered roads consists of two
                 layers of glass panels that enclose a circuit board with LEDs, solar cells, and
@@ -132,39 +143,41 @@
                 companies would be left to solve the logistics of replacing the country's current
                 transportation infastructure. </fsb_hlgt>
         </page>
-        
+
         <page type="sccs_crt">
             <req_sect> Solar Panel Components <req> The solar panels that would make up the roadways
-                are hexagonal pieces of tempered glass that encase a circuit board. This circuit
-                board contains solar cells to capture energy, LEDs for road lines and displays,
-                and heating systems to prevent snow buildup. </req> Testing <req> Before
+                    are hexagonal pieces of tempered glass that encase a circuit board. This circuit
+                    board contains solar cells to capture energy, LEDs for road lines and displays,
+                    and heating systems to prevent snow buildup. </req> Testing <req> Before
                     solar-powered roads could be adopted throughout the country, they would need to
                     be rigorously tested. The Department of Transportation would need to test the
                     panels for safety, efficieny, and reliability. These and other independent tests
                     would be needed in addition to the Brusaws' home tests.</req> Implementation
-                <req>The Department of Transportation and other service agencies would need to
+                    <req>The Department of Transportation and other service agencies would need to
                     handle the installation of Solar Roadways' panels. They would be responsible for
                     creating building projects, financing them, and installing them.</req>
             </req_sect>
         </page>
-        
+
         <page type="dsn">
-            <img url="http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/11/18131428/SneakersSocialDog.png">Dog again</img>
+            <img
+                url="http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/11/18131428/SneakersSocialDog.png"
+                >Dog again</img>
         </page>
-        
+
         <page type="cost">
             <est type="fnc"> At this time, all costs are estimated because Solar Roadways has not
                 conducted a cost analysis. It is estimated that the company's solar panel pieces
                 would cost $70 per square foot. By replacing asphalt roads in the U.S. with these
                 panels, it would cost about $56 trillion.</est>
         </page>
-        
+
         <page type="rpt"> Solar Roadways has tested most of its design at the founders' home, and it
             has posted some of those reults to the company website. The company has also
             collaborated with the DOT and various university labs for testing. It will continue to
             test and report its findings to these organizations as product development
             continues.</page>
-        
+
         <page type="rsk_ana"> There are potential risks to using solar-powered roads. One of these
             is the strength of the glass panels. Solar Roadways uses tempered glass, and it
             manufactures it similar to bulletproof and bomb blast resistant glass. The company
@@ -173,7 +186,7 @@
             defective panel. Solar Roadways says the smart network of panels could report the
             location of a defective panel, and it could be collected and reprogrammed
             quickly.</page>
-        
+
         <page type="conc">
             <fsb> While the benefits of solar-powered roads are great in theory, there is not enough
                 evidence to prove that they could be practically implemented throughout the U.S. </fsb>
@@ -188,7 +201,7 @@
                 the entire highway system, today is not that day.</sum>
         </page>
     </fsb_rpt>
-    
+
     <pub_init_proposal>
         <cover_page>
             <title>Sample Public Initiative Proposal</title>
@@ -201,30 +214,60 @@
             <section n="2">Second section</section>
         </tbl_cont>
         <intro type="abstract">
-            <p>This is a sample intro page @type=abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>This is a sample intro page @type=abstract: Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </intro>
         <background>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa <crnt_cond>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</crnt_cond></p>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa <subj_hist>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</subj_hist></p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa <crnt_cond>Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</crnt_cond></p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa <subj_hist>Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</subj_hist></p>
         </background>
         <purpose>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
         </purpose>
         <approach type="action">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
         </approach>
         <feasibility type="environmental">
-            <p>This is an environmental feasibility section: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>This is an environmental feasibility section: Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </feasibility>
         <conclu>
             <p>This is a conclusion</p>
         </conclu>
         <references>
-            <citation style="MLA">Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>. New York: Scholastic, 1994. Print.</citation>
+            <citation style="MLA">Andriani, Vincent. <title level="b">Peanut Butter Rhino</title>.
+                New York: Scholastic, 1994. Print.</citation>
         </references>
     </pub_init_proposal>
-    
+
     <cover_letter>
         <header>
             <name>John Doe</name>
@@ -232,7 +275,7 @@
                 <!-- One or More Contact -->
                 <contact type="address">123 Lane 11111 DC</contact>
                 <contact type="phone"> 1-800-999-9999 </contact>
-                <contact type="email"> jdoe@fakeMail.net </contact>
+                <contact type="email" url="#kgs">jdoe@fakeMail.net</contact>
             </contact_info>
         </header>
         <greeting>Hello Jane Doe,</greeting>
@@ -241,10 +284,10 @@
                 Widgets.</intent>
             <intent type="connection"><!-- Optional --> After talking with you at the Knowledge
                 University job fair</intent> , I became interested in the job.
-            <reason><!-- Optional --> I have enjoyed my past work with Simulation Engineering in
+                <reason><!-- Optional --> I have enjoyed my past work with Simulation Engineering in
                 the past</reason> and <proposition>I think I will fit well with ABC Widgets culture
-                    and bring all the necessary abilities to go above and beyond my job
-                    requirements.</proposition>
+                and bring all the necessary abilities to go above and beyond my job
+                requirements.</proposition>
         </intro_para>
         <para_background>
             <!-- One or More -->
@@ -257,18 +300,19 @@
                 Knowledge University. I often had to explain technial info in many different
                 ways.</experience>
         </para_background>
-        <para_closing>
+        <closing_statements>
             <compatability>I think I will fit in well with the start up culture of ABC
                 Widgets.</compatability>
             <next_step>I hope you will call me at 1-800-999-9999 so we can discuss the next step in
                 the hiring process.</next_step>
-        </para_closing>
+        </closing_statements>
         <signature>
             <salutation>Sincerely,</salutation>
+            <img type="other" url="#sig"></img>
             <name>John Doe</name>
         </signature>
     </cover_letter>
-    
+
     <docReview>
         <reviewer type="peer" xml:id="peer_id_here"/>
         <report type="peer" resp="#peer_id_here">

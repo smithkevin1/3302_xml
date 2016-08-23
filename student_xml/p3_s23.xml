@@ -15,8 +15,8 @@
             <title>WRTA Redesign</title>
             <author>Monica Salas</author>
             <submit_date>August 30th 2016</submit_date>
-            <audience> To: The City of Worcester’s Executive Office of Economic Development
-            </audience>
+            <audience> To:<note type="instructor" resp="#kgs">don't need the "to" here</note> The
+                City of Worcester’s Executive Office of Economic Development </audience>
         </cover_page>
 
 
@@ -53,7 +53,8 @@
                 training for bus drivers would dramatically turn around the state of Worcester’s
                 public transportation. All this could be achieved with predetermined yearly
                 milestones being funded by the city’s federal grant under the Community Development
-                Block Grant Program over the course of 5-7 years.</p>
+                Block Grant Program over the course of 5-7 years.<note type="instructor" resp="#kgs"
+                    >good specificity here</note></p>
         </intro>
 
 
@@ -84,10 +85,12 @@
         <purpose>
             <p>
                 <objective> Even with all the money that Worcester is putting into developing the
-                    city and giving it this much needed ‘face lift’, all the progress will reach a
-                    glass ceiling without improvements made to the public transportation system.
-                    Economic growth will only be stimulated from an improved bus system, despite the
-                    capital costs of investing in transportation.</objective>
+                    city and giving it this much needed ‘face lift’,<note type="instructor"
+                        resp="#kgs">you have that beautiful train station</note> all the progress
+                    will reach a glass ceiling without improvements made to the public
+                    transportation system. Economic growth will only be stimulated from an improved
+                    bus system, despite the capital costs of investing in
+                    transportation.</objective>
                 <scope type="what">Better bus routes could increase accessibility for</scope>
                 <scope type="who">students to get to school every day, and lower and middle class
                     persons</scope> to get to work. <scope type="when">If money could be spared in
@@ -116,7 +119,9 @@
                 bus stops, advertise bus travel within Worcester and it’s surrounding towns,
                 subsidize transportation services for students, reorganize routes that reach into
                 more suburban areas, and hire more well qualified drivers and officials for the
-                WRTA. </p>
+                WRTA. <note type="instructor" resp="#kgs">I like this aspect of combining
+                    infrastrucutral investment with marketing--since people need to know about the
+                    improvements (and the existence of the WRTA in general)</note></p>
         </approach>
 
 
@@ -213,7 +218,9 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Great work here. This is a well articulated proposal with a very clearly established
+                exigence and audience. I made some notes above, but have no real revisions that I
+                think you need to make here. Nice job!</p>
         </report>
     </docReview>
 </DOC>

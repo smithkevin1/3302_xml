@@ -36,7 +36,9 @@
                 the doubt has generally been given to the police officer versus the average citizen.
                 There needs to be a definite way for the correct and accurate story to be told, and
                 that can be done by requiring police body cameras for all members of the Scranton
-                police force. In addition to keeping officers in check, the cameras have a mutual
+                police force<note type="instructor" resp="#kgs">one question that might crop up here
+                    is why Scranton? Is there a particular, more local exigence in this
+                city?</note>. In addition to keeping officers in check, the cameras have a mutual
                 benefit to police departments where the cameras can be used for performance
                 evaluations and as evidence in court cases. </p>
         </intro>
@@ -56,9 +58,12 @@
                     recent incidents in places like Ferguson and Baton Rouge, it is becoming more
                     and more necessary for footage of questionable police situations to be
                     available. This allows a correct representation of the incident without any
-                    doubts. The neighboring city of Wilkes-Barre is the 18th on the list of most
-                    violent crimes, and in many cases, police body cameras could be of use to depict
-                    what happened in these situations (Seibel). </subj_hist>
+                        doubts.<note type="instructor" resp="#kgs">in theory, but recently in
+                        Chicago officers have been turning their cameras off at pivotal moments (the
+                        recent shooting of an unarmed fleeing suspect in a car theft, for
+                        example)</note> The neighboring city of Wilkes-Barre is the 18th on the list
+                    of most violent crimes, and in many cases, police body cameras could be of use
+                    to depict what happened in these situations (Seibel). </subj_hist>
             </p>
         </background>
         <purpose>
@@ -82,9 +87,11 @@
                     trial goes well, the program can be expanded to other officers in waves. The
                     entire police force could be outfitted with cameras in two years. Each camera's
                     battery would last a full 24 hour day and record to an SD card. The camera will
-                    be impossible to turn off and the SD card will be removable at the end of each
-                    day with the video stored for a week. If any complaints arises, the video of the
-                    certain event can be saved. </execution>
+                    be impossible to turn off<note type="instructor" resp="#kgs">well that answers
+                        that questions</note> and the SD card will be removable at the end of each
+                    day with the video stored for a week.<note type="instructor" resp="#kgs">is this
+                        best practice in the industry?</note> If any complaints arises, the video of
+                    the certain event can be saved. </execution>
             </p>
         </approach>
         <feasibility>
@@ -92,13 +99,17 @@
                 <economic> The main issue that has come up across police forces regarding body
                     cameras has been the lack of budget space to purchase cameras. In order for the
                     Los Angeles Police Department to implement their body cameras, they acquired a
-                    budget of $70 million (Elinson). This will provide cameras for about 9,000 officers.
-                    Scranton Police Department has around 200 officers, so the cost of the program
-                    should only be around $1.5 million. Despite the large cost, this is an important
-                    program that will provide a safer environment for everyone in the city.
-                    President Obama has mentioned on several occasions the need for body cameras and
-                    has requested federal funding to be provided in order to equip officers with
-                    them (Dann). </economic>
+                    budget of $70 million (Elinson). This will provide cameras for about 9,000
+                    officers. Scranton Police Department has around 200 officers, so the cost of the
+                    program should only be around $1.5 million.<note type="instructor" resp="#kgs"
+                        >it could potentially save the city money in legal fees by providing better
+                        evidence in court (though somehow I doubt that it would result in less money
+                        being paid out in lawsuits, considering most courts' preference for the word
+                        of the police over that of a citizen in a case with no real evidence)</note>
+                    Despite the large cost, this is an important program that will provide a safer
+                    environment for everyone in the city. President Obama has mentioned on several
+                    occasions the need for body cameras and has requested federal funding to be
+                    provided in order to equip officers with them (Dann). </economic>
             </p>
             <p>
                 <social> Socially, this should be a welcomed change in the city of Scranton. Having
@@ -106,10 +117,13 @@
                     obvious concern of people not wanting to be video taped, especially privately,
                     but this should not cause a large concern due to the videos only being used as
                     evidence in court cases or in police reviews. The videos would not be released
-                    publicly without people's identities being blurred out of the video. People
-                    may also be concerned with thinking that police could review tapes to look for
+                    publicly without people's identities being blurred out of the video. People may
+                    also be concerned with thinking that police could review tapes to look for
                     illegal activities, but this would not be the case. Tapes would only be reviewed
-                    if a crime has been committed in the eyes of an officer. </social>
+                    if a crime has been committed in the eyes of an officer. </social><note
+                    type="instructor" resp="#kgs">is this section meant to explicitly state whether
+                    or not it is feasible? if so, I think you need a bit more information on
+                    budget</note>
             </p>
         </feasibility>
         <conclu>
@@ -187,7 +201,9 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Good work here--you might want to address some of the feasibility/benefit info in the
+                early sections of the project and be more explicit about why in Scranton? Pay
+                attention to the in-line comments I included above.</p>
         </report>
     </docReview>
 </DOC>

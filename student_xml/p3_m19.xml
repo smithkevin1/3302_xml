@@ -28,7 +28,9 @@
             <reason> I am currently a fourth-year student in electrical engineering,</reason>
                 and<proposition> I am very interested in gaining more experience with robotic
                 systems. Given my previous experience and interest in this field, I think that I
-                would be a good fit for this position.</proposition>
+                would be a good fit for this position.<note type="instructor" resp="#kgs">I wonder
+                    if you want to be stronger here--not just a good fit, but what would you bring
+                    to the position/company? Why should they want to hire you/</note></proposition>
         </intro_para>
 
         <para_background>
@@ -60,18 +62,24 @@
                         to build an EKG"</note>. One of these projects was designing an audio
                     amplifier for a microphone.</skills><programs> In my Embedded Design class, I
                     wrote C programs in Linux to run on an embedded processor. I also used Simulink
-                    to program a Zedboard's FPGA and control a robotic arm.</programs><skills>I
-                    wrote technical reports detailing the projects in these classes, and I worked
-                    effectively with lab partners.</skills></experience>
+                    to program a Zedboard's FPGA and control a robotic arm.</programs>
+                <skills>I wrote technical reports detailing the projects in these classes, and I
+                    worked effectively with lab partners.</skills></experience>
             <experience type="work"> While taking classes, I also worked in Northeastern's SMILE
                 lab, which focuses on machine learning and computer vision. I collaborated with a
                 team to gather images for a Kinship Recognition project. I met weekly with a PhD
-                student and other undergraduates to discuss updates on the project.</experience>
+                student and other undergraduates to discuss updates on the project.<note
+                    type="instructor" resp="#kgs">OK, this paragraph is filled with relevant
+                    experience, but you never really make the connection back to the specific
+                    company/position you are applying for. This causes the cover letter to read as
+                    more generic than you would want.</note></experience>
         </para_background>
 
         <closing_statements>
             <compatability>I think that with my strong interpersonal skills and past experience, I
-                would integrate well within iRobot's innovative environment.</compatability>
+                would integrate well within iRobot's innovative environment.<note type="instructor"
+                    resp="#kgs">why? what about the company or the position makes you think
+                    this?</note></compatability>
             <next_step>I would be excited to meet with you and discuss the position in more detail
                 soon.</next_step>
             <acknowledgment> Thank you for your consideration.</acknowledgment>
@@ -108,7 +116,12 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>There is a lot going well here. You do a really nice job laying out your specific
+                skills and experiences. I just think you need to spend some time making explicit
+                connections to the position and company to which you are applying--this both makes
+                the point that you are a good fit more explixit and, more importantly, demonstrates
+                that you've done your due diligence in researching the company and position,
+                demonstrating commitment.</p>
         </report>
     </docReview>
 </DOC>

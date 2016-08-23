@@ -26,22 +26,28 @@
             <intent type="purpose">I am interested in applying for the Unity Programmer position
             </intent>that <intent type="connection"> I discovered while browsing your site. </intent>
             <reason>Your company takes a fun, unique approach to education</reason> that I would
-            love to be a part of it. </intro_para>
+            love to be a part of it<note type="instructor" resp="#kgs">check this sentence</note>. </intro_para>
         <para_background>
             <experience type="work">I currently work at Northeastern University’s ReGame VR Lab,
                 which leverages video games for motor rehabilitation. Here, <skills>I develop Unity
                     games</skills> in <skills>C#</skills> for two platforms: the <programs>Microsoft
                     Surface tablet</programs> and another that uses the <programs>Microsoft
-                    Kinect</programs>. Our games are targeted towards children with cerebral palsy
-                and aim to engage and encourage patients during therapy. I enjoy the work I do here
-                as it makes me feel that I am making a big difference, and I believe I will be able
-                to contribute to Filament Games with a similar drive. </experience>
+                    Kinect</programs><note type="instructor" resp="#kgs">are these relevent for the
+                    position specifically?</note>. Our games are targeted towards children with
+                cerebral palsy and aim to engage and encourage patients during therapy. I enjoy the
+                work I do here as it makes me feel that I am making a big difference, and I believe
+                I will be able to contribute to Filament Games with a similar drive<note
+                    type="instructor" resp="#kgs">but how does this work specifically translate to
+                    the values of the company of responsibilities of the position?</note>.
+            </experience>
         </para_background>
         <para_background>
             <experience type="school">From my coursework towards a BA in Computer Engineering at
                 Northeastern University, I have developed strong skills in <skills>design
                     patterns</skills> and <skills>algorithms</skills> and an interest in
-                    <interests>multiplayer networked games</interests>, <interests>procedural
+                    <interests>multiplayer networked games<note type="instructor" resp="#kgs">the
+                        tak is "interest" rather than "interests", this error is making your
+                        document invalid</note></interests>, <interests>procedural
                     generation</interests>, and <interests>3D modeling</interests>.</experience>
             <experience type="personal">One of my current projects is a turn-based strategy game
                 created in Unity that uses procedural generated maps and the A* pathfinding
@@ -58,18 +64,18 @@
                     <languages>Python</languages>
                 <accomplishments>web services for Oncology that connected a web application used to
                     register samples and a Java thick client used to manage
-                    samples.</accomplishments> I also <accomplishments>laid out the
-                    front-end of a web application used to track samples from registration to
-                    testing stages; this project won the company's Innovation
-                    award.</accomplishments> At ChoiceStream, I worked on a <accomplishments>web
-                    application to generate ad campaigns</accomplishments> and
-                    <accomplishments>automated project environments</accomplishments> with
-                    <programs>Chef</programs>. While at these companies, I applied universal
-                standards of <skills>debugging</skills>, <skills>testing</skills>,
-                    <skills>automation</skills>, <skills>documentation</skills>, and <skills>version
-                    control</skills>. These opportunities taught me to <skills>follow a fast
-                    schedule of daily stand-ups and weekly sprints</skills> and appreciate flexible,
-                collective design.</experience>
+                    samples.</accomplishments> I also <accomplishments>laid out the front-end of a
+                    web application used to track samples from registration to testing stages; this
+                    project won the company's Innovation award.</accomplishments> At ChoiceStream, I
+                worked on a <accomplishments>web application to generate ad
+                    campaigns</accomplishments> and <accomplishments>automated project
+                    environments</accomplishments> with <programs>Chef</programs>. While at these
+                companies, I applied universal standards of <skills>debugging</skills>,
+                    <skills>testing</skills>, <skills>automation</skills>,
+                    <skills>documentation</skills>, and <skills>version control</skills>. These
+                opportunities taught me to <skills>follow a fast schedule of daily stand-ups and
+                    weekly sprints</skills> and appreciate flexible, collective design.<note
+                    type="instructor" resp="#kgs"/>this paragraph is excellent</experience>
         </para_background>
         <closing_statements>
             <compatability>Filament Games is a great example of how video games can enrich our
@@ -108,7 +114,9 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>Check out my in-line comments--there is a lot going well here, especially in that
+                second background paragraph. You do need to pay careful attention to minor issues (a
+                few of which I pointed out above), especially in a document of this length.</p>
         </report>
     </docReview>
 </DOC>

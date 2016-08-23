@@ -22,7 +22,7 @@
                 penetration testing a service, sought after by those looking to improve the security
                 of whatever property or infrastructure they have. 
                 
-                <!-- Cringy hacker image -->
+                <!-- Cringy hacker image --><note type="instructor" resp="#kgs">haha this comment</note>
                 <visual type="photo" url="http://blog.venturesity.com/wp-content/uploads/2016/06/the-nsa-trained-edward-snowden-to-be-an-elite-hacker.jpg"></visual>
                 
                 <misconception n="1">
@@ -65,7 +65,7 @@
                     
             </technical_principle>
             
-        </background>
+        </background><note type="instructor" resp="#kgs">this background section was a bit hard for me to follow--you jumped around a lot so I'm struggling to see where you're heading.</note>
         <answer>
             
             <section_header> How do you "penetrate" a system? Exploits!</section_header>
@@ -101,7 +101,7 @@
                     using a 'ref' element here</note>.
                 
                 <!-- Payload & exploit diagram (from user "NULLZ")--> 
-                <visual type="photo" url="http://i.stack.imgur.com/2mykq.png"></visual>
+                <visual type="photo" url="http://i.stack.imgur.com/2mykq.png"></visual><note type="instructor" resp="#kgs">you can put text in the visual element for captions (often used for citing image credit)</note>
                 
                 So a payload is software that uses an exploit to gain access to a system. This can 
                 take different forms, there are completely independent payloads, that you cannot interact 
@@ -112,7 +112,7 @@
                 is often about what kind of system you're using and any traces you leave behind for
                 digital forensic investigation. </technical_principle>
         
-            <technical_principle n="4"> Metasploit </technical_principle>
+            <technical_principle n="4"> Metasploit<note type="instructor" resp="#kgs">?</note> </technical_principle>
             If you're looking to learn about penetration testing, or want to try it yourself, 
             you should checkout <ref type="source" url="https://www.metasploit.com/">Metasploit</ref>. Metasploit
             is an open source penetration testing community. Any software you would need to get started is
@@ -120,7 +120,7 @@
             or just a hobby. Many corporations have "bug bounties". you can see google's page  
             <ref type="supplement" url="https://www.google.com/about/appsecurity/reward-program/">here</ref>. 
             Regardless of what your intentions are, if you're looking to learn I encourage to delv deeper with
-            some hands on experience.
+            some hands on experience<note type="instructor" resp="#kgs">a couple typos in this last section</note>.
         </answer>
         
         <sources/>
@@ -180,7 +180,7 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>There's a lot going well here, your use of images is well done and I think the second section is very well done. There are some aspects that could still use some work--the background section is a bit difficult to follow and see where you are heading (consider a list @type=roadmap?); 2) there are a few small corrections in formatting and typos that need cleaning up; 3) the post ends a bit abruptly, I feel like we have a sense of what 'hacking' is, but less of a sense of how it specifically relates to penetration testing (do people go from illegal hacking to penetration testing? are there ethical issues in penetration testing?); 4) I'm wondering why you decided against a sources section.</p>
         </report>
     </docReview>
 </DOC>

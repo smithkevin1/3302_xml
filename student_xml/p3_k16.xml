@@ -23,24 +23,35 @@
         </header>
         <greeting>Dear Mr. O'Brein: </greeting>
         <intro_para>
-            <intent type="purpose">I am writing to apply for the Software Engineering Co-p role over
-                at <!-- Repeated word -->Smartleaf. </intent>
+            <intent type="purpose">I am writing to apply for the Software Engineering Co-p<note
+                    type="instructor" resp="#kgs">typo</note> role over at
+                <!-- Repeated word -->Smartleaf. </intent>
             <reason>Currently I am going into my last coop here at Norteastern. With my previous two
-                coops I have working in finance related positions. First I worked at a small startup
-                company of about four people, and for my second I was at a much larger company of
-                more than 30,000 people. Not only do I find what Smartleaf is working on to be
-                fascinating, I also would love to get experience working in a medium sized
-                company. <!-- Long sentence - break up for conciseness + clarity --></reason>
+                    coops<note type="instructor" resp="#kgs">why the inconsistency with
+                    capitalization and punctuation with Co-op vs. coop?</note> I have working in
+                finance related positions. First I worked at a small startup company of about four
+                people, and for my second I was at a much larger company of more than 30,000
+                    people<note type="instructor" resp="#kgs">this doesn't seem to fit into an intro
+                    paragraph; how does this info relate to the current position?</note>. Not only
+                do I find what Smartleaf is working on to be fascinating, I also would love to get
+                experience working in a medium sized company.
+                <!-- Long sentence - break up for conciseness + clarity --></reason>
             <proposition> I believe that my experience as a Computer Science student working in more
-                finance oriented positions would make me a perfect candidate for this position.
+                finance oriented<note type="instructor" resp="#kgs">finance-oriented</note>
+                positions would make me a perfect candidate for this position.<note
+                    type="instructor" resp="#kgs">why? does it relate somehow to the position of the
+                    work that the company does?</note>
             </proposition>
         </intro_para>
 
         <para_background>
             <experience type="school"> Currently, I am a Computer Science student here at
                 Northeastern University. I believe that my experiences with going through my classes
-                and projects has helped me build skills to excel in industry. For example, I have
-                taken classes where I have learned about object oriented programming and other
+                and projects has helped me build skills to excel in industry<note type="instructor"
+                    resp="#kgs">you're using the passive voice here and it makes it sound as if you
+                    are unsure; another way to say this more directly is "I have built skills to
+                    excel in industry through my classes and projects at NU."</note>. For example, I
+                have taken classes where I have learned about object oriented programming and other
                 software design patterns, and worked on projects with common industry languages such
                 as Java and tools such as Intellij. However, I believe that one of the main
                 advantages of going to Northeastern was being able to gain experience through
@@ -51,23 +62,24 @@
                 Cambridge. I created and implemented tools for data analysis and visualization into
                 their main product using languages such as <programs>python and
                     JavaScript</programs>, and frameworks such as <programs>d3.js and
-                    React.</programs> My tools were used by portfolio managers at hedge funds
-                to aid in research into investment opportunities in multiple industries. Due to the
-                small nature of the company, I gained exposure different aspects of the company such as
-                accounting, management, and day to day operations. It gave me a deeper understanding
-                of how businesses are run, and how they develop over time.</experience>
+                    React.</programs> My tools were used by portfolio managers at hedge funds to aid
+                in research into investment opportunities in multiple industries. Due to the small
+                nature of the company, I gained exposure different aspects of the company such as
+                accounting, management, and day to day operations. It gave me a<note
+                    type="instructor" resp="#kgs">agai, passive voice here</note> deeper
+                understanding of how businesses are run, and how they develop over
+                time.</experience>
         </para_background>
         <para_background>
             <experience type="work"> My next coop was working for Goldman Sachs in New York, a much
-                larger company. During my time there, I learned more about
-                applications of Computer Science in the field of finance. I worked with traders
-                daily to build tools to analyze risk on different portfolios using a mixture of
-                their proprietary technology and some open source frameworks, such as Elasticsearch.
-                Not only did I improve my software skills during my time there, but I also learned
-                how to clearly express my software ideas to individuals with no background in
-                software. On top of that, I gained experience with working in a team oriented
-                environment and learned how to navigate my way though a corporate environment to get
-                tasks done.</experience>
+                larger company. During my time there, I learned more about applications of Computer
+                Science in the field of finance. I worked with traders daily to build tools to
+                analyze risk on different portfolios using a mixture of their proprietary technology
+                and some open source frameworks, such as Elasticsearch. Not only did I improve my
+                software skills during my time there, but I also learned how to clearly express my
+                software ideas to individuals with no background in software. On top of that, I
+                gained experience with working in a team oriented environment and learned how to
+                navigate my way though a corporate environment to get tasks done.</experience>
         </para_background>
         <closing_statements>
             <!-- Include element "closing statements -->
@@ -75,7 +87,8 @@
                 at SmartLeaf, and I feel like the medium sized company environment would be a great
                 fit for me. My experience in working with financial technology will make it so I can
                 hit the ground running, and immediately start contributing to a project I am
-                assigned.</compatability>
+                    assigned<note type="instructor" resp="#kgs">could just end after 'a
+                    project.'</note>.</compatability>
             <next_step> I'm excited to hear back from you, and would appreciate the opportunity to
                 meet and talk in person. </next_step>
             <acknowledgment>Thank you for your consideration.
@@ -128,7 +141,11 @@
         </report>
         <reviewer type="instructor" xml:id="kgs"/>
         <report type="instructor" resp="#kgs">
-            <p>Comments on assignment will appear here.</p>
+            <p>This is a solid start, but there are some minor and bigger issues you will want to
+                address before using this as a cover letter. Pay close attention to the comments I
+                added above. In particular, pay attention to passive voice and be as specific as you
+                can wherever you can--you have a tendency, especially when talking about skills
+                you've developed, to remain vague and superficial.</p>
         </report>
     </docReview>
 </DOC>
